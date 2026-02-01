@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:paddingLeft="24.0dip"
+    android:paddingTop="12.0dip"
+    android:paddingRight="24.0dip"
+    android:paddingBottom="12.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:minHeight="32.0dip">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textColor="#8a000000"
+            android:layout_width="88.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/string00e1" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@id/id016a"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="24.0dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:minHeight="32.0dip">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textColor="#8a000000"
+            android:layout_width="88.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/string004c" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@id/id00c2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="24.0dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:minHeight="32.0dip">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textColor="#8a000000"
+            android:layout_width="88.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/string00aa" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@id/id0135"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="24.0dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:minHeight="32.0dip">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textColor="#8a000000"
+            android:layout_width="88.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/string00ab" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@id/id0139"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="24.0dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:minHeight="32.0dip">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textColor="#8a000000"
+            android:layout_width="88.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/string02fd" />
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@id/id04b4"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:max="300"
+            android:minHeight="24.0dip"
+            android:layout_weight="1.0" />
+
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="#ffd41834"
+            android:gravity="right"
+            android:id="@id/id04b5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="30.0dip"
+            android:text="0%"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+</LinearLayout>

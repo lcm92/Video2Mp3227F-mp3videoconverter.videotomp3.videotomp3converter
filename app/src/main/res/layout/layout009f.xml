@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical"
+    android:id="@id/id01a1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="72.0dip"
+        android:foreground="?android:selectableItemBackground">
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@id/id00c5"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16.0dip"
+            app:layout_constraintBottom_toBottomOf="id02c7"
+            app:layout_constraintStart_toStartOf="id02c7"
+            app:layout_constraintTop_toTopOf="id02c7" />
+
+        <RelativeLayout
+            android:id="@id/id0331"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="8.0dip"
+            android:layout_marginEnd="16.0dip"
+            app:layout_constraintBottom_toBottomOf="id02c7"
+            app:layout_constraintStart_toEndOf="@id/id00c5"
+            app:layout_constraintTop_toTopOf="id02c7"
+            app:layout_goneMarginStart="16.0dip">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@id/id018d"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip"
+                app:srcCompat="@drawable/drawable018e" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@id/id02d6"
+                android:background="@drawable/drawable007f"
+                android:padding="5.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/drawable0163" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:id="@id/id0234"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="6.0dip"
+            app:layout_constraintBottom_toBottomOf="id02c7"
+            app:layout_constraintEnd_toStartOf="@id/id008c"
+            app:layout_constraintStart_toEndOf="@id/id0331"
+            app:layout_constraintTop_toTopOf="id02c7">
+
+            <TextView
+                android:textSize="16.0sp"
+                android:textColor="#de000000"
+                android:ellipsize="middle"
+                android:id="@id/id02a6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+
+            <TextView
+                android:textSize="14.0sp"
+                android:textColor="#61000000"
+                android:id="@id/id0117"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <com.inshot.videotomp3.utils.widget.BarView
+            android:id="@id/id008c"
+            android:visibility="gone"
+            android:layout_width="20.0dip"
+            android:layout_height="15.0dip"
+            android:layout_marginEnd="6.0dip"
+            app:layout_constraintBottom_toBottomOf="id02c7"
+            app:layout_constraintEnd_toStartOf="@id/id022d"
+            app:layout_constraintTop_toTopOf="id02c7"
+            app:layout_goneMarginEnd="12.0dip" />
+
+        <android.widget.Space
+            android:id="@id/id020f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip"
+            android:layout_marginEnd="5.0dip"
+            app:layout_constraintBottom_toTopOf="@id/id022d"
+            app:layout_constraintEnd_toStartOf="@id/id022d" />
+
+        <View
+            android:id="@id/id01c3"
+            android:visibility="gone"
+            android:layout_width="30.0dip"
+            android:layout_height="40.0dip"
+            app:layout_constraintStart_toStartOf="@id/id020f"
+            app:layout_constraintTop_toTopOf="@id/id020f" />
+
+        <android.widget.Space
+            android:id="@id/id0322"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip"
+            android:layout_marginEnd="26.0dip"
+            app:layout_constraintBottom_toTopOf="@id/id022d"
+            app:layout_constraintEnd_toEndOf="@id/id022d" />
+
+        <View
+            android:id="@id/id01a3"
+            android:visibility="gone"
+            android:layout_width="30.0dip"
+            android:layout_height="40.0dip"
+            android:layout_alignParentEnd="true"
+            app:layout_constraintStart_toStartOf="@id/id0322"
+            app:layout_constraintTop_toTopOf="@id/id0322" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:orientation="horizontal"
+            android:id="@id/id022d"
+            android:background="@drawable/drawable0067"
+            android:paddingTop="2.0dip"
+            android:paddingBottom="2.0dip"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="24.0dip"
+            android:layout_marginEnd="12.0dip"
+            app:layout_constraintBottom_toBottomOf="id02c7"
+            app:layout_constraintEnd_toEndOf="id02c7"
+            app:layout_constraintTop_toTopOf="id02c7">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:src="@drawable/drawable01c7"
+                android:paddingStart="4.0dip"
+                android:paddingEnd="4.0dip" />
+
+            <View
+                android:background="@color/color0042"
+                android:layout_width="1.0dip"
+                android:layout_height="fill_parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="11.0sp"
+                android:textColor="@color/color005f"
+                android:gravity="center"
+                android:id="@id/id045c"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:minWidth="28.0dip"
+                android:fontFamily="@string/string0117" />
+
+            <View
+                android:background="@color/color0042"
+                android:layout_width="1.0dip"
+                android:layout_height="fill_parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:src="@drawable/drawable01c5"
+                android:paddingStart="4.0dip"
+                android:paddingEnd="4.0dip" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <include
+        android:visibility="gone"
+        layout="@layout/layout009a" />
+
+    <View
+        android:id="@id/id0095"
+        android:background="@color/color00c8"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="72.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

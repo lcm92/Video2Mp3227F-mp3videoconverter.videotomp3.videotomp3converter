@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/id00da"
+    android:background="@drawable/drawable00f5"
+    android:paddingBottom="30.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textSize="18.0sp"
+        android:textStyle="bold"
+        android:textColor="@color/color0061"
+        android:id="@id/id046c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:text="@string/string00fb"
+        android:layout_marginStart="16.0dip"
+        app:layout_constraintStart_toStartOf="id02c7"
+        app:layout_constraintTop_toTopOf="id02c7" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/id01ae"
+        android:background="?attr034f"
+        android:padding="6.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.0dip"
+        android:src="@drawable/drawable0251"
+        android:layout_marginEnd="10.0dip"
+        app:layout_constraintEnd_toEndOf="id02c7"
+        app:layout_constraintTop_toTopOf="id02c7" />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@id/id0159"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30.0dip"
+        android:layout_marginStart="16.0dip"
+        android:layout_marginEnd="10.0dip"
+        app:flow_horizontalBias="0.0"
+        app:flow_horizontalGap="16.0dip"
+        app:flow_horizontalStyle="id02c5"
+        app:flow_verticalGap="12.0dip"
+        app:flow_wrapMode="id00bf"
+        app:layout_constraintEnd_toEndOf="id02c7"
+        app:layout_constraintStart_toStartOf="id02c7"
+        app:layout_constraintTop_toBottomOf="@id/id046c" />
+</androidx.constraintlayout.widget.ConstraintLayout>

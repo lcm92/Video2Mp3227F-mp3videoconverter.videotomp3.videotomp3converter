@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/id01c8"
+        android:background="?attr034f"
+        android:padding="6.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/drawable025c"
+        android:layout_marginStart="@dimen/dimen0113"
+        app:layout_constraintBottom_toBottomOf="@id/id03b3"
+        app:layout_constraintEnd_toStartOf="@id/id03b3"
+        app:layout_constraintStart_toStartOf="id02c7"
+        app:layout_constraintTop_toTopOf="@id/id03b3" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_gravity="center_horizontal"
+        android:id="@id/id03b3"
+        android:layout_width="0.0dip"
+        android:layout_height="48.0dip"
+        app:layout_constraintEnd_toEndOf="id02c7"
+        app:layout_constraintStart_toEndOf="@id/id01c8"
+        app:layout_constraintTop_toTopOf="id02c7"
+        app:tabBackground="@android:color/transparent"
+        app:tabIndicatorColor="#ffffffff"
+        app:tabIndicatorHeight="0.0dip"
+        app:tabMode="id0354"
+        app:tabPaddingEnd="0.0dip"
+        app:tabPaddingStart="0.0dip"
+        app:tabRippleColor="@android:color/transparent"
+        app:tabTextAppearance="@style/style0141" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@id/id000f"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="id02c7"
+        app:layout_constraintEnd_toEndOf="id02c7"
+        app:layout_constraintStart_toStartOf="id02c7"
+        app:layout_constraintTop_toBottomOf="@id/id03b3">
+
+        <com.inshot.videotomp3.utils.widget.MyViewPager
+            android:id="@id/id04b0"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

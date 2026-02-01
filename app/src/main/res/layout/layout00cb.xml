@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:textSize="14.0sp"
+        android:textColor="@color/color0054"
+        android:gravity="center"
+        android:id="@id/id0313"
+        android:background="@drawable/drawable007e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="24.0dip"
+        android:text="@string/string01e4"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-medium" />
+</FrameLayout>

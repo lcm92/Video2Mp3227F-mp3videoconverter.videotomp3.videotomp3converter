@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/drawable017e"
+        android:id="@id/id00e5"
+        android:title="@string/string0075" />
+    <item
+        android:icon="@drawable/drawable0181"
+        android:id="@id/id015c"
+        android:title="@string/string00de" />
+    <item
+        android:icon="@drawable/drawable0186"
+        android:id="@id/id0496"
+        android:title="@string/string0084" />
+    <item
+        android:icon="@drawable/drawable01df"
+        android:id="@id/id02bf"
+        android:title="@string/string0197" />
+    <item
+        android:icon="@drawable/drawable0263"
+        android:id="@id/id0370"
+        android:title="@string/string0213" />
+    <item
+        android:icon="@drawable/drawable0260"
+        android:id="@id/id030f"
+        android:title="@string/string01d5" />
+    <item
+        android:icon="@drawable/drawable025b"
+        android:id="@id/id019b"
+        android:title="@string/string00f7" />
+    <item
+        android:icon="@drawable/drawable0254"
+        android:id="@id/id00fd"
+        android:title="@string/string0088" />
+</menu>

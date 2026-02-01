@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.view.menu.ListMenuItemView android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="196.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@id/id0175"
+        android:background="@drawable/drawable002a"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginTop="4.0dip"
+        android:layout_marginBottom="4.0dip" />
+
+    <LinearLayout
+        android:id="@id/id00dd"
+        android:duplicateParentState="true"
+        android:layout_width="fill_parent"
+        android:layout_height="?attr0158"
+        style="@style/style0114">
+
+        <RelativeLayout
+            android:layout_gravity="center_vertical"
+            android:duplicateParentState="true"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            style="@style/style0115">
+
+            <TextView
+                android:textAppearance="?attr03c5"
+                android:ellipsize="marquee"
+                android:id="@id/id03f7"
+                android:fadingEdge="horizontal"
+                android:duplicateParentState="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_alignParentTop="true"
+                style="@style/style0118" />
+
+            <TextView
+                android:textAppearance="?attr03ce"
+                android:id="@id/id0378"
+                android:duplicateParentState="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_below="@id/id03f7"
+                style="@style/style0118" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@id/id03aa"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            style="@style/style0117" />
+    </LinearLayout>
+</androidx.appcompat.view.menu.ListMenuItemView>

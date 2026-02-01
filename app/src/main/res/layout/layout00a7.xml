@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/drawable007f"
+    android:paddingTop="2.0dip"
+    android:paddingBottom="8.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@id/id018e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <com.inshot.videotomp3.utils.widget.shadowlayout.ShadowLayout
+            android:id="@id/id0087"
+            android:layout_width="56.0dip"
+            android:layout_height="56.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_centerInParent="true"
+            app:hl_cornerRadius="16.0dip"
+            app:hl_layoutBackground="@color/color00c8"
+            app:hl_shadowLimit="4.0dip">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:src="@color/color00c8" />
+        </com.inshot.videotomp3.utils.widget.shadowlayout.ShadowLayout>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@id/id0190"
+            android:layout_width="52.0dip"
+            android:layout_height="52.0dip"
+            android:layout_marginTop="8.0dip"
+            android:scaleType="fitXY"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:textSize="10.0sp"
+            android:textColor="@color/color00c8"
+            android:id="@id/id0452"
+            android:background="@drawable/drawable0098"
+            android:paddingTop="2.0dip"
+            android:paddingBottom="2.0dip"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string01ca"
+            android:paddingStart="4.0dip"
+            android:paddingEnd="4.0dip"
+            android:layout_marginStart="36.0dip" />
+    </RelativeLayout>
+
+    <TextView
+        android:textSize="14.0sp"
+        android:textColor="@color/color001e"
+        android:ellipsize="end"
+        android:id="@id/id02d4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6.0dip"
+        android:singleLine="true"
+        android:layout_below="@id/id018e"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="2.0dip"
+        android:layout_marginEnd="2.0dip" />
+</RelativeLayout>

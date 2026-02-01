@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/color007f"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textSize="16.0sp"
+        android:textColor="@color/color0158"
+        android:gravity="center"
+        android:id="@id/id0420"
+        android:background="@color/color00c8"
+        android:layout_width="fill_parent"
+        android:layout_height="56.0dip"
+        android:text="@string/string0084" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/id01ae"
+        android:padding="8.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:tint="@color/color0158"
+        app:layout_constraintBottom_toBottomOf="@id/id0420"
+        app:layout_constraintLeft_toLeftOf="id02c7"
+        app:layout_constraintTop_toTopOf="@id/id0420"
+        app:srcCompat="@drawable/drawable012d" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/id01af"
+        android:padding="8.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:tint="@color/color0158"
+        app:layout_constraintBottom_toBottomOf="@id/id0420"
+        app:layout_constraintRight_toRightOf="id02c7"
+        app:layout_constraintTop_toTopOf="@id/id0420"
+        app:srcCompat="@drawable/drawable017b" />
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24.0dip"
+        app:layout_constraintTop_toBottomOf="@id/id01ae"
+        layout="@layout/layout00ad" />
+
+    <com.inshot.videotomp3.edit.widget.VideoTimeSeekBar
+        android:id="@id/id03f5"
+        android:layout_width="fill_parent"
+        android:layout_height="86.0dip"
+        android:layout_marginTop="84.0dip"
+        app:layout_constraintTop_toBottomOf="@id/id01ae" />
+
+    <com.inshot.videotomp3.edit.widget.VideoTimeDragView
+        android:id="@id/id02e2"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        app:layout_constraintTop_toBottomOf="@id/id03f5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

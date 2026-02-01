@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical"
+    android:background="@color/color00c8"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/id03fe"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:actionBarSize"
+        app:navigationIcon="@drawable/drawable0250"
+        app:title="@string/string023e"
+        app:titleTextColor="@color/color014d" />
+
+    <androidx.core.widget.NestedScrollView
+        android:descendantFocusability="afterDescendants"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="68.0dip"
+        android:layout_below="@id/id03fe">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:orientation="vertical"
+            android:id="@id/id00da"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="14.0sp"
+                android:textColor="@color/color0053"
+                android:gravity="left"
+                android:id="@id/id046c"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12.0dip"
+                android:text="@string/string0233"
+                android:layout_marginStart="16.0dip"
+                app:layout_constraintEnd_toEndOf="id02c7"
+                app:layout_constraintStart_toStartOf="id02c7"
+                app:layout_constraintTop_toTopOf="id02c7" />
+
+            <androidx.constraintlayout.helper.widget.Flow
+                android:id="@id/id0159"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24.0dip"
+                android:layout_marginStart="16.0dip"
+                android:layout_marginEnd="10.0dip"
+                app:flow_horizontalBias="0.0"
+                app:flow_horizontalGap="16.0dip"
+                app:flow_horizontalStyle="id02c5"
+                app:flow_verticalGap="12.0dip"
+                app:flow_wrapMode="id00bf"
+                app:layout_constraintEnd_toEndOf="id02c7"
+                app:layout_constraintStart_toStartOf="id02c7"
+                app:layout_constraintTop_toBottomOf="@id/id046c" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:orientation="vertical"
+                android:id="@id/id022a"
+                android:background="@drawable/drawable006c"
+                android:paddingTop="16.0dip"
+                android:paddingBottom="12.0dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24.0dip"
+                android:paddingStart="16.0dip"
+                android:paddingEnd="16.0dip"
+                android:layout_marginStart="15.0dip"
+                android:layout_marginEnd="15.0dip"
+                app:layout_constraintEnd_toEndOf="id02c7"
+                app:layout_constraintStart_toStartOf="id02c7"
+                app:layout_constraintTop_toBottomOf="@id/id0159">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:textSize="14.0sp"
+                    android:textColor="@color/color00ba"
+                    android:textColorHint="@color/color004b"
+                    android:gravity="start|center|top"
+                    android:id="@id/id012c"
+                    android:background="@null"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="60.0dip"
+                    android:hint="@string/string00cf"
+                    android:lineSpacingMultiplier="1.3" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10.0dip">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@id/id02d1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <android.widget.Space
+                android:layout_width="fill_parent"
+                android:layout_height="40.0dip"
+                app:layout_constraintStart_toStartOf="id02c7"
+                app:layout_constraintTop_toBottomOf="@id/id022a" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textSize="18.0sp"
+        android:textColor="@color/color00c8"
+        android:gravity="center_horizontal"
+        android:id="@id/id0468"
+        android:background="@drawable/drawable009d"
+        android:paddingTop="10.0dip"
+        android:paddingBottom="10.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24.0dip"
+        android:text="@string/string0105"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@string/string0117"
+        android:layout_marginStart="16.0dip"
+        android:layout_marginEnd="16.0dip" />
+</RelativeLayout>

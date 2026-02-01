@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen0061">8.0dip</dimen>
+    <dimen name="dimen0062">4.0dip</dimen>
+    <dimen name="dimen0064">8.0dip</dimen>
+    <dimen name="dimen0065">10.0dip</dimen>
+    <dimen name="dimen0066">26.0dip</dimen>
+    <dimen name="dimen0067">42.0dip</dimen>
+    <dimen name="dimen006c">4.0dip</dimen>
+    <dimen name="dimen0106">4.0dip</dimen>
+    <dimen name="dimen0107">0.0dip</dimen>
+    <dimen name="dimen0118">6.0dip</dimen>
+    <dimen name="dimen0119">20.0dip</dimen>
+    <dimen name="dimen011a">64.0dip</dimen>
+    <dimen name="dimen0147">18.0dip</dimen>
+    <dimen name="dimen021a">0.0dip</dimen>
+    <dimen name="dimen021b">11.0sp</dimen>
+    <dimen name="dimen021c">20.0dip</dimen>
+    <dimen name="dimen021d">26.0dip</dimen>
+    <dimen name="dimen021e">100.0dip</dimen>
+    <dimen name="dimen021f">170.0dip</dimen>
+    <dimen name="dimen0220">22.0sp</dimen>
+    <dimen name="dimen0221">6.0dip</dimen>
+    <dimen name="dimen0223">12.0dip</dimen>
+    <dimen name="dimen022a">0.0dip</dimen>
+    <dimen name="dimen022b">10.0sp</dimen>
+    <dimen name="dimen022c">20.0sp</dimen>
+    <dimen name="dimen022d">12.0dip</dimen>
+    <dimen name="dimen022e">6.0dip</dimen>
+    <dimen name="dimen02a5">140.0dip</dimen>
+    <dimen name="dimen02a6">14.0dip</dimen>
+</resources>

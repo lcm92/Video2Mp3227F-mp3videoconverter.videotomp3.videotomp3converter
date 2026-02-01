@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical"
+    android:background="@drawable/drawable00ef"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/id0253"
+        android:paddingTop="10.0dip"
+        android:paddingBottom="10.0dip"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:paddingStart="10.0dip"
+        android:paddingEnd="16.0dip"
+        app:layout_constraintEnd_toEndOf="id02c7"
+        app:layout_constraintStart_toStartOf="id02c7"
+        app:layout_constraintTop_toTopOf="id02c7">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/id01b6"
+            android:background="?attr034f"
+            android:padding="6.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/drawable0184"
+            android:tint="@color/color004b" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="16.0sp"
+            android:textColor="@color/color003a"
+            android:id="@id/id042c"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginStart="6.0dip" />
+
+        <TextView
+            android:textSize="14.0sp"
+            android:textColor="#ffffffff"
+            android:id="@id/id0442"
+            android:background="@drawable/drawable00d7"
+            android:paddingLeft="12.0dip"
+            android:paddingTop="10.0dip"
+            android:paddingRight="12.0dip"
+            android:paddingBottom="10.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string0177"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+
+    <View
+        android:id="@id/id0215"
+        android:background="#ffdddddd"
+        android:layout_width="0.0dip"
+        android:layout_height="1.0dip"
+        app:layout_constraintEnd_toEndOf="id02c7"
+        app:layout_constraintStart_toStartOf="id02c7"
+        app:layout_constraintTop_toBottomOf="@id/id0253" />
+
+    <com.inshot.videotomp3.view.MaxHeightRecyclerView
+        android:id="@id/id033d"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1.0dip"
+        app:layout_constraintEnd_toEndOf="id02c7"
+        app:layout_constraintStart_toStartOf="id02c7"
+        app:layout_constraintTop_toTopOf="@id/id0215"
+        app:maxHeight="180.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="200.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:textSize="16.0sp"
+        android:textColor="@android:color/black"
+        android:textColorHint="#42000000"
+        android:gravity="center|left|top"
+        android:id="@id/id03b0"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="24.0dip"
+        android:layout_marginTop="20.0dip"
+        android:layout_marginRight="24.0dip"
+        android:minHeight="150.0dip"
+        android:hint="@string/string00ce"
+        android:fontFamily="sans-serif" />
+</FrameLayout>

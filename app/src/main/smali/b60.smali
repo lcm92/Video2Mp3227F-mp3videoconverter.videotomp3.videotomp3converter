@@ -1,0 +1,81 @@
+.class public Lb60;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field private static final k:Ljava/util/concurrent/ExecutorService;
+
+
+# instance fields
+.field a:Z
+
+.field b:Z
+
+.field c:Z
+
+.field d:Z
+
+.field e:Z
+
+.field f:Z
+
+.field g:Z
+
+.field h:Z
+
+.field i:Ljava/util/concurrent/ExecutorService;
+
+.field j:Ljava/util/List;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    invoke-static {}, Ljava/util/concurrent/Executors;->newCachedThreadPool()Ljava/util/concurrent/ExecutorService;
+
+    .line 4
+    move-result-object v0
+
+    .line 5
+    sput-object v0, Lb60;->k:Ljava/util/concurrent/ExecutorService;
+
+    .line 7
+    return-void
+.end method
+
+.method constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    const/4 v0, 0x1
+
+    .line 5
+    iput-boolean v0, p0, Lb60;->a:Z
+
+    .line 7
+    iput-boolean v0, p0, Lb60;->b:Z
+
+    .line 9
+    iput-boolean v0, p0, Lb60;->c:Z
+
+    .line 11
+    iput-boolean v0, p0, Lb60;->d:Z
+
+    .line 13
+    iput-boolean v0, p0, Lb60;->f:Z
+
+    .line 15
+    sget-object v0, Lb60;->k:Ljava/util/concurrent/ExecutorService;
+
+    .line 17
+    iput-object v0, p0, Lb60;->i:Ljava/util/concurrent/ExecutorService;
+
+    .line 19
+    return-void
+.end method

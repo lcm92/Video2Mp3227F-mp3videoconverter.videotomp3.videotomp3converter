@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="string0001">Navigate home</string>
+    <string name="string0002">Navigate up</string>
+    <string name="string0003">More options</string>
+    <string name="string0004">Done</string>
+    <string name="string0005">See all</string>
+    <string name="string0006">Choose an app</string>
+    <string name="string0007">OFF</string>
+    <string name="string0008">ON</string>
+    <string name="string0009">Alt+</string>
+    <string name="string000a">Ctrl+</string>
+    <string name="string000b">delete</string>
+    <string name="string000c">enter</string>
+    <string name="string000d">Function+</string>
+    <string name="string000e">Meta+</string>
+    <string name="string000f">Shift+</string>
+    <string name="string0010">space</string>
+    <string name="string0011">Sym+</string>
+    <string name="string0012">Menu+</string>
+    <string name="string0013">Search…</string>
+    <string name="string0014">Clear query</string>
+    <string name="string0015">Search query</string>
+    <string name="string0016">Search</string>
+    <string name="string0017">Submit query</string>
+    <string name="string0018">Voice search</string>
+    <string name="string0019">Share with</string>
+    <string name="string001a">Share with %s</string>
+    <string name="string001b">Collapse</string>
+    <string name="string003f">Answer</string>
+    <string name="string0040">Video</string>
+    <string name="string0041">Decline</string>
+    <string name="string0042">Hang Up</string>
+    <string name="string0043">Incoming call</string>
+    <string name="string0044">Ongoing call</string>
+    <string name="string0045">Screening an incoming call</string>
+    <string name="string0079">Link copied to clipboard</string>
+    <string name="string00ad">Copy link</string>
+    <string name="string00ae">Open in browser</string>
+    <string name="string00af">Share link</string>
+    <string name="string01f6">Search</string>
+    <string name="string022d">999+</string>
+</resources>

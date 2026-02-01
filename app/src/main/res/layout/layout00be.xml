@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal"
+    android:id="@id/id0265"
+    android:background="?attr00d7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8.0dip"
+    android:baselineAligned="false"
+    android:layoutDirection="ltr"
+    app:layout_constraintLeft_toLeftOf="id02c7"
+    app:layout_constraintRight_toRightOf="id02c7"
+    app:layout_constraintTop_toTopOf="id02c7"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include
+        android:id="@id/id026c"
+        layout="@layout/layout00c6" />
+
+    <include layout="@layout/layout00bf" />
+
+    <include
+        android:id="@id/id026f"
+        layout="@layout/layout00c6" />
+</LinearLayout>

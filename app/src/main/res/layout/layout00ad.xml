@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen0112"
+    android:layout_marginBottom="@dimen/dimen0112"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/id020d"
+        android:background="@drawable/drawable0085"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/dimen0064">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/drawable01b5" />
+
+        <TextView
+            android:textSize="13.0sp"
+            android:textColor="@color/color00c8"
+            android:id="@id/id03a3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:fontFamily="sans-serif-medium"
+            android:paddingStart="3.0dip"
+            android:paddingEnd="3.0dip" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/drawable016c" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/id031f"
+        android:background="@drawable/drawable0085"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/dimen0064">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/drawable01b5" />
+
+        <TextView
+            android:textSize="13.0sp"
+            android:textColor="@color/color00c8"
+            android:id="@id/id0127"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:fontFamily="sans-serif-medium"
+            android:paddingStart="3.0dip"
+            android:paddingEnd="3.0dip" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/drawable016c" />
+    </LinearLayout>
+
+    <TextView
+        android:textSize="13.0sp"
+        android:textColor="#fff42f4c"
+        android:id="@id/id0117"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-medium" />
+
+    <View
+        android:id="@id/id03a2"
+        android:layout_width="@dimen/dimen006d"
+        android:layout_height="@dimen/dimen006d" />
+
+    <View
+        android:id="@id/id03a1"
+        android:layout_width="@dimen/dimen006d"
+        android:layout_height="@dimen/dimen006d"
+        android:layout_marginRight="-8.0dip"
+        android:layout_alignRight="@id/id020d" />
+
+    <View
+        android:id="@id/id0126"
+        android:layout_width="@dimen/dimen006d"
+        android:layout_height="@dimen/dimen006d"
+        android:layout_marginLeft="-8.0dip"
+        android:layout_alignLeft="@id/id031f" />
+
+    <View
+        android:id="@id/id0125"
+        android:layout_width="@dimen/dimen006d"
+        android:layout_height="@dimen/dimen006d"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

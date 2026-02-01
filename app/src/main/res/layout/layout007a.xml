@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/id0334"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/id0258"
+        android:background="#ff000000"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true">
+
+        <FrameLayout
+            android:id="@id/id049a"
+            android:layout_width="200.0dip"
+            android:layout_height="100.0dip">
+
+            <com.inshot.videotomp3.view.TextureView.TextureVideoView
+                android:id="@id/id04a7"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                app:autoPlay="false"
+                app:scaleType="id0152" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@id/id0494"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@id/id049b"
+            android:layout_width="200.0dip"
+            android:layout_height="100.0dip">
+
+            <com.inshot.videotomp3.view.TextureView.TextureVideoView
+                android:id="@id/id04a8"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                app:autoPlay="false"
+                app:scaleType="id0152" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@id/id0495"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="fitXY" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/id0363"
+        android:background="#61000000"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:layout_alignParentBottom="true">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/id02d6"
+            android:background="@drawable/drawable007e"
+            android:padding="8.0dip"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="4.0dip"
+            android:tint="#ffffffff"
+            app:srcCompat="@drawable/drawable01e8" />
+
+        <SeekBar
+            android:layout_gravity="center_vertical"
+            android:id="@id/id02df"
+            android:paddingLeft="12.0dip"
+            android:paddingRight="12.0dip"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4.0dip"
+            android:maxHeight="4.0dip"
+            android:progressDrawable="@drawable/drawable02ae"
+            android:minHeight="4.0dip"
+            android:thumb="@drawable/drawable02b3"
+            android:thumbOffset="8.0dip"
+            android:layout_weight="1.0"
+            android:splitTrack="false" />
+
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="#ffffffff"
+            android:layout_gravity="center_vertical"
+            android:id="@id/id02de"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8.0dip"
+            android:text="00:00/00:00"
+            android:fontFamily="@string/string0117" />
+    </LinearLayout>
+</RelativeLayout>

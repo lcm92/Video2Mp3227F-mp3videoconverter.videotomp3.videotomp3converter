@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@id/id01a1"
+        android:background="?android:selectableItemBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="72.0dip">
+
+        <RelativeLayout
+            android:id="@id/id0331"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginRight="16.0dip"
+            android:layout_centerVertical="true">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@id/id018d"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip"
+                app:srcCompat="@drawable/drawable018e" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@id/id02d6"
+                android:background="@drawable/drawable007f"
+                android:padding="5.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/drawable0163" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:id="@id/id0234"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6.0dip"
+            android:layout_toLeftOf="@id/id008c"
+            android:layout_toRightOf="@id/id0331"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:textSize="16.0sp"
+                android:textColor="#de000000"
+                android:ellipsize="middle"
+                android:id="@id/id02a6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+
+            <TextView
+                android:textSize="12.0sp"
+                android:textColor="#61000000"
+                android:id="@id/id0117"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <com.inshot.videotomp3.utils.widget.BarView
+            android:id="@id/id008c"
+            android:visibility="gone"
+            android:layout_width="20.0dip"
+            android:layout_height="15.0dip"
+            android:layout_marginRight="6.0dip"
+            android:layout_toLeftOf="@id/id036a"
+            android:layout_centerVertical="true" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/id036a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="12.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/drawable0275" />
+    </RelativeLayout>
+
+    <include
+        android:visibility="gone"
+        layout="@layout/layout009a" />
+</LinearLayout>

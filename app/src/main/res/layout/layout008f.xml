@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+    android:layout_height="48.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@id/id0198"
+        android:background="?android:selectableItemBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:id="@id/id01ae"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginRight="16.0dip"
+            android:src="@drawable/drawable0194"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textSize="14.0sp"
+        android:textStyle="bold"
+        android:textColor="#de000000"
+        android:id="@id/id0423"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="210.0dip"
+        android:maxLines="2"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-medium" />
+
+    <RelativeLayout
+        android:id="@id/id019a"
+        android:background="?android:selectableItemBackground"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:id="@id/id01c5"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginRight="16.0dip"
+            android:src="@drawable/drawable0195"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

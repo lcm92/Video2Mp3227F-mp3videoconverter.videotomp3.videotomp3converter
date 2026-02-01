@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="integer0000">220</integer>
+    <integer name="integer0001">150</integer>
+    <integer name="integer0002">150</integer>
+    <integer name="integer0003">150</integer>
+    <integer name="integer0004">127</integer>
+    <integer name="integer0005">150</integer>
+    <integer name="integer0006">2</integer>
+    <integer name="integer0007">300</integer>
+    <integer name="integer0008">12451000</integer>
+    <integer name="integer0009">320</integer>
+    <integer name="integer000a">300</integer>
+    <integer name="integer000b">350</integer>
+    <integer name="integer000c">200</integer>
+    <integer name="integer000d">250</integer>
+    <integer name="integer000e">75</integer>
+    <integer name="integer000f">150</integer>
+    <integer name="integer0010">0</integer>
+    <integer name="integer0011">4</integer>
+    <integer name="integer0012">100</integer>
+    <integer name="integer0013">100</integer>
+    <integer name="integer0014">1</integer>
+    <integer name="integer0015">1</integer>
+    <integer name="integer0016">3</integer>
+    <integer name="integer0017">75</integer>
+    <integer name="integer0018">120</integer>
+    <integer name="integer0019">100</integer>
+    <integer name="integer001a">250</integer>
+    <integer name="integer001b">200</integer>
+    <integer name="integer001c">999</integer>
+</resources>

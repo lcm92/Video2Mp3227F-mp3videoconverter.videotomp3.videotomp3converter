@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="style027c" parent="@style/style00e0">
+        <item name="attr039d">id00b6</item>
+        <item name="tabMode">id0153</item>
+    </style>
+</resources>

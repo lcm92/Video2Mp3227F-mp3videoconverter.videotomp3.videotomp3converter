@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#50000000"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:id="@id/id0051"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="13.0dip"
+            app:cardCornerRadius="4.0dip">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="#ffffffff"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="240.0dip">
+
+                <ImageView
+                    android:id="@id/id004d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true" />
+
+                <RelativeLayout
+                    android:padding="16.0dip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@id/id006e"
+                        android:layout_width="56.0dip"
+                        android:layout_height="56.0dip"
+                        android:scaleType="centerCrop" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:textSize="15.0sp"
+                        android:textColor="#ff0c0c0c"
+                        android:id="@id/id006f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16.0dip"
+                        android:text="@string/string0143"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:layout_toRightOf="@id/id006e"
+                        android:fontFamily="sans-serif-medium" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:textSize="12.0sp"
+                        android:textColor="#8a000000"
+                        android:id="@id/id006d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16.0dip"
+                        android:layout_marginTop="2.0dip"
+                        android:text="@string/string01c0"
+                        android:layout_toRightOf="@id/id006e"
+                        android:layout_below="@id/id006f" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16.0dip"
+                        android:layout_marginTop="10.0dip"
+                        android:scaleType="centerInside"
+                        android:layout_toRightOf="@id/id006e"
+                        android:layout_below="@id/id006d"
+                        app:srcCompat="@drawable/drawable014f" />
+                </RelativeLayout>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:textSize="14.0sp"
+                    android:textColor="#ffffffff"
+                    android:gravity="center"
+                    android:id="@id/id019c"
+                    android:background="@drawable/drawable00cc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="45.0dip"
+                    android:layout_marginLeft="16.0dip"
+                    android:layout_marginRight="16.0dip"
+                    android:layout_marginBottom="16.0dip"
+                    android:text="@string/string00f8"
+                    android:textAllCaps="true"
+                    android:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@id/id004a"
+        android:layout_width="26.0dip"
+        android:layout_height="26.0dip"
+        android:src="@drawable/drawable0150"
+        android:layout_alignTop="@id/id0051"
+        android:layout_alignRight="@id/id0051" />
+</RelativeLayout>

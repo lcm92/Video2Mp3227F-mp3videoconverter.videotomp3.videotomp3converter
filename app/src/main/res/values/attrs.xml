@@ -1,0 +1,1729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="attr0000" format="reference" />
+    <attr name="attr0001" format="reference" />
+    <attr name="attr0002" format="reference" />
+    <attr name="attr0003" format="dimension">
+        <enum name="id04bd" value="0" />
+    </attr>
+    <attr name="attr0004" format="reference" />
+    <attr name="attr0005" format="reference" />
+    <attr name="attr0006" format="reference" />
+    <attr name="attr0007" format="reference" />
+    <attr name="attr0008" format="reference" />
+    <attr name="attr0009" format="reference" />
+    <attr name="attr000a" format="reference" />
+    <attr name="attr000b" format="reference" />
+    <attr name="attr000c" format="reference" />
+    <attr name="actionLayout" format="reference" />
+    <attr name="attr000e" format="reference" />
+    <attr name="attr000f" format="reference|color" />
+    <attr name="attr0010" format="reference" />
+    <attr name="attr0011" format="reference" />
+    <attr name="attr0012" format="string" />
+    <attr name="attr0013" format="reference" />
+    <attr name="attr0014" format="reference" />
+    <attr name="attr0015" format="reference" />
+    <attr name="attr0016" format="reference" />
+    <attr name="attr0017" format="reference" />
+    <attr name="attr0018" format="reference" />
+    <attr name="attr0019" format="reference" />
+    <attr name="attr001a" format="reference" />
+    <attr name="attr001b" format="reference" />
+    <attr name="attr001c" format="reference" />
+    <attr name="attr001d" format="reference" />
+    <attr name="attr001e" format="reference" />
+    <attr name="attr001f" format="reference" />
+    <attr name="attr0020" format="reference" />
+    <attr name="attr0021" format="string" />
+    <attr name="attr0022" format="float" />
+    <attr name="attr0023" format="string" />
+    <attr name="attr0024" format="reference" />
+    <attr name="adSize" format="string" />
+    <attr name="adSizes" format="string" />
+    <attr name="adUnitId" format="string" />
+    <attr name="attr0028" format="reference" />
+    <attr name="attr0029" format="boolean" />
+    <attr name="attr002a" format="reference" />
+    <attr name="attr002b" format="reference" />
+    <attr name="attr002c">
+        <enum name="id0156" value="0" />
+        <enum name="id0155" value="1" />
+        <enum name="id00b6" value="2" />
+        <enum name="id038d" value="3" />
+        <enum name="id038c" value="4" />
+        <enum name="id03a8" value="5" />
+    </attr>
+    <attr name="attr002d">
+        <enum name="id0156" value="0" />
+        <enum name="id0155" value="1" />
+        <enum name="id00b6" value="2" />
+        <enum name="id008d" value="3" />
+        <enum name="id03a8" value="4" />
+    </attr>
+    <attr name="attr002e" format="boolean" />
+    <attr name="attr002f" format="float" />
+    <attr name="attr0030">
+        <flag name="id0008" value="0x00010000" />
+        <flag name="id0003" value="0x00001000" />
+        <flag name="id0000" value="0x00000002" />
+        <flag name="id000a" value="0x00000001" />
+        <flag name="id000e" value="0x00000004" />
+        <flag name="id0006" value="0x00000008" />
+    </attr>
+    <attr name="attr0031" format="reference" />
+    <attr name="attr0032" format="reference" />
+    <attr name="attr0033">
+        <enum name="id0383" value="0" />
+        <enum name="id0132" value="1" />
+    </attr>
+    <attr name="attr0034" format="reference" />
+    <attr name="attr0035" format="boolean" />
+    <attr name="attr0036">
+        <enum name="id03a0" value="0" />
+        <enum name="id039d" value="1" />
+        <enum name="id0157" value="2" />
+    </attr>
+    <attr name="attr0037" format="dimension" />
+    <attr name="attr0038" format="dimension" />
+    <attr name="attr0039" format="string" />
+    <attr name="attr003a" format="reference" />
+    <attr name="autoPlay" format="boolean" />
+    <attr name="autoSizeMaxTextSize" format="dimension" />
+    <attr name="autoSizeMinTextSize" format="dimension" />
+    <attr name="attr003e" format="reference" />
+    <attr name="autoSizeStepGranularity" format="dimension" />
+    <attr name="autoSizeTextType">
+        <enum name="id02b0" value="0" />
+        <enum name="id047a" value="1" />
+    </attr>
+    <attr name="attr0041">
+        <enum name="id02b0" value="0" />
+        <enum name="id01e7" value="1" />
+        <enum name="id01e6" value="2" />
+        <enum name="id006c" value="3" />
+        <enum name="id006b" value="4" />
+    </attr>
+    <attr name="attr0042" format="reference" />
+    <attr name="attr0043" format="color" />
+    <attr name="attr0044" format="dimension" />
+    <attr name="attr0045" format="dimension" />
+    <attr name="attr0046" format="dimension" />
+    <attr name="attr0047" format="dimension" />
+    <attr name="attr0048" format="float" />
+    <attr name="attr0049" format="reference|color" />
+    <attr name="attr004a" format="reference|color" />
+    <attr name="backgroundTint" format="color" />
+    <attr name="attr004c">
+        <enum name="id0399" value="3" />
+        <enum name="id0398" value="5" />
+        <enum name="id0397" value="9" />
+        <enum name="id02a2" value="14" />
+        <enum name="id034f" value="15" />
+        <enum name="id0053" value="16" />
+    </attr>
+    <attr name="badgeGravity">
+        <enum name="id0010" value="8388661" />
+        <enum name="id0011" value="8388659" />
+        <enum name="id0001" value="8388693" />
+        <enum name="id0002" value="8388691" />
+    </attr>
+    <attr name="attr004e" format="reference" />
+    <attr name="attr004f" format="color" />
+    <attr name="attr0050" format="dimension" />
+    <attr name="attr0051" format="boolean" />
+    <attr name="barrierDirection">
+        <enum name="id0205" value="0" />
+        <enum name="id0316" value="1" />
+        <enum name="id03ff" value="2" />
+        <enum name="id0092" value="3" />
+        <enum name="id039c" value="5" />
+        <enum name="id0121" value="6" />
+    </attr>
+    <attr name="barrierMargin" format="dimension" />
+    <attr name="attr0054" format="boolean" />
+    <attr name="attr0055" format="boolean" />
+    <attr name="attr0056" format="boolean" />
+    <attr name="attr0057" format="reference|dimension" />
+    <attr name="attr0058" format="boolean" />
+    <attr name="attr0059" format="reference|float" />
+    <attr name="attr005a" format="boolean" />
+    <attr name="attr005b" format="dimension" />
+    <attr name="attr005c" format="dimension">
+        <enum name="id0081" value="-1" />
+    </attr>
+    <attr name="attr005d">
+        <flag name="id02ce" value="0x00000001" />
+        <flag name="id0151" value="0x00000002" />
+        <flag name="id0187" value="0x00000004" />
+        <flag name="id0381" value="0x00000008" />
+        <flag name="id0068" value="0xffffffff" />
+        <flag name="id02b0" value="0x00000000" />
+    </attr>
+    <attr name="attr005e" format="boolean" />
+    <attr name="attr005f" format="dimension" />
+    <attr name="attr0060" format="reference" />
+    <attr name="attr0061" format="reference" />
+    <attr name="bottomDivision" format="boolean" />
+    <attr name="attr0063" format="reference|dimension" />
+    <attr name="attr0064" format="reference" />
+    <attr name="attr0065" format="reference|dimension" />
+    <attr name="attr0066" format="reference" />
+    <attr name="attr0067" format="reference" />
+    <attr name="attr0068" format="color" />
+    <attr name="attr0069">
+        <enum name="id02b0" value="0" />
+        <enum name="id014d" value="1" />
+        <enum name="id02c1" value="2" />
+    </attr>
+    <attr name="attr006a" format="dimension" />
+    <attr name="attr006b" format="dimension" />
+    <attr name="attr006c" format="dimension" />
+    <attr name="attr006d" format="dimension" />
+    <attr name="attr006e" format="dimension" />
+    <attr name="attr006f" format="color" />
+    <attr name="attr0070" format="color" />
+    <attr name="attr0071" format="dimension" />
+    <attr name="attr0072" format="dimension" />
+    <attr name="attr0073" format="float" />
+    <attr name="attr0074" format="reference" />
+    <attr name="attr0075" format="reference" />
+    <attr name="attr0076" format="reference" />
+    <attr name="attr0077" format="reference" />
+    <attr name="attr0078" format="reference" />
+    <attr name="attr0079" format="reference" />
+    <attr name="attr007a">
+        <flag name="id00be" value="0x00000010" />
+        <flag name="id03ff" value="0x00000030" />
+        <flag name="id0092" value="0x00000050" />
+    </attr>
+    <attr name="attr007b" format="dimension" />
+    <attr name="attr007c" format="reference" />
+    <attr name="attr007d" format="reference">
+        <enum name="id039a" value="0" />
+        <enum name="id04b9" value="1" />
+        <enum name="id0191" value="2" />
+    </attr>
+    <attr name="attr007e" format="reference" />
+    <attr name="attr007f" format="reference" />
+    <attr name="buttonTint" format="color" />
+    <attr name="attr0081">
+        <enum name="id0399" value="3" />
+        <enum name="id0398" value="5" />
+        <enum name="id0397" value="9" />
+        <enum name="id02a2" value="14" />
+        <enum name="id034f" value="15" />
+        <enum name="id0053" value="16" />
+    </attr>
+    <attr name="cardBackgroundColor" format="color" />
+    <attr name="cardCornerRadius" format="dimension" />
+    <attr name="cardElevation" format="dimension" />
+    <attr name="attr0085" format="color" />
+    <attr name="attr0086" format="dimension" />
+    <attr name="attr0087" format="boolean" />
+    <attr name="cardUseCompatPadding" format="boolean" />
+    <attr name="attr0089" format="reference" />
+    <attr name="attr008a" format="color" />
+    <attr name="attr008b" format="dimension" />
+    <attr name="attr008c" format="boolean" />
+    <attr name="attr008d" format="reference" />
+    <attr name="checkedButton" format="reference" />
+    <attr name="attr008f" format="reference" />
+    <attr name="attr0090" format="reference" />
+    <attr name="attr0091" format="boolean" />
+    <attr name="attr0092" format="dimension" />
+    <attr name="attr0093" format="dimension" />
+    <attr name="attr0094" format="color" />
+    <attr name="attr0095" format="boolean" />
+    <attr name="attr0096" format="reference" />
+    <attr name="attr0097" format="color" />
+    <attr name="chipCornerRadius" format="dimension" />
+    <attr name="attr0099" format="dimension" />
+    <attr name="attr009a" format="reference" />
+    <attr name="attr009b" format="reference" />
+    <attr name="attr009c" format="boolean" />
+    <attr name="attr009d" format="dimension" />
+    <attr name="attr009e" format="color" />
+    <attr name="attr009f" format="boolean" />
+    <attr name="attr00a0" format="dimension" />
+    <attr name="attr00a1" format="dimension" />
+    <attr name="attr00a2" format="dimension" />
+    <attr name="attr00a3" format="dimension" />
+    <attr name="attr00a4" format="dimension" />
+    <attr name="attr00a5" format="reference" />
+    <attr name="attr00a6" format="dimension" />
+    <attr name="attr00a7" format="color" />
+    <attr name="attr00a8" format="dimension" />
+    <attr name="attr00a9" format="reference" />
+    <attr name="attr00aa" format="color" />
+    <attr name="attr00ab" format="boolean" />
+    <attr name="attr00ac" format="dimension" />
+    <attr name="attr00ad" format="reference" />
+    <attr name="attr00ae">
+        <flag name="id03fd" value="0x00000011" />
+        <flag name="id0403" value="0x00000001" />
+        <flag name="id0404" value="0x00000010" />
+        <flag name="id01e6" value="0x00000100" />
+        <flag name="id01e7" value="0x00001000" />
+    </attr>
+    <attr name="attr00af" format="boolean" />
+    <attr name="attr00b0" format="color" />
+    <attr name="attr00b1" format="color" />
+    <attr name="attr00b2" format="reference" />
+    <attr name="attr00b3" format="color" />
+    <attr name="attr00b4" format="reference" />
+    <attr name="attr00b5" format="boolean" />
+    <attr name="attr00b6" format="dimension" />
+    <attr name="attr00b7" format="dimension" />
+    <attr name="attr00b8" format="dimension" />
+    <attr name="attr00b9" format="color" />
+    <attr name="attr00ba" format="boolean" />
+    <attr name="attr00bb" format="reference" />
+    <attr name="attr00bc" format="string" />
+    <attr name="attr00bd" format="reference" />
+    <attr name="attr00be" format="dimension" />
+    <attr name="attr00bf">
+        <flag name="id03ff" value="0x00000030" />
+        <flag name="id0092" value="0x00000050" />
+        <flag name="id0205" value="0x00000003" />
+        <flag name="id0316" value="0x00000005" />
+        <flag name="id00be" value="0x00000010" />
+        <flag name="id014c" value="0x00000070" />
+        <flag name="id00bd" value="0x00000001" />
+        <flag name="id00b6" value="0x00000011" />
+        <flag name="id039c" value="0x00800003" />
+        <flag name="id0121" value="0x00800005" />
+    </attr>
+    <attr name="attr00c0" format="reference" />
+    <attr name="attr00c1" format="reference" />
+    <attr name="attr00c2" format="color" />
+    <attr name="attr00c3" format="color" />
+    <attr name="attr00c4" format="color" />
+    <attr name="attr00c5" format="color" />
+    <attr name="attr00c6" format="color" />
+    <attr name="attr00c7" format="color" />
+    <attr name="attr00c8" format="color" />
+    <attr name="attr00c9" format="reference|color" />
+    <attr name="attr00ca" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="attr00cb" format="color" />
+    <attr name="attr00cc" format="color" />
+    <attr name="attr00cd" format="color" />
+    <attr name="attr00ce" format="color" />
+    <attr name="attr00cf" format="color" />
+    <attr name="attr00d0" format="color" />
+    <attr name="attr00d1" format="color" />
+    <attr name="attr00d2" format="color" />
+    <attr name="attr00d3" format="color" />
+    <attr name="attr00d4" format="reference">
+        <enum name="id00f5" value="0" />
+        <enum name="id0214" value="1" />
+        <enum name="id0081" value="2" />
+    </attr>
+    <attr name="attr00d5" format="color" />
+    <attr name="attr00d6" format="color" />
+    <attr name="attr00d7" format="color" />
+    <attr name="attr00d8" format="color" />
+    <attr name="color_checked" format="color" />
+    <attr name="color_tick" format="color" />
+    <attr name="color_unchecked" format="color" />
+    <attr name="color_unchecked_stroke" format="color" />
+    <attr name="attr00dd" format="reference" />
+    <attr name="attr00de" format="reference" />
+    <attr name="attr00df" format="reference" />
+    <attr name="attr00e0" format="reference" />
+    <attr name="constraint_referenced_ids" format="string" />
+    <attr name="attr00e2" format="reference" />
+    <attr name="attr00e3" format="reference" />
+    <attr name="attr00e4" format="string" />
+    <attr name="attr00e5" format="dimension" />
+    <attr name="attr00e6" format="dimension" />
+    <attr name="attr00e7" format="dimension" />
+    <attr name="attr00e8" format="dimension" />
+    <attr name="attr00e9" format="dimension" />
+    <attr name="attr00ea" format="dimension" />
+    <attr name="attr00eb" format="dimension" />
+    <attr name="contentPaddingBottom" format="dimension" />
+    <attr name="attr00ed" format="dimension" />
+    <attr name="contentPaddingLeft" format="dimension" />
+    <attr name="contentPaddingRight" format="dimension" />
+    <attr name="attr00f0" format="dimension" />
+    <attr name="contentPaddingTop" format="dimension" />
+    <attr name="attr00f2" format="color" />
+    <attr name="attr00f3" format="float" />
+    <attr name="attr00f4" format="reference" />
+    <attr name="attr00f5" format="reference" />
+    <attr name="attr00f6">
+        <enum name="id0339" value="0" />
+        <enum name="id00f4" value="1" />
+    </attr>
+    <attr name="attr00f7">
+        <enum name="id0339" value="0" />
+        <enum name="id00f4" value="1" />
+    </attr>
+    <attr name="attr00f8">
+        <enum name="id0339" value="0" />
+        <enum name="id00f4" value="1" />
+    </attr>
+    <attr name="attr00f9">
+        <enum name="id0339" value="0" />
+        <enum name="id00f4" value="1" />
+    </attr>
+    <attr name="attr00fa">
+        <enum name="id0339" value="0" />
+        <enum name="id00f4" value="1" />
+    </attr>
+    <attr name="cornerRadius" format="dimension" />
+    <attr name="attr00fc" format="dimension|fraction" />
+    <attr name="attr00fd" format="dimension|fraction" />
+    <attr name="attr00fe" format="dimension|fraction" />
+    <attr name="attr00ff" format="dimension|fraction" />
+    <attr name="attr0100" format="dimension|fraction" />
+    <attr name="attr0101" format="boolean" />
+    <attr name="attr0102" format="integer" />
+    <attr name="attr0103" format="reference" />
+    <attr name="attr0104" format="reference" />
+    <attr name="attr0105" format="reference" />
+    <attr name="attr0106" format="reference" />
+    <attr name="attr0107" format="integer" />
+    <attr name="attr0108" format="integer" />
+    <attr name="attr0109" format="boolean" />
+    <attr name="attr010a" format="color" />
+    <attr name="attr010b" format="color" />
+    <attr name="attr010c" format="dimension" />
+    <attr name="attr010d" format="dimension" />
+    <attr name="attr010e" format="dimension" />
+    <attr name="attr010f" format="color" />
+    <attr name="attr0110" format="dimension" />
+    <attr name="attr0111" format="boolean" />
+    <attr name="attr0112" format="boolean" />
+    <attr name="attr0113" format="boolean" />
+    <attr name="attr0114">
+        <enum name="id02b8" value="0" />
+        <enum name="id02be" value="1" />
+        <enum name="id02bd" value="2" />
+    </attr>
+    <attr name="attr0115" format="color" />
+    <attr name="attr0116" format="dimension" />
+    <attr name="attr0117" format="float" />
+    <attr name="attr0118" format="float" />
+    <attr name="attr0119" format="float" />
+    <attr name="attr011a" format="integer" />
+    <attr name="attr011b" format="float" />
+    <attr name="attr011c" format="float" />
+    <attr name="attr011d" format="dimension" />
+    <attr name="attr011e" format="dimension" />
+    <attr name="attr011f" format="boolean" />
+    <attr name="attr0120" format="boolean" />
+    <attr name="attr0121">
+        <enum name="id014e" value="0" />
+        <enum name="id00b6" value="1" />
+        <enum name="id00b9" value="2" />
+        <enum name="id00ba" value="3" />
+    </attr>
+    <attr name="attr0122">
+        <enum name="id0309" value="0" />
+        <enum name="id02c4" value="1" />
+    </attr>
+    <attr name="attr0123" format="boolean" />
+    <attr name="attr0124" format="boolean" />
+    <attr name="attr0125" format="dimension" />
+    <attr name="attr0126" format="dimension" />
+    <attr name="attr0127" format="float" />
+    <attr name="attr0128" format="reference" />
+    <attr name="attr0129">
+        <enum name="id0392" value="0" />
+        <enum name="id0218" value="1" />
+    </attr>
+    <attr name="attr012a" format="boolean" />
+    <attr name="attr012b" format="color" />
+    <attr name="attr012c" format="color" />
+    <attr name="attr012d" format="dimension" />
+    <attr name="attr012e" format="float" />
+    <attr name="attr012f" format="integer" />
+    <attr name="attr0130" format="reference" />
+    <attr name="attr0131" format="dimension" />
+    <attr name="attr0132" format="string" />
+    <attr name="attr0133" format="reference" />
+    <attr name="attr0134" format="reference" />
+    <attr name="attr0135" format="reference" />
+    <attr name="attr0136" format="reference" />
+    <attr name="attr0137" format="integer" />
+    <attr name="attr0138" format="string" />
+    <attr name="attr0139" format="reference" />
+    <attr name="attr013a" format="float" />
+    <attr name="attr013b" format="float" />
+    <attr name="attr013c" format="reference" />
+    <attr name="attr013d" format="dimension" />
+    <attr name="attr013e" format="dimension" />
+    <attr name="attr013f" format="reference" />
+    <attr name="attr0140">
+        <flag name="id02b0" value="0x00000000" />
+        <flag name="id047d" value="0x00000001" />
+        <flag name="id037a" value="0x00000002" />
+        <flag name="id018a" value="0x00000004" />
+        <flag name="id037b" value="0x00000008" />
+        <flag name="id0379" value="0x00000010" />
+        <flag name="id010c" value="0x00000020" />
+    </attr>
+    <attr name="divider" format="reference" />
+    <attr name="attr0142" format="reference" />
+    <attr name="attr0143" format="reference" />
+    <attr name="attr0144" format="reference" />
+    <attr name="attr0145" format="reference" />
+    <attr name="dividerPadding" format="dimension" />
+    <attr name="attr0147" format="reference" />
+    <attr name="attr0148" format="color" />
+    <attr name="attr0149">
+        <enum name="id0115" value="0" />
+        <enum name="id0110" value="1" />
+        <enum name="id0112" value="2" />
+        <enum name="id0113" value="3" />
+        <enum name="id0114" value="4" />
+        <enum name="id0111" value="5" />
+    </attr>
+    <attr name="attr014a" format="float" />
+    <attr name="attr014b" format="float" />
+    <attr name="attr014c">
+        <enum name="id02b0" value="0" />
+        <enum name="id02cc" value="1" />
+        <enum name="id02cd" value="2" />
+        <enum name="id00fe" value="3" />
+        <enum name="id0072" value="4" />
+        <enum name="id030a" value="5" />
+    </attr>
+    <attr name="attr014d" format="reference" />
+    <attr name="attr014e" format="reference" />
+    <attr name="drawableLeftCompat" format="reference" />
+    <attr name="attr0150" format="reference" />
+    <attr name="attr0151" format="dimension" />
+    <attr name="drawableStartCompat" format="reference" />
+    <attr name="drawableTint" format="color" />
+    <attr name="attr0154">
+        <enum name="id0399" value="3" />
+        <enum name="id0398" value="5" />
+        <enum name="id0397" value="9" />
+        <enum name="id02a2" value="14" />
+        <enum name="id034f" value="15" />
+        <enum name="id0053" value="16" />
+    </attr>
+    <attr name="attr0155" format="reference" />
+    <attr name="attr0156" format="reference" />
+    <attr name="attr0157" format="reference" />
+    <attr name="attr0158" format="dimension" />
+    <attr name="duration" format="integer" />
+    <attr name="attr015a" format="reference" />
+    <attr name="attr015b" format="reference|color" />
+    <attr name="attr015c" format="reference" />
+    <attr name="elevation" format="dimension" />
+    <attr name="attr015e" format="color" />
+    <attr name="attr015f" format="boolean" />
+    <attr name="attr0160" format="boolean" />
+    <attr name="endColor" format="color" />
+    <attr name="attr0162" format="boolean" />
+    <attr name="attr0163" format="string" />
+    <attr name="endIconDrawable" format="reference" />
+    <attr name="endIconMode">
+        <enum name="id00f2" value="-1" />
+        <enum name="id02b0" value="0" />
+        <enum name="id02cb" value="1" />
+        <enum name="id00ce" value="2" />
+        <enum name="id0116" value="3" />
+    </attr>
+    <attr name="attr0166" format="color" />
+    <attr name="attr0167">
+        <enum name="id0399" value="3" />
+        <enum name="id0398" value="5" />
+        <enum name="id0397" value="9" />
+        <enum name="id02a2" value="14" />
+        <enum name="id034f" value="15" />
+    </attr>
+    <attr name="attr0168" format="boolean" />
+    <attr name="attr0169" format="boolean" />
+    <attr name="attr016a" format="boolean" />
+    <attr name="attr016b" format="string" />
+    <attr name="attr016c" format="boolean" />
+    <attr name="errorIconDrawable" format="reference" />
+    <attr name="attr016e" format="reference" />
+    <attr name="attr016f">
+        <enum name="id0399" value="3" />
+        <enum name="id0398" value="5" />
+        <enum name="id0397" value="9" />
+        <enum name="id02a2" value="14" />
+        <enum name="id034f" value="15" />
+    </attr>
+    <attr name="attr0170" format="reference" />
+    <attr name="attr0171" format="color" />
+    <attr name="attr0172" format="reference" />
+    <attr name="attr0173" format="boolean" />
+    <attr name="attr0174" format="boolean" />
+    <attr name="attr0175">
+        <flag name="id03ff" value="0x00000030" />
+        <flag name="id0092" value="0x00000050" />
+        <flag name="id0205" value="0x00000003" />
+        <flag name="id0316" value="0x00000005" />
+        <flag name="id00be" value="0x00000010" />
+        <flag name="id014c" value="0x00000070" />
+        <flag name="id00bd" value="0x00000001" />
+        <flag name="id00b6" value="0x00000011" />
+        <flag name="id039c" value="0x00800003" />
+        <flag name="id0121" value="0x00800005" />
+    </attr>
+    <attr name="attr0176" format="dimension" />
+    <attr name="attr0177" format="dimension" />
+    <attr name="attr0178" format="dimension" />
+    <attr name="attr0179" format="dimension" />
+    <attr name="attr017a" format="dimension" />
+    <attr name="attr017b" format="reference" />
+    <attr name="attr017c" format="reference" />
+    <attr name="attr017d" format="reference" />
+    <attr name="attr017e" format="boolean" />
+    <attr name="attr017f">
+        <enum name="id00b6" value="0" />
+        <enum name="id0121" value="1" />
+    </attr>
+    <attr name="attr0180">
+        <enum name="id034d" value="0" />
+        <enum name="id0383" value="1" />
+    </attr>
+    <attr name="attr0181" format="dimension" />
+    <attr name="attr0182" format="dimension" />
+    <attr name="attr0183" format="dimension" />
+    <attr name="attr0184" format="dimension" />
+    <attr name="attr0185">
+        <enum name="id0081" value="-1" />
+        <enum name="id02b1" value="0" />
+        <enum name="id027c" value="1" />
+    </attr>
+    <attr name="attr0186" format="boolean" />
+    <attr name="attr0187" format="reference" />
+    <attr name="attr0188" format="reference" />
+    <attr name="attr0189" format="reference" />
+    <attr name="attr018a" format="reference" />
+    <attr name="firstBaselineToTopHeight" format="dimension" />
+    <attr name="attr018c">
+        <enum name="id033a" value="0" />
+        <enum name="id033c" value="1" />
+        <enum name="id00d5" value="2" />
+        <enum name="id00d6" value="3" />
+    </attr>
+    <attr name="attr018d">
+        <enum name="id02b7" value="0" />
+        <enum name="id04bc" value="1" />
+        <enum name="id04be" value="2" />
+    </attr>
+    <attr name="attr018e" format="reference" />
+    <attr name="attr018f" format="float" />
+    <attr name="attr0190">
+        <enum name="id0394" value="0" />
+        <enum name="id0395" value="1" />
+        <enum name="id02c5" value="2" />
+    </attr>
+    <attr name="attr0191" format="float" />
+    <attr name="attr0192">
+        <enum name="id0394" value="0" />
+        <enum name="id0395" value="1" />
+        <enum name="id02c5" value="2" />
+    </attr>
+    <attr name="attr0193" format="float">
+        <enum name="id039c" value="0" />
+        <enum name="id0121" value="1" />
+        <enum name="id00b6" value="2" />
+    </attr>
+    <attr name="flow_horizontalBias" format="float" />
+    <attr name="flow_horizontalGap" format="dimension" />
+    <attr name="flow_horizontalStyle">
+        <enum name="id0394" value="0" />
+        <enum name="id0395" value="1" />
+        <enum name="id02c5" value="2" />
+    </attr>
+    <attr name="attr0197" format="float" />
+    <attr name="attr0198">
+        <enum name="id0394" value="0" />
+        <enum name="id0395" value="1" />
+        <enum name="id02c5" value="2" />
+    </attr>
+    <attr name="attr0199" format="float" />
+    <attr name="attr019a">
+        <enum name="id0394" value="0" />
+        <enum name="id0395" value="1" />
+        <enum name="id02c5" value="2" />
+    </attr>
+    <attr name="attr019b" format="integer" />
+    <attr name="attr019c" format="dimension" />
+    <attr name="attr019d">
+        <enum name="id03ff" value="0" />
+        <enum name="id0092" value="1" />
+        <enum name="id00b6" value="2" />
+        <enum name="id008d" value="3" />
+    </attr>
+    <attr name="attr019e" format="float" />
+    <attr name="flow_verticalGap" format="dimension" />
+    <attr name="attr01a0">
+        <enum name="id0394" value="0" />
+        <enum name="id0395" value="1" />
+        <enum name="id02c5" value="2" />
+    </attr>
+    <attr name="flow_wrapMode">
+        <enum name="id02b0" value="0" />
+        <enum name="id00bf" value="1" />
+        <enum name="id0067" value="2" />
+    </attr>
+    <attr name="attr01a2" format="reference" />
+    <attr name="attr01a3" format="string" />
+    <attr name="attr01a4" format="string" />
+    <attr name="attr01a5" format="reference" />
+    <attr name="attr01a6">
+        <enum name="id0091" value="0" />
+        <enum name="id0074" value="1" />
+    </attr>
+    <attr name="attr01a7" format="integer">
+        <enum name="id015b" value="-1" />
+    </attr>
+    <attr name="attr01a8" format="string" />
+    <attr name="attr01a9" format="string" />
+    <attr name="attr01aa" format="string" />
+    <attr name="attr01ab">
+        <enum name="id02b1" value="0" />
+        <enum name="id019f" value="1" />
+    </attr>
+    <attr name="attr01ac" format="string" />
+    <attr name="attr01ad" format="integer" />
+    <attr name="attr01ae" format="boolean" />
+    <attr name="attr01af" format="boolean" />
+    <attr name="attr01b0" format="integer" />
+    <attr name="attr01b1" format="dimension" />
+    <attr name="attr01b2" format="boolean" />
+    <attr name="attr01b3" format="reference" />
+    <attr name="attr01b4" format="reference|color" />
+    <attr name="gv_LineEndColor" format="reference|color" />
+    <attr name="gv_LineMiddleColor" format="reference|color" />
+    <attr name="gv_LineStartColor" format="reference|color" />
+    <attr name="attr01b8" format="reference|dimension" />
+    <attr name="gv_currentValue" format="reference|float" />
+    <attr name="attr01ba" format="reference|dimension" />
+    <attr name="gv_gradationUnit" format="reference|float" />
+    <attr name="gv_indicatorDrawable" format="reference" />
+    <attr name="gv_indicatorLineColor" format="reference|color" />
+    <attr name="attr01be" format="reference|dimension" />
+    <attr name="gv_maskColor" format="reference|color" />
+    <attr name="gv_maxValue" format="reference|float" />
+    <attr name="gv_minValue" format="reference|float" />
+    <attr name="gv_numberPerCount" format="reference|integer" />
+    <attr name="gv_showMask" format="boolean" />
+    <attr name="gv_textColor" format="reference|color" />
+    <attr name="attr01c5" format="reference|dimension" />
+    <attr name="attr01c6" format="color" />
+    <attr name="attr01c7" format="dimension" />
+    <attr name="attr01c8" format="reference" />
+    <attr name="attr01c9" format="dimension" />
+    <attr name="attr01ca" format="string" />
+    <attr name="attr01cb" format="boolean" />
+    <attr name="attr01cc" format="reference" />
+    <attr name="attr01cd" format="color" />
+    <attr name="attr01ce">
+        <enum name="id02b0" value="0" />
+        <enum name="id02c3" value="1" />
+        <enum name="id019e" value="2" />
+    </attr>
+    <attr name="attr01cf" format="reference" />
+    <attr name="attr01d0" format="boolean" />
+    <attr name="attr01d1" format="boolean" />
+    <attr name="attr01d2" format="boolean" />
+    <attr name="hintEnabled" format="boolean" />
+    <attr name="attr01d4" format="reference" />
+    <attr name="attr01d5" format="color" />
+    <attr name="attr01d6" format="integer" />
+    <attr name="attr01d7" format="reference" />
+    <attr name="attr01d8" format="color" />
+    <attr name="hl_cornerRadius" format="dimension" />
+    <attr name="hl_cornerRadius_leftBottom" format="dimension" />
+    <attr name="hl_cornerRadius_leftTop" format="dimension" />
+    <attr name="hl_cornerRadius_rightBottom" format="dimension" />
+    <attr name="hl_cornerRadius_rightTop" format="dimension" />
+    <attr name="attr01de" format="color" />
+    <attr name="hl_layoutBackground" format="reference|color" />
+    <attr name="attr01e0" format="reference|color" />
+    <attr name="hl_layoutBackground_true" format="reference|color" />
+    <attr name="hl_shadowColor" format="color" />
+    <attr name="attr01e3" format="boolean" />
+    <attr name="attr01e4" format="boolean" />
+    <attr name="attr01e5" format="boolean" />
+    <attr name="hl_shadowHiddenRight" format="boolean" />
+    <attr name="attr01e7" format="boolean" />
+    <attr name="hl_shadowLimit" format="dimension" />
+    <attr name="attr01e9" format="dimension" />
+    <attr name="attr01ea" format="dimension" />
+    <attr name="attr01eb" format="boolean" />
+    <attr name="hl_shapeMode">
+        <enum name="id02eb" value="1" />
+        <enum name="id0368" value="2" />
+        <enum name="id0325" value="3" />
+    </attr>
+    <attr name="attr01ed" format="color" />
+    <attr name="attr01ee" format="color" />
+    <attr name="attr01ef" format="color" />
+    <attr name="attr01f0" format="dimension" />
+    <attr name="attr01f1" format="string" />
+    <attr name="attr01f2" format="color" />
+    <attr name="attr01f3" format="color" />
+    <attr name="attr01f4" format="string" />
+    <attr name="attr01f5" format="reference" />
+    <attr name="attr01f6" format="reference" />
+    <attr name="horizontalOffset" format="dimension" />
+    <attr name="attr01f8" format="dimension" />
+    <attr name="icon" format="reference" />
+    <attr name="attr01fa" format="dimension" />
+    <attr name="iconGravity">
+        <flag name="id039c" value="0x00000001" />
+        <flag name="id03e5" value="0x00000002" />
+        <flag name="id0121" value="0x00000003" />
+        <flag name="id03e1" value="0x00000004" />
+        <flag name="id03ff" value="0x00000010" />
+        <flag name="id03e6" value="0x00000020" />
+    </attr>
+    <attr name="iconPadding" format="dimension" />
+    <attr name="attr01fd" format="dimension" />
+    <attr name="attr01fe" format="dimension" />
+    <attr name="attr01ff" format="color" />
+    <attr name="attr0200">
+        <enum name="id0399" value="3" />
+        <enum name="id0398" value="5" />
+        <enum name="id0397" value="9" />
+        <enum name="id02a2" value="14" />
+        <enum name="id034f" value="15" />
+        <enum name="id0053" value="16" />
+    </attr>
+    <attr name="attr0201" format="boolean" />
+    <attr name="attr0202" format="float" />
+    <attr name="attr0203">
+        <enum name="id02b0" value="0" />
+        <enum name="id005a" value="1" />
+        <enum name="id0059" value="2" />
+    </attr>
+    <attr name="attr0204" format="reference" />
+    <attr name="attr0205">
+        <enum name="id00e0" value="0" />
+        <enum name="id010f" value="1" />
+    </attr>
+    <attr name="attr0206" format="reference" />
+    <attr name="attr0207" format="reference|color" />
+    <attr name="attr0208">
+        <enum name="id00d1" value="0" />
+        <enum name="id00e9" value="1" />
+    </attr>
+    <attr name="attr0209">
+        <enum name="id020a" value="0" />
+        <enum name="id031b" value="1" />
+        <enum name="id039f" value="2" />
+        <enum name="id0123" value="3" />
+    </attr>
+    <attr name="attr020a" format="dimension" />
+    <attr name="attr020b" format="dimension" />
+    <attr name="attr020c" format="string" />
+    <attr name="attr020d" format="reference|color" />
+    <attr name="attr020e" format="boolean" />
+    <attr name="attr020f" format="boolean" />
+    <attr name="attr0210" format="boolean" />
+    <attr name="attr0211" format="reference" />
+    <attr name="attr0212" format="color" />
+    <attr name="attr0213" format="dimension" />
+    <attr name="attr0214" format="boolean" />
+    <attr name="attr0215" format="dimension" />
+    <attr name="attr0216" format="dimension" />
+    <attr name="attr0217" format="color" />
+    <attr name="attr0218" format="integer" min="1" />
+    <attr name="attr0219" format="dimension" />
+    <attr name="attr021a" format="color" />
+    <attr name="attr021b" format="reference" />
+    <attr name="attr021c" format="reference" />
+    <attr name="attr021d" format="color" />
+    <attr name="attr021e" format="dimension" />
+    <attr name="attr021f" format="dimension" />
+    <attr name="attr0220" format="dimension" />
+    <attr name="attr0221" format="dimension" />
+    <attr name="attr0222" format="dimension" />
+    <attr name="attr0223" format="color" />
+    <attr name="attr0224" format="dimension" />
+    <attr name="attr0225" format="reference" />
+    <attr name="attr0226" format="reference" />
+    <attr name="attr0227" format="reference" />
+    <attr name="attr0228" format="color" />
+    <attr name="attr0229">
+        <enum name="id0156" value="0" />
+        <enum name="id0155" value="1" />
+        <enum name="id00b6" value="2" />
+        <enum name="id038d" value="3" />
+        <enum name="id038c" value="4" />
+        <enum name="id038e" value="5" />
+    </attr>
+    <attr name="attr022a">
+        <enum name="id00fe" value="0" />
+        <enum name="id02cd" value="1" />
+        <enum name="id02c9" value="2" />
+    </attr>
+    <attr name="attr022b" format="reference" />
+    <attr name="attr022c" format="reference" />
+    <attr name="attr022d" format="float" />
+    <attr name="attr022e">
+        <enum name="id0158" value="0" />
+        <enum name="id04bb" value="1" />
+        <enum name="id0171" value="2" />
+    </attr>
+    <attr name="attr022f" format="reference" />
+    <attr name="attr0230">
+        <enum name="id0081" value="-1" />
+        <enum name="id0368" value="0" />
+        <enum name="id01e8" value="1" />
+        <enum name="id047b" value="2" />
+    </attr>
+    <attr name="attr0231" format="dimension" />
+    <attr name="attr0232" format="reference" />
+    <attr name="attr0233" format="reference" />
+    <attr name="attr0234">
+        <enum name="id0194" value="0" />
+        <enum name="id018b" value="1" />
+    </attr>
+    <attr name="attr0235" format="string" />
+    <attr name="attr0236">
+        <enum name="id0081" value="-1" />
+        <enum name="id0156" value="0" />
+        <enum name="id0155" value="1" />
+        <enum name="id00b6" value="2" />
+        <enum name="id008d" value="3" />
+        <enum name="id03a8" value="4" />
+    </attr>
+    <attr name="attr0237" format="reference" />
+    <attr name="attr0238">
+        <flag name="id03ff" value="0x00000030" />
+        <flag name="id0092" value="0x00000050" />
+        <flag name="id0205" value="0x00000003" />
+        <flag name="id0316" value="0x00000005" />
+        <flag name="id00be" value="0x00000010" />
+        <flag name="id014c" value="0x00000070" />
+        <flag name="id00bd" value="0x00000001" />
+        <flag name="id014b" value="0x00000007" />
+        <flag name="id00b6" value="0x00000011" />
+        <flag name="id014a" value="0x00000077" />
+        <flag name="id00d0" value="0x00000080" />
+        <flag name="id00cf" value="0x00000008" />
+        <flag name="id039c" value="0x00800003" />
+        <flag name="id0121" value="0x00800005" />
+    </attr>
+    <attr name="layout_behavior" format="string" />
+    <attr name="attr023a">
+        <enum name="id02b0" value="0" />
+        <enum name="id02d3" value="1" />
+        <enum name="id02c6" value="2" />
+    </attr>
+    <attr name="attr023b" format="float" />
+    <attr name="attr023c" format="boolean" />
+    <attr name="layout_constrainedWidth" format="boolean" />
+    <attr name="attr023e" format="integer" />
+    <attr name="attr023f" format="reference">
+        <enum name="id02c7" value="0" />
+    </attr>
+    <attr name="attr0240" format="integer" />
+    <attr name="layout_constraintBottom_toBottomOf" format="reference">
+        <enum name="id02c7" value="0" />
+    </attr>
+    <attr name="layout_constraintBottom_toTopOf" format="reference">
+        <enum name="id02c7" value="0" />
+    </attr>
+    <attr name="attr0243" format="reference" />
+    <attr name="attr0244" format="integer" />
+    <attr name="attr0245" format="dimension" />
+    <attr name="layout_constraintDimensionRatio" format="string" />
+    <attr name="layout_constraintEnd_toEndOf" format="reference">
+        <enum name="id02c7" value="0" />
+    </attr>
+    <attr name="layout_constraintEnd_toStartOf" format="reference">
+        <enum name="id02c7" value="0" />
+    </attr>
+    <attr name="layout_constraintGuide_begin" format="dimension" />
+    <attr name="attr024a" format="dimension" />
+    <attr name="layout_constraintGuide_percent" format="float" />
+    <attr name="attr024c">
+        <enum name="id0394" value="0" />
+        <enum name="id04bc" value="1" />
+        <enum name="id02cf" value="2" />
+    </attr>
+    <attr name="attr024d" format="dimension">
+        <enum name="id04bc" value="-2" />
+    </attr>
+    <attr name="attr024e" format="dimension">
+        <enum name="id04bc" value="-2" />
+    </attr>
+    <attr name="attr024f" format="float" />
+    <attr name="layout_constraintHorizontal_bias" format="float" />
+    <attr name="layout_constraintHorizontal_chainStyle">
+        <enum name="id0394" value="0" />
+        <enum name="id0395" value="1" />
+        <enum name="id02c5" value="2" />
+    </attr>
+    <attr name="layout_constraintHorizontal_weight" format="float" />
+    <attr name="attr0253" format="integer" />
+    <attr name="layout_constraintLeft_toLeftOf" format="reference">
+        <enum name="id02c7" value="0" />
+    </attr>
+    <attr name="attr0255" format="reference">
+        <enum name="id02c7" value="0" />
+    </attr>
+    <attr name="attr0256" format="integer" />
+    <attr name="attr0257" format="reference">
+        <enum name="id02c7" value="0" />
+    </attr>
+    <attr name="layout_constraintRight_toRightOf" format="reference">
+        <enum name="id02c7" value="0" />
+    </attr>
+    <attr name="layout_constraintStart_toEndOf" format="reference">
+        <enum name="id02c7" value="0" />
+    </attr>
+    <attr name="layout_constraintStart_toStartOf" format="reference">
+        <enum name="id02c7" value="0" />
+    </attr>
+    <attr name="attr025b" format="string" />
+    <attr name="attr025c" format="integer" />
+    <attr name="layout_constraintTop_toBottomOf" format="reference">
+        <enum name="id02c7" value="0" />
+    </attr>
+    <attr name="layout_constraintTop_toTopOf" format="reference">
+        <enum name="id02c7" value="0" />
+    </attr>
+    <attr name="attr025f" format="float" />
+    <attr name="layout_constraintVertical_chainStyle">
+        <enum name="id0394" value="0" />
+        <enum name="id0395" value="1" />
+        <enum name="id02c5" value="2" />
+    </attr>
+    <attr name="attr0261" format="float" />
+    <attr name="attr0262">
+        <enum name="id0394" value="0" />
+        <enum name="id04bc" value="1" />
+        <enum name="id02cf" value="2" />
+    </attr>
+    <attr name="layout_constraintWidth_max" format="dimension">
+        <enum name="id04bc" value="-2" />
+    </attr>
+    <attr name="attr0264" format="dimension">
+        <enum name="id04bc" value="-2" />
+    </attr>
+    <attr name="attr0265" format="float" />
+    <attr name="attr0266">
+        <flag name="id02b0" value="0x00000000" />
+        <flag name="id03ff" value="0x00000030" />
+        <flag name="id0092" value="0x00000050" />
+        <flag name="id0205" value="0x00000003" />
+        <flag name="id0316" value="0x00000005" />
+        <flag name="id039c" value="0x00800003" />
+        <flag name="id0121" value="0x00800005" />
+        <flag name="id0068" value="0x00000077" />
+    </attr>
+    <attr name="attr0267" format="dimension" />
+    <attr name="attr0268" format="dimension" />
+    <attr name="attr0269" format="fraction" />
+    <attr name="attr026a" format="float" />
+    <attr name="attr026b" format="float" />
+    <attr name="attr026c" format="dimension" />
+    <attr name="layout_goneMarginEnd" format="dimension" />
+    <attr name="attr026e" format="dimension" />
+    <attr name="attr026f" format="dimension" />
+    <attr name="layout_goneMarginStart" format="dimension" />
+    <attr name="layout_goneMarginTop" format="dimension" />
+    <attr name="attr0272">
+        <enum name="id02b0" value="0" />
+        <enum name="id03ff" value="48" />
+        <enum name="id0092" value="80" />
+        <enum name="id0205" value="3" />
+        <enum name="id0316" value="5" />
+        <enum name="id039c" value="8388611" />
+        <enum name="id0121" value="8388613" />
+    </attr>
+    <attr name="attr0273" format="integer" />
+    <attr name="attr0274" format="dimension" />
+    <attr name="attr0275" format="dimension" />
+    <attr name="attr0276" format="dimension" />
+    <attr name="attr0277" format="dimension" />
+    <attr name="attr0278">
+        <flag name="id02b0" value="0x00000000" />
+        <flag name="id039a" value="0x00000007" />
+        <flag name="id010a" value="0x00000001" />
+        <flag name="id008b" value="0x00000002" />
+        <flag name="id00c0" value="0x00000004" />
+        <flag name="id0109" value="0x00000008" />
+        <flag name="id02ff" value="0x00000010" />
+        <flag name="id017a" value="0x00000020" />
+        <flag name="id0173" value="0x00000040" />
+        <flag name="id0174" value="0x00000080" />
+    </attr>
+    <attr name="attr0279" format="integer" />
+    <attr name="layout_scrollFlags">
+        <flag name="id02af" value="0x00000000" />
+        <flag name="id0350" value="0x00000001" />
+        <flag name="id012d" value="0x00000002" />
+        <flag name="id0128" value="0x00000004" />
+        <flag name="id0129" value="0x00000008" />
+        <flag name="id0387" value="0x00000010" />
+        <flag name="id0388" value="0x00000020" />
+    </attr>
+    <attr name="attr027b" format="reference" />
+    <attr name="attr027c" format="boolean" />
+    <attr name="attr027d" format="boolean" />
+    <attr name="attr027e" format="reference" />
+    <attr name="attr027f" format="reference" />
+    <attr name="lineHeight" format="dimension" />
+    <attr name="attr0281" format="dimension" />
+    <attr name="attr0282" format="reference" />
+    <attr name="attr0283" format="reference" />
+    <attr name="attr0284" format="reference" />
+    <attr name="attr0285" format="reference" />
+    <attr name="attr0286" format="reference" />
+    <attr name="attr0287" format="reference" />
+    <attr name="attr0288" format="reference" />
+    <attr name="attr0289" format="reference" />
+    <attr name="attr028a" format="reference" />
+    <attr name="attr028b" format="dimension" />
+    <attr name="attr028c" format="dimension" />
+    <attr name="attr028d" format="dimension" />
+    <attr name="attr028e" format="dimension" />
+    <attr name="attr028f" format="dimension" />
+    <attr name="attr0290" format="dimension" />
+    <attr name="attr0291" format="dimension" />
+    <attr name="attr0292" format="reference" />
+    <attr name="attr0293" format="string" />
+    <attr name="attr0294" format="reference" />
+    <attr name="lottie_autoPlay" format="boolean" />
+    <attr name="attr0296" format="boolean" />
+    <attr name="attr0297" format="boolean" />
+    <attr name="attr0298" format="color" />
+    <attr name="attr0299" format="boolean" />
+    <attr name="attr029a" format="reference" />
+    <attr name="lottie_fileName" format="string" />
+    <attr name="attr029c" format="boolean" />
+    <attr name="attr029d" format="string" />
+    <attr name="attr029e" format="boolean" />
+    <attr name="attr029f" format="float" />
+    <attr name="attr02a0" format="reference" />
+    <attr name="attr02a1">
+        <enum name="id0085" value="0" />
+        <enum name="id0185" value="1" />
+        <enum name="id0389" value="2" />
+    </attr>
+    <attr name="attr02a2" format="integer" />
+    <attr name="attr02a3">
+        <enum name="id0311" value="1" />
+        <enum name="id0314" value="2" />
+    </attr>
+    <attr name="attr02a4" format="float" />
+    <attr name="attr02a5" format="string" />
+    <attr name="attr02a6" format="reference" />
+    <attr name="attr02a7" format="reference" />
+    <attr name="attr02a8" format="reference" />
+    <attr name="attr02a9" format="reference" />
+    <attr name="attr02aa" format="reference" />
+    <attr name="attr02ab" format="reference" />
+    <attr name="attr02ac" format="reference" />
+    <attr name="attr02ad" format="reference" />
+    <attr name="attr02ae" format="reference" />
+    <attr name="attr02af" format="reference" />
+    <attr name="attr02b0" format="reference" />
+    <attr name="attr02b1" format="reference" />
+    <attr name="attr02b2" format="reference" />
+    <attr name="attr02b3" format="reference" />
+    <attr name="attr02b4" format="reference" />
+    <attr name="attr02b5" format="reference" />
+    <attr name="attr02b6" format="reference" />
+    <attr name="attr02b7" format="reference" />
+    <attr name="attr02b8" format="reference" />
+    <attr name="attr02b9" format="reference" />
+    <attr name="attr02ba" format="reference" />
+    <attr name="attr02bb" format="reference" />
+    <attr name="attr02bc" format="reference" />
+    <attr name="attr02bd" format="dimension" />
+    <attr name="attr02be" format="reference" />
+    <attr name="attr02bf" format="reference" />
+    <attr name="attr02c0" format="reference" />
+    <attr name="attr02c1" format="reference" />
+    <attr name="max" format="integer" />
+    <attr name="attr02c3" format="float" />
+    <attr name="attr02c4" format="dimension" />
+    <attr name="attr02c5" format="dimension" />
+    <attr name="maxCharacterCount" format="integer" />
+    <attr name="maxHeight" format="reference|dimension" />
+    <attr name="attr02c8" format="dimension" />
+    <attr name="attr02c9" format="integer" />
+    <attr name="attr02ca" format="integer" />
+    <attr name="attr02cb" format="float" />
+    <attr name="attr02cc" format="string" />
+    <attr name="attr02cd" format="dimension" />
+    <attr name="attr02ce" format="boolean" />
+    <attr name="attr02cf" format="reference" />
+    <attr name="attr02d0">
+        <enum name="id03ff" value="49" />
+        <enum name="id00b6" value="17" />
+        <enum name="id0092" value="81" />
+    </attr>
+    <attr name="middleColor" format="color" />
+    <attr name="min" format="integer" />
+    <attr name="attr02d3" format="dimension" />
+    <attr name="attr02d4" format="integer" />
+    <attr name="attr02d5" format="dimension" />
+    <attr name="attr02d6" format="dimension" />
+    <attr name="attr02d7" format="dimension" />
+    <attr name="attr02d8" format="color" />
+    <attr name="attr02d9" format="string" />
+    <attr name="attr02da" format="color" />
+    <attr name="attr02db" format="color" />
+    <attr name="attr02dc" format="boolean" />
+    <attr name="attr02dd" format="boolean" />
+    <attr name="attr02de">
+        <enum name="id0009" value="0" />
+        <enum name="id000d" value="1" />
+        <enum name="id000c" value="2" />
+        <enum name="id000b" value="3" />
+    </attr>
+    <attr name="attr02df" format="integer" />
+    <attr name="attr02e0" format="integer" />
+    <attr name="attr02e1" format="integer" />
+    <attr name="attr02e2" format="integer" />
+    <attr name="attr02e3" format="integer" />
+    <attr name="attr02e4" format="integer" />
+    <attr name="attr02e5" format="string" />
+    <attr name="attr02e6" format="string" />
+    <attr name="attr02e7" format="string" />
+    <attr name="attr02e8" format="string" />
+    <attr name="attr02e9" format="string" />
+    <attr name="attr02ea" format="reference|string">
+        <enum name="id0119" value="0" />
+        <enum name="id0118" value="1" />
+        <enum name="id011a" value="2" />
+        <enum name="id0218" value="3" />
+        <enum name="id0096" value="5" />
+    </attr>
+    <attr name="attr02eb" format="string">
+        <enum name="id0218" value="0" />
+        <enum name="id0071" value="1" />
+    </attr>
+    <attr name="attr02ec" format="float" />
+    <attr name="attr02ed" format="float" />
+    <attr name="attr02ee" format="float" />
+    <attr name="attr02ef" format="reference|string" />
+    <attr name="attr02f0" format="boolean" />
+    <attr name="attr02f1" format="reference" />
+    <attr name="attr02f2" format="boolean" />
+    <attr name="attr02f3" format="reference" />
+    <attr name="navigationContentDescription" format="string" />
+    <attr name="navigationIcon" format="reference" />
+    <attr name="attr02f6" format="color" />
+    <attr name="attr02f7">
+        <enum name="id02b1" value="0" />
+        <enum name="id0219" value="1" />
+        <enum name="id03b4" value="2" />
+    </attr>
+    <attr name="attr02f8" format="reference" />
+    <attr name="attr02f9" format="reference" />
+    <attr name="attr02fa">
+        <flag name="id02b0" value="0x00000000" />
+        <flag name="id010d" value="0x00000001" />
+        <flag name="id010e" value="0x00000002" />
+    </attr>
+    <attr name="attr02fb" format="reference" />
+    <attr name="attr02fc" format="boolean" />
+    <attr name="attr02fd" format="integer" />
+    <attr name="attr02fe">
+        <flag name="id0008" value="0x00010000" />
+        <flag name="id0003" value="0x00001000" />
+        <flag name="id0000" value="0x00000002" />
+        <flag name="id000a" value="0x00000001" />
+        <flag name="id000e" value="0x00000004" />
+        <flag name="id0006" value="0x00000008" />
+    </attr>
+    <attr name="attr02ff" format="string" />
+    <attr name="attr0300" format="boolean" />
+    <attr name="attr0301" format="string" />
+    <attr name="attr0302" format="string" />
+    <attr name="attr0303" format="boolean" />
+    <attr name="attr0304">
+        <enum name="id0082" value="0" />
+        <enum name="id0084" value="1" />
+        <enum name="id0083" value="2" />
+        <enum name="id03a7" value="3" />
+        <enum name="id00f9" value="4" />
+        <enum name="id00fa" value="5" />
+    </attr>
+    <attr name="attr0305" format="boolean" />
+    <attr name="attr0306" format="boolean" />
+    <attr name="paddingBottomNoButtons" format="dimension" />
+    <attr name="attr0308" format="boolean" />
+    <attr name="attr0309" format="dimension" />
+    <attr name="attr030a" format="boolean" />
+    <attr name="attr030b" format="boolean" />
+    <attr name="attr030c" format="dimension" />
+    <attr name="paddingTopNoTitle" format="dimension" />
+    <attr name="attr030e" format="boolean" />
+    <attr name="attr030f" format="reference" />
+    <attr name="attr0310" format="reference" />
+    <attr name="attr0311" format="dimension" />
+    <attr name="attr0312" format="string" />
+    <attr name="passwordToggleDrawable" format="reference" />
+    <attr name="attr0314" format="boolean" />
+    <attr name="attr0315" format="color" />
+    <attr name="attr0316">
+        <enum name="id0399" value="3" />
+        <enum name="id0398" value="5" />
+        <enum name="id0397" value="9" />
+        <enum name="id02a2" value="14" />
+        <enum name="id034f" value="15" />
+    </attr>
+    <attr name="attr0317">
+        <enum name="id02b0" value="0" />
+        <enum name="id03a0" value="1" />
+        <enum name="id039d" value="2" />
+        <enum name="id0157" value="3" />
+    </attr>
+    <attr name="attr0318" format="float" />
+    <attr name="attr0319" format="float" />
+    <attr name="attr031a" format="float" />
+    <attr name="attr031b" format="float" />
+    <attr name="attr031c" format="float" />
+    <attr name="attr031d" format="float" />
+    <attr name="attr031e" format="reference">
+        <enum name="id02c7" value="0" />
+    </attr>
+    <attr name="attr031f" format="string" />
+    <attr name="attr0320" format="reference" />
+    <attr name="attr0321" format="color" />
+    <attr name="attr0322">
+        <enum name="id04b1" value="0" />
+        <enum name="id019d" value="4" />
+        <enum name="id0171" value="8" />
+    </attr>
+    <attr name="attr0323" format="reference" />
+    <attr name="attr0324" format="reference" />
+    <attr name="popupTheme" format="reference" />
+    <attr name="attr0326" format="reference" />
+    <attr name="attr0327" format="string" />
+    <attr name="attr0328" format="reference" />
+    <attr name="attr0329" format="color" />
+    <attr name="attr032a" format="boolean" />
+    <attr name="attr032b" format="dimension" />
+    <attr name="attr032c" format="dimension" />
+    <attr name="attr032d" format="reference" />
+    <attr name="attr032e" format="dimension" />
+    <attr name="attr032f" format="color" />
+    <attr name="attr0330" format="reference" />
+    <attr name="attr0331" format="string" />
+    <attr name="attr0332" format="reference" />
+    <attr name="attr0333" format="reference" />
+    <attr name="attr0334" format="color" />
+    <attr name="attr0335" format="reference" />
+    <attr name="attr0336" format="reference" />
+    <attr name="attr0337" format="reference" />
+    <attr name="attr0338" format="reference" />
+    <attr name="attr0339" format="dimension" />
+    <attr name="attr033a" format="dimension" />
+    <attr name="attr033b" format="dimension" />
+    <attr name="attr033c" format="dimension" />
+    <attr name="attr033d" format="boolean" />
+    <attr name="rippleColor" format="color" />
+    <attr name="attr033f" format="dimension" />
+    <attr name="attr0340" format="float" />
+    <attr name="roundedCornerRadius" format="reference|dimension" />
+    <attr name="attr0342" format="color" />
+    <attr name="rsb_thumbColor" format="color" />
+    <attr name="attr0344" format="float" />
+    <attr name="scaleType">
+        <enum name="id02b0" value="0" />
+        <enum name="id0152" value="1" />
+        <enum name="id0150" value="2" />
+        <enum name="id014e" value="3" />
+        <enum name="id014f" value="4" />
+        <enum name="id020b" value="5" />
+        <enum name="id0208" value="6" />
+        <enum name="id0206" value="7" />
+        <enum name="id00bb" value="8" />
+        <enum name="id00b6" value="9" />
+        <enum name="id00b7" value="10" />
+        <enum name="id031c" value="11" />
+        <enum name="id0319" value="12" />
+        <enum name="id0317" value="13" />
+        <enum name="id020c" value="14" />
+        <enum name="id0209" value="15" />
+        <enum name="id0207" value="16" />
+        <enum name="id00bc" value="17" />
+        <enum name="id00b9" value="18" />
+        <enum name="id00b8" value="19" />
+        <enum name="id031d" value="20" />
+        <enum name="id031a" value="21" />
+        <enum name="id0318" value="22" />
+        <enum name="id039e" value="23" />
+        <enum name="id00ba" value="24" />
+        <enum name="id0122" value="25" />
+    </attr>
+    <attr name="attr0346" format="reference|string" />
+    <attr name="attr0347" format="integer" />
+    <attr name="attr0348" format="reference|color" />
+    <attr name="attr0349" format="dimension" />
+    <attr name="attr034a" format="reference" />
+    <attr name="attr034b" format="reference" />
+    <attr name="attr034c" format="reference" />
+    <attr name="attr034d" format="reference" />
+    <attr name="attr034e" format="reference" />
+    <attr name="attr034f" format="reference" />
+    <attr name="attr0350" format="integer" />
+    <attr name="selectedTextColor" format="color" />
+    <attr name="selectedTextSize" format="integer" />
+    <attr name="selectionRequired" format="boolean" />
+    <attr name="selectorSize" format="dimension" />
+    <attr name="shapeAppearance" format="reference" />
+    <attr name="attr0356" format="reference" />
+    <attr name="attr0357" format="reference" />
+    <attr name="shapeAppearanceOverlay" format="reference" />
+    <attr name="attr0359" format="reference" />
+    <attr name="attr035a" format="boolean" />
+    <attr name="attr035b">
+        <enum name="id02b0" value="0" />
+        <enum name="id02c3" value="1" />
+        <enum name="id019e" value="2" />
+    </attr>
+    <attr name="showAsAction">
+        <flag name="id02ad" value="0x00000000" />
+        <flag name="id0192" value="0x00000001" />
+        <flag name="id0069" value="0x00000002" />
+        <flag name="id04ba" value="0x00000004" />
+        <flag name="id00d4" value="0x00000008" />
+    </attr>
+    <attr name="attr035d" format="integer" />
+    <attr name="attr035e">
+        <flag name="id02b0" value="0x00000000" />
+        <flag name="id008f" value="0x00000001" />
+        <flag name="id027b" value="0x00000002" />
+        <flag name="id0121" value="0x00000004" />
+    </attr>
+    <attr name="attr035f">
+        <flag name="id02b0" value="0x00000000" />
+        <flag name="id008f" value="0x00000001" />
+        <flag name="id027b" value="0x00000002" />
+        <flag name="id0121" value="0x00000004" />
+    </attr>
+    <attr name="attr0360">
+        <flag name="id02b0" value="0x00000000" />
+        <flag name="id008f" value="0x00000001" />
+        <flag name="id027b" value="0x00000002" />
+        <flag name="id0121" value="0x00000004" />
+    </attr>
+    <attr name="attr0361">
+        <flag name="id02b0" value="0x00000000" />
+        <flag name="id008f" value="0x00000001" />
+        <flag name="id027b" value="0x00000002" />
+        <flag name="id0121" value="0x00000004" />
+    </attr>
+    <attr name="attr0362" format="reference" />
+    <attr name="attr0363" format="boolean" />
+    <attr name="attr0364" format="boolean" />
+    <attr name="showText" format="boolean" />
+    <attr name="attr0366" format="boolean" />
+    <attr name="attr0367" format="reference" />
+    <attr name="attr0368" format="reference" />
+    <attr name="attr0369" format="boolean" />
+    <attr name="singleSelection" format="boolean" />
+    <attr name="attr036b" format="float" />
+    <attr name="attr036c" format="reference" />
+    <attr name="attr036d" format="reference" />
+    <attr name="attr036e" format="reference" />
+    <attr name="attr036f" format="reference" />
+    <attr name="attr0370" format="integer" />
+    <attr name="attr0371" format="boolean" />
+    <attr name="attr0372" format="reference" />
+    <attr name="attr0373" format="reference" />
+    <attr name="attr0374" format="color" />
+    <attr name="attr0375" format="boolean" />
+    <attr name="srcCompat" format="reference" />
+    <attr name="attr0377" format="boolean" />
+    <attr name="attr0378" format="float" />
+    <attr name="startColor" format="color" />
+    <attr name="attr037a" format="boolean" />
+    <attr name="attr037b" format="string" />
+    <attr name="attr037c" format="reference" />
+    <attr name="attr037d" format="color" />
+    <attr name="attr037e">
+        <enum name="id0399" value="3" />
+        <enum name="id0398" value="5" />
+        <enum name="id0397" value="9" />
+        <enum name="id02a2" value="14" />
+        <enum name="id034f" value="15" />
+    </attr>
+    <attr name="attr037f" format="integer" />
+    <attr name="attr0380" format="boolean" />
+    <attr name="attr0381" format="boolean" />
+    <attr name="attr0382" format="boolean" />
+    <attr name="state_dragged" format="boolean" />
+    <attr name="state_liftable" format="boolean" />
+    <attr name="state_lifted" format="boolean" />
+    <attr name="attr0386" format="reference|color" />
+    <attr name="attr0387" format="color" />
+    <attr name="attr0388" format="color" />
+    <attr name="strokeColor" format="color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="stroke_width" format="dimension" />
+    <attr name="attr038c" format="reference" />
+    <attr name="attr038d" format="reference" />
+    <attr name="attr038e" format="string" />
+    <attr name="attr038f" format="boolean" />
+    <attr name="attr0390" format="reference" />
+    <attr name="attr0391" format="color" />
+    <attr name="attr0392" format="reference" />
+    <attr name="attr0393" format="string" />
+    <attr name="attr0394" format="reference" />
+    <attr name="attr0395" format="color" />
+    <attr name="attr0396" format="reference" />
+    <attr name="attr0397" format="dimension" />
+    <attr name="attr0398" format="dimension" />
+    <attr name="attr0399" format="reference" />
+    <attr name="attr039a" format="reference" />
+    <attr name="tabBackground" format="reference" />
+    <attr name="attr039c" format="dimension" />
+    <attr name="attr039d">
+        <enum name="id014a" value="0" />
+        <enum name="id00b6" value="1" />
+        <enum name="id039c" value="2" />
+    </attr>
+    <attr name="attr039e" format="color" />
+    <attr name="attr039f">
+        <enum name="id0399" value="3" />
+        <enum name="id0398" value="5" />
+        <enum name="id0397" value="9" />
+        <enum name="id02a2" value="14" />
+        <enum name="id034f" value="15" />
+        <enum name="id0053" value="16" />
+    </attr>
+    <attr name="tabIndicator" format="reference" />
+    <attr name="attr03a1" format="integer" />
+    <attr name="attr03a2">
+        <enum name="id0218" value="0" />
+        <enum name="id011e" value="1" />
+    </attr>
+    <attr name="tabIndicatorColor" format="color" />
+    <attr name="tabIndicatorFullWidth" format="boolean" />
+    <attr name="tabIndicatorGravity">
+        <enum name="id0092" value="0" />
+        <enum name="id00b6" value="1" />
+        <enum name="id03ff" value="2" />
+        <enum name="id03a8" value="3" />
+    </attr>
+    <attr name="tabIndicatorHeight" format="dimension" />
+    <attr name="tabInlineLabel" format="boolean" />
+    <attr name="attr03a8" format="dimension" />
+    <attr name="attr03a9" format="dimension" />
+    <attr name="tabMode">
+        <enum name="id0354" value="0" />
+        <enum name="id0153" value="1" />
+        <enum name="id0081" value="2" />
+    </attr>
+    <attr name="attr03ab" format="dimension" />
+    <attr name="attr03ac" format="dimension" />
+    <attr name="tabPaddingEnd" format="dimension" />
+    <attr name="tabPaddingStart" format="dimension" />
+    <attr name="attr03af" format="dimension" />
+    <attr name="tabRippleColor" format="color" />
+    <attr name="attr03b1" format="color" />
+    <attr name="attr03b2" format="reference" />
+    <attr name="tabTextAppearance" format="reference" />
+    <attr name="attr03b4" format="color" />
+    <attr name="attr03b5" format="boolean" />
+    <attr name="attr03b6" format="reference" />
+    <attr name="attr03b7" format="color" />
+    <attr name="attr03b8" format="float" />
+    <attr name="attr03b9">
+        <enum name="layout" value="0" />
+        <enum name="id02e8" value="1" />
+        <enum name="id03a5" value="2" />
+        <enum name="id03a4" value="3" />
+    </attr>
+    <attr name="attr03ba" format="reference|boolean" />
+    <attr name="attr03bb" format="reference" />
+    <attr name="attr03bc" format="reference" />
+    <attr name="attr03bd" format="reference" />
+    <attr name="attr03be" format="reference" />
+    <attr name="attr03bf" format="reference" />
+    <attr name="attr03c0" format="reference" />
+    <attr name="attr03c1" format="reference" />
+    <attr name="attr03c2" format="reference" />
+    <attr name="attr03c3" format="reference" />
+    <attr name="attr03c4" format="reference" />
+    <attr name="attr03c5" format="reference" />
+    <attr name="attr03c6" format="boolean" />
+    <attr name="attr03c7" format="reference" />
+    <attr name="attr03c8" format="reference" />
+    <attr name="attr03c9" format="reference" />
+    <attr name="attr03ca" format="reference" />
+    <attr name="attr03cb" format="reference" />
+    <attr name="attr03cc" format="reference" />
+    <attr name="attr03cd" format="reference" />
+    <attr name="attr03ce" format="reference" />
+    <attr name="attr03cf" format="reference" />
+    <attr name="attr03d0" format="reference" />
+    <attr name="textColor" format="color" />
+    <attr name="attr03d2" format="reference|color" />
+    <attr name="attr03d3" format="reference|color" />
+    <attr name="attr03d4" format="dimension" />
+    <attr name="attr03d5" format="boolean" />
+    <attr name="attr03d6" format="reference" />
+    <attr name="attr03d7" format="string" />
+    <attr name="textPaddingBottom" format="reference|dimension" />
+    <attr name="attr03d9" format="reference|dimension" />
+    <attr name="attr03da" format="reference|dimension" />
+    <attr name="textPaddingTop" format="reference|dimension" />
+    <attr name="textSize" format="integer" />
+    <attr name="attr03dd" format="dimension" />
+    <attr name="attr03de" format="reference" />
+    <attr name="attr03df" format="dimension" />
+    <attr name="attr03e0" format="dimension" />
+    <attr name="attr03e1" format="color" />
+    <attr name="attr03e2" format="dimension" />
+    <attr name="attr03e3" format="dimension" />
+    <attr name="attr03e4" format="color" />
+    <attr name="attr03e5" format="dimension" />
+    <attr name="attr03e6" format="dimension" />
+    <attr name="attr03e7" format="color" />
+    <attr name="attr03e8">
+        <enum name="id0399" value="3" />
+        <enum name="id0398" value="5" />
+        <enum name="id0397" value="9" />
+        <enum name="id02a2" value="14" />
+        <enum name="id034f" value="15" />
+        <enum name="id0053" value="16" />
+    </attr>
+    <attr name="attr03e9" format="color" />
+    <attr name="attr03ea" format="color" />
+    <attr name="attr03eb" format="color" />
+    <attr name="attr03ec" format="reference" />
+    <attr name="attr03ed" format="color" />
+    <attr name="attr03ee">
+        <enum name="id0399" value="3" />
+        <enum name="id0398" value="5" />
+        <enum name="id0397" value="9" />
+        <enum name="id02a2" value="14" />
+        <enum name="id034f" value="15" />
+        <enum name="id0053" value="16" />
+    </attr>
+    <attr name="attr03ef" format="boolean" />
+    <attr name="tint" format="color" />
+    <attr name="attr03f1">
+        <enum name="id0399" value="3" />
+        <enum name="id0398" value="5" />
+        <enum name="id0397" value="9" />
+        <enum name="id02a2" value="14" />
+        <enum name="id034f" value="15" />
+        <enum name="id0053" value="16" />
+    </attr>
+    <attr name="title" format="string" />
+    <attr name="attr03f3" format="boolean" />
+    <attr name="attr03f4">
+        <enum name="id034d" value="0" />
+        <enum name="id0132" value="1" />
+    </attr>
+    <attr name="attr03f5" format="boolean" />
+    <attr name="attr03f6" format="dimension" />
+    <attr name="attr03f7" format="dimension" />
+    <attr name="attr03f8" format="dimension" />
+    <attr name="attr03f9" format="dimension" />
+    <attr name="attr03fa" format="dimension" />
+    <attr name="attr03fb" format="dimension" />
+    <attr name="attr03fc" format="reference" />
+    <attr name="titleTextColor" format="color" />
+    <attr name="attr03fe" format="reference" />
+    <attr name="attr03ff" format="reference" />
+    <attr name="attr0400" format="reference" />
+    <attr name="attr0401" format="reference" />
+    <attr name="attr0402" format="reference|color" />
+    <attr name="attr0403" format="reference" />
+    <attr name="attr0404" format="reference" />
+    <attr name="attr0405" format="string" />
+    <attr name="topDivision" format="boolean" />
+    <attr name="attr0407" format="reference|dimension" />
+    <attr name="attr0408" format="reference|dimension" />
+    <attr name="attr0409" format="reference" />
+    <attr name="attr040a">
+        <enum name="id03ff" value="0" />
+        <enum name="id0205" value="1" />
+        <enum name="id0316" value="2" />
+        <enum name="id0092" value="3" />
+        <enum name="id027b" value="4" />
+        <enum name="id039c" value="5" />
+        <enum name="id0121" value="6" />
+    </attr>
+    <attr name="attr040b" format="reference" />
+    <attr name="track" format="reference" />
+    <attr name="attr040d" format="color" />
+    <attr name="attr040e" format="color" />
+    <attr name="attr040f" format="color" />
+    <attr name="attr0410" format="dimension" />
+    <attr name="attr0411" format="dimension" />
+    <attr name="attr0412" format="dimension" />
+    <attr name="attr0413" format="color" />
+    <attr name="attr0414">
+        <enum name="id0399" value="3" />
+        <enum name="id0398" value="5" />
+        <enum name="id0397" value="9" />
+        <enum name="id02a2" value="14" />
+        <enum name="id034f" value="15" />
+        <enum name="id0053" value="16" />
+    </attr>
+    <attr name="attr0415" format="boolean" />
+    <attr name="attr0416" format="string">
+        <enum name="id039a" value="0" />
+        <enum name="id0012" value="1" />
+        <enum name="id00f9" value="2" />
+        <enum name="id0218" value="3" />
+    </attr>
+    <attr name="attr0417">
+        <flag name="id02b0" value="0x00000000" />
+        <flag name="id008e" value="0x00000001" />
+    </attr>
+    <attr name="attr0418" format="float" />
+    <attr name="attr0419" format="reference" />
+    <attr name="attr041a" format="reference" />
+    <attr name="attr041b" format="reference" />
+    <attr name="attr041c" format="float" />
+    <attr name="attr041d" format="integer" />
+    <attr name="attr041e" format="boolean" />
+    <attr name="attr041f" format="boolean" />
+    <attr name="attr0420" format="reference" />
+    <attr name="verticalOffset" format="dimension" />
+    <attr name="attr0422" format="string" />
+    <attr name="attr0423">
+        <enum name="id02b1" value="0" />
+        <enum name="id0193" value="1" />
+    </attr>
+    <attr name="attr0424" format="reference" />
+    <attr name="attr0425" format="float" />
+    <attr name="attr0426" format="integer" />
+    <attr name="attr0427" format="float|dimension" />
+    <attr name="attr0428" format="float" />
+    <attr name="attr0429">
+        <enum name="id037d" value="0" />
+        <enum name="id0396" value="1" />
+        <enum name="id040a" value="2" />
+        <enum name="id034c" value="3" />
+        <enum name="id0315" value="4" />
+        <enum name="id00e7" value="5" />
+        <enum name="id0096" value="6" />
+    </attr>
+    <attr name="attr042a">
+        <enum name="id02e7" value="0" />
+        <enum name="id02cc" value="1" />
+    </attr>
+    <attr name="attr042b" format="boolean" />
+    <attr name="attr042c" format="boolean" />
+    <attr name="attr042d" format="boolean" />
+    <attr name="attr042e" format="dimension|fraction" />
+    <attr name="attr042f" format="dimension|fraction" />
+    <attr name="attr0430" format="dimension|fraction" />
+    <attr name="attr0431" format="dimension|fraction" />
+    <attr name="attr0432" format="dimension|fraction" />
+    <attr name="attr0433" format="dimension|fraction" />
+    <attr name="attr0434" format="boolean" />
+    <attr name="attr0435" format="reference" />
+    <attr name="attr0436" format="reference" />
+    <attr name="attr0437" format="reference" />
+</resources>

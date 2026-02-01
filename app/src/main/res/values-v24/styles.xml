@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="style0041" parent="@android:style/TextAppearance.Material.Widget.Button.Borderless.Colored" />
+
+    <style name="style0042" parent="@android:style/TextAppearance.Material.Widget.Button.Colored" />
+
+    <style name="style007e" parent="@style/style007f">
+        <item name="android:colorBackground">@color/color0084</item>
+        <item name="android:buttonBarButtonStyle">?attr0074</item>
+        <item name="android:timePickerDialogTheme">@style/style020e</item>
+        <item name="android:datePickerDialogTheme">@style/style020e</item>
+        <item name="android:contextPopupMenuStyle">@style/style02d1</item>
+        <item name="attr0002">@style/style020b</item>
+        <item name="attr0003">@dimen/dimen0204</item>
+        <item name="attr0005">@style/style0282</item>
+        <item name="attr0009">@style/style0202</item>
+        <item name="attr0020">@style/style02d3</item>
+        <item name="attr002b">@style/style020f</item>
+        <item name="attr0034">@style/style0285</item>
+        <item name="attr0060">@style/style0297</item>
+        <item name="attr0064">@style/style028e</item>
+        <item name="attr0066">@style/style020a</item>
+        <item name="attr0074">@style/style0297</item>
+        <item name="attr008d">@style/style02ab</item>
+        <item name="attr00c3">?attr00d5</item>
+        <item name="attr00c9">@color/color0085</item>
+        <item name="attr00d0">@color/color008b</item>
+        <item name="attr00d1">@color/color008c</item>
+        <item name="attr018e">@style/style02b0</item>
+        <item name="attr028a">@style/style02d2</item>
+        <item name="attr02a7">@style/style0213</item>
+        <item name="attr02af">@style/style021b</item>
+        <item name="attr02b9">@style/style02b4</item>
+        <item name="attr02ba">@style/style021a</item>
+        <item name="attr02c1">@style/style0221</item>
+        <item name="attr02f9">@style/style02cf</item>
+        <item name="attr0324">@style/style02d0</item>
+        <item name="attr0333">@style/style02ac</item>
+        <item name="attr036d">@style/style029c</item>
+        <item name="attr036e">@style/style02d7</item>
+        <item name="attr036f">@style/style02d9</item>
+        <item name="attr0399">@style/style02ad</item>
+        <item name="attr03b2">@style/style02da</item>
+        <item name="attr03c5">?attr03cf</item>
+        <item name="attr03ce">?attr03cf</item>
+        <item name="attr03d6">@style/style02e1</item>
+        <item name="attr0401">@style/style02f1</item>
+        <item name="attr0422">com.google.android.material.theme.MaterialComponentsViewInflater
+        </item>
+    </style>
+
+    <style name="style0080" parent="@style/style0081">
+        <item name="android:colorBackground">@color/color0084</item>
+        <item name="android:contextPopupMenuStyle">@style/style02d1</item>
+        <item name="attr0002">@style/style020b</item>
+        <item name="attr0003">@dimen/dimen0204</item>
+        <item name="attr0005">@style/style0282</item>
+        <item name="attr0009">@style/style0202</item>
+        <item name="attr0020">@style/style02d3</item>
+        <item name="attr002b">@style/style020f</item>
+        <item name="attr0034">@style/style0285</item>
+        <item name="attr0060">@style/style0297</item>
+        <item name="attr0064">@style/style028e</item>
+        <item name="attr0074">@style/style0299</item>
+        <item name="attr008d">@style/style02ab</item>
+        <item name="attr00c3">?attr00d5</item>
+        <item name="attr00c9">@color/color0085</item>
+        <item name="attr00d0">@color/color008b</item>
+        <item name="attr00d1">@color/color008c</item>
+        <item name="attr00d5">@color/color008e</item>
+        <item name="attr018e">@style/style02b0</item>
+        <item name="attr028a">@style/style02d2</item>
+        <item name="attr02a7">@style/style0213</item>
+        <item name="attr02f9">@style/style02cf</item>
+        <item name="attr0324">@style/style02d0</item>
+        <item name="attr0333">@style/style02ac</item>
+        <item name="attr036d">@style/style029c</item>
+        <item name="attr036e">@style/style02d7</item>
+        <item name="attr036f">@style/style02d9</item>
+        <item name="attr0399">@style/style02ad</item>
+        <item name="attr03b2">@style/style02da</item>
+        <item name="attr03c5">?attr03cf</item>
+        <item name="attr03ce">?attr03cf</item>
+        <item name="attr03d6">@style/style02e1</item>
+        <item name="attr0401">@style/style02f1</item>
+        <item name="attr0422">com.google.android.material.theme.MaterialComponentsViewInflater
+        </item>
+    </style>
+
+    <style name="style0082" parent="@style/style0083">
+        <item name="android:colorBackground">@color/color0091</item>
+        <item name="android:buttonBarButtonStyle">?attr0074</item>
+        <item name="android:timePickerDialogTheme">@style/style020e</item>
+        <item name="android:datePickerDialogTheme">@style/style020e</item>
+        <item name="android:contextPopupMenuStyle">@style/style02d1</item>
+        <item name="attr0002">@style/style0211</item>
+        <item name="attr0003">@dimen/dimen0204</item>
+        <item name="attr0005">@style/style02b1</item>
+        <item name="attr0020">@style/style02d3</item>
+        <item name="attr002b">@style/style020f</item>
+        <item name="attr0034">@style/style0283</item>
+        <item name="attr0060">@style/style0297</item>
+        <item name="attr0064">@style/style028e</item>
+        <item name="attr0066">@style/style020a</item>
+        <item name="attr0074">@style/style0297</item>
+        <item name="attr008d">@style/style02ab</item>
+        <item name="attr00c3">?attr00d5</item>
+        <item name="attr00c9">@color/color0092</item>
+        <item name="attr00d0">@color/color0098</item>
+        <item name="attr00d1">@color/color0099</item>
+        <item name="attr018e">@style/style02b0</item>
+        <item name="attr028a">@style/style02d2</item>
+        <item name="attr02a7">@style/style0213</item>
+        <item name="attr02af">@style/style021b</item>
+        <item name="attr02b9">@style/style02b4</item>
+        <item name="attr02ba">@style/style021a</item>
+        <item name="attr02c1">@style/style0221</item>
+        <item name="attr02f9">@style/style02cf</item>
+        <item name="attr0324">@style/style02d0</item>
+        <item name="attr0333">@style/style02ac</item>
+        <item name="attr036d">@style/style029c</item>
+        <item name="attr036e">@style/style02d7</item>
+        <item name="attr036f">@style/style02d9</item>
+        <item name="attr0399">@style/style02ad</item>
+        <item name="attr03b2">@style/style02da</item>
+        <item name="attr03c5">?attr03cf</item>
+        <item name="attr03ce">?attr03cf</item>
+        <item name="attr03d6">@style/style02e1</item>
+        <item name="attr0401">@style/style02f1</item>
+        <item name="attr0422">com.google.android.material.theme.MaterialComponentsViewInflater
+        </item>
+    </style>
+
+    <style name="style0085" parent="@style/style0086">
+        <item name="android:colorBackground">@color/color0091</item>
+        <item name="android:contextPopupMenuStyle">@style/style02d1</item>
+        <item name="attr0002">@style/style0211</item>
+        <item name="attr0003">@dimen/dimen0204</item>
+        <item name="attr0005">@style/style02b1</item>
+        <item name="attr0020">@style/style02d3</item>
+        <item name="attr002b">@style/style020f</item>
+        <item name="attr0034">@style/style0283</item>
+        <item name="attr0060">@style/style0297</item>
+        <item name="attr0064">@style/style028e</item>
+        <item name="attr0074">@style/style0299</item>
+        <item name="attr008d">@style/style02ab</item>
+        <item name="attr00c3">?attr00d5</item>
+        <item name="attr00c9">@color/color0092</item>
+        <item name="attr00d0">@color/color0098</item>
+        <item name="attr00d1">@color/color0099</item>
+        <item name="attr00d5">@color/color009b</item>
+        <item name="attr018e">@style/style02b0</item>
+        <item name="attr028a">@style/style02d2</item>
+        <item name="attr02a7">@style/style0213</item>
+        <item name="attr02f9">@style/style02cf</item>
+        <item name="attr0324">@style/style02d0</item>
+        <item name="attr0333">@style/style02ac</item>
+        <item name="attr036d">@style/style029c</item>
+        <item name="attr036e">@style/style02d7</item>
+        <item name="attr036f">@style/style02d9</item>
+        <item name="attr0399">@style/style02ad</item>
+        <item name="attr03b2">@style/style02da</item>
+        <item name="attr03c5">?attr03cf</item>
+        <item name="attr03ce">?attr03cf</item>
+        <item name="attr03d6">@style/style02e1</item>
+        <item name="attr0401">@style/style02f1</item>
+        <item name="attr0422">com.google.android.material.theme.MaterialComponentsViewInflater
+        </item>
+    </style>
+
+    <style name="style017f" parent="@style/style017e" />
+
+    <style name="style0182" parent="@style/style017d" />
+
+    <style name="style0184" parent="@style/style0183" />
+
+    <style name="style0186" parent="@style/style0185" />
+</resources>

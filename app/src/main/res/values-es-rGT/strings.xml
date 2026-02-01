@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="string007b">Cancelando, los permisos requeridos no se otorgaron</string>
+    <string name="string007c" />
+    <string name="string007d">Cortar</string>
+    <string name="string007e">Dar la vuelta</string>
+    <string name="string007f">Voltear horizontalmente</string>
+    <string name="string0080">Voltear verticalmente</string>
+    <string name="string0081">Girar a la izquierda</string>
+    <string name="string0082">Girar a la derecha</string>
+    <string name="string01b2">Seleccionar fuente</string>
+</resources>

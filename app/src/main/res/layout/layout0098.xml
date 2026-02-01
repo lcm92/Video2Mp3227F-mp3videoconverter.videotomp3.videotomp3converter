@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@color/color00c8"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@id/id01a1"
+        android:layout_width="fill_parent"
+        android:layout_height="72.0dip">
+
+        <RelativeLayout
+            android:gravity="center"
+            android:id="@id/id0331"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12.0dip"
+            android:layout_marginRight="18.0dip"
+            android:layout_centerVertical="true">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@id/id018d"
+                android:layout_width="40.0dip"
+                android:layout_height="40.0dip"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/drawable018e" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@id/id02d6"
+                android:background="@drawable/drawable007f"
+                android:padding="5.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                app:srcCompat="@drawable/drawable0163" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:id="@id/id032e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6.0dip"
+            android:layout_toLeftOf="@id/id009f"
+            android:layout_toRightOf="@id/id0331"
+            android:layout_centerVertical="true">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="16.0sp"
+                android:textColor="#de000000"
+                android:ellipsize="middle"
+                android:id="@id/id02a6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="12.0sp"
+                android:textColor="@color/color0051"
+                android:id="@id/id0117"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_below="@id/id02a6" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="12.0sp"
+                android:textColor="@color/color0066"
+                android:id="@id/id0466"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_alignTop="@id/id0117"
+                android:layout_toEndOf="@id/id0117" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="12.0sp"
+                android:textColor="@color/color0051"
+                android:id="@id/id045f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_alignTop="@id/id0117"
+                android:layout_toEndOf="@id/id0466" />
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/id009f"
+            android:background="?android:selectableItemBackground"
+            android:padding="8.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/drawable0192"
+            android:tint="@color/color0055"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8.0dip" />
+    </RelativeLayout>
+
+    <include
+        android:visibility="gone"
+        layout="@layout/layout009a" />
+</LinearLayout>

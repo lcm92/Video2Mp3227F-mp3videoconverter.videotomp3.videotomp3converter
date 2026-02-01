@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.inshot.videotomp3.utils.widget.RoundImageView
+        android:id="@id/id01b2"
+        android:layout_width="60.0dip"
+        android:layout_height="60.0dip"
+        android:layout_marginTop="12.0dip"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="4.0dip"
+        app:layout_constraintBottom_toBottomOf="id02c7"
+        app:layout_constraintStart_toStartOf="id02c7"
+        app:layout_constraintTop_toTopOf="id02c7"
+        app:roundedCornerRadius="6.0dip" />
+
+    <View
+        android:id="@id/id0367"
+        android:background="@drawable/drawable009c"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/id01b2"
+        app:layout_constraintEnd_toEndOf="@id/id01b2"
+        app:layout_constraintStart_toStartOf="@id/id01b2"
+        app:layout_constraintTop_toTopOf="@id/id01b2" />
+
+    <android.widget.Space
+        android:id="@id/id038b"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="13.0dip"
+        android:layout_marginEnd="12.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/id01b2"
+        app:layout_constraintEnd_toEndOf="@id/id01b2"
+        app:layout_constraintStart_toStartOf="@id/id01b2"
+        app:layout_constraintTop_toTopOf="@id/id01b2" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/id01b5"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/drawable0190"
+        app:layout_constraintBottom_toTopOf="@id/id038b"
+        app:layout_constraintStart_toEndOf="@id/id038b" />
+</androidx.constraintlayout.widget.ConstraintLayout>

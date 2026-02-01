@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.inshot.videotomp3.ad.AdCoverLayout
+        android:id="@id/id004f"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/id005e"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:contentDescription="@null" />
+
+        <FrameLayout
+            android:id="@id/id004e"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </com.inshot.videotomp3.ad.AdCoverLayout>
+
+    <RelativeLayout
+        android:id="@id/id027b"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:layout_below="@id/id004f">
+
+        <ImageView
+            android:id="@id/id0060"
+            android:visibility="visible"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:scaleType="fitXY"
+            android:layout_centerVertical="true"
+            android:contentDescription="@null"
+            android:layout_marginEnd="12.0dip"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:id="@id/id03f9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/id0060">
+
+            <TextView
+                android:textSize="13.0sp"
+                android:textStyle="bold"
+                android:textColor="#ff272727"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:id="@id/id0062"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:layout_weight="1.0" />
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:id="@id/id0052"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/drawable02bd"
+                android:scaleType="center"
+                android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+
+        <TextView
+            android:textSize="11.0sp"
+            android:textColor="#ff828282"
+            android:ellipsize="end"
+            android:gravity="start|center"
+            android:id="@id/id005f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:maxLines="2"
+            android:layout_below="@id/id03f9"
+            android:layout_toEndOf="@id/id0060" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@id/id0061"
+        android:layout_width="16.0dip"
+        android:layout_height="16.0dip"
+        android:scaleType="centerInside"
+        android:layout_below="@id/id004f"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:textSize="14.0sp"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/id005d"
+        android:background="@drawable/drawable00cc"
+        android:layout_width="fill_parent"
+        android:layout_height="36.0dip"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginTop="12.0dip"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginBottom="12.0dip"
+        android:layout_below="@id/id027b"
+        android:fontFamily="sans-serif-medium" />
+</RelativeLayout>

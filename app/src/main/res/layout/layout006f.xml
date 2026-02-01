@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:padding="8.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textSize="20.0sp"
+        android:textStyle="bold"
+        android:textColor="@color/color00ba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14.0dip"
+        android:text="@string/string01fc"
+        android:layout_marginStart="16.0dip" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/id024c"
+        android:paddingTop="8.0dip"
+        android:paddingBottom="8.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22.0dip">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@id/id0307"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16.0dip"
+            app:layout_constraintStart_toStartOf="id02c7"
+            app:layout_constraintTop_toTopOf="id02c7" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/color005f"
+            android:id="@id/id0460"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:text="@string/string021c"
+            android:layout_marginStart="12.0dip"
+            app:layout_constraintStart_toEndOf="@id/id0307"
+            app:layout_constraintTop_toTopOf="@id/id0307" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="11.0sp"
+            android:textColor="@color/color004b"
+            android:id="@id/id0461"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            app:layout_constraintStart_toStartOf="@id/id0460"
+            app:layout_constraintTop_toBottomOf="@id/id0460" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textColor="@color/color005f"
+            android:id="@id/id0462"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16.0dip"
+            app:layout_constraintEnd_toEndOf="id02c7"
+            app:layout_constraintTop_toTopOf="@id/id0460" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/id0239"
+        android:paddingTop="8.0dip"
+        android:paddingBottom="8.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@id/id0302"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16.0dip"
+            app:layout_constraintStart_toStartOf="id02c7"
+            app:layout_constraintTop_toTopOf="id02c7" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/color005f"
+            android:id="@id/id043a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:text="@string/string0139"
+            android:layout_marginStart="12.0dip"
+            app:layout_constraintStart_toEndOf="@id/id0302"
+            app:layout_constraintTop_toTopOf="@id/id0302" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="11.0sp"
+            android:textColor="@color/color004b"
+            android:id="@id/id043b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            app:layout_constraintStart_toStartOf="@id/id043a"
+            app:layout_constraintTop_toBottomOf="@id/id043a" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textColor="@color/color005f"
+            android:id="@id/id043c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16.0dip"
+            app:layout_constraintEnd_toEndOf="id02c7"
+            app:layout_constraintTop_toTopOf="@id/id043a" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/id0236"
+        android:paddingTop="8.0dip"
+        android:paddingBottom="8.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@id/id0301"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16.0dip"
+            app:layout_constraintStart_toStartOf="id02c7"
+            app:layout_constraintTop_toTopOf="id02c7" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/color005f"
+            android:id="@id/id0433"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:text="@string/string00fd"
+            android:layout_marginStart="12.0dip"
+            app:layout_constraintStart_toEndOf="@id/id0301"
+            app:layout_constraintTop_toTopOf="@id/id0301" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="11.0sp"
+            android:textColor="@color/color004b"
+            android:id="@id/id0434"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            app:layout_constraintStart_toStartOf="@id/id0433"
+            app:layout_constraintTop_toBottomOf="@id/id0433" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textColor="@color/color005f"
+            android:id="@id/id0435"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16.0dip"
+            app:layout_constraintEnd_toEndOf="id02c7"
+            app:layout_constraintTop_toTopOf="@id/id0433" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <View
+        android:background="#14000000"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginTop="4.0dip"
+        android:layout_marginBottom="4.0dip"
+        android:layout_marginStart="8.0dip"
+        android:layout_marginEnd="8.0dip" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@id/id0227"
+        android:paddingTop="8.0dip"
+        android:paddingBottom="8.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@id/id0300"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16.0dip"
+            app:layout_constraintStart_toStartOf="id02c7"
+            app:layout_constraintTop_toTopOf="id02c7" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/color005f"
+            android:id="@id/id041d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:text="@string/string0083"
+            android:layout_marginStart="12.0dip"
+            app:layout_constraintStart_toEndOf="@id/id0300"
+            app:layout_constraintTop_toTopOf="@id/id0300" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="11.0sp"
+            android:textColor="@color/color004b"
+            android:id="@id/id041e"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            app:layout_constraintStart_toStartOf="@id/id041d"
+            app:layout_constraintTop_toBottomOf="@id/id041d" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textColor="@color/color005f"
+            android:id="@id/id041f"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16.0dip"
+            app:layout_constraintEnd_toEndOf="id02c7"
+            app:layout_constraintTop_toTopOf="@id/id041d" />
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@id/id0361"
+            android:visibility="gone"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:maxHeight="4.0dip"
+            android:max="90"
+            android:progress="100"
+            android:progressDrawable="@drawable/drawable00fd"
+            android:minHeight="4.0dip"
+            android:thumb="@drawable/drawable00fe"
+            android:paddingStart="8.0dip"
+            android:paddingEnd="8.0dip"
+            android:layout_marginStart="4.0dip"
+            app:layout_constraintBottom_toBottomOf="@id/id0450"
+            app:layout_constraintEnd_toStartOf="@id/id0450"
+            app:layout_constraintStart_toEndOf="@id/id0300"
+            app:layout_constraintTop_toTopOf="@id/id0450" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="12.0sp"
+            android:textColor="@color/color0066"
+            android:id="@id/id0450"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12.0dip"
+            android:text="100%"
+            android:fontFamily="@string/string0117"
+            android:layout_marginEnd="16.0dip"
+            app:layout_constraintEnd_toEndOf="id02c7"
+            app:layout_constraintTop_toBottomOf="@id/id041e" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30.0dip">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textColor="@color/color0066"
+            android:gravity="center"
+            android:id="@id/id0414"
+            android:background="?attr034e"
+            android:paddingTop="12.0dip"
+            android:paddingBottom="12.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="68.0dip"
+            android:text="@string/string0046"
+            android:textAllCaps="true"
+            android:fontFamily="@string/string0117" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textColor="@color/color0066"
+            android:gravity="center"
+            android:id="@id/id0447"
+            android:background="?attr034e"
+            android:paddingTop="12.0dip"
+            android:paddingBottom="12.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="68.0dip"
+            android:text="@string/string0191"
+            android:textAllCaps="true"
+            android:fontFamily="@string/string0117"
+            android:layout_marginStart="10.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</LinearLayout>

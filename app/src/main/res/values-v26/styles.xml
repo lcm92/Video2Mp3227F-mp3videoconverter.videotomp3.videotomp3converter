@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="style0051" parent="@style/style0099" />
+
+    <style name="style0058" parent="@style/style009a" />
+
+    <style name="style00de" parent="@style/style009b" />
+
+    <style name="style0274" parent="@android:style/Widget">
+        <item name="android:background">?attr00d0</item>
+        <item name="android:stateListAnimator">@animator/animator0000</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+
+    <style name="style0099" parent="@style/style0097">
+        <item name="attr00c9">?android:colorError</item>
+    </style>
+
+    <style name="style009a" parent="@style/style0098">
+        <item name="attr00c9">?android:colorError</item>
+    </style>
+
+    <style name="style009b" parent="@style/style00a5">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

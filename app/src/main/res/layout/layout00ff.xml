@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:id="@id/id0243"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50.0dip"
+        android:layout_marginEnd="50.0dip">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="20.0sp"
+            android:textColor="@color/color0061"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24.0dip"
+            android:text="@string/string0228"
+            android:fontFamily="@string/string0117" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:orientation="horizontal"
+            android:id="@id/id030b"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:id="@id/id0235"
+        android:background="@drawable/drawable00d3"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="16.0sp"
+            android:textColor="@color/color0061"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:text="@string/string0228"
+            android:fontFamily="@string/string0117"
+            android:layout_marginStart="16.0dip" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/id030c"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24.0dip"
+            android:paddingStart="16.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</FrameLayout>

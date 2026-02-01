@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array0000">
+        <item>@string/string01e8</item>
+        <item>@string/string0022</item>
+        <item>@string/string0183</item>
+    </string-array>
+</resources>

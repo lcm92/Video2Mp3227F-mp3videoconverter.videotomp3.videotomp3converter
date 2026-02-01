@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/id03a6"
+    android:layout_width="fill_parent"
+    android:layout_height="128.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include
+        android:layout_width="@dimen/dimen0210"
+        android:layout_height="@dimen/dimen020f"
+        layout="@layout/layout00f2" />
+
+    <include
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_marginLeft="2.0dip"
+        android:layout_marginRight="2.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        layout="@layout/layout00ec" />
+
+    <include
+        android:layout_gravity="fill_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen0210"
+        android:layout_toLeftOf="@id/id00b2"
+        android:layout_marginStart="@dimen/dimen0210"
+        android:layout_toStartOf="@id/id00b2"
+        layout="@layout/layout00f3" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/id0279"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_marginLeft="12.0dip"
+        android:layout_marginRight="12.0dip"
+        android:layout_alignParentBottom="true"
+        android:layoutDirection="ltr" />
+
+    <ImageView
+        android:id="@id/id003f"
+        android:background="?android:dividerHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_above="@id/id0279" />
+</RelativeLayout>

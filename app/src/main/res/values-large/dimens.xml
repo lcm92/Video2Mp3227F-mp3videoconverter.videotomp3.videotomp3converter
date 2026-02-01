@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen0017">440.0dip</dimen>
+    <item type="dimen" name="dimen001c">60.000004%</item>
+    <item type="dimen" name="dimen001d">90.0%</item>
+    <item type="dimen" name="dimen001e">60.000004%</item>
+    <item type="dimen" name="dimen001f">90.0%</item>
+    <item type="dimen" name="dimen0022">55.000008%</item>
+    <item type="dimen" name="dimen0023">79.99999%</item>
+    <dimen name="dimen0121">16.0dip</dimen>
+    <dimen name="dimen0122">8.0dip</dimen>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="dimen01be">0.24</item>
+    <item type="dimen" name="dimen01bf">0.4</item>
+    <item type="dimen" name="dimen01c0">0.4</item>
+    <item type="dimen" name="dimen01c1">0.24</item>
+    <item type="dimen" name="dimen01c3">0.12</item>
+    <item type="dimen" name="dimen01c4">0.2</item>
+    <item type="dimen" name="dimen01c5">0.2</item>
+    <item type="dimen" name="dimen01c6">0.12</item>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:background="@drawable/drawable0083"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include
+        android:id="@id/id01f8"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        layout="@layout/layout008f" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingBottom="16.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/id01bc"
+            android:background="?attr034f"
+            android:padding="8.0dip"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginTop="30.0dip"
+            android:src="@drawable/drawable01cf"
+            android:tint="@color/color00ba"
+            android:layout_marginStart="6.0dip"
+            android:layout_marginEnd="6.0dip" />
+
+        <com.inshot.videotomp3.convert.widget.VolumeView
+            android:id="@id/id04b6"
+            android:layout_width="0.0dip"
+            android:layout_height="130.0dip"
+            android:layout_weight="1.0"
+            app:gv_LineEndColor="#ff6000f3"
+            app:gv_LineMiddleColor="#fffc2e80"
+            app:gv_LineStartColor="#ffffda2e"
+            app:gv_currentValue="100.0"
+            app:gv_gradationUnit="10.0"
+            app:gv_indicatorDrawable="@drawable/drawable024a"
+            app:gv_maskColor="@color/color00c8"
+            app:gv_maxValue="500.0"
+            app:gv_minValue="0.0"
+            app:gv_numberPerCount="10"
+            app:gv_showMask="true" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/id01a3"
+            android:background="?attr034f"
+            android:padding="12.0dip"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginTop="30.0dip"
+            android:src="@drawable/drawable0152"
+            android:tint="@color/color00ba"
+            android:layout_marginStart="6.0dip"
+            android:layout_marginEnd="6.0dip" />
+    </LinearLayout>
+</LinearLayout>

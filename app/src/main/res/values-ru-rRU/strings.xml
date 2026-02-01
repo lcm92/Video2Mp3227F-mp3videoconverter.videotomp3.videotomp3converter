@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="string007d">Обрезать</string>
+    <string name="string007e">Отразить</string>
+    <string name="string007f">Отразить по горизонтали</string>
+    <string name="string0080">Отразить по вертикали</string>
+    <string name="string0081">Повернуть налево</string>
+    <string name="string0082">Повернуть направо</string>
+    <string name="string01b2">Выбрать источник</string>
+</resources>

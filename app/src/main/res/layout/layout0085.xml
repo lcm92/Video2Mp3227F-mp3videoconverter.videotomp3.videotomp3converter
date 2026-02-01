@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:id="@id/id0093"
+        android:layout_width="fill_parent"
+        android:layout_height="218.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

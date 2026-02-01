@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical"
+    android:id="@id/id01a1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textSize="14.0sp"
+        android:textColor="@color/color0061"
+        android:id="@id/id0346"
+        android:background="@drawable/drawable0119"
+        android:paddingLeft="16.0dip"
+        android:paddingTop="4.0dip"
+        android:paddingRight="16.0dip"
+        android:paddingBottom="4.0dip"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4.0dip"
+        android:layout_marginRight="16.0dip"
+        android:text="@string/string0202"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textAllCaps="true" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textSize="12.0sp"
+        android:textColor="@color/color0054"
+        android:ellipsize="middle"
+        android:id="@id/id045b"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16.0dip"
+        android:layout_marginRight="16.0dip"
+        android:singleLine="true"
+        android:layout_toLeftOf="@id/id0346"
+        android:layout_centerVertical="true" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textSize="12.0sp"
+        android:textColor="@color/color0061"
+        android:id="@id/id03fa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4.0dip"
+        android:layout_toRightOf="@id/id045b"
+        android:layout_centerVertical="true"
+        android:textAllCaps="true" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:theme="@style/style02f7"
+        android:id="@id/id00c3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:layout_marginRight="12.0dip"
+        android:layout_marginBottom="8.0dip"
+        android:layout_alignParentRight="true" />
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:id="@id/id0226"
+        android:background="@color/color0046"
+        android:paddingTop="10.0dip"
+        android:paddingBottom="10.0dip"
+        android:visibility="visible"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16.0dip">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/id01b1"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip" />
+
+        <com.inshot.videotomp3.utils.widget.SmoothCheckBox
+            android:id="@id/id00e2"
+            android:visibility="gone"
+            android:layout_width="20.0dip"
+            android:layout_height="20.0dip"
+            app:color_checked="#ff03c597"
+            app:color_tick="@android:color/white"
+            app:color_unchecked="@android:color/transparent"
+            app:color_unchecked_stroke="@android:color/transparent"
+            app:duration="1000"
+            app:stroke_width="0.0dip" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="12.0sp"
+            android:textColor="@color/color0061"
+            android:id="@id/id041c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+</RelativeLayout>

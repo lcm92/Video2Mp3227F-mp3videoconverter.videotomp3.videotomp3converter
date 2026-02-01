@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical"
+    android:id="@id/id00df"
+    android:background="@drawable/drawable00a2"
+    android:padding="8.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:textSize="20.0sp"
+        android:textColor="@color/color005f"
+        android:id="@id/id046c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.0dip"
+        android:text="@string/string006b"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginStart="16.0dip"
+        app:layout_constraintStart_toStartOf="id02c7"
+        app:layout_constraintTop_toTopOf="id02c7" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/id0240"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4.0dip"
+        app:layout_constraintEnd_toEndOf="id02c7"
+        app:layout_constraintStart_toStartOf="id02c7"
+        app:layout_constraintTop_toBottomOf="@id/id046c">
+
+        <com.inshot.videotomp3.view.WheelView
+            android:id="@id/id04bf"
+            android:layout_width="60.0dip"
+            android:layout_height="wrap_content"
+            app:selectedTextColor="@color/color005f"
+            app:selectedTextSize="17"
+            app:textColor="@color/color004b"
+            app:textPaddingBottom="16.0dip"
+            app:textPaddingTop="16.0dip"
+            app:textSize="16" />
+
+        <TextView
+            android:textSize="16.0sp"
+            android:textColor="@color/color00c8"
+            android:id="@id/id0430"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":" />
+
+        <com.inshot.videotomp3.view.WheelView
+            android:id="@id/id04c1"
+            android:layout_width="60.0dip"
+            android:layout_height="wrap_content"
+            app:selectedTextColor="@color/color005f"
+            app:selectedTextSize="17"
+            app:textColor="@color/color004b"
+            app:textPaddingBottom="16.0dip"
+            app:textPaddingTop="16.0dip"
+            app:textSize="16" />
+
+        <TextView
+            android:textSize="16.0sp"
+            android:textColor="@color/color00c8"
+            android:id="@id/id043f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":" />
+
+        <com.inshot.videotomp3.view.WheelView
+            android:id="@id/id04c2"
+            android:layout_width="60.0dip"
+            android:layout_height="wrap_content"
+            app:selectedTextColor="@color/color005f"
+            app:selectedTextSize="17"
+            app:textColor="@color/color004b"
+            app:textPaddingBottom="16.0dip"
+            app:textPaddingTop="16.0dip"
+            app:textSize="16" />
+
+        <TextView
+            android:textSize="16.0sp"
+            android:textColor="@color/color00c8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="." />
+
+        <com.inshot.videotomp3.view.WheelView
+            android:id="@id/id04c0"
+            android:layout_width="60.0dip"
+            android:layout_height="wrap_content"
+            app:selectedTextColor="@color/color005f"
+            app:selectedTextSize="17"
+            app:textColor="@color/color004b"
+            app:textPaddingBottom="16.0dip"
+            app:textPaddingTop="16.0dip"
+            app:textSize="16" />
+    </LinearLayout>
+
+    <TextView
+        android:textSize="14.0sp"
+        android:textColor="@color/color0066"
+        android:gravity="center"
+        android:id="@id/id009d"
+        android:background="?attr034e"
+        android:layout_width="wrap_content"
+        android:layout_height="36.0dip"
+        android:minWidth="70.0dip"
+        android:text="@string/string0046"
+        android:textAllCaps="true"
+        android:fontFamily="@string/string0117"
+        android:layout_marginEnd="8.0dip"
+        app:layout_constraintBottom_toBottomOf="id02c7"
+        app:layout_constraintEnd_toStartOf="@id/id00a8" />
+
+    <TextView
+        android:textSize="14.0sp"
+        android:textColor="@color/color0066"
+        android:gravity="center"
+        android:id="@id/id00a8"
+        android:background="?attr034e"
+        android:layout_width="wrap_content"
+        android:layout_height="36.0dip"
+        android:minWidth="70.0dip"
+        android:text="@string/string0191"
+        android:textAllCaps="true"
+        android:fontFamily="@string/string0117"
+        app:layout_constraintBottom_toBottomOf="id02c7"
+        app:layout_constraintEnd_toEndOf="id02c7"
+        app:layout_constraintTop_toBottomOf="@id/id0240"
+        app:layout_goneMarginTop="20.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

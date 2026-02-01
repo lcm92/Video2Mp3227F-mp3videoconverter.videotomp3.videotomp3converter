@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:paddingLeft="24.0dip"
+    android:paddingTop="12.0dip"
+    android:paddingRight="24.0dip"
+    android:paddingBottom="12.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textColor="#8a000000"
+            android:layout_width="88.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/string023d" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:theme="@style/style0101"
+            android:textSize="16.0sp"
+            android:textColor="#de000000"
+            android:textColorHint="#61000000"
+            android:id="@id/id03d1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:maxLength="100"
+            android:imeOptions="actionNext" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textColor="#8a000000"
+            android:layout_width="88.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/string002b" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:theme="@style/style0101"
+            android:textSize="16.0sp"
+            android:textColor="#de000000"
+            android:textColorHint="#61000000"
+            android:id="@id/id03cb"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:maxLength="100"
+            android:imeOptions="actionNext" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textColor="#8a000000"
+            android:layout_width="88.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/string0023" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:theme="@style/style0101"
+            android:textSize="16.0sp"
+            android:textColor="#de000000"
+            android:textColorHint="#61000000"
+            android:id="@id/id03ca"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:maxLength="100"
+            android:imeOptions="actionGo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textColor="#8a000000"
+            android:layout_width="88.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/string0240" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:theme="@style/style0101"
+            android:textSize="16.0sp"
+            android:textColor="#de000000"
+            android:textColorHint="#61000000"
+            android:id="@id/id03d2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:maxLength="100"
+            android:imeOptions="actionNext" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textColor="#8a000000"
+            android:layout_width="88.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/string0306" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:theme="@style/style0101"
+            android:textSize="16.0sp"
+            android:textColor="#de000000"
+            android:textColorHint="#61000000"
+            android:id="@id/id03d7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:maxLength="100"
+            android:imeOptions="actionNext" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:minHeight="32.0dip">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="14.0sp"
+            android:textColor="#8a000000"
+            android:layout_width="88.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/string00e3" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@id/id016b"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="24.0dip" />
+
+            <View
+                android:background="@color/color004b"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:layout_marginTop="-6.0dip" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+</LinearLayout>

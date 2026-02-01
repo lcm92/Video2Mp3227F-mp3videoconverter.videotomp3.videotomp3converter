@@ -1,0 +1,106 @@
+.class public Lcom/bytedance/adsdk/ugeno/core/nP;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field private DK:Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private aAs:Lorg/json/JSONObject;
+
+.field private fFV:Lorg/json/JSONObject;
+
+.field private rk:Landroid/content/Context;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public fFV()Ljava/util/Map;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+
+    .line 2
+    iget-object v0, p0, Lcom/bytedance/adsdk/ugeno/core/nP;->DK:Ljava/util/Map;
+
+    return-object v0
+.end method
+
+.method public fFV(Lorg/json/JSONObject;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/bytedance/adsdk/ugeno/core/nP;->aAs:Lorg/json/JSONObject;
+
+    return-void
+.end method
+
+.method public rk()Lorg/json/JSONObject;
+    .locals 1
+
+    .line 3
+    iget-object v0, p0, Lcom/bytedance/adsdk/ugeno/core/nP;->aAs:Lorg/json/JSONObject;
+
+    return-object v0
+.end method
+
+.method public rk(Landroid/content/Context;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcom/bytedance/adsdk/ugeno/core/nP;->rk:Landroid/content/Context;
+
+    return-void
+.end method
+
+.method public rk(Ljava/util/Map;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/Map<",
+            "Ljava/lang/String;",
+            "Ljava/lang/Object;",
+            ">;)V"
+        }
+    .end annotation
+
+    .line 4
+    iput-object p1, p0, Lcom/bytedance/adsdk/ugeno/core/nP;->DK:Ljava/util/Map;
+
+    return-void
+.end method
+
+.method public rk(Lorg/json/JSONObject;)V
+    .locals 0
+
+    .line 2
+    iput-object p1, p0, Lcom/bytedance/adsdk/ugeno/core/nP;->fFV:Lorg/json/JSONObject;
+
+    return-void
+.end method

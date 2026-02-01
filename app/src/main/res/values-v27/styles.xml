@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="style00f5" parent="@style/style01ba">
+        <item name="android:windowBackground">@color/color00ba</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:navigationBarColor">@color/color0150</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="attr00c3">@color/color00ba</item>
+        <item name="attr00d0">@color/color00ba</item>
+        <item name="attr00d1">@color/color00ba</item>
+    </style>
+
+    <style name="style013c" parent="@style/style000f">
+        <item name="android:windowBackground">@drawable/drawable0062</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/color0144</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="attr00c3">@color/color00b9</item>
+        <item name="attr00d0">@color/color00b9</item>
+        <item name="attr00d1">@color/color00b9</item>
+    </style>
+</resources>

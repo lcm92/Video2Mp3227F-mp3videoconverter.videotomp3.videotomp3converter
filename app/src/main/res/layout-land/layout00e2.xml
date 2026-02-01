@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:id="@id/id0295"
+        android:paddingLeft="@dimen/dimen0180"
+        android:paddingRight="@dimen/dimen0180"
+        android:paddingBottom="@dimen/dimen0180"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:paddingStart="@dimen/dimen0180"
+        android:paddingEnd="@dimen/dimen0180"
+        style="?attr02b3">
+
+        <FrameLayout
+            android:id="@id/id0297"
+            android:paddingLeft="@dimen/dimen0186"
+            android:layout_width="@dimen/dimen0189"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:paddingStart="@dimen/dimen0186">
+
+            <include layout="@layout/layout00e5" />
+
+            <include layout="@layout/layout00e4" />
+        </FrameLayout>
+
+        <include layout="@layout/layout00e6" />
+    </LinearLayout>
+
+    <View
+        android:layout_gravity="end"
+        android:layout_width="@dimen/dimen0182"
+        android:layout_height="fill_parent"
+        style="?attr02b2" />
+</merge>

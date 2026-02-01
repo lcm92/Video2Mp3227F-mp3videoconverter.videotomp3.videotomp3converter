@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/drawable0142"
+        android:id="@id/id00f0"
+        android:visible="false"
+        android:title="@string/string0081"
+        app:showAsAction="id0192" />
+    <item
+        android:icon="@drawable/drawable0143"
+        android:id="@id/id00f1"
+        android:title="@string/string0082"
+        app:showAsAction="id0192" />
+    <item
+        android:icon="@drawable/drawable0141"
+        android:id="@id/id00ed"
+        android:title="@string/string007e"
+        app:showAsAction="id0192">
+        <menu>
+            <item
+                android:id="@id/id00ee"
+                android:title="@string/string007f" />
+            <item
+                android:id="@id/id00ef"
+                android:title="@string/string0080" />
+        </menu>
+    </item>
+    <item
+        android:id="@id/id00ec"
+        android:title="@string/string007d"
+        app:showAsAction="id0069" />
+</menu>

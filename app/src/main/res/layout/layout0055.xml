@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:paddingLeft="24.0dip"
+    android:paddingTop="12.0dip"
+    android:paddingRight="24.0dip"
+    android:paddingBottom="12.0dip"
+    android:descendantFocusability="afterDescendants"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RadioGroup
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:id="@id/id02f2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:textSize="14.0sp"
+            android:textColor="#cf000000"
+            android:id="@id/id015f"
+            android:paddingLeft="8.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:text="@string/string0038"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:textSize="13.0sp"
+            android:textColor="#88000000"
+            android:id="@id/id0160"
+            android:paddingRight="12.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:text="@string/string006a" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:textSize="14.0sp"
+            android:textColor="#cf000000"
+            android:id="@id/id0162"
+            android:paddingLeft="8.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:text="MP3"
+            android:textAllCaps="true" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:textSize="14.0sp"
+            android:textColor="#cf000000"
+            android:id="@id/id015d"
+            android:paddingLeft="8.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:text="AAC"
+            android:textAllCaps="true" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:textSize="14.0sp"
+            android:textColor="#cf000000"
+            android:id="@id/id0168"
+            android:paddingLeft="8.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:text="WMA"
+            android:textAllCaps="true" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:textSize="14.0sp"
+            android:textColor="#cf000000"
+            android:id="@id/id0161"
+            android:paddingLeft="8.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:text="FLAC"
+            android:textAllCaps="true" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:textSize="14.0sp"
+            android:textColor="#cf000000"
+            android:id="@id/id0167"
+            android:paddingLeft="8.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:text="WAV"
+            android:textAllCaps="true" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:textSize="14.0sp"
+            android:textColor="#cf000000"
+            android:id="@id/id015e"
+            android:paddingLeft="8.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:text="AC3"
+            android:textAllCaps="true" />
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:textSize="14.0sp"
+            android:textColor="#cf000000"
+            android:id="@id/id0164"
+            android:paddingLeft="8.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="48.0dip"
+            android:text="OGG"
+            android:textAllCaps="true" />
+    </RadioGroup>
+</ScrollView>

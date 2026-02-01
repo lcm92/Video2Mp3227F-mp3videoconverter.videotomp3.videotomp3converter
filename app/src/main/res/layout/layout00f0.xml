@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/id03a6"
+    android:layout_width="fill_parent"
+    android:layout_height="128.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@id/id018d"
+        android:layout_width="128.0dip"
+        android:layout_height="128.0dip"
+        android:scaleType="centerCrop" />
+
+    <include
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_marginLeft="2.0dip"
+        android:layout_marginRight="2.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        layout="@layout/layout00ec" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/id02b5"
+        android:paddingTop="@dimen/dimen0211"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="128.0dip"
+        android:minHeight="@dimen/dimen020f"
+        android:layout_toLeftOf="@id/id00b2"
+        android:layout_marginStart="128.0dip"
+        android:layout_toStartOf="@id/id00b2">
+
+        <FrameLayout
+            android:id="@id/id02b4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen0212"
+            android:layout_marginRight="8.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:layout_weight="1.0"
+            android:layout_marginStart="@dimen/dimen0212"
+            android:layout_marginEnd="8.0dip" />
+
+        <FrameLayout
+            android:id="@id/id0321"
+            android:paddingTop="@dimen/dimen0214"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8.0dip"
+            android:layout_marginEnd="8.0dip">
+
+            <DateTimeView
+                android:textAppearance="@style/style0184"
+                android:layout_gravity="end|center|top"
+                android:id="@id/id03f4"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+
+            <Chronometer
+                android:textAppearance="@style/style0184"
+                android:layout_gravity="end|center|top"
+                android:id="@id/id00cc"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+
+            <TextView
+                android:textAppearance="@style/style017f"
+                android:layout_gravity="end|bottom|center"
+                android:id="@id/id019b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:singleLine="true" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/id0279"
+        android:layout_width="fill_parent"
+        android:layout_height="48.0dip"
+        android:layout_marginLeft="12.0dip"
+        android:layout_marginRight="12.0dip"
+        android:layout_toRightOf="@id/id018d"
+        android:layout_alignParentBottom="true"
+        android:layoutDirection="ltr"
+        android:layout_toEndOf="@id/id018d" />
+
+    <ImageView
+        android:id="@id/id003f"
+        android:background="?android:dividerHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_toRightOf="@id/id018d"
+        android:layout_above="@id/id0279"
+        android:layout_toEndOf="@id/id018d" />
+</RelativeLayout>

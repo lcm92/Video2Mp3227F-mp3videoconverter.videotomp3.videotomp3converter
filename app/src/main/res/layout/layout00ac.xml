@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/id017f"
+    android:background="#33000000"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:id="@id/id0181"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18.0dip"
+        android:layout_marginTop="256.0dip"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:textSize="14.0sp"
+            android:textColor="#de000000"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/drawable012a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string022b" />
+    </FrameLayout>
+
+    <TextView
+        android:textSize="14.0sp"
+        android:textColor="#de000000"
+        android:id="@id/id0182"
+        android:background="@drawable/drawable012a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="256.0dip"
+        android:text="@string/string0100"
+        android:layout_centerHorizontal="true" />
+
+    <FrameLayout
+        android:id="@id/id0183"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="256.0dip"
+        android:layout_marginRight="18.0dip"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:textSize="14.0sp"
+            android:textColor="#de000000"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/drawable012a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string009a" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@id/id0180"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85.0dip"
+        android:layout_marginTop="140.0dip"
+        android:layout_marginRight="85.0dip"
+        android:layout_marginBottom="26.0dip">
+
+        <TextView
+            android:textSize="14.0sp"
+            android:textColor="#de000000"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/drawable012b"
+            android:paddingLeft="24.0dip"
+            android:paddingTop="16.0dip"
+            android:paddingRight="24.0dip"
+            android:paddingBottom="16.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string0093" />
+    </FrameLayout>
+</RelativeLayout>

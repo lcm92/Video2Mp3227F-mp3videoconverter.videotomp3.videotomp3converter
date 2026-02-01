@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@color/color0150"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="40.0dip"
+    android:paddingEnd="40.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/drawable0090"
+        android:paddingTop="30.0dip"
+        android:paddingBottom="24.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16.0dip"
+        android:paddingEnd="16.0dip">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/drawable0079" />
+
+        <TextView
+            android:textSize="16.0sp"
+            android:textColor="@color/color00c8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:text="@string/string00ed"
+            android:layout_marginStart="8.0dip"
+            android:layout_marginEnd="8.0dip" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="16.0sp"
+            android:textColor="@color/color00c8"
+            android:gravity="center"
+            android:id="@id/id0172"
+            android:background="@drawable/drawable0091"
+            android:layout_width="fill_parent"
+            android:layout_height="44.0dip"
+            android:layout_marginTop="36.0dip"
+            android:text="@string/string00e8"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginStart="8.0dip"
+            android:layout_marginEnd="8.0dip" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/id00d3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24.0dip"
+        app:srcCompat="@drawable/drawable0255" />
+</LinearLayout>

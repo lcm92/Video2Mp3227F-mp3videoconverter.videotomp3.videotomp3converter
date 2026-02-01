@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="style027c" parent="@style/style00e0">
+        <item name="attr039d">id00b6</item>
+        <item name="tabMode">id0153</item>
+    </style>
+
+    <style name="style02bf" parent="@style/style026e">
+        <item name="android:textAppearance">?attr03c4</item>
+        <item name="android:textColor">?attr00cc</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/integer0015</item>
+    </style>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/id01a1"
+    android:background="?android:selectableItemBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="72.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/id009f"
+        android:background="@drawable/drawable007f"
+        android:paddingLeft="8.0dip"
+        android:paddingRight="8.0dip"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerInside"
+        android:tint="@color/color0156"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8.0dip"
+        app:srcCompat="@drawable/drawable0192" />
+
+    <RelativeLayout
+        android:gravity="center"
+        android:id="@id/id0331"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="16.0dip"
+        android:layout_toRightOf="@id/id009f"
+        android:layout_centerVertical="true">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/id0490"
+            android:visibility="gone"
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/id0075"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:id="@id/id032e"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16.0dip"
+        android:layout_toRightOf="@id/id0331"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:textSize="16.0sp"
+            android:textColor="@color/color001e"
+            android:ellipsize="middle"
+            android:id="@id/id02a6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true" />
+
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="@color/color004b"
+            android:id="@id/id0117"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4.0dip"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_below="@id/id02a6" />
+    </RelativeLayout>
+</RelativeLayout>

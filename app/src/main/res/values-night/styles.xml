@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="style01a8" parent="@style/style01a6" />
+
+    <style name="style01a9" parent="@style/style01a6" />
+
+    <style name="style01aa" parent="@style/style01af" />
+
+    <style name="style01ab" parent="@style/style01b0" />
+
+    <style name="style01ac" parent="@style/style01b1" />
+
+    <style name="style01ad" parent="@style/style01b2" />
+
+    <style name="style01ae" parent="@style/style01bb" />
+
+    <style name="style01c8" parent="@style/style01c4" />
+
+    <style name="style01c9" parent="@style/style01c5" />
+
+    <style name="style01ca" parent="@style/style01c6" />
+
+    <style name="style01cb" parent="@style/style01c4" />
+
+    <style name="style01cc" parent="@style/style01c6" />
+
+    <style name="style01cd" parent="@style/style01d8" />
+
+    <style name="style01ce" parent="@style/style01d9" />
+
+    <style name="style01cf" parent="@style/style01da" />
+
+    <style name="style01d0" parent="@style/style01db" />
+
+    <style name="style01d1" parent="@style/style01dc" />
+
+    <style name="style01d2" parent="@style/style01dd" />
+
+    <style name="style01d3" parent="@style/style01de" />
+
+    <style name="style01d4" parent="@style/style01df" />
+
+    <style name="style01d5" parent="@style/style01e0" />
+
+    <style name="style01d6" parent="@style/style01f3" />
+
+    <style name="style01d7" parent="@style/style01f4" />
+
+    <style name="style02f3" parent="@style/style02f4" />
+</resources>

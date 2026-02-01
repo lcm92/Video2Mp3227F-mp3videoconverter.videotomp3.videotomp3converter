@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="string007b">ההרשאות הנדרשות חסרות, מבטל</string>
+    <string name="string007c" />
+    <string name="string007d">חתוך</string>
+    <string name="string007e">הפוך</string>
+    <string name="string007f">הפוך אופקית</string>
+    <string name="string0080">הפוך אנכית</string>
+    <string name="string0081">סובב נגד כיוון השעון</string>
+    <string name="string0082">סובב</string>
+    <string name="string01b2">בחר מקור</string>
+</resources>

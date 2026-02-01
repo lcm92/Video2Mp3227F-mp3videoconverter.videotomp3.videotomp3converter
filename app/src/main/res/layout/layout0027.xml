@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/id03fe"
+        android:background="@color/color003b"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:actionBarSize"
+        app:navigationIcon="@drawable/drawable0250"
+        app:title="@string/string00de"
+        app:titleTextColor="@color/color014d" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@id/id030b"
+        android:background="#ffffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/id004c"
+        android:layout_below="@id/id03fe" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/id0055"
+        android:background="@drawable/drawable0072"
+        android:padding="14.0dip"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_marginBottom="16.0dip"
+        android:layout_above="@id/id0221"
+        android:rotation="45.0"
+        android:layout_marginEnd="16.0dip"
+        android:layout_alignParentEnd="true"
+        android:elevation="6.0dip"
+        app:srcCompat="@drawable/drawable012d"
+        app:tint="@color/color00c8" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/id0221"
+        android:background="@drawable/drawable00f8"
+        android:paddingTop="16.0dip"
+        android:paddingBottom="16.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/id004c">
+
+        <TextView
+            android:textSize="18.0sp"
+            android:textColor="@color/color001e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string00dd"
+            android:fontFamily="@string/string0117"
+            android:layout_marginStart="24.0dip" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/id0165"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:layout_marginStart="24.0dip"
+            android:layout_marginEnd="24.0dip" />
+
+        <TextView
+            android:textSize="16.0sp"
+            android:textColor="#ffffffff"
+            android:gravity="center"
+            android:id="@id/id00e1"
+            android:background="@drawable/drawable00a0"
+            android:paddingTop="8.0dip"
+            android:paddingBottom="8.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:text="@string/string006b"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginStart="16.0dip"
+            android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@id/id004c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <com.inshot.adcool.widget.BannerAdLayout
+            android:id="@id/id004b"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:topDivision="true" />
+    </FrameLayout>
+</RelativeLayout>

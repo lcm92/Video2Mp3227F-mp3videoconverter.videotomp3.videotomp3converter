@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/color00c8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@id/id027b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24.0dip"
+        android:src="@drawable/drawable0266"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:textSize="20.0sp"
+        android:textColor="@color/color0158"
+        android:id="@id/id03ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24.0dip"
+        android:layout_marginTop="16.0dip"
+        android:layout_marginRight="24.0dip"
+        android:text="@string/string02c9"
+        android:layout_below="@id/id027b"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:textSize="16.0sp"
+        android:textColor="#ff4e4e4e"
+        android:id="@id/id0422"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24.0dip"
+        android:layout_marginTop="16.0dip"
+        android:layout_marginRight="32.0dip"
+        android:layout_marginBottom="38.0dip"
+        android:text="@string/string02c8"
+        android:layout_below="@id/id03ff" />
+
+    <TextView
+        android:textSize="16.0sp"
+        android:textColor="@color/color0039"
+        android:id="@id/id00b1"
+        android:background="@drawable/drawable0129"
+        android:paddingLeft="12.0dip"
+        android:paddingTop="8.0dip"
+        android:paddingRight="12.0dip"
+        android:paddingBottom="8.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string0046"
+        android:layout_toLeftOf="@id/id0457"
+        android:layout_below="@id/id0422"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginEnd="12.0dip" />
+
+    <TextView
+        android:textSize="16.0sp"
+        android:textColor="#ffffffff"
+        android:id="@id/id0457"
+        android:background="@drawable/drawable00d7"
+        android:paddingLeft="12.0dip"
+        android:paddingTop="8.0dip"
+        android:paddingRight="12.0dip"
+        android:paddingBottom="8.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16.0dip"
+        android:layout_marginBottom="16.0dip"
+        android:text="@string/string01e7"
+        android:layout_below="@id/id0422"
+        android:layout_alignParentRight="true"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-medium" />
+</RelativeLayout>

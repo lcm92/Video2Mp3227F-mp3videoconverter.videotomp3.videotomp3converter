@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:id="@id/id00df"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <View
+        android:id="@id/id04ac"
+        android:layout_width="fill_parent"
+        android:layout_height="140.0dip" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/drawable02b9"
+        android:paddingLeft="22.0dip"
+        android:paddingTop="22.0dip"
+        android:paddingRight="22.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="20.0sp"
+            android:textStyle="bold"
+            android:textColor="@color/color015a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string00a9" />
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_marginTop="26.0dip">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="14.0sp"
+                android:textColor="@color/color0157"
+                android:gravity="center_vertical"
+                android:layout_width="78.0dip"
+                android:layout_height="fill_parent"
+                android:text="@string/string00aa" />
+
+            <LinearLayout
+                android:id="@id/id022f"
+                android:background="@drawable/drawable02ba"
+                android:paddingLeft="16.0dip"
+                android:paddingRight="16.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:textSize="14.0sp"
+                    android:textColor="@color/color015a"
+                    android:gravity="center_vertical"
+                    android:id="@id/id042a"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="@string/string0188"
+                    android:layout_weight="1.0" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/id01b8"
+                    android:layout_width="24.0dip"
+                    android:layout_height="24.0dip"
+                    app:srcCompat="@drawable/drawable0197" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_marginTop="16.0dip">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="14.0sp"
+                android:textColor="@color/color0157"
+                android:gravity="center_vertical"
+                android:layout_width="78.0dip"
+                android:layout_height="fill_parent"
+                android:text="@string/string00ab" />
+
+            <LinearLayout
+                android:id="@id/id0230"
+                android:background="@drawable/drawable02ba"
+                android:paddingLeft="16.0dip"
+                android:paddingRight="16.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:textSize="14.0sp"
+                    android:textColor="@color/color015a"
+                    android:gravity="center_vertical"
+                    android:id="@id/id042b"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:text="@string/string0188"
+                    android:layout_weight="1.0" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/id01b9"
+                    android:layout_width="24.0dip"
+                    android:layout_height="24.0dip"
+                    app:srcCompat="@drawable/drawable0197" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:paddingRight="3.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.0dip"
+            android:layout_marginBottom="12.0dip">
+
+            <TextView
+                android:textSize="14.0sp"
+                android:textColor="@color/color0039"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:id="@id/id009e"
+                android:background="@drawable/drawable010c"
+                android:paddingLeft="@dimen/dimen0121"
+                android:paddingRight="@dimen/dimen0121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="36.0dip"
+                android:text="@string/string0191"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_alignParentRight="true"
+                android:textAllCaps="true"
+                android:fontFamily="sans-serif-medium" />
+
+            <TextView
+                android:textSize="14.0sp"
+                android:textColor="@color/color0039"
+                android:gravity="center"
+                android:id="@id/id009d"
+                android:background="@drawable/drawable010c"
+                android:paddingLeft="@dimen/dimen0122"
+                android:paddingRight="@dimen/dimen0122"
+                android:layout_width="wrap_content"
+                android:layout_height="36.0dip"
+                android:layout_marginRight="@dimen/dimen0122"
+                android:text="@string/string0046"
+                android:layout_toLeftOf="@id/id009e"
+                android:textAllCaps="true" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@id/id04aa"
+        android:layout_width="fill_parent"
+        android:layout_height="140.0dip" />
+</LinearLayout>

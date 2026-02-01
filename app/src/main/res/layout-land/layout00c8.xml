@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/id0272"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/id0184"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_begin="16.0dip" />
+
+    <include
+        android:id="@id/id0265"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4.0dip"
+        app:layout_constraintBottom_toTopOf="@id/id026a"
+        app:layout_constraintLeft_toLeftOf="id02c7"
+        app:layout_constraintTop_toTopOf="@id/id0184"
+        app:layout_constraintVertical_chainStyle="id02c5"
+        layout="@layout/layout00be" />
+
+    <include
+        android:id="@id/id026a"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12.0dip"
+        app:layout_constraintBottom_toBottomOf="id02c7"
+        app:layout_constraintLeft_toLeftOf="@id/id0265"
+        app:layout_constraintRight_toRightOf="@id/id0265"
+        app:layout_constraintTop_toBottomOf="@id/id0265"
+        app:layout_constraintVertical_chainStyle="id02c5"
+        layout="@layout/layout00c1" />
+
+    <com.google.android.material.timepicker.ClockFaceView
+        android:id="@id/id0266"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen0059"
+        app:layout_constraintStart_toEndOf="@id/id0265"
+        app:layout_constraintTop_toTopOf="id02c7" />
+</merge>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@id/id0177">
+        <item
+            android:icon="@drawable/drawable0215"
+            android:id="@id/id0370"
+            android:title="@string/string0213"
+            app:showAsAction="id0069" />
+        <item
+            android:icon="@drawable/drawable0192"
+            android:id="@id/id00fd"
+            android:title="@string/string0088"
+            app:showAsAction="id0069" />
+    </group>
+    <group android:id="@id/id0176">
+        <item
+            android:icon="@drawable/drawable01d9"
+            android:id="@id/id029e"
+            android:title="@string/string01f8"
+            app:showAsAction="id0069" />
+    </group>
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="150.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.inshot.videotomp3.utils.widget.shadowlayout.ShadowLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:hl_cornerRadius="6.0dip"
+        app:hl_layoutBackground="#ffffffff"
+        app:hl_shadowColor="#ff000000"
+        app:hl_shadowLimit="4.0dip">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/id030b"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </com.inshot.videotomp3.utils.widget.shadowlayout.ShadowLayout>
+</LinearLayout>

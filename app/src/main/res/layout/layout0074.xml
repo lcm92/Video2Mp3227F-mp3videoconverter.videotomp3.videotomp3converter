@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@id/id023a"
+        android:descendantFocusability="afterDescendants"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:orientation="vertical"
+            android:paddingBottom="24.0dip"
+            android:visibility="visible"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16.0dip"
+            android:paddingEnd="10.0dip">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="16.0sp"
+                android:textColor="@color/color005f"
+                android:id="@id/id043d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24.0dip"
+                android:text="@string/string013b"
+                android:fontFamily="@string/string0117"
+                app:layout_constraintStart_toStartOf="id02c7"
+                app:layout_constraintTop_toTopOf="id02c7" />
+
+            <RelativeLayout
+                android:id="@id/id0249"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14.0dip"
+                android:layout_marginStart="8.0dip"
+                app:layout_constraintEnd_toStartOf="@id/id024a"
+                app:layout_constraintHorizontal_weight="1.0"
+                app:layout_constraintStart_toStartOf="id02c7"
+                app:layout_constraintTop_toBottomOf="@id/id043d">
+
+                <RadioButton
+                    android:id="@id/id0305"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:button="@drawable/drawable0145"
+                    android:layout_alignTop="@id/id01c9"
+                    android:layout_alignBottom="@id/id01c9" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@id/id01c9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/drawable0211"
+                    android:layout_marginStart="12.0dip"
+                    android:layout_toEndOf="@id/id0305" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:textSize="12.0sp"
+                    android:textColor="@color/color005f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dip"
+                    android:text="@string/string01ff"
+                    android:layout_below="@id/id01c9"
+                    android:layout_alignLeft="@id/id01c9" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:id="@id/id024a"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toStartOf="@id/id0254"
+                app:layout_constraintHorizontal_weight="1.0"
+                app:layout_constraintStart_toEndOf="@id/id0249"
+                app:layout_constraintTop_toTopOf="@id/id0249">
+
+                <RadioButton
+                    android:id="@id/id0306"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/drawable0145"
+                    android:layout_alignTop="@id/id01cc"
+                    android:layout_alignBottom="@id/id01cc" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@id/id01cc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/drawable0218"
+                    android:layout_marginStart="12.0dip"
+                    android:layout_toEndOf="@id/id0306" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:textSize="12.0sp"
+                    android:textColor="@color/color005f"
+                    android:id="@id/id045e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dip"
+                    android:text="@string/string00fe"
+                    android:layout_below="@id/id01cc"
+                    android:layout_alignLeft="@id/id01cc" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:id="@id/id0254"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="id02c7"
+                app:layout_constraintHorizontal_weight="1.0"
+                app:layout_constraintStart_toEndOf="@id/id024a"
+                app:layout_constraintTop_toTopOf="@id/id0249">
+
+                <RadioButton
+                    android:id="@id/id0308"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/drawable0145"
+                    android:layout_alignTop="@id/id01d5"
+                    android:layout_alignBottom="@id/id01d5" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@id/id01d5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/drawable0228"
+                    android:layout_marginStart="12.0dip"
+                    android:layout_toEndOf="@id/id0308" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:textSize="12.0sp"
+                    android:textColor="@color/color005f"
+                    android:id="@id/id0470"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dip"
+                    android:text="@string/string02cc"
+                    android:layout_below="@id/id01d5"
+                    android:layout_alignLeft="@id/id01d5" />
+            </RelativeLayout>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="16.0sp"
+                android:textColor="@color/color005f"
+                android:id="@id/id044a"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24.0dip"
+                android:text="@string/string01b4"
+                android:fontFamily="@string/string0117"
+                app:layout_constraintStart_toStartOf="id02c7"
+                app:layout_constraintTop_toBottomOf="@id/id0249" />
+
+            <RadioButton
+                android:textSize="14.0sp"
+                android:textColor="@color/color005f"
+                android:id="@id/id0303"
+                android:paddingTop="4.0dip"
+                android:paddingBottom="4.0dip"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16.0dip"
+                android:checked="true"
+                android:button="@drawable/drawable0145"
+                android:text="@string/string01b5"
+                android:paddingStart="16.0dip"
+                app:layout_constraintStart_toStartOf="id02c7"
+                app:layout_constraintTop_toBottomOf="@id/id044a" />
+
+            <RadioButton
+                android:textSize="14.0sp"
+                android:textColor="@color/color0042"
+                android:id="@id/id0304"
+                android:paddingTop="4.0dip"
+                android:paddingBottom="4.0dip"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24.0dip"
+                android:checked="false"
+                android:button="@drawable/drawable01f9"
+                android:text="@string/string01b6"
+                android:paddingStart="16.0dip"
+                app:layout_constraintStart_toStartOf="id02c7"
+                app:layout_constraintTop_toBottomOf="@id/id0303" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/id0232"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@id/id030b"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_gravity="end|center|top"
+        android:orientation="vertical"
+        android:id="@id/id0224"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_gravity="end"
+            android:id="@id/id01d4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/drawable014e"
+            android:layout_marginEnd="6.0dip" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:orientation="vertical"
+            android:background="@drawable/drawable006a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="200.0dip"
+            android:paddingStart="4.0dip"
+            android:paddingEnd="4.0dip">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="16.0sp"
+                android:textColor="@color/color0061"
+                android:gravity="center_vertical"
+                android:id="@id/id0428"
+                android:background="@drawable/drawable00e5"
+                android:paddingTop="12.0dip"
+                android:paddingBottom="12.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string00a5"
+                android:drawablePadding="12.0dip"
+                android:drawableStart="@drawable/drawable01f1"
+                android:paddingStart="12.0dip" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="16.0sp"
+                android:textColor="@color/color0061"
+                android:gravity="center_vertical"
+                android:id="@id/id041b"
+                android:background="@drawable/drawable00e5"
+                android:paddingTop="12.0dip"
+                android:paddingBottom="12.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string0070"
+                android:drawablePadding="12.0dip"
+                android:drawableStart="@drawable/drawable01ed"
+                android:paddingStart="12.0dip" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="16.0sp"
+                android:textColor="@color/color0061"
+                android:gravity="center_vertical"
+                android:id="@id/id0420"
+                android:background="@drawable/drawable00e5"
+                android:paddingTop="12.0dip"
+                android:paddingBottom="12.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string0084"
+                android:drawablePadding="12.0dip"
+                android:drawableStart="@drawable/drawable01ec"
+                android:paddingStart="12.0dip" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="16.0sp"
+                android:textColor="@color/color0061"
+                android:gravity="center_vertical"
+                android:id="@id/id0416"
+                android:background="@drawable/drawable00e5"
+                android:paddingTop="12.0dip"
+                android:paddingBottom="12.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/string0065"
+                android:drawablePadding="12.0dip"
+                android:drawableStart="@drawable/drawable01eb"
+                android:paddingStart="12.0dip" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+</FrameLayout>

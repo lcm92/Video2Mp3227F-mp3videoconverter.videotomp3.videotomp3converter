@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal"
+    android:background="?attr00d7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:layoutDirection="ltr"
+    app:layout_constraintLeft_toLeftOf="id02c7"
+    app:layout_constraintRight_toRightOf="id02c7"
+    app:layout_constraintTop_toTopOf="id02c7"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include
+        android:id="@id/id026a"
+        android:layout_width="@dimen/dimen012c"
+        android:layout_height="@dimen/dimen012a"
+        android:layout_marginStart="0.0dip"
+        android:layout_marginEnd="@dimen/dimen012b"
+        layout="@layout/layout00c0" />
+
+    <include layout="@layout/layout00ca" />
+</LinearLayout>

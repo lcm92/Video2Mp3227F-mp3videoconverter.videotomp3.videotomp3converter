@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:left="0.0dip"
+                android:top="1.0dip"
+                android:right="0.0dip"
+                android:bottom="0.0dip" />
+            <solid android:color="#26e1e1e1" />
+            <corners
+                android:topLeftRadius="8.0dip"
+                android:topRightRadius="8.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:left="0.0dip"
+                android:top="1.0dip"
+                android:right="0.0dip"
+                android:bottom="0.0dip" />
+            <solid android:color="#33e1e1e1" />
+            <corners
+                android:topLeftRadius="8.0dip"
+                android:topRightRadius="8.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:left="0.0dip"
+                android:top="1.0dip"
+                android:right="0.0dip"
+                android:bottom="0.0dip" />
+            <solid android:color="#40d1d1d1" />
+            <corners
+                android:topLeftRadius="8.0dip"
+                android:topRightRadius="8.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:left="0.0dip"
+                android:top="1.0dip"
+                android:right="0.0dip"
+                android:bottom="0.0dip" />
+            <solid android:color="#4dd1d1d1" />
+            <corners
+                android:topLeftRadius="8.0dip"
+                android:topRightRadius="8.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#ffffffff" />
+            <corners
+                android:topLeftRadius="8.0dip"
+                android:topRightRadius="8.0dip" />
+        </shape>
+    </item>
+</layer-list>

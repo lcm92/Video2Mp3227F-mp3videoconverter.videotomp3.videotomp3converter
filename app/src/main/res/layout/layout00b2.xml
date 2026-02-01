@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow android:layout_marginTop="16.0dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string00d3"
+            android:layout_weight="0.0"
+            style="@style/style02ff" />
+
+        <TextView
+            android:id="@id/id0488"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:text=""
+            android:layout_weight="1.0"
+            style="@style/style02ff" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="10.0dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string011f"
+            android:layout_weight="0.0"
+            style="@style/style02ff" />
+
+        <TextView
+            android:id="@id/id0487"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:text=""
+            android:layout_weight="1.0"
+            style="@style/style02ff" />
+    </TableRow>
+
+    <TableRow
+        android:id="@id/id0380"
+        android:layout_marginTop="10.0dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string021b"
+            android:layout_weight="0.0"
+            style="@style/style02ff" />
+
+        <TextView
+            android:id="@id/id048a"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:text=""
+            android:layout_weight="1.0"
+            style="@style/style02ff" />
+    </TableRow>
+
+    <TableRow
+        android:id="@id/id00f7"
+        android:layout_marginTop="10.0dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string0085"
+            android:layout_weight="0.0"
+            style="@style/style02ff" />
+
+        <TextView
+            android:id="@id/id0482"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:text=""
+            android:layout_weight="1.0"
+            style="@style/style02ff" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="10.0dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string00dd"
+            android:layout_weight="0.0"
+            style="@style/style02ff" />
+
+        <TextView
+            android:id="@id/id0483"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:text=""
+            android:layout_weight="1.0"
+            style="@style/style02ff" />
+    </TableRow>
+
+    <TableRow android:layout_marginTop="10.0dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string0100"
+            android:layout_weight="0.0"
+            style="@style/style02ff" />
+
+        <TextView
+            android:id="@id/id0486"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:text=""
+            android:layout_weight="1.0"
+            style="@style/style02ff" />
+    </TableRow>
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="style0057" parent="@style/style0055" />
+
+    <style name="style005e" parent="@style/style005c" />
+
+    <style name="style0067" parent="@style/style0065" />
+
+    <style name="style0071" parent="@style/style006f" />
+</resources>

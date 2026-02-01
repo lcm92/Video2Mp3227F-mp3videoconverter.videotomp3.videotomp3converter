@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical"
+    android:background="@color/color00ba"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:id="@id/id02e3"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:layout_constraintBottom_toBottomOf="id02c7"
+        app:layout_constraintEnd_toEndOf="id02c7"
+        app:layout_constraintStart_toStartOf="id02c7"
+        app:layout_constraintTop_toTopOf="id02c7" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/id03fe"
+        android:background="@drawable/drawable02b4"
+        android:paddingTop="24.0dip"
+        android:paddingBottom="16.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:actionBarSize"
+        app:layout_constraintStart_toStartOf="id02c7"
+        app:layout_constraintTop_toTopOf="id02c7"
+        app:navigationIcon="@drawable/drawable016a"
+        app:titleTextColor="@color/color00c8">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_gravity="end"
+            android:id="@id/id01bd"
+            android:background="@drawable/drawable007e"
+            android:paddingTop="8.0dip"
+            android:paddingBottom="8.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/drawable01d0"
+            android:paddingStart="14.0dip"
+            android:paddingEnd="14.0dip" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_gravity="end"
+            android:id="@id/id01cb"
+            android:background="@drawable/drawable007e"
+            android:padding="8.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/drawable0263" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/id01c7"
+        android:background="@drawable/drawable007b"
+        android:paddingTop="10.0dip"
+        android:paddingBottom="12.0dip"
+        android:layout_width="46.0dip"
+        android:layout_height="46.0dip"
+        android:src="@drawable/drawable01ee"
+        android:paddingStart="12.0dip"
+        android:paddingEnd="10.0dip"
+        android:layout_marginStart="20.0dip"
+        app:layout_constraintStart_toStartOf="id02c7"
+        app:layout_constraintTop_toBottomOf="@id/id03fe" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/id01e3"
+        android:background="@drawable/drawable007b"
+        android:paddingTop="11.0dip"
+        android:paddingBottom="11.0dip"
+        android:layout_width="46.0dip"
+        android:layout_height="46.0dip"
+        android:src="@drawable/drawable01ef"
+        android:paddingStart="11.0dip"
+        android:paddingEnd="11.0dip"
+        android:layout_marginStart="20.0dip"
+        app:layout_constraintStart_toEndOf="@id/id01c7"
+        app:layout_constraintTop_toTopOf="@id/id01c7" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textSize="17.0sp"
+        android:textColor="@color/color00c8"
+        android:gravity="center"
+        android:id="@id/id0464"
+        android:background="@drawable/drawable007b"
+        android:layout_width="46.0dip"
+        android:layout_height="46.0dip"
+        android:text="1x"
+        android:fontFamily="@string/string0117"
+        android:layout_marginStart="20.0dip"
+        app:layout_constraintStart_toEndOf="@id/id01e3"
+        app:layout_constraintTop_toTopOf="@id/id01e3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

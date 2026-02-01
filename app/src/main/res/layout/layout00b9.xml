@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/drawable027d"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:descendantFocusability="afterDescendants"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="@dimen/dimen0236"
+                android:textColor="@color/color00c6"
+                android:id="@id/id0144"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen00b3"
+                android:layout_marginTop="@dimen/dimen00b3"
+                android:layout_marginRight="@dimen/dimen00b3"
+                android:layout_marginBottom="@dimen/dimen00f0"
+                android:text="@string/string010d"
+                android:fontFamily="@string/string0118" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/id0143"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen00b3"
+                android:layout_marginRight="@dimen/dimen00b3"
+                android:layout_below="@id/id0144">
+
+                <CheckBox
+                    android:textSize="@dimen/dimen0236"
+                    android:textColor="@color/color00c6"
+                    android:id="@id/id013e"
+                    android:background="@color/color00c5"
+                    android:paddingLeft="@dimen/dimen00a5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/drawable0277"
+                    android:minHeight="@dimen/dimen00cd"
+                    android:text="@string/string0108"
+                    android:fontFamily="@string/string0118"
+                    android:paddingStart="@dimen/dimen00a5" />
+
+                <CheckBox
+                    android:textSize="@dimen/dimen0236"
+                    android:textColor="@color/color00c6"
+                    android:id="@id/id013f"
+                    android:background="@color/color00c5"
+                    android:paddingLeft="@dimen/dimen00a5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/drawable0277"
+                    android:minHeight="@dimen/dimen00cd"
+                    android:text="@string/string0109"
+                    android:fontFamily="@string/string0118"
+                    android:paddingStart="@dimen/dimen00a5" />
+
+                <CheckBox
+                    android:textSize="@dimen/dimen0236"
+                    android:textColor="@color/color00c6"
+                    android:id="@id/id0140"
+                    android:background="@color/color00c5"
+                    android:paddingLeft="@dimen/dimen00a5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/drawable0277"
+                    android:minHeight="@dimen/dimen00cd"
+                    android:text="@string/string010a"
+                    android:fontFamily="@string/string0118"
+                    android:paddingStart="@dimen/dimen00a5" />
+
+                <CheckBox
+                    android:textSize="@dimen/dimen0236"
+                    android:textColor="@color/color00c6"
+                    android:id="@id/id0141"
+                    android:background="@color/color00c5"
+                    android:paddingLeft="@dimen/dimen00a5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/drawable0277"
+                    android:minHeight="@dimen/dimen00cd"
+                    android:text="@string/string010b"
+                    android:fontFamily="@string/string0118"
+                    android:paddingStart="@dimen/dimen00a5" />
+
+                <CheckBox
+                    android:textSize="@dimen/dimen0236"
+                    android:textColor="@color/color00c6"
+                    android:id="@id/id0142"
+                    android:background="@color/color00c5"
+                    android:paddingLeft="@dimen/dimen00a5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/drawable0277"
+                    android:minHeight="@dimen/dimen00cd"
+                    android:text="@string/string010c"
+                    android:fontFamily="@string/string0118"
+                    android:paddingStart="@dimen/dimen00a5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="end|center"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/dimen00f0"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen00b3"
+                android:layout_marginTop="@dimen/dimen00af"
+                android:layout_marginRight="@dimen/dimen00f0"
+                android:layout_below="@id/id0143"
+                android:layout_marginStart="@dimen/dimen00b3"
+                android:layout_marginEnd="@dimen/dimen00f0">
+
+                <Button
+                    android:textSize="@dimen/dimen0234"
+                    android:textColor="@color/color00c0"
+                    android:gravity="center"
+                    android:id="@id/id009d"
+                    android:background="?attr034e"
+                    android:paddingLeft="@dimen/dimen00a5"
+                    android:paddingRight="@dimen/dimen00a5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="@dimen/dimen00df"
+                    android:minHeight="@dimen/dimen00cd"
+                    android:text="@string/string0101"
+                    android:textAllCaps="true"
+                    android:fontFamily="@string/string0117" />
+
+                <Button
+                    android:textSize="@dimen/dimen0234"
+                    android:textColor="@color/color00c0"
+                    android:gravity="center"
+                    android:id="@id/id00ad"
+                    android:background="?attr034e"
+                    android:paddingLeft="@dimen/dimen00a5"
+                    android:paddingRight="@dimen/dimen00a5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="@dimen/dimen00df"
+                    android:minHeight="@dimen/dimen00cd"
+                    android:text="@string/string0105"
+                    android:textAllCaps="true"
+                    android:fontFamily="@string/string0117" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

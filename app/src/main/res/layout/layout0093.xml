@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingEnd="15.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/id0056"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7.0dip"
+        android:src="@drawable/drawable01e7" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@id/id0195"
+        android:layout_width="42.0dip"
+        android:layout_height="42.0dip"
+        android:layout_marginTop="7.0dip"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="7.0dip" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_gravity="end|center|top"
+        android:id="@id/id01b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/drawable0191" />
+</FrameLayout>

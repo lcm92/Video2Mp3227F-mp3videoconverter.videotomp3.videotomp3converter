@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:layout_gravity="start"
+    android:id="@id/id0366"
+    android:scrollbars="vertical"
+    android:fadingEdge="none"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:cacheColorHint="@null"
+    android:divider="?attr0286"
+    android:overScrollMode="ifContentScrolls"
+    android:textAlignment="viewStart"
+    app:paddingBottomNoButtons="@dimen/dimen0020"
+    app:paddingTopNoTitle="@dimen/dimen0021"
+    class="androidx.appcompat.app.AlertController$RecycleListView"
+    style="@style/style025b"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

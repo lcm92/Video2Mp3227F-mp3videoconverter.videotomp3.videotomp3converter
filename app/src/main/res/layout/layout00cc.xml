@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AlertDialogLayout android:gravity="start|center|top"
+    android:orientation="vertical"
+    android:id="@id/id02c8"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/layout00ce" />
+
+    <FrameLayout
+        android:id="@id/id00de"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48.0dip">
+
+        <View
+            android:layout_gravity="top"
+            android:id="@id/id0352"
+            android:background="?attr00c7"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip" />
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@id/id0353"
+            android:clipToPadding="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <android.widget.Space
+                    android:id="@id/id03e4"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dimen0025" />
+
+                <TextView
+                    android:id="@android:id/message"
+                    android:paddingLeft="?attr013e"
+                    android:paddingRight="?attr013e"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    style="?attr02a6" />
+
+                <android.widget.Space
+                    android:id="@id/id03e3"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dimen0025" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <View
+            android:layout_gravity="bottom"
+            android:id="@id/id0351"
+            android:background="?attr00c7"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@id/id00f3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48.0dip">
+
+        <FrameLayout
+            android:id="@id/id00f2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/layout00cd" />
+</androidx.appcompat.widget.AlertDialogLayout>

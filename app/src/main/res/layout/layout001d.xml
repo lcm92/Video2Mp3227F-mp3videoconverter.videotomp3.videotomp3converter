@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical"
+    android:background="@color/color00c8"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@id/id03fe"
+        android:background="@color/color003b"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:actionBarSize"
+        app:layout_constraintEnd_toEndOf="id02c7"
+        app:layout_constraintStart_toStartOf="id02c7"
+        app:layout_constraintTop_toTopOf="id02c7"
+        app:titleTextColor="@color/color014d">
+
+        <RelativeLayout
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@id/id025f"
+                android:layout_width="90.0dip"
+                android:layout_height="48.0dip"
+                android:layout_centerInParent="true" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="14.0sp"
+                android:textColor="@color/color0066"
+                android:gravity="center"
+                android:id="@id/id033e"
+                android:background="@drawable/drawable00de"
+                android:paddingTop="4.0dip"
+                android:paddingBottom="4.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string01f0"
+                android:layout_centerInParent="true"
+                android:textAllCaps="true"
+                android:fontFamily="@string/string0117"
+                android:paddingStart="16.0dip"
+                android:paddingEnd="16.0dip"
+                android:layout_marginEnd="16.0dip" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.inshot.adcool.widget.BannerAdLayout
+        android:id="@id/id004b"
+        android:background="#ffffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:bottomDivision="false"
+        app:layout_constraintEnd_toEndOf="id02c7"
+        app:layout_constraintStart_toStartOf="id02c7"
+        app:layout_constraintTop_toBottomOf="@id/id03fe" />
+
+    <com.inshot.videotomp3.speed.AudioWaveView
+        android:id="@id/id0080"
+        android:layout_width="fill_parent"
+        android:layout_height="220.0dip"
+        app:layout_constraintEnd_toEndOf="id02c7"
+        app:layout_constraintStart_toStartOf="id02c7"
+        app:layout_constraintTop_toBottomOf="@id/id004b" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textSize="14.0sp"
+        android:textColor="@color/color0053"
+        android:id="@id/id03e7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:fontFamily="@string/string0118"
+        android:layout_marginStart="20.0dip"
+        app:layout_constraintStart_toStartOf="id02c7"
+        app:layout_constraintTop_toBottomOf="@id/id0080" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textSize="14.0sp"
+        android:textColor="@color/color0053"
+        android:id="@id/id0424"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@string/string0118"
+        app:layout_constraintBottom_toBottomOf="@id/id03e7"
+        app:layout_constraintStart_toEndOf="@id/id03e7"
+        app:layout_constraintTop_toTopOf="@id/id03e7" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:gravity="center_vertical"
+        android:id="@id/id01d0"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/drawable01c8"
+        android:layout_marginStart="4.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/id03e7"
+        app:layout_constraintStart_toEndOf="@id/id0424"
+        app:layout_constraintTop_toTopOf="@id/id03e7" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:textSize="14.0sp"
+        android:textColor="@color/color005f"
+        android:id="@id/id0466"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@string/string0117"
+        android:layout_marginStart="4.0dip"
+        app:layout_constraintBottom_toBottomOf="@id/id03e7"
+        app:layout_constraintStart_toEndOf="@id/id01d0"
+        app:layout_constraintTop_toTopOf="@id/id03e7" />
+
+    <com.inshot.videotomp3.view.SpeedSeekBar
+        android:id="@id/id0391"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32.0dip"
+        android:progress="5"
+        android:progressDrawable="@android:color/transparent"
+        android:thumb="@drawable/drawable00ea"
+        android:thumbOffset="8.0dip"
+        android:paddingStart="22.0dip"
+        android:paddingEnd="22.0dip"
+        app:layout_constraintEnd_toEndOf="id02c7"
+        app:layout_constraintStart_toStartOf="id02c7"
+        app:layout_constraintTop_toBottomOf="@id/id0424"
+        app:max="35"
+        app:min="5" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70.0dip"
+        android:layout_marginStart="12.0dip"
+        android:layout_marginEnd="16.0dip"
+        app:layout_constraintEnd_toEndOf="id02c7"
+        app:layout_constraintStart_toStartOf="id02c7"
+        app:layout_constraintTop_toBottomOf="@id/id0391">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@id/id01c1"
+            android:padding="4.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/drawable01e8"
+            app:layout_constraintStart_toStartOf="id02c7"
+            app:layout_constraintTop_toBottomOf="@id/id0080" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="12.0sp"
+            android:textColor="@color/color005f"
+            android:id="@id/id0467"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00"
+            android:layout_marginStart="8.0dip"
+            app:layout_constraintStart_toStartOf="@id/id0361"
+            app:layout_constraintTop_toBottomOf="@id/id0361" />
+
+        <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@id/id0361"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:maxHeight="4.0dip"
+            android:progressDrawable="@drawable/drawable00e9"
+            android:minHeight="4.0dip"
+            android:thumb="@drawable/drawable00f3"
+            android:layout_weight="1.0"
+            android:paddingStart="8.0dip"
+            android:paddingEnd="8.0dip"
+            app:layout_constraintBottom_toBottomOf="@id/id01c1"
+            app:layout_constraintEnd_toEndOf="id02c7"
+            app:layout_constraintStart_toEndOf="@id/id01c1"
+            app:layout_constraintTop_toTopOf="@id/id01c1" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="12.0sp"
+            android:textColor="@color/color005f"
+            android:id="@id/id0426"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toStartOf="@id/id0466"
+            app:layout_constraintTop_toTopOf="@id/id0467" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

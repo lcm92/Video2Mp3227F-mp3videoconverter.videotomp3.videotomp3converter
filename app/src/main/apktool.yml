@@ -1,0 +1,317 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: video227.apk
+compressionType: false
+doNotCompress:
+- resources.arsc
+- META-INF/androidx.activity_activity.version
+- META-INF/androidx.annotation_annotation-experimental.version
+- META-INF/androidx.appcompat_appcompat-resources.version
+- META-INF/androidx.appcompat_appcompat.version
+- META-INF/androidx.arch.core_core-runtime.version
+- META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version
+- META-INF/androidx.browser_browser.version
+- META-INF/androidx.cardview_cardview.version
+- META-INF/androidx.coordinatorlayout_coordinatorlayout.version
+- META-INF/androidx.core_core-ktx.version
+- META-INF/androidx.core_core.version
+- META-INF/androidx.cursoradapter_cursoradapter.version
+- META-INF/androidx.customview_customview.version
+- META-INF/androidx.documentfile_documentfile.version
+- META-INF/androidx.drawerlayout_drawerlayout.version
+- META-INF/androidx.dynamicanimation_dynamicanimation.version
+- META-INF/androidx.exifinterface_exifinterface.version
+- META-INF/androidx.fragment_fragment.version
+- META-INF/androidx.interpolator_interpolator.version
+- META-INF/androidx.legacy_legacy-support-core-ui.version
+- META-INF/androidx.legacy_legacy-support-core-utils.version
+- META-INF/androidx.legacy_legacy-support-v4.version
+- META-INF/androidx.lifecycle_lifecycle-livedata-core.version
+- META-INF/androidx.lifecycle_lifecycle-livedata.version
+- META-INF/androidx.lifecycle_lifecycle-runtime.version
+- META-INF/androidx.lifecycle_lifecycle-service.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version
+- META-INF/androidx.lifecycle_lifecycle-viewmodel.version
+- META-INF/androidx.loader_loader.version
+- META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version
+- META-INF/androidx.media_media.version
+- META-INF/androidx.print_print.version
+- META-INF/androidx.privacysandbox.ads_ads-adservices-java.version
+- META-INF/androidx.privacysandbox.ads_ads-adservices.version
+- META-INF/androidx.recyclerview_recyclerview.version
+- META-INF/androidx.room_room-runtime.version
+- META-INF/androidx.savedstate_savedstate.version
+- META-INF/androidx.slidingpanelayout_slidingpanelayout.version
+- META-INF/androidx.sqlite_sqlite-framework.version
+- META-INF/androidx.sqlite_sqlite.version
+- META-INF/androidx.startup_startup-runtime.version
+- META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version
+- META-INF/androidx.tracing_tracing.version
+- META-INF/androidx.transition_transition.version
+- META-INF/androidx.vectordrawable_vectordrawable-animated.version
+- META-INF/androidx.vectordrawable_vectordrawable.version
+- META-INF/androidx.versionedparcelable_versionedparcelable.version
+- META-INF/androidx.viewpager2_viewpager2.version
+- META-INF/androidx.viewpager_viewpager.version
+- META-INF/androidx.webkit_webkit.version
+- META-INF/androidx.work_work-runtime.version
+- META-INF/com.google.android.material_material.version
+- META-INF/kotlinx_coroutines_android.version
+- META-INF/kotlinx_coroutines_core.version
+- META-INF/services/ex0
+- META-INF/services/os
+- mp3
+- mp4
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- assets/images/faq1/img_0.webp
+- assets/images/faq1/img_1.webp
+- assets/images/faq1/img_2.webp
+- assets/images/faq1/img_3.webp
+- assets/images/faq1/img_4.webp
+- assets/images/faq1/img_5.webp
+- assets/images/faq2/img_0.webp
+- assets/images/faq2/img_1.webp
+- assets/images/faq2/img_2.webp
+- assets/images/faq2/img_3.webp
+- assets/images/faq2/img_4.webp
+- png
+- res/a_/acom_android_billingclient_heterodyne_info
+- res/a_/b.binarypb
+- res/l/a8.webp
+- res/l/a9.webp
+- res/l/aa.webp
+- res/l/ab.webp
+- res/l/ac.webp
+- res/l/ad.webp
+- res/l/ae.webp
+- res/l/af.webp
+- res/l/aj.webp
+- res/l/aw.webp
+- res/l/ax.webp
+- res/l/ay.webp
+- res/l/az.webp
+- res/l/b0.webp
+- res/l/b1.webp
+- res/l/b2.webp
+- res/l/b3.webp
+- res/l/b4.webp
+- res/l/b5.webp
+- res/l/b6.webp
+- res/l/b7.webp
+- res/l/b8.webp
+- res/l/b9.webp
+- res/l/b_.webp
+- res/l/ba.webp
+- res/l/be.webp
+- res/l/bf.webp
+- res/l/bg.webp
+- res/l/bj.webp
+- res/l/bk.webp
+- res/l/bl.webp
+- res/l/bm.webp
+- res/l/bp.webp
+- res/l/bs.webp
+- res/l/bt.webp
+- res/l/bu.webp
+- res/l/bv.webp
+- res/l/bw.webp
+- res/l/bx.webp
+- res/l/by.webp
+- res/l/bz.webp
+- res/l/c2.webp
+- res/l/c3.webp
+- res/l/c4.webp
+- res/l/c6.webp
+- res/l/c7.webp
+- res/l/c8.webp
+- res/l/c9.webp
+- res/l/c_.webp
+- res/l/ca.webp
+- res/l/cb.webp
+- res/l/cc.webp
+- res/l/cd.webp
+- res/l/ce.webp
+- res/l/cf.webp
+- res/l/cg.webp
+- res/l/ch.webp
+- res/l/ci.webp
+- res/l/cj.webp
+- res/l/ck.webp
+- res/l/cl.webp
+- res/l/co.webp
+- res/l/cp.webp
+- res/l/cs.webp
+- res/l/ct.webp
+- res/l/cu.webp
+- res/l/cw.webp
+- res/l/cx.webp
+- res/l/cy.webp
+- res/l/cz.webp
+- res/l/d0.webp
+- res/l/d1.webp
+- res/l/d2.webp
+- res/l/d6.webp
+- res/l/d7.webp
+- res/l/d9.webp
+- res/l/d_.webp
+- res/l/da.webp
+- res/l/db.webp
+- res/l/dc.webp
+- res/l/dd.webp
+- res/l/de.webp
+- res/l/df.webp
+- res/l/dg.webp
+- res/l/dh.webp
+- res/l/di.webp
+- res/l/dj.webp
+- res/l/dk.webp
+- res/l/dl.webp
+- res/l/dm.webp
+- res/l/dn.webp
+- res/l/do.webp
+- res/l/dp.webp
+- res/l/dq.webp
+- res/l/dr.webp
+- res/l/ds.webp
+- res/l/dt.webp
+- res/l/du.webp
+- res/l/dv.webp
+- res/l/dw.webp
+- res/l/dx.webp
+- res/l/dy.webp
+- res/l/dz.webp
+- res/l/e0.webp
+- res/l/e1.webp
+- res/l/e2.webp
+- res/l/e3.webp
+- res/l/e4.webp
+- res/l/e5.webp
+- res/l/e6.webp
+- res/l/e7.webp
+- res/l/e8.webp
+- res/l/e9.webp
+- res/l/e_.webp
+- res/l/ea.webp
+- res/l/eb.webp
+- res/l/ec.webp
+- res/l/ed.webp
+- res/l/ef.webp
+- res/l/eg.webp
+- res/l/ej.webp
+- res/l/ek.webp
+- res/l/er.webp
+- res/l/es.webp
+- res/l/et.webp
+- res/l/eu.webp
+- res/l/ew.webp
+- res/l/ex.webp
+- res/l/ey.webp
+- res/l/f0.webp
+- res/l/f1.webp
+- res/l/f2.webp
+- res/l/f3.webp
+- res/l/f4.webp
+- res/l/f5.webp
+- res/l/f6.webp
+- res/l/f7.webp
+- res/l/f8.webp
+- res/l/f9.webp
+- res/l/f_.webp
+- res/l/fa.webp
+- res/l/fb.webp
+- res/l/fc.webp
+- res/l/fd.webp
+- res/l/ff.webp
+- res/l/fg.webp
+- res/l/fh.webp
+- res/l/fi.webp
+- res/l/fl.webp
+- res/l/fm.webp
+- res/l/fn.webp
+- res/l/fo.webp
+- res/l/fp.webp
+- res/l/fq.webp
+- res/l/fr.webp
+- res/l/fs.webp
+- res/l/fu.webp
+- res/l/fv.webp
+- res/l/fw.webp
+- res/l/fx.webp
+- res/l/fy.webp
+- res/l/fz.webp
+- res/l/g0.webp
+- res/l/g1.webp
+- res/l/g3.webp
+- res/l/g4.webp
+- res/l/ga.webp
+- res/l/gc.webp
+- res/l/gd.webp
+- res/l/ge.webp
+- res/l/gh.webp
+- res/l/gk.webp
+- res/l/gl.webp
+- res/l/gm.webp
+- res/l/gn.webp
+- res/l/go.webp
+- res/l/gp.webp
+- res/l/gq.webp
+- res/l/gr.webp
+- res/l/gs.webp
+- res/l/gt.webp
+- res/l/gu.webp
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '23'
+  targetSdkVersion: '35'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  DebugProbesKt.bin: '8'
+  androidsupportmultidexversion.txt: '0'
+  billing.properties: '8'
+  firebase-abt.properties: '8'
+  firebase-analytics.properties: '8'
+  firebase-annotations.properties: '8'
+  firebase-common.properties: '8'
+  firebase-components.properties: '8'
+  firebase-config.properties: '8'
+  firebase-crashlytics.properties: '8'
+  firebase-encoders-json.properties: '8'
+  firebase-encoders-proto.properties: '8'
+  firebase-encoders.properties: '8'
+  firebase-installations-interop.properties: '8'
+  firebase-installations.properties: '8'
+  firebase-measurement-connector.properties: '8'
+  kotlin-tooling-metadata.json: '8'
+  play-services-ads-api.properties: '8'
+  play-services-ads-identifier.properties: '8'
+  play-services-ads.properties: '8'
+  play-services-appset.properties: '8'
+  play-services-base.properties: '8'
+  play-services-basement.properties: '8'
+  play-services-location.properties: '8'
+  play-services-measurement-api.properties: '8'
+  play-services-measurement-base.properties: '8'
+  play-services-measurement-impl.properties: '8'
+  play-services-measurement-sdk-api.properties: '8'
+  play-services-measurement-sdk.properties: '8'
+  play-services-measurement.properties: '8'
+  play-services-places-placereport.properties: '8'
+  play-services-stats.properties: '8'
+  play-services-tasks.properties: '8'
+  stamp-cert-sha256: '8'
+  transport-api.properties: '8'
+  transport-backend-cct.properties: '8'
+  transport-runtime.properties: '8'
+  user-messaging-platform.properties: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: '@version@'
+versionInfo:
+  versionCode: '227001'
+  versionName: 2.2.7

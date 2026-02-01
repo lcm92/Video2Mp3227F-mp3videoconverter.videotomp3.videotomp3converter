@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:paddingLeft="24.0dip"
+    android:paddingTop="12.0dip"
+    android:paddingRight="24.0dip"
+    android:paddingBottom="12.0dip"
+    android:descendantFocusability="afterDescendants"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="13.0sp"
+            android:textColor="#6bffffff"
+            android:paddingLeft="2.0dip"
+            android:paddingRight="2.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string00d6"
+            android:fontFamily="sans-serif-medium" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@id/id03e2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen006a"
+            app:hintEnabled="false">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:textSize="14.0sp"
+                android:textColor="#bfffffff"
+                android:textColorHint="#61ffffff"
+                android:id="@id/id0149"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/string00d6"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:selectAllOnFocus="true"
+                android:maxLength="80"
+                android:inputType="text"
+                android:imeOptions="actionGo" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:textSize="13.0sp"
+            android:textColor="#6bffffff"
+            android:paddingLeft="2.0dip"
+            android:paddingRight="2.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0068"
+            android:text="@string/string0072"
+            android:fontFamily="sans-serif-medium" />
+
+        <RadioGroup
+            android:gravity="center_vertical"
+            android:id="@id/id0343"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen006a">
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:textSize="14.0sp"
+                android:textColor="#bfffffff"
+                android:id="@id/id0340"
+                android:paddingLeft="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen006a"
+                android:text="@string/string00be"
+                android:textAllCaps="true" />
+
+            <TextView
+                android:textSize="13.0sp"
+                android:textColor="#61ffffff"
+                android:id="@id/id0341"
+                android:paddingRight="12.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40.0dip"
+                android:text="@string/string00c0" />
+
+            <androidx.appcompat.widget.AppCompatRadioButton
+                android:textSize="14.0sp"
+                android:textColor="#bfffffff"
+                android:id="@id/id034a"
+                android:paddingLeft="8.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen006a"
+                android:text="@string/string0229"
+                android:textAllCaps="true" />
+
+            <TextView
+                android:textSize="13.0sp"
+                android:textColor="#61ffffff"
+                android:id="@id/id034b"
+                android:paddingRight="12.0dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40.0dip"
+                android:text="@string/string022a" />
+        </RadioGroup>
+
+        <TextView
+            android:textSize="13.0sp"
+            android:textColor="#6bffffff"
+            android:paddingLeft="2.0dip"
+            android:paddingRight="2.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0068"
+            android:text="@string/string01df"
+            android:fontFamily="sans-serif-medium" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@id/id0310"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen006b"
+                android:minWidth="140.0dip"
+                android:minHeight="24.0dip"
+                android:layout_alignParentStart="true" />
+
+            <View
+                android:background="#42d8d8d8"
+                android:layout_width="wrap_content"
+                android:layout_height="1.0dip"
+                android:layout_marginLeft="8.0dip"
+                android:layout_marginRight="8.0dip"
+                android:layout_below="@id/id0310"
+                android:layout_alignStart="@id/id0310"
+                android:layout_alignEnd="@id/id0310" />
+
+            <TextView
+                android:textSize="13.0sp"
+                android:textColor="#bfffffff"
+                android:id="@id/id037f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="24.0dip"
+                android:layout_toEndOf="@id/id0310" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:paddingRight="3.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen0069">
+
+            <TextView
+                android:textSize="14.0sp"
+                android:textColor="#ffffffff"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:id="@id/id009e"
+                android:background="@drawable/drawable00db"
+                android:paddingLeft="@dimen/dimen0121"
+                android:paddingRight="@dimen/dimen0121"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="36.0dip"
+                android:text="@string/string006b"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:layout_alignParentRight="true"
+                android:textAllCaps="true"
+                android:fontFamily="sans-serif-medium" />
+
+            <TextView
+                android:textSize="14.0sp"
+                android:textColor="#fff42f4c"
+                android:gravity="center"
+                android:id="@id/id009d"
+                android:background="@drawable/drawable010c"
+                android:paddingLeft="@dimen/dimen0122"
+                android:paddingRight="@dimen/dimen0122"
+                android:layout_width="wrap_content"
+                android:layout_height="36.0dip"
+                android:layout_marginRight="@dimen/dimen0122"
+                android:text="@string/string0046"
+                android:layout_toLeftOf="@id/id009e"
+                android:textAllCaps="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
