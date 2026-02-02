@@ -19,10 +19,10 @@
 .method public abstract zzh()Lcom/google/android/gms/ads/internal/client/zzed;
 .end method
 
-.method public abstract zzi()Ljl0;
+.method public abstract zzi()Ldef/JL0;
 .end method
 
-.method public abstract zzj(Ljl0;)V
+.method public abstract zzj(Ldef/JL0;)V
 .end method
 
 .method public abstract zzk()Z

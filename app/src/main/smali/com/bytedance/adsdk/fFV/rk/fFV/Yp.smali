@@ -1,5 +1,5 @@
 .class abstract Lcom/bytedance/adsdk/fFV/rk/fFV/Yp;
-.super Lcom/bytedance/adsdk/fFV/rk/fFV/rk;
+.super Lcom/bytedance/adsdk/fFV/rk/fFV/RKFRC;
 .source "SourceFile"
 
 
@@ -9,7 +9,7 @@
         "<T:",
         "Ljava/lang/Object;",
         ">",
-        "Lcom/bytedance/adsdk/fFV/rk/fFV/rk<",
+        "Lcom/bytedance/adsdk/fFV/rk/fFV/RKFRC<",
         "TT;TT;>;"
     }
 .end annotation
@@ -23,14 +23,12 @@
             "(",
             "Ljava/util/List<",
             "+",
-            "Lcom/bytedance/adsdk/fFV/Yp/rk<",
+            "Lcom/bytedance/adsdk/fFV/Yp/RKYFC<",
             "TT;>;>;)V"
         }
     .end annotation
 
-    .line 1
-    invoke-direct {p0, p1}, Lcom/bytedance/adsdk/fFV/rk/fFV/rk;-><init>(Ljava/util/List;)V
+    invoke-direct {p0, p1}, Lcom/bytedance/adsdk/fFV/rk/fFV/RKFRC;-><init>(Ljava/util/List;)V
 
-    .line 4
     return-void
 .end method

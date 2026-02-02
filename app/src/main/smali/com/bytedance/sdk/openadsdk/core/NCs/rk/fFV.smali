@@ -1,5 +1,5 @@
 .class public Lcom/bytedance/sdk/openadsdk/core/NCs/rk/fFV;
-.super Lcg2;
+.super Ldef/CG2;
 .source "SourceFile"
 
 
@@ -8,15 +8,12 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Lmg2;Lmg2;III)V
+.method public constructor <init>(Ljava/lang/String;Ldef/MG2;Ldef/MG2;III)V
     .locals 0
 
-    .line 1
-    invoke-direct/range {p0 .. p5}, Lcg2;-><init>(Ljava/lang/String;Lmg2;Lmg2;II)V
+    invoke-direct/range {p0 .. p5}, Ldef/CG2;-><init>(Ljava/lang/String;Ldef/MG2;Ldef/MG2;II)V
 
-    .line 4
     iput p6, p0, Lcom/bytedance/sdk/openadsdk/core/NCs/rk/fFV;->lG:I
 
-    .line 6
     return-void
 .end method

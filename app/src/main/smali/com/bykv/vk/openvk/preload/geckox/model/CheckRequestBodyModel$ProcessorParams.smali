@@ -16,7 +16,7 @@
 
 # instance fields
 .field public domain:Ljava/lang/String;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "domain"
     .end annotation
 .end field

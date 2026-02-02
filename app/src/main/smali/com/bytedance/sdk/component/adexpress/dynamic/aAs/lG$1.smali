@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/bytedance/sdk/component/adexpress/lG/KIc$rk;
+.implements Lcom/bytedance/sdk/component/adexpress/lG/KIc$RKK1;
 
 
 # annotations
@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "1"
 .end annotation
 
 
@@ -27,15 +27,11 @@
 .method constructor <init>(Lcom/bytedance/sdk/component/adexpress/dynamic/aAs/lG;Lcom/bytedance/sdk/component/adexpress/lG/ZQ;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/aAs/lG$1;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/aAs/lG;
 
-    .line 3
     iput-object p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/aAs/lG$1;->rk:Lcom/bytedance/sdk/component/adexpress/lG/ZQ;
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 8
     return-void
 .end method

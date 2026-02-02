@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private AXL:Lcom/bytedance/adsdk/ugeno/core/fFV/rk;
+.field private AXL:Lcom/bytedance/adsdk/ugeno/core/fFV/RKFCC;
 
 .field private NCs:F
 
@@ -19,37 +19,29 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/bytedance/adsdk/ugeno/DK/DK/aAs;-><init>(Landroid/content/Context;)V
 
-    .line 4
     const/4 p1, 0x0
 
-    .line 5
     iput p1, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->woP:I
 
-    .line 7
     const-string p1, "up"
 
-    .line 9
     iput-object p1, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->Pa:Ljava/lang/String;
 
-    .line 11
     return-void
 .end method
 
 .method private rk(Lcom/bytedance/adsdk/ugeno/fFV/aAs;Landroid/view/MotionEvent;)Z
     .locals 9
 
-    .line 10
-    iget-object v0, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->AXL:Lcom/bytedance/adsdk/ugeno/core/fFV/rk;
+    iget-object v0, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->AXL:Lcom/bytedance/adsdk/ugeno/core/fFV/RKFCC;
 
     const/4 v1, 0x0
 
     if-eqz v0, :cond_1
 
-    .line 11
-    invoke-virtual {v0, p2}, Lcom/bytedance/adsdk/ugeno/core/fFV/rk;->rk(Landroid/view/MotionEvent;)Z
+    invoke-virtual {v0, p2}, Lcom/bytedance/adsdk/ugeno/core/fFV/RKFCC;->rk(Landroid/view/MotionEvent;)Z
 
     move-result v0
 
@@ -57,13 +49,11 @@
 
     return v1
 
-    .line 12
     :cond_0
-    iget-object v0, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->AXL:Lcom/bytedance/adsdk/ugeno/core/fFV/rk;
+    iget-object v0, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->AXL:Lcom/bytedance/adsdk/ugeno/core/fFV/RKFCC;
 
-    invoke-virtual {v0, p1, p2}, Lcom/bytedance/adsdk/ugeno/core/fFV/rk;->rk(Lcom/bytedance/adsdk/ugeno/fFV/aAs;Landroid/view/MotionEvent;)V
+    invoke-virtual {v0, p1, p2}, Lcom/bytedance/adsdk/ugeno/core/fFV/RKFCC;->rk(Lcom/bytedance/adsdk/ugeno/fFV/aAs;Landroid/view/MotionEvent;)V
 
-    .line 13
     :cond_1
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getAction()I
 
@@ -81,28 +71,23 @@
 
     goto/16 :goto_3
 
-    .line 14
     :cond_2
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getX()F
 
     move-result v0
 
-    .line 15
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getY()F
 
     move-result p2
 
-    .line 16
     iget v4, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->woP:I
 
     if-nez v4, :cond_3
 
-    .line 17
     iget-object v4, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/aAs;->rk:Lcom/bytedance/adsdk/ugeno/DK/nP;
 
     if-eqz v4, :cond_3
 
-    .line 18
     iget-object p2, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/aAs;->lG:Ljava/lang/String;
 
     iget-object v0, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/aAs;->aAs:Lcom/bytedance/adsdk/ugeno/DK/lG;
@@ -115,7 +100,6 @@
 
     return v2
 
-    .line 19
     :cond_3
     iget-object v4, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/aAs;->ArD:Landroid/content/Context;
 
@@ -123,22 +107,20 @@
 
     sub-float/2addr v0, v5
 
-    invoke-static {v4, v0}, Lcom/bytedance/adsdk/ugeno/Yp/pw;->fFV(Landroid/content/Context;F)I
+    invoke-static {v4, v0}, Lcom/bytedance/adsdk/ugeno/Yp/PWYUC;->fFV(Landroid/content/Context;F)I
 
     move-result v0
 
-    .line 20
     iget-object v4, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/aAs;->ArD:Landroid/content/Context;
 
     iget v5, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->NCs:F
 
     sub-float/2addr p2, v5
 
-    invoke-static {v4, p2}, Lcom/bytedance/adsdk/ugeno/Yp/pw;->fFV(Landroid/content/Context;F)I
+    invoke-static {v4, p2}, Lcom/bytedance/adsdk/ugeno/Yp/PWYUC;->fFV(Landroid/content/Context;F)I
 
     move-result p2
 
-    .line 21
     iget-object v4, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->Pa:Ljava/lang/String;
 
     invoke-virtual {v4}, Ljava/lang/String;->hashCode()I
@@ -233,7 +215,6 @@
 
     const-wide/high16 v5, 0x4000000000000000L    # 2.0
 
-    .line 22
     invoke-static {v3, v4, v5, v6}, Ljava/lang/Math;->pow(DD)D
 
     move-result-wide v3
@@ -271,27 +252,22 @@
     :cond_7
     neg-int v0, p2
 
-    .line 23
     :cond_8
     :goto_2
     iget p2, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->woP:I
 
     if-lt v0, p2, :cond_9
 
-    .line 24
     iget-object p2, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/aAs;->rk:Lcom/bytedance/adsdk/ugeno/DK/nP;
 
     if-eqz p2, :cond_c
 
     const/4 v0, 0x0
 
-    .line 25
     iput v0, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->nP:F
 
-    .line 26
     iput v0, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->NCs:F
 
-    .line 27
     iget-object v0, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/aAs;->lG:Ljava/lang/String;
 
     iget-object v1, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/aAs;->aAs:Lcom/bytedance/adsdk/ugeno/DK/lG;
@@ -304,21 +280,18 @@
 
     return v2
 
-    .line 28
     :cond_9
-    iget-object p2, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->AXL:Lcom/bytedance/adsdk/ugeno/core/fFV/rk;
+    iget-object p2, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->AXL:Lcom/bytedance/adsdk/ugeno/core/fFV/RKFCC;
 
     if-eqz p2, :cond_a
 
-    .line 29
-    iget-object p2, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->AXL:Lcom/bytedance/adsdk/ugeno/core/fFV/rk;
+    iget-object p2, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->AXL:Lcom/bytedance/adsdk/ugeno/core/fFV/RKFCC;
 
-    invoke-virtual {p2, p1}, Lcom/bytedance/adsdk/ugeno/core/fFV/rk;->rk(Lcom/bytedance/adsdk/ugeno/fFV/aAs;)V
+    invoke-virtual {p2, p1}, Lcom/bytedance/adsdk/ugeno/core/fFV/RKFCC;->rk(Lcom/bytedance/adsdk/ugeno/fFV/aAs;)V
 
     :cond_a
     return v1
 
-    .line 30
     :cond_b
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getX()F
 
@@ -326,7 +299,6 @@
 
     iput p1, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->nP:F
 
-    .line 31
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getY()F
 
     move-result p1
@@ -358,20 +330,17 @@
 
     if-eqz p1, :cond_4
 
-    .line 1
     array-length v1, p1
 
     if-gtz v1, :cond_0
 
     goto :goto_1
 
-    .line 2
     :cond_0
     iget-object v1, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/aAs;->rQf:Ljava/util/Map;
 
     if-eqz v1, :cond_2
 
-    .line 3
     const-string v2, "direction"
 
     invoke-interface {v1, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -402,7 +371,6 @@
     :goto_0
     iput-object v1, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->Pa:Ljava/lang/String;
 
-    .line 4
     iget-object v1, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/aAs;->rQf:Ljava/util/Map;
 
     const-string v2, "distance"
@@ -419,7 +387,6 @@
 
     iput v1, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->woP:I
 
-    .line 5
     :cond_2
     iget-object v1, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/aAs;->fFV:Lcom/bytedance/adsdk/ugeno/fFV/aAs;
 
@@ -431,25 +398,21 @@
 
     if-eqz v1, :cond_3
 
-    .line 6
-    iget-object v1, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->AXL:Lcom/bytedance/adsdk/ugeno/core/fFV/rk;
+    iget-object v1, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->AXL:Lcom/bytedance/adsdk/ugeno/core/fFV/RKFCC;
 
     if-nez v1, :cond_3
 
-    .line 7
-    new-instance v1, Lcom/bytedance/adsdk/ugeno/core/fFV/rk;
+    new-instance v1, Lcom/bytedance/adsdk/ugeno/core/fFV/RKFCC;
 
-    invoke-direct {v1}, Lcom/bytedance/adsdk/ugeno/core/fFV/rk;-><init>()V
+    invoke-direct {v1}, Lcom/bytedance/adsdk/ugeno/core/fFV/RKFCC;-><init>()V
 
-    iput-object v1, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->AXL:Lcom/bytedance/adsdk/ugeno/core/fFV/rk;
+    iput-object v1, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->AXL:Lcom/bytedance/adsdk/ugeno/core/fFV/RKFCC;
 
-    .line 8
     :cond_3
     aget-object p1, p1, v0
 
     check-cast p1, Landroid/view/MotionEvent;
 
-    .line 9
     iget-object v0, p0, Lcom/bytedance/adsdk/ugeno/DK/DK/aAs;->fFV:Lcom/bytedance/adsdk/ugeno/fFV/aAs;
 
     invoke-direct {p0, v0, p1}, Lcom/bytedance/adsdk/ugeno/DK/DK/rQf;->rk(Lcom/bytedance/adsdk/ugeno/fFV/aAs;Landroid/view/MotionEvent;)Z

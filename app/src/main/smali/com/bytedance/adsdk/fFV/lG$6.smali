@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "6"
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
@@ -34,13 +34,10 @@
 .method constructor <init>(Lcom/bytedance/adsdk/fFV/lG;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/adsdk/fFV/lG$6;->rk:Lcom/bytedance/adsdk/fFV/lG;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method
 
@@ -49,7 +46,6 @@
 .method public rk(Lcom/bytedance/adsdk/fFV/Yp;)V
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/bytedance/adsdk/fFV/lG$6;->rk:Lcom/bytedance/adsdk/fFV/lG;
 
     invoke-virtual {v0, p1}, Lcom/bytedance/adsdk/fFV/lG;->setComposition(Lcom/bytedance/adsdk/fFV/Yp;)V
@@ -60,7 +56,6 @@
 .method public bridge synthetic rk(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/bytedance/adsdk/fFV/Yp;
 
     invoke-virtual {p0, p1}, Lcom/bytedance/adsdk/fFV/lG$6;->rk(Lcom/bytedance/adsdk/fFV/Yp;)V

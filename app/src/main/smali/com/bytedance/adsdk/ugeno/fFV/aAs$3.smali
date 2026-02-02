@@ -10,7 +10,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "3"
 .end annotation
 
 
@@ -22,12 +22,9 @@
 .method constructor <init>(Lcom/bytedance/adsdk/ugeno/fFV/aAs;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/adsdk/ugeno/fFV/aAs$3;->rk:Lcom/bytedance/adsdk/ugeno/fFV/aAs;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method

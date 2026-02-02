@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/google/android/gms/ads/internal/util/client/c;
+.implements Lcom/google/android/gms/ads/internal/util/client/CCUC;
 
 
 # instance fields

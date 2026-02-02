@@ -6,14 +6,6 @@
 .implements Landroid/os/Parcelable;
 
 
-# annotations
-.annotation build Landroid/annotation/SuppressLint;
-    value = {
-        "BanParcelableUsage"
-    }
-.end annotation
-
-
 # static fields
 .field public static final CREATOR:Landroid/os/Parcelable$Creator;
     .annotation system Ldalvik/annotation/Signature;
@@ -27,48 +19,37 @@
 
 
 # instance fields
-.field private final a:Lu72;
+.field private final a:Ldef/U72;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
-    new-instance v0, Landroidx/versionedparcelable/ParcelImpl$a;
+    new-instance v0, Landroidx/versionedparcelable/ParcelImpl$AP1;
 
-    .line 3
-    invoke-direct {v0}, Landroidx/versionedparcelable/ParcelImpl$a;-><init>()V
+    invoke-direct {v0}, Landroidx/versionedparcelable/ParcelImpl$AP1;-><init>()V
 
-    .line 6
     sput-object v0, Landroidx/versionedparcelable/ParcelImpl;->CREATOR:Landroid/os/Parcelable$Creator;
 
-    .line 8
     return-void
 .end method
 
 .method protected constructor <init>(Landroid/os/Parcel;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
-    new-instance v0, Landroidx/versionedparcelable/b;
+    new-instance v0, Landroidx/versionedparcelable/BVA;
 
-    .line 6
-    invoke-direct {v0, p1}, Landroidx/versionedparcelable/b;-><init>(Landroid/os/Parcel;)V
+    invoke-direct {v0, p1}, Landroidx/versionedparcelable/BVA;-><init>(Landroid/os/Parcel;)V
 
-    .line 9
-    invoke-virtual {v0}, Landroidx/versionedparcelable/a;->u()Lu72;
+    invoke-virtual {v0}, Landroidx/versionedparcelable/AVA;->u()Ldef/U72;
 
-    .line 12
     move-result-object p1
 
-    .line 13
-    iput-object p1, p0, Landroidx/versionedparcelable/ParcelImpl;->a:Lu72;
+    iput-object p1, p0, Landroidx/versionedparcelable/ParcelImpl;->a:Ldef/U72;
 
-    .line 15
     return-void
 .end method
 
@@ -85,18 +66,13 @@
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
 
-    .line 1
-    new-instance p2, Landroidx/versionedparcelable/b;
+    new-instance p2, Landroidx/versionedparcelable/BVA;
 
-    .line 3
-    invoke-direct {p2, p1}, Landroidx/versionedparcelable/b;-><init>(Landroid/os/Parcel;)V
+    invoke-direct {p2, p1}, Landroidx/versionedparcelable/BVA;-><init>(Landroid/os/Parcel;)V
 
-    .line 6
-    iget-object p1, p0, Landroidx/versionedparcelable/ParcelImpl;->a:Lu72;
+    iget-object p1, p0, Landroidx/versionedparcelable/ParcelImpl;->a:Ldef/U72;
 
-    .line 8
-    invoke-virtual {p2, p1}, Landroidx/versionedparcelable/a;->L(Lu72;)V
+    invoke-virtual {p2, p1}, Landroidx/versionedparcelable/AVA;->L(Ldef/U72;)V
 
-    .line 11
     return-void
 .end method

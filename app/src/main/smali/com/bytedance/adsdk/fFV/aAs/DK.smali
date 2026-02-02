@@ -40,28 +40,20 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/bytedance/adsdk/fFV/aAs/DK;->rk:Ljava/util/List;
 
-    .line 6
     iput-char p2, p0, Lcom/bytedance/adsdk/fFV/aAs/DK;->fFV:C
 
-    .line 8
     iput-wide p3, p0, Lcom/bytedance/adsdk/fFV/aAs/DK;->aAs:D
 
-    .line 10
     iput-wide p5, p0, Lcom/bytedance/adsdk/fFV/aAs/DK;->DK:D
 
-    .line 12
     iput-object p7, p0, Lcom/bytedance/adsdk/fFV/aAs/DK;->rQf:Ljava/lang/String;
 
-    .line 14
     iput-object p8, p0, Lcom/bytedance/adsdk/fFV/aAs/DK;->lG:Ljava/lang/String;
 
-    .line 16
     return-void
 .end method
 
@@ -70,7 +62,6 @@
 
     mul-int/lit8 p0, p0, 0x1f
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/String;->hashCode()I
 
     move-result p1
@@ -79,7 +70,6 @@
 
     mul-int/lit8 p0, p0, 0x1f
 
-    .line 2
     invoke-virtual {p2}, Ljava/lang/String;->hashCode()I
 
     move-result p1
@@ -94,32 +84,24 @@
 .method public fFV()D
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/bytedance/adsdk/fFV/aAs/DK;->DK:D
 
-    .line 3
     return-wide v0
 .end method
 
 .method public hashCode()I
     .locals 3
 
-    .line 1
     iget-char v0, p0, Lcom/bytedance/adsdk/fFV/aAs/DK;->fFV:C
 
-    .line 3
     iget-object v1, p0, Lcom/bytedance/adsdk/fFV/aAs/DK;->lG:Ljava/lang/String;
 
-    .line 5
     iget-object v2, p0, Lcom/bytedance/adsdk/fFV/aAs/DK;->rQf:Ljava/lang/String;
 
-    .line 7
     invoke-static {v0, v1, v2}, Lcom/bytedance/adsdk/fFV/aAs/DK;->rk(CLjava/lang/String;Ljava/lang/String;)I
 
-    .line 10
     move-result v0
 
-    .line 11
     return v0
 .end method
 
@@ -134,7 +116,6 @@
         }
     .end annotation
 
-    .line 3
     iget-object v0, p0, Lcom/bytedance/adsdk/fFV/aAs/DK;->rk:Ljava/util/List;
 
     return-object v0

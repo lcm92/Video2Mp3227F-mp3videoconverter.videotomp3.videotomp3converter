@@ -34,17 +34,14 @@
 .method protected fFV()Lcom/bytedance/sdk/component/rk/Kl;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bytedance/sdk/component/rk/Kl;->fFV:Lcom/bytedance/sdk/component/rk/Kl;
 
-    .line 3
     return-object v0
 .end method
 
 .method public rk()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/rk/fFV;->rk:Ljava/lang/String;
 
     return-object v0
@@ -53,7 +50,6 @@
 .method rk(Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     iput-object p1, p0, Lcom/bytedance/sdk/component/rk/fFV;->rk:Ljava/lang/String;
 
     return-void

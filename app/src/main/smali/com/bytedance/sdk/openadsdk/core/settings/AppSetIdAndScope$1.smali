@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lg81;
+.implements Ldef/G81;
 
 
 # annotations
@@ -13,13 +13,13 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x8
-    name = null
+    name = "1"
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lg81;"
+        "Ldef/G81;"
     }
 .end annotation
 
@@ -35,26 +35,10 @@
 
 
 # virtual methods
-.method public bridge synthetic onSuccess(Ljava/lang/Object;)V
-    .locals 0
-    .annotation build Landroidx/annotation/Keep;
-    .end annotation
-
-    .line 1
-    check-cast p1, Ll9;
-
-    invoke-virtual {p0, p1}, Lcom/bytedance/sdk/openadsdk/core/settings/AppSetIdAndScope$1;->onSuccess(Ll9;)V
-
-    return-void
-.end method
-
-.method public onSuccess(Ll9;)V
+.method public onSuccess(Ldef/L9;)V
     .locals 1
-    .annotation build Landroidx/annotation/Keep;
-    .end annotation
 
-    .line 2
-    invoke-virtual {p1}, Ll9;->b()I
+    invoke-virtual {p1}, Ldef/L9;->b()I
 
     move-result v0
 
@@ -64,8 +48,7 @@
 
     invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/core/settings/DK;->rk(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 3
-    invoke-virtual {p1}, Ll9;->a()Ljava/lang/String;
+    invoke-virtual {p1}, Ldef/L9;->a()Ljava/lang/String;
 
     move-result-object p1
 
@@ -73,8 +56,17 @@
 
     const/4 p1, 0x1
 
-    .line 4
     invoke-static {p1}, Lcom/bytedance/sdk/openadsdk/core/settings/DK;->rk(I)I
+
+    return-void
+.end method
+
+.method public bridge synthetic onSuccess(Ljava/lang/Object;)V
+    .locals 0
+
+    check-cast p1, Ldef/L9;
+
+    invoke-virtual {p0, p1}, Lcom/bytedance/sdk/openadsdk/core/settings/AppSetIdAndScope$1;->onSuccess(Ldef/L9;)V
 
     return-void
 .end method

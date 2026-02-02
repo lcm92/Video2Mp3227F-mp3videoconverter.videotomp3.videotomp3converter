@@ -22,10 +22,10 @@
 .method public abstract zzf()Lcom/google/android/gms/internal/ads/zzbgp;
 .end method
 
-.method public abstract zzg()Ljl0;
+.method public abstract zzg()Ldef/JL0;
 .end method
 
-.method public abstract zzh()Ljl0;
+.method public abstract zzh()Ldef/JL0;
 .end method
 
 .method public abstract zzi()Ljava/lang/String;

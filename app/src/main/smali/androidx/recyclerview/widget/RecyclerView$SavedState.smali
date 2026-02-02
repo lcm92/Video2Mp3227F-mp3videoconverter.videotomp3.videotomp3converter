@@ -34,38 +34,31 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Landroidx/recyclerview/widget/RecyclerView$SavedState$a;
 
-    .line 3
     invoke-direct {v0}, Landroidx/recyclerview/widget/RecyclerView$SavedState$a;-><init>()V
 
-    .line 6
     sput-object v0, Landroidx/recyclerview/widget/RecyclerView$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;
 
-    .line 8
     return-void
 .end method
 
 .method constructor <init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 
     if-eqz p2, :cond_0
 
     goto :goto_0
 
-    .line 2
     :cond_0
-    const-class p2, Landroidx/recyclerview/widget/RecyclerView$p;
+    const-class p2, Landroidx/recyclerview/widget/RecyclerView$PR1;
 
     invoke-virtual {p2}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
 
     move-result-object p2
 
-    .line 3
     :goto_0
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->readParcelable(Ljava/lang/ClassLoader;)Landroid/os/Parcelable;
 
@@ -79,7 +72,6 @@
 .method constructor <init>(Landroid/os/Parcelable;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0, p1}, Landroidx/customview/view/AbsSavedState;-><init>(Landroid/os/Parcelable;)V
 
     return-void
@@ -90,31 +82,23 @@
 .method e(Landroidx/recyclerview/widget/RecyclerView$SavedState;)V
     .locals 0
 
-    .line 1
     iget-object p1, p1, Landroidx/recyclerview/widget/RecyclerView$SavedState;->c:Landroid/os/Parcelable;
 
-    .line 3
     iput-object p1, p0, Landroidx/recyclerview/widget/RecyclerView$SavedState;->c:Landroid/os/Parcelable;
 
-    .line 5
     return-void
 .end method
 
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 1
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;->writeToParcel(Landroid/os/Parcel;I)V
 
-    .line 4
     iget-object p2, p0, Landroidx/recyclerview/widget/RecyclerView$SavedState;->c:Landroid/os/Parcelable;
 
-    .line 6
     const/4 v0, 0x0
 
-    .line 7
     invoke-virtual {p1, p2, v0}, Landroid/os/Parcel;->writeParcelable(Landroid/os/Parcelable;I)V
 
-    .line 10
     return-void
 .end method

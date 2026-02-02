@@ -20,13 +20,13 @@
 
 # instance fields
 .field private common:Lcom/bykv/vk/openvk/preload/geckox/model/Common;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "common"
     .end annotation
 .end field
 
 .field private custom:Ljava/util/Map;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "custom"
     .end annotation
 
@@ -43,7 +43,7 @@
 .end field
 
 .field private deployment:Ljava/util/Map;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "deployment"
     .end annotation
 
@@ -59,7 +59,7 @@
 .end field
 
 .field private deployments:Ljava/util/Map;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "deployments"
     .end annotation
 
@@ -74,7 +74,7 @@
 .end field
 
 .field private local:Ljava/util/Map;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "local"
     .end annotation
 
@@ -114,39 +114,29 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bykv/vk/openvk/preload/geckox/model/CheckRequestBodyModel;->deployment:Ljava/util/Map;
 
-    .line 3
     if-nez v0, :cond_0
 
-    .line 5
     new-instance v0, Ljava/util/HashMap;
 
-    .line 7
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 10
     iput-object v0, p0, Lcom/bykv/vk/openvk/preload/geckox/model/CheckRequestBodyModel;->deployment:Ljava/util/Map;
 
-    .line 12
     :cond_0
     iget-object v0, p0, Lcom/bykv/vk/openvk/preload/geckox/model/CheckRequestBodyModel;->deployment:Ljava/util/Map;
 
-    .line 14
     invoke-interface {v0, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 17
     return-void
 .end method
 
 .method public setCommon(Lcom/bykv/vk/openvk/preload/geckox/model/Common;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bykv/vk/openvk/preload/geckox/model/CheckRequestBodyModel;->common:Lcom/bykv/vk/openvk/preload/geckox/model/Common;
 
-    .line 3
     return-void
 .end method
 
@@ -164,10 +154,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/bykv/vk/openvk/preload/geckox/model/CheckRequestBodyModel;->custom:Ljava/util/Map;
 
-    .line 3
     return-void
 .end method
 
@@ -183,10 +171,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/bykv/vk/openvk/preload/geckox/model/CheckRequestBodyModel;->deployments:Ljava/util/Map;
 
-    .line 3
     return-void
 .end method
 
@@ -204,9 +190,7 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/bykv/vk/openvk/preload/geckox/model/CheckRequestBodyModel;->local:Ljava/util/Map;
 
-    .line 3
     return-void
 .end method

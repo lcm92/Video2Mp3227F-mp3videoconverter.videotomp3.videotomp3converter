@@ -16,7 +16,6 @@
 
     add-int/lit16 p1, p1, -0x200
 
-    .line 1
     invoke-static {p1}, Ljava/lang/Math;->abs(I)I
 
     move-result p0
@@ -53,7 +52,6 @@
 
     if-ltz p0, :cond_0
 
-    .line 2
     invoke-interface {p1}, Ljava/util/Collection;->size()I
 
     move-result p1

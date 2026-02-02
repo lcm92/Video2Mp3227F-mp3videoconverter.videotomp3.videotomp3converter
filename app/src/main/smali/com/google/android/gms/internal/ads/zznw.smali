@@ -30,38 +30,13 @@
 .method public final zza(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/zzmr;
 
-    .line 2
-    .line 3
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zznw;->zza:Lcom/google/android/gms/internal/ads/zzmp;
 
-    .line 4
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/zznw;->zzb:Lcom/google/android/gms/internal/ads/zzba;
 
-    .line 6
-    .line 7
     invoke-interface {p1, v0, v1}, Lcom/google/android/gms/internal/ads/zzmr;->zzl(Lcom/google/android/gms/internal/ads/zzmp;Lcom/google/android/gms/internal/ads/zzba;)V
 
-    .line 8
-    .line 9
-    .line 10
     return-void
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method

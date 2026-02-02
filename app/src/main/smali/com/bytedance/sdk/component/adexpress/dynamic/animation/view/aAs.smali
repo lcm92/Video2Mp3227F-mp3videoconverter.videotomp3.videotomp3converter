@@ -21,43 +21,30 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     new-instance v0, Landroid/graphics/Path;
 
-    .line 6
     invoke-direct {v0}, Landroid/graphics/Path;-><init>()V
 
-    .line 9
     iput-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->fFV:Landroid/graphics/Path;
 
-    .line 11
     new-instance v0, Landroid/graphics/Path;
 
-    .line 13
     invoke-direct {v0}, Landroid/graphics/Path;-><init>()V
 
-    .line 16
     iput-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->aAs:Landroid/graphics/Path;
 
-    .line 18
     new-instance v0, Landroid/graphics/Paint;
 
-    .line 20
     invoke-direct {v0}, Landroid/graphics/Paint;-><init>()V
 
-    .line 23
     iput-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rk:Landroid/graphics/Paint;
 
-    .line 25
     const/4 v1, 0x1
 
-    .line 26
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
-    .line 29
     return-void
 .end method
 
@@ -72,7 +59,6 @@
 
     move-object/from16 v8, p3
 
-    .line 1
     invoke-interface/range {p2 .. p2}, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/IAnimation;->getRippleValue()F
 
     move-result v1
@@ -91,12 +77,11 @@
 
     if-eqz v1, :cond_2
 
-    .line 2
-    invoke-static {}, Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;->rk()Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;
+    invoke-static {}, Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;->rk()Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;->aAs()Lcom/bytedance/sdk/component/adexpress/rk/rk/aAs;
+    invoke-virtual {v1}, Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;->aAs()Lcom/bytedance/sdk/component/adexpress/rk/rk/aAs;
 
     move-result-object v1
 
@@ -104,7 +89,6 @@
 
     const v1, 0x7d06ffd8
 
-    .line 3
     :try_start_0
     invoke-virtual {v8, v1}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 
@@ -114,7 +98,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 4
     :try_start_1
     invoke-static {v1}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->fFV(Ljava/lang/String;)[F
 
@@ -124,14 +107,12 @@
 
     goto :goto_0
 
-    .line 5
     :catch_0
     const-string v1, ""
 
     :catch_1
     const/4 v3, 0x0
 
-    .line 6
     :goto_0
     const-string v4, "#"
 
@@ -141,7 +122,6 @@
 
     if-eqz v4, :cond_0
 
-    .line 7
     iget-object v3, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rk:Landroid/graphics/Paint;
 
     invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
@@ -150,7 +130,6 @@
 
     invoke-virtual {v3, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 8
     iget-object v1, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rk:Landroid/graphics/Paint;
 
     const/16 v3, 0x5a
@@ -164,7 +143,6 @@
 
     const/4 v1, 0x3
 
-    .line 9
     aget v1, v3, v1
 
     invoke-interface/range {p2 .. p2}, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/IAnimation;->getRippleValue()F
@@ -193,12 +171,10 @@
 
     move-result v1
 
-    .line 10
     iget-object v3, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rk:Landroid/graphics/Paint;
 
     invoke-virtual {v3, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 11
     :cond_1
     :goto_1
     invoke-virtual/range {p3 .. p3}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
@@ -209,7 +185,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setClipChildren(Z)V
 
-    .line 12
     iget v1, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->DK:I
 
     int-to-float v3, v1
@@ -236,7 +211,6 @@
 
     invoke-virtual {v7, v3, v5, v1, v4}, Landroid/graphics/Canvas;->drawCircle(FFFLandroid/graphics/Paint;)V
 
-    .line 13
     :cond_2
     invoke-interface/range {p2 .. p2}, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/IAnimation;->getShineValue()F
 
@@ -246,14 +220,12 @@
 
     if-eqz v1, :cond_6
 
-    .line 14
     invoke-virtual/range {p3 .. p3}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v1
 
     if-eqz v1, :cond_3
 
-    .line 15
     invoke-virtual/range {p3 .. p3}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v1
@@ -262,7 +234,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setClipChildren(Z)V
 
-    .line 16
     :cond_3
     invoke-virtual/range {p3 .. p3}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
@@ -274,7 +245,6 @@
 
     if-eqz v1, :cond_4
 
-    .line 17
     invoke-virtual/range {p3 .. p3}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v1
@@ -287,7 +257,6 @@
 
     invoke-virtual {v1, v2}, Landroid/view/ViewGroup;->setClipChildren(Z)V
 
-    .line 18
     :cond_4
     iget-object v1, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->fFV:Landroid/graphics/Path;
 
@@ -295,7 +264,6 @@
 
     const v1, 0x7d06ffd7
 
-    .line 19
     :try_start_2
     invoke-virtual {v8, v1}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 
@@ -317,7 +285,6 @@
     :goto_2
     if-ltz v1, :cond_6
 
-    .line 20
     iget v2, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->DK:I
 
     mul-int/lit8 v2, v2, 0x4
@@ -350,7 +317,6 @@
 
     sub-int/2addr v2, v3
 
-    .line 21
     new-instance v3, Landroid/graphics/LinearGradient;
 
     int-to-float v4, v2
@@ -371,21 +337,18 @@
 
     const-string v13, "#20ffffff"
 
-    .line 22
     invoke-static {v13}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v13
 
     const-string v14, "#60ffffff"
 
-    .line 23
     invoke-static {v14}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v14
 
     const-string v15, "#65ffffff"
 
-    .line 24
     invoke-static {v15}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v15
@@ -410,12 +373,10 @@
 
     invoke-direct/range {v13 .. v20}, Landroid/graphics/LinearGradient;-><init>(FFFF[I[FLandroid/graphics/Shader$TileMode;)V
 
-    .line 25
     iget-object v5, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rk:Landroid/graphics/Paint;
 
     invoke-virtual {v5, v3}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 26
     iget-object v3, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rk:Landroid/graphics/Paint;
 
     iget v5, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->DK:I
@@ -426,12 +387,10 @@
 
     invoke-virtual {v3, v5}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 27
     iget-object v3, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->aAs:Landroid/graphics/Path;
 
     if-eqz v3, :cond_5
 
-    .line 28
     sget-object v5, Landroid/graphics/Region$Op;->INTERSECT:Landroid/graphics/Region$Op;
 
     invoke-virtual {v7, v3, v5}, Landroid/graphics/Canvas;->clipPath(Landroid/graphics/Path;Landroid/graphics/Region$Op;)Z
@@ -439,7 +398,6 @@
     :cond_5
     add-int/2addr v2, v1
 
-    .line 29
     iget v1, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rQf:I
 
     add-int/2addr v2, v1
@@ -464,7 +422,6 @@
 
     invoke-virtual/range {v1 .. v6}, Landroid/graphics/Canvas;->drawLine(FFFFLandroid/graphics/Paint;)V
 
-    .line 30
     :cond_6
     invoke-interface/range {p2 .. p2}, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/IAnimation;->getMarqueeValue()F
 
@@ -476,7 +433,6 @@
 
     const v1, 0x7d06ffd5
 
-    .line 31
     :try_start_3
     invoke-virtual {v8, v1}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 
@@ -493,17 +449,14 @@
     :catch_3
     if-ltz v11, :cond_7
 
-    .line 32
     iget-object v1, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->fFV:Landroid/graphics/Path;
 
     invoke-virtual {v1}, Landroid/graphics/Path;->reset()V
 
-    .line 33
     iget-object v1, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->fFV:Landroid/graphics/Path;
 
     invoke-virtual {v1, v9, v9}, Landroid/graphics/Path;->moveTo(FF)V
 
-    .line 34
     iget-object v1, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->fFV:Landroid/graphics/Path;
 
     iget v2, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->DK:I
@@ -514,7 +467,6 @@
 
     invoke-virtual {v1, v2, v9}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 35
     iget-object v1, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->fFV:Landroid/graphics/Path;
 
     iget v2, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->DK:I
@@ -531,7 +483,6 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 36
     iget-object v1, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->fFV:Landroid/graphics/Path;
 
     iget v2, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rQf:I
@@ -542,12 +493,10 @@
 
     invoke-virtual {v1, v9, v2}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 37
     iget-object v1, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->fFV:Landroid/graphics/Path;
 
     invoke-virtual {v1, v9, v9}, Landroid/graphics/Path;->lineTo(FF)V
 
-    .line 38
     new-instance v1, Landroid/graphics/LinearGradient;
 
     iget v2, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->DK:I
@@ -562,7 +511,6 @@
 
     int-to-float v3, v3
 
-    .line 39
     invoke-interface/range {p2 .. p2}, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/IAnimation;->getMarqueeValue()F
 
     move-result v4
@@ -573,7 +521,6 @@
 
     float-to-int v4, v4
 
-    .line 40
     invoke-interface/range {p2 .. p2}, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/IAnimation;->getMarqueeValue()F
 
     move-result v6
@@ -604,33 +551,28 @@
 
     invoke-direct/range {v13 .. v20}, Landroid/graphics/LinearGradient;-><init>(FFFF[I[FLandroid/graphics/Shader$TileMode;)V
 
-    .line 41
     iget-object v2, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rk:Landroid/graphics/Paint;
 
     invoke-virtual {v2, v1}, Landroid/graphics/Paint;->setShader(Landroid/graphics/Shader;)Landroid/graphics/Shader;
 
-    .line 42
     iget-object v1, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rk:Landroid/graphics/Paint;
 
     const/high16 v2, -0x10000
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 43
     iget-object v1, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rk:Landroid/graphics/Paint;
 
     sget-object v2, Landroid/graphics/Paint$Style;->STROKE:Landroid/graphics/Paint$Style;
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
-    .line 44
     iget-object v1, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rk:Landroid/graphics/Paint;
 
     int-to-float v2, v11
 
     invoke-virtual {v1, v2}, Landroid/graphics/Paint;->setStrokeWidth(F)V
 
-    .line 45
     iget-object v1, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->fFV:Landroid/graphics/Path;
 
     iget-object v2, v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rk:Landroid/graphics/Paint;
@@ -644,12 +586,10 @@
 .method public rk(Landroid/view/View;F)V
     .locals 4
 
-    .line 46
     invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
-    .line 47
     iget v1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->lG:I
 
     int-to-float v2, v1
@@ -662,21 +602,18 @@
 
     sub-int/2addr v1, p2
 
-    .line 48
     div-int/lit8 v1, v1, 0x2
 
     int-to-float p2, v1
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setTranslationX(F)V
 
-    .line 49
     instance-of p2, p1, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/nP;
 
     if-eqz p2, :cond_0
 
     const/4 p2, 0x0
 
-    .line 50
     :goto_0
     move-object v1, p1
 
@@ -688,7 +625,6 @@
 
     if-ge p2, v2, :cond_0
 
-    .line 51
     invoke-virtual {v1, p2}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v1
@@ -711,7 +647,6 @@
 
     goto :goto_0
 
-    .line 52
     :cond_0
     invoke-virtual {p1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
@@ -721,17 +656,14 @@
 .method public rk(Landroid/view/View;II)V
     .locals 5
 
-    .line 53
     div-int/lit8 v0, p2, 0x2
 
     iput v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->DK:I
 
-    .line 54
     div-int/lit8 v0, p3, 0x2
 
     iput v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rQf:I
 
-    .line 55
     iget v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->lG:I
 
     if-nez v0, :cond_0
@@ -744,7 +676,6 @@
 
     if-lez v0, :cond_0
 
-    .line 56
     invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
@@ -758,7 +689,6 @@
 
     const/4 v1, 0x0
 
-    .line 57
     :try_start_0
     invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 
@@ -768,7 +698,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 58
     :try_start_1
     new-instance v2, Landroid/graphics/RectF;
 
@@ -778,7 +707,6 @@
 
     invoke-direct {v2, v1, v1, p2, v3}, Landroid/graphics/RectF;-><init>(FFFF)V
 
-    .line 59
     iget-object p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->aAs:Landroid/graphics/Path;
 
     div-int/lit8 v3, p3, 0x2
@@ -797,11 +725,9 @@
 
     goto :goto_0
 
-    .line 60
     :catch_0
     const-string v0, ""
 
-    .line 61
     :catch_1
     :goto_0
     const-string p2, "right"
@@ -812,7 +738,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 62
     iget p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->DK:I
 
     mul-int/lit8 p2, p2, 0x2
@@ -821,7 +746,6 @@
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setPivotX(F)V
 
-    .line 63
     iget p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rQf:I
 
     int-to-float p2, p2
@@ -830,7 +754,6 @@
 
     return-void
 
-    .line 64
     :cond_1
     const-string p2, "left"
 
@@ -840,10 +763,8 @@
 
     if-eqz p2, :cond_2
 
-    .line 65
     invoke-virtual {p1, v1}, Landroid/view/View;->setPivotX(F)V
 
-    .line 66
     iget p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rQf:I
 
     int-to-float p2, p2
@@ -852,7 +773,6 @@
 
     return-void
 
-    .line 67
     :cond_2
     iget p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->DK:I
 
@@ -860,7 +780,6 @@
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setPivotX(F)V
 
-    .line 68
     iget p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rQf:I
 
     int-to-float p2, p2

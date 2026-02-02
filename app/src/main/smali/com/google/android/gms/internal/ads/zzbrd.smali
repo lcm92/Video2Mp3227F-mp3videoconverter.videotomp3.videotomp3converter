@@ -13,7 +13,7 @@
 .method public abstract zzf(Lcom/google/android/gms/ads/internal/client/zze;)V
 .end method
 
-.method public abstract zzg(Ljl0;)V
+.method public abstract zzg(Ldef/JL0;)V
 .end method
 
 .method public abstract zzh(Lcom/google/android/gms/internal/ads/zzbpz;)V

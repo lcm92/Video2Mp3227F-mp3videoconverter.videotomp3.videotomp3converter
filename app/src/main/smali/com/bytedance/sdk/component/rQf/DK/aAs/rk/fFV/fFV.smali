@@ -28,31 +28,22 @@
 .method public constructor <init>(II)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     const-wide/32 v0, 0x100000
 
-    .line 7
     iput-wide v0, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV/fFV;->rk:J
 
-    .line 9
     iput p1, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV/fFV;->aAs:I
 
-    .line 11
     iput p2, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV/fFV;->fFV:I
 
-    .line 13
     new-instance p1, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/aAs;
 
-    .line 15
     invoke-direct {p1, p2}, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/aAs;-><init>(I)V
 
-    .line 18
     iput-object p1, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV/fFV;->DK:Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/aAs;
 
-    .line 20
     return-void
 .end method
 
@@ -61,7 +52,6 @@
 .method public bridge synthetic fFV(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV/fFV;->fFV(Ljava/lang/String;)Z
@@ -76,7 +66,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     :try_start_0
     iget-object v1, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV/fFV;->DK:Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/aAs;
 
@@ -100,7 +89,6 @@
 .method public bridge synthetic rk(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV/fFV;->rk(Ljava/lang/String;)[B
@@ -113,7 +101,6 @@
 .method public bridge synthetic rk(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 0
 
-    .line 2
     check-cast p1, Ljava/lang/String;
 
     check-cast p2, [B
@@ -136,7 +123,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     :try_start_0
     array-length v1, p2
@@ -151,7 +137,6 @@
 
     return v0
 
-    .line 4
     :cond_1
     iget-object v1, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV/fFV;->DK:Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/aAs;
 
@@ -172,7 +157,6 @@
 .method public rk(Ljava/lang/String;)[B
     .locals 1
 
-    .line 5
     :try_start_0
     iget-object v0, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV/fFV;->DK:Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/aAs;
 

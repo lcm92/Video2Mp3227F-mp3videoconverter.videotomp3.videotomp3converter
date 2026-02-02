@@ -21,7 +21,6 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, -0x1
@@ -42,7 +41,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/zzk;Lcom/google/android/gms/internal/ads/zzj;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iget p2, p1, Lcom/google/android/gms/internal/ads/zzk;->zzb:I
@@ -125,48 +123,25 @@
 .method public final zzg()Lcom/google/android/gms/internal/ads/zzk;
     .locals 9
 
-    .line 1
     new-instance v8, Lcom/google/android/gms/internal/ads/zzk;
 
-    .line 2
-    .line 3
     iget v1, p0, Lcom/google/android/gms/internal/ads/zzi;->zza:I
 
-    .line 4
-    .line 5
     iget v2, p0, Lcom/google/android/gms/internal/ads/zzi;->zzb:I
 
-    .line 6
-    .line 7
     iget v3, p0, Lcom/google/android/gms/internal/ads/zzi;->zzc:I
 
-    .line 8
-    .line 9
     iget-object v4, p0, Lcom/google/android/gms/internal/ads/zzi;->zzd:[B
 
-    .line 10
-    .line 11
     iget v5, p0, Lcom/google/android/gms/internal/ads/zzi;->zze:I
 
-    .line 12
-    .line 13
     iget v6, p0, Lcom/google/android/gms/internal/ads/zzi;->zzf:I
 
-    .line 14
-    .line 15
     const/4 v7, 0x0
 
-    .line 16
     move-object v0, v8
 
-    .line 17
     invoke-direct/range {v0 .. v7}, Lcom/google/android/gms/internal/ads/zzk;-><init>(III[BIILcom/google/android/gms/internal/ads/zzj;)V
 
-    .line 18
-    .line 19
-    .line 20
     return-object v8
-    .line 21
-    .line 22
-    .line 23
 .end method

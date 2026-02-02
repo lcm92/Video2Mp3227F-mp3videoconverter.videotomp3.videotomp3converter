@@ -42,13 +42,10 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Landroid/media/browse/MediaBrowser$ConnectionCallback;-><init>()V
 
-    .line 4
     iput-object p1, p0, Landroid/support/v4/media/MediaBrowserCompatApi21$ConnectionCallbackProxy;->mConnectionCallback:Landroid/support/v4/media/MediaBrowserCompatApi21$ConnectionCallback;
 
-    .line 6
     return-void
 .end method
 
@@ -57,38 +54,29 @@
 .method public onConnected()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Landroid/support/v4/media/MediaBrowserCompatApi21$ConnectionCallbackProxy;->mConnectionCallback:Landroid/support/v4/media/MediaBrowserCompatApi21$ConnectionCallback;
 
-    .line 3
     invoke-interface {v0}, Landroid/support/v4/media/MediaBrowserCompatApi21$ConnectionCallback;->onConnected()V
 
-    .line 6
     return-void
 .end method
 
 .method public onConnectionFailed()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Landroid/support/v4/media/MediaBrowserCompatApi21$ConnectionCallbackProxy;->mConnectionCallback:Landroid/support/v4/media/MediaBrowserCompatApi21$ConnectionCallback;
 
-    .line 3
     invoke-interface {v0}, Landroid/support/v4/media/MediaBrowserCompatApi21$ConnectionCallback;->onConnectionFailed()V
 
-    .line 6
     return-void
 .end method
 
 .method public onConnectionSuspended()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Landroid/support/v4/media/MediaBrowserCompatApi21$ConnectionCallbackProxy;->mConnectionCallback:Landroid/support/v4/media/MediaBrowserCompatApi21$ConnectionCallback;
 
-    .line 3
     invoke-interface {v0}, Landroid/support/v4/media/MediaBrowserCompatApi21$ConnectionCallback;->onConnectionSuspended()V
 
-    .line 6
     return-void
 .end method

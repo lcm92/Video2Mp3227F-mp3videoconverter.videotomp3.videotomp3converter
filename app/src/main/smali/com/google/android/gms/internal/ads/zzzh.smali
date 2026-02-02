@@ -38,42 +38,19 @@
 .method public final run()V
     .locals 7
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzzh;->zza:Lcom/google/android/gms/internal/ads/zzzi;
 
-    .line 2
-    .line 3
     invoke-static {v0}, Lcom/google/android/gms/internal/ads/zzzi;->zzb(Lcom/google/android/gms/internal/ads/zzzi;)Lcom/google/android/gms/internal/ads/zzzk;
 
-    .line 4
-    .line 5
-    .line 6
     move-result-object v1
 
-    .line 7
     iget v2, p0, Lcom/google/android/gms/internal/ads/zzzh;->zzb:I
 
-    .line 8
-    .line 9
     iget-wide v3, p0, Lcom/google/android/gms/internal/ads/zzzh;->zzc:J
 
-    .line 10
-    .line 11
     iget-wide v5, p0, Lcom/google/android/gms/internal/ads/zzzh;->zzd:J
 
-    .line 12
-    .line 13
     invoke-interface/range {v1 .. v6}, Lcom/google/android/gms/internal/ads/zzzk;->zzZ(IJJ)V
 
-    .line 14
-    .line 15
-    .line 16
     return-void
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
 .end method

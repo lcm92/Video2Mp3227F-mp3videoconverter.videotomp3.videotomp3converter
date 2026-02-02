@@ -32,48 +32,23 @@
 .method public final bridge synthetic zzb(Ljava/lang/Object;)V
     .locals 4
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/zzcva;
 
-    .line 2
-    .line 3
     iget-object p1, p1, Lcom/google/android/gms/internal/ads/zzcva;->zza:Landroid/os/Bundle;
 
-    .line 4
-    .line 5
     const-string v0, "device"
 
-    .line 6
-    .line 7
     invoke-static {p1, v0}, Lcom/google/android/gms/internal/ads/zzfdk;->zza(Landroid/os/Bundle;Ljava/lang/String;)Landroid/os/Bundle;
 
-    .line 8
-    .line 9
-    .line 10
     move-result-object v1
 
-    .line 11
     const-string v2, "android_mem_info"
 
-    .line 12
-    .line 13
     iget-object v3, p0, Lcom/google/android/gms/internal/ads/zzesa;->zza:Landroid/os/Bundle;
 
-    .line 14
-    .line 15
     invoke-virtual {v1, v2, v3}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 16
-    .line 17
-    .line 18
     invoke-virtual {p1, v0, v1}, Landroid/os/Bundle;->putBundle(Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 19
-    .line 20
-    .line 21
     return-void
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method

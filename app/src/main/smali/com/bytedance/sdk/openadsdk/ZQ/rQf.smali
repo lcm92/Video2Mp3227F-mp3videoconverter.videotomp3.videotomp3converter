@@ -45,7 +45,6 @@
 
     return p0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -63,7 +62,6 @@
 .method public static fFV(Landroid/content/Context;Ljava/lang/String;)Z
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Landroid/content/Context;->checkSelfPermission(Ljava/lang/String;)I
 
     move-result p0
@@ -85,12 +83,10 @@
 
     const/4 v0, 0x2
 
-    .line 2
     invoke-static {p0, v0}, Landroid/util/Base64;->decode(Ljava/lang/String;I)[B
 
     move-result-object p0
 
-    .line 3
     array-length v0, p0
 
     const/4 v1, 0x0
@@ -105,7 +101,6 @@
 .method public static rk(Landroid/content/Context;)Z
     .locals 4
 
-    .line 24
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x21
@@ -116,7 +111,6 @@
 
     if-lt v0, v1, :cond_1
 
-    .line 25
     const-string v0, "android.permission.READ_MEDIA_IMAGES"
 
     invoke-virtual {p0, v0}, Landroid/content/Context;->checkSelfPermission(Ljava/lang/String;)I
@@ -140,7 +134,6 @@
 
     goto :goto_3
 
-    .line 26
     :cond_1
     const-string v0, "android.permission.READ_EXTERNAL_STORAGE"
 
@@ -157,7 +150,6 @@
     :cond_2
     move v0, v2
 
-    .line 27
     :goto_2
     const-string v1, "android.permission.WRITE_EXTERNAL_STORAGE"
 
@@ -186,21 +178,18 @@
 .method public static rk(Landroid/content/Context;I)Z
     .locals 5
 
-    .line 4
     sget v0, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->lG:I
 
     const/4 v1, 0x1
 
     if-nez v0, :cond_6
 
-    .line 5
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v2, 0x21
 
     if-lt v0, v2, :cond_0
 
-    .line 6
     const-string v0, "android.permission.READ_MEDIA_IMAGES"
 
     invoke-static {p0, v0}, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->rk(Landroid/content/Context;Ljava/lang/String;)Z
@@ -211,7 +200,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     const-string v0, "android.permission.READ_EXTERNAL_STORAGE"
 
@@ -219,14 +207,12 @@
 
     move-result v0
 
-    .line 8
     const-string v2, "android.permission.WRITE_EXTERNAL_STORAGE"
 
     invoke-static {p0, v2}, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->rk(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v2
 
-    .line 9
     :goto_0
     const-string v3, "android.permission.CAMERA"
 
@@ -234,14 +220,12 @@
 
     move-result v3
 
-    .line 10
     const-string v4, "android.permission.RECORD_AUDIO"
 
     invoke-static {p0, v4}, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->rk(Landroid/content/Context;Ljava/lang/String;)Z
 
     move-result v4
 
-    .line 11
     invoke-virtual {p0}, Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
 
     move-result-object p0
@@ -250,7 +234,6 @@
 
     if-eqz v2, :cond_1
 
-    .line 12
     sget v0, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->lG:I
 
     sget v2, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->Yp:I
@@ -262,7 +245,6 @@
     :cond_1
     if-eqz v3, :cond_2
 
-    .line 13
     const-string v0, "android.hardware.camera"
 
     invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
@@ -271,7 +253,6 @@
 
     if-eqz v0, :cond_2
 
-    .line 14
     sget v0, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->lG:I
 
     sget v2, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->pw:I
@@ -280,7 +261,6 @@
 
     sput v0, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->lG:I
 
-    .line 15
     :cond_2
     const-string v0, "android.hardware.sensor.gyroscope"
 
@@ -290,7 +270,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 16
     sget v0, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->lG:I
 
     sget v2, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->ppR:I
@@ -299,7 +278,6 @@
 
     sput v0, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->lG:I
 
-    .line 17
     :cond_3
     const-string v0, "android.hardware.sensor.accelerometer"
 
@@ -309,7 +287,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 18
     sget v0, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->lG:I
 
     sget v2, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->ArD:I
@@ -318,7 +295,6 @@
 
     sput v0, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->lG:I
 
-    .line 19
     :cond_4
     const-string v0, "android.hardware.sensor.compass"
 
@@ -328,7 +304,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 20
     sget v0, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->lG:I
 
     sget v2, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->nP:I
@@ -340,7 +315,6 @@
     :cond_5
     if-eqz v4, :cond_6
 
-    .line 21
     const-string v0, "android.hardware.microphone"
 
     invoke-virtual {p0, v0}, Landroid/content/pm/PackageManager;->hasSystemFeature(Ljava/lang/String;)Z
@@ -349,7 +323,6 @@
 
     if-eqz p0, :cond_6
 
-    .line 22
     sget p0, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->lG:I
 
     sget v0, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->NCs:I
@@ -358,7 +331,6 @@
 
     sput p0, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->lG:I
 
-    .line 23
     :cond_6
     sget p0, Lcom/bytedance/sdk/openadsdk/ZQ/rQf;->lG:I
 
@@ -377,7 +349,6 @@
 .method protected static rk(Landroid/content/Context;Ljava/lang/String;)Z
     .locals 0
 
-    .line 1
     const/4 p0, 0x0
 
     return p0

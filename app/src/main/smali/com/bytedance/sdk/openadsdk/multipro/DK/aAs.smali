@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/bytedance/sdk/openadsdk/multipro/rk;
+.implements Lcom/bytedance/sdk/openadsdk/multipro/RKMOC;
 
 
 # instance fields
@@ -22,19 +22,14 @@
 .method private fFV()Landroid/content/Context;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/multipro/DK/aAs;->rk:Landroid/content/Context;
 
-    .line 3
     if-nez v0, :cond_0
 
-    .line 5
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
 
-    .line 8
     move-result-object v0
 
-    .line 9
     :cond_0
     return-object v0
 .end method
@@ -50,7 +45,6 @@
 
     return p3
 
-    .line 40
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/bytedance/sdk/openadsdk/multipro/DK/aAs;->rk(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
 
@@ -60,7 +54,6 @@
 .method public rk(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I
     .locals 3
 
-    .line 33
     invoke-virtual {p1}, Landroid/net/Uri;->getPath()Ljava/lang/String;
 
     move-result-object p2
@@ -73,10 +66,8 @@
 
     const/4 p3, 0x2
 
-    .line 34
     aget-object p3, p2, p3
 
-    .line 35
     const-string v0, "clean"
 
     invoke-virtual {p3, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -89,7 +80,6 @@
 
     if-eqz p3, :cond_0
 
-    .line 36
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/multipro/DK/aAs;->fFV()Landroid/content/Context;
 
     move-result-object p2
@@ -105,10 +95,8 @@
     :cond_0
     const/4 p3, 0x3
 
-    .line 37
     aget-object p2, p2, p3
 
-    .line 38
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/multipro/DK/aAs;->fFV()Landroid/content/Context;
 
     move-result-object p3
@@ -123,7 +111,6 @@
 
     if-eqz p3, :cond_1
 
-    .line 39
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/multipro/DK/aAs;->fFV()Landroid/content/Context;
 
     move-result-object p3
@@ -141,7 +128,6 @@
 .method public rk(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
     .locals 3
 
-    .line 2
     invoke-virtual {p1}, Landroid/net/Uri;->getPath()Ljava/lang/String;
 
     move-result-object p2
@@ -154,10 +140,8 @@
 
     const/4 p3, 0x2
 
-    .line 3
     aget-object p2, p2, p3
 
-    .line 4
     const-string p4, "get_all"
 
     invoke-virtual {p2, p4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -166,7 +150,6 @@
 
     if-eqz p2, :cond_6
 
-    .line 5
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/multipro/DK/aAs;->fFV()Landroid/content/Context;
 
     move-result-object p2
@@ -183,7 +166,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 6
     new-instance p2, Landroid/database/MatrixCursor;
 
     const-string p4, "cursor_type"
@@ -198,12 +180,10 @@
 
     invoke-direct {p2, p4}, Landroid/database/MatrixCursor;-><init>([Ljava/lang/String;)V
 
-    .line 7
     invoke-interface {p1}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object p4
 
-    .line 8
     invoke-interface {p4}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
     move-result-object p4
@@ -223,86 +203,72 @@
 
     const/4 v0, 0x3
 
-    .line 9
     new-array v0, v0, [Ljava/lang/Object;
 
     const/4 v1, 0x0
 
-    .line 10
     aput-object p5, v0, v1
 
-    .line 11
     invoke-interface {p1, p5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p5
 
     aput-object p5, v0, p3
 
-    .line 12
     instance-of v1, p5, Ljava/lang/Boolean;
 
     const/4 v2, 0x1
 
     if-eqz v1, :cond_0
 
-    .line 13
     const-string p5, "boolean"
 
     aput-object p5, v0, v2
 
     goto :goto_1
 
-    .line 14
     :cond_0
     instance-of v1, p5, Ljava/lang/String;
 
     if-eqz v1, :cond_1
 
-    .line 15
     const-string p5, "string"
 
     aput-object p5, v0, v2
 
     goto :goto_1
 
-    .line 16
     :cond_1
     instance-of v1, p5, Ljava/lang/Integer;
 
     if-eqz v1, :cond_2
 
-    .line 17
     const-string p5, "int"
 
     aput-object p5, v0, v2
 
     goto :goto_1
 
-    .line 18
     :cond_2
     instance-of v1, p5, Ljava/lang/Long;
 
     if-eqz v1, :cond_3
 
-    .line 19
     const-string p5, "long"
 
     aput-object p5, v0, v2
 
     goto :goto_1
 
-    .line 20
     :cond_3
     instance-of p5, p5, Ljava/lang/Float;
 
     if-eqz p5, :cond_4
 
-    .line 21
     const-string p5, "float"
 
     aput-object p5, v0, v2
 
-    .line 22
     :cond_4
     :goto_1
     invoke-virtual {p2, v0}, Landroid/database/MatrixCursor;->addRow([Ljava/lang/Object;)V
@@ -327,7 +293,6 @@
 
     return-object v0
 
-    .line 29
     :cond_0
     invoke-virtual {p1}, Landroid/net/Uri;->getPath()Ljava/lang/String;
 
@@ -341,10 +306,8 @@
 
     const/4 v2, 0x3
 
-    .line 30
     aget-object v1, v1, v2
 
-    .line 31
     const-string v2, "value"
 
     invoke-virtual {p2, v2}, Landroid/content/ContentValues;->get(Ljava/lang/String;)Ljava/lang/Object;
@@ -353,7 +316,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 32
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/multipro/DK/aAs;->fFV()Landroid/content/Context;
 
     move-result-object v2
@@ -373,7 +335,6 @@
 .method public rk()Ljava/lang/String;
     .locals 1
 
-    .line 1
     const-string v0, "t_sp"
 
     return-object v0
@@ -382,7 +343,6 @@
 .method public rk(Landroid/net/Uri;)Ljava/lang/String;
     .locals 4
 
-    .line 23
     invoke-virtual {p1}, Landroid/net/Uri;->getPath()Ljava/lang/String;
 
     move-result-object v0
@@ -395,15 +355,12 @@
 
     const/4 v1, 0x2
 
-    .line 24
     aget-object v1, v0, v1
 
     const/4 v2, 0x3
 
-    .line 25
     aget-object v0, v0, v2
 
-    .line 26
     const-string v2, "contain"
 
     invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -414,7 +371,6 @@
 
     if-eqz v2, :cond_0
 
-    .line 27
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
 
     move-result-object v1
@@ -433,7 +389,6 @@
 
     return-object p1
 
-    .line 28
     :cond_0
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/multipro/DK/aAs;->fFV()Landroid/content/Context;
 

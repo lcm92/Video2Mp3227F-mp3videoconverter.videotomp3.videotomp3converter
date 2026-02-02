@@ -1,0 +1,45 @@
+.class final Ldef/OI2;
+.super Ldef/C7$AC1;
+.source "SourceFile"
+
+
+# direct methods
+.method constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ldef/C7$AC1;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic buildClient(Landroid/content/Context;Landroid/os/Looper;Ldef/FM;Ljava/lang/Object;Ldef/OH0$BO1;Ldef/OH0$CO1;)Ldef/C7$FC1;
+    .locals 8
+
+    check-cast p4, Ldef/BR1;
+
+    new-instance p4, Lcom/google/android/gms/signin/internal/AISC;
+
+    const/4 v3, 0x1
+
+    invoke-static {p3}, Lcom/google/android/gms/signin/internal/AISC;->e(Ldef/FM;)Landroid/os/Bundle;
+
+    move-result-object v5
+
+    move-object v0, p4
+
+    move-object v1, p1
+
+    move-object v2, p2
+
+    move-object v4, p3
+
+    move-object v6, p5
+
+    move-object v7, p6
+
+    invoke-direct/range {v0 .. v7}, Lcom/google/android/gms/signin/internal/AISC;-><init>(Landroid/content/Context;Landroid/os/Looper;ZLdef/FM;Landroid/os/Bundle;Ldef/OH0$BO1;Ldef/OH0$CO1;)V
+
+    return-object p4
+.end method

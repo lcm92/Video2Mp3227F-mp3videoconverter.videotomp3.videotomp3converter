@@ -4,40 +4,33 @@
 
 
 # instance fields
-.field private a:Lul0$a;
+.field private a:Ldef/UL0$AU1;
 
 
 # direct methods
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroid/app/Service;-><init>()V
 
-    .line 4
-    new-instance v0, Landroidx/core/content/UnusedAppRestrictionsBackportService$a;
+    new-instance v0, Landroidx/core/content/UnusedAppRestrictionsBackportService$AU1;
 
-    .line 6
-    invoke-direct {v0, p0}, Landroidx/core/content/UnusedAppRestrictionsBackportService$a;-><init>(Landroidx/core/content/UnusedAppRestrictionsBackportService;)V
+    invoke-direct {v0, p0}, Landroidx/core/content/UnusedAppRestrictionsBackportService$AU1;-><init>(Landroidx/core/content/UnusedAppRestrictionsBackportService;)V
 
-    .line 9
-    iput-object v0, p0, Landroidx/core/content/UnusedAppRestrictionsBackportService;->a:Lul0$a;
+    iput-object v0, p0, Landroidx/core/content/UnusedAppRestrictionsBackportService;->a:Ldef/UL0$AU1;
 
-    .line 11
     return-void
 .end method
 
 
 # virtual methods
-.method protected abstract a(Lu52;)V
+.method protected abstract a(Ldef/U52;)V
 .end method
 
 .method public onBind(Landroid/content/Intent;)Landroid/os/IBinder;
     .locals 0
 
-    .line 1
-    iget-object p1, p0, Landroidx/core/content/UnusedAppRestrictionsBackportService;->a:Lul0$a;
+    iget-object p1, p0, Landroidx/core/content/UnusedAppRestrictionsBackportService;->a:Ldef/UL0$AU1;
 
-    .line 3
     return-object p1
 .end method

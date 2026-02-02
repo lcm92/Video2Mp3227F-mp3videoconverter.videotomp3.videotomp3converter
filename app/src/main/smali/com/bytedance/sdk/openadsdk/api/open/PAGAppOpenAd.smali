@@ -19,7 +19,6 @@
 .method public static loadAd(Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenRequest;Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAdLoadCallback;)V
     .locals 1
 
-    .line 3
     new-instance v0, Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd$1;
 
     invoke-direct {v0, p2}, Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd$1;-><init>(Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAdLoadCallback;)V
@@ -32,14 +31,12 @@
 .method public static loadAd(Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenRequest;Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAdLoadListener;)V
     .locals 1
 
-    .line 1
     invoke-static {p2}, Lcom/bytedance/sdk/openadsdk/common/rQf;->rk(Lcom/bytedance/sdk/openadsdk/api/PAGLoadListener;)Lcom/bytedance/sdk/openadsdk/api/factory/ISDKTypeFactory;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-interface {v0, p0}, Lcom/bytedance/sdk/openadsdk/api/factory/ISDKTypeFactory;->createADTypeLoaderFactory(Ljava/lang/String;)Lcom/bytedance/sdk/openadsdk/api/factory/IADTypeLoaderFactory;
 
     move-result-object v0

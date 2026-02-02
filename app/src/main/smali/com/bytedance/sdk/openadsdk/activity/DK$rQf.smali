@@ -1,5 +1,5 @@
 .class abstract Lcom/bytedance/sdk/openadsdk/activity/DK$rQf;
-.super Landroidx/recyclerview/widget/RecyclerView$c0;
+.super Landroidx/recyclerview/widget/RecyclerView$C0R1;
 .source "SourceFile"
 
 
@@ -18,10 +18,8 @@
 .method public constructor <init>(Landroid/view/View;)V
     .locals 0
 
-    .line 1
-    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$c0;-><init>(Landroid/view/View;)V
+    invoke-direct {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$C0R1;-><init>(Landroid/view/View;)V
 
-    .line 4
     return-void
 .end method
 

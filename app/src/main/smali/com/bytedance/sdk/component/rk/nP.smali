@@ -6,6 +6,6 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/bytedance/sdk/component/rk/nP$rk;
+        Lcom/bytedance/sdk/component/rk/nP$RKN1;
     }
 .end annotation

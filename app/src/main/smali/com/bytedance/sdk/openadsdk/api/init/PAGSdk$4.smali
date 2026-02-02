@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x8
-    name = null
+    name = "4"
 .end annotation
 
 
@@ -31,19 +31,15 @@
 .method public fail(ILjava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-static {p1, p2}, Lcom/bytedance/sdk/openadsdk/api/init/PAGSdk;->rk(ILjava/lang/String;)V
 
-    .line 4
     return-void
 .end method
 
 .method public success()V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/api/init/PAGSdk;->rk()V
 
-    .line 4
     return-void
 .end method

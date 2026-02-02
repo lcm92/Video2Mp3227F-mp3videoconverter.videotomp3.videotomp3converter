@@ -13,7 +13,7 @@
 .method public abstract zzc()Ljava/lang/String;
 .end method
 
-.method public abstract zzd(Ljl0;)V
+.method public abstract zzd(Ldef/JL0;)V
 .end method
 
 .method public abstract zze()V

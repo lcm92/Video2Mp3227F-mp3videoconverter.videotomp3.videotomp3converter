@@ -5,30 +5,27 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/bytedance/sdk/openadsdk/utils/hWw;->rk(Lcom/bytedance/sdk/component/pw/pw;I)V
+    value = Lcom/bytedance/sdk/openadsdk/utils/hWw;->rk(Lcom/bytedance/sdk/component/pw/PWPCC;I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x8
-    name = null
+    name = "6"
 .end annotation
 
 
 # instance fields
-.field final synthetic rk:Lcom/bytedance/sdk/component/pw/pw;
+.field final synthetic rk:Lcom/bytedance/sdk/component/pw/PWPCC;
 
 
 # direct methods
-.method constructor <init>(Ljava/lang/String;Lcom/bytedance/sdk/component/pw/pw;)V
+.method constructor <init>(Ljava/lang/String;Lcom/bytedance/sdk/component/pw/PWPCC;)V
     .locals 0
 
-    .line 1
-    iput-object p2, p0, Lcom/bytedance/sdk/openadsdk/utils/hWw$6;->rk:Lcom/bytedance/sdk/component/pw/pw;
+    iput-object p2, p0, Lcom/bytedance/sdk/openadsdk/utils/hWw$6;->rk:Lcom/bytedance/sdk/component/pw/PWPCC;
 
-    .line 3
     invoke-direct {p0, p1}, Lcom/bytedance/sdk/component/pw/aAs/fFV;-><init>(Ljava/lang/String;)V
 
-    .line 6
     return-void
 .end method
 
@@ -37,12 +34,9 @@
 .method public run()V
     .locals 1
 
-    .line 1
-    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/utils/hWw$6;->rk:Lcom/bytedance/sdk/component/pw/pw;
+    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/utils/hWw$6;->rk:Lcom/bytedance/sdk/component/pw/PWPCC;
 
-    .line 3
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
-    .line 6
     return-void
 .end method

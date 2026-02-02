@@ -19,7 +19,7 @@
 .method public abstract zze()V
 .end method
 
-.method public abstract zzf(Ljl0;)V
+.method public abstract zzf(Ldef/JL0;)V
 .end method
 
 .method public abstract zzg(Lcom/google/android/gms/internal/ads/zzbwj;)V
@@ -28,13 +28,13 @@
 .method public abstract zzh()V
 .end method
 
-.method public abstract zzi(Ljl0;)V
+.method public abstract zzi(Ldef/JL0;)V
 .end method
 
 .method public abstract zzj()V
 .end method
 
-.method public abstract zzk(Ljl0;)V
+.method public abstract zzk(Ldef/JL0;)V
 .end method
 
 .method public abstract zzl(Lcom/google/android/gms/ads/internal/client/zzcb;)V
@@ -55,7 +55,7 @@
 .method public abstract zzq()V
 .end method
 
-.method public abstract zzr(Ljl0;)V
+.method public abstract zzr(Ldef/JL0;)V
 .end method
 
 .method public abstract zzs()Z

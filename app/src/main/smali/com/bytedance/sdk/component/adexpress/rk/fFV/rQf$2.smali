@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "2"
 .end annotation
 
 
@@ -25,13 +25,10 @@
 .method constructor <init>(Lcom/bytedance/sdk/component/adexpress/rk/fFV/rQf;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/component/adexpress/rk/fFV/rQf$2;->rk:Lcom/bytedance/sdk/component/adexpress/rk/fFV/rQf;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method
 
@@ -40,15 +37,11 @@
 .method public run()V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/component/adexpress/rQf/rQf;->rk()Lcom/bytedance/sdk/component/adexpress/rQf/rQf;
 
-    .line 4
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/rQf/rQf;->fFV()V
 
-    .line 8
     return-void
 .end method

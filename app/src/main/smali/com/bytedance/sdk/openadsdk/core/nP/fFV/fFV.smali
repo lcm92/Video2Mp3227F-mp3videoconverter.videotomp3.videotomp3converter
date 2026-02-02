@@ -9,7 +9,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/bytedance/sdk/openadsdk/core/nP/fFV/fFV$rk;
+        Lcom/bytedance/sdk/openadsdk/core/nP/fFV/fFV$RKF1;
     }
 .end annotation
 
@@ -31,10 +31,8 @@
 .method private constructor <init>(FLjava/lang/String;Lcom/bytedance/sdk/openadsdk/core/nP/fFV/aAs$aAs;Ljava/lang/Boolean;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p2, p3, p4}, Lcom/bytedance/sdk/openadsdk/core/nP/fFV/aAs;-><init>(Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/core/nP/fFV/aAs$aAs;Ljava/lang/Boolean;)V
 
-    .line 3
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/core/nP/fFV/fFV;->rk:F
 
     return-void
@@ -43,7 +41,6 @@
 .method synthetic constructor <init>(FLjava/lang/String;Lcom/bytedance/sdk/openadsdk/core/nP/fFV/aAs$aAs;Ljava/lang/Boolean;Lcom/bytedance/sdk/openadsdk/core/nP/fFV/fFV$1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/bytedance/sdk/openadsdk/core/nP/fFV/fFV;-><init>(FLjava/lang/String;Lcom/bytedance/sdk/openadsdk/core/nP/fFV/aAs$aAs;Ljava/lang/Boolean;)V
 
     return-void
@@ -54,63 +51,46 @@
 .method public synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/bytedance/sdk/openadsdk/core/nP/fFV/fFV;
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/bytedance/sdk/openadsdk/core/nP/fFV/fFV;->rk(Lcom/bytedance/sdk/openadsdk/core/nP/fFV/fFV;)I
 
-    .line 6
     move-result p1
 
-    .line 7
     return p1
 .end method
 
 .method public fFV()Lorg/json/JSONObject;
     .locals 4
 
-    .line 1
     new-instance v0, Lorg/json/JSONObject;
 
-    .line 3
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
-    .line 6
     const-string v1, "content"
 
-    .line 8
     invoke-virtual {p0}, Lcom/bytedance/sdk/openadsdk/core/nP/fFV/aAs;->aAs()Ljava/lang/String;
 
-    .line 11
     move-result-object v2
 
-    .line 12
     invoke-virtual {v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 15
     iget v1, p0, Lcom/bytedance/sdk/openadsdk/core/nP/fFV/fFV;->rk:F
 
-    .line 17
     float-to-double v1, v1
 
-    .line 18
     const-string v3, "trackingFraction"
 
-    .line 20
     invoke-virtual {v0, v3, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;D)Lorg/json/JSONObject;
 
-    .line 23
     return-object v0
 .end method
 
 .method public m_()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Lcom/bytedance/sdk/openadsdk/core/nP/fFV/aAs;->m_()V
 
-    .line 4
     return-void
 .end method
 
@@ -119,7 +99,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 2
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/core/nP/fFV/fFV;->rk:F
 
     iget p1, p1, Lcom/bytedance/sdk/openadsdk/core/nP/fFV/fFV;->rk:F
@@ -154,7 +133,6 @@
 .method public rk(F)Z
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/core/nP/fFV/fFV;->rk:F
 
     cmpg-float p1, v0, p1

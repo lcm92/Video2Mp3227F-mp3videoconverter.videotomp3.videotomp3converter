@@ -228,7 +228,7 @@
 .method public abstract fFV()V
 .end method
 
-.method public abstract fFV(Lorg/json/JSONObject;Lcom/bytedance/sdk/openadsdk/core/settings/rQf$rk;)V
+.method public abstract fFV(Lorg/json/JSONObject;Lcom/bytedance/sdk/openadsdk/core/settings/rQf$RKR1;)V
 .end method
 
 .method public abstract fFV(Ljava/lang/String;)Z
@@ -330,7 +330,7 @@
 .method public abstract rk(Landroid/content/Context;)V
 .end method
 
-.method public abstract rk(Lorg/json/JSONObject;Lcom/bytedance/sdk/openadsdk/core/settings/rQf$rk;)V
+.method public abstract rk(Lorg/json/JSONObject;Lcom/bytedance/sdk/openadsdk/core/settings/rQf$RKR1;)V
 .end method
 
 .method public abstract rk(Lcom/bytedance/sdk/component/embedapplog/PangleEncryptConstant$CryptDataScene;)Z

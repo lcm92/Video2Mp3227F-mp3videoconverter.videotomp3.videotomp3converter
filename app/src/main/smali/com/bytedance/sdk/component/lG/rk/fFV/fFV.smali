@@ -9,7 +9,7 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/bytedance/sdk/component/lG/rk/fFV/aAs/rk;",
+            "Lcom/bytedance/sdk/component/lG/rk/fFV/aAs/RKAFC;",
             ">;)V"
         }
     .end annotation

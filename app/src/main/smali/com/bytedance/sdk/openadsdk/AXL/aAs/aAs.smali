@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/bytedance/sdk/openadsdk/AXL/aAs/aAs$rk;
+        Lcom/bytedance/sdk/openadsdk/AXL/aAs/aAs$RKA1;
     }
 .end annotation
 
@@ -15,12 +15,9 @@
 .method public static rk()Lcom/bytedance/sdk/openadsdk/AXL/aAs/fFV;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/AXL/aAs/DK;->rk()Lcom/bytedance/sdk/openadsdk/AXL/aAs/DK;
 
-    .line 4
     move-result-object v0
 
-    .line 5
     return-object v0
 .end method

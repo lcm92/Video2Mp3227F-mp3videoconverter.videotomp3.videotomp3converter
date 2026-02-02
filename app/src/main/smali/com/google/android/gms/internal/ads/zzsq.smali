@@ -10,7 +10,7 @@
     :cond_0
     const/4 p1, 0x0
 
-    invoke-static {p0, p1, p2}, Lsg2;->a(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {p0, p1, p2}, Ldef/SG2;->a(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result p1
 

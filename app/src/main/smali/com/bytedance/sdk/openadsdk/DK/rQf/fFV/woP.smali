@@ -28,17 +28,14 @@
 .method public fFV(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/woP;->aAs:J
 
-    .line 3
     return-void
 .end method
 
 .method public rk(I)V
     .locals 0
 
-    .line 2
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/woP;->fFV:I
 
     return-void
@@ -47,7 +44,6 @@
 .method public rk(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/woP;->rk:J
 
     return-void
@@ -60,7 +56,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_0
     const-string v0, "buffers_time"
@@ -69,14 +64,12 @@
 
     invoke-virtual {p1, v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
 
-    .line 4
     const-string v0, "buffers_count"
 
     iget v1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/woP;->fFV:I
 
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 5
     const-string v0, "total_duration"
 
     iget-wide v1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/woP;->aAs:J
@@ -90,7 +83,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     const-string v0, "PlayBufferModel"
 
     invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/appcompat/view/menu/j;
+.implements Landroidx/appcompat/view/menu/JMVA;
 
 
 # annotations
@@ -15,9 +15,9 @@
 
 
 # instance fields
-.field private a:Landroidx/appcompat/view/menu/e;
+.field private a:Landroidx/appcompat/view/menu/EMVA;
 
-.field private b:Lcom/google/android/material/navigation/b;
+.field private b:Lcom/google/android/material/navigation/BNMC;
 
 .field private c:Z
 
@@ -28,36 +28,13 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
-    .line 3
-    .line 4
     const/4 v0, 0x0
 
-    .line 5
     iput-boolean v0, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->c:Z
 
-    .line 6
-    .line 7
     return-void
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
 .end method
 
 
@@ -65,395 +42,142 @@
 .method public a()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->d:I
 
-    .line 2
-    .line 3
     return v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
 .end method
 
 .method public b(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->d:I
 
-    .line 2
-    .line 3
     return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method
 
-.method public c(Lcom/google/android/material/navigation/b;)V
+.method public c(Lcom/google/android/material/navigation/BNMC;)V
     .locals 0
 
-    .line 1
-    iput-object p1, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->b:Lcom/google/android/material/navigation/b;
+    iput-object p1, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->b:Lcom/google/android/material/navigation/BNMC;
 
-    .line 2
-    .line 3
     return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method
 
-.method public d(Landroidx/appcompat/view/menu/e;Z)V
+.method public d(Landroidx/appcompat/view/menu/EMVA;Z)V
     .locals 0
 
-    .line 1
     return-void
 .end method
 
 .method public e(Z)V
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->c:Z
 
-    .line 2
-    .line 3
     if-eqz v0, :cond_0
 
-    .line 4
-    .line 5
     return-void
 
-    .line 6
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 7
-    .line 8
-    iget-object p1, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->b:Lcom/google/android/material/navigation/b;
+    iget-object p1, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->b:Lcom/google/android/material/navigation/BNMC;
 
-    .line 9
-    .line 10
-    invoke-virtual {p1}, Lcom/google/android/material/navigation/b;->d()V
+    invoke-virtual {p1}, Lcom/google/android/material/navigation/BNMC;->d()V
 
-    .line 11
-    .line 12
-    .line 13
     goto :goto_0
 
-    .line 14
     :cond_1
-    iget-object p1, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->b:Lcom/google/android/material/navigation/b;
+    iget-object p1, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->b:Lcom/google/android/material/navigation/BNMC;
 
-    .line 15
-    .line 16
-    invoke-virtual {p1}, Lcom/google/android/material/navigation/b;->k()V
+    invoke-virtual {p1}, Lcom/google/android/material/navigation/BNMC;->k()V
 
-    .line 17
-    .line 18
-    .line 19
     :goto_0
     return-void
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method
 
 .method public f()Z
     .locals 1
 
-    .line 1
     const/4 v0, 0x0
 
     return v0
 .end method
 
-.method public g(Landroidx/appcompat/view/menu/e;Landroidx/appcompat/view/menu/g;)Z
+.method public g(Landroidx/appcompat/view/menu/EMVA;Landroidx/appcompat/view/menu/GMVA;)Z
     .locals 0
 
-    .line 1
     const/4 p1, 0x0
 
     return p1
 .end method
 
-.method public h(Landroidx/appcompat/view/menu/e;Landroidx/appcompat/view/menu/g;)Z
+.method public h(Landroidx/appcompat/view/menu/EMVA;Landroidx/appcompat/view/menu/GMVA;)Z
     .locals 0
 
-    .line 1
     const/4 p1, 0x0
 
     return p1
 .end method
 
-.method public j(Landroid/content/Context;Landroidx/appcompat/view/menu/e;)V
+.method public j(Landroid/content/Context;Landroidx/appcompat/view/menu/EMVA;)V
     .locals 0
 
-    .line 1
-    iput-object p2, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->a:Landroidx/appcompat/view/menu/e;
+    iput-object p2, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->a:Landroidx/appcompat/view/menu/EMVA;
 
-    .line 2
-    .line 3
-    iget-object p1, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->b:Lcom/google/android/material/navigation/b;
+    iget-object p1, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->b:Lcom/google/android/material/navigation/BNMC;
 
-    .line 4
-    .line 5
-    invoke-virtual {p1, p2}, Lcom/google/android/material/navigation/b;->b(Landroidx/appcompat/view/menu/e;)V
+    invoke-virtual {p1, p2}, Lcom/google/android/material/navigation/BNMC;->b(Landroidx/appcompat/view/menu/EMVA;)V
 
-    .line 6
-    .line 7
-    .line 8
     return-void
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
 .end method
 
 .method public k(Landroid/os/Parcelable;)V
     .locals 2
 
-    .line 1
     instance-of v0, p1, Lcom/google/android/material/navigation/NavigationBarPresenter$SavedState;
 
-    .line 2
-    .line 3
     if-eqz v0, :cond_0
 
-    .line 4
-    .line 5
-    iget-object v0, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->b:Lcom/google/android/material/navigation/b;
+    iget-object v0, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->b:Lcom/google/android/material/navigation/BNMC;
 
-    .line 6
-    .line 7
     check-cast p1, Lcom/google/android/material/navigation/NavigationBarPresenter$SavedState;
 
-    .line 8
-    .line 9
     iget v1, p1, Lcom/google/android/material/navigation/NavigationBarPresenter$SavedState;->a:I
 
-    .line 10
-    .line 11
-    invoke-virtual {v0, v1}, Lcom/google/android/material/navigation/b;->j(I)V
+    invoke-virtual {v0, v1}, Lcom/google/android/material/navigation/BNMC;->j(I)V
 
-    .line 12
-    .line 13
-    .line 14
-    iget-object v0, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->b:Lcom/google/android/material/navigation/b;
+    iget-object v0, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->b:Lcom/google/android/material/navigation/BNMC;
 
-    .line 15
-    .line 16
     invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
-    .line 17
-    .line 18
-    .line 19
     move-result-object v0
 
-    .line 20
     iget-object p1, p1, Lcom/google/android/material/navigation/NavigationBarPresenter$SavedState;->b:Lcom/google/android/material/internal/ParcelableSparseArray;
 
-    .line 21
-    .line 22
-    invoke-static {v0, p1}, Lcom/google/android/material/badge/a;->b(Landroid/content/Context;Lcom/google/android/material/internal/ParcelableSparseArray;)Landroid/util/SparseArray;
+    invoke-static {v0, p1}, Lcom/google/android/material/badge/ABMC;->b(Landroid/content/Context;Lcom/google/android/material/internal/ParcelableSparseArray;)Landroid/util/SparseArray;
 
-    .line 23
-    .line 24
-    .line 25
     move-result-object p1
 
-    .line 26
-    iget-object v0, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->b:Lcom/google/android/material/navigation/b;
+    iget-object v0, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->b:Lcom/google/android/material/navigation/BNMC;
 
-    .line 27
-    .line 28
-    invoke-virtual {v0, p1}, Lcom/google/android/material/navigation/b;->setBadgeDrawables(Landroid/util/SparseArray;)V
+    invoke-virtual {v0, p1}, Lcom/google/android/material/navigation/BNMC;->setBadgeDrawables(Landroid/util/SparseArray;)V
 
-    .line 29
-    .line 30
-    .line 31
     :cond_0
     return-void
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
 .end method
 
 .method public l(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->c:Z
 
-    .line 2
-    .line 3
     return-void
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method
 
-.method public m(Landroidx/appcompat/view/menu/m;)Z
+.method public m(Landroidx/appcompat/view/menu/MMVA;)Z
     .locals 0
 
-    .line 1
     const/4 p1, 0x0
 
     return p1
@@ -462,107 +186,29 @@
 .method public n()Landroid/os/Parcelable;
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/google/android/material/navigation/NavigationBarPresenter$SavedState;
 
-    .line 2
-    .line 3
     invoke-direct {v0}, Lcom/google/android/material/navigation/NavigationBarPresenter$SavedState;-><init>()V
 
-    .line 4
-    .line 5
-    .line 6
-    iget-object v1, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->b:Lcom/google/android/material/navigation/b;
+    iget-object v1, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->b:Lcom/google/android/material/navigation/BNMC;
 
-    .line 7
-    .line 8
-    invoke-virtual {v1}, Lcom/google/android/material/navigation/b;->getSelectedItemId()I
+    invoke-virtual {v1}, Lcom/google/android/material/navigation/BNMC;->getSelectedItemId()I
 
-    .line 9
-    .line 10
-    .line 11
     move-result v1
 
-    .line 12
     iput v1, v0, Lcom/google/android/material/navigation/NavigationBarPresenter$SavedState;->a:I
 
-    .line 13
-    .line 14
-    iget-object v1, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->b:Lcom/google/android/material/navigation/b;
+    iget-object v1, p0, Lcom/google/android/material/navigation/NavigationBarPresenter;->b:Lcom/google/android/material/navigation/BNMC;
 
-    .line 15
-    .line 16
-    invoke-virtual {v1}, Lcom/google/android/material/navigation/b;->getBadgeDrawables()Landroid/util/SparseArray;
+    invoke-virtual {v1}, Lcom/google/android/material/navigation/BNMC;->getBadgeDrawables()Landroid/util/SparseArray;
 
-    .line 17
-    .line 18
-    .line 19
     move-result-object v1
 
-    .line 20
-    invoke-static {v1}, Lcom/google/android/material/badge/a;->c(Landroid/util/SparseArray;)Lcom/google/android/material/internal/ParcelableSparseArray;
+    invoke-static {v1}, Lcom/google/android/material/badge/ABMC;->c(Landroid/util/SparseArray;)Lcom/google/android/material/internal/ParcelableSparseArray;
 
-    .line 21
-    .line 22
-    .line 23
     move-result-object v1
 
-    .line 24
     iput-object v1, v0, Lcom/google/android/material/navigation/NavigationBarPresenter$SavedState;->b:Lcom/google/android/material/internal/ParcelableSparseArray;
 
-    .line 25
-    .line 26
     return-object v0
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
 .end method

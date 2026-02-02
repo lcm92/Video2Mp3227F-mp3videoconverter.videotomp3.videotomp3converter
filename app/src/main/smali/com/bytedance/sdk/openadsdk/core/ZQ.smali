@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/bytedance/sdk/openadsdk/core/ZQ$rk;,
+        Lcom/bytedance/sdk/openadsdk/core/ZQ$RKZ1;,
         Lcom/bytedance/sdk/openadsdk/core/ZQ$fFV;
     }
 .end annotation
@@ -25,7 +25,7 @@
 .method public abstract fFV(Lorg/json/JSONObject;)Lcom/bytedance/sdk/openadsdk/DK/rQf;
 .end method
 
-.method public abstract rk()Lcom/bytedance/sdk/component/adexpress/rk/aAs/rk;
+.method public abstract rk()Lcom/bytedance/sdk/component/adexpress/rk/aAs/RKARC;
 .end method
 
 .method public abstract rk(Lorg/json/JSONObject;Ljava/lang/String;Z)Lcom/bytedance/sdk/openadsdk/DK/rQf;
@@ -34,7 +34,7 @@
 .method public abstract rk(Lorg/json/JSONObject;)Lorg/json/JSONObject;
 .end method
 
-.method public abstract rk(Lcom/bytedance/sdk/openadsdk/AdSlot;Lcom/bytedance/sdk/openadsdk/core/model/TGu;ILcom/bytedance/sdk/openadsdk/core/ZQ$rk;)V
+.method public abstract rk(Lcom/bytedance/sdk/openadsdk/AdSlot;Lcom/bytedance/sdk/openadsdk/core/model/TGu;ILcom/bytedance/sdk/openadsdk/core/ZQ$RKZ1;)V
 .end method
 
 .method public abstract rk(Ljava/lang/String;)V

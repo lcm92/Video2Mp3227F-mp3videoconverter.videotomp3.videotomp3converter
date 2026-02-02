@@ -11,7 +11,7 @@
             "Lcom/bytedance/adsdk/ugeno/fFV/aAs;",
             "Ljava/lang/String;",
             "Ljava/util/List<",
-            "Lcom/bytedance/adsdk/ugeno/DK/lG$rk;",
+            "Lcom/bytedance/adsdk/ugeno/DK/lG$RKL1;",
             ">;)V"
         }
     .end annotation

@@ -10,13 +10,13 @@
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
         Lcom/bytedance/sdk/openadsdk/core/settings/NCs$fFV;,
-        Lcom/bytedance/sdk/openadsdk/core/settings/NCs$rk;
+        Lcom/bytedance/sdk/openadsdk/core/settings/NCs$RKN1;
     }
 .end annotation
 
 
 # instance fields
-.field private ArD:Lcom/bytedance/sdk/openadsdk/core/settings/NCs$rk;
+.field private ArD:Lcom/bytedance/sdk/openadsdk/core/settings/NCs$RKN1;
 
 .field private final DK:Ljava/lang/Object;
 
@@ -43,104 +43,73 @@
 
 
 # direct methods
-.method public constructor <init>(Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/core/settings/NCs$rk;)V
+.method public constructor <init>(Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/core/settings/NCs$RKN1;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
-    .line 6
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
 
-    .line 9
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->aAs:Ljava/util/concurrent/ConcurrentHashMap;
 
-    .line 11
     new-instance v0, Ljava/lang/Object;
 
-    .line 13
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    .line 16
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->DK:Ljava/lang/Object;
 
-    .line 18
     new-instance v0, Ljava/lang/Object;
 
-    .line 20
     invoke-direct {v0}, Ljava/lang/Object;-><init>()V
 
-    .line 23
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->rQf:Ljava/lang/Object;
 
-    .line 25
     new-instance v0, Ljava/util/concurrent/CountDownLatch;
 
-    .line 27
     const/4 v1, 0x1
 
-    .line 28
     invoke-direct {v0, v1}, Ljava/util/concurrent/CountDownLatch;-><init>(I)V
 
-    .line 31
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->lG:Ljava/util/concurrent/CountDownLatch;
 
-    .line 33
     new-instance v0, Ljava/util/Properties;
 
-    .line 35
     invoke-direct {v0}, Ljava/util/Properties;-><init>()V
 
-    .line 38
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->pw:Ljava/util/Properties;
 
-    .line 40
     const/4 v0, 0x0
 
-    .line 41
     iput-boolean v0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->ppR:Z
 
-    .line 43
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->Yp:Ljava/lang/String;
 
-    .line 45
-    iput-object p2, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->ArD:Lcom/bytedance/sdk/openadsdk/core/settings/NCs$rk;
+    iput-object p2, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->ArD:Lcom/bytedance/sdk/openadsdk/core/settings/NCs$RKN1;
 
-    .line 47
     new-instance p2, Lcom/bytedance/sdk/openadsdk/core/settings/NCs$1;
 
-    .line 49
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
-    .line 52
     move-result-object p1
 
-    .line 53
     const-string v0, "SetL_"
 
-    .line 55
     invoke-virtual {v0, p1}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 58
     move-result-object p1
 
-    .line 59
     invoke-direct {p2, p0, p1}, Lcom/bytedance/sdk/openadsdk/core/settings/NCs$1;-><init>(Lcom/bytedance/sdk/openadsdk/core/settings/NCs;Ljava/lang/String;)V
 
-    .line 62
-    invoke-static {p2}, Lcom/bytedance/sdk/openadsdk/utils/hWw;->rk(Lcom/bytedance/sdk/component/pw/pw;)V
+    invoke-static {p2}, Lcom/bytedance/sdk/openadsdk/utils/hWw;->rk(Lcom/bytedance/sdk/component/pw/PWPCC;)V
 
-    .line 65
     return-void
 .end method
 
 .method static synthetic fFV(Lcom/bytedance/sdk/openadsdk/core/settings/NCs;Ljava/util/Properties;)Ljava/util/Properties;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->pw:Ljava/util/Properties;
 
     return-object p1
@@ -149,7 +118,6 @@
 .method static synthetic fFV(Lcom/bytedance/sdk/openadsdk/core/settings/NCs;)Ljava/util/concurrent/ConcurrentHashMap;
     .locals 0
 
-    .line 2
     iget-object p0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->aAs:Ljava/util/concurrent/ConcurrentHashMap;
 
     return-object p0
@@ -158,95 +126,68 @@
 .method private lG()Ljava/io/File;
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
-    .line 3
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
 
-    .line 6
     move-result-object v1
 
-    .line 7
     invoke-virtual {v1}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
 
-    .line 10
     move-result-object v1
 
-    .line 11
     iget-object v2, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->Yp:Ljava/lang/String;
 
-    .line 13
     invoke-direct {v0, v1, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 16
     return-object v0
 .end method
 
 .method private rQf()V
     .locals 4
 
-    .line 1
     iget-boolean v0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->ppR:Z
 
-    .line 3
     if-nez v0, :cond_1
 
-    .line 5
     :try_start_0
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
-    .line 8
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/hWw;->lG()Z
 
-    .line 11
     move-result v0
 
-    .line 12
     if-eqz v0, :cond_0
 
-    .line 14
     const/4 v0, 0x4
 
-    .line 15
     goto :goto_0
 
-    .line 16
     :cond_0
     const/16 v0, 0x8
 
-    .line 18
     :goto_0
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->lG:Ljava/util/concurrent/CountDownLatch;
 
-    .line 20
     int-to-long v2, v0
 
-    .line 21
     sget-object v0, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
-    .line 23
     invoke-virtual {v1, v2, v3, v0}, Ljava/util/concurrent/CountDownLatch;->await(JLjava/util/concurrent/TimeUnit;)Z
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 26
     return-void
 
-    .line 27
     :catch_0
     move-exception v0
 
-    .line 28
     const-string v1, "SdkSettings.Prop"
 
-    .line 30
     const-string v2, "awaitLoadedLocked: "
 
-    .line 32
     invoke-static {v1, v2, v0}, Lcom/bytedance/sdk/component/utils/ZQ;->rk(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 35
     :cond_1
     return-void
 .end method
@@ -254,7 +195,6 @@
 .method static synthetic rk(Lcom/bytedance/sdk/openadsdk/core/settings/NCs;)Ljava/util/Properties;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->pw:Ljava/util/Properties;
 
     return-object p0
@@ -263,7 +203,6 @@
 .method static synthetic rk(Lcom/bytedance/sdk/openadsdk/core/settings/NCs;Ljava/util/Properties;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->rk(Ljava/util/Properties;)V
 
     return-void
@@ -272,12 +211,10 @@
 .method private rk(Ljava/util/Properties;)V
     .locals 4
 
-    .line 71
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->rQf:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 72
     :try_start_0
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->lG()Ljava/io/File;
 
@@ -287,7 +224,6 @@
 
     const/4 v2, 0x0
 
-    .line 73
     :try_start_1
     new-instance v3, Ljava/io/FileOutputStream;
 
@@ -296,17 +232,14 @@
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_2
 
-    .line 74
     :try_start_2
     invoke-virtual {p1, v3, v2}, Ljava/util/Properties;->store(Ljava/io/OutputStream;Ljava/lang/String;)V
 
-    .line 75
     invoke-virtual {v1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 76
     :try_start_3
     invoke-static {v3}, Lcom/bytedance/sdk/openadsdk/utils/woP;->rk(Ljava/io/Closeable;)V
     :try_end_3
@@ -341,7 +274,6 @@
     :catch_1
     move-exception p1
 
-    .line 77
     :goto_0
     :try_start_4
     const-string v1, "SdkSettings.Prop"
@@ -354,18 +286,15 @@
 
     if-eqz v2, :cond_0
 
-    .line 78
     :try_start_5
     invoke-static {v2}, Lcom/bytedance/sdk/openadsdk/utils/woP;->rk(Ljava/io/Closeable;)V
 
-    .line 79
     :cond_0
     :goto_1
     monitor-exit v0
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_0
 
-    .line 80
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/settings/woP;->dC()V
 
     return-void
@@ -373,7 +302,6 @@
     :goto_2
     if-eqz v2, :cond_1
 
-    .line 81
     :try_start_6
     invoke-static {v2}, Lcom/bytedance/sdk/openadsdk/utils/woP;->rk(Ljava/io/Closeable;)V
 
@@ -382,7 +310,6 @@
     :try_end_6
     .catchall {:try_start_6 .. :try_end_6} :catchall_0
 
-    .line 82
     :goto_3
     monitor-exit v0
 
@@ -394,16 +321,12 @@
 .method protected DK()V
     .locals 1
 
-    .line 1
-    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->ArD:Lcom/bytedance/sdk/openadsdk/core/settings/NCs$rk;
+    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->ArD:Lcom/bytedance/sdk/openadsdk/core/settings/NCs$RKN1;
 
-    .line 3
     if-eqz v0, :cond_0
 
-    .line 5
-    invoke-interface {v0}, Lcom/bytedance/sdk/openadsdk/core/settings/NCs$rk;->fFV()V
+    invoke-interface {v0}, Lcom/bytedance/sdk/openadsdk/core/settings/NCs$RKN1;->fFV()V
 
-    .line 8
     :cond_0
     return-void
 .end method
@@ -411,25 +334,18 @@
 .method public aAs()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->lG()Ljava/io/File;
 
-    .line 4
     move-result-object v0
 
-    .line 5
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
-    .line 8
     move-result v1
 
-    .line 9
     if-eqz v1, :cond_0
 
-    .line 11
     invoke-virtual {v0}, Ljava/io/File;->delete()Z
 
-    .line 14
     :cond_0
     return-void
 .end method
@@ -437,7 +353,6 @@
 .method public fFV()Z
     .locals 1
 
-    .line 3
     iget-boolean v0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->ppR:Z
 
     return v0
@@ -448,7 +363,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 14
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v0
@@ -457,11 +371,9 @@
 
     goto :goto_0
 
-    .line 15
     :cond_0
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->rQf()V
 
-    .line 16
     :try_start_0
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->pw:Ljava/util/Properties;
 
@@ -484,7 +396,6 @@
     :catch_0
     move-exception p1
 
-    .line 17
     const-string v0, "SdkSettings.Prop"
 
     const-string v1, ""
@@ -501,7 +412,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 6
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v0
@@ -510,11 +420,9 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->rQf()V
 
-    .line 8
     :try_start_0
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->pw:Ljava/util/Properties;
 
@@ -537,7 +445,6 @@
     :catch_0
     move-exception p1
 
-    .line 9
     const-string v0, "SdkSettings.Prop"
 
     const-string v1, ""
@@ -554,7 +461,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 10
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v0
@@ -563,11 +469,9 @@
 
     goto :goto_0
 
-    .line 11
     :cond_0
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->rQf()V
 
-    .line 12
     :try_start_0
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->pw:Ljava/util/Properties;
 
@@ -590,7 +494,6 @@
     :catch_0
     move-exception p1
 
-    .line 13
     const-string v0, "SdkSettings.Prop"
 
     const-string v1, ""
@@ -602,10 +505,9 @@
     return-wide p2
 .end method
 
-.method public rk()Lcom/bytedance/sdk/openadsdk/core/settings/rQf$rk;
+.method public rk()Lcom/bytedance/sdk/openadsdk/core/settings/rQf$RKR1;
     .locals 1
 
-    .line 62
     new-instance v0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs$fFV;
 
     invoke-direct {v0, p0}, Lcom/bytedance/sdk/openadsdk/core/settings/NCs$fFV;-><init>(Lcom/bytedance/sdk/openadsdk/core/settings/NCs;)V
@@ -629,7 +531,6 @@
 
     if-eqz p1, :cond_3
 
-    .line 63
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v0
@@ -638,7 +539,6 @@
 
     goto :goto_0
 
-    .line 64
     :cond_0
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->aAs:Ljava/util/concurrent/ConcurrentHashMap;
 
@@ -648,7 +548,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 65
     :try_start_0
     iget-object p3, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->aAs:Ljava/util/concurrent/ConcurrentHashMap;
 
@@ -663,7 +562,6 @@
     :catch_0
     move-exception p1
 
-    .line 66
     const-string p3, "SdkSettings.Prop"
 
     const-string v0, ""
@@ -672,11 +570,9 @@
 
     return-object p2
 
-    .line 67
     :cond_1
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->rQf()V
 
-    .line 68
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->pw:Ljava/util/Properties;
 
     const/4 v1, 0x0
@@ -692,14 +588,12 @@
     :cond_2
     if-eqz p3, :cond_3
 
-    .line 69
     invoke-interface {p3, v0}, Lcom/bytedance/sdk/openadsdk/core/settings/rQf$fFV;->fFV(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object p3
 
     if-eqz p3, :cond_3
 
-    .line 70
     iget-object p2, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->aAs:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {p2, p1, p3}, Ljava/util/concurrent/ConcurrentHashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
@@ -716,7 +610,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v0
@@ -725,11 +618,9 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->rQf()V
 
-    .line 5
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->pw:Ljava/util/Properties;
 
     invoke-virtual {v0, p1, p2}, Ljava/util/Properties;->getProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
@@ -746,12 +637,10 @@
 .method public rk(Z)V
     .locals 8
 
-    .line 22
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->DK:Ljava/lang/Object;
 
     monitor-enter v0
 
-    .line 23
     :try_start_0
     iget-boolean v1, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->ppR:Z
 
@@ -759,7 +648,6 @@
 
     if-nez p1, :cond_0
 
-    .line 24
     monitor-exit v0
 
     return-void
@@ -769,13 +657,11 @@
 
     goto/16 :goto_8
 
-    .line 25
     :cond_0
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->lG()Ljava/io/File;
 
     move-result-object p1
 
-    .line 26
     invoke-virtual {p1}, Ljava/io/File;->exists()Z
 
     move-result v1
@@ -784,7 +670,6 @@
 
     if-eqz v1, :cond_5
 
-    .line 27
     new-instance v1, Ljava/util/Properties;
 
     invoke-direct {v1}, Ljava/util/Properties;-><init>()V
@@ -793,7 +678,6 @@
 
     const/4 v3, 0x0
 
-    .line 28
     :try_start_1
     new-instance v4, Ljava/io/FileInputStream;
 
@@ -802,11 +686,9 @@
     .catch Ljava/lang/OutOfMemoryError; {:try_start_1 .. :try_end_1} :catch_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_2
 
-    .line 29
     :try_start_2
     invoke-virtual {v1, v4}, Ljava/util/Properties;->load(Ljava/io/InputStream;)V
 
-    .line 30
     invoke-virtual {v1}, Ljava/util/Properties;->size()I
 
     new-instance v3, Ljava/lang/StringBuilder;
@@ -821,17 +703,14 @@
 
     invoke-virtual {v3, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 31
     invoke-virtual {v1}, Ljava/util/Properties;->isEmpty()Z
 
     move-result v3
 
     if-nez v3, :cond_1
 
-    .line 32
     iput-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->pw:Ljava/util/Properties;
 
-    .line 33
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->aAs:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v1}, Ljava/util/concurrent/ConcurrentHashMap;->clear()V
@@ -848,13 +727,11 @@
 
     goto :goto_2
 
-    .line 34
     :cond_1
     :goto_0
     :try_start_3
     invoke-static {v4}, Lcom/bytedance/sdk/openadsdk/utils/woP;->rk(Ljava/io/Closeable;)V
 
-    .line 35
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->DK:Ljava/lang/Object;
 
     :goto_1
@@ -872,7 +749,6 @@
     :catchall_2
     move-exception p1
 
-    .line 36
     :goto_2
     :try_start_4
     const-string v1, "SdkSettings.Prop"
@@ -885,11 +761,9 @@
 
     if-eqz v3, :cond_2
 
-    .line 37
     :try_start_5
     invoke-static {v3}, Lcom/bytedance/sdk/openadsdk/utils/woP;->rk(Ljava/io/Closeable;)V
 
-    .line 38
     :cond_2
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->DK:Ljava/lang/Object;
     :try_end_5
@@ -902,7 +776,6 @@
 
     goto :goto_5
 
-    .line 39
     :catch_1
     :goto_3
     :try_start_6
@@ -915,7 +788,6 @@
     :catchall_4
     move-exception p1
 
-    .line 40
     :try_start_7
     const-string v1, "SdkSettings.Prop"
 
@@ -928,11 +800,9 @@
     :goto_4
     if-eqz v3, :cond_3
 
-    .line 41
     :try_start_8
     invoke-static {v3}, Lcom/bytedance/sdk/openadsdk/utils/woP;->rk(Ljava/io/Closeable;)V
 
-    .line 42
     :cond_3
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->DK:Ljava/lang/Object;
 
@@ -941,10 +811,8 @@
     :goto_5
     if-eqz v3, :cond_4
 
-    .line 43
     invoke-static {v3}, Lcom/bytedance/sdk/openadsdk/utils/woP;->rk(Ljava/io/Closeable;)V
 
-    .line 44
     :cond_4
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->DK:Ljava/lang/Object;
 
@@ -952,7 +820,6 @@
 
     throw p1
 
-    .line 45
     :cond_5
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
 
@@ -964,7 +831,6 @@
 
     if-eqz p1, :cond_9
 
-    .line 46
     const-string p1, "tt_sdk_settings.prop"
 
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->Yp:Ljava/lang/String;
@@ -977,7 +843,6 @@
 
     if-eqz p1, :cond_9
 
-    .line 47
     :try_start_9
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
 
@@ -991,7 +856,6 @@
 
     move-result-object p1
 
-    .line 48
     invoke-interface {p1}, Landroid/content/SharedPreferences;->getAll()Ljava/util/Map;
 
     move-result-object v1
@@ -1002,12 +866,10 @@
 
     if-nez v1, :cond_9
 
-    .line 49
-    invoke-virtual {p0}, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->rk()Lcom/bytedance/sdk/openadsdk/core/settings/rQf$rk;
+    invoke-virtual {p0}, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->rk()Lcom/bytedance/sdk/openadsdk/core/settings/rQf$RKR1;
 
     move-result-object v1
 
-    .line 50
     invoke-interface {p1}, Landroid/content/SharedPreferences;->getAll()Ljava/util/Map;
 
     move-result-object v4
@@ -1034,21 +896,18 @@
 
     check-cast v5, Ljava/util/Map$Entry;
 
-    .line 51
     invoke-interface {v5}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v6
 
     check-cast v6, Ljava/lang/String;
 
-    .line 52
     invoke-interface {v5}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v5
 
     if-eqz v6, :cond_6
 
-    .line 53
     invoke-virtual {v6}, Ljava/lang/String;->isEmpty()Z
 
     move-result v7
@@ -1057,12 +916,11 @@
 
     if-eqz v5, :cond_6
 
-    .line 54
     invoke-virtual {v5}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v3
 
-    invoke-interface {v1, v6, v3}, Lcom/bytedance/sdk/openadsdk/core/settings/rQf$rk;->rk(Ljava/lang/String;Ljava/lang/String;)Lcom/bytedance/sdk/openadsdk/core/settings/rQf$rk;
+    invoke-interface {v1, v6, v3}, Lcom/bytedance/sdk/openadsdk/core/settings/rQf$RKR1;->rk(Ljava/lang/String;Ljava/lang/String;)Lcom/bytedance/sdk/openadsdk/core/settings/rQf$RKR1;
 
     move v3, v2
 
@@ -1071,10 +929,8 @@
     :cond_7
     if-eqz v3, :cond_8
 
-    .line 55
-    invoke-interface {v1}, Lcom/bytedance/sdk/openadsdk/core/settings/rQf$rk;->rk()V
+    invoke-interface {v1}, Lcom/bytedance/sdk/openadsdk/core/settings/rQf$RKR1;->rk()V
 
-    .line 56
     :cond_8
     invoke-interface {p1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
@@ -1089,7 +945,6 @@
     .catch Ljava/lang/Exception; {:try_start_9 .. :try_end_9} :catch_2
     .catchall {:try_start_9 .. :try_end_9} :catchall_0
 
-    .line 57
     :catch_2
     :cond_9
     :goto_7
@@ -1098,23 +953,19 @@
 
     if-nez p1, :cond_a
 
-    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->ArD:Lcom/bytedance/sdk/openadsdk/core/settings/NCs$rk;
+    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->ArD:Lcom/bytedance/sdk/openadsdk/core/settings/NCs$RKN1;
 
     if-eqz p1, :cond_a
 
-    .line 58
-    invoke-interface {p1}, Lcom/bytedance/sdk/openadsdk/core/settings/NCs$rk;->rk()V
+    invoke-interface {p1}, Lcom/bytedance/sdk/openadsdk/core/settings/NCs$RKN1;->rk()V
 
-    .line 59
     :cond_a
     iput-boolean v2, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->ppR:Z
 
-    .line 60
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->lG:Ljava/util/concurrent/CountDownLatch;
 
     invoke-virtual {p1}, Ljava/util/concurrent/CountDownLatch;->countDown()V
 
-    .line 61
     monitor-exit v0
     :try_end_a
     .catchall {:try_start_a .. :try_end_a} :catchall_0
@@ -1132,7 +983,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 18
     invoke-virtual {p1}, Ljava/lang/String;->isEmpty()Z
 
     move-result v0
@@ -1141,11 +991,9 @@
 
     goto :goto_0
 
-    .line 19
     :cond_0
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->rQf()V
 
-    .line 20
     :try_start_0
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/settings/NCs;->pw:Ljava/util/Properties;
 
@@ -1168,7 +1016,6 @@
     :catch_0
     move-exception p1
 
-    .line 21
     const-string v0, "SdkSettings.Prop"
 
     const-string v1, ""

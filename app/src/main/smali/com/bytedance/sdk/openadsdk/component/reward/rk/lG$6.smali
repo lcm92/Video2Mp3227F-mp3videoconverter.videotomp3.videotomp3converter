@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/bytedance/sdk/openadsdk/core/fFV/fFV$rk;
+.implements Lcom/bytedance/sdk/openadsdk/core/fFV/fFV$RKF1;
 
 
 # annotations
@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "6"
 .end annotation
 
 
@@ -27,16 +27,12 @@
 .method constructor <init>(Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;Lcom/bytedance/sdk/openadsdk/core/NCs/DK/fFV;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG$6;->fFV:Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;
 
-    .line 3
     iput-object p2, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG$6;->rk:Lcom/bytedance/sdk/openadsdk/core/NCs/DK/fFV;
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 8
     return-void
 .end method
 
@@ -45,12 +41,9 @@
 .method public rk(Landroid/view/View;I)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG$6;->rk:Lcom/bytedance/sdk/openadsdk/core/NCs/DK/fFV;
 
-    .line 3
     invoke-interface {p1}, Lcom/bytedance/sdk/openadsdk/core/NCs/DK/fFV;->e_()V
 
-    .line 6
     return-void
 .end method

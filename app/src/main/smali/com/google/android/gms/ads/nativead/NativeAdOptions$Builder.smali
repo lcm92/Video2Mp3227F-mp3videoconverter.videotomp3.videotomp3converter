@@ -66,7 +66,6 @@
 .method static bridge synthetic a(Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;->e:I
 
     return p0
@@ -75,7 +74,6 @@
 .method static bridge synthetic b(Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;->h:I
 
     return p0
@@ -84,7 +82,6 @@
 .method static bridge synthetic c(Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;->b:I
 
     return p0
@@ -93,7 +90,6 @@
 .method static bridge synthetic d(Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;)Lcom/google/android/gms/ads/VideoOptions;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;->d:Lcom/google/android/gms/ads/VideoOptions;
 
     return-object p0
@@ -102,7 +98,6 @@
 .method static bridge synthetic e(Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;->g:Z
 
     return p0
@@ -111,7 +106,6 @@
 .method static bridge synthetic f(Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;->c:Z
 
     return p0
@@ -120,7 +114,6 @@
 .method static bridge synthetic g(Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;->a:Z
 
     return p0
@@ -129,7 +122,6 @@
 .method static bridge synthetic h(Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;->f:Z
 
     return p0
@@ -138,7 +130,6 @@
 .method static bridge synthetic i(Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;->i:I
 
     return p0
@@ -160,10 +151,6 @@
 
 .method public enableCustomClickGestureDirection(IZ)Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;
     .locals 0
-    .param p1    # I
-        .annotation build Lcom/google/android/gms/ads/nativead/NativeAdOptions$SwipeGestureDirection;
-        .end annotation
-    .end param
 
     iput-boolean p2, p0, Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;->g:Z
 
@@ -174,10 +161,6 @@
 
 .method public setAdChoicesPlacement(I)Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;
     .locals 0
-    .param p1    # I
-        .annotation build Lcom/google/android/gms/ads/nativead/NativeAdOptions$AdChoicesPlacement;
-        .end annotation
-    .end param
 
     iput p1, p0, Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;->e:I
 
@@ -186,10 +169,6 @@
 
 .method public setMediaAspectRatio(I)Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;
     .locals 0
-    .param p1    # I
-        .annotation build Lcom/google/android/gms/ads/nativead/NativeAdOptions$NativeMediaAspectRatio;
-        .end annotation
-    .end param
 
     iput p1, p0, Lcom/google/android/gms/ads/nativead/NativeAdOptions$Builder;->b:I
 

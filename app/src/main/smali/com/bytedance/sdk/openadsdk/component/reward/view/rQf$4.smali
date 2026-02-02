@@ -10,7 +10,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "4"
 .end annotation
 
 
@@ -19,15 +19,12 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/bytedance/sdk/openadsdk/component/reward/view/rQf;Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/core/nP/rk;Lcom/bytedance/sdk/openadsdk/core/fFV/aAs;)V
+.method constructor <init>(Lcom/bytedance/sdk/openadsdk/component/reward/view/rQf;Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/core/nP/RKNCC;Lcom/bytedance/sdk/openadsdk/core/fFV/aAs;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/reward/view/rQf$4;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/view/rQf;
 
-    .line 3
-    invoke-direct {p0, p2, p3, p4}, Lcom/bytedance/sdk/openadsdk/core/fFV/Yp;-><init>(Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/core/nP/rk;Lcom/bytedance/sdk/openadsdk/core/fFV/aAs;)V
+    invoke-direct {p0, p2, p3, p4}, Lcom/bytedance/sdk/openadsdk/core/fFV/Yp;-><init>(Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/core/nP/RKNCC;Lcom/bytedance/sdk/openadsdk/core/fFV/aAs;)V
 
-    .line 6
     return-void
 .end method

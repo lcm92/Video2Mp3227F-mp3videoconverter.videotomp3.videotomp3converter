@@ -35,7 +35,7 @@
 
     const-string v0, "Position is null"
 
-    invoke-static {p1, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Lcom/iab/omid/library/bytedance2/adsession/media/VastProperties;
 
@@ -53,7 +53,7 @@
 
     const-string v0, "Position is null"
 
-    invoke-static {p2, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Lcom/iab/omid/library/bytedance2/adsession/media/VastProperties;
 
@@ -131,7 +131,7 @@
     :goto_1
     const-string v2, "VastProperties: JSON error"
 
-    invoke-static {v2, v1}, Lcom/iab/omid/library/bytedance2/utils/d;->a(Ljava/lang/String;Ljava/lang/Exception;)V
+    invoke-static {v2, v1}, Lcom/iab/omid/library/bytedance2/utils/DUBC;->a(Ljava/lang/String;Ljava/lang/Exception;)V
 
     :goto_2
     return-object v0

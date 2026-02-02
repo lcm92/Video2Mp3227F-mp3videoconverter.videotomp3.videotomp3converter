@@ -26,56 +26,43 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
-    .line 3
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 6
     sput-object v0, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;->a:Ljava/util/Map;
 
-    .line 8
     const-string v0, "file_lock_pgl"
 
-    .line 10
     invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
-    .line 13
     return-void
 .end method
 
 .method private constructor <init>(Ljava/lang/String;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;->c:Ljava/lang/String;
 
-    .line 6
     iput p2, p0, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;->b:I
 
-    .line 8
     return-void
 .end method
 
 .method public static a(Ljava/lang/String;)Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;
     .locals 4
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;->d(Ljava/lang/String;)I
 
     move-result v0
 
-    .line 2
     invoke-static {v0}, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;->nLockFile(I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 3
     new-instance v1, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;
 
     invoke-direct {v1, p0, v0}, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;-><init>(Ljava/lang/String;I)V
@@ -85,7 +72,6 @@
     :catch_0
     move-exception v0
 
-    .line 4
     new-instance v1, Ljava/lang/RuntimeException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -128,18 +114,15 @@
 .method public static a(Ljava/lang/String;I)Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;
     .locals 3
 
-    .line 5
     :try_start_0
     invoke-static {p0}, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;->d(Ljava/lang/String;)I
 
     move-result v0
 
-    .line 6
     invoke-static {v0, p1}, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;->nLockFileSegment(II)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 7
     new-instance p1, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;
 
     invoke-direct {p1, p0, v0}, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;-><init>(Ljava/lang/String;I)V
@@ -149,7 +132,6 @@
     :catch_0
     move-exception p1
 
-    .line 8
     new-instance v0, Ljava/lang/RuntimeException;
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -182,13 +164,11 @@
 .method public static b(Ljava/lang/String;)Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;
     .locals 4
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;->d(Ljava/lang/String;)I
 
     move-result v0
 
-    .line 2
     invoke-static {v0}, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;->nTryLock(I)Z
 
     move-result v1
@@ -201,7 +181,6 @@
 
     return-object p0
 
-    .line 3
     :cond_0
     new-instance v1, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;
 
@@ -212,7 +191,6 @@
     :catch_0
     move-exception v0
 
-    .line 4
     new-instance v1, Ljava/lang/RuntimeException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -245,179 +223,126 @@
 .method public static c(Ljava/lang/String;)Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;
     .locals 4
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;->d(Ljava/lang/String;)I
 
-    .line 4
     move-result v0
 
-    .line 5
     invoke-static {v0}, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;->nTryLock(I)Z
 
-    .line 8
     move-result v1
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 9
     if-nez v1, :cond_0
 
-    .line 11
     new-instance v1, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;
 
-    .line 13
     invoke-direct {v1, p0, v0}, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;-><init>(Ljava/lang/String;I)V
 
-    .line 16
     invoke-virtual {v1}, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;->b()V
 
-    .line 19
     const/4 p0, 0x0
 
-    .line 20
     return-object p0
 
-    .line 21
     :cond_0
     new-instance v1, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;
 
-    .line 23
     invoke-direct {v1, p0, v0}, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;-><init>(Ljava/lang/String;I)V
 
-    .line 26
     return-object v1
 
-    .line 27
     :catch_0
     move-exception v0
 
-    .line 28
     new-instance v1, Ljava/lang/RuntimeException;
 
-    .line 30
     new-instance v2, Ljava/lang/StringBuilder;
 
-    .line 32
     const-string v3, "try lock failed, file:"
 
-    .line 34
     invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 37
     invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 40
     const-string p0, " caused by:"
 
-    .line 42
     invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 45
     invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
-    .line 48
     move-result-object p0
 
-    .line 49
     invoke-virtual {v2, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 52
     invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 55
     move-result-object p0
 
-    .line 56
     invoke-direct {v1, p0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    .line 59
     throw v1
 .end method
 
 .method private static d(Ljava/lang/String;)I
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;->a:Ljava/util/Map;
 
-    .line 3
     monitor-enter v0
 
-    .line 4
     :try_start_0
     invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 7
     move-result-object v1
 
-    .line 8
     check-cast v1, Ljava/lang/Integer;
 
-    .line 10
     if-nez v1, :cond_0
 
-    .line 12
     new-instance v1, Ljava/io/File;
 
-    .line 14
     invoke-direct {v1, p0}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 17
     invoke-virtual {v1}, Ljava/io/File;->getParentFile()Ljava/io/File;
 
-    .line 20
     move-result-object v1
 
-    .line 21
     invoke-virtual {v1}, Ljava/io/File;->mkdirs()Z
 
-    .line 24
     invoke-static {p0}, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;->nGetFD(Ljava/lang/String;)I
 
-    .line 27
     move-result v1
 
-    .line 28
     invoke-static {v1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
-    .line 31
     move-result-object v1
 
-    .line 32
     invoke-interface {v0, p0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 35
     goto :goto_0
 
-    .line 36
     :catchall_0
     move-exception p0
 
-    .line 37
     goto :goto_1
 
-    .line 38
     :cond_0
     :goto_0
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 39
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
-    .line 42
     move-result p0
 
-    .line 43
     return p0
 
-    .line 44
     :goto_1
     monitor-exit v0
 
-    .line 45
     throw p0
 .end method
 
@@ -444,7 +369,6 @@
 .method public final a()V
     .locals 3
 
-    .line 9
     :try_start_0
     iget v0, p0, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;->b:I
 
@@ -454,7 +378,6 @@
 
     return-void
 
-    .line 10
     :catch_0
     new-instance v0, Ljava/lang/RuntimeException;
 
@@ -480,12 +403,10 @@
 .method public final b()V
     .locals 4
 
-    .line 5
     sget-object v0, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;->a:Ljava/util/Map;
 
     monitor-enter v0
 
-    .line 6
     :try_start_0
     iget-object v1, p0, Lcom/bykv/vk/openvk/preload/geckox/utils/FileLock;->c:Ljava/lang/String;
 
@@ -495,12 +416,10 @@
 
     check-cast v1, Ljava/lang/Integer;
 
-    .line 7
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     :try_start_1
     invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
 
@@ -515,7 +434,6 @@
     :catch_0
     move-exception v0
 
-    .line 9
     new-instance v1, Ljava/lang/RuntimeException;
 
     new-instance v2, Ljava/lang/StringBuilder;
@@ -549,7 +467,6 @@
     :catchall_0
     move-exception v1
 
-    .line 10
     monitor-exit v0
 
     throw v1

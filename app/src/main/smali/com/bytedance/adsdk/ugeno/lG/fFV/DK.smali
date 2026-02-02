@@ -38,10 +38,8 @@
 
     if-gtz v2, :cond_0
 
-    .line 2
     invoke-virtual {p1, v0}, Landroid/view/View;->setAlpha(F)V
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
     move-result v0
@@ -54,7 +52,6 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationX(F)V
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/View;->getHeight()I
 
     move-result v0
@@ -63,16 +60,13 @@
 
     mul-float/2addr v0, p2
 
-    .line 5
     invoke-virtual {p1, v0}, Landroid/view/View;->setTranslationY(F)V
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-virtual {p1, v1}, Landroid/view/View;->setAlpha(F)V
 
-    .line 7
     :goto_0
     iget-object v0, p0, Lcom/bytedance/adsdk/ugeno/lG/fFV/DK;->rk:Ljava/lang/String;
 
@@ -88,14 +82,12 @@
 
     if-gez v0, :cond_1
 
-    .line 8
     invoke-virtual {p1}, Landroid/view/View;->getHeight()I
 
     move-result v0
 
     int-to-float v1, v0
 
-    .line 9
     :cond_1
     invoke-virtual {p1}, Landroid/view/View;->getWidth()I
 
@@ -111,13 +103,10 @@
 
     mul-float/2addr p2, v2
 
-    .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->setPivotX(F)V
 
-    .line 11
     invoke-virtual {p1, v1}, Landroid/view/View;->setPivotY(F)V
 
-    .line 12
     invoke-virtual {p1, p2}, Landroid/view/View;->setRotationX(F)V
 
     :cond_2
@@ -127,7 +116,6 @@
 .method public rk(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/adsdk/ugeno/lG/fFV/DK;->rk:Ljava/lang/String;
 
     return-void

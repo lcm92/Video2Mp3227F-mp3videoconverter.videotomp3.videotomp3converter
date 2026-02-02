@@ -10,7 +10,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "4"
 .end annotation
 
 
@@ -19,49 +19,35 @@
 
 
 # direct methods
-.method constructor <init>(Lcom/bytedance/sdk/openadsdk/activity/TTCeilingLandingPageActivity;Landroid/content/Context;Lcom/bytedance/sdk/openadsdk/core/sS;Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/common/DK;Lcom/bytedance/sdk/openadsdk/DK/nP;ZZLcom/bytedance/sdk/openadsdk/activity/TTCeilingLandingPageActivity$rk;)V
+.method constructor <init>(Lcom/bytedance/sdk/openadsdk/activity/TTCeilingLandingPageActivity;Landroid/content/Context;Lcom/bytedance/sdk/openadsdk/core/sS;Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/common/DK;Lcom/bytedance/sdk/openadsdk/DK/nP;ZZLcom/bytedance/sdk/openadsdk/activity/TTCeilingLandingPageActivity$RKT1;)V
     .locals 10
 
-    .line 1
     move-object v9, p0
 
-    .line 2
     move-object v0, p1
 
-    .line 3
     iput-object v0, v9, Lcom/bytedance/sdk/openadsdk/activity/TTCeilingLandingPageActivity$4;->rk:Lcom/bytedance/sdk/openadsdk/activity/TTCeilingLandingPageActivity;
 
-    .line 5
     move-object v0, p0
 
-    .line 6
     move-object v1, p2
 
-    .line 7
     move-object v2, p3
 
-    .line 8
     move-object v3, p4
 
-    .line 9
     move-object v4, p5
 
-    .line 10
     move-object/from16 v5, p6
 
-    .line 12
     move/from16 v6, p7
 
-    .line 14
     move/from16 v7, p8
 
-    .line 16
     move-object/from16 v8, p9
 
-    .line 18
-    invoke-direct/range {v0 .. v8}, Lcom/bytedance/sdk/openadsdk/core/widget/rk/rQf;-><init>(Landroid/content/Context;Lcom/bytedance/sdk/openadsdk/core/sS;Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/common/DK;Lcom/bytedance/sdk/openadsdk/DK/nP;ZZLcom/bytedance/sdk/openadsdk/activity/TTCeilingLandingPageActivity$rk;)V
+    invoke-direct/range {v0 .. v8}, Lcom/bytedance/sdk/openadsdk/core/widget/rk/rQf;-><init>(Landroid/content/Context;Lcom/bytedance/sdk/openadsdk/core/sS;Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/common/DK;Lcom/bytedance/sdk/openadsdk/DK/nP;ZZLcom/bytedance/sdk/openadsdk/activity/TTCeilingLandingPageActivity$RKT1;)V
 
-    .line 21
     return-void
 .end method
 
@@ -70,9 +56,7 @@
 .method public onPageFinished(Landroid/webkit/WebView;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2}, Lcom/bytedance/sdk/openadsdk/core/widget/rk/rQf;->onPageFinished(Landroid/webkit/WebView;Ljava/lang/String;)V
 
-    .line 4
     return-void
 .end method

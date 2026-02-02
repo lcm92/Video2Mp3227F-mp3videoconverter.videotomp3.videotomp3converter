@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x8
-    name = null
+    name = "1"
 .end annotation
 
 
@@ -25,22 +25,16 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     const-string v0, "^cpu[0-9]+$"
 
-    .line 6
     invoke-static {v0}, Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
 
-    .line 9
     move-result-object v0
 
-    .line 10
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/utils/ArD$1;->rk:Ljava/util/regex/Pattern;
 
-    .line 12
     return-void
 .end method
 
@@ -49,21 +43,15 @@
 .method public accept(Ljava/io/File;Ljava/lang/String;)Z
     .locals 0
 
-    .line 1
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/utils/ArD$1;->rk:Ljava/util/regex/Pattern;
 
-    .line 3
     invoke-virtual {p1, p2}, Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
 
-    .line 6
     move-result-object p1
 
-    .line 7
     invoke-virtual {p1}, Ljava/util/regex/Matcher;->matches()Z
 
-    .line 10
     move-result p1
 
-    .line 11
     return p1
 .end method

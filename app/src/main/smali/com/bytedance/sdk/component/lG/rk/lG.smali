@@ -9,7 +9,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/bytedance/sdk/component/lG/rk/lG$rk;
+        Lcom/bytedance/sdk/component/lG/rk/lG$RKL1;
     }
 .end annotation
 

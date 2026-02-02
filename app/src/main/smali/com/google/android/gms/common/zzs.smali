@@ -18,7 +18,7 @@
 # instance fields
 .field private final a:Ljava/lang/String;
 
-.field private final b:Lcom/google/android/gms/common/m;
+.field private final b:Lcom/google/android/gms/common/MCGC;
 
 .field private final c:Z
 
@@ -29,9 +29,9 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lcom/google/android/gms/common/t;
+    new-instance v0, Lcom/google/android/gms/common/TCGC;
 
-    invoke-direct {v0}, Lcom/google/android/gms/common/t;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/common/TCGC;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/common/zzs;->CREATOR:Landroid/os/Parcelable$Creator;
 
@@ -41,7 +41,6 @@
 .method constructor <init>(Ljava/lang/String;Landroid/os/IBinder;ZZ)V
     .locals 2
 
-    .line 2
     const-string v0, "Could not unwrap certificate"
 
     const-string v1, "GoogleCertificatesQuery"
@@ -58,11 +57,11 @@
 
     :cond_0
     :try_start_0
-    invoke-static {p2}, Lrv2;->n0(Landroid/os/IBinder;)Lsk2;
+    invoke-static {p2}, Ldef/RV2;->n0(Landroid/os/IBinder;)Ldef/SK2;
 
     move-result-object p2
 
-    invoke-interface {p2}, Lsk2;->zzd()Ljl0;
+    invoke-interface {p2}, Ldef/SK2;->zzd()Ldef/JL0;
 
     move-result-object p2
     :try_end_0
@@ -74,9 +73,8 @@
 
     goto :goto_0
 
-    .line 3
     :cond_1
-    invoke-static {p2}, Li71;->o0(Ljl0;)Ljava/lang/Object;
+    invoke-static {p2}, Ldef/I71;->o0(Ldef/JL0;)Ljava/lang/Object;
 
     move-result-object p2
 
@@ -85,15 +83,12 @@
     :goto_0
     if-eqz p2, :cond_2
 
-    .line 4
-    new-instance p1, Lcom/google/android/gms/common/n;
+    new-instance p1, Lcom/google/android/gms/common/NCGC;
 
-    .line 5
-    invoke-direct {p1, p2}, Lcom/google/android/gms/common/n;-><init>([B)V
+    invoke-direct {p1, p2}, Lcom/google/android/gms/common/NCGC;-><init>([B)V
 
     goto :goto_1
 
-    .line 6
     :cond_2
     invoke-static {v1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
@@ -102,12 +97,10 @@
     :catch_0
     move-exception p2
 
-    .line 7
     invoke-static {v1, v0, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)I
 
-    .line 8
     :goto_1
-    iput-object p1, p0, Lcom/google/android/gms/common/zzs;->b:Lcom/google/android/gms/common/m;
+    iput-object p1, p0, Lcom/google/android/gms/common/zzs;->b:Lcom/google/android/gms/common/MCGC;
 
     iput-boolean p3, p0, Lcom/google/android/gms/common/zzs;->c:Z
 
@@ -116,15 +109,14 @@
     return-void
 .end method
 
-.method constructor <init>(Ljava/lang/String;Lcom/google/android/gms/common/m;ZZ)V
+.method constructor <init>(Ljava/lang/String;Lcom/google/android/gms/common/MCGC;ZZ)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/common/internal/safeparcel/AbstractSafeParcelable;-><init>()V
 
     iput-object p1, p0, Lcom/google/android/gms/common/zzs;->a:Ljava/lang/String;
 
-    iput-object p2, p0, Lcom/google/android/gms/common/zzs;->b:Lcom/google/android/gms/common/m;
+    iput-object p2, p0, Lcom/google/android/gms/common/zzs;->b:Lcom/google/android/gms/common/MCGC;
 
     iput-boolean p3, p0, Lcom/google/android/gms/common/zzs;->c:Z
 
@@ -138,97 +130,48 @@
 .method public final writeToParcel(Landroid/os/Parcel;I)V
     .locals 3
 
-    .line 1
     iget-object p2, p0, Lcom/google/android/gms/common/zzs;->a:Ljava/lang/String;
 
-    .line 2
-    .line 3
-    invoke-static {p1}, Lcm1;->a(Landroid/os/Parcel;)I
+    invoke-static {p1}, Ldef/CM1;->a(Landroid/os/Parcel;)I
 
-    .line 4
-    .line 5
-    .line 6
     move-result v0
 
-    .line 7
     const/4 v1, 0x1
 
-    .line 8
     const/4 v2, 0x0
 
-    .line 9
-    invoke-static {p1, v1, p2, v2}, Lcm1;->t(Landroid/os/Parcel;ILjava/lang/String;Z)V
+    invoke-static {p1, v1, p2, v2}, Ldef/CM1;->t(Landroid/os/Parcel;ILjava/lang/String;Z)V
 
-    .line 10
-    .line 11
-    .line 12
-    iget-object p2, p0, Lcom/google/android/gms/common/zzs;->b:Lcom/google/android/gms/common/m;
+    iget-object p2, p0, Lcom/google/android/gms/common/zzs;->b:Lcom/google/android/gms/common/MCGC;
 
-    .line 13
-    .line 14
     if-nez p2, :cond_0
 
-    .line 15
-    .line 16
     const-string p2, "GoogleCertificatesQuery"
 
-    .line 17
-    .line 18
     const-string v1, "certificate binder is null"
 
-    .line 19
-    .line 20
     invoke-static {p2, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 21
-    .line 22
-    .line 23
     const/4 p2, 0x0
 
-    .line 24
     :cond_0
     const/4 v1, 0x2
 
-    .line 25
-    invoke-static {p1, v1, p2, v2}, Lcm1;->k(Landroid/os/Parcel;ILandroid/os/IBinder;Z)V
+    invoke-static {p1, v1, p2, v2}, Ldef/CM1;->k(Landroid/os/Parcel;ILandroid/os/IBinder;Z)V
 
-    .line 26
-    .line 27
-    .line 28
     const/4 p2, 0x3
 
-    .line 29
     iget-boolean v1, p0, Lcom/google/android/gms/common/zzs;->c:Z
 
-    .line 30
-    .line 31
-    invoke-static {p1, p2, v1}, Lcm1;->c(Landroid/os/Parcel;IZ)V
+    invoke-static {p1, p2, v1}, Ldef/CM1;->c(Landroid/os/Parcel;IZ)V
 
-    .line 32
-    .line 33
-    .line 34
     const/4 p2, 0x4
 
-    .line 35
     iget-boolean v1, p0, Lcom/google/android/gms/common/zzs;->d:Z
 
-    .line 36
-    .line 37
-    invoke-static {p1, p2, v1}, Lcm1;->c(Landroid/os/Parcel;IZ)V
+    invoke-static {p1, p2, v1}, Ldef/CM1;->c(Landroid/os/Parcel;IZ)V
 
-    .line 38
-    .line 39
-    .line 40
-    invoke-static {p1, v0}, Lcm1;->b(Landroid/os/Parcel;I)V
+    invoke-static {p1, v0}, Ldef/CM1;->b(Landroid/os/Parcel;I)V
 
-    .line 41
-    .line 42
-    .line 43
     return-void
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
 .end method

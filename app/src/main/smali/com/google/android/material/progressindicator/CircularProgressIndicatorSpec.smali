@@ -1,5 +1,5 @@
 .class public final Lcom/google/android/material/progressindicator/CircularProgressIndicatorSpec;
-.super Lcom/google/android/material/progressindicator/b;
+.super Lcom/google/android/material/progressindicator/BPMC;
 .source "SourceFile"
 
 
@@ -15,7 +15,6 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
     .locals 1
 
-    .line 1
     sget v0, Lcom/google/android/material/R$attr;->j:I
 
     invoke-direct {p0, p1, p2, v0}, Lcom/google/android/material/progressindicator/CircularProgressIndicatorSpec;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
@@ -26,7 +25,6 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 1
 
-    .line 2
     sget v0, Lcom/google/android/material/progressindicator/CircularProgressIndicator;->D:I
 
     invoke-direct {p0, p1, p2, p3, v0}, Lcom/google/android/material/progressindicator/CircularProgressIndicatorSpec;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
@@ -37,10 +35,8 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
     .locals 9
 
-    .line 3
-    invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/android/material/progressindicator/b;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/google/android/material/progressindicator/BPMC;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
-    .line 4
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
@@ -51,7 +47,6 @@
 
     move-result v0
 
-    .line 5
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v1
@@ -62,7 +57,6 @@
 
     move-result v1
 
-    .line 6
     sget-object v4, Lcom/google/android/material/R$styleable;->z1:[I
 
     const/4 v8, 0x0
@@ -77,54 +71,44 @@
 
     move v6, p4
 
-    .line 7
-    invoke-static/range {v2 .. v7}, Lyz1;->h(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
+    invoke-static/range {v2 .. v7}, Ldef/YZ1;->h(Landroid/content/Context;Landroid/util/AttributeSet;[III[I)Landroid/content/res/TypedArray;
 
     move-result-object p2
 
-    .line 8
     sget p3, Lcom/google/android/material/R$styleable;->C1:I
 
-    .line 9
-    invoke-static {p1, p2, p3, v0}, Lmy0;->c(Landroid/content/Context;Landroid/content/res/TypedArray;II)I
+    invoke-static {p1, p2, p3, v0}, Ldef/MY0;->c(Landroid/content/Context;Landroid/content/res/TypedArray;II)I
 
     move-result p3
 
-    iget p4, p0, Lcom/google/android/material/progressindicator/b;->a:I
+    iget p4, p0, Lcom/google/android/material/progressindicator/BPMC;->a:I
 
     mul-int/lit8 p4, p4, 0x2
 
-    .line 10
     invoke-static {p3, p4}, Ljava/lang/Math;->max(II)I
 
     move-result p3
 
     iput p3, p0, Lcom/google/android/material/progressindicator/CircularProgressIndicatorSpec;->g:I
 
-    .line 11
     sget p3, Lcom/google/android/material/R$styleable;->B1:I
 
-    .line 12
-    invoke-static {p1, p2, p3, v1}, Lmy0;->c(Landroid/content/Context;Landroid/content/res/TypedArray;II)I
+    invoke-static {p1, p2, p3, v1}, Ldef/MY0;->c(Landroid/content/Context;Landroid/content/res/TypedArray;II)I
 
     move-result p1
 
     iput p1, p0, Lcom/google/android/material/progressindicator/CircularProgressIndicatorSpec;->h:I
 
-    .line 13
     sget p1, Lcom/google/android/material/R$styleable;->A1:I
 
-    .line 14
     invoke-virtual {p2, p1, v8}, Landroid/content/res/TypedArray;->getInt(II)I
 
     move-result p1
 
     iput p1, p0, Lcom/google/android/material/progressindicator/CircularProgressIndicatorSpec;->i:I
 
-    .line 15
     invoke-virtual {p2}, Landroid/content/res/TypedArray;->recycle()V
 
-    .line 16
     invoke-virtual {p0}, Lcom/google/android/material/progressindicator/CircularProgressIndicatorSpec;->e()V
 
     return-void
@@ -135,6 +119,5 @@
 .method e()V
     .locals 0
 
-    .line 1
     return-void
 .end method

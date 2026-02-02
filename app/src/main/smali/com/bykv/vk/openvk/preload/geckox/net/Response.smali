@@ -39,21 +39,15 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/bykv/vk/openvk/preload/geckox/net/Response;->headers:Ljava/util/Map;
 
-    .line 6
     iput-object p2, p0, Lcom/bykv/vk/openvk/preload/geckox/net/Response;->body:Ljava/lang/String;
 
-    .line 8
     iput p3, p0, Lcom/bykv/vk/openvk/preload/geckox/net/Response;->code:I
 
-    .line 10
     iput-object p4, p0, Lcom/bykv/vk/openvk/preload/geckox/net/Response;->msg:Ljava/lang/String;
 
-    .line 12
     return-void
 .end method

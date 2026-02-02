@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "18"
 .end annotation
 
 
@@ -25,13 +25,10 @@
 .method constructor <init>(Lcom/bytedance/sdk/openadsdk/core/model/KR;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/model/KR$18;->rk:Lcom/bytedance/sdk/openadsdk/core/model/KR;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method
 
@@ -40,105 +37,71 @@
 .method public onAnimationUpdate(Landroid/animation/ValueAnimator;)V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/KR$18;->rk:Lcom/bytedance/sdk/openadsdk/core/model/KR;
 
-    .line 3
     invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/core/model/KR;->NK(Lcom/bytedance/sdk/openadsdk/core/model/KR;)Landroid/widget/FrameLayout;
 
-    .line 6
     move-result-object v0
 
-    .line 7
     invoke-virtual {v0}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
-    .line 10
     move-result-object v0
 
-    .line 11
     check-cast v0, Landroid/widget/LinearLayout$LayoutParams;
 
-    .line 13
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
-    .line 16
     move-result-object v1
 
-    .line 17
     check-cast v1, Ljava/lang/Float;
 
-    .line 19
     invoke-virtual {v1}, Ljava/lang/Float;->floatValue()F
 
-    .line 22
     move-result v1
 
-    .line 23
     float-to-double v1, v1
 
-    .line 24
     const-wide/high16 v3, 0x3fd0000000000000L    # 0.25
 
-    .line 26
     mul-double/2addr v1, v3
 
-    .line 27
     double-to-float v1, v1
 
-    .line 28
     iput v1, v0, Landroid/widget/LinearLayout$LayoutParams;->weight:F
 
-    .line 30
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/model/KR$18;->rk:Lcom/bytedance/sdk/openadsdk/core/model/KR;
 
-    .line 32
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
-    .line 35
     move-result-object p1
 
-    .line 36
     check-cast p1, Ljava/lang/Float;
 
-    .line 38
     invoke-virtual {p1}, Ljava/lang/Float;->floatValue()F
 
-    .line 41
     move-result p1
 
-    .line 42
     float-to-double v2, p1
 
-    .line 43
     const-wide v4, 0x3fc999999999999aL    # 0.2
 
-    .line 48
     mul-double/2addr v2, v4
 
-    .line 49
     const-wide/high16 v4, 0x3ff0000000000000L    # 1.0
 
-    .line 51
     sub-double/2addr v4, v2
 
-    .line 52
     double-to-float p1, v4
 
-    .line 53
     invoke-virtual {v1, p1}, Lcom/bytedance/sdk/openadsdk/core/model/KR;->rk(F)V
 
-    .line 56
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/model/KR$18;->rk:Lcom/bytedance/sdk/openadsdk/core/model/KR;
 
-    .line 58
     invoke-static {p1}, Lcom/bytedance/sdk/openadsdk/core/model/KR;->NK(Lcom/bytedance/sdk/openadsdk/core/model/KR;)Landroid/widget/FrameLayout;
 
-    .line 61
     move-result-object p1
 
-    .line 62
     invoke-virtual {p1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 65
     return-void
 .end method

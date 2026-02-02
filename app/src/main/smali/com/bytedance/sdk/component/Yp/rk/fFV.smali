@@ -1,5 +1,5 @@
 .class public abstract Lcom/bytedance/sdk/component/Yp/rk/fFV;
-.super Lcom/bytedance/sdk/component/Yp/rk/rk;
+.super Lcom/bytedance/sdk/component/Yp/rk/RKRYC;
 .source "SourceFile"
 
 
@@ -7,10 +7,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
-    invoke-direct {p0}, Lcom/bytedance/sdk/component/Yp/rk/rk;-><init>()V
+    invoke-direct {p0}, Lcom/bytedance/sdk/component/Yp/rk/RKRYC;-><init>()V
 
-    .line 4
     return-void
 .end method
 
@@ -21,7 +19,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-virtual {p0, p1, p2, v0}, Lcom/bytedance/sdk/component/Yp/rk/fFV;->rk(Lcom/bytedance/sdk/component/Yp/fFV/aAs;Ljava/io/IOException;Lcom/bytedance/sdk/component/Yp/fFV;)V
 
     return-void

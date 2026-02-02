@@ -36,25 +36,18 @@
 .method constructor <init>(IIIII)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput p1, p0, Landroid/support/v4/media/session/MediaControllerCompat$PlaybackInfo;->mPlaybackType:I
 
-    .line 6
     iput p2, p0, Landroid/support/v4/media/session/MediaControllerCompat$PlaybackInfo;->mAudioStream:I
 
-    .line 8
     iput p3, p0, Landroid/support/v4/media/session/MediaControllerCompat$PlaybackInfo;->mVolumeControl:I
 
-    .line 10
     iput p4, p0, Landroid/support/v4/media/session/MediaControllerCompat$PlaybackInfo;->mMaxVolume:I
 
-    .line 12
     iput p5, p0, Landroid/support/v4/media/session/MediaControllerCompat$PlaybackInfo;->mCurrentVolume:I
 
-    .line 14
     return-void
 .end method
 
@@ -63,49 +56,39 @@
 .method public getAudioStream()I
     .locals 1
 
-    .line 1
     iget v0, p0, Landroid/support/v4/media/session/MediaControllerCompat$PlaybackInfo;->mAudioStream:I
 
-    .line 3
     return v0
 .end method
 
 .method public getCurrentVolume()I
     .locals 1
 
-    .line 1
     iget v0, p0, Landroid/support/v4/media/session/MediaControllerCompat$PlaybackInfo;->mCurrentVolume:I
 
-    .line 3
     return v0
 .end method
 
 .method public getMaxVolume()I
     .locals 1
 
-    .line 1
     iget v0, p0, Landroid/support/v4/media/session/MediaControllerCompat$PlaybackInfo;->mMaxVolume:I
 
-    .line 3
     return v0
 .end method
 
 .method public getPlaybackType()I
     .locals 1
 
-    .line 1
     iget v0, p0, Landroid/support/v4/media/session/MediaControllerCompat$PlaybackInfo;->mPlaybackType:I
 
-    .line 3
     return v0
 .end method
 
 .method public getVolumeControl()I
     .locals 1
 
-    .line 1
     iget v0, p0, Landroid/support/v4/media/session/MediaControllerCompat$PlaybackInfo;->mVolumeControl:I
 
-    .line 3
     return v0
 .end method

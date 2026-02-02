@@ -17,7 +17,6 @@
 .method public static rk(Lcom/bytedance/sdk/openadsdk/api/PAGLoadListener;)Lcom/bytedance/sdk/openadsdk/api/factory/ISDKTypeFactory;
     .locals 3
 
-    .line 2
     sget-boolean v0, Lcom/bytedance/sdk/openadsdk/common/rQf;->rk:Z
 
     const/4 v1, 0x0
@@ -28,7 +27,6 @@
 
     const/4 v0, -0x1
 
-    .line 3
     const-string v2, "SDK disable"
 
     invoke-interface {p0, v0, v2}, Lcom/bytedance/sdk/openadsdk/api/PAGLoadListener;->onError(ILjava/lang/String;)V
@@ -36,7 +34,6 @@
     :cond_0
     return-object v1
 
-    .line 4
     :cond_1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/api/factory/SDKTypeConfig;->getSdkTypeFactory()Lcom/bytedance/sdk/openadsdk/api/factory/ISDKTypeFactory;
 
@@ -48,7 +45,6 @@
 
     const/16 v0, 0x1388
 
-    .line 5
     const-string v2, "SDK load ad factory should not be null"
 
     invoke-interface {p0, v0, v2}, Lcom/bytedance/sdk/openadsdk/api/PAGLoadListener;->onError(ILjava/lang/String;)V
@@ -63,7 +59,6 @@
 .method public static rk(Z)V
     .locals 0
 
-    .line 1
     sput-boolean p0, Lcom/bytedance/sdk/openadsdk/common/rQf;->rk:Z
 
     return-void
@@ -72,7 +67,6 @@
 .method public static rk()Z
     .locals 1
 
-    .line 6
     sget-boolean v0, Lcom/bytedance/sdk/openadsdk/common/rQf;->rk:Z
 
     return v0

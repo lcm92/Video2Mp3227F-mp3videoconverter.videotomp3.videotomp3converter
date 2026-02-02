@@ -11,93 +11,65 @@
 .method private static DK(Landroid/content/Context;)F
     .locals 4
 
-    .line 1
     :try_start_0
     sget-boolean v0, Lcom/bytedance/sdk/component/adexpress/DK/Yp;->rk:Z
 
-    .line 3
     if-eqz v0, :cond_0
 
-    .line 5
     invoke-virtual {p0}, Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
 
-    .line 8
     move-result-object v0
 
-    .line 9
     const-string v1, "android.util.DisplayMetrics"
 
-    .line 11
     invoke-virtual {v0, v1}, Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
 
-    .line 14
     move-result-object v0
 
-    .line 15
     const-string v1, "getDeviceDensity"
 
-    .line 17
     const/4 v2, 0x0
 
-    .line 18
     invoke-virtual {v0, v1, v2}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
-    .line 21
     move-result-object v1
 
-    .line 22
     const/4 v3, 0x1
 
-    .line 23
     invoke-virtual {v1, v3}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
-    .line 26
     invoke-virtual {v1, v0, v2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 29
     move-result-object v0
 
-    .line 30
     check-cast v0, Ljava/lang/Integer;
 
-    .line 32
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
-    .line 35
     move-result p0
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 36
     int-to-float p0, p0
 
-    .line 37
     const/high16 v0, 0x43200000    # 160.0f
 
-    .line 39
     div-float/2addr p0, v0
 
-    .line 40
     return p0
 
-    .line 41
     :catch_0
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
-    .line 44
     move-result-object p0
 
-    .line 45
     invoke-virtual {p0}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
-    .line 48
     move-result-object p0
 
-    .line 49
     iget p0, p0, Landroid/util/DisplayMetrics;->density:F
 
-    .line 51
     return p0
 .end method
 
@@ -106,12 +78,11 @@
 
     if-nez p0, :cond_0
 
-    .line 1
-    invoke-static {}, Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;->rk()Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;
+    invoke-static {}, Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;->rk()Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;
 
     move-result-object p0
 
-    invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;->aAs()Lcom/bytedance/sdk/component/adexpress/rk/rk/aAs;
+    invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;->aAs()Lcom/bytedance/sdk/component/adexpress/rk/rk/aAs;
 
     move-result-object p0
 
@@ -119,7 +90,6 @@
 
     move-result-object p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/bytedance/sdk/component/adexpress/DK/Yp;->DK(Landroid/content/Context;)F
 
@@ -133,7 +103,6 @@
 .method public static aAs(Landroid/content/Context;)Ljava/lang/String;
     .locals 2
 
-    .line 3
     :try_start_0
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -141,35 +110,31 @@
 
     if-lt v0, v1, :cond_0
 
-    .line 4
     invoke-static {p0}, Lcom/bytedance/sdk/component/utils/Kl;->fFV(Landroid/content/Context;)Landroid/content/res/Resources;
 
     move-result-object p0
 
-    .line 5
     invoke-virtual {p0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
     move-result-object p0
 
-    invoke-static {p0}, Lz7;->a(Landroid/content/res/Configuration;)Landroid/os/LocaleList;
+    invoke-static {p0}, Ldef/Z7;->a(Landroid/content/res/Configuration;)Landroid/os/LocaleList;
 
     move-result-object p0
 
     const/4 v0, 0x0
 
-    invoke-static {p0, v0}, Lju0;->a(Landroid/os/LocaleList;I)Ljava/util/Locale;
+    invoke-static {p0, v0}, Ldef/JU0;->a(Landroid/os/LocaleList;I)Ljava/util/Locale;
 
     move-result-object p0
 
     goto :goto_0
 
-    .line 6
     :cond_0
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object p0
 
-    .line 7
     :goto_0
     invoke-virtual {p0}, Ljava/util/Locale;->getLanguage()Ljava/lang/String;
 
@@ -177,7 +142,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     :try_start_1
     invoke-virtual {p0}, Ljava/util/Locale;->getCountry()Ljava/lang/String;
 
@@ -191,18 +155,15 @@
 
     if-eqz p0, :cond_1
 
-    .line 9
     const-string v0, "zhHant"
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
     goto :goto_1
 
-    .line 10
     :catchall_0
     const-string v0, ""
 
-    .line 11
     :catchall_1
     :cond_1
     :goto_1
@@ -218,12 +179,11 @@
 
     if-nez p0, :cond_0
 
-    .line 3
-    invoke-static {}, Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;->rk()Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;
+    invoke-static {}, Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;->rk()Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;
 
     move-result-object p0
 
-    invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;->aAs()Lcom/bytedance/sdk/component/adexpress/rk/rk/aAs;
+    invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;->aAs()Lcom/bytedance/sdk/component/adexpress/rk/rk/aAs;
 
     move-result-object p0
 
@@ -231,7 +191,6 @@
 
     move-result-object p0
 
-    .line 4
     :cond_0
     const-string v0, "window"
 
@@ -241,20 +200,16 @@
 
     check-cast p0, Landroid/view/WindowManager;
 
-    .line 5
     invoke-interface {p0}, Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
 
     move-result-object p0
 
-    .line 6
     new-instance v0, Landroid/util/DisplayMetrics;
 
     invoke-direct {v0}, Landroid/util/DisplayMetrics;-><init>()V
 
-    .line 7
     invoke-virtual {p0, v0}, Landroid/view/Display;->getRealMetrics(Landroid/util/DisplayMetrics;)V
 
-    .line 8
     iget p0, v0, Landroid/util/DisplayMetrics;->heightPixels:I
 
     return p0
@@ -265,12 +220,11 @@
 
     if-nez p0, :cond_0
 
-    .line 1
-    invoke-static {}, Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;->rk()Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;
+    invoke-static {}, Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;->rk()Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;
 
     move-result-object p0
 
-    invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;->aAs()Lcom/bytedance/sdk/component/adexpress/rk/rk/aAs;
+    invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;->aAs()Lcom/bytedance/sdk/component/adexpress/rk/rk/aAs;
 
     move-result-object p0
 
@@ -278,7 +232,6 @@
 
     move-result-object p0
 
-    .line 2
     :cond_0
     invoke-static {p0}, Lcom/bytedance/sdk/component/adexpress/DK/Yp;->DK(Landroid/content/Context;)F
 
@@ -309,12 +262,11 @@
 
     if-nez p0, :cond_0
 
-    .line 2
-    invoke-static {}, Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;->rk()Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;
+    invoke-static {}, Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;->rk()Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;
 
     move-result-object p0
 
-    invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;->aAs()Lcom/bytedance/sdk/component/adexpress/rk/rk/aAs;
+    invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;->aAs()Lcom/bytedance/sdk/component/adexpress/rk/rk/aAs;
 
     move-result-object p0
 
@@ -322,7 +274,6 @@
 
     move-result-object p0
 
-    .line 3
     :cond_0
     invoke-static {p0}, Lcom/bytedance/sdk/component/adexpress/DK/Yp;->DK(Landroid/content/Context;)F
 
@@ -340,7 +291,6 @@
 .method public static rk(FFFF)I
     .locals 2
 
-    .line 1
     const/high16 v0, 0x437f0000    # 255.0f
 
     mul-float/2addr p0, v0
@@ -389,12 +339,11 @@
 
     if-nez p0, :cond_0
 
-    .line 4
-    invoke-static {}, Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;->rk()Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;
+    invoke-static {}, Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;->rk()Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;
 
     move-result-object p0
 
-    invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;->aAs()Lcom/bytedance/sdk/component/adexpress/rk/rk/aAs;
+    invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;->aAs()Lcom/bytedance/sdk/component/adexpress/rk/rk/aAs;
 
     move-result-object p0
 
@@ -402,7 +351,6 @@
 
     move-result-object p0
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -412,7 +360,6 @@
 
     move-result-object p0
 
-    .line 6
     iget p0, p0, Landroid/util/DisplayMetrics;->widthPixels:I
 
     return p0
@@ -421,7 +368,6 @@
 .method private static rk(Ljava/lang/String;)Ljava/lang/String;
     .locals 2
 
-    .line 7
     invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
 
     const/4 v0, -0x1
@@ -517,31 +463,26 @@
 
     goto :goto_1
 
-    .line 8
     :pswitch_0
     const-string p0, "cn"
 
     goto :goto_1
 
-    .line 9
     :pswitch_1
     const-string p0, "my"
 
     goto :goto_1
 
-    .line 10
     :pswitch_2
     const-string p0, "korea"
 
     goto :goto_1
 
-    .line 11
     :pswitch_3
     const-string p0, "japan"
 
     goto :goto_1
 
-    .line 12
     :pswitch_4
     const-string p0, "aa"
 

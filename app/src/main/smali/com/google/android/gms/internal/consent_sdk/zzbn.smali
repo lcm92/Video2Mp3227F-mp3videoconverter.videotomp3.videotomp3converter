@@ -3,82 +3,32 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lr62$a;
+.implements Ldef/R62$AR1;
 
 
 # instance fields
-.field public final synthetic zza:Lyp$a;
+.field public final synthetic zza:Ldef/YP$AY1;
 
 
 # direct methods
-.method public synthetic constructor <init>(Lyp$a;)V
+.method public synthetic constructor <init>(Ldef/YP$AY1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
-    .line 3
-    .line 4
-    iput-object p1, p0, Lcom/google/android/gms/internal/consent_sdk/zzbn;->zza:Lyp$a;
+    iput-object p1, p0, Lcom/google/android/gms/internal/consent_sdk/zzbn;->zza:Ldef/YP$AY1;
 
-    .line 5
-    .line 6
     return-void
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method
 
 
 # virtual methods
-.method public final onConsentFormLoadFailure(Ltd0;)V
+.method public final onConsentFormLoadFailure(Ldef/TD0;)V
     .locals 1
 
-    .line 1
-    iget-object v0, p0, Lcom/google/android/gms/internal/consent_sdk/zzbn;->zza:Lyp$a;
+    iget-object v0, p0, Lcom/google/android/gms/internal/consent_sdk/zzbn;->zza:Ldef/YP$AY1;
 
-    .line 2
-    .line 3
-    invoke-interface {v0, p1}, Lyp$a;->a(Ltd0;)V
+    invoke-interface {v0, p1}, Ldef/YP$AY1;->a(Ldef/TD0;)V
 
-    .line 4
-    .line 5
-    .line 6
     return-void
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method

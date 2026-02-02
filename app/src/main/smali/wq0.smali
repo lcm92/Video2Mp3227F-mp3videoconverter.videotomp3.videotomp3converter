@@ -1,7 +1,0 @@
-.class public interface abstract Lwq0;
-.super Ljava/lang/Object;
-.source "SourceFile"
-
-# interfaces
-.implements Ltq0;
-.implements Llf0;

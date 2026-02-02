@@ -11,9 +11,9 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lcom/google/android/gms/ads/rewarded/a;
+    new-instance v0, Lcom/google/android/gms/ads/rewarded/ARAC;
 
-    invoke-direct {v0}, Lcom/google/android/gms/ads/rewarded/a;-><init>()V
+    invoke-direct {v0}, Lcom/google/android/gms/ads/rewarded/ARAC;-><init>()V
 
     sput-object v0, Lcom/google/android/gms/ads/rewarded/RewardItem;->DEFAULT_REWARD:Lcom/google/android/gms/ads/rewarded/RewardItem;
 

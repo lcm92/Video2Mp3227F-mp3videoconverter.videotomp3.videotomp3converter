@@ -19,40 +19,29 @@
 
 
 # direct methods
-.method public constructor <init>(Lvh2;)V
+.method public constructor <init>(Ldef/VH2;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
-    invoke-virtual {p1}, Lvh2;->c()I
+    invoke-virtual {p1}, Ldef/VH2;->c()I
 
-    .line 7
     move-result v0
 
-    .line 8
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/Pa;->aAs:I
 
-    .line 10
-    invoke-virtual {p1}, Lvh2;->b()I
+    invoke-virtual {p1}, Ldef/VH2;->b()I
 
-    .line 13
     move-result v0
 
-    .line 14
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/Pa;->DK:I
 
-    .line 16
-    invoke-virtual {p1}, Lvh2;->a()Ljava/lang/String;
+    invoke-virtual {p1}, Ldef/VH2;->a()Ljava/lang/String;
 
-    .line 19
     move-result-object p1
 
-    .line 20
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/Pa;->rQf:Ljava/lang/String;
 
-    .line 22
     return-void
 .end method
 
@@ -61,17 +50,14 @@
 .method public fFV(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/Pa;->fFV:J
 
-    .line 3
     return-void
 .end method
 
 .method public rk(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/Pa;->rk:J
 
     return-void
@@ -84,7 +70,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     :try_start_0
     const-string v0, "buffers_time"
@@ -93,28 +78,24 @@
 
     invoke-virtual {p1, v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
 
-    .line 3
     const-string v0, "total_duration"
 
     iget-wide v1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/Pa;->fFV:J
 
     invoke-virtual {p1, v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
 
-    .line 4
     const-string v0, "error_code"
 
     iget v1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/Pa;->aAs:I
 
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 5
     const-string v0, "extra_error_code"
 
     iget v1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/Pa;->DK:I
 
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 6
     const-string v0, "error_message"
 
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/Pa;->rQf:Ljava/lang/String;
@@ -128,7 +109,6 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     const-string v0, "PlayErrorModel"
 
     invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;

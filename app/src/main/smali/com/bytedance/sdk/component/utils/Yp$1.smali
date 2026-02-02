@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x8
-    name = null
+    name = "1"
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
@@ -30,9 +30,7 @@
 .method public bridge synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     const/4 p1, 0x0
 
-    .line 2
     throw p1
 .end method

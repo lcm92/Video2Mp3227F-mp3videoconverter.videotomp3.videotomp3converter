@@ -7,7 +7,6 @@
 .method private static rk(DLjava/lang/Number;)Z
     .locals 5
 
-    .line 28
     instance-of v0, p2, Ljava/lang/Integer;
 
     const/4 v1, 0x0
@@ -26,13 +25,11 @@
 
     goto :goto_0
 
-    .line 29
     :cond_0
     instance-of v0, p2, Ljava/lang/Long;
 
     if-eqz v0, :cond_2
 
-    .line 30
     invoke-virtual {p2}, Ljava/lang/Number;->longValue()J
 
     move-result-wide v3
@@ -48,13 +45,11 @@
     :cond_1
     return v1
 
-    .line 31
     :cond_2
     instance-of v0, p2, Ljava/lang/Float;
 
     if-eqz v0, :cond_4
 
-    .line 32
     invoke-virtual {p2}, Ljava/lang/Number;->floatValue()F
 
     move-result p2
@@ -70,13 +65,11 @@
     :cond_3
     return v1
 
-    .line 33
     :cond_4
     instance-of v0, p2, Ljava/lang/Double;
 
     if-eqz v0, :cond_6
 
-    .line 34
     invoke-virtual {p2}, Ljava/lang/Number;->doubleValue()D
 
     move-result-wide v3
@@ -90,7 +83,6 @@
     :cond_5
     return v1
 
-    .line 35
     :cond_6
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -120,7 +112,6 @@
 
     throw p0
 
-    .line 36
     :cond_7
     :goto_0
     invoke-virtual {p2}, Ljava/lang/Number;->intValue()I
@@ -142,7 +133,6 @@
 .method private static rk(FLjava/lang/Number;)Z
     .locals 5
 
-    .line 19
     instance-of v0, p1, Ljava/lang/Integer;
 
     const/4 v1, 0x0
@@ -161,13 +151,11 @@
 
     goto :goto_0
 
-    .line 20
     :cond_0
     instance-of v0, p1, Ljava/lang/Long;
 
     if-eqz v0, :cond_2
 
-    .line 21
     invoke-virtual {p1}, Ljava/lang/Number;->longValue()J
 
     move-result-wide v3
@@ -183,13 +171,11 @@
     :cond_1
     return v1
 
-    .line 22
     :cond_2
     instance-of v0, p1, Ljava/lang/Float;
 
     if-eqz v0, :cond_4
 
-    .line 23
     invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
 
     move-result p1
@@ -203,7 +189,6 @@
     :cond_3
     return v1
 
-    .line 24
     :cond_4
     instance-of v0, p1, Ljava/lang/Double;
 
@@ -211,7 +196,6 @@
 
     float-to-double v3, p0
 
-    .line 25
     invoke-virtual {p1}, Ljava/lang/Number;->doubleValue()D
 
     move-result-wide p0
@@ -225,7 +209,6 @@
     :cond_5
     return v1
 
-    .line 26
     :cond_6
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -255,7 +238,6 @@
 
     throw p0
 
-    .line 27
     :cond_7
     :goto_0
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
@@ -277,7 +259,6 @@
 .method private static rk(ILjava/lang/Number;)Z
     .locals 5
 
-    .line 1
     instance-of v0, p1, Ljava/lang/Integer;
 
     const/4 v1, 0x0
@@ -296,7 +277,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     instance-of v0, p1, Ljava/lang/Long;
 
@@ -304,7 +284,6 @@
 
     int-to-long v3, p0
 
-    .line 3
     invoke-virtual {p1}, Ljava/lang/Number;->longValue()J
 
     move-result-wide p0
@@ -318,7 +297,6 @@
     :cond_1
     return v1
 
-    .line 4
     :cond_2
     instance-of v0, p1, Ljava/lang/Float;
 
@@ -326,7 +304,6 @@
 
     int-to-float p0, p0
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/Number;->floatValue()F
 
     move-result p1
@@ -340,7 +317,6 @@
     :cond_3
     return v1
 
-    .line 6
     :cond_4
     instance-of v0, p1, Ljava/lang/Double;
 
@@ -348,7 +324,6 @@
 
     int-to-double v3, p0
 
-    .line 7
     invoke-virtual {p1}, Ljava/lang/Number;->doubleValue()D
 
     move-result-wide p0
@@ -362,7 +337,6 @@
     :cond_5
     return v1
 
-    .line 8
     :cond_6
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -392,7 +366,6 @@
 
     throw p0
 
-    .line 9
     :cond_7
     :goto_0
     invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
@@ -410,7 +383,6 @@
 .method private static rk(JLjava/lang/Number;)Z
     .locals 5
 
-    .line 10
     instance-of v0, p2, Ljava/lang/Integer;
 
     const/4 v1, 0x0
@@ -429,13 +401,11 @@
 
     goto :goto_0
 
-    .line 11
     :cond_0
     instance-of v0, p2, Ljava/lang/Long;
 
     if-eqz v0, :cond_2
 
-    .line 12
     invoke-virtual {p2}, Ljava/lang/Number;->longValue()J
 
     move-result-wide v3
@@ -449,7 +419,6 @@
     :cond_1
     return v1
 
-    .line 13
     :cond_2
     instance-of v0, p2, Ljava/lang/Float;
 
@@ -457,7 +426,6 @@
 
     long-to-float p0, p0
 
-    .line 14
     invoke-virtual {p2}, Ljava/lang/Number;->floatValue()F
 
     move-result p1
@@ -471,7 +439,6 @@
     :cond_3
     return v1
 
-    .line 15
     :cond_4
     instance-of v0, p2, Ljava/lang/Double;
 
@@ -479,7 +446,6 @@
 
     long-to-double p0, p0
 
-    .line 16
     invoke-virtual {p2}, Ljava/lang/Number;->doubleValue()D
 
     move-result-wide v3
@@ -493,7 +459,6 @@
     :cond_5
     return v1
 
-    .line 17
     :cond_6
     new-instance p0, Ljava/lang/UnsupportedOperationException;
 
@@ -523,7 +488,6 @@
 
     throw p0
 
-    .line 18
     :cond_7
     :goto_0
     invoke-virtual {p2}, Ljava/lang/Number;->intValue()I
@@ -545,7 +509,6 @@
 .method public static rk(Ljava/lang/Number;Ljava/lang/Number;)Z
     .locals 2
 
-    .line 37
     instance-of v0, p0, Ljava/lang/Integer;
 
     if-nez v0, :cond_4
@@ -560,61 +523,51 @@
 
     goto :goto_0
 
-    .line 38
     :cond_0
     instance-of v0, p0, Ljava/lang/Long;
 
     if-eqz v0, :cond_1
 
-    .line 39
     invoke-virtual {p0}, Ljava/lang/Number;->longValue()J
 
     move-result-wide v0
 
-    .line 40
     invoke-static {v0, v1, p1}, Lcom/bytedance/adsdk/rk/fFV/rQf/rk/fFV;->rk(JLjava/lang/Number;)Z
 
     move-result p0
 
     return p0
 
-    .line 41
     :cond_1
     instance-of v0, p0, Ljava/lang/Float;
 
     if-eqz v0, :cond_2
 
-    .line 42
     invoke-virtual {p0}, Ljava/lang/Number;->floatValue()F
 
     move-result p0
 
-    .line 43
     invoke-static {p0, p1}, Lcom/bytedance/adsdk/rk/fFV/rQf/rk/fFV;->rk(FLjava/lang/Number;)Z
 
     move-result p0
 
     return p0
 
-    .line 44
     :cond_2
     instance-of v0, p0, Ljava/lang/Double;
 
     if-eqz v0, :cond_3
 
-    .line 45
     invoke-virtual {p0}, Ljava/lang/Number;->doubleValue()D
 
     move-result-wide v0
 
-    .line 46
     invoke-static {v0, v1, p1}, Lcom/bytedance/adsdk/rk/fFV/rQf/rk/fFV;->rk(DLjava/lang/Number;)Z
 
     move-result p0
 
     return p0
 
-    .line 47
     :cond_3
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
@@ -644,14 +597,12 @@
 
     throw p1
 
-    .line 48
     :cond_4
     :goto_0
     invoke-virtual {p0}, Ljava/lang/Number;->intValue()I
 
     move-result p0
 
-    .line 49
     invoke-static {p0, p1}, Lcom/bytedance/adsdk/rk/fFV/rQf/rk/fFV;->rk(ILjava/lang/Number;)Z
 
     move-result p0

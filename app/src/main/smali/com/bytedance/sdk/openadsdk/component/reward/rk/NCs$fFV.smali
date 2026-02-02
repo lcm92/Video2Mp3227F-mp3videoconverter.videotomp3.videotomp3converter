@@ -15,7 +15,7 @@
 
 
 # instance fields
-.field private rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$rk;
+.field private rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$RKN1;
 
 
 # direct methods
@@ -32,8 +32,7 @@
 .method public rk(Landroid/app/Activity;)V
     .locals 1
 
-    .line 1
-    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$fFV;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$rk;
+    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$fFV;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$RKN1;
 
     if-eqz v0, :cond_2
 
@@ -41,7 +40,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
@@ -51,21 +49,18 @@
 
     return-void
 
-    .line 3
     :cond_1
     invoke-virtual {p1}, Landroid/view/Window;->getDecorView()Landroid/view/View;
 
     move-result-object p1
 
-    .line 4
-    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$fFV;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$rk;
+    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$fFV;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$RKN1;
 
     invoke-virtual {p1, v0}, Landroid/view/View;->removeOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
 
     const/4 p1, 0x0
 
-    .line 5
-    iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$fFV;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$rk;
+    iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$fFV;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$RKN1;
 
     :cond_2
     :goto_0
@@ -75,14 +70,12 @@
 .method public rk(Landroid/app/Activity;IF)V
     .locals 9
 
-    .line 6
-    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$fFV;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$rk;
+    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$fFV;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$RKN1;
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 7
     :cond_0
     :try_start_0
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->DK()Lcom/bytedance/sdk/openadsdk/core/settings/lG;
@@ -107,7 +100,6 @@
 
     goto :goto_0
 
-    .line 8
     :goto_1
     invoke-static {p1}, Lcom/bytedance/sdk/openadsdk/utils/TB;->aAs(Landroid/app/Activity;)Z
 
@@ -117,7 +109,6 @@
 
     if-eqz v7, :cond_3
 
-    .line 9
     :cond_2
     new-instance v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$fFV$1;
 
@@ -133,9 +124,8 @@
 
     invoke-direct/range {v2 .. v8}, Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$fFV$1;-><init>(Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$fFV;ILandroid/app/Activity;ZZF)V
 
-    iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$fFV;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$rk;
+    iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$fFV;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$RKN1;
 
-    .line 10
     invoke-virtual {p1}, Landroid/app/Activity;->getWindow()Landroid/view/Window;
 
     move-result-object p1
@@ -144,7 +134,7 @@
 
     move-result-object p1
 
-    iget-object p2, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$fFV;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$rk;
+    iget-object p2, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$fFV;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/NCs$RKN1;
 
     invoke-virtual {p1, p2}, Landroid/view/View;->addOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
     :try_end_0

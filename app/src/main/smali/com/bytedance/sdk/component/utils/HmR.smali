@@ -13,7 +13,6 @@
 
     const/4 v0, 0x0
 
-    .line 10
     :try_start_0
     const-string v1, "android.app.ActivityThread"
 
@@ -33,27 +32,22 @@
 
     new-array v3, v3, [Ljava/lang/Class;
 
-    .line 11
     invoke-virtual {v1, v2, v3}, Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1
 
     const/4 v2, 0x1
 
-    .line 12
     invoke-virtual {v1, v2}, Ljava/lang/reflect/AccessibleObject;->setAccessible(Z)V
 
-    .line 13
     invoke-virtual {v1, v0, v0}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 14
     instance-of v2, v1, Ljava/lang/String;
 
     if-eqz v2, :cond_0
 
-    .line 15
     check-cast v1, Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -68,7 +62,6 @@
 .method public static fFV(Landroid/content/Context;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     sget-object p0, Lcom/bytedance/sdk/component/utils/HmR;->rk:Ljava/lang/String;
 
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -77,18 +70,15 @@
 
     if-nez p0, :cond_0
 
-    .line 2
     sget-object p0, Lcom/bytedance/sdk/component/utils/HmR;->rk:Ljava/lang/String;
 
     return-object p0
 
-    .line 3
     :cond_0
     invoke-static {}, Lcom/bytedance/sdk/component/utils/HmR;->rk()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 4
     sput-object p0, Lcom/bytedance/sdk/component/utils/HmR;->rk:Ljava/lang/String;
 
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -97,18 +87,15 @@
 
     if-nez p0, :cond_1
 
-    .line 5
     sget-object p0, Lcom/bytedance/sdk/component/utils/HmR;->rk:Ljava/lang/String;
 
     return-object p0
 
-    .line 6
     :cond_1
     invoke-static {}, Lcom/bytedance/sdk/component/utils/HmR;->fFV()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 7
     sput-object p0, Lcom/bytedance/sdk/component/utils/HmR;->rk:Ljava/lang/String;
 
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -117,12 +104,10 @@
 
     if-nez p0, :cond_2
 
-    .line 8
     sget-object p0, Lcom/bytedance/sdk/component/utils/HmR;->rk:Ljava/lang/String;
 
     return-object p0
 
-    .line 9
     :cond_2
     sget-object p0, Lcom/bytedance/sdk/component/utils/HmR;->rk:Ljava/lang/String;
 
@@ -132,16 +117,14 @@
 .method private static rk()Ljava/lang/String;
     .locals 2
 
-    .line 5
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
     const/16 v1, 0x1c
 
     if-lt v0, v1, :cond_0
 
-    .line 6
     :try_start_0
-    invoke-static {}, Lie1;->a()Ljava/lang/String;
+    invoke-static {}, Ldef/IE1;->a()Ljava/lang/String;
 
     move-result-object v0
     :try_end_0
@@ -161,7 +144,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 1
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v0
@@ -170,7 +152,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
@@ -180,12 +161,10 @@
 
     move-result-object v0
 
-    .line 3
     invoke-static {p0}, Lcom/bytedance/sdk/component/utils/HmR;->fFV(Landroid/content/Context;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 4
     invoke-static {v0, p0}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
 
     move-result p0

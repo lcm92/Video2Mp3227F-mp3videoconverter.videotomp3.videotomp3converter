@@ -21,7 +21,6 @@
 
     return v0
 
-    .line 3
     :cond_0
     :try_start_0
     invoke-interface {p0}, Landroid/database/Cursor;->close()V
@@ -33,7 +32,6 @@
     :catch_0
     move-exception p0
 
-    .line 4
     const-string v0, "gecko-debug-tag"
 
     const-string v1, "close:"
@@ -54,7 +52,6 @@
 
     return v0
 
-    .line 5
     :cond_0
     :try_start_0
     invoke-virtual {p0}, Landroid/database/sqlite/SQLiteClosable;->close()V
@@ -66,7 +63,6 @@
     :catch_0
     move-exception p0
 
-    .line 6
     const-string v0, "gecko-debug-tag"
 
     const-string v1, "close:"
@@ -87,7 +83,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     :try_start_0
     invoke-interface {p0}, Ljava/io/Closeable;->close()V
@@ -99,7 +94,6 @@
     :catch_0
     move-exception p0
 
-    .line 2
     const-string v0, "gecko-debug-tag"
 
     const-string v1, "close:"

@@ -1,0 +1,52 @@
+.class Ldef/Z50$AZ1;
+.super Ljava/lang/ThreadLocal;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Ldef/Z50;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = "AZ1"
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Ldef/Z50;
+
+
+# direct methods
+.method constructor <init>(Ldef/Z50;)V
+    .locals 0
+
+    iput-object p1, p0, Ldef/Z50$AZ1;->a:Ldef/Z50;
+
+    invoke-direct {p0}, Ljava/lang/ThreadLocal;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method protected a()Ldef/Z50$CZ1;
+    .locals 1
+
+    new-instance v0, Ldef/Z50$CZ1;
+
+    invoke-direct {v0}, Ldef/Z50$CZ1;-><init>()V
+
+    return-object v0
+.end method
+
+.method protected bridge synthetic initialValue()Ljava/lang/Object;
+    .locals 1
+
+    invoke-virtual {p0}, Ldef/Z50$AZ1;->a()Ldef/Z50$CZ1;
+
+    move-result-object v0
+
+    return-object v0
+.end method

@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "2"
 .end annotation
 
 
@@ -25,13 +25,10 @@
 .method constructor <init>(Lcom/bytedance/sdk/openadsdk/core/pw/KIc;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/pw/KIc$2;->rk:Lcom/bytedance/sdk/openadsdk/core/pw/KIc;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method
 
@@ -40,66 +37,45 @@
 .method public rk(ZJJJZ)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/pw/KIc$2;->rk:Lcom/bytedance/sdk/openadsdk/core/pw/KIc;
 
-    .line 3
-    invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/core/pw/KIc;->rk(Lcom/bytedance/sdk/openadsdk/core/pw/KIc;)Lcom/bytedance/sdk/openadsdk/multipro/fFV/rk;
+    invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/core/pw/KIc;->rk(Lcom/bytedance/sdk/openadsdk/core/pw/KIc;)Lcom/bytedance/sdk/openadsdk/multipro/fFV/RKFMC;
 
-    .line 6
     move-result-object v0
 
-    .line 7
-    iput-boolean p1, v0, Lcom/bytedance/sdk/openadsdk/multipro/fFV/rk;->rk:Z
+    iput-boolean p1, v0, Lcom/bytedance/sdk/openadsdk/multipro/fFV/RKFMC;->rk:Z
 
-    .line 9
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/pw/KIc$2;->rk:Lcom/bytedance/sdk/openadsdk/core/pw/KIc;
 
-    .line 11
-    invoke-static {p1}, Lcom/bytedance/sdk/openadsdk/core/pw/KIc;->rk(Lcom/bytedance/sdk/openadsdk/core/pw/KIc;)Lcom/bytedance/sdk/openadsdk/multipro/fFV/rk;
+    invoke-static {p1}, Lcom/bytedance/sdk/openadsdk/core/pw/KIc;->rk(Lcom/bytedance/sdk/openadsdk/core/pw/KIc;)Lcom/bytedance/sdk/openadsdk/multipro/fFV/RKFMC;
 
-    .line 14
     move-result-object p1
 
-    .line 15
-    iput-wide p2, p1, Lcom/bytedance/sdk/openadsdk/multipro/fFV/rk;->rQf:J
+    iput-wide p2, p1, Lcom/bytedance/sdk/openadsdk/multipro/fFV/RKFMC;->rQf:J
 
-    .line 17
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/pw/KIc$2;->rk:Lcom/bytedance/sdk/openadsdk/core/pw/KIc;
 
-    .line 19
-    invoke-static {p1}, Lcom/bytedance/sdk/openadsdk/core/pw/KIc;->rk(Lcom/bytedance/sdk/openadsdk/core/pw/KIc;)Lcom/bytedance/sdk/openadsdk/multipro/fFV/rk;
+    invoke-static {p1}, Lcom/bytedance/sdk/openadsdk/core/pw/KIc;->rk(Lcom/bytedance/sdk/openadsdk/core/pw/KIc;)Lcom/bytedance/sdk/openadsdk/multipro/fFV/RKFMC;
 
-    .line 22
     move-result-object p1
 
-    .line 23
-    iput-wide p4, p1, Lcom/bytedance/sdk/openadsdk/multipro/fFV/rk;->lG:J
+    iput-wide p4, p1, Lcom/bytedance/sdk/openadsdk/multipro/fFV/RKFMC;->lG:J
 
-    .line 25
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/pw/KIc$2;->rk:Lcom/bytedance/sdk/openadsdk/core/pw/KIc;
 
-    .line 27
-    invoke-static {p1}, Lcom/bytedance/sdk/openadsdk/core/pw/KIc;->rk(Lcom/bytedance/sdk/openadsdk/core/pw/KIc;)Lcom/bytedance/sdk/openadsdk/multipro/fFV/rk;
+    invoke-static {p1}, Lcom/bytedance/sdk/openadsdk/core/pw/KIc;->rk(Lcom/bytedance/sdk/openadsdk/core/pw/KIc;)Lcom/bytedance/sdk/openadsdk/multipro/fFV/RKFMC;
 
-    .line 30
     move-result-object p1
 
-    .line 31
-    iput-wide p6, p1, Lcom/bytedance/sdk/openadsdk/multipro/fFV/rk;->Yp:J
+    iput-wide p6, p1, Lcom/bytedance/sdk/openadsdk/multipro/fFV/RKFMC;->Yp:J
 
-    .line 33
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/pw/KIc$2;->rk:Lcom/bytedance/sdk/openadsdk/core/pw/KIc;
 
-    .line 35
-    invoke-static {p1}, Lcom/bytedance/sdk/openadsdk/core/pw/KIc;->rk(Lcom/bytedance/sdk/openadsdk/core/pw/KIc;)Lcom/bytedance/sdk/openadsdk/multipro/fFV/rk;
+    invoke-static {p1}, Lcom/bytedance/sdk/openadsdk/core/pw/KIc;->rk(Lcom/bytedance/sdk/openadsdk/core/pw/KIc;)Lcom/bytedance/sdk/openadsdk/multipro/fFV/RKFMC;
 
-    .line 38
     move-result-object p1
 
-    .line 39
-    iput-boolean p8, p1, Lcom/bytedance/sdk/openadsdk/multipro/fFV/rk;->DK:Z
+    iput-boolean p8, p1, Lcom/bytedance/sdk/openadsdk/multipro/fFV/RKFMC;->DK:Z
 
-    .line 41
     return-void
 .end method

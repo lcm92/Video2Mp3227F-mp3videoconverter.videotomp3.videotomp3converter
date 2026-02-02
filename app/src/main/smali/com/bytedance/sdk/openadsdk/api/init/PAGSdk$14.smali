@@ -1,5 +1,5 @@
 .class final Lcom/bytedance/sdk/openadsdk/api/init/PAGSdk$14;
-.super Lcom/bytedance/sdk/component/pw/pw;
+.super Lcom/bytedance/sdk/component/pw/PWPCC;
 .source "SourceFile"
 
 
@@ -10,7 +10,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x8
-    name = null
+    name = "14"
 .end annotation
 
 
@@ -22,13 +22,10 @@
 .method constructor <init>(Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/api/init/BiddingTokenCallback;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/bytedance/sdk/openadsdk/api/init/PAGSdk$14;->rk:Lcom/bytedance/sdk/openadsdk/api/init/BiddingTokenCallback;
 
-    .line 3
-    invoke-direct {p0, p1}, Lcom/bytedance/sdk/component/pw/pw;-><init>(Ljava/lang/String;)V
+    invoke-direct {p0, p1}, Lcom/bytedance/sdk/component/pw/PWPCC;-><init>(Ljava/lang/String;)V
 
-    .line 6
     return-void
 .end method
 
@@ -37,30 +34,21 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/api/init/PAGSdk$14;->rk:Lcom/bytedance/sdk/openadsdk/api/init/BiddingTokenCallback;
 
-    .line 3
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/api/init/PAGSdk;->getBiddingToken()Ljava/lang/String;
 
-    .line 6
     move-result-object v1
 
-    .line 7
     invoke-interface {v0, v1}, Lcom/bytedance/sdk/openadsdk/api/init/BiddingTokenCallback;->onBiddingTokenCollected(Ljava/lang/String;)V
 
-    .line 10
-    invoke-static {}, Lcom/bytedance/sdk/openadsdk/KIc/rk/fFV/rk;->rk()Lcom/bytedance/sdk/openadsdk/KIc/rk/fFV/rk;
+    invoke-static {}, Lcom/bytedance/sdk/openadsdk/KIc/rk/fFV/RKFRC;->rk()Lcom/bytedance/sdk/openadsdk/KIc/rk/fFV/RKFRC;
 
-    .line 13
     move-result-object v0
 
-    .line 14
     const/4 v1, 0x0
 
-    .line 15
-    invoke-virtual {v0, v1}, Lcom/bytedance/sdk/openadsdk/KIc/rk/fFV/rk;->rk(Z)V
+    invoke-virtual {v0, v1}, Lcom/bytedance/sdk/openadsdk/KIc/rk/fFV/RKFRC;->rk(Z)V
 
-    .line 18
     return-void
 .end method

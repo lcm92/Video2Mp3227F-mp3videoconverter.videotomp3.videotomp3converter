@@ -7,12 +7,6 @@
 
 
 # annotations
-.annotation build Landroid/annotation/SuppressLint;
-    value = {
-        "BanParcelableUsage"
-    }
-.end annotation
-
 .annotation system Ldalvik/annotation/EnclosingClass;
     value = Landroidx/appcompat/widget/ActionMenuPresenter;
 .end annotation
@@ -43,23 +37,18 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Landroidx/appcompat/widget/ActionMenuPresenter$SavedState$a;
 
-    .line 3
     invoke-direct {v0}, Landroidx/appcompat/widget/ActionMenuPresenter$SavedState$a;-><init>()V
 
-    .line 6
     sput-object v0, Landroidx/appcompat/widget/ActionMenuPresenter$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;
 
-    .line 8
     return-void
 .end method
 
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -68,10 +57,8 @@
 .method constructor <init>(Landroid/os/Parcel;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result p1
@@ -94,12 +81,9 @@
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
 
-    .line 1
     iget p2, p0, Landroidx/appcompat/widget/ActionMenuPresenter$SavedState;->a:I
 
-    .line 3
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 6
     return-void
 .end method

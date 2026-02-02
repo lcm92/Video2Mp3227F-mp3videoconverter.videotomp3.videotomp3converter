@@ -15,7 +15,6 @@
 .method public constructor <init>(Lcom/google/android/gms/internal/ads/zzarx;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/zzarx;->zzf()Ljava/lang/String;
@@ -24,21 +23,18 @@
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzavr;->zzb:Ljava/lang/String;
 
-    .line 2
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/zzarx;->zzi()Z
 
     move-result v0
 
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/zzavr;->zza:Z
 
-    .line 3
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/zzarx;->zzc()Lcom/google/android/gms/internal/ads/zzasp;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzavr;->zzc:Lcom/google/android/gms/internal/ads/zzasp;
 
-    .line 4
     invoke-virtual {p1}, Lcom/google/android/gms/internal/ads/zzarx;->zzd()Lcom/google/android/gms/internal/ads/zzass;
 
     return-void
@@ -49,7 +45,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzavr;->zzb:Ljava/lang/String;
@@ -64,7 +59,6 @@
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzavr;->zzc:Lcom/google/android/gms/internal/ads/zzasp;
 
-    .line 6
     sget p1, Lcom/google/android/gms/internal/ads/zzass;->zza:I
 
     return-void

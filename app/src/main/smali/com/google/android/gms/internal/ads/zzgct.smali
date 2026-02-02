@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract zza()Lmt0;
+.method public abstract zza()Ldef/MT0;
 .end method

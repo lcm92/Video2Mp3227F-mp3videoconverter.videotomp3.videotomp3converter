@@ -37,13 +37,10 @@
 .method public constructor <init>(ILjava/lang/String;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 5
     iput p1, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->rk:I
 
-    .line 6
     iput-object p2, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->fFV:Ljava/lang/String;
 
     return-void
@@ -52,15 +49,12 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x5
 
-    .line 2
     iput v0, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->rk:I
 
-    .line 3
     iput-object p1, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->fFV:Ljava/lang/String;
 
     return-void
@@ -69,18 +63,14 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 7
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x5
 
-    .line 8
     iput v0, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->rk:I
 
-    .line 9
     iput-object p1, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->fFV:Ljava/lang/String;
 
-    .line 10
     iput-object p2, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->aAs:Ljava/lang/Runnable;
 
     return-void
@@ -91,33 +81,26 @@
 .method public DK()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->rQf:J
 
-    .line 3
     return-wide v0
 .end method
 
 .method public Yp()J
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->lG:J
 
-    .line 3
     iget-wide v2, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->rQf:J
 
-    .line 5
     sub-long/2addr v0, v2
 
-    .line 6
     return-wide v0
 .end method
 
 .method public aAs()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->DK:J
 
     return-wide v0
@@ -126,7 +109,6 @@
 .method public aAs(J)V
     .locals 0
 
-    .line 2
     iput-wide p1, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->lG:J
 
     return-void
@@ -135,23 +117,18 @@
 .method public synthetic compareTo(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Lcom/bytedance/sdk/component/pw/aAs/fFV;
 
-    .line 3
     invoke-virtual {p0, p1}, Lcom/bytedance/sdk/component/pw/aAs/fFV;->rk(Lcom/bytedance/sdk/component/pw/aAs/fFV;)I
 
-    .line 6
     move-result p1
 
-    .line 7
     return p1
 .end method
 
 .method public fFV()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->fFV:Ljava/lang/String;
 
     return-object v0
@@ -160,7 +137,6 @@
 .method public fFV(J)V
     .locals 0
 
-    .line 2
     iput-wide p1, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->rQf:J
 
     return-void
@@ -169,43 +145,34 @@
 .method public lG()J
     .locals 4
 
-    .line 1
     iget-wide v0, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->rQf:J
 
-    .line 3
     iget-wide v2, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->DK:J
 
-    .line 5
     sub-long/2addr v0, v2
 
-    .line 6
     return-wide v0
 .end method
 
 .method public pw()Ljava/lang/Runnable;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->aAs:Ljava/lang/Runnable;
 
-    .line 3
     return-object v0
 .end method
 
 .method public rQf()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->lG:J
 
-    .line 3
     return-wide v0
 .end method
 
 .method public rk()I
     .locals 1
 
-    .line 2
     iget v0, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->rk:I
 
     return v0
@@ -214,7 +181,6 @@
 .method public rk(Lcom/bytedance/sdk/component/pw/aAs/fFV;)I
     .locals 2
 
-    .line 3
     invoke-virtual {p0}, Lcom/bytedance/sdk/component/pw/aAs/fFV;->rk()I
 
     move-result v0
@@ -229,7 +195,6 @@
 
     return p1
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Lcom/bytedance/sdk/component/pw/aAs/fFV;->rk()I
 
@@ -254,7 +219,6 @@
 .method public rk(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->rk:I
 
     return-void
@@ -263,7 +227,6 @@
 .method public rk(J)V
     .locals 0
 
-    .line 5
     iput-wide p1, p0, Lcom/bytedance/sdk/component/pw/aAs/fFV;->DK:J
 
     return-void

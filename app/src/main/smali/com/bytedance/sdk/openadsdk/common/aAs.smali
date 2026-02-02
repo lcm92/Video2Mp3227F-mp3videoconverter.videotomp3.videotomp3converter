@@ -7,16 +7,12 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/bytedance/sdk/openadsdk/common/NCs;-><init>(Landroid/content/Context;)V
 
-    .line 4
     const/4 p1, 0x0
 
-    .line 5
     iput-boolean p1, p0, Lcom/bytedance/sdk/openadsdk/common/NCs;->fFV:Z
 
-    .line 7
     return-void
 .end method
 
@@ -25,7 +21,6 @@
 .method public rk()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/bytedance/sdk/openadsdk/common/aAs$1;
 
     invoke-direct {v0, p0}, Lcom/bytedance/sdk/openadsdk/common/aAs$1;-><init>(Lcom/bytedance/sdk/openadsdk/common/aAs;)V
@@ -38,7 +33,6 @@
 .method public rk(Lcom/bytedance/sdk/openadsdk/core/model/HmR;Ljava/lang/String;ILjava/lang/String;JZIJ)V
     .locals 12
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->getVisibility()I
 
     move-result v0
@@ -47,7 +41,6 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 3
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v0
@@ -70,7 +63,6 @@
 
     invoke-static/range {v2 .. v11}, Lcom/bytedance/sdk/openadsdk/DK/aAs;->rk(Lcom/bytedance/sdk/openadsdk/core/model/HmR;Ljava/lang/String;ILjava/lang/String;JZIJ)V
 
-    .line 4
     invoke-super {p0}, Lcom/bytedance/sdk/openadsdk/common/NCs;->fFV()V
 
     :cond_0

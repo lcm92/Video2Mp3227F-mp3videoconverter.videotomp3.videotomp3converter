@@ -4,13 +4,11 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;)V
+.method public constructor <init>(Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;)V
     .locals 0
 
-    .line 1
-    invoke-direct {p0, p1}, Lcom/bytedance/sdk/openadsdk/component/reward/view/NCs;-><init>(Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;)V
+    invoke-direct {p0, p1}, Lcom/bytedance/sdk/openadsdk/component/reward/view/NCs;-><init>(Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;)V
 
-    .line 4
     return-void
 .end method
 
@@ -19,10 +17,8 @@
 .method public rk(II)V
     .locals 1
 
-    .line 2
     invoke-super {p0, p1, p2}, Lcom/bytedance/sdk/openadsdk/component/reward/view/NCs;->rk(II)V
 
-    .line 3
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/reward/view/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
 
     invoke-static {p1}, Lcom/bytedance/sdk/openadsdk/core/model/HmR;->rQf(Lcom/bytedance/sdk/openadsdk/core/model/HmR;)Z
@@ -49,11 +45,10 @@
 
     if-nez p1, :cond_0
 
-    .line 4
     :try_start_0
-    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/reward/view/NCs;->aAs:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/reward/view/NCs;->aAs:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    iget-object p1, p1, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->TB:Lcom/bytedance/sdk/openadsdk/component/reward/view/ppR;
+    iget-object p1, p1, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->TB:Lcom/bytedance/sdk/openadsdk/component/reward/view/ppR;
 
     sget p2, Lcom/bytedance/sdk/openadsdk/utils/kEa;->ArD:I
 
@@ -63,7 +58,6 @@
 
     check-cast p1, Landroid/widget/FrameLayout;
 
-    .line 5
     const-string p2, "#000000"
 
     invoke-static {p2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
@@ -72,7 +66,6 @@
 
     invoke-virtual {p1, p2}, Landroid/view/View;->setBackgroundColor(I)V
 
-    .line 6
     iget-object p2, p0, Lcom/bytedance/sdk/openadsdk/component/reward/view/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
 
     invoke-virtual {p2}, Lcom/bytedance/sdk/openadsdk/core/model/HmR;->Fo()I
@@ -83,7 +76,6 @@
 
     if-ne p2, v0, :cond_0
 
-    .line 7
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
 
     move-result-object p2
@@ -94,17 +86,14 @@
 
     move-result p2
 
-    .line 8
     invoke-virtual {p1}, Landroid/view/View;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
     check-cast v0, Landroid/widget/FrameLayout$LayoutParams;
 
-    .line 9
     iput p2, v0, Landroid/widget/FrameLayout$LayoutParams;->bottomMargin:I
 
-    .line 10
     invoke-virtual {p1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -117,7 +106,6 @@
 .method protected rk()Z
     .locals 1
 
-    .line 1
     const/4 v0, 0x0
 
     return v0

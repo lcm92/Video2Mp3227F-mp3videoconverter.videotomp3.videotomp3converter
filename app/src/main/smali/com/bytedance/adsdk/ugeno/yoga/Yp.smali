@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract rk(Lcom/bytedance/adsdk/ugeno/yoga/ArD;FLcom/bytedance/adsdk/ugeno/yoga/pw;FLcom/bytedance/adsdk/ugeno/yoga/pw;)J
+.method public abstract rk(Lcom/bytedance/adsdk/ugeno/yoga/ArD;FLcom/bytedance/adsdk/ugeno/yoga/PWYUC;FLcom/bytedance/adsdk/ugeno/yoga/PWYUC;)J
 .end method

@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "3"
 .end annotation
 
 
@@ -25,39 +25,29 @@
 .method constructor <init>(Lcom/bytedance/sdk/openadsdk/component/reward/lG$2;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/reward/lG$2$3;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/lG$2;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method
 
 
 # virtual methods
-.method public generatorModel()Lcom/bytedance/sdk/openadsdk/lgt/fFV/rk;
+.method public generatorModel()Lcom/bytedance/sdk/openadsdk/lgt/fFV/RKFLC;
     .locals 2
 
-    .line 1
-    new-instance v0, Lcom/bytedance/sdk/openadsdk/lgt/fFV/rk;
+    new-instance v0, Lcom/bytedance/sdk/openadsdk/lgt/fFV/RKFLC;
 
-    .line 3
-    invoke-direct {v0}, Lcom/bytedance/sdk/openadsdk/lgt/fFV/rk;-><init>()V
+    invoke-direct {v0}, Lcom/bytedance/sdk/openadsdk/lgt/fFV/RKFLC;-><init>()V
 
-    .line 6
     const-string v1, "start_activity"
 
-    .line 8
-    invoke-virtual {v0, v1}, Lcom/bytedance/sdk/openadsdk/lgt/fFV/rk;->fFV(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/bytedance/sdk/openadsdk/lgt/fFV/RKFLC;->fFV(Ljava/lang/String;)V
 
-    .line 11
     const-string v1, "fullscreen_interstitial_ad"
 
-    .line 13
-    invoke-virtual {v0, v1}, Lcom/bytedance/sdk/openadsdk/lgt/fFV/rk;->DK(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/bytedance/sdk/openadsdk/lgt/fFV/RKFLC;->DK(Ljava/lang/String;)V
 
-    .line 16
     return-object v0
 .end method

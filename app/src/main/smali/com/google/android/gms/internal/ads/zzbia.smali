@@ -7,5 +7,5 @@
 
 
 # virtual methods
-.method public abstract zze(Lcom/google/android/gms/ads/internal/client/zzbx;Ljl0;)V
+.method public abstract zze(Lcom/google/android/gms/ads/internal/client/zzbx;Ldef/JL0;)V
 .end method

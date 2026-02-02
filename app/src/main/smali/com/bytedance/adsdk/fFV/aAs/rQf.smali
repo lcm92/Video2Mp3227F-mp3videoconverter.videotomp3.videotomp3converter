@@ -24,45 +24,34 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/bytedance/adsdk/fFV/aAs/rQf;
 
-    .line 3
     invoke-direct {v0}, Lcom/bytedance/adsdk/fFV/aAs/rQf;-><init>()V
 
-    .line 6
     sput-object v0, Lcom/bytedance/adsdk/fFV/aAs/rQf;->rk:Lcom/bytedance/adsdk/fFV/aAs/rQf;
 
-    .line 8
     return-void
 .end method
 
 .method constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     new-instance v0, Lcom/bytedance/adsdk/fFV/Pa;
 
-    .line 6
     const/16 v1, 0x14
 
-    .line 8
     invoke-direct {v0, v1}, Lcom/bytedance/adsdk/fFV/Pa;-><init>(I)V
 
-    .line 11
     iput-object v0, p0, Lcom/bytedance/adsdk/fFV/aAs/rQf;->fFV:Lcom/bytedance/adsdk/fFV/Pa;
 
-    .line 13
     return-void
 .end method
 
 .method public static rk()Lcom/bytedance/adsdk/fFV/aAs/rQf;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bytedance/adsdk/fFV/aAs/rQf;->rk:Lcom/bytedance/adsdk/fFV/aAs/rQf;
 
     return-object v0
@@ -79,7 +68,6 @@
 
     return-object p1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/bytedance/adsdk/fFV/aAs/rQf;->fFV:Lcom/bytedance/adsdk/fFV/Pa;
 
@@ -99,7 +87,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/bytedance/adsdk/fFV/aAs/rQf;->fFV:Lcom/bytedance/adsdk/fFV/Pa;
 

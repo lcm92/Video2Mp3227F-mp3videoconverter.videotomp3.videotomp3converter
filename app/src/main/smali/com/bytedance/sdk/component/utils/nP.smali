@@ -11,19 +11,14 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-string v0, "VP8X"
 
-    .line 3
     invoke-static {v0}, Lcom/bytedance/sdk/component/utils/nP;->rk(Ljava/lang/String;)[B
 
-    .line 6
     move-result-object v0
 
-    .line 7
     sput-object v0, Lcom/bytedance/sdk/component/utils/nP;->rk:[B
 
-    .line 9
     return-void
 .end method
 
@@ -34,7 +29,6 @@
 
     const/4 v1, 0x0
 
-    .line 3
     :try_start_0
     sget-object v2, Lcom/bytedance/sdk/component/utils/nP;->rk:[B
 
@@ -44,14 +38,12 @@
 
     add-int/lit8 p1, p1, 0x14
 
-    .line 4
     array-length v2, p0
 
     if-gt v2, p1, :cond_0
 
     return v1
 
-    .line 5
     :cond_0
     aget-byte p0, p0, p1
     :try_end_0
@@ -95,7 +87,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_0
     array-length v1, p2
 
@@ -110,7 +101,6 @@
     :cond_1
     move v1, v0
 
-    .line 7
     :goto_0
     array-length v2, p2
 
@@ -118,7 +108,6 @@
 
     add-int v2, v1, p1
 
-    .line 8
     aget-byte v2, p0, v2
 
     aget-byte v3, p2, v1
@@ -145,7 +134,6 @@
 .method private static rk(Ljava/lang/String;)[B
     .locals 1
 
-    .line 1
     :try_start_0
     const-string v0, "ASCII"
 
@@ -160,7 +148,6 @@
     :catch_0
     const/4 p0, 0x1
 
-    .line 2
     new-array p0, p0, [B
 
     return-object p0

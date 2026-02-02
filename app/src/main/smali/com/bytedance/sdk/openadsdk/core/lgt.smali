@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/bytedance/sdk/openadsdk/core/lgt$rk;
+        Lcom/bytedance/sdk/openadsdk/core/lgt$RKL1;
     }
 .end annotation
 
@@ -18,19 +18,13 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Lcom/bytedance/sdk/openadsdk/core/ZQ<",
-            "Lcom/bytedance/sdk/openadsdk/DK/rk;",
+            "Lcom/bytedance/sdk/openadsdk/DK/RKDOC;",
             ">;"
         }
     .end annotation
 .end field
 
 .field private static volatile rk:Landroid/content/Context;
-    .annotation build Landroid/annotation/SuppressLint;
-        value = {
-            "StaticFieldLeak"
-        }
-    .end annotation
-.end field
 
 
 # direct methods
@@ -51,13 +45,10 @@
 .method public static DK()Lcom/bytedance/sdk/openadsdk/core/settings/lG;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/settings/woP;->dfy()Lcom/bytedance/sdk/openadsdk/core/settings/lG;
 
-    .line 4
     move-result-object v0
 
-    .line 5
     return-object v0
 .end method
 
@@ -67,94 +58,72 @@
         value = {
             "()",
             "Lcom/bytedance/sdk/openadsdk/core/ZQ<",
-            "Lcom/bytedance/sdk/openadsdk/DK/rk;",
+            "Lcom/bytedance/sdk/openadsdk/DK/RKDOC;",
             ">;"
         }
     .end annotation
 
-    .line 1
     sget-object v0, Lcom/bytedance/sdk/openadsdk/core/lgt;->fFV:Lcom/bytedance/sdk/openadsdk/core/ZQ;
 
-    .line 3
     if-nez v0, :cond_1
 
-    .line 5
     const-class v0, Lcom/bytedance/sdk/openadsdk/core/lgt;
 
-    .line 7
     monitor-enter v0
 
-    .line 8
     :try_start_0
     sget-object v1, Lcom/bytedance/sdk/openadsdk/core/lgt;->fFV:Lcom/bytedance/sdk/openadsdk/core/ZQ;
 
-    .line 10
     if-nez v1, :cond_0
 
-    .line 12
     new-instance v1, Lcom/bytedance/sdk/openadsdk/core/HmR;
 
-    .line 14
     sget-object v2, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk:Landroid/content/Context;
 
-    .line 16
     invoke-direct {v1, v2}, Lcom/bytedance/sdk/openadsdk/core/HmR;-><init>(Landroid/content/Context;)V
 
-    .line 19
     sput-object v1, Lcom/bytedance/sdk/openadsdk/core/lgt;->fFV:Lcom/bytedance/sdk/openadsdk/core/ZQ;
 
-    .line 21
     goto :goto_0
 
-    .line 22
     :catchall_0
     move-exception v1
 
-    .line 23
     goto :goto_1
 
-    .line 24
     :cond_0
     :goto_0
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 25
     goto :goto_2
 
-    .line 26
     :goto_1
     monitor-exit v0
 
-    .line 27
     throw v1
 
-    .line 28
     :cond_1
     :goto_2
     sget-object v0, Lcom/bytedance/sdk/openadsdk/core/lgt;->fFV:Lcom/bytedance/sdk/openadsdk/core/ZQ;
 
-    .line 30
     return-object v0
 .end method
 
 .method public static fFV()I
     .locals 1
 
-    .line 11
     sget v0, Lcom/bytedance/sdk/openadsdk/core/lgt;->aAs:I
 
     if-gez v0, :cond_0
 
-    .line 12
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 13
     invoke-static {v0}, Landroid/view/ViewConfiguration;->get(Landroid/content/Context;)Landroid/view/ViewConfiguration;
 
     move-result-object v0
@@ -165,7 +134,6 @@
 
     sput v0, Lcom/bytedance/sdk/openadsdk/core/lgt;->aAs:I
 
-    .line 14
     :cond_0
     sget v0, Lcom/bytedance/sdk/openadsdk/core/lgt;->aAs:I
 
@@ -175,17 +143,14 @@
 .method public static fFV(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk:Landroid/content/Context;
 
     if-nez v0, :cond_3
 
-    .line 2
     const-class v0, Lcom/bytedance/sdk/openadsdk/core/lgt;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     sget-object v1, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk:Landroid/content/Context;
 
@@ -193,17 +158,14 @@
 
     if-eqz p0, :cond_1
 
-    .line 4
     sput-object p0, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk:Landroid/content/Context;
 
-    .line 5
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
 
     if-eqz p0, :cond_0
 
-    .line 6
     sput-object p0, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk:Landroid/content/Context;
 
     goto :goto_0
@@ -213,7 +175,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_0
     :goto_0
     monitor-exit v0
@@ -222,21 +183,18 @@
 
     return-void
 
-    .line 8
     :cond_1
     :try_start_1
-    invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt$rk;->rk()Landroid/app/Application;
+    invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt$RKL1;->rk()Landroid/app/Application;
 
     move-result-object p0
 
     if-eqz p0, :cond_2
 
-    .line 9
     sput-object p0, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk:Landroid/content/Context;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 10
     :catchall_1
     :cond_2
     :try_start_2
@@ -258,49 +216,37 @@
 .method public static rQf()Lcom/bytedance/sdk/openadsdk/AXL/aAs/fFV;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/settings/ppR;->rk()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     if-nez v0, :cond_0
 
-    .line 7
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/AXL/aAs/aAs;->rk()Lcom/bytedance/sdk/openadsdk/AXL/aAs/fFV;
 
-    .line 10
     move-result-object v0
 
-    .line 11
     return-object v0
 
-    .line 12
     :cond_0
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/DK/rk/DK;->rk()Lcom/bytedance/sdk/openadsdk/AXL/aAs/fFV;
 
-    .line 15
     move-result-object v0
 
-    .line 16
     return-object v0
 .end method
 
 .method public static rk()Landroid/content/Context;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk:Landroid/content/Context;
 
     if-nez v0, :cond_0
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/core/lgt;->fFV(Landroid/content/Context;)V
 
-    .line 3
     :cond_0
     sget-object v0, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk:Landroid/content/Context;
 
@@ -312,12 +258,10 @@
 
     if-nez p0, :cond_0
 
-    .line 4
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
 
     move-result-object p0
 
-    .line 5
     :cond_0
     instance-of v0, p0, Landroid/app/Application;
 
@@ -328,7 +272,6 @@
     :cond_1
     if-eqz p0, :cond_2
 
-    .line 6
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0

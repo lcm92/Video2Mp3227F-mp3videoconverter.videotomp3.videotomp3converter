@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lfi2$a;
+.implements Ldef/FI2$AF1;
 
 
 # annotations
@@ -18,44 +18,44 @@
 
 
 # virtual methods
-.method public abstract synthetic DK(Lfi2;)V
+.method public abstract synthetic DK(Ldef/FI2;)V
 .end method
 
-.method public abstract synthetic aAs(Lfi2;)V
+.method public abstract synthetic aAs(Ldef/FI2;)V
 .end method
 
-.method public abstract synthetic fFV(Lfi2;)V
+.method public abstract synthetic fFV(Ldef/FI2;)V
 .end method
 
-.method public abstract synthetic fFV(Lfi2;I)V
+.method public abstract synthetic fFV(Ldef/FI2;I)V
 .end method
 
-.method public abstract synthetic rQf(Lfi2;)V
+.method public abstract synthetic rQf(Ldef/FI2;)V
 .end method
 
 .method public abstract rk(II)V
 .end method
 
-.method public abstract synthetic rk(Lfi2;)V
+.method public abstract synthetic rk(Ldef/FI2;)V
 .end method
 
-.method public abstract synthetic rk(Lfi2;I)V
+.method public abstract synthetic rk(Ldef/FI2;I)V
 .end method
 
-.method public abstract synthetic rk(Lfi2;II)V
+.method public abstract synthetic rk(Ldef/FI2;II)V
 .end method
 
-.method public abstract synthetic rk(Lfi2;III)V
+.method public abstract synthetic rk(Ldef/FI2;III)V
 .end method
 
-.method public abstract synthetic rk(Lfi2;J)V
+.method public abstract synthetic rk(Ldef/FI2;J)V
 .end method
 
-.method public abstract synthetic rk(Lfi2;JJ)V
+.method public abstract synthetic rk(Ldef/FI2;JJ)V
 .end method
 
-.method public abstract synthetic rk(Lfi2;Lvh2;)V
+.method public abstract synthetic rk(Ldef/FI2;Ldef/VH2;)V
 .end method
 
-.method public abstract synthetic rk(Lfi2;Z)V
+.method public abstract synthetic rk(Ldef/FI2;Z)V
 .end method

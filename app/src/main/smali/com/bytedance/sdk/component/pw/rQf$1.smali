@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x8
-    name = null
+    name = "1"
 .end annotation
 
 
@@ -31,12 +31,9 @@
 .method public createThreadFactory(ILjava/lang/String;)Lcom/bytedance/sdk/component/pw/ppR;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/bytedance/sdk/component/pw/ppR;
 
-    .line 3
     invoke-direct {v0, p1, p2}, Lcom/bytedance/sdk/component/pw/ppR;-><init>(ILjava/lang/String;)V
 
-    .line 6
     return-object v0
 .end method

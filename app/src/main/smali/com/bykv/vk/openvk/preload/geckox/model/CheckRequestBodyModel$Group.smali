@@ -16,13 +16,13 @@
 
 # instance fields
 .field public groupName:Ljava/lang/String;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "group_name"
     .end annotation
 .end field
 
 .field public targetChannels:Ljava/util/List;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "target_channels"
     .end annotation
 

@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "9"
 .end annotation
 
 
@@ -25,13 +25,10 @@
 .method constructor <init>(Lcom/bytedance/sdk/openadsdk/component/lG;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/lG$9;->rk:Lcom/bytedance/sdk/openadsdk/component/lG;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method
 
@@ -40,61 +37,43 @@
 .method public accept(Ljava/io/File;)Z
     .locals 2
 
-    .line 1
     const/4 v0, 0x0
 
-    .line 2
     if-eqz p1, :cond_2
 
-    .line 4
     invoke-virtual {p1}, Ljava/io/File;->getName()Ljava/lang/String;
 
-    .line 7
     move-result-object p1
 
-    .line 8
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/component/lG;->aAs()Ljava/lang/String;
 
-    .line 11
     move-result-object v1
 
-    .line 12
     invoke-virtual {p1, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-    .line 15
     move-result v1
 
-    .line 16
     if-nez v1, :cond_1
 
-    .line 18
     const-string v1, "openad_video_cache"
 
-    .line 20
     invoke-virtual {p1, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-    .line 23
     move-result p1
 
-    .line 24
     if-eqz p1, :cond_0
 
-    .line 26
     goto :goto_0
 
-    .line 27
     :cond_0
     return v0
 
-    .line 28
     :cond_1
     :goto_0
     const/4 p1, 0x1
 
-    .line 29
     return p1
 
-    .line 30
     :cond_2
     return v0
 .end method

@@ -60,7 +60,6 @@
 .method static bridge synthetic a(Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;->f:I
 
     return p0
@@ -69,7 +68,6 @@
 .method static bridge synthetic b(Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;->b:I
 
     return p0
@@ -78,7 +76,6 @@
 .method static bridge synthetic c(Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;->c:I
 
     return p0
@@ -87,7 +84,6 @@
 .method static bridge synthetic d(Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;)Lcom/google/android/gms/ads/VideoOptions;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;->e:Lcom/google/android/gms/ads/VideoOptions;
 
     return-object p0
@@ -96,7 +92,6 @@
 .method static bridge synthetic e(Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;->d:Z
 
     return p0
@@ -105,7 +100,6 @@
 .method static bridge synthetic f(Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;->a:Z
 
     return p0
@@ -114,7 +108,6 @@
 .method static bridge synthetic g(Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;->g:Z
 
     return p0
@@ -136,10 +129,6 @@
 
 .method public setAdChoicesPlacement(I)Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;
     .locals 0
-    .param p1    # I
-        .annotation build Lcom/google/android/gms/ads/formats/NativeAdOptions$AdChoicesPlacement;
-        .end annotation
-    .end param
 
     iput p1, p0, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;->f:I
 
@@ -158,10 +147,6 @@
 
 .method public setMediaAspectRatio(I)Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;
     .locals 0
-    .param p1    # I
-        .annotation build Lcom/google/android/gms/ads/formats/NativeAdOptions$NativeMediaAspectRatio;
-        .end annotation
-    .end param
 
     iput p1, p0, Lcom/google/android/gms/ads/formats/NativeAdOptions$Builder;->c:I
 

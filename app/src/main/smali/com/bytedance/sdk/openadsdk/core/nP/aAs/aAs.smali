@@ -38,41 +38,30 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/nP/aAs/aAs;->rk:Ljava/util/List;
 
-    .line 6
     new-instance p1, Ljava/util/HashMap;
 
-    .line 8
     invoke-direct {p1}, Ljava/util/HashMap;-><init>()V
 
-    .line 11
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/nP/aAs/aAs;->fFV:Ljava/util/Map;
 
-    .line 13
     sget-object v0, Lcom/bytedance/sdk/openadsdk/core/nP/aAs/fFV;->aAs:Lcom/bytedance/sdk/openadsdk/core/nP/aAs/fFV;
 
-    .line 15
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/nP/aAs/aAs;->fFV()Ljava/lang/String;
 
-    .line 18
     move-result-object v1
 
-    .line 19
     invoke-interface {p1, v0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 22
     return-void
 .end method
 
 .method private fFV()Ljava/lang/String;
     .locals 5
 
-    .line 1
     sget-object v0, Ljava/util/Locale;->US:Ljava/util/Locale;
 
     invoke-static {}, Ljava/lang/Math;->random()D
@@ -111,14 +100,12 @@
 .method private fFV(J)Ljava/lang/String;
     .locals 10
 
-    .line 2
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
     move-result-object v0
 
     sget-object v1, Ljava/util/concurrent/TimeUnit;->MILLISECONDS:Ljava/util/concurrent/TimeUnit;
 
-    .line 3
     invoke-virtual {v1, p1, p2}, Ljava/util/concurrent/TimeUnit;->toHours(J)J
 
     move-result-wide v2
@@ -127,7 +114,6 @@
 
     move-result-object v2
 
-    .line 4
     invoke-virtual {v1, p1, p2}, Ljava/util/concurrent/TimeUnit;->toMinutes(J)J
 
     move-result-wide v3
@@ -146,7 +132,6 @@
 
     move-result-object v3
 
-    .line 5
     invoke-virtual {v1, p1, p2}, Ljava/util/concurrent/TimeUnit;->toSeconds(J)J
 
     move-result-wide v4
@@ -167,7 +152,6 @@
 
     rem-long/2addr p1, v4
 
-    .line 6
     invoke-static {p1, p2}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
@@ -192,7 +176,6 @@
 
     aput-object p1, p2, v1
 
-    .line 7
     const-string p1, "%02d:%02d:%02d.%03d"
 
     invoke-static {v0, p1, p2}, Ljava/lang/String;->format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
@@ -213,19 +196,16 @@
 
     if-ltz v0, :cond_0
 
-    .line 10
     invoke-direct {p0, p1, p2}, Lcom/bytedance/sdk/openadsdk/core/nP/aAs/aAs;->fFV(J)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 11
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result p2
 
     if-nez p2, :cond_0
 
-    .line 12
     iget-object p2, p0, Lcom/bytedance/sdk/openadsdk/core/nP/aAs/aAs;->fFV:Ljava/util/Map;
 
     sget-object v0, Lcom/bytedance/sdk/openadsdk/core/nP/aAs/fFV;->fFV:Lcom/bytedance/sdk/openadsdk/core/nP/aAs/fFV;
@@ -236,17 +216,16 @@
     return-object p0
 .end method
 
-.method public rk(Lcom/bytedance/sdk/openadsdk/core/nP/rk/rk;)Lcom/bytedance/sdk/openadsdk/core/nP/aAs/aAs;
+.method public rk(Lcom/bytedance/sdk/openadsdk/core/nP/rk/RKRNC;)Lcom/bytedance/sdk/openadsdk/core/nP/aAs/aAs;
     .locals 2
 
     if-eqz p1, :cond_0
 
-    .line 9
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/nP/aAs/aAs;->fFV:Ljava/util/Map;
 
     sget-object v1, Lcom/bytedance/sdk/openadsdk/core/nP/aAs/fFV;->rk:Lcom/bytedance/sdk/openadsdk/core/nP/aAs/fFV;
 
-    invoke-virtual {p1}, Lcom/bytedance/sdk/openadsdk/core/nP/rk/rk;->rk()Ljava/lang/String;
+    invoke-virtual {p1}, Lcom/bytedance/sdk/openadsdk/core/nP/rk/RKRNC;->rk()Ljava/lang/String;
 
     move-result-object p1
 
@@ -259,14 +238,12 @@
 .method public rk(Ljava/lang/String;)Lcom/bytedance/sdk/openadsdk/core/nP/aAs/aAs;
     .locals 2
 
-    .line 13
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_0
 
-    .line 14
     :try_start_0
     const-string v0, "UTF-8"
 
@@ -276,7 +253,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 15
     :catchall_0
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/nP/aAs/aAs;->fFV:Ljava/util/Map;
 
@@ -299,12 +275,10 @@
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 2
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/nP/aAs/aAs;->rk:Ljava/util/List;
 
     invoke-interface {v1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
@@ -325,14 +299,12 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 3
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v3
 
     if-nez v3, :cond_0
 
-    .line 4
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/nP/aAs/fFV;->values()[Lcom/bytedance/sdk/openadsdk/core/nP/aAs/fFV;
 
     move-result-object v3
@@ -346,7 +318,6 @@
 
     aget-object v6, v3, v5
 
-    .line 5
     iget-object v7, p0, Lcom/bytedance/sdk/openadsdk/core/nP/aAs/aAs;->fFV:Ljava/util/Map;
 
     invoke-interface {v7, v6}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -357,10 +328,8 @@
 
     if-nez v7, :cond_1
 
-    .line 6
     const-string v7, ""
 
-    .line 7
     :cond_1
     new-instance v8, Ljava/lang/StringBuilder;
 
@@ -390,7 +359,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_2
     invoke-interface {v0, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 

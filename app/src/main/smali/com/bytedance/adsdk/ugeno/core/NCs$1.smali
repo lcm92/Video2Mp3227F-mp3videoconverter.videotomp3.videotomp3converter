@@ -8,19 +8,19 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/bytedance/adsdk/ugeno/core/NCs;->rk(Lcom/bytedance/adsdk/ugeno/core/Yp$rk;Lcom/bytedance/adsdk/ugeno/fFV/aAs;)Lcom/bytedance/adsdk/ugeno/fFV/aAs;
+    value = Lcom/bytedance/adsdk/ugeno/core/NCs;->rk(Lcom/bytedance/adsdk/ugeno/core/Yp$RKY1;Lcom/bytedance/adsdk/ugeno/fFV/aAs;)Lcom/bytedance/adsdk/ugeno/fFV/aAs;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "1"
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
         "Ljava/util/Comparator<",
-        "Lcom/bytedance/adsdk/ugeno/core/Yp$rk;",
+        "Lcom/bytedance/adsdk/ugeno/core/Yp$RKY1;",
         ">;"
     }
 .end annotation
@@ -34,13 +34,10 @@
 .method constructor <init>(Lcom/bytedance/adsdk/ugeno/core/NCs;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/adsdk/ugeno/core/NCs$1;->rk:Lcom/bytedance/adsdk/ugeno/core/NCs;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method
 
@@ -49,58 +46,41 @@
 .method public synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
-    check-cast p1, Lcom/bytedance/adsdk/ugeno/core/Yp$rk;
+    check-cast p1, Lcom/bytedance/adsdk/ugeno/core/Yp$RKY1;
 
-    .line 3
-    check-cast p2, Lcom/bytedance/adsdk/ugeno/core/Yp$rk;
+    check-cast p2, Lcom/bytedance/adsdk/ugeno/core/Yp$RKY1;
 
-    .line 5
-    invoke-virtual {p0, p1, p2}, Lcom/bytedance/adsdk/ugeno/core/NCs$1;->rk(Lcom/bytedance/adsdk/ugeno/core/Yp$rk;Lcom/bytedance/adsdk/ugeno/core/Yp$rk;)I
+    invoke-virtual {p0, p1, p2}, Lcom/bytedance/adsdk/ugeno/core/NCs$1;->rk(Lcom/bytedance/adsdk/ugeno/core/Yp$RKY1;Lcom/bytedance/adsdk/ugeno/core/Yp$RKY1;)I
 
-    .line 8
     move-result p1
 
-    .line 9
     return p1
 .end method
 
-.method public rk(Lcom/bytedance/adsdk/ugeno/core/Yp$rk;Lcom/bytedance/adsdk/ugeno/core/Yp$rk;)I
+.method public rk(Lcom/bytedance/adsdk/ugeno/core/Yp$RKY1;Lcom/bytedance/adsdk/ugeno/core/Yp$RKY1;)I
     .locals 2
 
-    .line 1
-    invoke-virtual {p1}, Lcom/bytedance/adsdk/ugeno/core/Yp$rk;->DK()Lorg/json/JSONObject;
+    invoke-virtual {p1}, Lcom/bytedance/adsdk/ugeno/core/Yp$RKY1;->DK()Lorg/json/JSONObject;
 
-    .line 4
     move-result-object p1
 
-    .line 5
     const-string v0, "order"
 
-    .line 7
     const/4 v1, 0x0
 
-    .line 8
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
 
-    .line 11
     move-result p1
 
-    .line 12
-    invoke-virtual {p2}, Lcom/bytedance/adsdk/ugeno/core/Yp$rk;->DK()Lorg/json/JSONObject;
+    invoke-virtual {p2}, Lcom/bytedance/adsdk/ugeno/core/Yp$RKY1;->DK()Lorg/json/JSONObject;
 
-    .line 15
     move-result-object p2
 
-    .line 16
     invoke-virtual {p2, v0, v1}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
 
-    .line 19
     move-result p2
 
-    .line 20
     sub-int/2addr p1, p2
 
-    .line 21
     return p1
 .end method

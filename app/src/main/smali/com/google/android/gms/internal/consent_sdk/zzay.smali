@@ -26,40 +26,17 @@
 .method public final run()V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/consent_sdk/zzg;
 
-    .line 2
-    .line 3
     const/4 v1, 0x4
 
-    .line 4
     const-string v2, "Web view timed out."
 
-    .line 5
-    .line 6
     invoke-direct {v0, v1, v2}, Lcom/google/android/gms/internal/consent_sdk/zzg;-><init>(ILjava/lang/String;)V
 
-    .line 7
-    .line 8
-    .line 9
     iget-object v1, p0, Lcom/google/android/gms/internal/consent_sdk/zzay;->zza:Lcom/google/android/gms/internal/consent_sdk/zzbc;
 
-    .line 10
-    .line 11
     invoke-virtual {v1, v0}, Lcom/google/android/gms/internal/consent_sdk/zzbc;->zzj(Lcom/google/android/gms/internal/consent_sdk/zzg;)V
 
-    .line 12
-    .line 13
-    .line 14
     return-void
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
 .end method

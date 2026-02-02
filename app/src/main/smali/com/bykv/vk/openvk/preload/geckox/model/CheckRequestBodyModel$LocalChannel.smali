@@ -16,7 +16,7 @@
 
 # instance fields
 .field public localVersion:Ljava/lang/Long;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "l_v"
     .end annotation
 .end field

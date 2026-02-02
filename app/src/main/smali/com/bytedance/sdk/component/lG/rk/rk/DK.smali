@@ -12,7 +12,7 @@
             "Ljava/lang/String;",
             ">;)",
             "Ljava/util/List<",
-            "Lcom/bytedance/sdk/component/lG/rk/DK/rk;",
+            "Lcom/bytedance/sdk/component/lG/rk/DK/RKDRC;",
             ">;"
         }
     .end annotation
@@ -26,13 +26,13 @@
         value = {
             "(I",
             "Ljava/util/List<",
-            "Lcom/bytedance/sdk/component/lG/rk/DK/rk;",
+            "Lcom/bytedance/sdk/component/lG/rk/DK/RKDRC;",
             ">;)V"
         }
     .end annotation
 .end method
 
-.method public abstract rk(Lcom/bytedance/sdk/component/lG/rk/DK/rk;I)V
+.method public abstract rk(Lcom/bytedance/sdk/component/lG/rk/DK/RKDRC;I)V
 .end method
 
 .method public abstract rk(IZ)Z

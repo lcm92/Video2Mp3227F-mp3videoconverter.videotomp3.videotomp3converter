@@ -7,5 +7,5 @@
 .method public abstract zza()I
 .end method
 
-.method public abstract zzb()Lmt0;
+.method public abstract zzb()Ldef/MT0;
 .end method

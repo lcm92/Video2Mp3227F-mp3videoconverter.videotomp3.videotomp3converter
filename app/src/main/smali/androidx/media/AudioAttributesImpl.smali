@@ -3,4 +3,4 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lu72;
+.implements Ldef/U72;

@@ -8,7 +8,7 @@
 
 .field private mAdLogo:Lcom/bytedance/sdk/openadsdk/core/rQf/DK;
 
-.field private mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+.field private mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
 
 # direct methods
@@ -17,7 +17,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-direct {p0, p1, v0}, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     return-void
@@ -28,7 +27,6 @@
 
     const/4 v0, 0x0
 
-    .line 2
     invoke-direct {p0, p1, p2, v0}, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     return-void
@@ -37,10 +35,8 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
     .locals 0
 
-    .line 3
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 4
     invoke-direct {p0, p1}, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->initView(Landroid/content/Context;)V
 
     return-void
@@ -49,10 +45,8 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
     .locals 0
 
-    .line 5
     invoke-direct {p0, p1, p2, p3, p4}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;II)V
 
-    .line 6
     invoke-direct {p0, p1}, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->initView(Landroid/content/Context;)V
 
     return-void
@@ -61,221 +55,150 @@
 .method public static createPAGLogoViewByMaterial(Landroid/content/Context;Lcom/bytedance/sdk/openadsdk/core/model/HmR;)Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;
 
-    .line 3
     invoke-direct {v0, p0}, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;-><init>(Landroid/content/Context;)V
 
-    .line 6
     invoke-virtual {v0, p1}, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->initData(Lcom/bytedance/sdk/openadsdk/core/model/HmR;)V
 
-    .line 9
     return-object v0
 .end method
 
 .method private initView(Landroid/content/Context;)V
     .locals 4
 
-    .line 1
     const/high16 v0, 0x40000000    # 2.0f
 
-    .line 3
     invoke-static {p1, v0}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
-    .line 6
     move-result v0
 
-    .line 7
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
-    .line 10
     move-result-object v1
 
-    .line 11
     const/high16 v2, 0x41400000    # 12.0f
 
-    .line 13
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
-    .line 16
     move-result v1
 
-    .line 17
     iput v1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->containerHeight:I
 
-    .line 19
     new-instance v1, Lcom/bytedance/sdk/openadsdk/core/rQf/DK;
 
-    .line 21
     invoke-direct {v1, p1}, Lcom/bytedance/sdk/openadsdk/core/rQf/DK;-><init>(Landroid/content/Context;)V
 
-    .line 24
     iput-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdLogo:Lcom/bytedance/sdk/openadsdk/core/rQf/DK;
 
-    .line 26
     new-instance v1, Landroid/widget/LinearLayout$LayoutParams;
 
-    .line 28
     const/high16 v2, 0x41600000    # 14.0f
 
-    .line 30
     invoke-static {p1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
-    .line 33
     move-result v2
 
-    .line 34
     const/high16 v3, 0x40c00000    # 6.0f
 
-    .line 36
     invoke-static {p1, v3}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
-    .line 39
     move-result v3
 
-    .line 40
     invoke-direct {v1, v2, v3}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    .line 43
     iput v0, v1, Landroid/widget/LinearLayout$LayoutParams;->leftMargin:I
 
-    .line 45
     iget-object v2, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdLogo:Lcom/bytedance/sdk/openadsdk/core/rQf/DK;
 
-    .line 47
     invoke-virtual {v2, v1}, Lcom/bytedance/sdk/openadsdk/core/rQf/DK;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 50
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdLogo:Lcom/bytedance/sdk/openadsdk/core/rQf/DK;
 
-    .line 52
     sget-object v2, Landroid/widget/ImageView$ScaleType;->CENTER_INSIDE:Landroid/widget/ImageView$ScaleType;
 
-    .line 54
     invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
 
-    .line 57
-    new-instance v1, Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    new-instance v1, Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
-    .line 59
-    invoke-direct {v1, p1}, Lcom/bytedance/sdk/openadsdk/core/rQf/pw;-><init>(Landroid/content/Context;)V
+    invoke-direct {v1, p1}, Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;-><init>(Landroid/content/Context;)V
 
-    .line 62
-    iput-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iput-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
-    .line 64
     new-instance p1, Landroid/widget/LinearLayout$LayoutParams;
 
-    .line 66
     const/4 v1, -0x2
 
-    .line 67
     iget v2, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->containerHeight:I
 
-    .line 69
     invoke-direct {p1, v1, v2}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    .line 72
     iput v0, p1, Landroid/widget/LinearLayout$LayoutParams;->leftMargin:I
 
-    .line 74
     iput v0, p1, Landroid/widget/LinearLayout$LayoutParams;->rightMargin:I
 
-    .line 76
-    iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
-    .line 78
-    invoke-virtual {v1, p1}, Lcom/bytedance/sdk/openadsdk/core/rQf/pw;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v1, p1}, Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 81
-    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
-    .line 83
     const/4 v1, 0x1
 
-    .line 84
     const/high16 v2, 0x41000000    # 8.0f
 
-    .line 86
     invoke-virtual {p1, v1, v2}, Landroid/widget/TextView;->setTextSize(IF)V
 
-    .line 89
-    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
-    .line 91
     const/16 v1, 0x11
 
-    .line 93
-    invoke-virtual {p1, v1}, Lcom/bytedance/sdk/openadsdk/core/rQf/pw;->setGravity(I)V
+    invoke-virtual {p1, v1}, Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;->setGravity(I)V
 
-    .line 96
-    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
-    .line 98
     const-string v1, "#BFFFFFFF"
 
-    .line 100
     invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
-    .line 103
     move-result v1
 
-    .line 104
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 107
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdLogo:Lcom/bytedance/sdk/openadsdk/core/rQf/DK;
 
-    .line 109
     invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    .line 112
-    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
-    .line 114
     invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    .line 117
     new-instance p1, Landroid/graphics/drawable/GradientDrawable;
 
-    .line 119
     invoke-direct {p1}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
 
-    .line 122
     const/4 v1, 0x0
 
-    .line 123
     invoke-virtual {p1, v1}, Landroid/graphics/drawable/GradientDrawable;->setShape(I)V
 
-    .line 126
     const-string v1, "#26000000"
 
-    .line 128
     invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
-    .line 131
     move-result v1
 
-    .line 132
     invoke-virtual {p1, v1}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
-    .line 135
     int-to-float v0, v0
 
-    .line 136
     invoke-virtual {p1, v0}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadius(F)V
 
-    .line 139
     invoke-virtual {p0, p1}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 142
     const/16 p1, 0x10
 
-    .line 144
     invoke-virtual {p0, p1}, Landroid/widget/LinearLayout;->setGravity(I)V
 
-    .line 147
     return-void
 .end method
 
@@ -288,7 +211,6 @@
 
     return-void
 
-    .line 1
     :cond_0
     invoke-virtual {p1}, Lcom/bytedance/sdk/openadsdk/core/model/HmR;->rE()Lcom/bytedance/sdk/openadsdk/core/model/fFV;
 
@@ -306,7 +228,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {p1}, Lcom/bytedance/sdk/openadsdk/core/model/fFV;->rQf()Z
 
@@ -320,7 +241,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdLogo:Lcom/bytedance/sdk/openadsdk/core/rQf/DK;
 
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
@@ -335,27 +255,23 @@
 
     goto :goto_1
 
-    .line 4
     :cond_1
     invoke-virtual {p1}, Lcom/bytedance/sdk/openadsdk/core/model/fFV;->rk()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 5
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v4
 
     if-eqz v4, :cond_2
 
-    .line 6
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdLogo:Lcom/bytedance/sdk/openadsdk/core/rQf/DK;
 
     invoke-virtual {v0, v2}, Landroid/view/View;->setVisibility(I)V
 
     goto :goto_1
 
-    .line 7
     :cond_2
     const-string v4, "logo"
 
@@ -365,7 +281,6 @@
 
     if-eqz v4, :cond_3
 
-    .line 8
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdLogo:Lcom/bytedance/sdk/openadsdk/core/rQf/DK;
 
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
@@ -380,7 +295,6 @@
 
     goto :goto_0
 
-    .line 9
     :cond_3
     invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/ppR/DK;->rk(Ljava/lang/String;)Lcom/bytedance/sdk/component/rQf/ArD;
 
@@ -396,27 +310,23 @@
 
     invoke-interface {v0, v3}, Lcom/bytedance/sdk/component/rQf/ArD;->rk(Landroid/widget/ImageView;)Lcom/bytedance/sdk/component/rQf/ppR;
 
-    .line 10
     :goto_0
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdLogo:Lcom/bytedance/sdk/openadsdk/core/rQf/DK;
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 11
     :goto_1
     invoke-virtual {p1}, Lcom/bytedance/sdk/openadsdk/core/model/fFV;->fFV()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 12
     invoke-virtual {p1}, Lcom/bytedance/sdk/openadsdk/core/model/fFV;->rQf()Z
 
     move-result p1
 
     if-eqz p1, :cond_4
 
-    .line 13
-    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
 
@@ -432,7 +342,6 @@
 
     return-void
 
-    .line 14
     :cond_4
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -440,21 +349,18 @@
 
     if-eqz p1, :cond_5
 
-    .line 15
-    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     invoke-virtual {p1, v2}, Landroid/view/View;->setVisibility(I)V
 
     return-void
 
-    .line 16
     :cond_5
-    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     invoke-virtual {p1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 17
-    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->mAdText:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     invoke-virtual {p1, v1}, Landroid/view/View;->setVisibility(I)V
 
@@ -464,37 +370,27 @@
 .method protected onMeasure(II)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroid/widget/LinearLayout;->onMeasure(II)V
 
-    .line 4
     return-void
 .end method
 
 .method public setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
     .locals 1
 
-    .line 1
     const/4 v0, -0x2
 
-    .line 2
     iput v0, p1, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    .line 4
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/core/widget/PAGLogoView;->containerHeight:I
 
-    .line 6
     iput v0, p1, Landroid/view/ViewGroup$LayoutParams;->height:I
 
-    .line 8
     invoke-static {p0, p1}, Lcom/bytedance/sdk/openadsdk/core/rQf/ppR;->rk(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)Landroid/view/ViewGroup$LayoutParams;
 
-    .line 11
     move-result-object p1
 
-    .line 12
     invoke-super {p0, p1}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 15
     return-void
 .end method

@@ -11,16 +11,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Landroid/graphics/PointF;
 
-    .line 3
     invoke-direct {v0}, Landroid/graphics/PointF;-><init>()V
 
-    .line 6
     sput-object v0, Lcom/bytedance/adsdk/fFV/lG/rQf;->rk:Landroid/graphics/PointF;
 
-    .line 8
     return-void
 .end method
 
@@ -48,7 +44,6 @@
 .method public static fFV(FFF)F
     .locals 0
 
-    .line 3
     invoke-static {p2, p0}, Ljava/lang/Math;->min(FF)F
 
     move-result p0
@@ -63,7 +58,6 @@
 .method private static fFV(II)I
     .locals 2
 
-    .line 1
     div-int v0, p0, p1
 
     xor-int v1, p0, p1
@@ -77,7 +71,6 @@
     :cond_0
     const/4 v1, 0x0
 
-    .line 2
     :goto_0
     rem-int/2addr p0, p1
 
@@ -94,7 +87,6 @@
 .method public static rk(FFF)F
     .locals 0
 
-    .line 1
     sub-float/2addr p1, p0
 
     mul-float/2addr p2, p1
@@ -111,7 +103,6 @@
 
     float-to-int p1, p1
 
-    .line 19
     invoke-static {p0, p1}, Lcom/bytedance/adsdk/fFV/lG/rQf;->rk(II)I
 
     move-result p0
@@ -122,7 +113,6 @@
 .method private static rk(II)I
     .locals 1
 
-    .line 20
     invoke-static {p0, p1}, Lcom/bytedance/adsdk/fFV/lG/rQf;->fFV(II)I
 
     move-result v0
@@ -137,7 +127,6 @@
 .method public static rk(IIF)I
     .locals 1
 
-    .line 2
     int-to-float v0, p0
 
     sub-int/2addr p1, p0
@@ -156,7 +145,6 @@
 .method public static rk(III)I
     .locals 0
 
-    .line 21
     invoke-static {p2, p0}, Ljava/lang/Math;->min(II)I
 
     move-result p0
@@ -171,7 +159,6 @@
 .method public static rk(Landroid/graphics/PointF;Landroid/graphics/PointF;)Landroid/graphics/PointF;
     .locals 3
 
-    .line 3
     new-instance v0, Landroid/graphics/PointF;
 
     iget v1, p0, Landroid/graphics/PointF;->x:F
@@ -194,22 +181,18 @@
 .method public static rk(Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;Landroid/graphics/Path;)V
     .locals 12
 
-    .line 4
     invoke-virtual {p1}, Landroid/graphics/Path;->reset()V
 
-    .line 5
     invoke-virtual {p0}, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->rk()Landroid/graphics/PointF;
 
     move-result-object v0
 
-    .line 6
     iget v1, v0, Landroid/graphics/PointF;->x:F
 
     iget v2, v0, Landroid/graphics/PointF;->y:F
 
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Path;->moveTo(FF)V
 
-    .line 7
     sget-object v1, Lcom/bytedance/adsdk/fFV/lG/rQf;->rk:Landroid/graphics/PointF;
 
     iget v2, v0, Landroid/graphics/PointF;->x:F
@@ -220,7 +203,6 @@
 
     const/4 v0, 0x0
 
-    .line 8
     :goto_0
     invoke-virtual {p0}, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->aAs()Ljava/util/List;
 
@@ -232,7 +214,6 @@
 
     if-ge v0, v1, :cond_1
 
-    .line 9
     invoke-virtual {p0}, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->aAs()Ljava/util/List;
 
     move-result-object v1
@@ -241,24 +222,20 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/bytedance/adsdk/fFV/aAs/rk;
+    check-cast v1, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;
 
-    .line 10
-    invoke-virtual {v1}, Lcom/bytedance/adsdk/fFV/aAs/rk;->rk()Landroid/graphics/PointF;
+    invoke-virtual {v1}, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;->rk()Landroid/graphics/PointF;
 
     move-result-object v2
 
-    .line 11
-    invoke-virtual {v1}, Lcom/bytedance/adsdk/fFV/aAs/rk;->fFV()Landroid/graphics/PointF;
+    invoke-virtual {v1}, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;->fFV()Landroid/graphics/PointF;
 
     move-result-object v3
 
-    .line 12
-    invoke-virtual {v1}, Lcom/bytedance/adsdk/fFV/aAs/rk;->aAs()Landroid/graphics/PointF;
+    invoke-virtual {v1}, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;->aAs()Landroid/graphics/PointF;
 
     move-result-object v1
 
-    .line 13
     sget-object v4, Lcom/bytedance/adsdk/fFV/lG/rQf;->rk:Landroid/graphics/PointF;
 
     invoke-virtual {v2, v4}, Landroid/graphics/PointF;->equals(Ljava/lang/Object;)Z
@@ -273,7 +250,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 14
     iget v2, v1, Landroid/graphics/PointF;->x:F
 
     iget v3, v1, Landroid/graphics/PointF;->y:F
@@ -282,7 +258,6 @@
 
     goto :goto_1
 
-    .line 15
     :cond_0
     iget v6, v2, Landroid/graphics/PointF;->x:F
 
@@ -300,7 +275,6 @@
 
     invoke-virtual/range {v5 .. v11}, Landroid/graphics/Path;->cubicTo(FFFFFF)V
 
-    .line 16
     :goto_1
     iget v2, v1, Landroid/graphics/PointF;->x:F
 
@@ -312,7 +286,6 @@
 
     goto :goto_0
 
-    .line 17
     :cond_1
     invoke-virtual {p0}, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->fFV()Z
 
@@ -320,7 +293,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 18
     invoke-virtual {p1}, Landroid/graphics/Path;->close()V
 
     :cond_2

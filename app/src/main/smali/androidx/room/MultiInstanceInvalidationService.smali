@@ -10,50 +10,37 @@
 
 .field final c:Landroid/os/RemoteCallbackList;
 
-.field private final d:Landroidx/room/c$a;
+.field private final d:Landroidx/room/CRA$AC1;
 
 
 # direct methods
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroid/app/Service;-><init>()V
 
-    .line 4
     const/4 v0, 0x0
 
-    .line 5
     iput v0, p0, Landroidx/room/MultiInstanceInvalidationService;->a:I
 
-    .line 7
     new-instance v0, Ljava/util/HashMap;
 
-    .line 9
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 12
     iput-object v0, p0, Landroidx/room/MultiInstanceInvalidationService;->b:Ljava/util/HashMap;
 
-    .line 14
-    new-instance v0, Landroidx/room/MultiInstanceInvalidationService$a;
+    new-instance v0, Landroidx/room/MultiInstanceInvalidationService$AM1;
 
-    .line 16
-    invoke-direct {v0, p0}, Landroidx/room/MultiInstanceInvalidationService$a;-><init>(Landroidx/room/MultiInstanceInvalidationService;)V
+    invoke-direct {v0, p0}, Landroidx/room/MultiInstanceInvalidationService$AM1;-><init>(Landroidx/room/MultiInstanceInvalidationService;)V
 
-    .line 19
     iput-object v0, p0, Landroidx/room/MultiInstanceInvalidationService;->c:Landroid/os/RemoteCallbackList;
 
-    .line 21
-    new-instance v0, Landroidx/room/MultiInstanceInvalidationService$b;
+    new-instance v0, Landroidx/room/MultiInstanceInvalidationService$BM1;
 
-    .line 23
-    invoke-direct {v0, p0}, Landroidx/room/MultiInstanceInvalidationService$b;-><init>(Landroidx/room/MultiInstanceInvalidationService;)V
+    invoke-direct {v0, p0}, Landroidx/room/MultiInstanceInvalidationService$BM1;-><init>(Landroidx/room/MultiInstanceInvalidationService;)V
 
-    .line 26
-    iput-object v0, p0, Landroidx/room/MultiInstanceInvalidationService;->d:Landroidx/room/c$a;
+    iput-object v0, p0, Landroidx/room/MultiInstanceInvalidationService;->d:Landroidx/room/CRA$AC1;
 
-    .line 28
     return-void
 .end method
 
@@ -62,9 +49,7 @@
 .method public onBind(Landroid/content/Intent;)Landroid/os/IBinder;
     .locals 0
 
-    .line 1
-    iget-object p1, p0, Landroidx/room/MultiInstanceInvalidationService;->d:Landroidx/room/c$a;
+    iget-object p1, p0, Landroidx/room/MultiInstanceInvalidationService;->d:Landroidx/room/CRA$AC1;
 
-    .line 3
     return-object p1
 .end method

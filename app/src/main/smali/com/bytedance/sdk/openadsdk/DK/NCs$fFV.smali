@@ -24,34 +24,25 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     const/16 v0, 0x12c
 
-    .line 6
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/DK/NCs$fFV;->rk:I
 
-    .line 8
     const/16 v0, 0x1770
 
-    .line 10
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/DK/NCs$fFV;->fFV:I
 
-    .line 12
     return-void
 .end method
 
 .method public static rk()Lcom/bytedance/sdk/openadsdk/DK/NCs$fFV;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/bytedance/sdk/openadsdk/DK/NCs$fFV;
 
-    .line 3
     invoke-direct {v0}, Lcom/bytedance/sdk/openadsdk/DK/NCs$fFV;-><init>()V
 
-    .line 6
     return-object v0
 .end method

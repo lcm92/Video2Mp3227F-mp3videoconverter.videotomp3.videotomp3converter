@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/bytedance/sdk/openadsdk/utils/rET$rk;
+        Lcom/bytedance/sdk/openadsdk/utils/rET$RKR1;
     }
 .end annotation
 
@@ -40,149 +40,106 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-string v0, "amigo"
 
-    .line 3
     sput-object v0, Lcom/bytedance/sdk/openadsdk/utils/rET;->aAs:Ljava/lang/CharSequence;
 
-    .line 5
     const-string v0, "funtouch"
 
-    .line 7
     sput-object v0, Lcom/bytedance/sdk/openadsdk/utils/rET;->DK:Ljava/lang/CharSequence;
 
-    .line 9
     new-instance v0, Ljava/util/concurrent/ConcurrentHashMap;
 
-    .line 11
     invoke-direct {v0}, Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
 
-    .line 14
     sput-object v0, Lcom/bytedance/sdk/openadsdk/utils/rET;->Yp:Ljava/util/concurrent/ConcurrentHashMap;
 
-    .line 16
     return-void
 .end method
 
 .method public static AXL()Z
     .locals 2
 
-    .line 1
     sget-object v0, Landroid/os/Build;->MANUFACTURER:Ljava/lang/String;
 
-    .line 3
     const-string v1, "smartisan"
 
-    .line 5
     invoke-virtual {v1, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
-    .line 8
     move-result v0
 
-    .line 9
     if-nez v0, :cond_1
 
-    .line 11
     sget-object v0, Landroid/os/Build;->BRAND:Ljava/lang/String;
 
-    .line 13
     invoke-virtual {v1, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
-    .line 16
     move-result v0
 
-    .line 17
     if-eqz v0, :cond_0
 
-    .line 19
     goto :goto_0
 
-    .line 20
     :cond_0
     const/4 v0, 0x0
 
-    .line 21
     return v0
 
-    .line 22
     :cond_1
     :goto_0
     const/4 v0, 0x1
 
-    .line 23
     return v0
 .end method
 
 .method public static ArD()Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->nP()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     if-eqz v0, :cond_0
 
-    .line 7
     new-instance v0, Ljava/lang/StringBuilder;
 
-    .line 9
     const-string v1, "eui_"
 
-    .line 11
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 14
     const-string v1, "ro.letv.release.version"
 
-    .line 16
     invoke-static {v1}, Lcom/bytedance/sdk/openadsdk/utils/rET;->DK(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 19
     move-result-object v1
 
-    .line 20
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 23
     const-string v1, "_"
 
-    .line 25
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 28
     sget-object v1, Landroid/os/Build;->DISPLAY:Ljava/lang/String;
 
-    .line 30
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 33
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 36
     move-result-object v0
 
-    .line 37
     return-object v0
 
-    .line 38
     :cond_0
     const-string v0, ""
 
-    .line 40
     return-object v0
 .end method
 
 .method private static DK(Ljava/lang/String;)Ljava/lang/String;
     .locals 4
 
-    .line 5
     const-string v0, ""
 
-    .line 6
     sget-object v1, Lcom/bytedance/sdk/openadsdk/utils/rET;->Yp:Ljava/util/concurrent/ConcurrentHashMap;
 
     invoke-virtual {v1, p0}, Ljava/util/concurrent/ConcurrentHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -195,7 +152,6 @@
 
     return-object v1
 
-    .line 7
     :cond_0
     :try_start_0
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -204,12 +160,10 @@
 
     if-eqz v1, :cond_1
 
-    .line 8
-    new-instance v1, Lcom/bytedance/sdk/openadsdk/utils/rET$rk;
+    new-instance v1, Lcom/bytedance/sdk/openadsdk/utils/rET$RKR1;
 
-    invoke-direct {v1, p0}, Lcom/bytedance/sdk/openadsdk/utils/rET$rk;-><init>(Ljava/lang/String;)V
+    invoke-direct {v1, p0}, Lcom/bytedance/sdk/openadsdk/utils/rET$RKR1;-><init>(Ljava/lang/String;)V
 
-    .line 9
     new-instance p0, Lcom/bytedance/sdk/component/pw/Yp;
 
     const/4 v2, 0x5
@@ -218,16 +172,14 @@
 
     invoke-direct {p0, v1, v2, v3}, Lcom/bytedance/sdk/component/pw/Yp;-><init>(Ljava/util/concurrent/Callable;II)V
 
-    .line 10
     new-instance v1, Lcom/bytedance/sdk/openadsdk/utils/rET$1;
 
     const-string v2, "_getSystemPropertyTask"
 
     invoke-direct {v1, v2, p0}, Lcom/bytedance/sdk/openadsdk/utils/rET$1;-><init>(Ljava/lang/String;Lcom/bytedance/sdk/component/pw/Yp;)V
 
-    invoke-static {v1}, Lcom/bytedance/sdk/openadsdk/utils/hWw;->fFV(Lcom/bytedance/sdk/component/pw/pw;)V
+    invoke-static {v1}, Lcom/bytedance/sdk/openadsdk/utils/hWw;->fFV(Lcom/bytedance/sdk/component/pw/PWPCC;)V
 
-    .line 11
     sget-object v1, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
 
     const-wide/16 v2, 0x1
@@ -261,7 +213,6 @@
 .method public static DK()Z
     .locals 3
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -278,7 +229,6 @@
 
     move-result-object v0
 
-    .line 2
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -289,13 +239,11 @@
 
     return v2
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4
     const-string v1, "360"
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
@@ -327,157 +275,110 @@
 .method static synthetic HmR()Ljava/util/concurrent/ConcurrentHashMap;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bytedance/sdk/openadsdk/utils/rET;->Yp:Ljava/util/concurrent/ConcurrentHashMap;
 
-    .line 3
     return-object v0
 .end method
 
 .method public static KIc()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->KR()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     if-eqz v0, :cond_0
 
-    .line 7
     const-string v0, "ro.build.version.kllkrom"
 
-    .line 9
     invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/utils/NmB;->Yp(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 12
     move-result-object v0
 
-    .line 13
     new-instance v1, Ljava/lang/StringBuilder;
 
-    .line 15
     const-string v2, "coloros_"
 
-    .line 17
     invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 20
     invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/utils/rET;->DK(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 23
     move-result-object v0
 
-    .line 24
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 27
     const-string v0, "_"
 
-    .line 29
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 32
     sget-object v0, Landroid/os/Build;->DISPLAY:Ljava/lang/String;
 
-    .line 34
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 37
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 40
     move-result-object v0
 
-    .line 41
     return-object v0
 
-    .line 42
     :cond_0
     const-string v0, ""
 
-    .line 44
     return-object v0
 .end method
 
 .method public static KR()Z
     .locals 5
 
-    .line 1
     sget v0, Lcom/bytedance/sdk/openadsdk/utils/rET;->lG:I
 
-    .line 3
     const v1, 0x7fffffff
 
-    .line 6
     const/4 v2, 0x0
 
-    .line 7
     const/4 v3, 0x1
 
-    .line 8
     if-ne v0, v1, :cond_1
 
-    .line 10
     sget-object v0, Landroid/os/Build;->MANUFACTURER:Ljava/lang/String;
 
-    .line 12
     const-string v1, "kllk"
 
-    .line 14
     invoke-static {v1}, Lcom/bytedance/sdk/openadsdk/utils/NmB;->Yp(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 17
     move-result-object v1
 
-    .line 18
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 21
     move-result v4
 
-    .line 22
     if-nez v4, :cond_0
 
-    .line 24
     invoke-virtual {v0}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
-    .line 27
     move-result-object v0
 
-    .line 28
     invoke-virtual {v0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-    .line 31
     move-result v0
 
-    .line 32
     if-eqz v0, :cond_0
 
-    .line 34
     sput v3, Lcom/bytedance/sdk/openadsdk/utils/rET;->lG:I
 
-    .line 36
     goto :goto_0
 
-    .line 37
     :cond_0
     sput v2, Lcom/bytedance/sdk/openadsdk/utils/rET;->lG:I
 
-    .line 39
     :cond_1
     :goto_0
     sget v0, Lcom/bytedance/sdk/openadsdk/utils/rET;->lG:I
 
-    .line 41
     if-ne v0, v3, :cond_2
 
-    .line 43
     return v3
 
-    .line 44
     :cond_2
     return v2
 .end method
@@ -485,209 +386,148 @@
 .method public static NCs()Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->rQf()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     if-eqz v0, :cond_0
 
-    .line 7
     new-instance v0, Ljava/lang/StringBuilder;
 
-    .line 9
     const-string v1, "miui_"
 
-    .line 11
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 14
     const-string v1, "ro.miui.ui.version.name"
 
-    .line 16
     invoke-static {v1}, Lcom/bytedance/sdk/openadsdk/utils/rET;->DK(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 19
     move-result-object v1
 
-    .line 20
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 23
     const-string v1, "_"
 
-    .line 25
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 28
     sget-object v1, Landroid/os/Build$VERSION;->INCREMENTAL:Ljava/lang/String;
 
-    .line 30
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 33
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 36
     move-result-object v0
 
-    .line 37
     return-object v0
 
-    .line 38
     :cond_0
     const-string v0, ""
 
-    .line 40
     return-object v0
 .end method
 
 .method public static Pa()Ljava/lang/String;
     .locals 1
 
-    .line 1
     const-string v0, "ro.build.version.emui"
 
-    .line 3
     invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/utils/rET;->DK(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 6
     move-result-object v0
 
-    .line 7
     return-object v0
 .end method
 
 .method public static Yp()Z
     .locals 2
 
-    .line 1
     const-string v0, "ro.vivo.os.build.display.id"
 
-    .line 3
     invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/utils/rET;->DK(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 6
     move-result-object v0
 
-    .line 7
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 10
     move-result v1
 
-    .line 11
     if-nez v1, :cond_0
 
-    .line 13
     invoke-virtual {v0}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
-    .line 16
     move-result-object v0
 
-    .line 17
     sget-object v1, Lcom/bytedance/sdk/openadsdk/utils/rET;->DK:Ljava/lang/CharSequence;
 
-    .line 19
     invoke-virtual {v0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-    .line 22
     move-result v0
 
-    .line 23
     if-eqz v0, :cond_0
 
-    .line 25
     const/4 v0, 0x1
 
-    .line 26
     return v0
 
-    .line 27
     :cond_0
     const/4 v0, 0x0
 
-    .line 28
     return v0
 .end method
 
 .method public static ZQ()Z
     .locals 4
 
-    .line 1
     const/4 v0, 0x0
 
-    .line 2
     :try_start_0
     sget-object v1, Landroid/os/Build;->BRAND:Ljava/lang/String;
 
-    .line 4
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 7
     move-result v2
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 8
     const-string v3, "huawei"
 
-    .line 10
     if-nez v2, :cond_0
 
-    .line 12
     :try_start_1
     invoke-virtual {v1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
-    .line 15
     move-result-object v1
 
-    .line 16
     invoke-virtual {v1, v3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
-    .line 19
     move-result v1
 
-    .line 20
     if-nez v1, :cond_1
 
-    .line 22
     :cond_0
     sget-object v1, Landroid/os/Build;->MANUFACTURER:Ljava/lang/String;
 
-    .line 24
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 27
     move-result v2
 
-    .line 28
     if-nez v2, :cond_2
 
-    .line 30
     invoke-virtual {v1}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
-    .line 33
     move-result-object v1
 
-    .line 34
     invoke-virtual {v1, v3}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
 
-    .line 37
     move-result v1
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 38
     if-eqz v1, :cond_2
 
-    .line 40
     :cond_1
     const/4 v0, 0x1
 
-    .line 41
     :catchall_0
     :cond_2
     return v0
@@ -696,7 +536,6 @@
 .method public static aAs()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -727,7 +566,6 @@
 .method private static aAs(Ljava/lang/String;)Ljava/lang/String;
     .locals 8
 
-    .line 2
     const-string v0, "Exception while closing InputStream"
 
     const-string v1, "ToolUtils"
@@ -736,7 +574,6 @@
 
     const/4 v3, 0x0
 
-    .line 3
     :try_start_0
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
@@ -759,13 +596,11 @@
     .catch Ljava/lang/IllegalThreadStateException; {:try_start_0 .. :try_end_0} :catch_5
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 4
     :try_start_1
     new-instance v5, Ljava/io/BufferedReader;
 
     new-instance v6, Ljava/io/InputStreamReader;
 
-    .line 5
     invoke-virtual {v4}, Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
 
     move-result-object v7
@@ -779,19 +614,16 @@
     .catch Ljava/lang/IllegalThreadStateException; {:try_start_1 .. :try_end_1} :catch_2
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 6
     :try_start_2
     invoke-virtual {v5}, Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 7
     invoke-virtual {v4}, Ljava/lang/Process;->exitValue()I
     :try_end_2
     .catch Ljava/lang/IllegalThreadStateException; {:try_start_2 .. :try_end_2} :catch_1
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 8
     :try_start_3
     invoke-virtual {v5}, Ljava/io/BufferedReader;->close()V
     :try_end_3
@@ -802,7 +634,6 @@
     :catch_0
     move-exception p0
 
-    .line 9
     invoke-static {v1, v0, p0}, Lcom/bytedance/sdk/component/utils/ZQ;->rk(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     goto :goto_5
@@ -832,7 +663,6 @@
 
     goto :goto_0
 
-    .line 10
     :goto_1
     :try_start_4
     const-string v4, "Unable to read sysprop "
@@ -851,7 +681,6 @@
 
     if-eqz v5, :cond_0
 
-    .line 11
     :try_start_5
     invoke-virtual {v5}, Ljava/io/BufferedReader;->close()V
     :try_end_5
@@ -862,7 +691,6 @@
     :catch_3
     move-exception p0
 
-    .line 12
     invoke-static {v1, v0, p0}, Lcom/bytedance/sdk/component/utils/ZQ;->rk(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
@@ -874,7 +702,6 @@
 
     if-eqz v5, :cond_1
 
-    .line 13
     :try_start_6
     invoke-virtual {v5}, Ljava/io/BufferedReader;->close()V
     :try_end_6
@@ -885,10 +712,8 @@
     :catch_4
     move-exception v2
 
-    .line 14
     invoke-static {v1, v0, v2}, Lcom/bytedance/sdk/component/utils/ZQ;->rk(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 15
     :cond_1
     :goto_3
     throw p0
@@ -896,7 +721,6 @@
     :catch_5
     move-object v5, v3
 
-    .line 16
     :goto_4
     :try_start_7
     invoke-virtual {v3}, Ljava/lang/Process;->destroy()V
@@ -906,7 +730,6 @@
     :catchall_3
     if-eqz v5, :cond_2
 
-    .line 17
     :try_start_8
     invoke-virtual {v5}, Ljava/io/BufferedReader;->close()V
     :try_end_8
@@ -920,7 +743,6 @@
 .method static synthetic fFV(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     invoke-static {p0}, Lcom/bytedance/sdk/openadsdk/utils/rET;->aAs(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -931,7 +753,6 @@
 .method public static fFV()Z
     .locals 2
 
-    .line 2
     sget-object v0, Landroid/os/Build;->DISPLAY:Ljava/lang/String;
 
     const-string v1, "Flyme"
@@ -969,493 +790,348 @@
 .method private static gLo()Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->AXL()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     if-eqz v0, :cond_0
 
-    .line 7
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->kEa()Ljava/lang/String;
 
-    .line 10
     move-result-object v0
 
-    .line 11
     return-object v0
 
-    .line 12
     :cond_0
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->rQf()Z
 
-    .line 15
     move-result v0
 
-    .line 16
     if-eqz v0, :cond_1
 
-    .line 18
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->NCs()Ljava/lang/String;
 
-    .line 21
     move-result-object v0
 
-    .line 22
     return-object v0
 
-    .line 23
     :cond_1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->fFV()Z
 
-    .line 26
     move-result v0
 
-    .line 27
     if-eqz v0, :cond_2
 
-    .line 29
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->lgt()Ljava/lang/String;
 
-    .line 32
     move-result-object v0
 
-    .line 33
     return-object v0
 
-    .line 34
     :cond_2
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->KR()Z
 
-    .line 37
     move-result v0
 
-    .line 38
     if-eqz v0, :cond_3
 
-    .line 40
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->KIc()Ljava/lang/String;
 
-    .line 43
     move-result-object v0
 
-    .line 44
     return-object v0
 
-    .line 45
     :cond_3
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->woP()Ljava/lang/String;
 
-    .line 48
     move-result-object v0
 
-    .line 49
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 52
     move-result v1
 
-    .line 53
     if-nez v1, :cond_4
 
-    .line 55
     return-object v0
 
-    .line 56
     :cond_4
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->Yp()Z
 
-    .line 59
     move-result v0
 
-    .line 60
     if-eqz v0, :cond_5
 
-    .line 62
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->lG()Ljava/lang/String;
 
-    .line 65
     move-result-object v0
 
-    .line 66
     return-object v0
 
-    .line 67
     :cond_5
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->pw()Z
 
-    .line 70
     move-result v0
 
-    .line 71
     if-eqz v0, :cond_6
 
-    .line 73
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->ppR()Ljava/lang/String;
 
-    .line 76
     move-result-object v0
 
-    .line 77
     return-object v0
 
-    .line 78
     :cond_6
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->DK()Z
 
-    .line 81
     move-result v0
 
-    .line 82
     if-eqz v0, :cond_7
 
-    .line 84
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->aAs()Ljava/lang/String;
 
-    .line 87
     move-result-object v0
 
-    .line 88
     return-object v0
 
-    .line 89
     :cond_7
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->ArD()Ljava/lang/String;
 
-    .line 92
     move-result-object v0
 
-    .line 93
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 96
     move-result v1
 
-    .line 97
     if-nez v1, :cond_8
 
-    .line 99
     return-object v0
 
-    .line 100
     :cond_8
     sget-object v0, Landroid/os/Build;->DISPLAY:Ljava/lang/String;
 
-    .line 102
     return-object v0
 .end method
 
 .method public static kEa()Ljava/lang/String;
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->AXL()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     if-eqz v0, :cond_0
 
-    .line 7
     :try_start_0
     const-string v0, "ro.smartisan.version"
 
-    .line 9
     invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/utils/rET;->DK(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 12
     move-result-object v0
 
-    .line 13
     const-string v1, "smartisan_"
 
-    .line 15
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
-    .line 18
     move-result-object v0
 
-    .line 19
     invoke-virtual {v1, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 22
     move-result-object v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 23
     return-object v0
 
-    .line 24
     :catchall_0
     :cond_0
     sget-object v0, Landroid/os/Build;->DISPLAY:Ljava/lang/String;
 
-    .line 26
     return-object v0
 .end method
 
 .method public static lG()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 6
     const-string v1, "ro.vivo.os.build.display.id"
 
-    .line 8
     invoke-static {v1}, Lcom/bytedance/sdk/openadsdk/utils/rET;->DK(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 11
     move-result-object v1
 
-    .line 12
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 15
     const-string v1, "_"
 
-    .line 17
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 20
     const-string v1, "ro.vivo.product.version"
 
-    .line 22
     invoke-static {v1}, Lcom/bytedance/sdk/openadsdk/utils/rET;->DK(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 25
     move-result-object v1
 
-    .line 26
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 29
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 32
     move-result-object v0
 
-    .line 33
     return-object v0
 .end method
 
 .method public static lgt()Ljava/lang/String;
     .locals 3
 
-    .line 1
     sget-object v0, Landroid/os/Build;->DISPLAY:Ljava/lang/String;
 
-    .line 3
     if-eqz v0, :cond_0
 
-    .line 5
     invoke-virtual {v0}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
-    .line 8
     move-result-object v1
 
-    .line 9
     const-string v2, "flyme"
 
-    .line 11
     invoke-virtual {v1, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-    .line 14
     move-result v1
 
-    .line 15
     if-eqz v1, :cond_0
 
-    .line 17
     return-object v0
 
-    .line 18
     :cond_0
     const-string v0, ""
 
-    .line 20
     return-object v0
 .end method
 
 .method public static nP()Z
     .locals 1
 
-    .line 1
     const-string v0, "ro.letv.release.version"
 
-    .line 3
     invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/utils/rET;->DK(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 6
     move-result-object v0
 
-    .line 7
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 10
     move-result v0
 
-    .line 11
     if-nez v0, :cond_0
 
-    .line 13
     const/4 v0, 0x1
 
-    .line 14
     return v0
 
-    .line 15
     :cond_0
     const/4 v0, 0x0
 
-    .line 16
     return v0
 .end method
 
 .method public static ppR()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 6
     sget-object v1, Landroid/os/Build;->DISPLAY:Ljava/lang/String;
 
-    .line 8
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     const-string v1, "_"
 
-    .line 13
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 16
     const-string v1, "ro.gn.sv.version"
 
-    .line 18
     invoke-static {v1}, Lcom/bytedance/sdk/openadsdk/utils/rET;->DK(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 21
     move-result-object v1
 
-    .line 22
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 25
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 28
     move-result-object v0
 
-    .line 29
     return-object v0
 .end method
 
 .method public static pw()Z
     .locals 2
 
-    .line 1
     sget-object v0, Landroid/os/Build;->DISPLAY:Ljava/lang/String;
 
-    .line 3
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 6
     move-result v1
 
-    .line 7
     if-nez v1, :cond_0
 
-    .line 9
     invoke-virtual {v0}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
-    .line 12
     move-result-object v0
 
-    .line 13
     sget-object v1, Lcom/bytedance/sdk/openadsdk/utils/rET;->aAs:Ljava/lang/CharSequence;
 
-    .line 15
     invoke-virtual {v0, v1}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-    .line 18
     move-result v0
 
-    .line 19
     if-eqz v0, :cond_0
 
-    .line 21
     const/4 v0, 0x1
 
-    .line 22
     return v0
 
-    .line 23
     :cond_0
     const/4 v0, 0x0
 
-    .line 24
     return v0
 .end method
 
 .method public static rQf()Z
     .locals 2
 
-    .line 1
     sget-boolean v0, Lcom/bytedance/sdk/openadsdk/utils/rET;->fFV:Z
 
-    .line 3
     if-nez v0, :cond_0
 
-    .line 5
     const/4 v0, 0x1
 
-    .line 6
     :try_start_0
     const-string v1, "miui.os.Build"
 
-    .line 8
     invoke-static {v1}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
 
-    .line 11
     sput-boolean v0, Lcom/bytedance/sdk/openadsdk/utils/rET;->rk:Z
 
-    .line 13
     sput-boolean v0, Lcom/bytedance/sdk/openadsdk/utils/rET;->fFV:Z
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 15
     return v0
 
-    .line 16
     :catch_0
     sput-boolean v0, Lcom/bytedance/sdk/openadsdk/utils/rET;->fFV:Z
 
-    .line 18
     :cond_0
     sget-boolean v0, Lcom/bytedance/sdk/openadsdk/utils/rET;->rk:Z
 
-    .line 20
     return v0
 .end method
 
 .method public static rk()Ljava/lang/String;
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/bytedance/sdk/openadsdk/utils/rET;->rQf:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1464,7 +1140,6 @@
 
     if-nez v0, :cond_0
 
-    .line 2
     sget-object v0, Lcom/bytedance/sdk/openadsdk/utils/rET;->rQf:Ljava/lang/String;
 
     return-object v0
@@ -1472,14 +1147,12 @@
     :cond_0
     const-wide/32 v0, 0x240c8400
 
-    .line 3
     const-string v2, "sdk_local_rom_info"
 
     invoke-static {v2, v0, v1}, Lcom/bytedance/sdk/openadsdk/core/ppR;->rk(Ljava/lang/String;J)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 4
     sput-object v0, Lcom/bytedance/sdk/openadsdk/utils/rET;->rQf:Ljava/lang/String;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -1488,17 +1161,14 @@
 
     if-eqz v0, :cond_1
 
-    .line 5
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->gLo()Ljava/lang/String;
 
     move-result-object v0
 
     sput-object v0, Lcom/bytedance/sdk/openadsdk/utils/rET;->rQf:Ljava/lang/String;
 
-    .line 6
     invoke-static {v2, v0}, Lcom/bytedance/sdk/openadsdk/core/ppR;->rk(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     :cond_1
     sget-object v0, Lcom/bytedance/sdk/openadsdk/utils/rET;->rQf:Ljava/lang/String;
 
@@ -1508,19 +1178,16 @@
 .method public static rk(Ljava/lang/String;)Z
     .locals 1
 
-    .line 8
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 9
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->Pa()Ljava/lang/String;
 
     move-result-object p0
 
-    .line 10
     :cond_0
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1561,67 +1228,46 @@
 .method public static woP()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/rET;->Pa()Ljava/lang/String;
 
-    .line 4
     move-result-object v0
 
-    .line 5
     if-eqz v0, :cond_0
 
-    .line 7
     invoke-virtual {v0}, Ljava/lang/String;->toLowerCase()Ljava/lang/String;
 
-    .line 10
     move-result-object v1
 
-    .line 11
     const-string v2, "emotionui"
 
-    .line 13
     invoke-virtual {v1, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-    .line 16
     move-result v1
 
-    .line 17
     if-eqz v1, :cond_0
 
-    .line 19
     new-instance v1, Ljava/lang/StringBuilder;
 
-    .line 21
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 24
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 27
     const-string v0, "_"
 
-    .line 29
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 32
     sget-object v0, Landroid/os/Build;->DISPLAY:Ljava/lang/String;
 
-    .line 34
     invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 37
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 40
     move-result-object v0
 
-    .line 41
     return-object v0
 
-    .line 42
     :cond_0
     const-string v0, ""
 
-    .line 44
     return-object v0
 .end method

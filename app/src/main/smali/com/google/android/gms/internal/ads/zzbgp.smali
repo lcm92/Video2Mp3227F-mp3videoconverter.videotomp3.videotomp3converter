@@ -19,7 +19,7 @@
 .method public abstract zze()Landroid/net/Uri;
 .end method
 
-.method public abstract zzf()Ljl0;
+.method public abstract zzf()Ldef/JL0;
 .end method
 
 .method public abstract zzg()Ljava/util/Map;

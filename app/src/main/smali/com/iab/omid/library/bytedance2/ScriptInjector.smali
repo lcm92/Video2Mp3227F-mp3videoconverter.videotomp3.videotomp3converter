@@ -15,7 +15,7 @@
 .method public static injectScriptContentIntoHtml(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    invoke-static {p0, p1}, Lcom/iab/omid/library/bytedance2/c;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, p1}, Lcom/iab/omid/library/bytedance2/CBLC;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 

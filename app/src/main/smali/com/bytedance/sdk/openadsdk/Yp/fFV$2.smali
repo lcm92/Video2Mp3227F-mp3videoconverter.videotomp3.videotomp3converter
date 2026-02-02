@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x8
-    name = null
+    name = "2"
 .end annotation
 
 
@@ -31,12 +31,9 @@
 .method public getThreadPool()Ljava/util/concurrent/ExecutorService;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/hWw;->rQf()Ljava/util/concurrent/ExecutorService;
 
-    .line 4
     move-result-object v0
 
-    .line 5
     return-object v0
 .end method

@@ -7,16 +7,14 @@
 
 
 # direct methods
-.method public static rk(Landroid/content/Context;Ljava/lang/String;Lav;Landroid/net/Uri;)V
+.method public static rk(Landroid/content/Context;Ljava/lang/String;Ldef/AV;Landroid/net/Uri;)V
     .locals 1
 
-    .line 1
-    iget-object v0, p2, Lav;->a:Landroid/content/Intent;
+    iget-object v0, p2, Ldef/AV;->a:Landroid/content/Intent;
 
     invoke-virtual {v0, p1}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
-    .line 2
-    invoke-virtual {p2, p0, p3}, Lav;->a(Landroid/content/Context;Landroid/net/Uri;)V
+    invoke-virtual {p2, p0, p3}, Ldef/AV;->a(Landroid/content/Context;Landroid/net/Uri;)V
 
     return-void
 .end method
@@ -28,15 +26,13 @@
 
     const/4 v0, 0x0
 
-    .line 4
     throw v0
 .end method
 
-.method public rk(Lzu;)V
+.method public rk(Ldef/ZU;)V
     .locals 0
 
     const/4 p1, 0x0
 
-    .line 3
     throw p1
 .end method

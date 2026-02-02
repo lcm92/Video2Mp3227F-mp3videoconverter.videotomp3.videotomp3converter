@@ -7,5 +7,5 @@
 
 
 # virtual methods
-.method public abstract zzb(Ljava/lang/Object;)Lmt0;
+.method public abstract zzb(Ljava/lang/Object;)Ldef/MT0;
 .end method

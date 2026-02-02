@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "1"
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
@@ -36,13 +36,10 @@
 .method constructor <init>(Lcom/bytedance/adsdk/fFV/KR;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/adsdk/fFV/KR$1;->rk:Lcom/bytedance/adsdk/fFV/KR;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method
 
@@ -51,19 +48,14 @@
 .method public synthetic compare(Ljava/lang/Object;Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p1, Landroid/util/Pair;
 
-    .line 3
     check-cast p2, Landroid/util/Pair;
 
-    .line 5
     invoke-virtual {p0, p1, p2}, Lcom/bytedance/adsdk/fFV/KR$1;->rk(Landroid/util/Pair;Landroid/util/Pair;)I
 
-    .line 8
     move-result p1
 
-    .line 9
     return p1
 .end method
 
@@ -83,59 +75,41 @@
         }
     .end annotation
 
-    .line 1
     iget-object p1, p1, Landroid/util/Pair;->second:Ljava/lang/Object;
 
-    .line 3
     check-cast p1, Ljava/lang/Float;
 
-    .line 5
     invoke-virtual {p1}, Ljava/lang/Float;->floatValue()F
 
-    .line 8
     move-result p1
 
-    .line 9
     iget-object p2, p2, Landroid/util/Pair;->second:Ljava/lang/Object;
 
-    .line 11
     check-cast p2, Ljava/lang/Float;
 
-    .line 13
     invoke-virtual {p2}, Ljava/lang/Float;->floatValue()F
 
-    .line 16
     move-result p2
 
-    .line 17
     cmpl-float v0, p2, p1
 
-    .line 19
     if-lez v0, :cond_0
 
-    .line 21
     const/4 p1, 0x1
 
-    .line 22
     return p1
 
-    .line 23
     :cond_0
     cmpl-float p1, p1, p2
 
-    .line 25
     if-lez p1, :cond_1
 
-    .line 27
     const/4 p1, -0x1
 
-    .line 28
     return p1
 
-    .line 29
     :cond_1
     const/4 p1, 0x0
 
-    .line 30
     return p1
 .end method

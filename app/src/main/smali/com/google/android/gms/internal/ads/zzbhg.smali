@@ -19,10 +19,10 @@
 .method public abstract zze()Lcom/google/android/gms/internal/ads/zzbgp;
 .end method
 
-.method public abstract zzf()Ljl0;
+.method public abstract zzf()Ldef/JL0;
 .end method
 
-.method public abstract zzg()Ljl0;
+.method public abstract zzg()Ldef/JL0;
 .end method
 
 .method public abstract zzh()Ljava/lang/String;

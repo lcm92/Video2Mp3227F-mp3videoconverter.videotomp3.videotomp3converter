@@ -73,7 +73,6 @@
 
     move-object/from16 v10, p6
 
-    .line 1
     invoke-direct/range {v2 .. v10}, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;-><init>(IIIJZZLjava/io/File;)V
 
     return-void
@@ -82,28 +81,20 @@
 .method public constructor <init>(IIIJZZLjava/io/File;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-wide p4, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->rk:J
 
-    .line 4
     iput p1, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->fFV:I
 
-    .line 5
     iput p2, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->aAs:I
 
-    .line 6
     iput p3, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->DK:I
 
-    .line 7
     iput-boolean p6, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->rQf:Z
 
-    .line 8
     iput-boolean p7, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->lG:Z
 
-    .line 9
     iput-object p8, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->pw:Ljava/io/File;
 
     if-eqz p3, :cond_0
@@ -115,7 +106,6 @@
     :cond_0
     const/4 p1, 0x0
 
-    .line 10
     :goto_0
     iput-boolean p1, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->Yp:Z
 
@@ -125,20 +115,16 @@
 .method public static ArD()Lcom/bytedance/sdk/component/rQf/fFV;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->ppR:Lcom/bytedance/sdk/component/rQf/fFV;
 
-    .line 3
     return-object v0
 .end method
 
 .method public static rk(Ljava/io/File;)Lcom/bytedance/sdk/component/rQf/fFV;
     .locals 11
 
-    .line 5
     invoke-virtual {p0}, Ljava/io/File;->mkdirs()Z
 
-    .line 6
     sget-object v0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->ppR:Lcom/bytedance/sdk/component/rQf/fFV;
 
     if-nez v0, :cond_0
@@ -158,7 +144,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_0
     sget-object v0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->ppR:Lcom/bytedance/sdk/component/rQf/fFV;
 
@@ -166,14 +151,12 @@
 
     move-result-wide v2
 
-    .line 8
     sget-object v0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->ppR:Lcom/bytedance/sdk/component/rQf/fFV;
 
     invoke-interface {v0}, Lcom/bytedance/sdk/component/rQf/fFV;->aAs()I
 
     move-result v0
 
-    .line 9
     sget-object v1, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->ppR:Lcom/bytedance/sdk/component/rQf/fFV;
 
     invoke-interface {v1}, Lcom/bytedance/sdk/component/rQf/fFV;->DK()I
@@ -182,7 +165,6 @@
 
     goto :goto_0
 
-    .line 10
     :goto_1
     new-instance v0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;
 
@@ -202,12 +184,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     sput-object p1, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->ppR:Lcom/bytedance/sdk/component/rQf/fFV;
 
     return-void
 
-    .line 3
     :cond_0
     new-instance p1, Ljava/io/File;
 
@@ -219,7 +199,6 @@
 
     invoke-direct {p1, p0, v0}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 4
     invoke-static {p1}, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->rk(Ljava/io/File;)Lcom/bytedance/sdk/component/rQf/fFV;
 
     move-result-object p0
@@ -234,50 +213,40 @@
 .method public DK()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->DK:I
 
-    .line 3
     return v0
 .end method
 
 .method public Yp()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->lG:Z
 
-    .line 3
     return v0
 .end method
 
 .method public aAs()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->aAs:I
 
-    .line 3
     return v0
 .end method
 
 .method public fFV()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->fFV:I
 
-    .line 3
     return v0
 .end method
 
 .method public lG()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->Yp:Z
 
-    .line 3
     return v0
 .end method
 
@@ -292,27 +261,22 @@
 .method public pw()Ljava/io/File;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->pw:Ljava/io/File;
 
-    .line 3
     return-object v0
 .end method
 
 .method public rQf()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->rQf:Z
 
-    .line 3
     return v0
 .end method
 
 .method public rk()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/rk/fFV;->rk:J
 
     return-wide v0

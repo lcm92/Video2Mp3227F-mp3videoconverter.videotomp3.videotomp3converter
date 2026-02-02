@@ -762,9 +762,9 @@
 
     sget-object p1, Landroid/content/pm/PackageInfo;->CREATOR:Landroid/os/Parcelable$Creator;
 
-    new-instance v2, Lbase/BaseApplication$l;
+    new-instance v2, Lbase/BaseApplication$LB1;
 
-    invoke-direct {v2, p1, p0, v1}, Lbase/BaseApplication$l;-><init>(Landroid/os/Parcelable$Creator;Ljava/lang/String;Landroid/content/pm/Signature;)V
+    invoke-direct {v2, p1, p0, v1}, Lbase/BaseApplication$LB1;-><init>(Landroid/os/Parcelable$Creator;Ljava/lang/String;Landroid/content/pm/Signature;)V
 
     :try_start_0
     const-class p0, Landroid/content/pm/PackageInfo;
@@ -797,7 +797,7 @@
 
     move-result-object p0
 
-    sget-object v1, Lbase/BaseApplication$j;->f:Ljava/util/HashSet;
+    sget-object v1, Lbase/BaseApplication$JB1;->f:Ljava/util/HashSet;
 
     invoke-static {p0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
@@ -813,7 +813,7 @@
 
     invoke-virtual {v1, p0}, Ljava/util/HashSet;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
 
-    invoke-static {p0}, Lbase/BaseApplication$j;->b([Ljava/lang/String;)Z
+    invoke-static {p0}, Lbase/BaseApplication$JB1;->b([Ljava/lang/String;)Z
 
     :cond_0
     :try_start_1

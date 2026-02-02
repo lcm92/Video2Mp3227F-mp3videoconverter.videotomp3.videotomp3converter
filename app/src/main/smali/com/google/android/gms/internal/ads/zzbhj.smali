@@ -16,7 +16,7 @@
 .method public abstract zzg(Ljava/lang/String;)Lcom/google/android/gms/internal/ads/zzbgp;
 .end method
 
-.method public abstract zzh()Ljl0;
+.method public abstract zzh()Ldef/JL0;
 .end method
 
 .method public abstract zzi()Ljava/lang/String;
@@ -40,16 +40,16 @@
 .method public abstract zzo()V
 .end method
 
-.method public abstract zzp(Ljl0;)V
+.method public abstract zzp(Ldef/JL0;)V
 .end method
 
 .method public abstract zzq()Z
 .end method
 
-.method public abstract zzr(Ljl0;)Z
+.method public abstract zzr(Ldef/JL0;)Z
 .end method
 
-.method public abstract zzs(Ljl0;)Z
+.method public abstract zzs(Ldef/JL0;)Z
 .end method
 
 .method public abstract zzt()Z

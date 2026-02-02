@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x8
-    name = null
+    name = "10"
 .end annotation
 
 
@@ -28,21 +28,16 @@
 
 
 # virtual methods
-.method public generatorModel()Lcom/bytedance/sdk/openadsdk/lgt/fFV/rk;
+.method public generatorModel()Lcom/bytedance/sdk/openadsdk/lgt/fFV/RKFLC;
     .locals 2
 
-    .line 1
-    new-instance v0, Lcom/bytedance/sdk/openadsdk/lgt/fFV/rk;
+    new-instance v0, Lcom/bytedance/sdk/openadsdk/lgt/fFV/RKFLC;
 
-    .line 3
-    invoke-direct {v0}, Lcom/bytedance/sdk/openadsdk/lgt/fFV/rk;-><init>()V
+    invoke-direct {v0}, Lcom/bytedance/sdk/openadsdk/lgt/fFV/RKFLC;-><init>()V
 
-    .line 6
     const-string v1, "init"
 
-    .line 8
-    invoke-virtual {v0, v1}, Lcom/bytedance/sdk/openadsdk/lgt/fFV/rk;->fFV(Ljava/lang/String;)V
+    invoke-virtual {v0, v1}, Lcom/bytedance/sdk/openadsdk/lgt/fFV/RKFLC;->fFV(Ljava/lang/String;)V
 
-    .line 11
     return-object v0
 .end method

@@ -61,7 +61,7 @@
 .method public abstract rk(Ljava/lang/String;I)Landroid/os/HandlerThread;
 .end method
 
-.method public abstract rk(Lorg/json/JSONObject;)Lcom/bytedance/sdk/component/lG/rk/DK/rk;
+.method public abstract rk(Lorg/json/JSONObject;)Lcom/bytedance/sdk/component/lG/rk/DK/RKDRC;
 .end method
 
 .method public abstract rk(Ljava/lang/String;)Ljava/lang/String;

@@ -20,23 +20,18 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
-    .line 3
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 6
     sput-object v0, Lcom/bytedance/adsdk/ugeno/DK/ArD;->rk:Ljava/util/Map;
 
-    .line 8
     return-void
 .end method
 
 .method public static rk(Ljava/lang/String;)Lcom/bytedance/adsdk/ugeno/DK/Yp;
     .locals 1
 
-    .line 4
     sget-object v0, Lcom/bytedance/adsdk/ugeno/DK/ArD;->rk:Ljava/util/Map;
 
     invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -61,7 +56,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 1
     invoke-interface {p0}, Ljava/util/List;->size()I
 
     move-result v0
@@ -70,7 +64,6 @@
 
     goto :goto_1
 
-    .line 2
     :cond_0
     invoke-interface {p0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
@@ -92,7 +85,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     sget-object v1, Lcom/bytedance/adsdk/ugeno/DK/ArD;->rk:Ljava/util/Map;
 
     invoke-virtual {v0}, Lcom/bytedance/adsdk/ugeno/DK/Yp;->rk()Ljava/lang/String;

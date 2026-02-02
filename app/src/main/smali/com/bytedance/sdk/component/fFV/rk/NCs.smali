@@ -6,13 +6,13 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/bytedance/sdk/component/fFV/rk/NCs$rk;
+        Lcom/bytedance/sdk/component/fFV/rk/NCs$RKN1;
     }
 .end annotation
 
 
 # instance fields
-.field public fFV:Lcom/bytedance/sdk/component/aAs/rk/rk;
+.field public fFV:Lcom/bytedance/sdk/component/aAs/rk/RKRAC;
 
 .field public rk:Lcom/bytedance/sdk/component/fFV/rk/nP;
 
@@ -21,19 +21,14 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
-    new-instance v0, Lcom/bytedance/sdk/component/aAs/rk/rk;
+    new-instance v0, Lcom/bytedance/sdk/component/aAs/rk/RKRAC;
 
-    .line 6
-    invoke-direct {v0}, Lcom/bytedance/sdk/component/aAs/rk/rk;-><init>()V
+    invoke-direct {v0}, Lcom/bytedance/sdk/component/aAs/rk/RKRAC;-><init>()V
 
-    .line 9
-    iput-object v0, p0, Lcom/bytedance/sdk/component/fFV/rk/NCs;->fFV:Lcom/bytedance/sdk/component/aAs/rk/rk;
+    iput-object v0, p0, Lcom/bytedance/sdk/component/fFV/rk/NCs;->fFV:Lcom/bytedance/sdk/component/aAs/rk/RKRAC;
 
-    .line 11
     return-void
 .end method
 
@@ -64,16 +59,13 @@
 .method public abstract lG()Ljava/lang/String;
 .end method
 
-.method public ppR()Lcom/bytedance/sdk/component/fFV/rk/NCs$rk;
+.method public ppR()Lcom/bytedance/sdk/component/fFV/rk/NCs$RKN1;
     .locals 1
 
-    .line 1
-    new-instance v0, Lcom/bytedance/sdk/component/fFV/rk/NCs$rk;
+    new-instance v0, Lcom/bytedance/sdk/component/fFV/rk/NCs$RKN1;
 
-    .line 3
-    invoke-direct {v0, p0}, Lcom/bytedance/sdk/component/fFV/rk/NCs$rk;-><init>(Lcom/bytedance/sdk/component/fFV/rk/NCs;)V
+    invoke-direct {v0, p0}, Lcom/bytedance/sdk/component/fFV/rk/NCs$RKN1;-><init>(Lcom/bytedance/sdk/component/fFV/rk/NCs;)V
 
-    .line 6
     return-object v0
 .end method
 
@@ -85,7 +77,7 @@
     return-object v0
 .end method
 
-.method public abstract rQf()Lcom/bytedance/sdk/component/fFV/rk/rk;
+.method public abstract rQf()Lcom/bytedance/sdk/component/fFV/rk/RKRFC;
 .end method
 
 .method public abstract rk()Ljava/lang/Object;
@@ -94,7 +86,6 @@
 .method public rk(Lcom/bytedance/sdk/component/fFV/rk/nP;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/component/fFV/rk/NCs;->rk:Lcom/bytedance/sdk/component/fFV/rk/nP;
 
     return-void

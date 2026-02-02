@@ -18,5 +18,5 @@
 .method public abstract b(Ljava/io/InputStream;)Lcom/bumptech/glide/load/ImageHeaderParser$ImageType;
 .end method
 
-.method public abstract c(Ljava/io/InputStream;Lba;)I
+.method public abstract c(Ljava/io/InputStream;Ldef/BA;)I
 .end method

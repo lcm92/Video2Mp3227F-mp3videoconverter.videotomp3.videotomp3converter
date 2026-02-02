@@ -17,89 +17,64 @@
 .method public static DK()J
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->DK()Lcom/bytedance/sdk/openadsdk/core/settings/lG;
 
-    .line 4
     move-result-object v0
 
-    .line 5
     invoke-interface {v0}, Lcom/bytedance/sdk/openadsdk/core/settings/lG;->PnM()Z
 
-    .line 8
     move-result v0
 
-    .line 9
     if-eqz v0, :cond_0
 
-    .line 11
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;->fFV()Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;
 
-    .line 14
     move-result-object v0
 
-    .line 15
     invoke-virtual {v0}, Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;->lG()J
 
-    .line 18
     move-result-wide v0
 
-    .line 19
     return-wide v0
 
-    .line 20
     :cond_0
     const-wide/16 v0, 0x0
 
-    .line 22
     return-wide v0
 .end method
 
 .method public static aAs()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->DK()Lcom/bytedance/sdk/openadsdk/core/settings/lG;
 
-    .line 4
     move-result-object v0
 
-    .line 5
     invoke-interface {v0}, Lcom/bytedance/sdk/openadsdk/core/settings/lG;->PnM()Z
 
-    .line 8
     move-result v0
 
-    .line 9
     if-eqz v0, :cond_0
 
-    .line 11
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;->fFV()Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;
 
-    .line 14
     move-result-object v0
 
-    .line 15
     invoke-virtual {v0}, Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;->rQf()Ljava/lang/String;
 
-    .line 18
     move-result-object v0
 
-    .line 19
     return-object v0
 
-    .line 20
     :cond_0
     const-string v0, ""
 
-    .line 22
     return-object v0
 .end method
 
 .method public static fFV()V
     .locals 1
 
-    .line 3
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->DK()Lcom/bytedance/sdk/openadsdk/core/settings/lG;
 
     move-result-object v0
@@ -110,7 +85,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;->fFV()Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;
 
     move-result-object v0
@@ -124,7 +98,6 @@
 .method public static fFV(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -141,7 +114,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;->fFV()Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;
 
     move-result-object v0
@@ -155,82 +127,58 @@
 .method public static lG()Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->DK()Lcom/bytedance/sdk/openadsdk/core/settings/lG;
 
-    .line 4
     move-result-object v0
 
-    .line 5
     invoke-interface {v0}, Lcom/bytedance/sdk/openadsdk/core/settings/lG;->PnM()Z
 
-    .line 8
     move-result v0
 
-    .line 9
     if-eqz v0, :cond_0
 
-    .line 11
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;->fFV()Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;
 
-    .line 14
     move-result-object v0
 
-    .line 15
     invoke-virtual {v0}, Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;->DK()Ljava/lang/String;
 
-    .line 18
     move-result-object v0
 
-    .line 19
     return-object v0
 
-    .line 20
     :cond_0
     const/4 v0, 0x0
 
-    .line 21
     return-object v0
 .end method
 
 .method public static rQf()I
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->DK()Lcom/bytedance/sdk/openadsdk/core/settings/lG;
 
-    .line 4
     move-result-object v0
 
-    .line 5
     invoke-interface {v0}, Lcom/bytedance/sdk/openadsdk/core/settings/lG;->PnM()Z
 
-    .line 8
     move-result v0
 
-    .line 9
     if-eqz v0, :cond_0
 
-    .line 11
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;->fFV()Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;
 
-    .line 14
     move-result-object v0
 
-    .line 15
     invoke-virtual {v0}, Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;->Yp()I
 
-    .line 18
     move-result v0
 
-    .line 19
     return v0
 
-    .line 20
     :cond_0
     const/4 v0, 0x6
 
-    .line 21
     return v0
 .end method
 
@@ -249,7 +197,6 @@
         }
     .end annotation
 
-    .line 31
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->DK()Lcom/bytedance/sdk/openadsdk/core/settings/lG;
 
     move-result-object v0
@@ -260,7 +207,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 32
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;->fFV()Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;
 
     move-result-object v0
@@ -285,7 +231,6 @@
 
     return-object p0
 
-    .line 33
     :cond_1
     new-instance p0, Ljava/util/HashMap;
 
@@ -297,14 +242,12 @@
 .method public static rk()V
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcom/bytedance/sdk/openadsdk/core/ppR/aAs;->rk:Z
 
     if-eqz v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->DK()Lcom/bytedance/sdk/openadsdk/core/settings/lG;
 
@@ -316,10 +259,8 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;->fFV()Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;
 
-    .line 4
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;->fFV()Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;
 
     move-result-object v0
@@ -337,7 +278,6 @@
 .method public static rk(Landroid/view/MotionEvent;)V
     .locals 1
 
-    .line 34
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->DK()Lcom/bytedance/sdk/openadsdk/core/settings/lG;
 
     move-result-object v0
@@ -348,7 +288,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 35
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;->fFV()Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;
 
     move-result-object v0
@@ -362,7 +301,6 @@
 .method public static rk(Lcom/bytedance/sdk/openadsdk/core/model/HmR;Ljava/lang/String;)V
     .locals 14
 
-    .line 7
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->DK()Lcom/bytedance/sdk/openadsdk/core/settings/lG;
 
     move-result-object v0
@@ -373,31 +311,26 @@
 
     if-eqz v0, :cond_3
 
-    .line 8
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 9
     const-string v1, "ad_sdk_version"
 
     const-string v2, "7.3.0.5"
 
     invoke-virtual {v0, v1, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 10
     const-string v1, "au_show"
 
     invoke-virtual {v0, v1, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     if-eqz p0, :cond_3
 
-    .line 11
     invoke-virtual {p0}, Lcom/bytedance/sdk/openadsdk/core/model/HmR;->FBZ()Ljava/lang/String;
 
     move-result-object p1
 
-    .line 12
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
@@ -408,16 +341,13 @@
 
     if-nez v1, :cond_0
 
-    .line 13
     invoke-virtual {v0, v2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     goto :goto_0
 
-    .line 14
     :cond_0
     invoke-virtual {v0, v2, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 15
     :goto_0
     :try_start_0
     invoke-virtual {p0}, Lcom/bytedance/sdk/openadsdk/core/model/HmR;->vw()Lorg/json/JSONObject;
@@ -426,7 +356,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 16
     const-string v1, "ad_type"
 
     const-string v2, "ad_slot_type"
@@ -439,7 +368,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 17
     :try_start_1
     invoke-virtual {p0}, Lcom/bytedance/sdk/openadsdk/core/model/HmR;->vw()Lorg/json/JSONObject;
 
@@ -449,7 +377,6 @@
 
     move-result-wide v8
 
-    .line 18
     invoke-virtual {p0}, Lcom/bytedance/sdk/openadsdk/core/model/HmR;->vw()Lorg/json/JSONObject;
 
     move-result-object p1
@@ -458,7 +385,6 @@
 
     move-result-wide v10
 
-    .line 19
     invoke-virtual {p0}, Lcom/bytedance/sdk/openadsdk/core/model/HmR;->vw()Lorg/json/JSONObject;
 
     move-result-object p1
@@ -467,7 +393,6 @@
 
     move-result-wide v12
 
-    .line 20
     invoke-virtual {p0}, Lcom/bytedance/sdk/openadsdk/core/model/HmR;->vw()Lorg/json/JSONObject;
 
     move-result-object p1
@@ -485,7 +410,6 @@
 
     move-wide v12, v10
 
-    .line 21
     :goto_1
     invoke-static {v8, v9}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -493,36 +417,30 @@
 
     invoke-virtual {v0, v5, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 22
     invoke-static {v10, v11}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
     invoke-virtual {v0, v4, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 23
     invoke-static {v12, v13}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
     move-result-object p1
 
     invoke-virtual {v0, v2, p1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 24
     invoke-virtual {v0, v1, v3}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 25
     invoke-virtual {p0}, Lcom/bytedance/sdk/openadsdk/core/model/HmR;->zUv()Ljava/util/Map;
 
     move-result-object p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 26
     const-string p1, "sdk_bidding_type"
 
     if-eqz p0, :cond_2
 
-    .line 27
     :try_start_2
     invoke-interface {p0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
@@ -530,7 +448,6 @@
 
     if-eqz p0, :cond_2
 
-    .line 28
     invoke-virtual {p0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object p0
@@ -539,7 +456,6 @@
 
     move-result-wide v6
 
-    .line 29
     :cond_2
     invoke-static {v6, v7}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
@@ -547,7 +463,6 @@
 
     invoke-virtual {v0, p1, p0}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 30
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;->fFV()Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;
 
     move-result-object p0
@@ -566,7 +481,6 @@
 .method public static rk(Ljava/lang/String;)V
     .locals 1
 
-    .line 5
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->DK()Lcom/bytedance/sdk/openadsdk/core/settings/lG;
 
     move-result-object v0
@@ -577,7 +491,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 6
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;->fFV()Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;
 
     move-result-object v0
@@ -591,7 +504,6 @@
 .method public static rk(Lorg/json/JSONObject;)V
     .locals 7
 
-    .line 36
     const-string v0, "https://api16-access-sg.pangle.io/api/ad/union/sdk/get_ads/?aid=1371&device_platform=android&version_code=4250"
 
     const-string v1, "pglx"
@@ -600,7 +512,6 @@
 
     return-void
 
-    .line 37
     :cond_0
     :try_start_0
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->DK()Lcom/bytedance/sdk/openadsdk/core/settings/lG;
@@ -613,17 +524,14 @@
 
     if-eqz v2, :cond_5
 
-    .line 38
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/ppR/aAs;->rk()V
 
-    .line 39
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/ppR/aAs;->rQf()I
 
     move-result v2
 
     if-nez v2, :cond_4
 
-    .line 40
     const-string v2, "sec_did"
 
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;->fFV()Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;
@@ -636,7 +544,6 @@
 
     invoke-virtual {p0, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 41
     invoke-virtual {p0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     move-result-object v2
@@ -645,7 +552,6 @@
 
     move-result-object v2
 
-    .line 42
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;->fFV()Lcom/bytedance/sdk/openadsdk/core/ppR/fFV;
 
     move-result-object v3
@@ -675,14 +581,12 @@
 
     if-eqz v3, :cond_3
 
-    .line 43
     invoke-interface {v3}, Ljava/util/Map;->size()I
 
     move-result v4
 
     if-lez v4, :cond_3
 
-    .line 44
     invoke-interface {v3}, Ljava/util/Map;->keySet()Ljava/util/Set;
 
     move-result-object v4
@@ -704,7 +608,6 @@
 
     check-cast v5, Ljava/lang/String;
 
-    .line 45
     invoke-interface {v3, v5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v6
@@ -713,26 +616,22 @@
 
     goto :goto_1
 
-    .line 46
     :cond_2
     const-string v3, "url"
 
     invoke-virtual {p0, v3, v0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 47
     const-string v0, "pangle_m"
 
     invoke-virtual {p0, v0, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
     goto :goto_2
 
-    .line 48
     :cond_3
     const-string v0, "8"
 
     invoke-virtual {p0, v1, v0}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 49
     :goto_2
     const-string v0, "ec"
 
@@ -748,7 +647,6 @@
 
     return-void
 
-    .line 50
     :cond_4
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/ppR/aAs;->rQf()I
 
@@ -762,7 +660,6 @@
 
     return-void
 
-    .line 51
     :cond_5
     const-string v0, "6"
 
@@ -772,7 +669,6 @@
 
     return-void
 
-    .line 52
     :goto_3
     const-string v2, "SecSdkHelperUtil"
 
@@ -782,7 +678,6 @@
 
     invoke-static {v2, v0}, Lcom/bytedance/sdk/component/utils/ZQ;->aAs(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 53
     :try_start_1
     const-string v0, "7"
 

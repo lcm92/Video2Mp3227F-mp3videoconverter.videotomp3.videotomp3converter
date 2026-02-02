@@ -19,28 +19,20 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     const-string v0, "video/mp4"
 
-    .line 3
     const-string v1, "video/3gpp"
 
-    .line 5
     filled-new-array {v0, v1}, [Ljava/lang/String;
 
-    .line 8
     move-result-object v0
 
-    .line 9
     invoke-static {v0}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
 
-    .line 12
     move-result-object v0
 
-    .line 13
     sput-object v0, Lcom/bytedance/sdk/openadsdk/core/nP/aAs/DK;->rk:Ljava/util/List;
 
-    .line 15
     return-void
 .end method
 
@@ -49,7 +41,6 @@
 
     const/4 v0, 0x0
 
-    .line 6
     invoke-static {p0, v0}, Ljava/lang/Math;->max(II)I
 
     move-result p0
@@ -69,7 +60,6 @@
     :cond_0
     rsub-int v0, p0, 0x2bc
 
-    .line 7
     invoke-static {v0}, Ljava/lang/Math;->abs(I)I
 
     move-result v0
@@ -84,7 +74,6 @@
 
     sub-int/2addr v1, p0
 
-    .line 8
     invoke-static {v1}, Ljava/lang/Math;->abs(I)I
 
     move-result p0
@@ -97,7 +86,6 @@
 
     float-to-double v0, p0
 
-    .line 9
     invoke-static {v2, v3, v0, v1}, Ljava/lang/Math;->min(DD)D
 
     move-result-wide v0
@@ -130,7 +118,6 @@
 
     sub-double/2addr p1, v2
 
-    .line 4
     invoke-static {p1, p2}, Ljava/lang/Math;->abs(D)D
 
     move-result-wide p1
@@ -145,7 +132,6 @@
 
     sub-int p3, p0, p3
 
-    .line 5
     div-int/2addr p3, p0
 
     invoke-static {p3}, Ljava/lang/Math;->abs(I)I
@@ -163,17 +149,14 @@
 .method public static rk(IDIIILjava/lang/String;)D
     .locals 2
 
-    .line 1
     invoke-static {p0, p1, p2, p3, p4}, Lcom/bytedance/sdk/openadsdk/core/nP/aAs/DK;->rk(IDII)D
 
     move-result-wide p0
 
-    .line 2
     invoke-static {p5}, Lcom/bytedance/sdk/openadsdk/core/nP/aAs/DK;->rk(I)D
 
     move-result-wide p2
 
-    .line 3
     invoke-static {p6}, Lcom/bytedance/sdk/openadsdk/core/nP/aAs/DK;->rk(Ljava/lang/String;)D
 
     move-result-wide p4
@@ -196,10 +179,8 @@
 
     if-nez p0, :cond_0
 
-    .line 10
     const-string p0, ""
 
-    .line 11
     :cond_0
     invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
 

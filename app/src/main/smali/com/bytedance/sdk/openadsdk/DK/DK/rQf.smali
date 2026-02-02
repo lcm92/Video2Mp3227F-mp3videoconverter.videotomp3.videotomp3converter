@@ -7,7 +7,7 @@
 .implements Lcom/bytedance/sdk/openadsdk/DK/DK/aAs;
 .implements Lcom/bytedance/sdk/openadsdk/DK/DK/fFV;
 .implements Lcom/bytedance/sdk/openadsdk/DK/DK/lG;
-.implements Lcom/bytedance/sdk/openadsdk/DK/DK/rk;
+.implements Lcom/bytedance/sdk/openadsdk/DK/DK/RKDDC;
 
 
 # virtual methods

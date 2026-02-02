@@ -86,20 +86,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->Yp:Ljava/util/Map;
 
-    .line 3
     return-object v0
 .end method
 
 .method public Yp()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->nP:I
 
-    .line 3
     return v0
 .end method
 
@@ -111,10 +107,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->DK:Ljava/lang/Object;
 
-    .line 3
     return-object v0
 .end method
 
@@ -126,30 +120,24 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->aAs:Ljava/lang/Object;
 
-    .line 3
     return-object v0
 .end method
 
 .method public lG()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->ppR:Z
 
-    .line 3
     return v0
 .end method
 
 .method public rQf()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->pw:Z
 
-    .line 3
     return v0
 .end method
 
@@ -164,52 +152,44 @@
         }
     .end annotation
 
-    .line 1
     iput-object p2, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->aAs:Ljava/lang/Object;
 
-    .line 2
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/rQf/DK/aAs/aAs;->ArD()Ljava/lang/String;
 
     move-result-object p2
 
     iput-object p2, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->rk:Ljava/lang/String;
 
-    .line 3
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/rQf/DK/aAs/aAs;->rk()Ljava/lang/String;
 
     move-result-object p2
 
     iput-object p2, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->fFV:Ljava/lang/String;
 
-    .line 4
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/rQf/DK/aAs/aAs;->fFV()I
 
     move-result p2
 
     iput p2, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->rQf:I
 
-    .line 5
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/rQf/DK/aAs/aAs;->aAs()I
 
     move-result p2
 
     iput p2, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->lG:I
 
-    .line 6
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/rQf/DK/aAs/aAs;->woP()Z
 
     move-result p2
 
     iput-boolean p2, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->ppR:Z
 
-    .line 7
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/rQf/DK/aAs/aAs;->AXL()Lcom/bytedance/sdk/component/rQf/Yp;
 
     move-result-object p2
 
     iput-object p2, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->ArD:Lcom/bytedance/sdk/component/rQf/Yp;
 
-    .line 8
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/rQf/DK/aAs/aAs;->kEa()I
 
     move-result p1
@@ -234,13 +214,10 @@
         }
     .end annotation
 
-    .line 9
     iput-object p3, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->Yp:Ljava/util/Map;
 
-    .line 10
     iput-boolean p4, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->pw:Z
 
-    .line 11
     invoke-virtual {p0, p1, p2}, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->rk(Lcom/bytedance/sdk/component/rQf/DK/aAs/aAs;Ljava/lang/Object;)Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;
 
     move-result-object p1
@@ -251,7 +228,6 @@
 .method public rk()Ljava/lang/String;
     .locals 1
 
-    .line 12
     iget-object v0, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->fFV:Ljava/lang/String;
 
     return-object v0
@@ -260,12 +236,10 @@
 .method public rk(Ljava/lang/Object;)V
     .locals 1
 
-    .line 13
     iget-object v0, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->aAs:Ljava/lang/Object;
 
     iput-object v0, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->DK:Ljava/lang/Object;
 
-    .line 14
     iput-object p1, p0, Lcom/bytedance/sdk/component/rQf/DK/aAs/DK;->aAs:Ljava/lang/Object;
 
     return-void

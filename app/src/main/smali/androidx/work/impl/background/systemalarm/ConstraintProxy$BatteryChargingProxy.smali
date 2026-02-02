@@ -18,10 +18,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroidx/work/impl/background/systemalarm/ConstraintProxy;-><init>()V
 
-    .line 4
     return-void
 .end method
 
@@ -30,9 +28,7 @@
 .method public bridge synthetic onReceive(Landroid/content/Context;Landroid/content/Intent;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/work/impl/background/systemalarm/ConstraintProxy;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V
 
-    .line 4
     return-void
 .end method

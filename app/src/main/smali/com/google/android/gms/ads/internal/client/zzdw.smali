@@ -7,5 +7,5 @@
 
 
 # virtual methods
-.method public abstract zze(Ljava/lang/String;Ljl0;Ljl0;)V
+.method public abstract zze(Ljava/lang/String;Ldef/JL0;Ldef/JL0;)V
 .end method

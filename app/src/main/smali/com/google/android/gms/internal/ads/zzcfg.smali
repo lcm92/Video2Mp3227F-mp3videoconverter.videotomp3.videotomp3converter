@@ -140,7 +140,7 @@
 .method public abstract zzS()Lcom/google/android/gms/internal/ads/zzfda;
 .end method
 
-.method public abstract zzT()Lmt0;
+.method public abstract zzT()Ldef/MT0;
 .end method
 
 .method public abstract zzU()Ljava/lang/String;
@@ -161,7 +161,7 @@
 .method public abstract zzZ(I)V
 .end method
 
-.method public abstract zzaA(Ljava/lang/String;Lod1;)V
+.method public abstract zzaA(Ljava/lang/String;Ldef/OD1;)V
 .end method
 
 .method public abstract zzaB()Z

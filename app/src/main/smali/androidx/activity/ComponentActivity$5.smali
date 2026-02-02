@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/lifecycle/d;
+.implements Landroidx/lifecycle/DLA;
 
 
 # annotations
@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "5"
 .end annotation
 
 
@@ -25,39 +25,29 @@
 .method constructor <init>(Landroidx/activity/ComponentActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Landroidx/activity/ComponentActivity$5;->a:Landroidx/activity/ComponentActivity;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method
 
 
 # virtual methods
-.method public a(Lzs0;Landroidx/lifecycle/c$b;)V
+.method public a(Ldef/ZS0;Landroidx/lifecycle/CLA$BC1;)V
     .locals 0
 
-    .line 1
     iget-object p1, p0, Landroidx/activity/ComponentActivity$5;->a:Landroidx/activity/ComponentActivity;
 
-    .line 3
     invoke-virtual {p1}, Landroidx/activity/ComponentActivity;->f0()V
 
-    .line 6
     iget-object p1, p0, Landroidx/activity/ComponentActivity$5;->a:Landroidx/activity/ComponentActivity;
 
-    .line 8
-    invoke-virtual {p1}, Landroidx/activity/ComponentActivity;->Y()Landroidx/lifecycle/c;
+    invoke-virtual {p1}, Landroidx/activity/ComponentActivity;->Y()Landroidx/lifecycle/CLA;
 
-    .line 11
     move-result-object p1
 
-    .line 12
-    invoke-virtual {p1, p0}, Landroidx/lifecycle/c;->c(Lys0;)V
+    invoke-virtual {p1, p0}, Landroidx/lifecycle/CLA;->c(Ldef/YS0;)V
 
-    .line 15
     return-void
 .end method

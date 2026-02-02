@@ -22,9 +22,6 @@
 
 .method public static zza()V
     .locals 0
-    .annotation build Landroid/annotation/TargetApi;
-        value = 0x1c
-    .end annotation
 
     return-void
 .end method

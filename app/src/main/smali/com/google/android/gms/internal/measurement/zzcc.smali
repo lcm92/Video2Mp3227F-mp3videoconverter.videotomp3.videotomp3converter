@@ -52,7 +52,7 @@
 .method public abstract initForTests(Ljava/util/Map;)V
 .end method
 
-.method public abstract initialize(Ljl0;Lcom/google/android/gms/internal/measurement/zzcl;J)V
+.method public abstract initialize(Ldef/JL0;Lcom/google/android/gms/internal/measurement/zzcl;J)V
 .end method
 
 .method public abstract isDataCollectionEnabled(Lcom/google/android/gms/internal/measurement/zzcf;)V
@@ -64,28 +64,28 @@
 .method public abstract logEventAndBundle(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;Lcom/google/android/gms/internal/measurement/zzcf;J)V
 .end method
 
-.method public abstract logHealthData(ILjava/lang/String;Ljl0;Ljl0;Ljl0;)V
+.method public abstract logHealthData(ILjava/lang/String;Ldef/JL0;Ldef/JL0;Ldef/JL0;)V
 .end method
 
-.method public abstract onActivityCreated(Ljl0;Landroid/os/Bundle;J)V
+.method public abstract onActivityCreated(Ldef/JL0;Landroid/os/Bundle;J)V
 .end method
 
-.method public abstract onActivityDestroyed(Ljl0;J)V
+.method public abstract onActivityDestroyed(Ldef/JL0;J)V
 .end method
 
-.method public abstract onActivityPaused(Ljl0;J)V
+.method public abstract onActivityPaused(Ldef/JL0;J)V
 .end method
 
-.method public abstract onActivityResumed(Ljl0;J)V
+.method public abstract onActivityResumed(Ldef/JL0;J)V
 .end method
 
-.method public abstract onActivitySaveInstanceState(Ljl0;Lcom/google/android/gms/internal/measurement/zzcf;J)V
+.method public abstract onActivitySaveInstanceState(Ldef/JL0;Lcom/google/android/gms/internal/measurement/zzcf;J)V
 .end method
 
-.method public abstract onActivityStarted(Ljl0;J)V
+.method public abstract onActivityStarted(Ldef/JL0;J)V
 .end method
 
-.method public abstract onActivityStopped(Ljl0;J)V
+.method public abstract onActivityStopped(Ldef/JL0;J)V
 .end method
 
 .method public abstract performAction(Landroid/os/Bundle;Lcom/google/android/gms/internal/measurement/zzcf;J)V
@@ -106,7 +106,7 @@
 .method public abstract setConsentThirdParty(Landroid/os/Bundle;J)V
 .end method
 
-.method public abstract setCurrentScreen(Ljl0;Ljava/lang/String;Ljava/lang/String;J)V
+.method public abstract setCurrentScreen(Ldef/JL0;Ljava/lang/String;Ljava/lang/String;J)V
 .end method
 
 .method public abstract setDataCollectionEnabled(Z)V
@@ -133,7 +133,7 @@
 .method public abstract setUserId(Ljava/lang/String;J)V
 .end method
 
-.method public abstract setUserProperty(Ljava/lang/String;Ljava/lang/String;Ljl0;ZJ)V
+.method public abstract setUserProperty(Ljava/lang/String;Ljava/lang/String;Ldef/JL0;ZJ)V
 .end method
 
 .method public abstract unregisterOnMeasurementEventListener(Lcom/google/android/gms/internal/measurement/zzci;)V

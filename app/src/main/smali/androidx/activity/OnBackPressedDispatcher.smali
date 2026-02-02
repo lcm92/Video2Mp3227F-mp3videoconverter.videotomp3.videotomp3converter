@@ -7,7 +7,7 @@
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
         Landroidx/activity/OnBackPressedDispatcher$LifecycleOnBackPressedCancellable;,
-        Landroidx/activity/OnBackPressedDispatcher$a;
+        Landroidx/activity/OnBackPressedDispatcher$AO1;
     }
 .end annotation
 
@@ -22,144 +22,103 @@
 .method public constructor <init>(Ljava/lang/Runnable;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     new-instance v0, Ljava/util/ArrayDeque;
 
-    .line 6
     invoke-direct {v0}, Ljava/util/ArrayDeque;-><init>()V
 
-    .line 9
     iput-object v0, p0, Landroidx/activity/OnBackPressedDispatcher;->b:Ljava/util/ArrayDeque;
 
-    .line 11
     iput-object p1, p0, Landroidx/activity/OnBackPressedDispatcher;->a:Ljava/lang/Runnable;
 
-    .line 13
     return-void
 .end method
 
 
 # virtual methods
-.method public a(Lzs0;Landroidx/activity/b;)V
+.method public a(Ldef/ZS0;Landroidx/activity/BAA;)V
     .locals 2
 
-    .line 1
-    invoke-interface {p1}, Lzs0;->Y()Landroidx/lifecycle/c;
+    invoke-interface {p1}, Ldef/ZS0;->Y()Landroidx/lifecycle/CLA;
 
-    .line 4
     move-result-object p1
 
-    .line 5
-    invoke-virtual {p1}, Landroidx/lifecycle/c;->b()Landroidx/lifecycle/c$c;
+    invoke-virtual {p1}, Landroidx/lifecycle/CLA;->b()Landroidx/lifecycle/CLA$CC1;
 
-    .line 8
     move-result-object v0
 
-    .line 9
-    sget-object v1, Landroidx/lifecycle/c$c;->a:Landroidx/lifecycle/c$c;
+    sget-object v1, Landroidx/lifecycle/CLA$CC1;->a:Landroidx/lifecycle/CLA$CC1;
 
-    .line 11
     if-ne v0, v1, :cond_0
 
-    .line 13
     return-void
 
-    .line 14
     :cond_0
     new-instance v0, Landroidx/activity/OnBackPressedDispatcher$LifecycleOnBackPressedCancellable;
 
-    .line 16
-    invoke-direct {v0, p0, p1, p2}, Landroidx/activity/OnBackPressedDispatcher$LifecycleOnBackPressedCancellable;-><init>(Landroidx/activity/OnBackPressedDispatcher;Landroidx/lifecycle/c;Landroidx/activity/b;)V
+    invoke-direct {v0, p0, p1, p2}, Landroidx/activity/OnBackPressedDispatcher$LifecycleOnBackPressedCancellable;-><init>(Landroidx/activity/OnBackPressedDispatcher;Landroidx/lifecycle/CLA;Landroidx/activity/BAA;)V
 
-    .line 19
-    invoke-virtual {p2, v0}, Landroidx/activity/b;->a(Landroidx/activity/a;)V
+    invoke-virtual {p2, v0}, Landroidx/activity/BAA;->a(Landroidx/activity/AAA;)V
 
-    .line 22
     return-void
 .end method
 
-.method b(Landroidx/activity/b;)Landroidx/activity/a;
+.method b(Landroidx/activity/BAA;)Landroidx/activity/AAA;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher;->b:Ljava/util/ArrayDeque;
 
-    .line 3
     invoke-virtual {v0, p1}, Ljava/util/ArrayDeque;->add(Ljava/lang/Object;)Z
 
-    .line 6
-    new-instance v0, Landroidx/activity/OnBackPressedDispatcher$a;
+    new-instance v0, Landroidx/activity/OnBackPressedDispatcher$AO1;
 
-    .line 8
-    invoke-direct {v0, p0, p1}, Landroidx/activity/OnBackPressedDispatcher$a;-><init>(Landroidx/activity/OnBackPressedDispatcher;Landroidx/activity/b;)V
+    invoke-direct {v0, p0, p1}, Landroidx/activity/OnBackPressedDispatcher$AO1;-><init>(Landroidx/activity/OnBackPressedDispatcher;Landroidx/activity/BAA;)V
 
-    .line 11
-    invoke-virtual {p1, v0}, Landroidx/activity/b;->a(Landroidx/activity/a;)V
+    invoke-virtual {p1, v0}, Landroidx/activity/BAA;->a(Landroidx/activity/AAA;)V
 
-    .line 14
     return-object v0
 .end method
 
 .method public c()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher;->b:Ljava/util/ArrayDeque;
 
-    .line 3
     invoke-virtual {v0}, Ljava/util/ArrayDeque;->descendingIterator()Ljava/util/Iterator;
 
-    .line 6
     move-result-object v0
 
-    .line 7
     :cond_0
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
-    .line 10
     move-result v1
 
-    .line 11
     if-eqz v1, :cond_1
 
-    .line 13
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    .line 16
     move-result-object v1
 
-    .line 17
-    check-cast v1, Landroidx/activity/b;
+    check-cast v1, Landroidx/activity/BAA;
 
-    .line 19
-    invoke-virtual {v1}, Landroidx/activity/b;->c()Z
+    invoke-virtual {v1}, Landroidx/activity/BAA;->c()Z
 
-    .line 22
     move-result v2
 
-    .line 23
     if-eqz v2, :cond_0
 
-    .line 25
-    invoke-virtual {v1}, Landroidx/activity/b;->b()V
+    invoke-virtual {v1}, Landroidx/activity/BAA;->b()V
 
-    .line 28
     return-void
 
-    .line 29
     :cond_1
     iget-object v0, p0, Landroidx/activity/OnBackPressedDispatcher;->a:Ljava/lang/Runnable;
 
-    .line 31
     if-eqz v0, :cond_2
 
-    .line 33
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
-    .line 36
     :cond_2
     return-void
 .end method

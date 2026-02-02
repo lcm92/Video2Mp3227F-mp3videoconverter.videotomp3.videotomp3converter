@@ -10,7 +10,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x8
-    name = null
+    name = "3"
 .end annotation
 
 
@@ -22,13 +22,10 @@
 .method constructor <init>(Landroid/os/Handler;Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     iput-object p2, p0, Lcom/bytedance/sdk/openadsdk/utils/DeviceUtils$3;->rk:Landroid/content/Context;
 
-    .line 3
     invoke-direct {p0, p1}, Landroid/database/ContentObserver;-><init>(Landroid/os/Handler;)V
 
-    .line 6
     return-void
 .end method
 
@@ -37,15 +34,11 @@
 .method public onChange(Z)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Landroid/database/ContentObserver;->onChange(Z)V
 
-    .line 4
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/utils/DeviceUtils$3;->rk:Landroid/content/Context;
 
-    .line 6
     invoke-static {p1}, Lcom/bytedance/sdk/openadsdk/utils/DeviceUtils;->AXL(Landroid/content/Context;)V
 
-    .line 9
     return-void
 .end method

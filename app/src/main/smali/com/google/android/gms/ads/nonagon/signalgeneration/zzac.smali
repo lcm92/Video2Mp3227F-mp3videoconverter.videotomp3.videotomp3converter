@@ -17,5 +17,5 @@
 .method public abstract zza()Lcom/google/android/gms/internal/ads/zzfhu;
 .end method
 
-.method public abstract zzb()Lmt0;
+.method public abstract zzb()Ldef/MT0;
 .end method

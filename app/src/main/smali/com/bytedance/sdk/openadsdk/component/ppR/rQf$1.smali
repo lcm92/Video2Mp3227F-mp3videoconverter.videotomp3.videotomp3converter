@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "1"
 .end annotation
 
 
@@ -25,13 +25,10 @@
 .method constructor <init>(Lcom/bytedance/sdk/openadsdk/component/ppR/rQf;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/ppR/rQf$1;->rk:Lcom/bytedance/sdk/openadsdk/component/ppR/rQf;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method
 
@@ -40,10 +37,8 @@
 .method public fFV()Landroid/view/View;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/ppR/rQf$1;->rk:Lcom/bytedance/sdk/openadsdk/component/ppR/rQf;
 
-    .line 3
     return-object v0
 .end method
 
@@ -56,14 +51,12 @@
 .method public rk()Landroid/view/View;
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/ppR/rQf$1;->rk:Lcom/bytedance/sdk/openadsdk/component/ppR/rQf;
 
     iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/ppR/aAs;->pw:Lcom/bytedance/sdk/openadsdk/component/ppR/Yp;
 
     if-eqz v0, :cond_0
 
-    .line 3
     invoke-virtual {v0}, Lcom/bytedance/sdk/openadsdk/component/ppR/Yp;->getTopDislike()Landroid/view/View;
 
     move-result-object v0
@@ -79,22 +72,19 @@
 .method public rk(II)V
     .locals 0
 
-    .line 1
     return-void
 .end method
 
 .method public rk(Landroid/view/View;I)V
     .locals 1
 
-    .line 4
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/ppR/rQf$1;->rk:Lcom/bytedance/sdk/openadsdk/component/ppR/rQf;
 
-    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/ppR/rQf;->woP:Lcom/bytedance/sdk/openadsdk/component/ppR/rQf$rk;
+    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/ppR/rQf;->woP:Lcom/bytedance/sdk/openadsdk/component/ppR/rQf$RKR1;
 
     if-eqz v0, :cond_0
 
-    .line 5
-    invoke-interface {v0, p1, p2}, Lcom/bytedance/sdk/openadsdk/component/ppR/rQf$rk;->rk(Landroid/view/View;I)V
+    invoke-interface {v0, p1, p2}, Lcom/bytedance/sdk/openadsdk/component/ppR/rQf$RKR1;->rk(Landroid/view/View;I)V
 
     :cond_0
     return-void

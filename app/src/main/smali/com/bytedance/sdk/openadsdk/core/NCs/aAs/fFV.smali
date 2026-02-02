@@ -7,14 +7,12 @@
 .method public static rk(Lcom/bytedance/sdk/openadsdk/core/model/HmR;)V
     .locals 3
 
-    .line 1
     invoke-static {p0}, Lcom/bytedance/sdk/openadsdk/core/model/rET;->fFV(Lcom/bytedance/sdk/openadsdk/core/model/HmR;)Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     const-string v0, "preload_start"
 
     const/4 v1, 0x0
@@ -32,7 +30,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 9
     invoke-static {p0}, Lcom/bytedance/sdk/openadsdk/core/model/rET;->aAs(Lcom/bytedance/sdk/openadsdk/core/model/HmR;)Z
 
     move-result v0
@@ -45,19 +42,16 @@
 
     if-eqz v0, :cond_1
 
-    .line 10
     :cond_0
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
-    .line 11
     :try_start_0
     const-string v1, "error_code"
 
     invoke-virtual {v0, v1, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 12
     const-string p1, "error_reason"
 
     invoke-virtual {v0, p1, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
@@ -69,14 +63,12 @@
     :catch_0
     move-exception p1
 
-    .line 13
     const-string p2, "PlayableEvent"
 
     const-string v1, "onFail json error"
 
     invoke-static {p2, v1, p1}, Lcom/bytedance/sdk/component/utils/ZQ;->rk(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 14
     :goto_0
     const-string p1, "playable_preload"
 
@@ -93,7 +85,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 3
     invoke-static {p0}, Lcom/bytedance/sdk/openadsdk/core/model/rET;->aAs(Lcom/bytedance/sdk/openadsdk/core/model/HmR;)Z
 
     move-result v0
@@ -106,19 +97,16 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     :cond_0
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
-    .line 5
     :try_start_0
     const-string v1, "loadzip_success_time"
 
     invoke-virtual {v0, v1, p1, p2}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
 
-    .line 6
     const-string p1, "unzip_success_time"
 
     invoke-virtual {v0, p1, p3, p4}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
@@ -130,14 +118,12 @@
     :catch_0
     move-exception p1
 
-    .line 7
     const-string p2, "PlayableEvent"
 
     const-string p3, "onSuccess json error"
 
     invoke-static {p2, p3, p1}, Lcom/bytedance/sdk/component/utils/ZQ;->rk(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 8
     :goto_0
     const-string p1, "playable_preload"
 

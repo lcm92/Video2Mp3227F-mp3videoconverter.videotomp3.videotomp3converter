@@ -53,32 +53,24 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->adConfiguration:Lcom/google/android/gms/ads/mediation/MediationAppOpenAdConfiguration;
 
-    .line 6
     iput-object p2, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->adLoadCallback:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
 
-    .line 8
     iput-object p3, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->pangleInitializer:Lcom/google/ads/mediation/pangle/PangleInitializer;
 
-    .line 10
     iput-object p4, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->pangleSdkWrapper:Lcom/google/ads/mediation/pangle/PangleSdkWrapper;
 
-    .line 12
     iput-object p5, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->pangleFactory:Lcom/google/ads/mediation/pangle/PangleFactory;
 
-    .line 14
     return-void
 .end method
 
 .method static bridge synthetic a(Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;)Lcom/google/android/gms/ads/mediation/MediationAppOpenAdConfiguration;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->adConfiguration:Lcom/google/android/gms/ads/mediation/MediationAppOpenAdConfiguration;
 
     return-object p0
@@ -87,7 +79,6 @@
 .method static bridge synthetic b(Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;)Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->adLoadCallback:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
 
     return-object p0
@@ -96,7 +87,6 @@
 .method static bridge synthetic c(Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;)Lcom/google/android/gms/ads/mediation/MediationAppOpenAdCallback;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->appOpenAdCallback:Lcom/google/android/gms/ads/mediation/MediationAppOpenAdCallback;
 
     return-object p0
@@ -105,7 +95,6 @@
 .method static bridge synthetic d(Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;)Lcom/google/ads/mediation/pangle/PangleFactory;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->pangleFactory:Lcom/google/ads/mediation/pangle/PangleFactory;
 
     return-object p0
@@ -114,7 +103,6 @@
 .method static bridge synthetic e(Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;)Lcom/google/ads/mediation/pangle/PangleSdkWrapper;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->pangleSdkWrapper:Lcom/google/ads/mediation/pangle/PangleSdkWrapper;
 
     return-object p0
@@ -123,7 +111,6 @@
 .method static bridge synthetic f(Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;Lcom/google/android/gms/ads/mediation/MediationAppOpenAdCallback;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->appOpenAdCallback:Lcom/google/android/gms/ads/mediation/MediationAppOpenAdCallback;
 
     return-void
@@ -132,7 +119,6 @@
 .method static bridge synthetic g(Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->pagAppOpenAd:Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd;
 
     return-void
@@ -143,153 +129,105 @@
 .method public render()V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->adConfiguration:Lcom/google/android/gms/ads/mediation/MediationAppOpenAdConfiguration;
 
-    .line 3
     invoke-virtual {v0}, Lcom/google/android/gms/ads/mediation/MediationAdConfiguration;->getServerParameters()Landroid/os/Bundle;
 
-    .line 6
     move-result-object v0
 
-    .line 7
     const-string v1, "placementid"
 
-    .line 9
     invoke-virtual {v0, v1}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 12
     move-result-object v1
 
-    .line 13
     invoke-static {v1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 16
     move-result v2
 
-    .line 17
     if-eqz v2, :cond_0
 
-    .line 19
     const/16 v0, 0x65
 
-    .line 21
     const-string v1, "Failed to load app open ad from Pangle. Missing or invalid Placement ID."
 
-    .line 23
     invoke-static {v0, v1}, Lcom/google/ads/mediation/pangle/PangleConstants;->createAdapterError(ILjava/lang/String;)Lcom/google/android/gms/ads/AdError;
 
-    .line 26
     move-result-object v0
 
-    .line 27
     sget-object v1, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->TAG:Ljava/lang/String;
 
-    .line 29
     invoke-virtual {v0}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
 
-    .line 32
     move-result-object v2
 
-    .line 33
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 36
     iget-object v1, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->adLoadCallback:Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;
 
-    .line 38
     invoke-interface {v1, v0}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
 
-    .line 41
     return-void
 
-    .line 42
     :cond_0
     iget-object v2, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->adConfiguration:Lcom/google/android/gms/ads/mediation/MediationAppOpenAdConfiguration;
 
-    .line 44
     invoke-virtual {v2}, Lcom/google/android/gms/ads/mediation/MediationAdConfiguration;->getBidResponse()Ljava/lang/String;
 
-    .line 47
     move-result-object v2
 
-    .line 48
     iget-object v3, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->adConfiguration:Lcom/google/android/gms/ads/mediation/MediationAppOpenAdConfiguration;
 
-    .line 50
     invoke-virtual {v3}, Lcom/google/android/gms/ads/mediation/MediationAdConfiguration;->getContext()Landroid/content/Context;
 
-    .line 53
     move-result-object v3
 
-    .line 54
     const-string v4, "appid"
 
-    .line 56
     invoke-virtual {v0, v4}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 59
     move-result-object v0
 
-    .line 60
     iget-object v4, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->pangleInitializer:Lcom/google/ads/mediation/pangle/PangleInitializer;
 
-    .line 62
     new-instance v5, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd$1;
 
-    .line 64
     invoke-direct {v5, p0, v2, v1}, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd$1;-><init>(Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 67
     invoke-virtual {v4, v3, v0, v5}, Lcom/google/ads/mediation/pangle/PangleInitializer;->initialize(Landroid/content/Context;Ljava/lang/String;Lcom/google/ads/mediation/pangle/PangleInitializer$Listener;)V
 
-    .line 70
     return-void
 .end method
 
 .method public showAd(Landroid/content/Context;)V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->pagAppOpenAd:Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd;
 
-    .line 3
     new-instance v1, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd$2;
 
-    .line 5
     invoke-direct {v1, p0}, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd$2;-><init>(Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;)V
 
-    .line 8
     invoke-virtual {v0, v1}, Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd;->setAdInteractionListener(Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAdInteractionListener;)V
 
-    .line 11
     instance-of v0, p1, Landroid/app/Activity;
 
-    .line 13
     if-eqz v0, :cond_0
 
-    .line 15
     iget-object v0, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->pagAppOpenAd:Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd;
 
-    .line 17
     check-cast p1, Landroid/app/Activity;
 
-    .line 19
     invoke-virtual {v0, p1}, Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd;->show(Landroid/app/Activity;)V
 
-    .line 22
     return-void
 
-    .line 23
     :cond_0
     iget-object p1, p0, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->pagAppOpenAd:Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd;
 
-    .line 25
     const/4 v0, 0x0
 
-    .line 26
     invoke-virtual {p1, v0}, Lcom/bytedance/sdk/openadsdk/api/open/PAGAppOpenAd;->show(Landroid/app/Activity;)V
 
-    .line 29
     return-void
 .end method

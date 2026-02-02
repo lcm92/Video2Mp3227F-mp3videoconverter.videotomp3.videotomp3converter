@@ -16,7 +16,7 @@
 
 # instance fields
 .field public data:Ljava/lang/Object;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "data"
     .end annotation
 
@@ -28,7 +28,7 @@
 .end field
 
 .field public status:I
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "status"
     .end annotation
 .end field

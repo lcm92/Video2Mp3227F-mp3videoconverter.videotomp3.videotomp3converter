@@ -19,117 +19,82 @@
 .method private static DK()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
-    .line 3
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 6
     sget-object v1, Lcom/bytedance/sdk/component/lG/rk/rk/rk/Yp;->fFV:Ljava/lang/String;
 
-    .line 8
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 11
     const-string v1, "/ad_log_event/"
 
-    .line 13
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 16
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 19
     move-result-object v0
 
-    .line 20
     return-object v0
 .end method
 
 .method public static fFV()V
     .locals 3
 
-    .line 1
-    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/pw;->Yp()Lcom/bytedance/sdk/component/lG/rk/pw;
+    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->Yp()Lcom/bytedance/sdk/component/lG/rk/PWRLC;
 
-    .line 4
     move-result-object v0
 
-    .line 5
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/lG/rk/pw;->lG()Landroid/content/Context;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->lG()Landroid/content/Context;
 
-    .line 8
     move-result-object v0
 
-    .line 9
     if-nez v0, :cond_0
 
-    .line 11
     return-void
 
-    .line 12
     :cond_0
     :try_start_0
-    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/pw;->Yp()Lcom/bytedance/sdk/component/lG/rk/pw;
+    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->Yp()Lcom/bytedance/sdk/component/lG/rk/PWRLC;
 
-    .line 15
     move-result-object v0
 
-    .line 16
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/lG/rk/pw;->lG()Landroid/content/Context;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->lG()Landroid/content/Context;
 
-    .line 19
     move-result-object v0
 
-    .line 20
     invoke-static {v0}, Lcom/bytedance/sdk/component/lG/rk/fFV/fFV/fFV;->rk(Landroid/content/Context;)Lcom/bytedance/sdk/component/lG/rk/lG;
 
-    .line 23
     move-result-object v0
 
-    .line 24
     if-eqz v0, :cond_1
 
-    .line 26
     new-instance v1, Ljava/lang/StringBuilder;
 
-    .line 28
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 31
     invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/fFV/fFV/fFV;->DK()Ljava/lang/String;
 
-    .line 34
     move-result-object v2
 
-    .line 35
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 38
     const-string v2, "adLogStop"
 
-    .line 40
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 43
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 46
     move-result-object v1
 
-    .line 47
     invoke-static {v1}, Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
 
-    .line 50
     move-result-object v1
 
-    .line 51
     invoke-interface {v0, v1}, Lcom/bytedance/sdk/component/lG/rk/lG;->rk(Landroid/net/Uri;)Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 54
     :catchall_0
     :cond_1
     return-void
@@ -138,18 +103,16 @@
 .method public static rk(Landroid/content/Context;)Lcom/bytedance/sdk/component/lG/rk/lG;
     .locals 0
 
-    .line 5
     :try_start_0
     sget-object p0, Lcom/bytedance/sdk/component/lG/rk/fFV/fFV/fFV;->rk:Lcom/bytedance/sdk/component/lG/rk/lG;
 
     if-nez p0, :cond_0
 
-    .line 6
-    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/pw;->Yp()Lcom/bytedance/sdk/component/lG/rk/pw;
+    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->Yp()Lcom/bytedance/sdk/component/lG/rk/PWRLC;
 
     move-result-object p0
 
-    invoke-virtual {p0}, Lcom/bytedance/sdk/component/lG/rk/pw;->kEa()Lcom/bytedance/sdk/component/lG/rk/rQf;
+    invoke-virtual {p0}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->kEa()Lcom/bytedance/sdk/component/lG/rk/rQf;
 
     move-result-object p0
 
@@ -161,7 +124,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 7
     :catch_0
     :cond_0
     sget-object p0, Lcom/bytedance/sdk/component/lG/rk/fFV/fFV/fFV;->rk:Lcom/bytedance/sdk/component/lG/rk/lG;
@@ -172,12 +134,11 @@
 .method public static rk()V
     .locals 3
 
-    .line 8
-    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/pw;->Yp()Lcom/bytedance/sdk/component/lG/rk/pw;
+    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->Yp()Lcom/bytedance/sdk/component/lG/rk/PWRLC;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/lG/rk/pw;->lG()Landroid/content/Context;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->lG()Landroid/content/Context;
 
     move-result-object v0
 
@@ -185,14 +146,13 @@
 
     return-void
 
-    .line 9
     :cond_0
     :try_start_0
-    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/pw;->Yp()Lcom/bytedance/sdk/component/lG/rk/pw;
+    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->Yp()Lcom/bytedance/sdk/component/lG/rk/PWRLC;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/lG/rk/pw;->lG()Landroid/content/Context;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->lG()Landroid/content/Context;
 
     move-result-object v0
 
@@ -202,7 +162,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 10
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -225,7 +184,6 @@
 
     move-result-object v1
 
-    .line 11
     invoke-interface {v0, v1}, Lcom/bytedance/sdk/component/lG/rk/lG;->rk(Landroid/net/Uri;)Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -235,21 +193,20 @@
     return-void
 .end method
 
-.method public static rk(Lcom/bytedance/sdk/component/lG/rk/DK/rk;)V
+.method public static rk(Lcom/bytedance/sdk/component/lG/rk/DK/RKDRC;)V
     .locals 3
 
     if-nez p0, :cond_0
 
     return-void
 
-    .line 12
     :cond_0
     :try_start_0
-    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/pw;->Yp()Lcom/bytedance/sdk/component/lG/rk/pw;
+    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->Yp()Lcom/bytedance/sdk/component/lG/rk/PWRLC;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/lG/rk/pw;->lG()Landroid/content/Context;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->lG()Landroid/content/Context;
 
     move-result-object v0
 
@@ -259,8 +216,7 @@
 
     if-eqz v0, :cond_1
 
-    .line 13
-    invoke-interface {p0}, Lcom/bytedance/sdk/component/lG/rk/DK/rk;->lG()Ljava/lang/String;
+    invoke-interface {p0}, Lcom/bytedance/sdk/component/lG/rk/DK/RKDRC;->lG()Ljava/lang/String;
 
     move-result-object p0
 
@@ -268,7 +224,6 @@
 
     move-result-object p0
 
-    .line 14
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -293,7 +248,6 @@
 
     move-result-object p0
 
-    .line 15
     invoke-interface {v0, p0}, Lcom/bytedance/sdk/component/lG/rk/lG;->rk(Landroid/net/Uri;)Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -309,7 +263,6 @@
     :goto_0
     return-void
 
-    .line 16
     :goto_1
     invoke-virtual {p0}, Ljava/lang/Throwable;->toString()Ljava/lang/String;
 
@@ -332,7 +285,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 17
     invoke-interface {p1}, Ljava/util/List;->isEmpty()Z
 
     move-result v0
@@ -341,14 +293,12 @@
 
     goto/16 :goto_1
 
-    .line 18
     :cond_0
     :try_start_0
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 19
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -366,7 +316,6 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 20
     invoke-static {v1}, Lcom/bytedance/sdk/component/lG/rk/rk/rk/lG;->rk(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
@@ -379,7 +328,6 @@
 
     goto :goto_0
 
-    .line 21
     :cond_1
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
@@ -389,7 +337,6 @@
 
     move-result-object p1
 
-    .line 22
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "?did="
@@ -406,7 +353,6 @@
 
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 23
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p0
@@ -417,7 +363,6 @@
 
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 24
     invoke-static {p2}, Ljava/lang/String;->valueOf(Z)Ljava/lang/String;
 
     move-result-object p0
@@ -428,7 +373,6 @@
 
     invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 25
     invoke-static {p3}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p0
@@ -445,12 +389,11 @@
 
     move-result-object p0
 
-    .line 26
-    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/pw;->Yp()Lcom/bytedance/sdk/component/lG/rk/pw;
+    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->Yp()Lcom/bytedance/sdk/component/lG/rk/PWRLC;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/bytedance/sdk/component/lG/rk/pw;->lG()Landroid/content/Context;
+    invoke-virtual {p1}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->lG()Landroid/content/Context;
 
     move-result-object p1
 
@@ -460,7 +403,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 27
     new-instance p2, Ljava/lang/StringBuilder;
 
     invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
@@ -485,7 +427,6 @@
 
     move-result-object p0
 
-    .line 28
     invoke-interface {p1, p0}, Lcom/bytedance/sdk/component/lG/rk/lG;->rk(Landroid/net/Uri;)Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -499,12 +440,11 @@
 .method public static rk(Ljava/lang/String;Z)V
     .locals 3
 
-    .line 29
-    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/pw;->Yp()Lcom/bytedance/sdk/component/lG/rk/pw;
+    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->Yp()Lcom/bytedance/sdk/component/lG/rk/PWRLC;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/lG/rk/pw;->kEa()Lcom/bytedance/sdk/component/lG/rk/rQf;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->kEa()Lcom/bytedance/sdk/component/lG/rk/rQf;
 
     move-result-object v0
 
@@ -514,7 +454,6 @@
 
     if-nez v0, :cond_0
 
-    .line 30
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -523,14 +462,13 @@
 
     return-void
 
-    .line 31
     :cond_0
     :try_start_0
-    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/pw;->Yp()Lcom/bytedance/sdk/component/lG/rk/pw;
+    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->Yp()Lcom/bytedance/sdk/component/lG/rk/PWRLC;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/lG/rk/pw;->lG()Landroid/content/Context;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->lG()Landroid/content/Context;
 
     move-result-object v0
 
@@ -540,7 +478,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 32
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -575,7 +512,6 @@
 
     move-result-object p0
 
-    .line 33
     invoke-interface {v0, p0}, Lcom/bytedance/sdk/component/lG/rk/lG;->rk(Landroid/net/Uri;)Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -590,17 +526,14 @@
 .method public aAs()Ljava/lang/String;
     .locals 1
 
-    .line 1
     const-string v0, "ad_log_event"
 
-    .line 3
     return-object v0
 .end method
 
 .method public rk(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
     .locals 0
 
-    .line 1
     const/4 p1, 0x0
 
     return p1
@@ -609,7 +542,6 @@
 .method public rk(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I
     .locals 0
 
-    .line 2
     const/4 p1, 0x0
 
     return p1
@@ -618,7 +550,6 @@
 .method public rk(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
     .locals 0
 
-    .line 3
     const/4 p1, 0x0
 
     return-object p1
@@ -627,7 +558,6 @@
 .method public rk(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
     .locals 0
 
-    .line 4
     const/4 p1, 0x0
 
     return-object p1
@@ -638,7 +568,6 @@
 
     const/4 v0, 0x1
 
-    .line 34
     invoke-virtual {p1}, Landroid/net/Uri;->getPath()Ljava/lang/String;
 
     move-result-object v1
@@ -651,10 +580,8 @@
 
     const/4 v2, 0x2
 
-    .line 35
     aget-object v1, v1, v2
 
-    .line 36
     invoke-virtual {v1}, Ljava/lang/String;->hashCode()I
 
     const-string v3, "did"
@@ -753,14 +680,12 @@
 
     goto/16 :goto_3
 
-    .line 37
     :pswitch_0
     :try_start_0
     invoke-virtual {p1, v3}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 38
     const-string v1, "replace"
 
     invoke-virtual {p1, v1}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
@@ -775,50 +700,42 @@
 
     move-result v8
 
-    .line 39
     const-string v1, "track"
 
     invoke-virtual {p1, v1}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 40
     const-string v2, "urlType"
 
     invoke-virtual {p1, v2}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 41
     const-string v3, "adId"
 
     invoke-virtual {p1, v3}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v11
 
-    .line 42
     invoke-static {v1}, Lcom/bytedance/sdk/component/lG/rk/rk/rk/lG;->fFV(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 43
     const-string v1, ","
 
     invoke-virtual {p1, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object p1
 
-    .line 44
     array-length v1, p1
 
     if-lez v1, :cond_8
 
-    .line 45
     new-instance v7, Ljava/util/ArrayList;
 
     invoke-direct {v7}, Ljava/util/ArrayList;-><init>()V
 
-    .line 46
     array-length v1, p1
 
     move v3, v4
@@ -828,19 +745,16 @@
 
     aget-object v5, p1, v3
 
-    .line 47
     invoke-static {v5}, Lcom/bytedance/sdk/component/lG/rk/rk/rk/lG;->fFV(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
-    .line 48
     invoke-static {v5}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v9
 
     if-nez v9, :cond_5
 
-    .line 49
     invoke-interface {v7, v5}, Ljava/util/List;->add(Ljava/lang/Object;)Z
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -850,7 +764,6 @@
 
     goto :goto_2
 
-    .line 50
     :cond_6
     :try_start_1
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -859,7 +772,6 @@
 
     if-nez p1, :cond_7
 
-    .line 51
     invoke-static {v2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result v4
@@ -871,9 +783,8 @@
     :cond_7
     move v10, v4
 
-    .line 52
     :try_start_2
-    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/lG/rk;->rk()Lcom/bytedance/sdk/component/lG/rk/lG/fFV;
+    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/lG/RKLRC;->rk()Lcom/bytedance/sdk/component/lG/rk/lG/fFV;
 
     move-result-object v5
 
@@ -885,7 +796,6 @@
 
     goto :goto_3
 
-    .line 53
     :pswitch_1
     const-string v0, "event"
 
@@ -893,67 +803,58 @@
 
     move-result-object p1
 
-    .line 54
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
 
     if-nez v0, :cond_8
 
-    .line 55
     invoke-static {p1}, Lcom/bytedance/sdk/component/lG/rk/rk/rk/lG;->fFV(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 56
-    invoke-static {p1}, Lcom/bytedance/sdk/component/lG/rk/DK/rk/rk;->aAs(Ljava/lang/String;)Lcom/bytedance/sdk/component/lG/rk/DK/rk;
+    invoke-static {p1}, Lcom/bytedance/sdk/component/lG/rk/DK/rk/RKRDC;->aAs(Ljava/lang/String;)Lcom/bytedance/sdk/component/lG/rk/DK/RKDRC;
 
     move-result-object p1
 
     if-eqz p1, :cond_8
 
-    .line 57
     sget-object v0, Lcom/bytedance/sdk/component/lG/rk/DK;->rk:Lcom/bytedance/sdk/component/lG/rk/DK;
 
-    invoke-virtual {v0, p1}, Lcom/bytedance/sdk/component/lG/rk/DK;->rk(Lcom/bytedance/sdk/component/lG/rk/DK/rk;)V
+    invoke-virtual {v0, p1}, Lcom/bytedance/sdk/component/lG/rk/DK;->rk(Lcom/bytedance/sdk/component/lG/rk/DK/RKDRC;)V
 
     goto :goto_3
 
-    .line 58
     :pswitch_2
-    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/pw;->Yp()Lcom/bytedance/sdk/component/lG/rk/pw;
+    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->Yp()Lcom/bytedance/sdk/component/lG/rk/PWRLC;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/bytedance/sdk/component/lG/rk/pw;->nP()V
+    invoke-virtual {p1}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->nP()V
 
     goto :goto_3
 
-    .line 59
     :pswitch_3
-    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/pw;->Yp()Lcom/bytedance/sdk/component/lG/rk/pw;
+    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->Yp()Lcom/bytedance/sdk/component/lG/rk/PWRLC;
 
     move-result-object p1
 
-    invoke-virtual {p1}, Lcom/bytedance/sdk/component/lG/rk/pw;->ppR()V
+    invoke-virtual {p1}, Lcom/bytedance/sdk/component/lG/rk/PWRLC;->ppR()V
 
     goto :goto_3
 
-    .line 60
     :pswitch_4
     invoke-virtual {p1, v3}, Landroid/net/Uri;->getQueryParameter(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
-    .line 61
     const-string v1, "triggerOnInit"
 
     invoke-virtual {p1, v1, v4}, Landroid/net/Uri;->getBooleanQueryParameter(Ljava/lang/String;Z)Z
 
     move-result p1
 
-    .line 62
-    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/lG/rk;->rk()Lcom/bytedance/sdk/component/lG/rk/lG/fFV;
+    invoke-static {}, Lcom/bytedance/sdk/component/lG/rk/lG/RKLRC;->rk()Lcom/bytedance/sdk/component/lG/rk/lG/fFV;
 
     move-result-object v1
 

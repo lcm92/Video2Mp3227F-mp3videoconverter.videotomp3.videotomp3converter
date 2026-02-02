@@ -5,12 +5,6 @@
 
 # static fields
 .field private static aAs:Landroid/content/Context;
-    .annotation build Landroid/annotation/SuppressLint;
-        value = {
-            "StaticFieldLeak"
-        }
-    .end annotation
-.end field
 
 .field private static fFV:Landroid/content/res/Resources;
 
@@ -27,23 +21,18 @@
 .method public static fFV(Landroid/content/Context;Ljava/lang/String;)I
     .locals 1
 
-    .line 1
     const-string v0, "drawable"
 
-    .line 3
     invoke-static {p0, p1, v0}, Lcom/bytedance/adsdk/ugeno/Yp/DK;->rk(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 6
     move-result p0
 
-    .line 7
     return p0
 .end method
 
 .method public static rk(Landroid/content/Context;Ljava/lang/String;)I
     .locals 1
 
-    .line 8
     const-string v0, "raw"
 
     invoke-static {p0, p1, v0}, Lcom/bytedance/adsdk/ugeno/Yp/DK;->rk(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
@@ -56,19 +45,16 @@
 .method private static rk(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)I
     .locals 1
 
-    .line 5
     sget-object v0, Lcom/bytedance/adsdk/ugeno/Yp/DK;->fFV:Landroid/content/res/Resources;
 
     if-nez v0, :cond_0
 
-    .line 6
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
     move-result-object v0
 
     sput-object v0, Lcom/bytedance/adsdk/ugeno/Yp/DK;->fFV:Landroid/content/res/Resources;
 
-    .line 7
     :cond_0
     sget-object v0, Lcom/bytedance/adsdk/ugeno/Yp/DK;->fFV:Landroid/content/res/Resources;
 
@@ -86,19 +72,16 @@
 .method private static rk(Landroid/content/Context;)Ljava/lang/String;
     .locals 1
 
-    .line 2
     sget-object v0, Lcom/bytedance/adsdk/ugeno/Yp/DK;->rk:Ljava/lang/String;
 
     if-nez v0, :cond_0
 
-    .line 3
     invoke-virtual {p0}, Landroid/content/Context;->getPackageName()Ljava/lang/String;
 
     move-result-object p0
 
     sput-object p0, Lcom/bytedance/adsdk/ugeno/Yp/DK;->rk:Ljava/lang/String;
 
-    .line 4
     :cond_0
     sget-object p0, Lcom/bytedance/adsdk/ugeno/Yp/DK;->rk:Ljava/lang/String;
 
@@ -108,7 +91,6 @@
 .method public static rk(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     sput-object p0, Lcom/bytedance/adsdk/ugeno/Yp/DK;->rk:Ljava/lang/String;
 
     return-void

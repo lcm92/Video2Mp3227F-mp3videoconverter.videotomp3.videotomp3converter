@@ -27,17 +27,14 @@
 .method public aAs(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/core/model/sS;->aAs:I
 
-    .line 3
     return-void
 .end method
 
 .method public fFV()Ljava/lang/String;
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/sS;->DK:Ljava/lang/String;
 
     return-object v0
@@ -46,7 +43,6 @@
 .method public fFV(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/core/model/sS;->fFV:I
 
     return-void
@@ -55,7 +51,6 @@
 .method public rk()I
     .locals 1
 
-    .line 2
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/sS;->aAs:I
 
     return v0
@@ -64,7 +59,6 @@
 .method public rk(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/core/model/sS;->rk:I
 
     return-void
@@ -73,7 +67,6 @@
 .method public rk(Ljava/lang/String;)V
     .locals 0
 
-    .line 3
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/model/sS;->DK:Ljava/lang/String;
 
     return-void

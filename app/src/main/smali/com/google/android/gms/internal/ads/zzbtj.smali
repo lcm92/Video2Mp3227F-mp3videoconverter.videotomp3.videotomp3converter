@@ -10,17 +10,17 @@
 .method public abstract zze(Landroid/content/Intent;)V
 .end method
 
-.method public abstract zzf([Ljava/lang/String;[ILjl0;)V
+.method public abstract zzf([Ljava/lang/String;[ILdef/JL0;)V
 .end method
 
-.method public abstract zzg(Ljl0;)V
+.method public abstract zzg(Ldef/JL0;)V
 .end method
 
 .method public abstract zzh()V
 .end method
 
-.method public abstract zzi(Ljl0;Ljava/lang/String;Ljava/lang/String;)V
+.method public abstract zzi(Ldef/JL0;Ljava/lang/String;Ljava/lang/String;)V
 .end method
 
-.method public abstract zzj(Ljl0;Lcom/google/android/gms/ads/internal/offline/buffering/zza;)V
+.method public abstract zzj(Ldef/JL0;Lcom/google/android/gms/ads/internal/offline/buffering/zza;)V
 .end method

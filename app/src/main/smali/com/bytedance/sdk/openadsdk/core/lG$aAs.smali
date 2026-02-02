@@ -24,230 +24,168 @@
 .method public constructor <init>(Lcom/bytedance/sdk/openadsdk/core/lG;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->rk:Lcom/bytedance/sdk/openadsdk/core/lG;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     const/4 p1, 0x0
 
-    .line 7
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->fFV:Landroid/database/sqlite/SQLiteDatabase;
 
-    .line 9
     return-void
 .end method
 
 .method private declared-synchronized lG()Z
     .locals 1
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->fFV:Landroid/database/sqlite/SQLiteDatabase;
 
-    .line 4
     if-eqz v0, :cond_0
 
-    .line 6
     invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->inTransaction()Z
 
-    .line 9
     move-result v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 10
     if-eqz v0, :cond_0
 
-    .line 12
     monitor-exit p0
 
-    .line 13
     const/4 v0, 0x1
 
-    .line 14
     return v0
 
-    .line 15
     :catchall_0
     move-exception v0
 
-    .line 16
     goto :goto_0
 
-    .line 17
     :cond_0
     monitor-exit p0
 
-    .line 18
     const/4 v0, 0x0
 
-    .line 19
     return v0
 
-    .line 20
     :goto_0
     :try_start_1
     monitor-exit p0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 21
     throw v0
 .end method
 
 .method private declared-synchronized rQf()V
     .locals 4
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lG;->fFV()Ljava/lang/Object;
 
-    .line 5
     move-result-object v0
 
-    .line 6
     monitor-enter v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 7
     :try_start_1
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->fFV:Landroid/database/sqlite/SQLiteDatabase;
 
-    .line 9
     if-eqz v1, :cond_0
 
-    .line 11
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->isOpen()Z
 
-    .line 14
     move-result v1
 
-    .line 15
     if-nez v1, :cond_1
 
-    .line 17
     goto :goto_0
 
-    .line 18
     :catchall_0
     move-exception v1
 
-    .line 19
     goto :goto_1
 
-    .line 20
     :cond_0
     :goto_0
-    new-instance v1, Lcom/bytedance/sdk/openadsdk/core/lG$rk;
+    new-instance v1, Lcom/bytedance/sdk/openadsdk/core/lG$RKL1;
 
-    .line 22
     iget-object v2, p0, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->rk:Lcom/bytedance/sdk/openadsdk/core/lG;
 
-    .line 24
     invoke-static {v2}, Lcom/bytedance/sdk/openadsdk/core/lG;->rk(Lcom/bytedance/sdk/openadsdk/core/lG;)Landroid/content/Context;
 
-    .line 27
     move-result-object v3
 
-    .line 28
-    invoke-direct {v1, v2, v3}, Lcom/bytedance/sdk/openadsdk/core/lG$rk;-><init>(Lcom/bytedance/sdk/openadsdk/core/lG;Landroid/content/Context;)V
+    invoke-direct {v1, v2, v3}, Lcom/bytedance/sdk/openadsdk/core/lG$RKL1;-><init>(Lcom/bytedance/sdk/openadsdk/core/lG;Landroid/content/Context;)V
 
-    .line 31
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
-    .line 34
     move-result-object v1
 
-    .line 35
     iput-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->fFV:Landroid/database/sqlite/SQLiteDatabase;
 
-    .line 37
     const/4 v2, 0x0
 
-    .line 38
     invoke-virtual {v1, v2}, Landroid/database/sqlite/SQLiteDatabase;->setLockingEnabled(Z)V
 
-    .line 41
     :cond_1
     monitor-exit v0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 42
     monitor-exit p0
 
-    .line 43
     return-void
 
-    .line 44
     :goto_1
     :try_start_2
     monitor-exit v0
 
-    .line 45
     throw v1
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 46
     :catchall_1
     move-exception v0
 
-    .line 47
     :try_start_3
     const-string v1, "DBHelper"
 
-    .line 49
     invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
-    .line 52
     move-result-object v2
 
-    .line 53
     invoke-static {v1, v2}, Lcom/bytedance/sdk/component/utils/ZQ;->aAs(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 56
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->lG()Z
 
-    .line 59
     move-result v1
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_2
 
-    .line 60
     if-nez v1, :cond_2
 
-    .line 62
     monitor-exit p0
 
-    .line 63
     return-void
 
-    .line 64
     :cond_2
     :try_start_4
     throw v0
 
-    .line 65
     :catchall_2
     move-exception v0
 
-    .line 66
     monitor-exit p0
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_2
 
-    .line 67
     throw v0
 .end method
 
@@ -256,153 +194,117 @@
 .method public declared-synchronized DK()V
     .locals 1
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->rQf()V
 
-    .line 5
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->fFV:Landroid/database/sqlite/SQLiteDatabase;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     if-nez v0, :cond_0
 
-    .line 9
     monitor-exit p0
 
-    .line 10
     return-void
 
-    .line 11
     :cond_0
     :try_start_1
     invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->endTransaction()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 14
     monitor-exit p0
 
-    .line 15
     return-void
 
-    .line 16
     :catchall_0
     move-exception v0
 
-    .line 17
     :try_start_2
     monitor-exit p0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 18
     throw v0
 .end method
 
 .method public declared-synchronized aAs()V
     .locals 1
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->rQf()V
 
-    .line 5
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->fFV:Landroid/database/sqlite/SQLiteDatabase;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     if-nez v0, :cond_0
 
-    .line 9
     monitor-exit p0
 
-    .line 10
     return-void
 
-    .line 11
     :cond_0
     :try_start_1
     invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->setTransactionSuccessful()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 14
     monitor-exit p0
 
-    .line 15
     return-void
 
-    .line 16
     :catchall_0
     move-exception v0
 
-    .line 17
     :try_start_2
     monitor-exit p0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 18
     throw v0
 .end method
 
 .method public declared-synchronized fFV()V
     .locals 1
 
-    .line 1
     monitor-enter p0
 
-    .line 2
     :try_start_0
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->rQf()V
 
-    .line 5
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->fFV:Landroid/database/sqlite/SQLiteDatabase;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     if-nez v0, :cond_0
 
-    .line 9
     monitor-exit p0
 
-    .line 10
     return-void
 
-    .line 11
     :cond_0
     :try_start_1
     invoke-virtual {v0}, Landroid/database/sqlite/SQLiteDatabase;->beginTransaction()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 14
     monitor-exit p0
 
-    .line 15
     return-void
 
-    .line 16
     :catchall_0
     move-exception v0
 
-    .line 17
     :try_start_2
     monitor-exit p0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 18
     throw v0
 .end method
 
@@ -411,11 +313,9 @@
 
     monitor-enter p0
 
-    .line 18
     :try_start_0
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->rQf()V
 
-    .line 19
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->fFV:Landroid/database/sqlite/SQLiteDatabase;
 
     invoke-virtual {v0, p1, p2, p3, p4}, Landroid/database/sqlite/SQLiteDatabase;->update(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
@@ -435,7 +335,6 @@
     :catch_0
     move-exception p1
 
-    .line 20
     :try_start_1
     const-string p2, "DBHelper"
 
@@ -445,7 +344,6 @@
 
     invoke-static {p2, p3}, Lcom/bytedance/sdk/component/utils/ZQ;->aAs(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 21
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->lG()Z
 
     move-result p2
@@ -456,18 +354,15 @@
 
     const/4 p1, 0x0
 
-    .line 22
     :goto_0
     monitor-exit p0
 
     return p1
 
-    .line 23
     :cond_0
     :try_start_2
     throw p1
 
-    .line 24
     :goto_1
     monitor-exit p0
     :try_end_2
@@ -481,11 +376,9 @@
 
     monitor-enter p0
 
-    .line 32
     :try_start_0
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->rQf()V
 
-    .line 33
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->fFV:Landroid/database/sqlite/SQLiteDatabase;
 
     invoke-virtual {v0, p1, p2, p3}, Landroid/database/sqlite/SQLiteDatabase;->delete(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I
@@ -505,7 +398,6 @@
     :catch_0
     move-exception p1
 
-    .line 34
     :try_start_1
     const-string p2, "DBHelper"
 
@@ -515,7 +407,6 @@
 
     invoke-static {p2, p3}, Lcom/bytedance/sdk/component/utils/ZQ;->aAs(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 35
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->lG()Z
 
     move-result p2
@@ -526,18 +417,15 @@
 
     const/4 p1, 0x0
 
-    .line 36
     :goto_0
     monitor-exit p0
 
     return p1
 
-    .line 37
     :cond_0
     :try_start_2
     throw p1
 
-    .line 38
     :goto_1
     monitor-exit p0
     :try_end_2
@@ -551,11 +439,9 @@
 
     monitor-enter p0
 
-    .line 25
     :try_start_0
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->rQf()V
 
-    .line 26
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->fFV:Landroid/database/sqlite/SQLiteDatabase;
 
     invoke-virtual {v0, p1, p2, p3}, Landroid/database/sqlite/SQLiteDatabase;->replace(Ljava/lang/String;Ljava/lang/String;Landroid/content/ContentValues;)J
@@ -575,7 +461,6 @@
     :catch_0
     move-exception p1
 
-    .line 27
     :try_start_1
     const-string p2, "DBHelper"
 
@@ -585,7 +470,6 @@
 
     invoke-static {p2, p3}, Lcom/bytedance/sdk/component/utils/ZQ;->aAs(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 28
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->lG()Z
 
     move-result p2
@@ -596,18 +480,15 @@
 
     const-wide/16 p1, -0x1
 
-    .line 29
     :goto_0
     monitor-exit p0
 
     return-wide p1
 
-    .line 30
     :cond_0
     :try_start_2
     throw p1
 
-    .line 31
     :goto_1
     monitor-exit p0
     :try_end_2
@@ -621,11 +502,9 @@
 
     monitor-enter p0
 
-    .line 10
     :try_start_0
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->rQf()V
 
-    .line 11
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->fFV:Landroid/database/sqlite/SQLiteDatabase;
 
     move-object v1, p1
@@ -653,7 +532,6 @@
     :catchall_0
     move-exception p1
 
-    .line 12
     :try_start_1
     const-string p2, "DBHelper"
 
@@ -663,7 +541,6 @@
 
     invoke-static {p2, p3}, Lcom/bytedance/sdk/component/utils/ZQ;->aAs(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 13
     new-instance p2, Lcom/bytedance/sdk/openadsdk/core/lG$fFV;
 
     iget-object p3, p0, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->rk:Lcom/bytedance/sdk/openadsdk/core/lG;
@@ -672,7 +549,6 @@
 
     invoke-direct {p2, p3, p4}, Lcom/bytedance/sdk/openadsdk/core/lG$fFV;-><init>(Lcom/bytedance/sdk/openadsdk/core/lG;Lcom/bytedance/sdk/openadsdk/core/lG$1;)V
 
-    .line 14
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->lG()Z
 
     move-result p3
@@ -683,13 +559,11 @@
 
     move-object p1, p2
 
-    .line 15
     :goto_0
     monitor-exit p0
 
     return-object p1
 
-    .line 16
     :cond_0
     :try_start_2
     throw p1
@@ -697,7 +571,6 @@
     :catchall_1
     move-exception p1
 
-    .line 17
     monitor-exit p0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
@@ -708,10 +581,8 @@
 .method public rk()Landroid/database/sqlite/SQLiteDatabase;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->rQf()V
 
-    .line 2
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->fFV:Landroid/database/sqlite/SQLiteDatabase;
 
     return-object v0
@@ -722,18 +593,15 @@
 
     monitor-enter p0
 
-    .line 3
     :try_start_0
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->rQf()V
 
-    .line 4
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->fFV:Landroid/database/sqlite/SQLiteDatabase;
 
     invoke-virtual {v0, p1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 5
     monitor-exit p0
 
     return-void
@@ -741,7 +609,6 @@
     :catchall_0
     move-exception p1
 
-    .line 6
     :try_start_1
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/lG$aAs;->lG()Z
 
@@ -751,12 +618,10 @@
 
     if-nez v0, :cond_0
 
-    .line 7
     monitor-exit p0
 
     return-void
 
-    .line 8
     :cond_0
     :try_start_2
     throw p1
@@ -764,7 +629,6 @@
     :catchall_1
     move-exception p1
 
-    .line 9
     monitor-exit p0
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1

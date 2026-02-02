@@ -23,17 +23,14 @@
 .method public fFV()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/Xb;->fFV:I
 
-    .line 3
     return v0
 .end method
 
 .method public rk()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/Xb;->rk:F
 
     return v0
@@ -42,7 +39,6 @@
 .method public rk(F)V
     .locals 0
 
-    .line 2
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/core/model/Xb;->rk:F
 
     return-void
@@ -51,7 +47,6 @@
 .method public rk(I)V
     .locals 0
 
-    .line 3
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/core/model/Xb;->fFV:I
 
     return-void

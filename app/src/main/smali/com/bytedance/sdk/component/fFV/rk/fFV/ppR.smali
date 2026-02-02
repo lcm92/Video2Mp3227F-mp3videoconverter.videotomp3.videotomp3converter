@@ -11,316 +11,221 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     const-string v0, "UTF-8"
 
-    .line 3
     invoke-static {v0}, Ljava/nio/charset/Charset;->forName(Ljava/lang/String;)Ljava/nio/charset/Charset;
 
-    .line 6
     move-result-object v0
 
-    .line 7
     sput-object v0, Lcom/bytedance/sdk/component/fFV/rk/fFV/ppR;->rk:Ljava/nio/charset/Charset;
 
-    .line 9
     return-void
 .end method
 
 .method private static aAs(Ljava/lang/String;II)Ljava/net/InetAddress;
     .locals 12
 
-    .line 1
     const/16 v0, 0x10
 
-    .line 3
     new-array v1, v0, [B
 
-    .line 5
     const/4 v2, 0x0
 
-    .line 6
     const/4 v3, -0x1
 
-    .line 7
     move v4, v2
 
-    .line 8
     move v5, v3
 
-    .line 9
     move v6, v5
 
-    .line 10
     :goto_0
     const/4 v7, 0x0
 
-    .line 11
     if-ge p1, p2, :cond_b
 
-    .line 13
     if-ne v4, v0, :cond_0
 
-    .line 15
     return-object v7
 
-    .line 16
     :cond_0
     add-int/lit8 v8, p1, 0x2
 
-    .line 18
     const/4 v9, 0x2
 
-    .line 19
     if-gt v8, p2, :cond_3
 
-    .line 21
     const-string v10, "::"
 
-    .line 23
     invoke-virtual {p0, p1, v10, v2, v9}, Ljava/lang/String;->regionMatches(ILjava/lang/String;II)Z
 
-    .line 26
     move-result v10
 
-    .line 27
     if-eqz v10, :cond_3
 
-    .line 29
     if-eq v5, v3, :cond_1
 
-    .line 31
     return-object v7
 
-    .line 32
     :cond_1
     add-int/lit8 v4, v4, 0x2
 
-    .line 34
     move v5, v4
 
-    .line 35
     if-ne v8, p2, :cond_2
 
-    .line 37
     goto :goto_4
 
-    .line 38
     :cond_2
     move v6, v8
 
-    .line 39
     goto :goto_1
 
-    .line 40
     :cond_3
     if-eqz v4, :cond_4
 
-    .line 42
     const-string v8, ":"
 
-    .line 44
     const/4 v10, 0x1
 
-    .line 45
     invoke-virtual {p0, p1, v8, v2, v10}, Ljava/lang/String;->regionMatches(ILjava/lang/String;II)Z
 
-    .line 48
     move-result v8
 
-    .line 49
     if-eqz v8, :cond_5
 
-    .line 51
     add-int/lit8 p1, p1, 0x1
 
-    .line 53
     :cond_4
     move v6, p1
 
-    .line 54
     goto :goto_1
 
-    .line 55
     :cond_5
     const-string v8, "."
 
-    .line 57
     invoke-virtual {p0, p1, v8, v2, v10}, Ljava/lang/String;->regionMatches(ILjava/lang/String;II)Z
 
-    .line 60
     move-result p1
 
-    .line 61
     if-eqz p1, :cond_7
 
-    .line 63
     add-int/lit8 p1, v4, -0x2
 
-    .line 65
     invoke-static {p0, v6, p2, v1, p1}, Lcom/bytedance/sdk/component/fFV/rk/fFV/ppR;->rk(Ljava/lang/String;II[BI)Z
 
-    .line 68
     move-result p0
 
-    .line 69
     if-nez p0, :cond_6
 
-    .line 71
     return-object v7
 
-    .line 72
     :cond_6
     add-int/lit8 v4, v4, 0x2
 
-    .line 74
     goto :goto_4
 
-    .line 75
     :cond_7
     return-object v7
 
-    .line 76
     :goto_1
     move v8, v2
 
-    .line 77
     move p1, v6
 
-    .line 78
     :goto_2
     if-ge p1, p2, :cond_8
 
-    .line 80
     invoke-virtual {p0, p1}, Ljava/lang/String;->charAt(I)C
 
-    .line 83
     move-result v10
 
-    .line 84
     invoke-static {v10}, Lcom/bytedance/sdk/component/fFV/rk/fFV/ppR;->rk(C)I
 
-    .line 87
     move-result v10
 
-    .line 88
     if-eq v10, v3, :cond_8
 
-    .line 90
     shl-int/lit8 v8, v8, 0x4
 
-    .line 92
     add-int/2addr v8, v10
 
-    .line 93
     add-int/lit8 p1, p1, 0x1
 
-    .line 95
     goto :goto_2
 
-    .line 96
     :cond_8
     sub-int v10, p1, v6
 
-    .line 98
     if-eqz v10, :cond_a
 
-    .line 100
     const/4 v11, 0x4
 
-    .line 101
     if-le v10, v11, :cond_9
 
-    .line 103
     goto :goto_3
 
-    .line 104
     :cond_9
     add-int/lit8 v7, v4, 0x1
 
-    .line 106
     ushr-int/lit8 v10, v8, 0x8
 
-    .line 108
     and-int/lit16 v10, v10, 0xff
 
-    .line 110
     int-to-byte v10, v10
 
-    .line 111
     aput-byte v10, v1, v4
 
-    .line 113
     add-int/2addr v4, v9
 
-    .line 114
     and-int/lit16 v8, v8, 0xff
 
-    .line 116
     int-to-byte v8, v8
 
-    .line 117
     aput-byte v8, v1, v7
 
-    .line 119
     goto :goto_0
 
-    .line 120
     :cond_a
     :goto_3
     return-object v7
 
-    .line 121
     :cond_b
     :goto_4
     if-eq v4, v0, :cond_d
 
-    .line 123
     if-ne v5, v3, :cond_c
 
-    .line 125
     return-object v7
 
-    .line 126
     :cond_c
     sub-int p0, v4, v5
 
-    .line 128
     rsub-int/lit8 p1, p0, 0x10
 
-    .line 130
     invoke-static {v1, v5, v1, p1, p0}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 133
     sub-int/2addr v0, v4
 
-    .line 134
     add-int/2addr v0, v5
 
-    .line 135
     invoke-static {v1, v5, v0, v2}, Ljava/util/Arrays;->fill([BIIB)V
 
-    .line 138
     :cond_d
     :try_start_0
     invoke-static {v1}, Ljava/net/InetAddress;->getByAddress([B)Ljava/net/InetAddress;
 
-    .line 141
     move-result-object p0
     :try_end_0
     .catch Ljava/net/UnknownHostException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 142
     return-object p0
 
-    .line 143
     :catch_0
     new-instance p0, Ljava/lang/AssertionError;
 
-    .line 145
     invoke-direct {p0}, Ljava/lang/AssertionError;-><init>()V
 
-    .line 148
     throw p0
 .end method
 
@@ -332,7 +237,6 @@
     :goto_0
     if-lt p2, p1, :cond_1
 
-    .line 1
     invoke-virtual {p0, p2}, Ljava/lang/String;->charAt(I)C
 
     move-result v0
@@ -377,7 +281,6 @@
 
     move v1, v0
 
-    .line 2
     :goto_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -385,7 +288,6 @@
 
     if-ge v1, v2, :cond_3
 
-    .line 3
     invoke-virtual {p0, v1}, Ljava/lang/String;->charAt(I)C
 
     move-result v2
@@ -402,7 +304,6 @@
 
     goto :goto_1
 
-    .line 4
     :cond_0
     const-string v3, " #%/:?@[\\]"
 
@@ -432,7 +333,6 @@
 .method public static rk(C)I
     .locals 2
 
-    .line 1
     const/16 v0, 0x30
 
     if-lt p0, v0, :cond_0
@@ -483,7 +383,6 @@
     :goto_0
     if-ge p1, p2, :cond_1
 
-    .line 3
     invoke-virtual {p0, p1}, Ljava/lang/String;->charAt(I)C
 
     move-result v0
@@ -525,7 +424,6 @@
     :goto_0
     if-ge p1, p2, :cond_1
 
-    .line 5
     invoke-virtual {p0, p1}, Ljava/lang/String;->charAt(I)C
 
     move-result v0
@@ -549,7 +447,6 @@
     :goto_0
     if-ge p1, p2, :cond_1
 
-    .line 4
     invoke-virtual {p0, p1}, Ljava/lang/String;->charAt(I)C
 
     move-result v0
@@ -576,7 +473,6 @@
 .method public static rk(Ljava/lang/String;)Ljava/lang/String;
     .locals 3
 
-    .line 6
     const-string v0, ":"
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
@@ -587,7 +483,6 @@
 
     if-eqz v0, :cond_3
 
-    .line 7
     const-string v0, "["
 
     invoke-virtual {p0, v0}, Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
@@ -604,7 +499,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 8
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v0
@@ -622,7 +516,6 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 9
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v2
@@ -636,13 +529,11 @@
 
     return-object v1
 
-    .line 10
     :cond_1
     invoke-virtual {v0}, Ljava/net/InetAddress;->getAddress()[B
 
     move-result-object v0
 
-    .line 11
     array-length v1, v0
 
     const/16 v2, 0x10
@@ -655,7 +546,6 @@
 
     return-object p0
 
-    .line 12
     :cond_2
     new-instance v0, Ljava/lang/AssertionError;
 
@@ -679,7 +569,6 @@
 
     throw v0
 
-    .line 13
     :cond_3
     :try_start_0
     invoke-static {p0}, Ljava/net/IDN;->toASCII(Ljava/lang/String;)Ljava/lang/String;
@@ -692,7 +581,6 @@
 
     move-result-object p0
 
-    .line 14
     invoke-virtual {p0}, Ljava/lang/String;->isEmpty()Z
 
     move-result v0
@@ -701,7 +589,6 @@
 
     return-object v1
 
-    .line 15
     :cond_4
     invoke-static {p0}, Lcom/bytedance/sdk/component/fFV/rk/fFV/ppR;->fFV(Ljava/lang/String;)Z
 
@@ -731,7 +618,6 @@
 
     move v3, v2
 
-    .line 20
     :goto_0
     array-length v4, p0
 
@@ -744,7 +630,6 @@
     :goto_1
     if-ge v4, v5, :cond_0
 
-    .line 21
     aget-byte v6, p0, v4
 
     if-nez v6, :cond_0
@@ -777,13 +662,11 @@
 
     goto :goto_0
 
-    .line 22
     :cond_2
-    new-instance v2, Lcom/bytedance/sdk/component/fFV/rk/fFV/rk;
+    new-instance v2, Lcom/bytedance/sdk/component/fFV/rk/fFV/RKFRC;
 
-    invoke-direct {v2}, Lcom/bytedance/sdk/component/fFV/rk/fFV/rk;-><init>()V
+    invoke-direct {v2}, Lcom/bytedance/sdk/component/fFV/rk/fFV/RKFRC;-><init>()V
 
-    .line 23
     :cond_3
     :goto_2
     array-length v4, p0
@@ -794,25 +677,21 @@
 
     if-ne v1, v0, :cond_4
 
-    .line 24
-    invoke-virtual {v2, v4}, Lcom/bytedance/sdk/component/fFV/rk/fFV/rk;->fFV(I)Lcom/bytedance/sdk/component/fFV/rk/fFV/rk;
+    invoke-virtual {v2, v4}, Lcom/bytedance/sdk/component/fFV/rk/fFV/RKFRC;->fFV(I)Lcom/bytedance/sdk/component/fFV/rk/fFV/RKFRC;
 
     add-int/2addr v1, v3
 
     if-ne v1, v5, :cond_3
 
-    .line 25
-    invoke-virtual {v2, v4}, Lcom/bytedance/sdk/component/fFV/rk/fFV/rk;->fFV(I)Lcom/bytedance/sdk/component/fFV/rk/fFV/rk;
+    invoke-virtual {v2, v4}, Lcom/bytedance/sdk/component/fFV/rk/fFV/RKFRC;->fFV(I)Lcom/bytedance/sdk/component/fFV/rk/fFV/RKFRC;
 
     goto :goto_2
 
     :cond_4
     if-lez v1, :cond_5
 
-    .line 26
-    invoke-virtual {v2, v4}, Lcom/bytedance/sdk/component/fFV/rk/fFV/rk;->fFV(I)Lcom/bytedance/sdk/component/fFV/rk/fFV/rk;
+    invoke-virtual {v2, v4}, Lcom/bytedance/sdk/component/fFV/rk/fFV/RKFRC;->fFV(I)Lcom/bytedance/sdk/component/fFV/rk/fFV/RKFRC;
 
-    .line 27
     :cond_5
     aget-byte v4, p0, v1
 
@@ -830,16 +709,14 @@
 
     int-to-long v6, v4
 
-    .line 28
-    invoke-virtual {v2, v6, v7}, Lcom/bytedance/sdk/component/fFV/rk/fFV/rk;->fFV(J)Lcom/bytedance/sdk/component/fFV/rk/fFV/rk;
+    invoke-virtual {v2, v6, v7}, Lcom/bytedance/sdk/component/fFV/rk/fFV/RKFRC;->fFV(J)Lcom/bytedance/sdk/component/fFV/rk/fFV/RKFRC;
 
     add-int/lit8 v1, v1, 0x2
 
     goto :goto_2
 
-    .line 29
     :cond_6
-    invoke-virtual {v2}, Lcom/bytedance/sdk/component/fFV/rk/fFV/rk;->aAs()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/bytedance/sdk/component/fFV/rk/fFV/RKFRC;->aAs()Ljava/lang/String;
 
     move-result-object p0
 
@@ -869,7 +746,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     new-instance p0, Ljava/lang/ArrayIndexOutOfBoundsException;
 
@@ -888,7 +764,6 @@
 
     if-ge p1, p2, :cond_7
 
-    .line 16
     array-length v2, p3
 
     if-ne v0, v2, :cond_0
@@ -898,7 +773,6 @@
     :cond_0
     if-eq v0, p4, :cond_2
 
-    .line 17
     invoke-virtual {p0, p1}, Ljava/lang/String;->charAt(I)C
 
     move-result v2
@@ -920,7 +794,6 @@
     :goto_1
     if-ge v2, p2, :cond_5
 
-    .line 18
     invoke-virtual {p0, v2}, Ljava/lang/String;->charAt(I)C
 
     move-result v4
@@ -969,7 +842,6 @@
 
     int-to-byte v1, v3
 
-    .line 19
     aput-byte v1, p3, v0
 
     move v0, p1
@@ -1003,7 +875,6 @@
 
     add-int v2, v1, p1
 
-    .line 30
     aget-byte v2, p0, v2
 
     add-int v3, v1, p3

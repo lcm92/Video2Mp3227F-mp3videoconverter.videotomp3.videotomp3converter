@@ -7,13 +7,10 @@
 .method public constructor <init>(Landroid/content/Context;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/bytedance/sdk/openadsdk/core/rQf/DK;-><init>(Landroid/content/Context;)V
 
-    .line 4
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/widget/aAs;->rk()V
 
-    .line 7
     return-void
 .end method
 
@@ -22,10 +19,8 @@
 
     const/16 v0, 0x8
 
-    .line 1
     invoke-virtual {p0, v0}, Landroid/view/View;->setVisibility(I)V
 
-    .line 2
     sget v0, Lcom/bytedance/sdk/openadsdk/utils/kEa;->uKQ:I
 
     invoke-virtual {p0, v0}, Landroid/view/View;->setId(I)V
@@ -38,7 +33,6 @@
 .method public rk(ILcom/bytedance/sdk/openadsdk/core/model/HmR;)V
     .locals 3
 
-    .line 3
     invoke-virtual {p2}, Lcom/bytedance/sdk/openadsdk/core/model/HmR;->CE()Z
 
     move-result v0
@@ -60,10 +54,8 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 4
     invoke-static {p0, v0}, Lcom/bytedance/sdk/openadsdk/utils/TB;->rk(Landroid/view/View;I)V
 
-    .line 5
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/KR/fFV;->rk()Lcom/bytedance/sdk/openadsdk/KR/fFV;
 
     move-result-object v0

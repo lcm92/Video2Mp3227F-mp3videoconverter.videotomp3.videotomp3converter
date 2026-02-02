@@ -7,7 +7,6 @@
 .method public static rk(Ljava/lang/String;D)D
     .locals 0
 
-    .line 4
     :try_start_0
     invoke-static {p0}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
@@ -22,7 +21,6 @@
 .method public static rk(Ljava/lang/String;F)F
     .locals 0
 
-    .line 1
     :try_start_0
     invoke-static {p0}, Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
 
@@ -37,7 +35,6 @@
 .method public static rk(Ljava/lang/String;I)I
     .locals 0
 
-    .line 2
     :try_start_0
     invoke-static {p0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
@@ -52,7 +49,6 @@
 .method public static rk(Ljava/lang/String;J)J
     .locals 0
 
-    .line 3
     :try_start_0
     invoke-static {p0}, Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
 
@@ -67,7 +63,6 @@
 .method public static rk(Ljava/lang/String;Z)Z
     .locals 0
 
-    .line 5
     :try_start_0
     invoke-static {p0}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
 

@@ -26,13 +26,11 @@
 
     const/4 v0, 0x1
 
-    .line 4
     :try_start_0
     invoke-static {}, Lcom/bytedance/sdk/component/utils/Xb;->rk()Ljava/lang/ClassLoader;
 
     move-result-object v1
 
-    .line 5
     invoke-static {p0, v0, v1}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     move-result-object p0
@@ -41,7 +39,6 @@
 
     goto :goto_0
 
-    .line 6
     :catch_0
     :try_start_1
     const-class v1, Lcom/bytedance/sdk/component/utils/Xb;
@@ -50,7 +47,6 @@
 
     move-result-object v1
 
-    .line 7
     invoke-static {p0, v0, v1}, Ljava/lang/Class;->forName(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
 
     move-result-object p0
@@ -59,7 +55,6 @@
 
     goto :goto_0
 
-    .line 8
     :catch_1
     :try_start_2
     invoke-static {p0}, Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
@@ -80,7 +75,6 @@
 .method private static rk()Ljava/lang/ClassLoader;
     .locals 1
 
-    .line 9
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
     move-result-object v0
@@ -91,7 +85,6 @@
 
     if-nez v0, :cond_0
 
-    .line 10
     const-class v0, Lcom/bytedance/sdk/component/utils/Xb;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
@@ -116,7 +109,6 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -133,7 +125,6 @@
 
     goto :goto_0
 
-    .line 2
     :cond_0
     :try_start_0
     invoke-static {p0}, Lcom/bytedance/sdk/component/utils/Xb;->rk(Ljava/lang/String;)Ljava/lang/Class;
@@ -142,7 +133,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 3
     invoke-virtual {p0, p1, p2}, Ljava/lang/Class;->getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
     move-result-object v1

@@ -22,7 +22,7 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/bytedance/adsdk/fFV/Yp/rk<",
+            "Lcom/bytedance/adsdk/fFV/Yp/RKYFC<",
             "TK;>;>;"
         }
     .end annotation
@@ -31,11 +31,11 @@
 .method public abstract fFV()Z
 .end method
 
-.method public abstract rk()Lcom/bytedance/adsdk/fFV/rk/fFV/rk;
+.method public abstract rk()Lcom/bytedance/adsdk/fFV/rk/fFV/RKFRC;
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/bytedance/adsdk/fFV/rk/fFV/rk<",
+            "Lcom/bytedance/adsdk/fFV/rk/fFV/RKFRC<",
             "TK;TA;>;"
         }
     .end annotation

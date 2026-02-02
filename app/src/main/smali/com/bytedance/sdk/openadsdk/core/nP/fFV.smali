@@ -10,13 +10,13 @@
 
 
 # direct methods
-.method public constructor <init>(IIJJLcom/bytedance/sdk/openadsdk/core/nP/aAs/rk$rk;Lcom/bytedance/sdk/openadsdk/core/nP/aAs/rk$fFV;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/String;)V
+.method public constructor <init>(IIJJLcom/bytedance/sdk/openadsdk/core/nP/aAs/RKANC$RKR1;Lcom/bytedance/sdk/openadsdk/core/nP/aAs/RKANC$fFV;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/String;)V
     .locals 10
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(IIJJ",
-            "Lcom/bytedance/sdk/openadsdk/core/nP/aAs/rk$rk;",
-            "Lcom/bytedance/sdk/openadsdk/core/nP/aAs/rk$fFV;",
+            "Lcom/bytedance/sdk/openadsdk/core/nP/aAs/RKANC$RKR1;",
+            "Lcom/bytedance/sdk/openadsdk/core/nP/aAs/RKANC$fFV;",
             "Ljava/lang/String;",
             "Ljava/util/List<",
             "Lcom/bytedance/sdk/openadsdk/core/nP/fFV/aAs;",
@@ -29,58 +29,40 @@
         }
     .end annotation
 
-    .line 1
     move-object v9, p0
 
-    .line 2
     move-object v0, p0
 
-    .line 3
     move v1, p1
 
-    .line 4
     move v2, p2
 
-    .line 5
     move-object/from16 v3, p7
 
-    .line 7
     move-object/from16 v4, p8
 
-    .line 9
     move-object/from16 v5, p9
 
-    .line 11
     move-object/from16 v6, p10
 
-    .line 13
     move-object/from16 v7, p11
 
-    .line 15
     move-object/from16 v8, p12
 
-    .line 17
-    invoke-direct/range {v0 .. v8}, Lcom/bytedance/sdk/openadsdk/core/nP/aAs;-><init>(IILcom/bytedance/sdk/openadsdk/core/nP/aAs/rk$rk;Lcom/bytedance/sdk/openadsdk/core/nP/aAs/rk$fFV;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/String;)V
+    invoke-direct/range {v0 .. v8}, Lcom/bytedance/sdk/openadsdk/core/nP/aAs;-><init>(IILcom/bytedance/sdk/openadsdk/core/nP/aAs/RKANC$RKR1;Lcom/bytedance/sdk/openadsdk/core/nP/aAs/RKANC$fFV;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/String;)V
 
-    .line 20
     move-wide v0, p3
 
-    .line 21
     iput-wide v0, v9, Lcom/bytedance/sdk/openadsdk/core/nP/fFV;->ArD:J
 
-    .line 23
     move-wide v0, p5
 
-    .line 24
     iput-wide v0, v9, Lcom/bytedance/sdk/openadsdk/core/nP/fFV;->nP:J
 
-    .line 26
     const-string v0, "icon_click"
 
-    .line 28
     iput-object v0, v9, Lcom/bytedance/sdk/openadsdk/core/nP/aAs;->ppR:Ljava/lang/String;
 
-    .line 30
     return-void
 .end method
 
@@ -89,7 +71,6 @@
 
     move-object/from16 v0, p0
 
-    .line 4
     invoke-static/range {p0 .. p0}, Lcom/bytedance/sdk/openadsdk/core/nP/aAs;->fFV(Lorg/json/JSONObject;)Lcom/bytedance/sdk/openadsdk/core/nP/aAs;
 
     move-result-object v1
@@ -100,7 +81,6 @@
 
     return-object v0
 
-    .line 5
     :cond_0
     const-string v2, "offset"
 
@@ -110,23 +90,21 @@
 
     move-result-wide v8
 
-    .line 6
     const-string v2, "duration"
 
     invoke-virtual {v0, v2, v3, v4}, Lorg/json/JSONObject;->optLong(Ljava/lang/String;J)J
 
     move-result-wide v10
 
-    .line 7
     new-instance v0, Lcom/bytedance/sdk/openadsdk/core/nP/fFV;
 
     iget v6, v1, Lcom/bytedance/sdk/openadsdk/core/nP/aAs;->rk:I
 
     iget v7, v1, Lcom/bytedance/sdk/openadsdk/core/nP/aAs;->fFV:I
 
-    iget-object v12, v1, Lcom/bytedance/sdk/openadsdk/core/nP/aAs;->aAs:Lcom/bytedance/sdk/openadsdk/core/nP/aAs/rk$rk;
+    iget-object v12, v1, Lcom/bytedance/sdk/openadsdk/core/nP/aAs;->aAs:Lcom/bytedance/sdk/openadsdk/core/nP/aAs/RKANC$RKR1;
 
-    iget-object v13, v1, Lcom/bytedance/sdk/openadsdk/core/nP/aAs;->DK:Lcom/bytedance/sdk/openadsdk/core/nP/aAs/rk$fFV;
+    iget-object v13, v1, Lcom/bytedance/sdk/openadsdk/core/nP/aAs;->DK:Lcom/bytedance/sdk/openadsdk/core/nP/aAs/RKANC$fFV;
 
     iget-object v14, v1, Lcom/bytedance/sdk/openadsdk/core/nP/aAs;->rQf:Ljava/lang/String;
 
@@ -142,7 +120,7 @@
 
     move-object/from16 v17, v1
 
-    invoke-direct/range {v5 .. v17}, Lcom/bytedance/sdk/openadsdk/core/nP/fFV;-><init>(IIJJLcom/bytedance/sdk/openadsdk/core/nP/aAs/rk$rk;Lcom/bytedance/sdk/openadsdk/core/nP/aAs/rk$fFV;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/String;)V
+    invoke-direct/range {v5 .. v17}, Lcom/bytedance/sdk/openadsdk/core/nP/fFV;-><init>(IIJJLcom/bytedance/sdk/openadsdk/core/nP/aAs/RKANC$RKR1;Lcom/bytedance/sdk/openadsdk/core/nP/aAs/RKANC$fFV;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/String;)V
 
     return-object v0
 .end method
@@ -152,21 +130,18 @@
 .method public rk()Lorg/json/JSONObject;
     .locals 4
 
-    .line 1
     invoke-super {p0}, Lcom/bytedance/sdk/openadsdk/core/nP/aAs;->rk()Lorg/json/JSONObject;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 2
     const-string v1, "offset"
 
     iget-wide v2, p0, Lcom/bytedance/sdk/openadsdk/core/nP/fFV;->ArD:J
 
     invoke-virtual {v0, v1, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
 
-    .line 3
     const-string v1, "duration"
 
     iget-wide v2, p0, Lcom/bytedance/sdk/openadsdk/core/nP/fFV;->nP:J

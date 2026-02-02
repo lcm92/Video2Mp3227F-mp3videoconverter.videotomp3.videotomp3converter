@@ -28,16 +28,12 @@
 .method public constructor <init>(Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/bytedance/adsdk/fFV/aAs/rk/ppR;->rk:Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;
 
-    .line 6
     iput-object p2, p0, Lcom/bytedance/adsdk/fFV/aAs/rk/ppR;->fFV:Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;
 
-    .line 8
     return-void
 .end method
 
@@ -49,102 +45,77 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/bytedance/adsdk/fFV/Yp/rk<",
+            "Lcom/bytedance/adsdk/fFV/Yp/RKYFC<",
             "Landroid/graphics/PointF;",
             ">;>;"
         }
     .end annotation
 
-    .line 1
     new-instance v0, Ljava/lang/UnsupportedOperationException;
 
-    .line 3
     const-string v1, "Cannot call getKeyframes on AnimatableSplitDimensionPathValue."
 
-    .line 5
     invoke-direct {v0, v1}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
 
-    .line 8
     throw v0
 .end method
 
 .method public fFV()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/adsdk/fFV/aAs/rk/ppR;->rk:Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;
 
-    .line 3
     invoke-virtual {v0}, Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;->fFV()Z
 
-    .line 6
     move-result v0
 
-    .line 7
     if-eqz v0, :cond_0
 
-    .line 9
     iget-object v0, p0, Lcom/bytedance/adsdk/fFV/aAs/rk/ppR;->fFV:Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;
 
-    .line 11
     invoke-virtual {v0}, Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;->fFV()Z
 
-    .line 14
     move-result v0
 
-    .line 15
     if-eqz v0, :cond_0
 
-    .line 17
     const/4 v0, 0x1
 
-    .line 18
     return v0
 
-    .line 19
     :cond_0
     const/4 v0, 0x0
 
-    .line 20
     return v0
 .end method
 
-.method public rk()Lcom/bytedance/adsdk/fFV/rk/fFV/rk;
+.method public rk()Lcom/bytedance/adsdk/fFV/rk/fFV/RKFRC;
     .locals 3
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "()",
-            "Lcom/bytedance/adsdk/fFV/rk/fFV/rk<",
+            "Lcom/bytedance/adsdk/fFV/rk/fFV/RKFRC<",
             "Landroid/graphics/PointF;",
             "Landroid/graphics/PointF;",
             ">;"
         }
     .end annotation
 
-    .line 1
     new-instance v0, Lcom/bytedance/adsdk/fFV/rk/fFV/Pa;
 
-    .line 3
     iget-object v1, p0, Lcom/bytedance/adsdk/fFV/aAs/rk/ppR;->rk:Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;
 
-    .line 5
-    invoke-virtual {v1}, Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;->rk()Lcom/bytedance/adsdk/fFV/rk/fFV/rk;
+    invoke-virtual {v1}, Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;->rk()Lcom/bytedance/adsdk/fFV/rk/fFV/RKFRC;
 
-    .line 8
     move-result-object v1
 
-    .line 9
     iget-object v2, p0, Lcom/bytedance/adsdk/fFV/aAs/rk/ppR;->fFV:Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;
 
-    .line 11
-    invoke-virtual {v2}, Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;->rk()Lcom/bytedance/adsdk/fFV/rk/fFV/rk;
+    invoke-virtual {v2}, Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;->rk()Lcom/bytedance/adsdk/fFV/rk/fFV/RKFRC;
 
-    .line 14
     move-result-object v2
 
-    .line 15
-    invoke-direct {v0, v1, v2}, Lcom/bytedance/adsdk/fFV/rk/fFV/Pa;-><init>(Lcom/bytedance/adsdk/fFV/rk/fFV/rk;Lcom/bytedance/adsdk/fFV/rk/fFV/rk;)V
+    invoke-direct {v0, v1, v2}, Lcom/bytedance/adsdk/fFV/rk/fFV/Pa;-><init>(Lcom/bytedance/adsdk/fFV/rk/fFV/RKFRC;Lcom/bytedance/adsdk/fFV/rk/fFV/RKFRC;)V
 
-    .line 18
     return-object v0
 .end method

@@ -3,17 +3,17 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/bytedance/sdk/component/rk/KIc$rk;
+.implements Lcom/bytedance/sdk/component/rk/KIc$RKK1;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/bytedance/sdk/component/rk/Yp;->rk(Lcom/bytedance/sdk/component/rk/kEa;Lcom/bytedance/sdk/component/rk/aAs;Lcom/bytedance/sdk/component/rk/Kl;)Lcom/bytedance/sdk/component/rk/Yp$rk;
+    value = Lcom/bytedance/sdk/component/rk/Yp;->rk(Lcom/bytedance/sdk/component/rk/kEa;Lcom/bytedance/sdk/component/rk/aAs;Lcom/bytedance/sdk/component/rk/Kl;)Lcom/bytedance/sdk/component/rk/Yp$RKY1;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "2"
 .end annotation
 
 
@@ -27,15 +27,11 @@
 .method constructor <init>(Lcom/bytedance/sdk/component/rk/Yp;Lcom/bytedance/sdk/component/rk/kEa;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/component/rk/Yp$2;->fFV:Lcom/bytedance/sdk/component/rk/Yp;
 
-    .line 3
     iput-object p2, p0, Lcom/bytedance/sdk/component/rk/Yp$2;->rk:Lcom/bytedance/sdk/component/rk/kEa;
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 8
     return-void
 .end method

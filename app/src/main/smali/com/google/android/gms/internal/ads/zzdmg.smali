@@ -17,7 +17,6 @@
 .method public constructor <init>(Ljava/lang/String;Lcom/google/android/gms/internal/ads/zzbgc;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x2
@@ -38,7 +37,6 @@
 .method public constructor <init>(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x1

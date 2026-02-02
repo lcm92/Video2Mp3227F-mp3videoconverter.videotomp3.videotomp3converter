@@ -17,34 +17,24 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     const-string v0, "UGenV3OpenLinks"
 
-    .line 6
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/rQf;->rk:Ljava/lang/String;
 
-    .line 8
     const-string v0, "landingStyle"
 
-    .line 10
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/rQf;->fFV:Ljava/lang/String;
 
-    .line 12
     const-string v0, "url"
 
-    .line 14
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/rQf;->aAs:Ljava/lang/String;
 
-    .line 16
     const-string v0, "fallbackUrl"
 
-    .line 18
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/rQf;->DK:Ljava/lang/String;
 
-    .line 20
     return-void
 .end method
 
@@ -61,14 +51,12 @@
         }
     .end annotation
 
-    .line 13
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
     if-eqz p1, :cond_0
 
-    .line 14
     :try_start_0
     invoke-interface {p1}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
@@ -91,7 +79,6 @@
 
     check-cast v1, Ljava/util/Map$Entry;
 
-    .line 15
     invoke-interface {v1}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v2
@@ -132,7 +119,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -148,7 +134,6 @@
 
     goto :goto_1
 
-    .line 11
     :cond_1
     invoke-static {p3}, Lcom/bytedance/sdk/component/utils/KR;->rk(Ljava/lang/String;)Z
 
@@ -158,7 +143,6 @@
 
     goto :goto_1
 
-    .line 12
     :cond_2
     invoke-static {p2}, Lcom/bytedance/sdk/component/utils/KR;->rk(Ljava/lang/String;)Z
 
@@ -198,14 +182,12 @@
 
     if-eqz p5, :cond_1
 
-    .line 1
     invoke-interface {p5}, Ljava/util/Map;->isEmpty()Z
 
     move-result v0
 
     if-nez v0, :cond_1
 
-    .line 2
     :try_start_0
     const-string v0, "landingStyle"
 
@@ -219,7 +201,6 @@
 
     move-result v0
 
-    .line 3
     const-string v1, "url"
 
     invoke-interface {p5, v1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -228,7 +209,6 @@
 
     check-cast v1, Ljava/lang/String;
 
-    .line 4
     const-string v2, "fallbackUrl"
 
     invoke-interface {p5, v2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -237,7 +217,6 @@
 
     check-cast v2, Ljava/lang/String;
 
-    .line 5
     invoke-direct {p0, v0, v1, v2}, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/rQf;->rk(ILjava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
@@ -246,13 +225,11 @@
 
     return-void
 
-    .line 6
     :cond_0
     invoke-direct {p0, p5}, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/rQf;->rk(Ljava/util/Map;)Lorg/json/JSONObject;
 
     move-result-object v3
 
-    .line 7
     invoke-static {p4}, Lcom/bytedance/sdk/openadsdk/utils/NmB;->rk(Ljava/lang/String;)I
 
     move-result v6
@@ -269,7 +246,6 @@
 
     move-object v8, p6
 
-    .line 8
     invoke-static/range {v1 .. v8}, Lcom/bytedance/sdk/openadsdk/core/KR;->rk(Landroid/content/Context;ZLorg/json/JSONObject;Lcom/bytedance/sdk/openadsdk/core/model/HmR;Ljava/lang/String;ILandroid/webkit/WebView;Lcom/bytedance/sdk/openadsdk/core/widget/rQf;)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -279,7 +255,6 @@
     :catchall_0
     move-exception p1
 
-    .line 9
     const-string p2, "UGenV3OpenLinks"
 
     invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;

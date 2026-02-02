@@ -22,20 +22,16 @@
 .method public constructor <init>(Lcom/bytedance/sdk/openadsdk/core/sS;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/bytedance/sdk/component/rk/rQf;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/nP/rk/ppR;->rk:Lcom/bytedance/sdk/openadsdk/core/sS;
 
-    .line 6
     return-void
 .end method
 
 .method public static rk(Lcom/bytedance/sdk/component/rk/lgt;Lcom/bytedance/sdk/openadsdk/core/sS;)V
     .locals 1
 
-    .line 2
     new-instance v0, Lcom/bytedance/sdk/openadsdk/nP/rk/ppR;
 
     invoke-direct {v0, p1}, Lcom/bytedance/sdk/openadsdk/nP/rk/ppR;-><init>(Lcom/bytedance/sdk/openadsdk/core/sS;)V
@@ -52,7 +48,6 @@
 .method public bridge synthetic rk(Ljava/lang/Object;Lcom/bytedance/sdk/component/rk/lG;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lorg/json/JSONObject;
 
     invoke-virtual {p0, p1, p2}, Lcom/bytedance/sdk/openadsdk/nP/rk/ppR;->rk(Lorg/json/JSONObject;Lcom/bytedance/sdk/component/rk/lG;)Lorg/json/JSONObject;
@@ -65,7 +60,6 @@
 .method public rk(Lorg/json/JSONObject;Lcom/bytedance/sdk/component/rk/lG;)Lorg/json/JSONObject;
     .locals 0
 
-    .line 3
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/nP/rk/ppR;->rk:Lcom/bytedance/sdk/openadsdk/core/sS;
 
     invoke-virtual {p1}, Lcom/bytedance/sdk/openadsdk/core/sS;->woP()V

@@ -35,49 +35,24 @@
 
 
 # virtual methods
-.method public final zza(Ljava/lang/Object;)Lmt0;
+.method public final zza(Ljava/lang/Object;)Ldef/MT0;
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzfjo;->zza:Lcom/google/android/gms/internal/ads/zzfjp;
 
-    .line 2
-    .line 3
     iget v1, p0, Lcom/google/android/gms/internal/ads/zzfjo;->zzb:I
 
-    .line 4
-    .line 5
     iget-wide v2, p0, Lcom/google/android/gms/internal/ads/zzfjo;->zzc:J
 
-    .line 6
-    .line 7
     iget-object v4, p0, Lcom/google/android/gms/internal/ads/zzfjo;->zzd:Ljava/lang/String;
 
-    .line 8
-    .line 9
     move-object v5, p1
 
-    .line 10
     check-cast v5, Lcom/google/android/gms/ads/internal/util/client/zzt;
 
-    .line 11
-    .line 12
-    invoke-static/range {v0 .. v5}, Lcom/google/android/gms/internal/ads/zzfjp;->zzc(Lcom/google/android/gms/internal/ads/zzfjp;IJLjava/lang/String;Lcom/google/android/gms/ads/internal/util/client/zzt;)Lmt0;
+    invoke-static/range {v0 .. v5}, Lcom/google/android/gms/internal/ads/zzfjp;->zzc(Lcom/google/android/gms/internal/ads/zzfjp;IJLjava/lang/String;Lcom/google/android/gms/ads/internal/util/client/zzt;)Ldef/MT0;
 
-    .line 13
-    .line 14
-    .line 15
     move-result-object p1
 
-    .line 16
     return-object p1
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method

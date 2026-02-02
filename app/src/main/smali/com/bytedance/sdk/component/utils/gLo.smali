@@ -14,12 +14,9 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     invoke-static {p0}, Lcom/bytedance/sdk/component/utils/HmR;->fFV(Landroid/content/Context;)Ljava/lang/String;
 
-    .line 4
     move-result-object p0
 
-    .line 5
     return-object p0
 .end method

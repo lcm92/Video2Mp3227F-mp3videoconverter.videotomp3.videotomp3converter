@@ -14,38 +14,13 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/zzboh;)V
     .locals 0
 
-    .line 1
     invoke-static {p1}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 2
-    .line 3
-    .line 4
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzbog;->zza:Lcom/google/android/gms/internal/ads/zzboh;
 
-    .line 5
-    .line 6
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 7
-    .line 8
-    .line 9
     return-void
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method
 
 
@@ -53,40 +28,15 @@
 .method public final bridge synthetic zza(Ljava/lang/Object;)V
     .locals 2
 
-    .line 1
     check-cast p1, Lcom/google/android/gms/internal/ads/zzbnd;
 
-    .line 2
-    .line 3
     sget-object v0, Lcom/google/android/gms/internal/ads/zzcaf;->zzf:Lcom/google/android/gms/internal/ads/zzgdy;
 
-    .line 4
-    .line 5
     new-instance v1, Lcom/google/android/gms/internal/ads/zzbof;
 
-    .line 6
-    .line 7
     invoke-direct {v1, p0, p1}, Lcom/google/android/gms/internal/ads/zzbof;-><init>(Lcom/google/android/gms/internal/ads/zzbog;Lcom/google/android/gms/internal/ads/zzbnd;)V
 
-    .line 8
-    .line 9
-    .line 10
     invoke-interface {v0, v1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
 
-    .line 11
-    .line 12
-    .line 13
     return-void
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method

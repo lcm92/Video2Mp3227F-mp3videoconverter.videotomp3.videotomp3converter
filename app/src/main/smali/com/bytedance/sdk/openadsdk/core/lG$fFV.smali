@@ -22,7 +22,6 @@
 .method private constructor <init>(Lcom/bytedance/sdk/openadsdk/core/lG;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/lG$fFV;->rk:Lcom/bytedance/sdk/openadsdk/core/lG;
 
     invoke-direct {p0}, Landroid/database/AbstractCursor;-><init>()V
@@ -33,7 +32,6 @@
 .method synthetic constructor <init>(Lcom/bytedance/sdk/openadsdk/core/lG;Lcom/bytedance/sdk/openadsdk/core/lG$1;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/bytedance/sdk/openadsdk/core/lG$fFV;-><init>(Lcom/bytedance/sdk/openadsdk/core/lG;)V
 
     return-void
@@ -44,13 +42,10 @@
 .method public getColumnNames()[Ljava/lang/String;
     .locals 1
 
-    .line 1
     const/4 v0, 0x0
 
-    .line 2
     new-array v0, v0, [Ljava/lang/String;
 
-    .line 4
     return-object v0
 .end method
 

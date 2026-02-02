@@ -12,7 +12,7 @@
 
 
 # virtual methods
-.method public abstract zze()Ljl0;
+.method public abstract zze()Ldef/JL0;
 .end method
 
 .method public abstract zzf()Z

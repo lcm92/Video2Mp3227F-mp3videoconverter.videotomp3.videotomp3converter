@@ -3,13 +3,13 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/bytedance/adsdk/ugeno/aAs/rk;
+.implements Lcom/bytedance/adsdk/ugeno/aAs/RKAUC;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/bytedance/adsdk/rk/aAs$rk;
+        Lcom/bytedance/adsdk/rk/aAs$RKA1;
     }
 .end annotation
 
@@ -25,15 +25,12 @@
 
 
 # virtual methods
-.method public rk(Ljava/lang/String;)Lcom/bytedance/adsdk/ugeno/aAs/rk$rk;
+.method public rk(Ljava/lang/String;)Lcom/bytedance/adsdk/ugeno/aAs/RKAUC$RKR1;
     .locals 0
 
-    .line 1
-    invoke-static {p1}, Lcom/bytedance/adsdk/rk/aAs$rk;->rk(Ljava/lang/String;)Lcom/bytedance/adsdk/rk/aAs$rk;
+    invoke-static {p1}, Lcom/bytedance/adsdk/rk/aAs$RKA1;->rk(Ljava/lang/String;)Lcom/bytedance/adsdk/rk/aAs$RKA1;
 
-    .line 4
     move-result-object p1
 
-    .line 5
     return-object p1
 .end method

@@ -27,11 +27,11 @@
 
     const-string v0, "Name is null or empty"
 
-    invoke-static {p0, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "Version is null or empty"
 
-    invoke-static {p1, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Lcom/iab/omid/library/bytedance2/adsession/Partner;
 

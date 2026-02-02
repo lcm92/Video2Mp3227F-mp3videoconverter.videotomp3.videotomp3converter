@@ -11,118 +11,86 @@
 .method public constructor <init>(Lcom/bytedance/adsdk/fFV/DK/rQf;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/bytedance/adsdk/fFV/DK/Yp;->rk:Lcom/bytedance/adsdk/fFV/DK/rQf;
 
-    .line 6
     return-void
 .end method
 
 .method private fFV(Ljava/lang/String;)Ljava/io/File;
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/io/File;
 
-    .line 3
     invoke-direct {p0}, Lcom/bytedance/adsdk/fFV/DK/Yp;->rk()Ljava/io/File;
 
-    .line 6
     move-result-object v1
 
-    .line 7
     sget-object v2, Lcom/bytedance/adsdk/fFV/DK/aAs;->rk:Lcom/bytedance/adsdk/fFV/DK/aAs;
 
-    .line 9
     const/4 v3, 0x0
 
-    .line 10
     invoke-static {p1, v2, v3}, Lcom/bytedance/adsdk/fFV/DK/Yp;->rk(Ljava/lang/String;Lcom/bytedance/adsdk/fFV/DK/aAs;Z)Ljava/lang/String;
 
-    .line 13
     move-result-object v2
 
-    .line 14
     invoke-direct {v0, v1, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 17
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
-    .line 20
     move-result v1
 
-    .line 21
     if-eqz v1, :cond_0
 
-    .line 23
     return-object v0
 
-    .line 24
     :cond_0
     new-instance v0, Ljava/io/File;
 
-    .line 26
     invoke-direct {p0}, Lcom/bytedance/adsdk/fFV/DK/Yp;->rk()Ljava/io/File;
 
-    .line 29
     move-result-object v1
 
-    .line 30
     sget-object v2, Lcom/bytedance/adsdk/fFV/DK/aAs;->fFV:Lcom/bytedance/adsdk/fFV/DK/aAs;
 
-    .line 32
     invoke-static {p1, v2, v3}, Lcom/bytedance/adsdk/fFV/DK/Yp;->rk(Ljava/lang/String;Lcom/bytedance/adsdk/fFV/DK/aAs;Z)Ljava/lang/String;
 
-    .line 35
     move-result-object p1
 
-    .line 36
     invoke-direct {v0, v1, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 39
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
-    .line 42
     move-result p1
 
-    .line 43
     if-eqz p1, :cond_1
 
-    .line 45
     return-object v0
 
-    .line 46
     :cond_1
     const/4 p1, 0x0
 
-    .line 47
     return-object p1
 .end method
 
 .method private rk()Ljava/io/File;
     .locals 2
 
-    .line 26
     iget-object v0, p0, Lcom/bytedance/adsdk/fFV/DK/Yp;->rk:Lcom/bytedance/adsdk/fFV/DK/rQf;
 
     invoke-interface {v0}, Lcom/bytedance/adsdk/fFV/DK/rQf;->rk()Ljava/io/File;
 
     move-result-object v0
 
-    .line 27
     invoke-virtual {v0}, Ljava/io/File;->isFile()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 28
     invoke-virtual {v0}, Ljava/io/File;->delete()Z
 
-    .line 29
     :cond_0
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
@@ -130,7 +98,6 @@
 
     if-nez v1, :cond_1
 
-    .line 30
     invoke-virtual {v0}, Ljava/io/File;->mkdirs()Z
 
     :cond_1
@@ -140,7 +107,6 @@
 .method private static rk(Ljava/lang/String;Lcom/bytedance/adsdk/fFV/DK/aAs;Z)Ljava/lang/String;
     .locals 3
 
-    .line 31
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "lottie_cache_"
@@ -196,7 +162,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     :try_start_0
     invoke-direct {p0, p1}, Lcom/bytedance/adsdk/fFV/DK/Yp;->fFV(Ljava/lang/String;)Ljava/io/File;
 
@@ -208,7 +173,6 @@
 
     return-object v0
 
-    .line 2
     :cond_0
     :try_start_1
     new-instance v1, Ljava/io/FileInputStream;
@@ -217,7 +181,6 @@
     :try_end_1
     .catch Ljava/io/FileNotFoundException; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 3
     invoke-virtual {p1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v0
@@ -230,20 +193,16 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     sget-object v0, Lcom/bytedance/adsdk/fFV/DK/aAs;->fFV:Lcom/bytedance/adsdk/fFV/DK/aAs;
 
     goto :goto_0
 
-    .line 5
     :cond_1
     sget-object v0, Lcom/bytedance/adsdk/fFV/DK/aAs;->rk:Lcom/bytedance/adsdk/fFV/DK/aAs;
 
-    .line 6
     :goto_0
     invoke-virtual {p1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
-    .line 7
     new-instance p1, Landroid/util/Pair;
 
     invoke-direct {p1, v0, v1}, Landroid/util/Pair;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
@@ -259,12 +218,10 @@
 
     const/4 v0, 0x1
 
-    .line 8
     invoke-static {p1, p3, v0}, Lcom/bytedance/adsdk/fFV/DK/Yp;->rk(Ljava/lang/String;Lcom/bytedance/adsdk/fFV/DK/aAs;Z)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 9
     new-instance p3, Ljava/io/File;
 
     invoke-direct {p0}, Lcom/bytedance/adsdk/fFV/DK/Yp;->rk()Ljava/io/File;
@@ -273,7 +230,6 @@
 
     invoke-direct {p3, v0, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 10
     :try_start_0
     new-instance p1, Ljava/io/FileOutputStream;
 
@@ -283,11 +239,9 @@
 
     const/16 v0, 0x400
 
-    .line 11
     :try_start_1
     new-array v0, v0, [B
 
-    .line 12
     :goto_0
     invoke-virtual {p2, v0}, Ljava/io/InputStream;->read([B)I
 
@@ -299,7 +253,6 @@
 
     const/4 v2, 0x0
 
-    .line 13
     invoke-virtual {p1, v0, v2, v1}, Ljava/io/OutputStream;->write([BII)V
 
     goto :goto_0
@@ -309,19 +262,16 @@
 
     goto :goto_1
 
-    .line 14
     :cond_0
     invoke-virtual {p1}, Ljava/io/OutputStream;->flush()V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 15
     :try_start_2
     invoke-virtual {p1}, Ljava/io/OutputStream;->close()V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    .line 16
     invoke-virtual {p2}, Ljava/io/InputStream;->close()V
 
     return-object p3
@@ -331,7 +281,6 @@
 
     goto :goto_2
 
-    .line 17
     :goto_1
     :try_start_3
     invoke-virtual {p1}, Ljava/io/OutputStream;->close()V
@@ -340,7 +289,6 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    .line 18
     :goto_2
     invoke-virtual {p2}, Ljava/io/InputStream;->close()V
 
@@ -352,12 +300,10 @@
 
     const/4 v0, 0x1
 
-    .line 19
     invoke-static {p1, p2, v0}, Lcom/bytedance/adsdk/fFV/DK/Yp;->rk(Ljava/lang/String;Lcom/bytedance/adsdk/fFV/DK/aAs;Z)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 20
     new-instance p2, Ljava/io/File;
 
     invoke-direct {p0}, Lcom/bytedance/adsdk/fFV/DK/Yp;->rk()Ljava/io/File;
@@ -366,7 +312,6 @@
 
     invoke-direct {p2, v0, p1}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 21
     invoke-virtual {p2}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object p1
@@ -379,22 +324,18 @@
 
     move-result-object p1
 
-    .line 22
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p1}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
-    .line 23
     invoke-virtual {p2, v0}, Ljava/io/File;->renameTo(Ljava/io/File;)Z
 
     move-result p1
 
-    .line 24
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     if-nez p1, :cond_0
 
-    .line 25
     invoke-virtual {p2}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     invoke-virtual {v0}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;

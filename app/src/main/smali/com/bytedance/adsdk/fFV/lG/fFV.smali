@@ -7,53 +7,37 @@
 .method private static fFV(F)F
     .locals 4
 
-    .line 1
     const v0, 0x3d25aee6    # 0.04045f
 
-    .line 4
     cmpg-float v0, p0, v0
 
-    .line 6
     if-gtz v0, :cond_0
 
-    .line 8
     const v0, 0x414eb852    # 12.92f
 
-    .line 11
     div-float/2addr p0, v0
 
-    .line 12
     return p0
 
-    .line 13
     :cond_0
     const v0, 0x3d6147ae    # 0.055f
 
-    .line 16
     add-float/2addr p0, v0
 
-    .line 17
     const v0, 0x3f870a3d    # 1.055f
 
-    .line 20
     div-float/2addr p0, v0
 
-    .line 21
     float-to-double v0, p0
 
-    .line 22
     const-wide v2, 0x4003333340000000L    # 2.4000000953674316
 
-    .line 27
     invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;->pow(DD)D
 
-    .line 30
     move-result-wide v0
 
-    .line 31
     double-to-float p0, v0
 
-    .line 32
     return p0
 .end method
 
@@ -77,7 +61,6 @@
 
     const-wide v2, 0x3fdaaaaaa0000000L    # 0.4166666567325592
 
-    .line 1
     invoke-static {v0, v1, v2, v3}, Ljava/lang/Math;->pow(DD)D
 
     move-result-wide v0
@@ -165,32 +148,26 @@
 
     div-float/2addr p2, v1
 
-    .line 2
     invoke-static {v2}, Lcom/bytedance/adsdk/fFV/lG/fFV;->fFV(F)F
 
     move-result v2
 
-    .line 3
     invoke-static {v3}, Lcom/bytedance/adsdk/fFV/lG/fFV;->fFV(F)F
 
     move-result v3
 
-    .line 4
     invoke-static {p1}, Lcom/bytedance/adsdk/fFV/lG/fFV;->fFV(F)F
 
     move-result p1
 
-    .line 5
     invoke-static {v5}, Lcom/bytedance/adsdk/fFV/lG/fFV;->fFV(F)F
 
     move-result v5
 
-    .line 6
     invoke-static {v6}, Lcom/bytedance/adsdk/fFV/lG/fFV;->fFV(F)F
 
     move-result v6
 
-    .line 7
     invoke-static {p2}, Lcom/bytedance/adsdk/fFV/lG/fFV;->fFV(F)F
 
     move-result p2
@@ -221,28 +198,24 @@
 
     mul-float/2addr v0, v1
 
-    .line 8
     invoke-static {v2}, Lcom/bytedance/adsdk/fFV/lG/fFV;->rk(F)F
 
     move-result p0
 
     mul-float/2addr p0, v1
 
-    .line 9
     invoke-static {v3}, Lcom/bytedance/adsdk/fFV/lG/fFV;->rk(F)F
 
     move-result p2
 
     mul-float/2addr p2, v1
 
-    .line 10
     invoke-static {p1}, Lcom/bytedance/adsdk/fFV/lG/fFV;->rk(F)F
 
     move-result p1
 
     mul-float/2addr p1, v1
 
-    .line 11
     invoke-static {v0}, Ljava/lang/Math;->round(F)I
 
     move-result v0

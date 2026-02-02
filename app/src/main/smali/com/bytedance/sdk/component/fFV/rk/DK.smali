@@ -47,7 +47,6 @@
 .method public rk()I
     .locals 1
 
-    .line 1
     const/16 v0, 0x40
 
     return v0

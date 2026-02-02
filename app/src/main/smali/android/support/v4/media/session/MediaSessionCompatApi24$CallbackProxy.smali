@@ -33,10 +33,8 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/support/v4/media/session/MediaSessionCompatApi23$CallbackProxy;-><init>(Landroid/support/v4/media/session/MediaSessionCompatApi23$Callback;)V
 
-    .line 4
     return-void
 .end method
 
@@ -45,72 +43,53 @@
 .method public onPrepare()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Landroid/support/v4/media/session/MediaSessionCompatApi21$CallbackProxy;->mCallback:Landroid/support/v4/media/session/MediaSessionCompatApi21$Callback;
 
-    .line 3
     check-cast v0, Landroid/support/v4/media/session/MediaSessionCompatApi24$Callback;
 
-    .line 5
     invoke-interface {v0}, Landroid/support/v4/media/session/MediaSessionCompatApi24$Callback;->onPrepare()V
 
-    .line 8
     return-void
 .end method
 
 .method public onPrepareFromMediaId(Ljava/lang/String;Landroid/os/Bundle;)V
     .locals 1
 
-    .line 1
     invoke-static {p2}, Landroid/support/v4/media/session/MediaSessionCompat;->ensureClassLoader(Landroid/os/Bundle;)V
 
-    .line 4
     iget-object v0, p0, Landroid/support/v4/media/session/MediaSessionCompatApi21$CallbackProxy;->mCallback:Landroid/support/v4/media/session/MediaSessionCompatApi21$Callback;
 
-    .line 6
     check-cast v0, Landroid/support/v4/media/session/MediaSessionCompatApi24$Callback;
 
-    .line 8
     invoke-interface {v0, p1, p2}, Landroid/support/v4/media/session/MediaSessionCompatApi24$Callback;->onPrepareFromMediaId(Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 11
     return-void
 .end method
 
 .method public onPrepareFromSearch(Ljava/lang/String;Landroid/os/Bundle;)V
     .locals 1
 
-    .line 1
     invoke-static {p2}, Landroid/support/v4/media/session/MediaSessionCompat;->ensureClassLoader(Landroid/os/Bundle;)V
 
-    .line 4
     iget-object v0, p0, Landroid/support/v4/media/session/MediaSessionCompatApi21$CallbackProxy;->mCallback:Landroid/support/v4/media/session/MediaSessionCompatApi21$Callback;
 
-    .line 6
     check-cast v0, Landroid/support/v4/media/session/MediaSessionCompatApi24$Callback;
 
-    .line 8
     invoke-interface {v0, p1, p2}, Landroid/support/v4/media/session/MediaSessionCompatApi24$Callback;->onPrepareFromSearch(Ljava/lang/String;Landroid/os/Bundle;)V
 
-    .line 11
     return-void
 .end method
 
 .method public onPrepareFromUri(Landroid/net/Uri;Landroid/os/Bundle;)V
     .locals 1
 
-    .line 1
     invoke-static {p2}, Landroid/support/v4/media/session/MediaSessionCompat;->ensureClassLoader(Landroid/os/Bundle;)V
 
-    .line 4
     iget-object v0, p0, Landroid/support/v4/media/session/MediaSessionCompatApi21$CallbackProxy;->mCallback:Landroid/support/v4/media/session/MediaSessionCompatApi21$Callback;
 
-    .line 6
     check-cast v0, Landroid/support/v4/media/session/MediaSessionCompatApi24$Callback;
 
-    .line 8
     invoke-interface {v0, p1, p2}, Landroid/support/v4/media/session/MediaSessionCompatApi24$Callback;->onPrepareFromUri(Landroid/net/Uri;Landroid/os/Bundle;)V
 
-    .line 11
     return-void
 .end method

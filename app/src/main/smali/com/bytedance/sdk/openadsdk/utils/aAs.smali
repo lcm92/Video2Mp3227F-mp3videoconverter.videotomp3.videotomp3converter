@@ -19,7 +19,6 @@
 
     if-eqz p0, :cond_3
 
-    .line 8
     :try_start_0
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
@@ -27,12 +26,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 9
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
 
-    .line 10
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -40,21 +37,18 @@
 
     if-eqz p0, :cond_3
 
-    .line 11
     invoke-virtual {p0}, Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
 
     move-result-object v0
 
     if-eqz v0, :cond_3
 
-    .line 12
     invoke-virtual {p0}, Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
 
     move-result-object p0
 
     if-eqz p0, :cond_3
 
-    .line 13
     iget p0, p0, Landroid/content/res/Configuration;->orientation:I
 
     if-nez p1, :cond_1
@@ -64,7 +58,6 @@
     :cond_1
     if-ne p1, p0, :cond_2
 
-    .line 14
     iget p0, v0, Landroid/util/DisplayMetrics;->heightPixels:I
 
     int-to-float p0, p0
@@ -79,7 +72,6 @@
 
     return p0
 
-    .line 15
     :cond_2
     iget p0, v0, Landroid/util/DisplayMetrics;->widthPixels:I
 
@@ -97,13 +89,11 @@
 
     return p0
 
-    .line 16
     :catchall_0
     sget p0, Lcom/bytedance/sdk/openadsdk/utils/aAs;->rk:I
 
     return p0
 
-    .line 17
     :cond_3
     sget p0, Lcom/bytedance/sdk/openadsdk/utils/aAs;->rk:I
 
@@ -113,7 +103,6 @@
 .method public static rk(Landroid/content/Context;II)I
     .locals 0
 
-    .line 1
     invoke-static {p0, p2}, Lcom/bytedance/sdk/openadsdk/utils/aAs;->rk(Landroid/content/Context;I)I
 
     move-result p0
@@ -122,7 +111,6 @@
 
     if-ne p0, p2, :cond_0
 
-    .line 2
     sget p0, Lcom/bytedance/sdk/openadsdk/utils/aAs;->rk:I
 
     return p0
@@ -134,7 +122,6 @@
 
     mul-float/2addr p0, p2
 
-    .line 3
     invoke-static {p0}, Ljava/lang/Math;->round(F)I
 
     move-result p0
@@ -159,7 +146,6 @@
 
     mul-float/2addr p1, p2
 
-    .line 4
     invoke-static {p1}, Ljava/lang/Math;->round(F)I
 
     move-result p1
@@ -190,7 +176,6 @@
 
     mul-float/2addr p1, p2
 
-    .line 5
     invoke-static {p1}, Ljava/lang/Math;->round(F)I
 
     move-result p1
@@ -217,12 +202,10 @@
 
     mul-float/2addr p1, p2
 
-    .line 6
     invoke-static {p1}, Ljava/lang/Math;->round(F)I
 
     move-result p1
 
-    .line 7
     :goto_0
     invoke-static {p1, p0}, Ljava/lang/Math;->min(II)I
 

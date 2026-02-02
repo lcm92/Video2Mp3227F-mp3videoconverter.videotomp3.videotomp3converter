@@ -11,45 +11,33 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroid/content/ContentProvider;-><init>()V
 
-    .line 4
     return-void
 .end method
 
 .method private a()Lorg/chromium/support_lib_boundary/DropDataContentProviderBoundaryInterface;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Landroidx/webkit/DropDataContentProvider;->a:Lorg/chromium/support_lib_boundary/DropDataContentProviderBoundaryInterface;
 
-    .line 3
     if-nez v0, :cond_0
 
-    .line 5
-    invoke-static {}, Lxb2;->c()Lzb2;
+    invoke-static {}, Ldef/XB2;->c()Ldef/ZB2;
 
-    .line 8
     move-result-object v0
 
-    .line 9
-    invoke-interface {v0}, Lzb2;->getDropDataProvider()Lorg/chromium/support_lib_boundary/DropDataContentProviderBoundaryInterface;
+    invoke-interface {v0}, Ldef/ZB2;->getDropDataProvider()Lorg/chromium/support_lib_boundary/DropDataContentProviderBoundaryInterface;
 
-    .line 12
     move-result-object v0
 
-    .line 13
     iput-object v0, p0, Landroidx/webkit/DropDataContentProvider;->a:Lorg/chromium/support_lib_boundary/DropDataContentProviderBoundaryInterface;
 
-    .line 15
     invoke-interface {v0}, Lorg/chromium/support_lib_boundary/DropDataContentProviderBoundaryInterface;->onCreate()Z
 
-    .line 18
     :cond_0
     iget-object v0, p0, Landroidx/webkit/DropDataContentProvider;->a:Lorg/chromium/support_lib_boundary/DropDataContentProviderBoundaryInterface;
 
-    .line 20
     return-object v0
 .end method
 
@@ -58,70 +46,52 @@
 .method public call(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroidx/webkit/DropDataContentProvider;->a()Lorg/chromium/support_lib_boundary/DropDataContentProviderBoundaryInterface;
 
-    .line 4
     move-result-object v0
 
-    .line 5
     invoke-interface {v0, p1, p2, p3}, Lorg/chromium/support_lib_boundary/DropDataContentProviderBoundaryInterface;->call(Ljava/lang/String;Ljava/lang/String;Landroid/os/Bundle;)Landroid/os/Bundle;
 
-    .line 8
     move-result-object p1
 
-    .line 9
     return-object p1
 .end method
 
 .method public delete(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
-    .line 3
     const-string p2, "delete method is not supported."
 
-    .line 5
     invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
 
-    .line 8
     throw p1
 .end method
 
 .method public getType(Landroid/net/Uri;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroidx/webkit/DropDataContentProvider;->a()Lorg/chromium/support_lib_boundary/DropDataContentProviderBoundaryInterface;
 
-    .line 4
     move-result-object v0
 
-    .line 5
     invoke-interface {v0, p1}, Lorg/chromium/support_lib_boundary/DropDataContentProviderBoundaryInterface;->getType(Landroid/net/Uri;)Ljava/lang/String;
 
-    .line 8
     move-result-object p1
 
-    .line 9
     return-object p1
 .end method
 
 .method public insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
-    .line 3
     const-string p2, "Insert method is not supported."
 
-    .line 5
     invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
 
-    .line 8
     throw p1
 .end method
 
@@ -136,68 +106,49 @@
 .method public openFile(Landroid/net/Uri;Ljava/lang/String;)Landroid/os/ParcelFileDescriptor;
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Landroidx/webkit/DropDataContentProvider;->a()Lorg/chromium/support_lib_boundary/DropDataContentProviderBoundaryInterface;
 
-    .line 4
     move-result-object p2
 
-    .line 5
     invoke-interface {p2, p0, p1}, Lorg/chromium/support_lib_boundary/DropDataContentProviderBoundaryInterface;->openFile(Landroid/content/ContentProvider;Landroid/net/Uri;)Landroid/os/ParcelFileDescriptor;
 
-    .line 8
     move-result-object p1
 
-    .line 9
     return-object p1
 .end method
 
 .method public query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
     .locals 6
 
-    .line 1
     invoke-direct {p0}, Landroidx/webkit/DropDataContentProvider;->a()Lorg/chromium/support_lib_boundary/DropDataContentProviderBoundaryInterface;
 
-    .line 4
     move-result-object v0
 
-    .line 5
     move-object v1, p1
 
-    .line 6
     move-object v2, p2
 
-    .line 7
     move-object v3, p3
 
-    .line 8
     move-object v4, p4
 
-    .line 9
     move-object v5, p5
 
-    .line 10
     invoke-interface/range {v0 .. v5}, Lorg/chromium/support_lib_boundary/DropDataContentProviderBoundaryInterface;->query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
 
-    .line 13
     move-result-object p1
 
-    .line 14
     return-object p1
 .end method
 
 .method public update(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/UnsupportedOperationException;
 
-    .line 3
     const-string p2, "update method is not supported."
 
-    .line 5
     invoke-direct {p1, p2}, Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
 
-    .line 8
     throw p1
 .end method

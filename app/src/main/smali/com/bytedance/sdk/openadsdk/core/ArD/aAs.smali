@@ -7,7 +7,6 @@
 .method public static rk(Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -16,7 +15,6 @@
 
     return-object p0
 
-    .line 2
     :cond_0
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/settings/woP;->dfy()Lcom/bytedance/sdk/openadsdk/core/settings/lG;
 
@@ -26,7 +24,6 @@
 
     move-result-object v0
 
-    .line 3
     invoke-static {v0, p0}, Lcom/bytedance/sdk/openadsdk/core/ArD/aAs;->rk(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
@@ -37,7 +34,6 @@
 .method public static rk(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
     .locals 1
 
-    .line 4
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -46,7 +42,6 @@
 
     return-object p1
 
-    .line 5
     :cond_0
     const-string v0, "http://"
 
@@ -66,7 +61,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_1
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -82,7 +76,6 @@
 
     if-nez v0, :cond_2
 
-    .line 7
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
@@ -101,7 +94,6 @@
 
     return-object p0
 
-    .line 8
     :cond_2
     new-instance v0, Ljava/lang/StringBuilder;
 

@@ -45,37 +45,26 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     sget v0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->rk:I
 
-    .line 6
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->lG:I
 
-    .line 8
     const-wide/16 v0, 0x0
 
-    .line 10
     iput-wide v0, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->Yp:J
 
-    .line 12
     iput-wide v0, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->pw:J
 
-    .line 14
     new-instance v2, Ljava/util/ArrayList;
 
-    .line 16
     invoke-direct {v2}, Ljava/util/ArrayList;-><init>()V
 
-    .line 19
     iput-object v2, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->ppR:Ljava/util/List;
 
-    .line 21
     iput-wide v0, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->ArD:J
 
-    .line 23
     return-void
 .end method
 
@@ -84,53 +73,37 @@
 .method public DK(J)V
     .locals 4
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->lG:I
 
-    .line 3
     sget v1, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->rk:I
 
-    .line 5
     if-eq v0, v1, :cond_1
 
-    .line 7
     sget v1, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->DK:I
 
-    .line 9
     if-eq v0, v1, :cond_0
 
-    .line 11
     goto :goto_0
 
-    .line 12
     :cond_0
     sget v0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->aAs:I
 
-    .line 14
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->lG:I
 
-    .line 16
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->ppR:Ljava/util/List;
 
-    .line 18
     new-instance v1, Lcom/bytedance/sdk/openadsdk/kEa/aAs;
 
-    .line 20
     iget-wide v2, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->ArD:J
 
-    .line 22
     invoke-direct {v1, v2, v3, p1, p2}, Lcom/bytedance/sdk/openadsdk/kEa/aAs;-><init>(JJ)V
 
-    .line 25
     invoke-interface {v0, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 28
     const-wide/16 p1, 0x0
 
-    .line 30
     iput-wide p1, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->ArD:J
 
-    .line 32
     :cond_1
     :goto_0
     return-void
@@ -139,38 +112,27 @@
 .method public aAs(J)V
     .locals 3
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->lG:I
 
-    .line 3
     sget v1, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->rk:I
 
-    .line 5
     if-eq v0, v1, :cond_1
 
-    .line 7
     sget v1, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->DK:I
 
-    .line 9
     if-eq v0, v1, :cond_1
 
-    .line 11
     sget v2, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->rQf:I
 
-    .line 13
     if-ne v0, v2, :cond_0
 
-    .line 15
     goto :goto_0
 
-    .line 16
     :cond_0
     iput v1, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->lG:I
 
-    .line 18
     iput-wide p1, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->ArD:J
 
-    .line 20
     :cond_1
     :goto_0
     return-void
@@ -179,32 +141,23 @@
 .method public fFV(J)V
     .locals 2
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->lG:I
 
-    .line 3
     sget v1, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->rk:I
 
-    .line 5
     if-eq v0, v1, :cond_1
 
-    .line 7
     sget v1, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->rQf:I
 
-    .line 9
     if-ne v0, v1, :cond_0
 
-    .line 11
     goto :goto_0
 
-    .line 12
     :cond_0
     iput v1, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->lG:I
 
-    .line 14
     iput-wide p1, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->pw:J
 
-    .line 16
     :cond_1
     :goto_0
     return-void
@@ -213,7 +166,6 @@
 .method public rk()I
     .locals 1
 
-    .line 14
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->lG:I
 
     return v0
@@ -222,7 +174,6 @@
 .method public rk(JJ)J
     .locals 11
 
-    .line 3
     iget-wide v0, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->pw:J
 
     const-wide/16 v2, 0x0
@@ -237,7 +188,6 @@
 
     return-wide v2
 
-    .line 4
     :cond_0
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->ppR:Ljava/util/List;
 
@@ -261,7 +211,6 @@
 
     check-cast v4, Lcom/bytedance/sdk/openadsdk/kEa/aAs;
 
-    .line 5
     invoke-virtual {v4}, Lcom/bytedance/sdk/openadsdk/kEa/aAs;->fFV()J
 
     move-result-wide v5
@@ -270,7 +219,6 @@
 
     if-lez v5, :cond_1
 
-    .line 6
     invoke-virtual {v4}, Lcom/bytedance/sdk/openadsdk/kEa/aAs;->rk()J
 
     move-result-wide v5
@@ -281,7 +229,6 @@
 
     int-to-long v5, v1
 
-    .line 7
     invoke-virtual {v4}, Lcom/bytedance/sdk/openadsdk/kEa/aAs;->fFV()J
 
     move-result-wide v7
@@ -302,7 +249,6 @@
     :cond_2
     int-to-long v5, v1
 
-    .line 8
     invoke-virtual {v4}, Lcom/bytedance/sdk/openadsdk/kEa/aAs;->fFV()J
 
     move-result-wide v7
@@ -311,7 +257,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_3
     iget-wide v4, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->Yp:J
 
@@ -319,7 +264,6 @@
 
     if-gez v0, :cond_7
 
-    .line 10
     iget-wide v4, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->ArD:J
 
     cmp-long v0, v4, v2
@@ -342,7 +286,6 @@
     :cond_4
     return-wide v2
 
-    .line 11
     :cond_5
     iget-wide v4, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->pw:J
 
@@ -362,7 +305,6 @@
 
     return-wide p3
 
-    .line 12
     :cond_7
     iget-wide p1, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->ArD:J
 
@@ -386,7 +328,6 @@
     :cond_8
     return-wide v2
 
-    .line 13
     :cond_9
     iget-wide p1, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->pw:J
 
@@ -405,12 +346,10 @@
 .method public rk(J)V
     .locals 1
 
-    .line 1
     sget v0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->fFV:I
 
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->lG:I
 
-    .line 2
     iput-wide p1, p0, Lcom/bytedance/sdk/openadsdk/kEa/fFV;->Yp:J
 
     return-void

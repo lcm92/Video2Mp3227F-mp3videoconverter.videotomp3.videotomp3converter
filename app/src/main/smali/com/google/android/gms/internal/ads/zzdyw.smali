@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract zzc(Lcom/google/android/gms/internal/ads/zzbvq;)Lmt0;
+.method public abstract zzc(Lcom/google/android/gms/internal/ads/zzbvq;)Ldef/MT0;
 .end method

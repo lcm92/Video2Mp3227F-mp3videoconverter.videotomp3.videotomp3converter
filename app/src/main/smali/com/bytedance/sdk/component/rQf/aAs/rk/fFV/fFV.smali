@@ -27,25 +27,18 @@
 .method public constructor <init>(II)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput p1, p0, Lcom/bytedance/sdk/component/rQf/aAs/rk/fFV/fFV;->fFV:I
 
-    .line 6
     iput p2, p0, Lcom/bytedance/sdk/component/rQf/aAs/rk/fFV/fFV;->rk:I
 
-    .line 8
     new-instance p2, Lcom/bytedance/sdk/component/rQf/aAs/rk/fFV/fFV$1;
 
-    .line 10
     invoke-direct {p2, p0, p1}, Lcom/bytedance/sdk/component/rQf/aAs/rk/fFV/fFV$1;-><init>(Lcom/bytedance/sdk/component/rQf/aAs/rk/fFV/fFV;I)V
 
-    .line 13
     iput-object p2, p0, Lcom/bytedance/sdk/component/rQf/aAs/rk/fFV/fFV;->aAs:Lcom/bytedance/sdk/component/rQf/aAs/rk/aAs;
 
-    .line 15
     return-void
 .end method
 
@@ -58,7 +51,6 @@
 
     return p0
 
-    .line 5
     :cond_0
     invoke-virtual {p0}, Landroid/graphics/Bitmap;->getAllocationByteCount()I
 
@@ -72,7 +64,6 @@
 .method public bridge synthetic fFV(Ljava/lang/Object;)Z
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/bytedance/sdk/component/rQf/aAs/rk/fFV/fFV;->fFV(Ljava/lang/String;)Z
@@ -85,7 +76,6 @@
 .method public fFV(Ljava/lang/String;)Z
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/bytedance/sdk/component/rQf/aAs/rk/fFV/fFV;->aAs:Lcom/bytedance/sdk/component/rQf/aAs/rk/aAs;
 
     invoke-virtual {v0, p1}, Lcom/bytedance/sdk/component/rQf/aAs/rk/aAs;->rk(Ljava/lang/Object;)Ljava/lang/Object;
@@ -107,7 +97,6 @@
 .method public rk(Ljava/lang/String;)Landroid/graphics/Bitmap;
     .locals 1
 
-    .line 4
     iget-object v0, p0, Lcom/bytedance/sdk/component/rQf/aAs/rk/fFV/fFV;->aAs:Lcom/bytedance/sdk/component/rQf/aAs/rk/aAs;
 
     invoke-virtual {v0, p1}, Lcom/bytedance/sdk/component/rQf/aAs/rk/aAs;->rk(Ljava/lang/Object;)Ljava/lang/Object;
@@ -122,7 +111,6 @@
 .method public bridge synthetic rk(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/bytedance/sdk/component/rQf/aAs/rk/fFV/fFV;->rk(Ljava/lang/String;)Landroid/graphics/Bitmap;
@@ -135,7 +123,6 @@
 .method public bridge synthetic rk(Ljava/lang/Object;Ljava/lang/Object;)Z
     .locals 0
 
-    .line 2
     check-cast p1, Ljava/lang/String;
 
     check-cast p2, Landroid/graphics/Bitmap;
@@ -156,7 +143,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/bytedance/sdk/component/rQf/aAs/rk/fFV/fFV;->aAs:Lcom/bytedance/sdk/component/rQf/aAs/rk/aAs;
 

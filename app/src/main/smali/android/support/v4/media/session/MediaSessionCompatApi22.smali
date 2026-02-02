@@ -7,22 +7,17 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     return-void
 .end method
 
 .method public static setRatingType(Ljava/lang/Object;I)V
     .locals 0
 
-    .line 1
     check-cast p0, Landroid/media/session/MediaSession;
 
-    .line 3
     invoke-virtual {p0, p1}, Landroid/media/session/MediaSession;->setRatingType(I)V
 
-    .line 6
     return-void
 .end method

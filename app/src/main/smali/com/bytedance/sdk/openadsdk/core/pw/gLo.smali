@@ -26,43 +26,30 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     const-wide/16 v0, 0x0
 
-    .line 6
     iput-wide v0, p0, Lcom/bytedance/sdk/openadsdk/core/pw/gLo;->rk:J
 
-    .line 8
     iput-wide v0, p0, Lcom/bytedance/sdk/openadsdk/core/pw/gLo;->fFV:J
 
-    .line 10
     const/4 v0, 0x0
 
-    .line 11
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/core/pw/gLo;->aAs:I
 
-    .line 13
     const/4 v1, 0x0
 
-    .line 14
     iput-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/pw/gLo;->DK:Ljava/lang/String;
 
-    .line 16
     iput-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/pw/gLo;->rQf:Ljava/lang/String;
 
-    .line 18
     new-instance v1, Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 20
     invoke-direct {v1, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
 
-    .line 23
     iput-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/pw/gLo;->Yp:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 25
     return-void
 .end method
 
@@ -71,51 +58,38 @@
 .method public fFV(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/pw/gLo;->rQf:Ljava/lang/String;
 
-    .line 3
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
-    .line 6
     move-result-wide v0
 
-    .line 7
     iput-wide v0, p0, Lcom/bytedance/sdk/openadsdk/core/pw/gLo;->fFV:J
 
-    .line 9
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/pw/gLo;->Yp:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 11
     const/4 v0, 0x1
 
-    .line 12
     invoke-virtual {p1, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
-    .line 15
     return-void
 .end method
 
 .method public rk(ILjava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .line 3
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/core/pw/gLo;->aAs:I
 
-    .line 4
     iput-object p2, p0, Lcom/bytedance/sdk/openadsdk/core/pw/gLo;->DK:Ljava/lang/String;
 
-    .line 5
     iput-object p3, p0, Lcom/bytedance/sdk/openadsdk/core/pw/gLo;->rQf:Ljava/lang/String;
 
-    .line 6
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide p1
 
     iput-wide p1, p0, Lcom/bytedance/sdk/openadsdk/core/pw/gLo;->fFV:J
 
-    .line 7
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/pw/gLo;->Yp:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 p2, 0x0
@@ -130,7 +104,6 @@
 
     move-object v0, p0
 
-    .line 8
     iget-object v1, v0, Lcom/bytedance/sdk/openadsdk/core/pw/gLo;->Yp:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
@@ -139,7 +112,6 @@
 
     if-eqz v1, :cond_0
 
-    .line 9
     iget-wide v1, v0, Lcom/bytedance/sdk/openadsdk/core/pw/gLo;->fFV:J
 
     iget-wide v3, v0, Lcom/bytedance/sdk/openadsdk/core/pw/gLo;->rk:J
@@ -166,7 +138,6 @@
 
     return-void
 
-    .line 10
     :cond_0
     iget-wide v1, v0, Lcom/bytedance/sdk/openadsdk/core/pw/gLo;->fFV:J
 
@@ -198,10 +169,8 @@
 .method public rk(Ljava/lang/String;)V
     .locals 2
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/pw/gLo;->lG:Ljava/lang/String;
 
-    .line 2
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v0

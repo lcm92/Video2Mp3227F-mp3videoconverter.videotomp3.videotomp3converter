@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "1"
 .end annotation
 
 
@@ -25,13 +25,10 @@
 .method constructor <init>(Lcom/bytedance/sdk/openadsdk/core/aAs/lG;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/aAs/lG$1;->rk:Lcom/bytedance/sdk/openadsdk/core/aAs/lG;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method
 
@@ -40,40 +37,28 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/aAs/lG$1;->rk:Lcom/bytedance/sdk/openadsdk/core/aAs/lG;
 
-    .line 3
-    invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/core/aAs/lG;->rk(Lcom/bytedance/sdk/openadsdk/core/aAs/lG;)Lcom/bytedance/sdk/openadsdk/core/aAs/lG$rk;
+    invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/core/aAs/lG;->rk(Lcom/bytedance/sdk/openadsdk/core/aAs/lG;)Lcom/bytedance/sdk/openadsdk/core/aAs/lG$RKL1;
 
-    .line 6
     move-result-object v0
 
-    .line 7
     if-eqz v0, :cond_0
 
-    .line 9
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/aAs/lG$1;->rk:Lcom/bytedance/sdk/openadsdk/core/aAs/lG;
 
-    .line 11
-    invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/core/aAs/lG;->rk(Lcom/bytedance/sdk/openadsdk/core/aAs/lG;)Lcom/bytedance/sdk/openadsdk/core/aAs/lG$rk;
+    invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/core/aAs/lG;->rk(Lcom/bytedance/sdk/openadsdk/core/aAs/lG;)Lcom/bytedance/sdk/openadsdk/core/aAs/lG$RKL1;
 
-    .line 14
     move-result-object v0
 
-    .line 15
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/aAs/lG$1;->rk:Lcom/bytedance/sdk/openadsdk/core/aAs/lG;
 
-    .line 17
     invoke-static {v1}, Lcom/bytedance/sdk/openadsdk/core/aAs/lG;->fFV(Lcom/bytedance/sdk/openadsdk/core/aAs/lG;)Z
 
-    .line 20
     move-result v1
 
-    .line 21
-    invoke-interface {v0, v1}, Lcom/bytedance/sdk/openadsdk/core/aAs/lG$rk;->rk(Z)V
+    invoke-interface {v0, v1}, Lcom/bytedance/sdk/openadsdk/core/aAs/lG$RKL1;->rk(Z)V
 
-    .line 24
     :cond_0
     return-void
 .end method

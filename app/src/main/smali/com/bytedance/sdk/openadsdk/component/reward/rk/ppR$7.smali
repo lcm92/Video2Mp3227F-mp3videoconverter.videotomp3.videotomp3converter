@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/bytedance/sdk/component/utils/HomeWatcherReceiver$rk;
+.implements Lcom/bytedance/sdk/component/utils/HomeWatcherReceiver$RKH1;
 
 
 # annotations
@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "7"
 .end annotation
 
 
@@ -25,13 +25,10 @@
 .method constructor <init>(Lcom/bytedance/sdk/openadsdk/component/reward/rk/ppR;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/ppR$7;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/ppR;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method
 
@@ -40,31 +37,23 @@
 .method public fFV()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/ppR$7;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/ppR;
 
-    .line 3
     const/4 v1, 0x1
 
-    .line 4
     iput-boolean v1, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/ppR;->aAs:Z
 
-    .line 6
     return-void
 .end method
 
 .method public rk()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/ppR$7;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/ppR;
 
-    .line 3
     const/4 v1, 0x1
 
-    .line 4
     iput-boolean v1, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/ppR;->aAs:Z
 
-    .line 6
     return-void
 .end method

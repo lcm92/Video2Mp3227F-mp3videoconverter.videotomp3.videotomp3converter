@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/bytedance/sdk/openadsdk/core/NCs/fFV/lG$RKL1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/bytedance/sdk/openadsdk/core/NCs/fFV/lG;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "RKL1"
+.end annotation
+
+
+# virtual methods
+.method public abstract rk(Landroid/view/View;I)V
+.end method

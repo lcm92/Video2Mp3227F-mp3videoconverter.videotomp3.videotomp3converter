@@ -4,10 +4,9 @@
 
 
 # direct methods
-.method public static rk(Ljava/lang/String;)Lcom/bytedance/adsdk/rk/pw;
+.method public static rk(Ljava/lang/String;)Lcom/bytedance/adsdk/rk/PWRAC;
     .locals 3
 
-    .line 3
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v0
@@ -18,7 +17,6 @@
 
     return-object v1
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
 
@@ -163,7 +161,6 @@
 
     goto :goto_1
 
-    .line 5
     :pswitch_0
     new-instance v1, Lcom/bytedance/adsdk/rk/Yp;
 
@@ -171,7 +168,6 @@
 
     goto :goto_1
 
-    .line 6
     :pswitch_1
     new-instance v1, Lcom/bytedance/adsdk/rk/DK;
 
@@ -179,7 +175,6 @@
 
     goto :goto_1
 
-    .line 7
     :pswitch_2
     new-instance v1, Lcom/bytedance/adsdk/rk/ArD;
 
@@ -187,7 +182,6 @@
 
     goto :goto_1
 
-    .line 8
     :pswitch_3
     new-instance v1, Lcom/bytedance/adsdk/rk/fFV;
 
@@ -195,7 +189,6 @@
 
     goto :goto_1
 
-    .line 9
     :pswitch_4
     new-instance v1, Lcom/bytedance/adsdk/rk/rQf;
 
@@ -203,15 +196,13 @@
 
     goto :goto_1
 
-    .line 10
     :pswitch_5
-    new-instance v1, Lcom/bytedance/adsdk/rk/rk;
+    new-instance v1, Lcom/bytedance/adsdk/rk/RKRAC;
 
-    invoke-direct {v1}, Lcom/bytedance/adsdk/rk/rk;-><init>()V
+    invoke-direct {v1}, Lcom/bytedance/adsdk/rk/RKRAC;-><init>()V
 
     goto :goto_1
 
-    .line 11
     :pswitch_6
     new-instance v1, Lcom/bytedance/adsdk/rk/lG;
 
@@ -219,7 +210,6 @@
 
     goto :goto_1
 
-    .line 12
     :pswitch_7
     new-instance v1, Lcom/bytedance/adsdk/rk/ppR;
 
@@ -253,7 +243,7 @@
     .end packed-switch
 .end method
 
-.method public static rk(Lcom/bytedance/adsdk/rk/fFV/rk/rk;)Ljava/lang/Object;
+.method public static rk(Lcom/bytedance/adsdk/rk/fFV/rk/RKRFC;)Ljava/lang/Object;
     .locals 2
 
     const/4 v0, 0x0
@@ -262,13 +252,12 @@
 
     return-object v0
 
-    .line 1
     :cond_0
-    invoke-virtual {p0}, Lcom/bytedance/adsdk/rk/fFV/rk/rk;->rk()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/bytedance/adsdk/rk/fFV/rk/RKRFC;->rk()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-static {v1}, Lcom/bytedance/adsdk/rk/nP;->rk(Ljava/lang/String;)Lcom/bytedance/adsdk/rk/pw;
+    invoke-static {v1}, Lcom/bytedance/adsdk/rk/nP;->rk(Ljava/lang/String;)Lcom/bytedance/adsdk/rk/PWRAC;
 
     move-result-object v1
 
@@ -276,13 +265,12 @@
 
     return-object v0
 
-    .line 2
     :cond_1
-    invoke-virtual {p0}, Lcom/bytedance/adsdk/rk/fFV/rk/rk;->fFV()[Ljava/lang/Object;
+    invoke-virtual {p0}, Lcom/bytedance/adsdk/rk/fFV/rk/RKRFC;->fFV()[Ljava/lang/Object;
 
     move-result-object p0
 
-    invoke-interface {v1, v0, p0}, Lcom/bytedance/adsdk/rk/pw;->rk(Lorg/json/JSONObject;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v1, v0, p0}, Lcom/bytedance/adsdk/rk/PWRAC;->rk(Lorg/json/JSONObject;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 

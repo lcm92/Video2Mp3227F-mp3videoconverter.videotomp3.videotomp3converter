@@ -8,12 +8,12 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/bytedance/sdk/openadsdk/utils/ppR;->rk(Landroid/app/Activity;Lcom/bytedance/sdk/openadsdk/utils/ppR$rk;)Lcom/bytedance/sdk/openadsdk/utils/Pa;
+    value = Lcom/bytedance/sdk/openadsdk/utils/ppR;->rk(Landroid/app/Activity;Lcom/bytedance/sdk/openadsdk/utils/ppR$RKP1;)Lcom/bytedance/sdk/openadsdk/utils/Pa;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x8
-    name = null
+    name = "1"
 .end annotation
 
 
@@ -43,13 +43,11 @@
 .method public rk()V
     .locals 0
 
-    .line 1
     return-void
 .end method
 
 .method public rk(J)V
     .locals 0
 
-    .line 2
     return-void
 .end method

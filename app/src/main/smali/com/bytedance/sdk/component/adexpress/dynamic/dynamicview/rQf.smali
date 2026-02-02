@@ -55,466 +55,317 @@
 
 .field private rk:F
 
-.field protected woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;
+.field protected woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;
 
 
 # direct methods
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf$2;
 
-    .line 3
     invoke-direct {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf$2;-><init>()V
 
-    .line 6
     sput-object v0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->gLo:Landroid/view/View$OnTouchListener;
 
-    .line 8
     new-instance v0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf$3;
 
-    .line 10
     invoke-direct {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf$3;-><init>()V
 
-    .line 13
     sput-object v0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->Kl:Landroid/view/View$OnClickListener;
 
-    .line 15
     return-void
 .end method
 
-.method public constructor <init>(Landroid/content/Context;Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/DynamicRootView;Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;)V
+.method public constructor <init>(Landroid/content/Context;Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/DynamicRootView;Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
 
-    .line 4
     iput-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->nP:Landroid/content/Context;
 
-    .line 6
     iput-object p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->Pa:Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/DynamicRootView;
 
-    .line 8
-    iput-object p3, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;
+    iput-object p3, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;
 
-    .line 10
-    invoke-virtual {p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->lG()F
+    invoke-virtual {p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->lG()F
 
-    .line 13
     move-result p1
 
-    .line 14
     iput p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->aAs:F
 
-    .line 16
-    invoke-virtual {p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->Yp()F
+    invoke-virtual {p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->Yp()F
 
-    .line 19
     move-result p1
 
-    .line 20
     iput p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->DK:F
 
-    .line 22
-    invoke-virtual {p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->pw()F
+    invoke-virtual {p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->pw()F
 
-    .line 25
     move-result p1
 
-    .line 26
     iput p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->rQf:F
 
-    .line 28
-    invoke-virtual {p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->ppR()F
+    invoke-virtual {p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->ppR()F
 
-    .line 31
     move-result p1
 
-    .line 32
     iput p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->lG:F
 
-    .line 34
     iget-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->nP:Landroid/content/Context;
 
-    .line 36
     iget p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->aAs:F
 
-    .line 38
     invoke-static {p1, p2}, Lcom/bytedance/sdk/component/adexpress/DK/Yp;->rk(Landroid/content/Context;F)F
 
-    .line 41
     move-result p1
 
-    .line 42
     float-to-int p1, p1
 
-    .line 43
     iput p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->ppR:I
 
-    .line 45
     iget-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->nP:Landroid/content/Context;
 
-    .line 47
     iget p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->DK:F
 
-    .line 49
     invoke-static {p1, p2}, Lcom/bytedance/sdk/component/adexpress/DK/Yp;->rk(Landroid/content/Context;F)F
 
-    .line 52
     move-result p1
 
-    .line 53
     float-to-int p1, p1
 
-    .line 54
     iput p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->ArD:I
 
-    .line 56
     iget-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->nP:Landroid/content/Context;
 
-    .line 58
     iget p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->rQf:F
 
-    .line 60
     invoke-static {p1, p2}, Lcom/bytedance/sdk/component/adexpress/DK/Yp;->rk(Landroid/content/Context;F)F
 
-    .line 63
     move-result p1
 
-    .line 64
     float-to-int p1, p1
 
-    .line 65
     iput p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->Yp:I
 
-    .line 67
     iget-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->nP:Landroid/content/Context;
 
-    .line 69
     iget p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->lG:F
 
-    .line 71
     invoke-static {p1, p2}, Lcom/bytedance/sdk/component/adexpress/DK/Yp;->rk(Landroid/content/Context;F)F
 
-    .line 74
     move-result p1
 
-    .line 75
     float-to-int p1, p1
 
-    .line 76
     iput p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->pw:I
 
-    .line 78
     new-instance p1, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
-    .line 80
-    invoke-virtual {p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
+    invoke-virtual {p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
 
-    .line 83
     move-result-object p2
 
-    .line 84
     invoke-direct {p1, p2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;-><init>(Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;)V
 
-    .line 87
     iput-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
-    .line 89
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->KR()I
 
-    .line 92
     move-result p1
 
-    .line 93
     if-lez p1, :cond_0
 
-    .line 95
     iget p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->Yp:I
 
-    .line 97
     iget-object p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
-    .line 99
     invoke-virtual {p2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->KR()I
 
-    .line 102
     move-result p2
 
-    .line 103
     mul-int/lit8 p2, p2, 0x2
 
-    .line 105
     add-int/2addr p1, p2
 
-    .line 106
     iput p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->Yp:I
 
-    .line 108
     iget p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->pw:I
 
-    .line 110
     iget-object p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
-    .line 112
     invoke-virtual {p2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->KR()I
 
-    .line 115
     move-result p2
 
-    .line 116
     mul-int/lit8 p2, p2, 0x2
 
-    .line 118
     add-int/2addr p1, p2
 
-    .line 119
     iput p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->pw:I
 
-    .line 121
     iget p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->ppR:I
 
-    .line 123
     iget-object p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
-    .line 125
     invoke-virtual {p2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->KR()I
 
-    .line 128
     move-result p2
 
-    .line 129
     sub-int/2addr p1, p2
 
-    .line 130
     iput p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->ppR:I
 
-    .line 132
     iget p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->ArD:I
 
-    .line 134
     iget-object p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
-    .line 136
     invoke-virtual {p2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->KR()I
 
-    .line 139
     move-result p2
 
-    .line 140
     sub-int/2addr p1, p2
 
-    .line 141
     iput p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->ArD:I
 
-    .line 143
-    invoke-virtual {p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->nP()Ljava/util/List;
+    invoke-virtual {p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->nP()Ljava/util/List;
 
-    .line 146
     move-result-object p1
 
-    .line 147
     if-eqz p1, :cond_0
 
-    .line 149
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
-    .line 152
     move-result-object p1
 
-    .line 153
     :goto_0
     invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
 
-    .line 156
     move-result p2
 
-    .line 157
     if-eqz p2, :cond_0
 
-    .line 159
     invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    .line 162
     move-result-object p2
 
-    .line 163
-    check-cast p2, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;
+    check-cast p2, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;
 
-    .line 165
-    invoke-virtual {p2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->lG()F
+    invoke-virtual {p2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->lG()F
 
-    .line 168
     move-result p3
 
-    .line 169
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->nP:Landroid/content/Context;
 
-    .line 171
     iget-object v1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
-    .line 173
     invoke-virtual {v1}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->KR()I
 
-    .line 176
     move-result v1
 
-    .line 177
     int-to-float v1, v1
 
-    .line 178
     invoke-static {v0, v1}, Lcom/bytedance/sdk/component/adexpress/DK/Yp;->fFV(Landroid/content/Context;F)I
 
-    .line 181
     move-result v0
 
-    .line 182
     int-to-float v0, v0
 
-    .line 183
     add-float/2addr p3, v0
 
-    .line 184
-    invoke-virtual {p2, p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->aAs(F)V
+    invoke-virtual {p2, p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->aAs(F)V
 
-    .line 187
-    invoke-virtual {p2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->Yp()F
+    invoke-virtual {p2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->Yp()F
 
-    .line 190
     move-result p3
 
-    .line 191
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->nP:Landroid/content/Context;
 
-    .line 193
     iget-object v1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
-    .line 195
     invoke-virtual {v1}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->KR()I
 
-    .line 198
     move-result v1
 
-    .line 199
     int-to-float v1, v1
 
-    .line 200
     invoke-static {v0, v1}, Lcom/bytedance/sdk/component/adexpress/DK/Yp;->fFV(Landroid/content/Context;F)I
 
-    .line 203
     move-result v0
 
-    .line 204
     int-to-float v0, v0
 
-    .line 205
     add-float/2addr p3, v0
 
-    .line 206
-    invoke-virtual {p2, p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->DK(F)V
+    invoke-virtual {p2, p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->DK(F)V
 
-    .line 209
     iget-object p3, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->nP:Landroid/content/Context;
 
-    .line 211
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
-    .line 213
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->KR()I
 
-    .line 216
     move-result v0
 
-    .line 217
     int-to-float v0, v0
 
-    .line 218
     invoke-static {p3, v0}, Lcom/bytedance/sdk/component/adexpress/DK/Yp;->fFV(Landroid/content/Context;F)I
 
-    .line 221
     move-result p3
 
-    .line 222
     int-to-float p3, p3
 
-    .line 223
-    invoke-virtual {p2, p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->rk(F)V
+    invoke-virtual {p2, p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->rk(F)V
 
-    .line 226
     iget-object p3, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->nP:Landroid/content/Context;
 
-    .line 228
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
-    .line 230
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->KR()I
 
-    .line 233
     move-result v0
 
-    .line 234
     int-to-float v0, v0
 
-    .line 235
     invoke-static {p3, v0}, Lcom/bytedance/sdk/component/adexpress/DK/Yp;->fFV(Landroid/content/Context;F)I
 
-    .line 238
     move-result p3
 
-    .line 239
     int-to-float p3, p3
 
-    .line 240
-    invoke-virtual {p2, p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->fFV(F)V
+    invoke-virtual {p2, p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->fFV(F)V
 
-    .line 243
     goto :goto_0
 
-    .line 244
     :cond_0
     iget-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
-    .line 246
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->Pa()D
 
-    .line 249
     move-result-wide p1
 
-    .line 250
     const-wide/16 v0, 0x0
 
-    .line 252
     cmpl-double p1, p1, v0
 
-    .line 254
     if-lez p1, :cond_1
 
-    .line 256
     const/4 p1, 0x1
 
-    .line 257
     goto :goto_1
 
-    .line 258
     :cond_1
     const/4 p1, 0x0
 
-    .line 259
     :goto_1
     iput-boolean p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->kEa:Z
 
-    .line 261
     new-instance p1, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;
 
-    .line 263
     invoke-direct {p1}, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;-><init>()V
 
-    .line 266
     iput-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->KR:Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;
 
-    .line 268
     return-void
 .end method
 
@@ -531,7 +382,6 @@
         }
     .end annotation
 
-    .line 4
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -546,7 +396,6 @@
 
     move v5, v4
 
-    .line 5
     :goto_0
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
@@ -554,7 +403,6 @@
 
     if-ge v2, v6, :cond_2
 
-    .line 6
     invoke-virtual {p1, v2}, Ljava/lang/String;->charAt(I)C
 
     move-result v6
@@ -569,7 +417,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_0
     invoke-virtual {p1, v2}, Ljava/lang/String;->charAt(I)C
 
@@ -587,7 +434,6 @@
 
     add-int/lit8 v4, v2, 0x1
 
-    .line 8
     invoke-virtual {p1, v5, v4}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v5
@@ -611,7 +457,6 @@
 .method private rk()V
     .locals 3
 
-    .line 103
     invoke-virtual {p0}, Landroid/view/View;->isShown()Z
 
     move-result v0
@@ -620,11 +465,10 @@
 
     return-void
 
-    .line 104
     :cond_0
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
-    invoke-static {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/fFV/rk;->rk(Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;)I
+    invoke-static {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/fFV/RKFDC;->rk(Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;)I
 
     move-result v0
 
@@ -632,12 +476,10 @@
 
     if-ne v0, v1, :cond_3
 
-    .line 105
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->HmR:Lcom/bytedance/sdk/component/utils/TGu;
 
     if-nez v0, :cond_1
 
-    .line 106
     new-instance v0, Lcom/bytedance/sdk/component/utils/TGu;
 
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
@@ -654,13 +496,11 @@
 
     iput-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->HmR:Lcom/bytedance/sdk/component/utils/TGu;
 
-    .line 107
     :cond_1
     new-instance v0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf$4;
 
     invoke-direct {v0, p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf$4;-><init>(Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;)V
 
-    .line 108
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->Pa:Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/DynamicRootView;
 
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/DynamicRootView;->getRenderRequest()Lcom/bytedance/sdk/component/adexpress/fFV/woP;
@@ -669,13 +509,10 @@
 
     if-eqz v0, :cond_2
 
-    .line 109
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/fFV/woP;->AXL()I
 
-    .line 110
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/fFV/woP;->HmR()I
 
-    .line 111
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/fFV/woP;->KIc()Lorg/json/JSONObject;
 
     :cond_2
@@ -686,12 +523,10 @@
 
     if-ne v0, v2, :cond_5
 
-    .line 112
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->HmR:Lcom/bytedance/sdk/component/utils/TGu;
 
     if-nez v0, :cond_4
 
-    .line 113
     new-instance v0, Lcom/bytedance/sdk/component/utils/TGu;
 
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
@@ -706,13 +541,11 @@
 
     iput-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->HmR:Lcom/bytedance/sdk/component/utils/TGu;
 
-    .line 114
     :cond_4
     new-instance v0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf$5;
 
     invoke-direct {v0, p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf$5;-><init>(Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;)V
 
-    .line 115
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->Pa:Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/DynamicRootView;
 
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/DynamicRootView;->getRenderRequest()Lcom/bytedance/sdk/component/adexpress/fFV/woP;
@@ -721,16 +554,12 @@
 
     if-eqz v0, :cond_5
 
-    .line 116
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/fFV/woP;->lgt()I
 
-    .line 117
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/fFV/woP;->gLo()I
 
-    .line 118
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/fFV/woP;->KR()Lorg/json/JSONObject;
 
-    .line 119
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/fFV/woP;->ZQ()Lorg/json/JSONObject;
 
     :cond_5
@@ -749,7 +578,6 @@
         }
     .end annotation
 
-    .line 78
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v0
@@ -760,7 +588,6 @@
 
     move v2, v1
 
-    .line 79
     :goto_0
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -768,14 +595,12 @@
 
     if-ge v2, v3, :cond_2
 
-    .line 80
     invoke-interface {p1, v2}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
     check-cast v3, Ljava/lang/String;
 
-    .line 81
     const-string v4, "linear-gradient"
 
     invoke-virtual {v3, v4}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
@@ -784,7 +609,6 @@
 
     if-eqz v4, :cond_1
 
-    .line 82
     const-string v4, "("
 
     invoke-virtual {v3, v4}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
@@ -803,14 +627,12 @@
 
     move-result-object v3
 
-    .line 83
     const-string v4, ", "
 
     invoke-virtual {v3, v4}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v3
 
-    .line 84
     array-length v4, v3
 
     add-int/lit8 v4, v4, -0x1
@@ -824,7 +646,6 @@
 
     add-int/lit8 v7, v6, 0x1
 
-    .line 85
     aget-object v8, v3, v7
 
     const/4 v9, 0x7
@@ -843,7 +664,6 @@
 
     goto :goto_1
 
-    .line 86
     :cond_0
     aget-object v3, v3, v1
 
@@ -855,10 +675,8 @@
 
     move-result-object v3
 
-    .line 87
     invoke-virtual {v3, v1}, Landroid/graphics/drawable/GradientDrawable;->setShape(I)V
 
-    .line 88
     iget-object v4, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->nP:Landroid/content/Context;
 
     iget-object v5, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
@@ -871,10 +689,8 @@
 
     move-result v4
 
-    .line 89
     invoke-virtual {v3, v4}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadius(F)V
 
-    .line 90
     invoke-interface {p1}, Ljava/util/List;->size()I
 
     move-result v4
@@ -899,217 +715,154 @@
 .method protected DK()Z
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->AXL:Landroid/view/View;
 
-    .line 3
     if-nez v0, :cond_0
 
-    .line 5
     move-object v0, p0
 
-    .line 6
     :cond_0
     invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->rQf()Z
 
-    .line 9
     move-result v1
 
-    .line 10
     if-eqz v1, :cond_1
 
-    .line 12
-    invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->getDynamicClickListener()Lcom/bytedance/sdk/component/adexpress/dynamic/lG/rk;
+    invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->getDynamicClickListener()Lcom/bytedance/sdk/component/adexpress/dynamic/lG/RKLDC;
 
-    .line 15
     move-result-object v1
 
-    .line 16
     check-cast v1, Landroid/view/View$OnTouchListener;
 
-    .line 18
-    invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->getDynamicClickListener()Lcom/bytedance/sdk/component/adexpress/dynamic/lG/rk;
+    invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->getDynamicClickListener()Lcom/bytedance/sdk/component/adexpress/dynamic/lG/RKLDC;
 
-    .line 21
     move-result-object v2
 
-    .line 22
     check-cast v2, Landroid/view/View$OnClickListener;
 
-    .line 24
     goto :goto_0
 
-    .line 25
     :cond_1
     sget-object v1, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->gLo:Landroid/view/View$OnTouchListener;
 
-    .line 27
     sget-object v2, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->Kl:Landroid/view/View$OnClickListener;
 
-    .line 29
     :goto_0
     if-eqz v1, :cond_4
 
-    .line 31
     if-eqz v2, :cond_4
 
-    .line 33
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
-    .line 36
     invoke-virtual {v0, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 39
     iget-object v1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
-    .line 41
-    invoke-static {v1}, Lcom/bytedance/sdk/component/adexpress/dynamic/fFV/rk;->rk(Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;)I
+    invoke-static {v1}, Lcom/bytedance/sdk/component/adexpress/dynamic/fFV/RKFDC;->rk(Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;)I
 
-    .line 44
     move-result v1
 
-    .line 45
     const/4 v3, 0x2
 
-    .line 46
     if-eq v1, v3, :cond_3
 
-    .line 48
     const/4 v3, 0x3
 
-    .line 49
     if-ne v1, v3, :cond_2
 
-    .line 51
     goto :goto_1
 
-    .line 52
     :cond_2
     invoke-virtual {v0, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 55
     goto :goto_2
 
-    .line 56
     :cond_3
     :goto_1
     sget-object v1, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->Kl:Landroid/view/View$OnClickListener;
 
-    .line 58
     invoke-virtual {v0, v1}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 61
     :cond_4
     :goto_2
     invoke-virtual {p0, v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->rk(Landroid/view/View;)V
 
-    .line 64
     invoke-virtual {p0, v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->fFV(Landroid/view/View;)V
 
-    .line 67
     const/4 v0, 0x1
 
-    .line 68
     return v0
 .end method
 
 .method public Yp()V
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->pw()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     if-eqz v0, :cond_0
 
-    .line 7
     return-void
 
-    .line 8
     :cond_0
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->AXL:Landroid/view/View;
 
-    .line 10
     if-nez v0, :cond_1
 
-    .line 12
     move-object v0, p0
 
-    .line 13
     :cond_1
     new-instance v1, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/fFV;
 
-    .line 15
-    iget-object v2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;
+    iget-object v2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;
 
-    .line 17
-    invoke-virtual {v2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
+    invoke-virtual {v2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
 
-    .line 20
     move-result-object v2
 
-    .line 21
     invoke-virtual {v2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;->rQf()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/lG;
 
-    .line 24
     move-result-object v2
 
-    .line 25
     invoke-virtual {v2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/lG;->ft()Ljava/util/List;
 
-    .line 28
     move-result-object v2
 
-    .line 29
     invoke-direct {v1, v0, v2}, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/fFV;-><init>(Landroid/view/View;Ljava/util/List;)V
 
-    .line 32
     iput-object v1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->lgt:Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/fFV;
 
-    .line 34
     new-instance v0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf$1;
 
-    .line 36
     invoke-direct {v0, p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf$1;-><init>(Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;)V
 
-    .line 39
     invoke-virtual {p0, v0}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
 
-    .line 42
     return-void
 .end method
 
 .method public aAs()Z
     .locals 1
 
-    .line 1
     invoke-interface {p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/zP;->ppR()Z
 
-    .line 4
     invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->lG()V
 
-    .line 7
     invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->DK()Z
 
-    .line 10
     const/4 v0, 0x1
 
-    .line 11
     return v0
 .end method
 
 .method public fFV()V
     .locals 1
 
-    .line 9
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->lgt:Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/fFV;
 
     if-eqz v0, :cond_0
 
-    .line 10
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/fFV;->fFV()V
 
     :cond_0
@@ -1119,16 +872,14 @@
 .method protected fFV(Landroid/view/View;)V
     .locals 2
 
-    .line 1
-    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;
+    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
 
     move-result-object v0
 
@@ -1138,7 +889,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 3
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/lG;->lH()Z
 
     move-result v0
@@ -1158,359 +908,267 @@
 .method protected getBackgroundDrawable()Landroid/graphics/drawable/Drawable;
     .locals 2
 
-    .line 1
     const/4 v0, 0x0
 
-    .line 2
     const-string v1, ""
 
-    .line 4
     invoke-virtual {p0, v0, v1}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->rk(ZLjava/lang/String;)Landroid/graphics/drawable/Drawable;
 
-    .line 7
     move-result-object v0
 
-    .line 8
     return-object v0
 .end method
 
 .method public getBeginInvisibleAndShow()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->kEa:Z
 
-    .line 3
     return v0
 .end method
 
 .method public getClickArea()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
-    .line 3
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->Xb()I
 
-    .line 6
     move-result v0
 
-    .line 7
     return v0
 .end method
 
 .method protected getDrawable()Landroid/graphics/drawable/GradientDrawable;
     .locals 1
 
-    .line 1
     new-instance v0, Landroid/graphics/drawable/GradientDrawable;
 
-    .line 3
     invoke-direct {v0}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
 
-    .line 6
     return-object v0
 .end method
 
-.method public getDynamicClickListener()Lcom/bytedance/sdk/component/adexpress/dynamic/lG/rk;
+.method public getDynamicClickListener()Lcom/bytedance/sdk/component/adexpress/dynamic/lG/RKLDC;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->Pa:Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/DynamicRootView;
 
-    .line 3
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/DynamicRootView;->getDynamicClickListener()Lcom/bytedance/sdk/component/adexpress/dynamic/lG/rk;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/DynamicRootView;->getDynamicClickListener()Lcom/bytedance/sdk/component/adexpress/dynamic/lG/RKLDC;
 
-    .line 6
     move-result-object v0
 
-    .line 7
     return-object v0
 .end method
 
 .method public getDynamicHeight()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->pw:I
 
-    .line 3
     return v0
 .end method
 
 .method public getDynamicLayoutBrickValue()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/lG;
     .locals 2
 
-    .line 1
-    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;
+    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;
 
-    .line 3
     const/4 v1, 0x0
 
-    .line 4
     if-nez v0, :cond_0
 
-    .line 6
     return-object v1
 
-    .line 7
     :cond_0
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
 
-    .line 10
     move-result-object v0
 
-    .line 11
     if-nez v0, :cond_1
 
-    .line 13
     return-object v1
 
-    .line 14
     :cond_1
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;->rQf()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/lG;
 
-    .line 17
     move-result-object v0
 
-    .line 18
     return-object v0
 .end method
 
 .method public getDynamicWidth()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->Yp:I
 
-    .line 3
     return v0
 .end method
 
 .method public getImageObjectFit()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
-    .line 3
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->yj()Ljava/lang/String;
 
-    .line 6
     move-result-object v0
 
-    .line 7
     return-object v0
 .end method
 
 .method public getMarqueeValue()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->KIc:F
 
-    .line 3
     return v0
 .end method
 
 .method protected getMutilBackgroundDrawable()Landroid/graphics/drawable/Drawable;
     .locals 3
 
-    .line 1
     :try_start_0
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
-    .line 3
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->sc()Ljava/lang/String;
 
-    .line 6
     move-result-object v0
 
-    .line 7
     const-string v1, "/\\*.*\\*/"
 
-    .line 9
     const-string v2, ""
 
-    .line 11
     invoke-virtual {v0, v1, v2}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 14
     move-result-object v0
 
-    .line 15
     invoke-direct {p0, v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->fFV(Ljava/lang/String;)Ljava/util/List;
 
-    .line 18
     move-result-object v0
 
-    .line 19
     invoke-direct {p0, v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->rk(Ljava/util/List;)[Landroid/graphics/drawable/Drawable;
 
-    .line 22
     move-result-object v0
 
-    .line 23
     new-instance v1, Landroid/graphics/drawable/LayerDrawable;
 
-    .line 25
     invoke-direct {v1, v0}, Landroid/graphics/drawable/LayerDrawable;-><init>([Landroid/graphics/drawable/Drawable;)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 28
     return-object v1
 
-    .line 29
     :catch_0
     const/4 v0, 0x0
 
-    .line 30
     return-object v0
 .end method
 
 .method public getRippleValue()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->rk:F
 
-    .line 3
     return v0
 .end method
 
 .method public getShineValue()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->fFV:F
 
-    .line 3
     return v0
 .end method
 
 .method public getStretchValue()F
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->ZQ:F
 
-    .line 3
     return v0
 .end method
 
 .method public lG()V
     .locals 3
 
-    .line 1
     new-instance v0, Landroid/widget/FrameLayout$LayoutParams;
 
-    .line 3
     iget v1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->Yp:I
 
-    .line 5
     iget v2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->pw:I
 
-    .line 7
     invoke-direct {v0, v1, v2}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
 
-    .line 10
     iget v1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->ArD:I
 
-    .line 12
     iput v1, v0, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
 
-    .line 14
     iget v1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->ppR:I
 
-    .line 16
     iput v1, v0, Landroid/widget/FrameLayout$LayoutParams;->leftMargin:I
 
-    .line 18
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup$MarginLayoutParams;->setMarginStart(I)V
 
-    .line 21
     iget v1, v0, Landroid/widget/FrameLayout$LayoutParams;->rightMargin:I
 
-    .line 23
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup$MarginLayoutParams;->setMarginEnd(I)V
 
-    .line 26
     invoke-virtual {p0, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 29
     return-void
 .end method
 
 .method protected onAttachedToWindow()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Landroid/widget/FrameLayout;->onAttachedToWindow()V
 
-    .line 4
     invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->Yp()V
 
-    .line 7
     invoke-direct {p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->rk()V
 
-    .line 10
     return-void
 .end method
 
 .method protected onDetachedFromWindow()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->fFV()V
 
-    .line 4
     invoke-super {p0}, Landroid/widget/FrameLayout;->onDetachedFromWindow()V
 
-    .line 7
     return-void
 .end method
 
 .method protected onDraw(Landroid/graphics/Canvas;)V
     .locals 1
 
-    .line 1
     invoke-super {p0, p1}, Landroid/widget/FrameLayout;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 4
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->KR:Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;
 
-    .line 6
     invoke-virtual {v0, p1, p0, p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rk(Landroid/graphics/Canvas;Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/IAnimation;Landroid/view/View;)V
 
-    .line 9
     return-void
 .end method
 
 .method protected onSizeChanged(IIII)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/FrameLayout;->onSizeChanged(IIII)V
 
-    .line 4
     iget-object p3, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->KR:Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;
 
-    .line 6
     iget-object p4, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->AXL:Landroid/view/View;
 
-    .line 8
     if-nez p4, :cond_0
 
-    .line 10
     move-object p4, p0
 
-    .line 11
     :cond_0
     invoke-virtual {p3, p4, p1, p2}, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rk(Landroid/view/View;II)V
 
-    .line 14
     return-void
 .end method
 
@@ -1523,123 +1181,88 @@
 .method protected pw()Z
     .locals 1
 
-    .line 1
-    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;
+    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;
 
-    .line 3
     if-eqz v0, :cond_1
 
-    .line 5
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
 
-    .line 8
     move-result-object v0
 
-    .line 9
     if-eqz v0, :cond_1
 
-    .line 11
-    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;
+    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;
 
-    .line 13
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
 
-    .line 16
     move-result-object v0
 
-    .line 17
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;->rQf()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/lG;
 
-    .line 20
     move-result-object v0
 
-    .line 21
     if-eqz v0, :cond_1
 
-    .line 23
-    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;
+    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;
 
-    .line 25
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
 
-    .line 28
     move-result-object v0
 
-    .line 29
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;->rQf()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/lG;
 
-    .line 32
     move-result-object v0
 
-    .line 33
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/lG;->ft()Ljava/util/List;
 
-    .line 36
     move-result-object v0
 
-    .line 37
     if-nez v0, :cond_0
 
-    .line 39
     goto :goto_0
 
-    .line 40
     :cond_0
     const/4 v0, 0x0
 
-    .line 41
     return v0
 
-    .line 42
     :cond_1
     :goto_0
     const/4 v0, 0x1
 
-    .line 43
     return v0
 .end method
 
 .method public rQf()Z
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
-    .line 3
     if-eqz v0, :cond_1
 
-    .line 5
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->Xb()I
 
-    .line 8
     move-result v0
 
-    .line 9
     if-nez v0, :cond_0
 
-    .line 11
     goto :goto_0
 
-    .line 12
     :cond_0
     const/4 v0, 0x1
 
-    .line 13
     return v0
 
-    .line 14
     :cond_1
     :goto_0
     const/4 v0, 0x0
 
-    .line 15
     return v0
 .end method
 
 .method protected rk(ZLjava/lang/String;)Landroid/graphics/drawable/Drawable;
     .locals 13
 
-    .line 24
     const-string v0, ","
 
     const-string v1, "%"
@@ -1664,7 +1287,6 @@
 
     if-nez v2, :cond_2
 
-    .line 25
     :try_start_0
     iget-object v2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
@@ -1672,7 +1294,6 @@
 
     move-result-object v2
 
-    .line 26
     const-string v7, "("
 
     invoke-virtual {v2, v7}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
@@ -1691,7 +1312,6 @@
 
     move-result-object v2
 
-    .line 27
     const-string v7, "rgba"
 
     invoke-virtual {v2, v7}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
@@ -1706,7 +1326,6 @@
 
     if-eqz v7, :cond_0
 
-    .line 28
     invoke-virtual {v2, v0}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v7
@@ -1719,7 +1338,6 @@
 
     move-result-object v7
 
-    .line 29
     invoke-virtual {v2, v0}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v0
@@ -1740,7 +1358,6 @@
 
     move-result-object v0
 
-    .line 30
     invoke-virtual {v2, v1}, Ljava/lang/String;->indexOf(Ljava/lang/String;)I
 
     move-result v1
@@ -1759,7 +1376,6 @@
 
     move-result-object v0
 
-    .line 31
     aget-object v1, v0, v6
 
     invoke-static {v1}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->rk(Ljava/lang/String;)I
@@ -1768,7 +1384,6 @@
 
     aget-object v7, v0, v4
 
-    .line 32
     invoke-static {v7}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->rk(Ljava/lang/String;)I
 
     move-result v7
@@ -1779,7 +1394,6 @@
 
     goto :goto_0
 
-    .line 33
     :cond_0
     const-string v0, ", "
 
@@ -1787,7 +1401,6 @@
 
     move-result-object v0
 
-    .line 34
     aget-object v1, v0, v6
 
     invoke-virtual {v1, v5, v3}, Ljava/lang/String;->substring(II)Ljava/lang/String;
@@ -1800,7 +1413,6 @@
 
     aget-object v7, v0, v4
 
-    .line 35
     invoke-virtual {v7, v5, v3}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v7
@@ -1815,7 +1427,6 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 36
     :goto_0
     :try_start_1
     const-string v7, "linear-gradient("
@@ -1836,7 +1447,6 @@
 
     move-result-object v2
 
-    .line 37
     invoke-static {v2}, Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
 
     move-result-wide v7
@@ -1853,20 +1463,16 @@
 
     if-gez v2, :cond_1
 
-    .line 38
     aget v2, v1, v6
 
-    .line 39
     aget v7, v1, v5
 
     aput v7, v1, v6
 
-    .line 40
     aput v2, v1, v5
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 41
     :catch_0
     :cond_1
     :try_start_2
@@ -1880,10 +1486,8 @@
 
     move-result-object v0
 
-    .line 42
     invoke-virtual {v0, v5}, Landroid/graphics/drawable/GradientDrawable;->setShape(I)V
 
-    .line 43
     iget-object v1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->nP:Landroid/content/Context;
 
     iget-object v2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
@@ -1896,14 +1500,12 @@
 
     move-result v1
 
-    .line 44
     invoke-virtual {v0, v1}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadius(F)V
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_1
 
     return-object v0
 
-    .line 45
     :catch_1
     invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->getMutilBackgroundDrawable()Landroid/graphics/drawable/Drawable;
 
@@ -1913,16 +1515,13 @@
 
     return-object v0
 
-    .line 46
     :cond_2
     invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->getDrawable()Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v0
 
-    .line 47
     invoke-virtual {v0, v5}, Landroid/graphics/drawable/GradientDrawable;->setShape(I)V
 
-    .line 48
     iget-object v1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->nP:Landroid/content/Context;
 
     iget-object v2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
@@ -1935,7 +1534,6 @@
 
     move-result v1
 
-    .line 49
     invoke-virtual {v0, v1}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadius(F)V
 
     const/high16 v2, 0x3f800000    # 1.0f
@@ -1946,7 +1544,6 @@
 
     if-gez v2, :cond_7
 
-    .line 50
     iget-object v2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->nP:Landroid/content/Context;
 
     iget-object v8, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
@@ -1961,7 +1558,6 @@
 
     move-result v2
 
-    .line 51
     iget-object v8, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->nP:Landroid/content/Context;
 
     iget-object v9, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
@@ -1976,7 +1572,6 @@
 
     move-result v8
 
-    .line 52
     iget-object v9, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->nP:Landroid/content/Context;
 
     iget-object v10, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
@@ -1991,7 +1586,6 @@
 
     move-result v9
 
-    .line 53
     iget-object v10, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->nP:Landroid/content/Context;
 
     iget-object v11, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
@@ -2008,17 +1602,14 @@
 
     const/16 v11, 0x8
 
-    .line 54
     new-array v11, v11, [F
 
     cmpl-float v12, v2, v7
 
     if-lez v12, :cond_3
 
-    .line 55
     aput v2, v11, v5
 
-    .line 56
     aput v2, v11, v6
 
     :cond_3
@@ -2026,12 +1617,10 @@
 
     if-lez v2, :cond_4
 
-    .line 57
     aput v8, v11, v4
 
     const/4 v2, 0x3
 
-    .line 58
     aput v8, v11, v2
 
     :cond_4
@@ -2041,12 +1630,10 @@
 
     const/4 v2, 0x4
 
-    .line 59
     aput v9, v11, v2
 
     const/4 v2, 0x5
 
-    .line 60
     aput v9, v11, v2
 
     :cond_5
@@ -2056,27 +1643,22 @@
 
     const/4 v2, 0x6
 
-    .line 61
     aput v10, v11, v2
 
-    .line 62
     aput v10, v11, v3
 
-    .line 63
     :cond_6
     invoke-virtual {v0, v11}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadii([F)V
 
     :cond_7
     if-eqz p1, :cond_8
 
-    .line 64
     invoke-static {p2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result p1
 
     goto :goto_1
 
-    .line 65
     :cond_8
     iget-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
@@ -2084,11 +1666,9 @@
 
     move-result p1
 
-    .line 66
     :goto_1
     invoke-virtual {v0, p1}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
-    .line 67
     iget-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->lgt()F
@@ -2099,7 +1679,6 @@
 
     if-lez p1, :cond_9
 
-    .line 68
     iget-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->nP:Landroid/content/Context;
 
     iget-object p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
@@ -2114,7 +1693,6 @@
 
     float-to-int p1, p1
 
-    .line 69
     iget-object p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
     invoke-virtual {p2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->kEa()I
@@ -2125,7 +1703,6 @@
 
     goto :goto_2
 
-    .line 70
     :cond_9
     iget-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
@@ -2135,14 +1712,12 @@
 
     if-lez p1, :cond_a
 
-    .line 71
     iget-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->KR()I
 
     move-result p1
 
-    .line 72
     iget-object p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
     invoke-virtual {p2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->kEa()I
@@ -2153,13 +1728,11 @@
 
     const/16 p1, 0x32
 
-    .line 73
     invoke-virtual {v0, p1}, Landroid/graphics/drawable/GradientDrawable;->setAlpha(I)V
 
-    .line 74
-    iget-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;
+    iget-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;
 
-    invoke-virtual {p1}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
+    invoke-virtual {p1}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
 
     move-result-object p1
 
@@ -2177,10 +1750,8 @@
 
     const/4 p1, 0x0
 
-    .line 75
     invoke-virtual {p0, v6, p1}, Landroid/view/View;->setLayerType(ILandroid/graphics/Paint;)V
 
-    .line 76
     new-instance p1, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/KIc;
 
     float-to-int p2, v1
@@ -2203,7 +1774,6 @@
 .method protected rk(Ljava/lang/String;)Landroid/graphics/drawable/GradientDrawable$Orientation;
     .locals 2
 
-    .line 97
     :try_start_0
     invoke-virtual {p1}, Ljava/lang/String;->length()I
 
@@ -2227,7 +1797,6 @@
 
     if-gt p1, v0, :cond_0
 
-    .line 98
     sget-object p1, Landroid/graphics/drawable/GradientDrawable$Orientation;->LEFT_RIGHT:Landroid/graphics/drawable/GradientDrawable$Orientation;
 
     return-object p1
@@ -2237,7 +1806,6 @@
 
     if-gt p1, v0, :cond_1
 
-    .line 99
     sget-object p1, Landroid/graphics/drawable/GradientDrawable$Orientation;->TOP_BOTTOM:Landroid/graphics/drawable/GradientDrawable$Orientation;
 
     return-object p1
@@ -2247,12 +1815,10 @@
 
     if-gt p1, v0, :cond_2
 
-    .line 100
     sget-object p1, Landroid/graphics/drawable/GradientDrawable$Orientation;->RIGHT_LEFT:Landroid/graphics/drawable/GradientDrawable$Orientation;
 
     return-object p1
 
-    .line 101
     :cond_2
     sget-object p1, Landroid/graphics/drawable/GradientDrawable$Orientation;->BOTTOM_TOP:Landroid/graphics/drawable/GradientDrawable$Orientation;
     :try_end_0
@@ -2260,7 +1826,6 @@
 
     return-object p1
 
-    .line 102
     :catch_0
     sget-object p1, Landroid/graphics/drawable/GradientDrawable$Orientation;->LEFT_RIGHT:Landroid/graphics/drawable/GradientDrawable$Orientation;
 
@@ -2272,14 +1837,12 @@
 
     if-eqz p2, :cond_2
 
-    .line 91
     array-length v0, p2
 
     if-nez v0, :cond_0
 
     goto :goto_0
 
-    .line 92
     :cond_0
     array-length v0, p2
 
@@ -2287,21 +1850,18 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 93
     new-instance p1, Landroid/graphics/drawable/GradientDrawable;
 
     invoke-direct {p1}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
 
     const/4 v0, 0x0
 
-    .line 94
     aget p2, p2, v0
 
     invoke-virtual {p1, p2}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
     return-object p1
 
-    .line 95
     :cond_1
     new-instance v0, Landroid/graphics/drawable/GradientDrawable;
 
@@ -2309,7 +1869,6 @@
 
     return-object v0
 
-    .line 96
     :cond_2
     :goto_0
     new-instance p1, Landroid/graphics/drawable/GradientDrawable;
@@ -2322,12 +1881,11 @@
 .method protected rk(Landroid/graphics/Bitmap;)Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/fFV;
     .locals 2
 
-    .line 77
-    new-instance v0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rk;
+    new-instance v0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/RKDDC;
 
     const/4 v1, 0x0
 
-    invoke-direct {v0, p1, v1}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rk;-><init>(Landroid/graphics/Bitmap;Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/fFV;)V
+    invoke-direct {v0, p1, v1}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/RKDDC;-><init>(Landroid/graphics/Bitmap;Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/fFV;)V
 
     return-object v0
 .end method
@@ -2335,14 +1893,12 @@
 .method public rk(I)V
     .locals 4
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     invoke-virtual {v0, p1}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->rk(I)Z
 
@@ -2352,11 +1908,9 @@
 
     return-void
 
-    .line 3
     :cond_1
     invoke-interface {p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/zP;->ppR()Z
 
-    .line 4
     invoke-virtual {p0}, Landroid/view/ViewGroup;->getChildCount()I
 
     move-result v0
@@ -2366,14 +1920,12 @@
     :goto_0
     if-ge v1, v0, :cond_3
 
-    .line 5
     invoke-virtual {p0, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v2
 
     if-eqz v2, :cond_2
 
-    .line 6
     invoke-virtual {p0, v1}, Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
 
     move-result-object v3
@@ -2382,7 +1934,6 @@
 
     if-eqz v3, :cond_2
 
-    .line 7
     check-cast v2, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;
 
     invoke-virtual {v2, p1}, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->rk(I)V
@@ -2399,18 +1950,16 @@
 .method protected rk(Landroid/view/View;)V
     .locals 5
 
-    .line 8
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
-    .line 9
     const-string v1, "width"
 
-    iget-object v2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;
+    iget-object v2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;
 
-    invoke-virtual {v2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->pw()F
+    invoke-virtual {v2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->pw()F
 
     move-result v2
 
@@ -2418,12 +1967,11 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;D)Lorg/json/JSONObject;
 
-    .line 10
     const-string v1, "height"
 
-    iget-object v2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;
+    iget-object v2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;
 
-    invoke-virtual {v2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->ppR()F
+    invoke-virtual {v2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->ppR()F
 
     move-result v2
 
@@ -2431,15 +1979,13 @@
 
     invoke-virtual {v0, v1, v2, v3}, Lorg/json/JSONObject;->put(Ljava/lang/String;D)Lorg/json/JSONObject;
 
-    .line 11
     invoke-static {}, Lcom/bytedance/sdk/component/adexpress/DK;->fFV()Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 12
-    sget v1, Lcom/bytedance/sdk/component/adexpress/dynamic/rk;->ZQ:I
+    sget v1, Lcom/bytedance/sdk/component/adexpress/dynamic/RKDAC;->ZQ:I
 
     iget-object v2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
@@ -2449,12 +1995,11 @@
 
     invoke-virtual {p1, v1, v2}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
-    .line 13
-    sget v1, Lcom/bytedance/sdk/component/adexpress/dynamic/rk;->HmR:I
+    sget v1, Lcom/bytedance/sdk/component/adexpress/dynamic/RKDAC;->HmR:I
 
-    iget-object v2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;
+    iget-object v2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;
 
-    invoke-virtual {v2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
+    invoke-virtual {v2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
 
     move-result-object v2
 
@@ -2464,19 +2009,17 @@
 
     invoke-virtual {p1, v1, v2}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
-    .line 14
-    sget v1, Lcom/bytedance/sdk/component/adexpress/dynamic/rk;->gLo:I
+    sget v1, Lcom/bytedance/sdk/component/adexpress/dynamic/RKDAC;->gLo:I
 
-    iget-object v2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;
+    iget-object v2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;
 
-    invoke-virtual {v2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->aAs()Ljava/lang/String;
+    invoke-virtual {v2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->aAs()Ljava/lang/String;
 
     move-result-object v2
 
     invoke-virtual {p1, v1, v2}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
-    .line 15
-    sget v1, Lcom/bytedance/sdk/component/adexpress/dynamic/rk;->Kl:I
+    sget v1, Lcom/bytedance/sdk/component/adexpress/dynamic/RKDAC;->Kl:I
 
     invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
@@ -2486,7 +2029,6 @@
 
     return-void
 
-    .line 16
     :cond_0
     iget-object v1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
@@ -2498,10 +2040,9 @@
 
     invoke-virtual {p1, v2, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
-    .line 17
-    iget-object v1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;
+    iget-object v1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;
 
-    invoke-virtual {v1}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
+    invoke-virtual {v1}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->ArD()Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rQf;
 
     move-result-object v1
 
@@ -2513,10 +2054,9 @@
 
     invoke-virtual {p1, v2, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
-    .line 18
-    iget-object v1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;
+    iget-object v1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->woP:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;
 
-    invoke-virtual {v1}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;->aAs()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;->aAs()Ljava/lang/String;
 
     move-result-object v1
 
@@ -2524,7 +2064,6 @@
 
     invoke-virtual {p1, v2, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
-    .line 19
     invoke-virtual {v0}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
 
     move-result-object v0
@@ -2533,10 +2072,9 @@
 
     invoke-virtual {p1, v1, v0}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
-    .line 20
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
 
-    invoke-static {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/fFV/rk;->rk(Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;)I
+    invoke-static {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/fFV/RKFDC;->rk(Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;)I
 
     move-result v0
 
@@ -2544,7 +2082,6 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 21
     new-instance v1, Landroid/util/Pair;
 
     iget-object v2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->NCs:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
@@ -2567,10 +2104,8 @@
 
     const v2, 0x7d06ffd3
 
-    .line 22
     invoke-virtual {p1, v2, v1}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 
-    .line 23
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v0
@@ -2589,64 +2124,49 @@
 .method public setMarqueeValue(F)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->KIc:F
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->postInvalidate()V
 
-    .line 6
     return-void
 .end method
 
 .method public setRippleValue(F)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->rk:F
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->postInvalidate()V
 
-    .line 6
     return-void
 .end method
 
 .method public setShineValue(F)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->fFV:F
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->postInvalidate()V
 
-    .line 6
     return-void
 .end method
 
 .method public setShouldInvisible(Z)V
     .locals 0
 
-    .line 1
     iput-boolean p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->kEa:Z
 
-    .line 3
     return-void
 .end method
 
 .method public setStretchValue(F)V
     .locals 1
 
-    .line 1
     iput p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->ZQ:F
 
-    .line 3
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;->KR:Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;
 
-    .line 5
     invoke-virtual {v0, p0, p1}, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/view/aAs;->rk(Landroid/view/View;F)V
 
-    .line 8
     return-void
 .end method

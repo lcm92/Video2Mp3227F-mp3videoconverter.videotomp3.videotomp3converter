@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x8
-    name = null
+    name = "1"
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
@@ -30,10 +30,8 @@
 .method constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     return-void
 .end method
 
@@ -42,7 +40,6 @@
 .method public createFromParcel(Landroid/os/Parcel;)Landroid/support/v4/media/MediaDescriptionCompat;
     .locals 0
 
-    .line 2
     invoke-static {p1}, Landroid/support/v4/media/MediaDescriptionCompatApi21;->fromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
 
     move-result-object p1
@@ -57,7 +54,6 @@
 .method public bridge synthetic createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Landroid/support/v4/media/MediaDescriptionCompat$1;->createFromParcel(Landroid/os/Parcel;)Landroid/support/v4/media/MediaDescriptionCompat;
 
     move-result-object p1
@@ -68,7 +64,6 @@
 .method public newArray(I)[Landroid/support/v4/media/MediaDescriptionCompat;
     .locals 0
 
-    .line 2
     new-array p1, p1, [Landroid/support/v4/media/MediaDescriptionCompat;
 
     return-object p1
@@ -77,7 +72,6 @@
 .method public bridge synthetic newArray(I)[Ljava/lang/Object;
     .locals 0
 
-    .line 1
     invoke-virtual {p0, p1}, Landroid/support/v4/media/MediaDescriptionCompat$1;->newArray(I)[Landroid/support/v4/media/MediaDescriptionCompat;
 
     move-result-object p1

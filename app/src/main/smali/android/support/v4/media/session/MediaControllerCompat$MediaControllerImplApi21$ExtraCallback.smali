@@ -18,10 +18,8 @@
 .method constructor <init>(Landroid/support/v4/media/session/MediaControllerCompat$Callback;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Landroid/support/v4/media/session/MediaControllerCompat$Callback$StubCompat;-><init>(Landroid/support/v4/media/session/MediaControllerCompat$Callback;)V
 
-    .line 4
     return-void
 .end method
 
@@ -30,26 +28,20 @@
 .method public onExtrasChanged(Landroid/os/Bundle;)V
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/AssertionError;
 
-    .line 3
     invoke-direct {p1}, Ljava/lang/AssertionError;-><init>()V
 
-    .line 6
     throw p1
 .end method
 
 .method public onMetadataChanged(Landroid/support/v4/media/MediaMetadataCompat;)V
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/AssertionError;
 
-    .line 3
     invoke-direct {p1}, Ljava/lang/AssertionError;-><init>()V
 
-    .line 6
     throw p1
 .end method
 
@@ -64,51 +56,39 @@
         }
     .end annotation
 
-    .line 1
     new-instance p1, Ljava/lang/AssertionError;
 
-    .line 3
     invoke-direct {p1}, Ljava/lang/AssertionError;-><init>()V
 
-    .line 6
     throw p1
 .end method
 
 .method public onQueueTitleChanged(Ljava/lang/CharSequence;)V
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/AssertionError;
 
-    .line 3
     invoke-direct {p1}, Ljava/lang/AssertionError;-><init>()V
 
-    .line 6
     throw p1
 .end method
 
 .method public onSessionDestroyed()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/lang/AssertionError;
 
-    .line 3
     invoke-direct {v0}, Ljava/lang/AssertionError;-><init>()V
 
-    .line 6
     throw v0
 .end method
 
 .method public onVolumeInfoChanged(Landroid/support/v4/media/session/ParcelableVolumeInfo;)V
     .locals 0
 
-    .line 1
     new-instance p1, Ljava/lang/AssertionError;
 
-    .line 3
     invoke-direct {p1}, Ljava/lang/AssertionError;-><init>()V
 
-    .line 6
     throw p1
 .end method

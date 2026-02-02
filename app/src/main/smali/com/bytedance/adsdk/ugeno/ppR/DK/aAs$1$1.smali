@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "1"
 .end annotation
 
 
@@ -32,16 +32,12 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/adsdk/ugeno/ppR/DK/aAs$1$1;->fFV:Lcom/bytedance/adsdk/ugeno/ppR/DK/aAs$1;
 
-    .line 3
     iput-object p2, p0, Lcom/bytedance/adsdk/ugeno/ppR/DK/aAs$1$1;->rk:Landroid/graphics/Bitmap;
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 8
     return-void
 .end method
 
@@ -50,27 +46,19 @@
 .method public run()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/adsdk/ugeno/ppR/DK/aAs$1$1;->fFV:Lcom/bytedance/adsdk/ugeno/ppR/DK/aAs$1;
 
-    .line 3
     iget-object v0, v0, Lcom/bytedance/adsdk/ugeno/ppR/DK/aAs$1;->rk:Lcom/bytedance/adsdk/ugeno/ppR/DK/aAs;
 
-    .line 5
     invoke-static {v0}, Lcom/bytedance/adsdk/ugeno/ppR/DK/aAs;->Yp(Lcom/bytedance/adsdk/ugeno/ppR/DK/aAs;)Landroid/view/View;
 
-    .line 8
     move-result-object v0
 
-    .line 9
-    check-cast v0, Lcom/bytedance/adsdk/ugeno/ppR/DK/rk;
+    check-cast v0, Lcom/bytedance/adsdk/ugeno/ppR/DK/RKDPC;
 
-    .line 11
     iget-object v1, p0, Lcom/bytedance/adsdk/ugeno/ppR/DK/aAs$1$1;->rk:Landroid/graphics/Bitmap;
 
-    .line 13
-    invoke-virtual {v0, v1}, Lcom/bytedance/adsdk/ugeno/ppR/DK/rk;->setImageBitmap(Landroid/graphics/Bitmap;)V
+    invoke-virtual {v0, v1}, Lcom/bytedance/adsdk/ugeno/ppR/DK/RKDPC;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 16
     return-void
 .end method

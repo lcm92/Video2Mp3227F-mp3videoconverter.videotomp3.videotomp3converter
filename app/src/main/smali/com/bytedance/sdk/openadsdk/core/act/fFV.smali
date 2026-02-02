@@ -7,5 +7,5 @@
 .method public abstract rk()V
 .end method
 
-.method public abstract rk(Lzu;)V
+.method public abstract rk(Ldef/ZU;)V
 .end method

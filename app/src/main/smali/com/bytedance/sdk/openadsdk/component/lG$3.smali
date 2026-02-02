@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x8
-    name = null
+    name = "3"
 .end annotation
 
 
@@ -25,13 +25,10 @@
 .method constructor <init>(Lcom/bytedance/sdk/openadsdk/component/lG$DK;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/lG$3;->rk:Lcom/bytedance/sdk/openadsdk/component/lG$DK;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method
 
@@ -40,7 +37,6 @@
 .method public rk(ILjava/lang/String;Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 1
     return-void
 .end method
 
@@ -49,7 +45,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 2
     invoke-interface {p1}, Lcom/bytedance/sdk/component/rQf/nP;->fFV()Ljava/lang/Object;
 
     move-result-object v0
@@ -62,12 +57,10 @@
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/lG$3;->rk:Lcom/bytedance/sdk/openadsdk/component/lG$DK;
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-interface {p1}, Lcom/bytedance/sdk/component/rQf/nP;->fFV()Ljava/lang/Object;
 
     move-result-object p1

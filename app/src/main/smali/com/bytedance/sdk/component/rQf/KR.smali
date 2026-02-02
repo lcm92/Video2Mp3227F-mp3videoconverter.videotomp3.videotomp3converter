@@ -3,14 +3,14 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/bytedance/sdk/component/rQf/rk;
+.implements Lcom/bytedance/sdk/component/rQf/RKRCC;
 
 
 # annotations
 .annotation system Ldalvik/annotation/Signature;
     value = {
         "Ljava/lang/Object;",
-        "Lcom/bytedance/sdk/component/rQf/rk<",
+        "Lcom/bytedance/sdk/component/rQf/RKRCC<",
         "Ljava/lang/String;",
         "[B>;"
     }

@@ -15,48 +15,25 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/internal/ads/zzbdm;
 
-    .line 2
-    .line 3
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/zzbdm;-><init>()V
 
-    .line 4
-    .line 5
-    .line 6
     sput-object v0, Lcom/google/android/gms/internal/ads/zzbdp;->zza:Lcom/google/android/gms/internal/ads/zzbdp;
 
-    .line 7
-    .line 8
     new-instance v0, Lcom/google/android/gms/internal/ads/zzbdn;
 
-    .line 9
-    .line 10
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/zzbdn;-><init>()V
 
-    .line 11
-    .line 12
-    .line 13
     sput-object v0, Lcom/google/android/gms/internal/ads/zzbdp;->zzb:Lcom/google/android/gms/internal/ads/zzbdp;
 
-    .line 14
-    .line 15
     new-instance v0, Lcom/google/android/gms/internal/ads/zzbdo;
 
-    .line 16
-    .line 17
     invoke-direct {v0}, Lcom/google/android/gms/internal/ads/zzbdo;-><init>()V
 
-    .line 18
-    .line 19
-    .line 20
     sput-object v0, Lcom/google/android/gms/internal/ads/zzbdp;->zzc:Lcom/google/android/gms/internal/ads/zzbdp;
 
-    .line 21
-    .line 22
     return-void
-    .line 23
 .end method
 
 .method public constructor <init>()V

@@ -7,5 +7,5 @@
 
 
 # virtual methods
-.method public abstract zze(Ljl0;Ljl0;Ljl0;I)Landroid/os/IBinder;
+.method public abstract zze(Ldef/JL0;Ldef/JL0;Ldef/JL0;I)Landroid/os/IBinder;
 .end method

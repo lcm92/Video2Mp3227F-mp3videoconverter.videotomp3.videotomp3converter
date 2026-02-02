@@ -12,7 +12,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/bytedance/adsdk/fFV/aAs/rk;",
+            "Lcom/bytedance/adsdk/fFV/aAs/RKAFC;",
             ">;"
         }
     .end annotation
@@ -23,10 +23,8 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -44,21 +42,17 @@
             "Landroid/graphics/PointF;",
             "Z",
             "Ljava/util/List<",
-            "Lcom/bytedance/adsdk/fFV/aAs/rk;",
+            "Lcom/bytedance/adsdk/fFV/aAs/RKAFC;",
             ">;)V"
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput-object p1, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->fFV:Landroid/graphics/PointF;
 
-    .line 3
     iput-boolean p2, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->aAs:Z
 
-    .line 4
     new-instance p1, Ljava/util/ArrayList;
 
     invoke-direct {p1, p3}, Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
@@ -76,32 +70,27 @@
         value = {
             "()",
             "Ljava/util/List<",
-            "Lcom/bytedance/adsdk/fFV/aAs/rk;",
+            "Lcom/bytedance/adsdk/fFV/aAs/RKAFC;",
             ">;"
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->rk:Ljava/util/List;
 
-    .line 3
     return-object v0
 .end method
 
 .method public fFV()Z
     .locals 1
 
-    .line 1
     iget-boolean v0, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->aAs:Z
 
-    .line 3
     return v0
 .end method
 
 .method public rk()Landroid/graphics/PointF;
     .locals 1
 
-    .line 4
     iget-object v0, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->fFV:Landroid/graphics/PointF;
 
     return-object v0
@@ -110,19 +99,16 @@
 .method public rk(FF)V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->fFV:Landroid/graphics/PointF;
 
     if-nez v0, :cond_0
 
-    .line 2
     new-instance v0, Landroid/graphics/PointF;
 
     invoke-direct {v0}, Landroid/graphics/PointF;-><init>()V
 
     iput-object v0, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->fFV:Landroid/graphics/PointF;
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->fFV:Landroid/graphics/PointF;
 
@@ -134,19 +120,16 @@
 .method public rk(Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;F)V
     .locals 10
 
-    .line 6
     iget-object v0, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->fFV:Landroid/graphics/PointF;
 
     if-nez v0, :cond_0
 
-    .line 7
     new-instance v0, Landroid/graphics/PointF;
 
     invoke-direct {v0}, Landroid/graphics/PointF;-><init>()V
 
     iput-object v0, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->fFV:Landroid/graphics/PointF;
 
-    .line 8
     :cond_0
     invoke-virtual {p1}, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->fFV()Z
 
@@ -176,7 +159,6 @@
     :goto_1
     iput-boolean v0, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->aAs:Z
 
-    .line 9
     invoke-virtual {p1}, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->aAs()Ljava/util/List;
 
     move-result-object v0
@@ -195,7 +177,6 @@
 
     if-eq v0, v2, :cond_3
 
-    .line 10
     invoke-virtual {p1}, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->aAs()Ljava/util/List;
 
     move-result-object v0
@@ -208,7 +189,6 @@
 
     invoke-interface {v0}, Ljava/util/List;->size()I
 
-    .line 11
     :cond_3
     invoke-virtual {p1}, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->aAs()Ljava/util/List;
 
@@ -230,7 +210,6 @@
 
     move-result v0
 
-    .line 12
     iget-object v2, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->rk:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->size()I
@@ -239,7 +218,6 @@
 
     if-ge v2, v0, :cond_4
 
-    .line 13
     iget-object v2, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->rk:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->size()I
@@ -249,12 +227,11 @@
     :goto_2
     if-ge v2, v0, :cond_5
 
-    .line 14
     iget-object v3, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->rk:Ljava/util/List;
 
-    new-instance v4, Lcom/bytedance/adsdk/fFV/aAs/rk;
+    new-instance v4, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;
 
-    invoke-direct {v4}, Lcom/bytedance/adsdk/fFV/aAs/rk;-><init>()V
+    invoke-direct {v4}, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;-><init>()V
 
     invoke-interface {v3, v4}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
@@ -262,7 +239,6 @@
 
     goto :goto_2
 
-    .line 15
     :cond_4
     iget-object v2, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->rk:Ljava/util/List;
 
@@ -272,7 +248,6 @@
 
     if-le v2, v0, :cond_5
 
-    .line 16
     iget-object v2, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->rk:Ljava/util/List;
 
     invoke-interface {v2}, Ljava/util/List;->size()I
@@ -284,7 +259,6 @@
     :goto_3
     if-lt v2, v0, :cond_5
 
-    .line 17
     iget-object v3, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->rk:Ljava/util/List;
 
     invoke-interface {v3}, Ljava/util/List;->size()I
@@ -299,18 +273,15 @@
 
     goto :goto_3
 
-    .line 18
     :cond_5
     invoke-virtual {p1}, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->rk()Landroid/graphics/PointF;
 
     move-result-object v0
 
-    .line 19
     invoke-virtual {p2}, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->rk()Landroid/graphics/PointF;
 
     move-result-object v2
 
-    .line 20
     iget v3, v0, Landroid/graphics/PointF;->x:F
 
     iget v4, v2, Landroid/graphics/PointF;->x:F
@@ -323,15 +294,12 @@
 
     iget v2, v2, Landroid/graphics/PointF;->y:F
 
-    .line 21
     invoke-static {v0, v2, p3}, Lcom/bytedance/adsdk/fFV/lG/rQf;->rk(FFF)F
 
     move-result v0
 
-    .line 22
     invoke-virtual {p0, v3, v0}, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->rk(FF)V
 
-    .line 23
     iget-object v0, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->rk:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -343,7 +311,6 @@
     :goto_4
     if-ltz v0, :cond_6
 
-    .line 24
     invoke-virtual {p1}, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->aAs()Ljava/util/List;
 
     move-result-object v1
@@ -352,9 +319,8 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/bytedance/adsdk/fFV/aAs/rk;
+    check-cast v1, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;
 
-    .line 25
     invoke-virtual {p2}, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->aAs()Ljava/util/List;
 
     move-result-object v2
@@ -363,52 +329,44 @@
 
     move-result-object v2
 
-    check-cast v2, Lcom/bytedance/adsdk/fFV/aAs/rk;
+    check-cast v2, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;
 
-    .line 26
-    invoke-virtual {v1}, Lcom/bytedance/adsdk/fFV/aAs/rk;->rk()Landroid/graphics/PointF;
+    invoke-virtual {v1}, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;->rk()Landroid/graphics/PointF;
 
     move-result-object v3
 
-    .line 27
-    invoke-virtual {v1}, Lcom/bytedance/adsdk/fFV/aAs/rk;->fFV()Landroid/graphics/PointF;
+    invoke-virtual {v1}, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;->fFV()Landroid/graphics/PointF;
 
     move-result-object v4
 
-    .line 28
-    invoke-virtual {v1}, Lcom/bytedance/adsdk/fFV/aAs/rk;->aAs()Landroid/graphics/PointF;
+    invoke-virtual {v1}, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;->aAs()Landroid/graphics/PointF;
 
     move-result-object v1
 
-    .line 29
-    invoke-virtual {v2}, Lcom/bytedance/adsdk/fFV/aAs/rk;->rk()Landroid/graphics/PointF;
+    invoke-virtual {v2}, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;->rk()Landroid/graphics/PointF;
 
     move-result-object v5
 
-    .line 30
-    invoke-virtual {v2}, Lcom/bytedance/adsdk/fFV/aAs/rk;->fFV()Landroid/graphics/PointF;
+    invoke-virtual {v2}, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;->fFV()Landroid/graphics/PointF;
 
     move-result-object v6
 
-    .line 31
-    invoke-virtual {v2}, Lcom/bytedance/adsdk/fFV/aAs/rk;->aAs()Landroid/graphics/PointF;
+    invoke-virtual {v2}, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;->aAs()Landroid/graphics/PointF;
 
     move-result-object v2
 
-    .line 32
     iget-object v7, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->rk:Ljava/util/List;
 
     invoke-interface {v7, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v7
 
-    check-cast v7, Lcom/bytedance/adsdk/fFV/aAs/rk;
+    check-cast v7, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;
 
     iget v8, v3, Landroid/graphics/PointF;->x:F
 
     iget v9, v5, Landroid/graphics/PointF;->x:F
 
-    .line 33
     invoke-static {v8, v9, p3}, Lcom/bytedance/adsdk/fFV/lG/rQf;->rk(FFF)F
 
     move-result v8
@@ -421,23 +379,20 @@
 
     move-result v3
 
-    .line 34
-    invoke-virtual {v7, v8, v3}, Lcom/bytedance/adsdk/fFV/aAs/rk;->rk(FF)V
+    invoke-virtual {v7, v8, v3}, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;->rk(FF)V
 
-    .line 35
     iget-object v3, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->rk:Ljava/util/List;
 
     invoke-interface {v3, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
-    check-cast v3, Lcom/bytedance/adsdk/fFV/aAs/rk;
+    check-cast v3, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;
 
     iget v5, v4, Landroid/graphics/PointF;->x:F
 
     iget v7, v6, Landroid/graphics/PointF;->x:F
 
-    .line 36
     invoke-static {v5, v7, p3}, Lcom/bytedance/adsdk/fFV/lG/rQf;->rk(FFF)F
 
     move-result v5
@@ -450,23 +405,20 @@
 
     move-result v4
 
-    .line 37
-    invoke-virtual {v3, v5, v4}, Lcom/bytedance/adsdk/fFV/aAs/rk;->fFV(FF)V
+    invoke-virtual {v3, v5, v4}, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;->fFV(FF)V
 
-    .line 38
     iget-object v3, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->rk:Ljava/util/List;
 
     invoke-interface {v3, v0}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
     move-result-object v3
 
-    check-cast v3, Lcom/bytedance/adsdk/fFV/aAs/rk;
+    check-cast v3, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;
 
     iget v4, v1, Landroid/graphics/PointF;->x:F
 
     iget v5, v2, Landroid/graphics/PointF;->x:F
 
-    .line 39
     invoke-static {v4, v5, p3}, Lcom/bytedance/adsdk/fFV/lG/rQf;->rk(FFF)F
 
     move-result v4
@@ -479,8 +431,7 @@
 
     move-result v1
 
-    .line 40
-    invoke-virtual {v3, v4, v1}, Lcom/bytedance/adsdk/fFV/aAs/rk;->aAs(FF)V
+    invoke-virtual {v3, v4, v1}, Lcom/bytedance/adsdk/fFV/aAs/RKAFC;->aAs(FF)V
 
     add-int/lit8 v0, v0, -0x1
 
@@ -493,7 +444,6 @@
 .method public rk(Z)V
     .locals 0
 
-    .line 5
     iput-boolean p1, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->aAs:Z
 
     return-void
@@ -502,51 +452,35 @@
 .method public toString()Ljava/lang/String;
     .locals 2
 
-    .line 1
     new-instance v0, Ljava/lang/StringBuilder;
 
-    .line 3
     const-string v1, "ShapeData{numCurves="
 
-    .line 5
     invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 8
     iget-object v1, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->rk:Ljava/util/List;
 
-    .line 10
     invoke-interface {v1}, Ljava/util/List;->size()I
 
-    .line 13
     move-result v1
 
-    .line 14
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    .line 17
     const-string v1, "closed="
 
-    .line 19
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 22
     iget-boolean v1, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/Pa;->aAs:Z
 
-    .line 24
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
-    .line 27
     const/16 v1, 0x7d
 
-    .line 29
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
 
-    .line 32
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    .line 35
     move-result-object v0
 
-    .line 36
     return-object v0
 .end method

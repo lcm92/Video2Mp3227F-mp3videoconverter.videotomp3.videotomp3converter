@@ -24,7 +24,7 @@
 
 .field private static JS_MESSAGE_METHOD_START_SESSION:Ljava/lang/String; = "startSession"
 
-.field private static webViewUtil:Lcom/iab/omid/library/bytedance2/utils/i;
+.field private static webViewUtil:Lcom/iab/omid/library/bytedance2/utils/IUBC;
 
 
 # instance fields
@@ -39,13 +39,13 @@
     .end annotation
 .end field
 
-.field private final friendlyObstructions:Lcom/iab/omid/library/bytedance2/internal/f;
+.field private final friendlyObstructions:Lcom/iab/omid/library/bytedance2/internal/FIBC;
 
 .field private final isHtmlAdView:Z
 
 .field private final partner:Lcom/iab/omid/library/bytedance2/adsession/Partner;
 
-.field private weakAdView:Lcom/iab/omid/library/bytedance2/weakreference/a;
+.field private weakAdView:Lcom/iab/omid/library/bytedance2/weakreference/AWBC;
 
 .field private final webView:Landroid/webkit/WebView;
 
@@ -54,11 +54,11 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    new-instance v0, Lcom/iab/omid/library/bytedance2/utils/i;
+    new-instance v0, Lcom/iab/omid/library/bytedance2/utils/IUBC;
 
-    invoke-direct {v0}, Lcom/iab/omid/library/bytedance2/utils/i;-><init>()V
+    invoke-direct {v0}, Lcom/iab/omid/library/bytedance2/utils/IUBC;-><init>()V
 
-    sput-object v0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->webViewUtil:Lcom/iab/omid/library/bytedance2/utils/i;
+    sput-object v0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->webViewUtil:Lcom/iab/omid/library/bytedance2/utils/IUBC;
 
     return-void
 .end method
@@ -74,21 +74,21 @@
 
     iput-object v0, p0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->adSessions:Ljava/util/HashMap;
 
-    new-instance v0, Lcom/iab/omid/library/bytedance2/internal/f;
+    new-instance v0, Lcom/iab/omid/library/bytedance2/internal/FIBC;
 
-    invoke-direct {v0}, Lcom/iab/omid/library/bytedance2/internal/f;-><init>()V
+    invoke-direct {v0}, Lcom/iab/omid/library/bytedance2/internal/FIBC;-><init>()V
 
-    iput-object v0, p0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->friendlyObstructions:Lcom/iab/omid/library/bytedance2/internal/f;
+    iput-object v0, p0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->friendlyObstructions:Lcom/iab/omid/library/bytedance2/internal/FIBC;
 
-    invoke-static {}, Lcom/iab/omid/library/bytedance2/utils/g;->a()V
+    invoke-static {}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a()V
 
     const-string v0, "Partner is null"
 
-    invoke-static {p1, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "WebView is null"
 
-    invoke-static {p2, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     iput-object p1, p0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->partner:Lcom/iab/omid/library/bytedance2/adsession/Partner;
 
@@ -170,7 +170,7 @@
 
     const-string v0, "WEB_MESSAGE_LISTENER"
 
-    invoke-static {v0}, Lvb2;->a(Ljava/lang/String;)Z
+    invoke-static {v0}, Ldef/VB2;->a(Ljava/lang/String;)Z
 
     move-result v0
 
@@ -182,7 +182,7 @@
 
     invoke-direct {v0, p0}, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService$2;-><init>(Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;)V
 
-    sget-object v1, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->webViewUtil:Lcom/iab/omid/library/bytedance2/utils/i;
+    sget-object v1, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->webViewUtil:Lcom/iab/omid/library/bytedance2/utils/IUBC;
 
     iget-object v2, p0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->webView:Landroid/webkit/WebView;
 
@@ -202,7 +202,7 @@
 
     invoke-direct {v4, v5}, Ljava/util/HashSet;-><init>(Ljava/util/Collection;)V
 
-    invoke-virtual {v1, v2, v3, v4, v0}, Lcom/iab/omid/library/bytedance2/utils/i;->a(Landroid/webkit/WebView;Ljava/lang/String;Ljava/util/Set;Lub2$a;)V
+    invoke-virtual {v1, v2, v3, v4, v0}, Lcom/iab/omid/library/bytedance2/utils/IUBC;->a(Landroid/webkit/WebView;Ljava/lang/String;Ljava/util/Set;Ldef/UB2$AU1;)V
 
     return-void
 
@@ -301,13 +301,13 @@
 .method private removeWebViewListener()V
     .locals 3
 
-    sget-object v0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->webViewUtil:Lcom/iab/omid/library/bytedance2/utils/i;
+    sget-object v0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->webViewUtil:Lcom/iab/omid/library/bytedance2/utils/IUBC;
 
     iget-object v1, p0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->webView:Landroid/webkit/WebView;
 
     sget-object v2, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->JS_MESSAGE_LISTENER_JS_SESSION_SERVICE:Ljava/lang/String;
 
-    invoke-virtual {v0, v1, v2}, Lcom/iab/omid/library/bytedance2/utils/i;->a(Landroid/webkit/WebView;Ljava/lang/String;)V
+    invoke-virtual {v0, v1, v2}, Lcom/iab/omid/library/bytedance2/utils/IUBC;->a(Landroid/webkit/WebView;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -315,7 +315,7 @@
 .method private startSession(Ljava/lang/String;)V
     .locals 4
 
-    new-instance v0, Lcom/iab/omid/library/bytedance2/adsession/a;
+    new-instance v0, Lcom/iab/omid/library/bytedance2/adsession/AABC;
 
     invoke-direct {p0}, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->createAdSessionConfiguration()Lcom/iab/omid/library/bytedance2/adsession/AdSessionConfiguration;
 
@@ -325,7 +325,7 @@
 
     move-result-object v2
 
-    invoke-direct {v0, v1, v2, p1}, Lcom/iab/omid/library/bytedance2/adsession/a;-><init>(Lcom/iab/omid/library/bytedance2/adsession/AdSessionConfiguration;Lcom/iab/omid/library/bytedance2/adsession/AdSessionContext;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2, p1}, Lcom/iab/omid/library/bytedance2/adsession/AABC;-><init>(Lcom/iab/omid/library/bytedance2/adsession/AdSessionConfiguration;Lcom/iab/omid/library/bytedance2/adsession/AdSessionContext;Ljava/lang/String;)V
 
     iget-object v1, p0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->adSessions:Ljava/util/HashMap;
 
@@ -347,9 +347,9 @@
     :goto_0
     invoke-virtual {v0, p1}, Lcom/iab/omid/library/bytedance2/adsession/AdSession;->registerAdView(Landroid/view/View;)V
 
-    iget-object p1, p0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->friendlyObstructions:Lcom/iab/omid/library/bytedance2/internal/f;
+    iget-object p1, p0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->friendlyObstructions:Lcom/iab/omid/library/bytedance2/internal/FIBC;
 
-    invoke-virtual {p1}, Lcom/iab/omid/library/bytedance2/internal/f;->a()Ljava/util/List;
+    invoke-virtual {p1}, Lcom/iab/omid/library/bytedance2/internal/FIBC;->a()Ljava/util/List;
 
     move-result-object p1
 
@@ -368,9 +368,9 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/iab/omid/library/bytedance2/internal/e;
+    check-cast v1, Lcom/iab/omid/library/bytedance2/internal/EIBC;
 
-    invoke-virtual {v1}, Lcom/iab/omid/library/bytedance2/internal/e;->c()Lcom/iab/omid/library/bytedance2/weakreference/a;
+    invoke-virtual {v1}, Lcom/iab/omid/library/bytedance2/internal/EIBC;->c()Lcom/iab/omid/library/bytedance2/weakreference/AWBC;
 
     move-result-object v2
 
@@ -380,11 +380,11 @@
 
     check-cast v2, Landroid/view/View;
 
-    invoke-virtual {v1}, Lcom/iab/omid/library/bytedance2/internal/e;->b()Lcom/iab/omid/library/bytedance2/adsession/FriendlyObstructionPurpose;
+    invoke-virtual {v1}, Lcom/iab/omid/library/bytedance2/internal/EIBC;->b()Lcom/iab/omid/library/bytedance2/adsession/FriendlyObstructionPurpose;
 
     move-result-object v3
 
-    invoke-virtual {v1}, Lcom/iab/omid/library/bytedance2/internal/e;->a()Ljava/lang/String;
+    invoke-virtual {v1}, Lcom/iab/omid/library/bytedance2/internal/EIBC;->a()Ljava/lang/String;
 
     move-result-object v1
 
@@ -431,9 +431,9 @@
     goto :goto_0
 
     :cond_0
-    iget-object v0, p0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->friendlyObstructions:Lcom/iab/omid/library/bytedance2/internal/f;
+    iget-object v0, p0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->friendlyObstructions:Lcom/iab/omid/library/bytedance2/internal/FIBC;
 
-    invoke-virtual {v0, p1, p2, p3}, Lcom/iab/omid/library/bytedance2/internal/f;->a(Landroid/view/View;Lcom/iab/omid/library/bytedance2/adsession/FriendlyObstructionPurpose;Ljava/lang/String;)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/iab/omid/library/bytedance2/internal/FIBC;->a(Landroid/view/View;Lcom/iab/omid/library/bytedance2/adsession/FriendlyObstructionPurpose;Ljava/lang/String;)V
 
     return-void
 .end method
@@ -441,7 +441,7 @@
 .method getAdView()Landroid/view/View;
     .locals 1
 
-    iget-object v0, p0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->weakAdView:Lcom/iab/omid/library/bytedance2/weakreference/a;
+    iget-object v0, p0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->weakAdView:Lcom/iab/omid/library/bytedance2/weakreference/AWBC;
 
     if-nez v0, :cond_0
 
@@ -490,9 +490,9 @@
     goto :goto_0
 
     :cond_0
-    iget-object v0, p0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->friendlyObstructions:Lcom/iab/omid/library/bytedance2/internal/f;
+    iget-object v0, p0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->friendlyObstructions:Lcom/iab/omid/library/bytedance2/internal/FIBC;
 
-    invoke-virtual {v0}, Lcom/iab/omid/library/bytedance2/internal/f;->b()V
+    invoke-virtual {v0}, Lcom/iab/omid/library/bytedance2/internal/FIBC;->b()V
 
     return-void
 .end method
@@ -528,9 +528,9 @@
     goto :goto_0
 
     :cond_0
-    iget-object v0, p0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->friendlyObstructions:Lcom/iab/omid/library/bytedance2/internal/f;
+    iget-object v0, p0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->friendlyObstructions:Lcom/iab/omid/library/bytedance2/internal/FIBC;
 
-    invoke-virtual {v0, p1}, Lcom/iab/omid/library/bytedance2/internal/f;->c(Landroid/view/View;)V
+    invoke-virtual {v0, p1}, Lcom/iab/omid/library/bytedance2/internal/FIBC;->c(Landroid/view/View;)V
 
     return-void
 .end method
@@ -586,11 +586,11 @@
     goto :goto_0
 
     :cond_2
-    new-instance v0, Lcom/iab/omid/library/bytedance2/weakreference/a;
+    new-instance v0, Lcom/iab/omid/library/bytedance2/weakreference/AWBC;
 
-    invoke-direct {v0, p1}, Lcom/iab/omid/library/bytedance2/weakreference/a;-><init>(Landroid/view/View;)V
+    invoke-direct {v0, p1}, Lcom/iab/omid/library/bytedance2/weakreference/AWBC;-><init>(Landroid/view/View;)V
 
-    iput-object v0, p0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->weakAdView:Lcom/iab/omid/library/bytedance2/weakreference/a;
+    iput-object v0, p0, Lcom/iab/omid/library/bytedance2/adsession/JavaScriptSessionService;->weakAdView:Lcom/iab/omid/library/bytedance2/weakreference/AWBC;
 
     return-void
 .end method

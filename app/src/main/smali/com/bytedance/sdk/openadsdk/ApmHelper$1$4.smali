@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "4"
 .end annotation
 
 
@@ -25,13 +25,10 @@
 .method constructor <init>(Lcom/bytedance/sdk/openadsdk/ApmHelper$1;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/ApmHelper$1$4;->rk:Lcom/bytedance/sdk/openadsdk/ApmHelper$1;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method
 
@@ -40,31 +37,22 @@
 .method public onCrash(Lcom/apm/insight/CrashType;Ljava/lang/String;Ljava/lang/Thread;)V
     .locals 0
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/ApmHelper;->rQf()Z
 
-    .line 4
     move-result p2
 
-    .line 5
     if-nez p2, :cond_0
 
-    .line 7
     invoke-virtual {p1}, Lcom/apm/insight/CrashType;->getName()Ljava/lang/String;
 
-    .line 10
     move-result-object p1
 
-    .line 11
     invoke-static {p1}, Lcom/bytedance/sdk/openadsdk/ApmHelper;->fFV(Ljava/lang/String;)V
 
-    .line 14
     :cond_0
     const/4 p1, 0x1
 
-    .line 15
     invoke-static {p1}, Lcom/bytedance/sdk/openadsdk/ApmHelper;->aAs(Z)Z
 
-    .line 18
     return-void
 .end method

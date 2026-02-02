@@ -127,11 +127,11 @@
 
     const-string v0, "Partner is null"
 
-    invoke-static {p0, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "WebView is null"
 
-    invoke-static {p1, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p3, :cond_0
 
@@ -139,7 +139,7 @@
 
     const-string v1, "CustomReferenceData is greater than 256 characters"
 
-    invoke-static {p3, v0, v1}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {p3, v0, v1}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/String;ILjava/lang/String;)V
 
     :cond_0
     new-instance v0, Lcom/iab/omid/library/bytedance2/adsession/AdSessionContext;
@@ -170,11 +170,11 @@
 
     const-string v0, "Partner is null"
 
-    invoke-static {p0, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "WebView is null"
 
-    invoke-static {p1, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p3, :cond_0
 
@@ -182,7 +182,7 @@
 
     const-string v1, "CustomReferenceData is greater than 256 characters"
 
-    invoke-static {p3, v0, v1}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {p3, v0, v1}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/String;ILjava/lang/String;)V
 
     :cond_0
     new-instance v0, Lcom/iab/omid/library/bytedance2/adsession/AdSessionContext;
@@ -227,15 +227,15 @@
 
     const-string v0, "Partner is null"
 
-    invoke-static {p0, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "OM SDK JS script content is null"
 
-    invoke-static {p1, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "VerificationScriptResources is null"
 
-    invoke-static {p2, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     if-eqz p4, :cond_0
 
@@ -243,7 +243,7 @@
 
     const-string v1, "CustomReferenceData is greater than 256 characters"
 
-    invoke-static {p4, v0, v1}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/String;ILjava/lang/String;)V
+    invoke-static {p4, v0, v1}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/String;ILjava/lang/String;)V
 
     :cond_0
     new-instance v0, Lcom/iab/omid/library/bytedance2/adsession/AdSessionContext;

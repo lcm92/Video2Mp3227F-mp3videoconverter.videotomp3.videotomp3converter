@@ -28,7 +28,6 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Lcom/google/android/gms/ads/AdRequest$Builder;
@@ -51,7 +50,6 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     new-instance v0, Lcom/google/android/gms/ads/AdRequest$Builder;
@@ -74,7 +72,6 @@
 .method static bridge synthetic a(Lcom/google/android/gms/ads/preload/PreloadConfiguration$Builder;)I
     .locals 0
 
-    .line 1
     iget p0, p0, Lcom/google/android/gms/ads/preload/PreloadConfiguration$Builder;->d:I
 
     return p0
@@ -83,7 +80,6 @@
 .method static bridge synthetic b(Lcom/google/android/gms/ads/preload/PreloadConfiguration$Builder;)Lcom/google/android/gms/ads/AdFormat;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/ads/preload/PreloadConfiguration$Builder;->b:Lcom/google/android/gms/ads/AdFormat;
 
     return-object p0
@@ -92,7 +88,6 @@
 .method static bridge synthetic c(Lcom/google/android/gms/ads/preload/PreloadConfiguration$Builder;)Lcom/google/android/gms/ads/AdRequest;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/ads/preload/PreloadConfiguration$Builder;->c:Lcom/google/android/gms/ads/AdRequest;
 
     return-object p0
@@ -101,7 +96,6 @@
 .method static bridge synthetic d(Lcom/google/android/gms/ads/preload/PreloadConfiguration$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/ads/preload/PreloadConfiguration$Builder;->a:Ljava/lang/String;
 
     return-object p0

@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/bytedance/sdk/openadsdk/utils/Yp$rk;
+        Lcom/bytedance/sdk/openadsdk/utils/Yp$RKY1;
     }
 .end annotation
 
@@ -26,10 +26,9 @@
     return-void
 .end method
 
-.method public static rk()Lcom/bytedance/sdk/openadsdk/utils/Yp$rk;
+.method public static rk()Lcom/bytedance/sdk/openadsdk/utils/Yp$RKY1;
     .locals 4
 
-    .line 7
     sget-wide v0, Lcom/bytedance/sdk/openadsdk/utils/Yp;->aAs:J
 
     const-wide/16 v2, 0x0
@@ -52,7 +51,6 @@
 
     if-lez v0, :cond_1
 
-    .line 8
     :cond_0
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
 
@@ -70,7 +68,6 @@
 
     move-result-object v0
 
-    .line 9
     invoke-static {v0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v1
@@ -81,25 +78,22 @@
 
     if-eqz v0, :cond_1
 
-    .line 10
     invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/utils/Yp;->rk(Landroid/content/Intent;)V
 
-    .line 11
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
     move-result-wide v0
 
     sput-wide v0, Lcom/bytedance/sdk/openadsdk/utils/Yp;->aAs:J
 
-    .line 12
     :cond_1
-    new-instance v0, Lcom/bytedance/sdk/openadsdk/utils/Yp$rk;
+    new-instance v0, Lcom/bytedance/sdk/openadsdk/utils/Yp$RKY1;
 
     sget v1, Lcom/bytedance/sdk/openadsdk/utils/Yp;->rk:I
 
     sget v2, Lcom/bytedance/sdk/openadsdk/utils/Yp;->fFV:F
 
-    invoke-direct {v0, v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/Yp$rk;-><init>(IF)V
+    invoke-direct {v0, v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/Yp$RKY1;-><init>(IF)V
 
     return-object v0
 .end method
@@ -107,7 +101,6 @@
 .method private static rk(Landroid/content/Intent;)V
     .locals 3
 
-    .line 1
     const-string v0, "status"
 
     const/4 v1, -0x1
@@ -122,7 +115,6 @@
 
     const/4 v0, 0x1
 
-    .line 2
     sput v0, Lcom/bytedance/sdk/openadsdk/utils/Yp;->rk:I
 
     goto :goto_0
@@ -130,10 +122,8 @@
     :cond_0
     const/4 v0, 0x0
 
-    .line 3
     sput v0, Lcom/bytedance/sdk/openadsdk/utils/Yp;->rk:I
 
-    .line 4
     :goto_0
     const-string v0, "level"
 
@@ -141,7 +131,6 @@
 
     move-result v0
 
-    .line 5
     const-string v2, "scale"
 
     invoke-virtual {p0, v2, v1}, Landroid/content/Intent;->getIntExtra(Ljava/lang/String;I)I
@@ -156,7 +145,6 @@
 
     div-float/2addr v0, p0
 
-    .line 6
     sput v0, Lcom/bytedance/sdk/openadsdk/utils/Yp;->fFV:F
 
     return-void

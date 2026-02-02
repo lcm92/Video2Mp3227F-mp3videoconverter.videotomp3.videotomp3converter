@@ -28,13 +28,13 @@
 .method public abstract zzk()V
 .end method
 
-.method public abstract zzl(Ljava/lang/String;Ljl0;)V
+.method public abstract zzl(Ljava/lang/String;Ldef/JL0;)V
 .end method
 
 .method public abstract zzm(Lcom/google/android/gms/ads/internal/client/zzdn;)V
 .end method
 
-.method public abstract zzn(Ljl0;Ljava/lang/String;)V
+.method public abstract zzn(Ldef/JL0;Ljava/lang/String;)V
 .end method
 
 .method public abstract zzo(Lcom/google/android/gms/internal/ads/zzbpq;)V

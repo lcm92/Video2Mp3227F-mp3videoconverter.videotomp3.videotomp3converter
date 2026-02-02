@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract generatorModel()Lcom/bytedance/sdk/openadsdk/lgt/fFV/rk;
+.method public abstract generatorModel()Lcom/bytedance/sdk/openadsdk/lgt/fFV/RKFLC;
 .end method

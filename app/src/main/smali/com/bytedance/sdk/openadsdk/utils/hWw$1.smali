@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/bytedance/sdk/component/pw/aAs/rk;
+.implements Lcom/bytedance/sdk/component/pw/aAs/RKAPC;
 
 
 # annotations
@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x8
-    name = null
+    name = "1"
 .end annotation
 
 
@@ -31,15 +31,11 @@
 .method public rk(Lcom/bytedance/sdk/component/pw/aAs/lG;Lcom/bytedance/sdk/component/pw/aAs/fFV;)V
     .locals 0
 
-    .line 1
     invoke-virtual {p2}, Lcom/bytedance/sdk/component/pw/aAs/fFV;->fFV()Ljava/lang/String;
 
-    .line 4
     new-instance p1, Ljava/lang/RuntimeException;
 
-    .line 6
     invoke-direct {p1}, Ljava/lang/RuntimeException;-><init>()V
 
-    .line 9
     return-void
 .end method

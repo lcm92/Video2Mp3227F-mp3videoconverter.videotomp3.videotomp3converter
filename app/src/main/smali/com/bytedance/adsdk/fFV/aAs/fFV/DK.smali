@@ -13,23 +13,18 @@
 .method public constructor <init>([F[I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;->rk:[F
 
-    .line 6
     iput-object p2, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;->fFV:[I
 
-    .line 8
     return-void
 .end method
 
 .method private rk(F)I
     .locals 5
 
-    .line 11
     iget-object v0, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;->rk:[F
 
     invoke-static {v0, p1}, Ljava/util/Arrays;->binarySearch([FF)I
@@ -38,7 +33,6 @@
 
     if-ltz v0, :cond_0
 
-    .line 12
     iget-object p1, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;->fFV:[I
 
     aget p1, p1, v0
@@ -52,7 +46,6 @@
 
     if-nez v0, :cond_1
 
-    .line 13
     iget-object p1, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;->fFV:[I
 
     const/4 v0, 0x0
@@ -61,7 +54,6 @@
 
     return p1
 
-    .line 14
     :cond_1
     iget-object v1, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;->fFV:[I
 
@@ -71,7 +63,6 @@
 
     if-ne v0, v2, :cond_2
 
-    .line 15
     array-length p1, v1
 
     add-int/lit8 p1, p1, -0x1
@@ -80,7 +71,6 @@
 
     return p1
 
-    .line 16
     :cond_2
     iget-object v2, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;->rk:[F
 
@@ -88,13 +78,10 @@
 
     aget v4, v2, v3
 
-    .line 17
     aget v2, v2, v0
 
-    .line 18
     aget v3, v1, v3
 
-    .line 19
     aget v0, v1, v0
 
     sub-float/2addr p1, v4
@@ -103,7 +90,6 @@
 
     div-float/2addr p1, v2
 
-    .line 20
     invoke-static {p1, v3, v0}, Lcom/bytedance/adsdk/fFV/lG/fFV;->rk(FII)I
 
     move-result p1
@@ -116,43 +102,35 @@
 .method public aAs()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;->fFV:[I
 
-    .line 3
     array-length v0, v0
 
-    .line 4
     return v0
 .end method
 
 .method public fFV()[I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;->fFV:[I
 
-    .line 3
     return-object v0
 .end method
 
 .method public rk([F)Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;
     .locals 3
 
-    .line 7
     array-length v0, p1
 
     new-array v0, v0, [I
 
     const/4 v1, 0x0
 
-    .line 8
     :goto_0
     array-length v2, p1
 
     if-ge v1, v2, :cond_0
 
-    .line 9
     aget v2, p1, v1
 
     invoke-direct {p0, v2}, Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;->rk(F)I
@@ -165,7 +143,6 @@
 
     goto :goto_0
 
-    .line 10
     :cond_0
     new-instance v1, Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;
 
@@ -177,7 +154,6 @@
 .method public rk(Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;F)V
     .locals 4
 
-    .line 2
     iget-object v0, p1, Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;->fFV:[I
 
     array-length v0, v0
@@ -190,7 +166,6 @@
 
     const/4 v0, 0x0
 
-    .line 3
     :goto_0
     iget-object v1, p1, Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;->fFV:[I
 
@@ -198,7 +173,6 @@
 
     if-ge v0, v1, :cond_0
 
-    .line 4
     iget-object v1, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;->rk:[F
 
     iget-object v2, p1, Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;->rk:[F
@@ -215,7 +189,6 @@
 
     aput v2, v1, v0
 
-    .line 5
     iget-object v1, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;->fFV:[I
 
     iget-object v2, p1, Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;->fFV:[I
@@ -239,7 +212,6 @@
     :cond_0
     return-void
 
-    .line 6
     :cond_1
     new-instance p3, Ljava/lang/IllegalArgumentException;
 
@@ -281,7 +253,6 @@
 .method public rk()[F
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/adsdk/fFV/aAs/fFV/DK;->rk:[F
 
     return-object v0

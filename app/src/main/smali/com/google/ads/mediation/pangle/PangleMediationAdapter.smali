@@ -39,24 +39,20 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/google/android/gms/ads/mediation/rtb/RtbAdapter;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/ads/mediation/pangle/PangleInitializer;->getInstance()Lcom/google/ads/mediation/pangle/PangleInitializer;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleInitializer:Lcom/google/ads/mediation/pangle/PangleInitializer;
 
-    .line 3
     new-instance v0, Lcom/google/ads/mediation/pangle/PangleSdkWrapper;
 
     invoke-direct {v0}, Lcom/google/ads/mediation/pangle/PangleSdkWrapper;-><init>()V
 
     iput-object v0, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleSdkWrapper:Lcom/google/ads/mediation/pangle/PangleSdkWrapper;
 
-    .line 4
     new-instance v0, Lcom/google/ads/mediation/pangle/PangleFactory;
 
     invoke-direct {v0}, Lcom/google/ads/mediation/pangle/PangleFactory;-><init>()V
@@ -69,16 +65,12 @@
 .method constructor <init>(Lcom/google/ads/mediation/pangle/PangleInitializer;Lcom/google/ads/mediation/pangle/PangleSdkWrapper;Lcom/google/ads/mediation/pangle/PangleFactory;)V
     .locals 0
 
-    .line 5
     invoke-direct {p0}, Lcom/google/android/gms/ads/mediation/rtb/RtbAdapter;-><init>()V
 
-    .line 6
     iput-object p1, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleInitializer:Lcom/google/ads/mediation/pangle/PangleInitializer;
 
-    .line 7
     iput-object p2, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleSdkWrapper:Lcom/google/ads/mediation/pangle/PangleSdkWrapper;
 
-    .line 8
     iput-object p3, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleFactory:Lcom/google/ads/mediation/pangle/PangleFactory;
 
     return-void
@@ -87,34 +79,24 @@
 .method public static getGDPRConsent()I
     .locals 1
 
-    .line 1
     sget v0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->gdpr:I
 
-    .line 3
     return v0
 .end method
 
 .method public static getPAConsent()I
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/api/init/PAGConfig;->getPAConsent()I
 
-    .line 4
     move-result v0
 
-    .line 5
     return v0
 .end method
 
 .method public static setGDPRConsent(I)V
     .locals 1
-    .param p0    # I
-        .annotation build Lcom/bytedance/sdk/openadsdk/api/PAGConstant$PAGGDPRConsentType;
-        .end annotation
-    .end param
 
-    .line 1
     new-instance v0, Lcom/google/ads/mediation/pangle/PangleSdkWrapper;
 
     invoke-direct {v0}, Lcom/google/ads/mediation/pangle/PangleSdkWrapper;-><init>()V
@@ -126,10 +108,6 @@
 
 .method static setGDPRConsent(ILcom/google/ads/mediation/pangle/PangleSdkWrapper;)V
     .locals 1
-    .param p0    # I
-        .annotation build Lcom/bytedance/sdk/openadsdk/api/PAGConstant$PAGGDPRConsentType;
-        .end annotation
-    .end param
 
     const/4 v0, 0x1
 
@@ -141,7 +119,6 @@
 
     if-eq p0, v0, :cond_0
 
-    .line 2
     sget-object p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->TAG:Ljava/lang/String;
 
     const-string p1, "Invalid GDPR value. Pangle SDK only accepts -1, 0 or 1."
@@ -150,7 +127,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Lcom/google/ads/mediation/pangle/PangleSdkWrapper;->isInitSuccess()Z
 
@@ -164,10 +140,8 @@
 
     if-nez v0, :cond_1
 
-    .line 4
     invoke-virtual {p1, p0}, Lcom/google/ads/mediation/pangle/PangleSdkWrapper;->setGdprConsent(I)V
 
-    .line 5
     :cond_1
     sput p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->gdpr:I
 
@@ -176,12 +150,7 @@
 
 .method public static setPAConsent(I)V
     .locals 1
-    .param p0    # I
-        .annotation build Lcom/bytedance/sdk/openadsdk/api/PAGConstant$PAGPAConsentType;
-        .end annotation
-    .end param
 
-    .line 1
     new-instance v0, Lcom/google/ads/mediation/pangle/PangleSdkWrapper;
 
     invoke-direct {v0}, Lcom/google/ads/mediation/pangle/PangleSdkWrapper;-><init>()V
@@ -193,10 +162,6 @@
 
 .method static setPAConsent(ILcom/google/ads/mediation/pangle/PangleSdkWrapper;)V
     .locals 1
-    .param p0    # I
-        .annotation build Lcom/bytedance/sdk/openadsdk/api/PAGConstant$PAGPAConsentType;
-        .end annotation
-    .end param
 
     const/4 v0, 0x1
 
@@ -204,7 +169,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 2
     sget-object p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->TAG:Ljava/lang/String;
 
     const-string p1, "Invalid PA value. Pangle SDK only accepts 0 or 1."
@@ -213,7 +177,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {p1, p0}, Lcom/google/ads/mediation/pangle/PangleSdkWrapper;->setPAConsent(I)V
 
@@ -225,235 +188,162 @@
 .method public collectSignals(Lcom/google/android/gms/ads/mediation/rtb/RtbSignalData;Lcom/google/android/gms/ads/mediation/rtb/SignalCallbacks;)V
     .locals 4
 
-    .line 1
     invoke-static {}, Lcom/google/ads/mediation/pangle/PangleConstants;->isChildUser()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     if-eqz v0, :cond_0
 
-    .line 7
     invoke-static {}, Lcom/google/ads/mediation/pangle/PangleConstants;->createChildUserError()Lcom/google/android/gms/ads/AdError;
 
-    .line 10
     move-result-object p1
 
-    .line 11
     invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/rtb/SignalCallbacks;->onFailure(Lcom/google/android/gms/ads/AdError;)V
 
-    .line 14
     return-void
 
-    .line 15
     :cond_0
     invoke-virtual {p1}, Lcom/google/android/gms/ads/mediation/rtb/RtbSignalData;->getNetworkExtras()Landroid/os/Bundle;
 
-    .line 18
     move-result-object v0
 
-    .line 19
     if-eqz v0, :cond_1
 
-    .line 21
     const-string v1, "user_data"
 
-    .line 23
     invoke-virtual {v0, v1}, Landroid/os/BaseBundle;->containsKey(Ljava/lang/String;)Z
 
-    .line 26
     move-result v2
 
-    .line 27
     if-eqz v2, :cond_1
 
-    .line 29
     iget-object v2, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleSdkWrapper:Lcom/google/ads/mediation/pangle/PangleSdkWrapper;
 
-    .line 31
     const-string v3, ""
 
-    .line 33
     invoke-virtual {v0, v1, v3}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 36
     move-result-object v0
 
-    .line 37
     invoke-virtual {v2, v0}, Lcom/google/ads/mediation/pangle/PangleSdkWrapper;->setUserData(Ljava/lang/String;)V
 
-    .line 40
     :cond_1
     new-instance v0, Lcom/bytedance/sdk/openadsdk/api/bidding/PAGBiddingRequest;
 
-    .line 42
     invoke-direct {v0}, Lcom/bytedance/sdk/openadsdk/api/bidding/PAGBiddingRequest;-><init>()V
 
-    .line 45
     const-string v1, "207"
 
-    .line 47
     invoke-virtual {v0, v1}, Lcom/bytedance/sdk/openadsdk/api/bidding/PAGBiddingRequest;->setAdxId(Ljava/lang/String;)V
 
-    .line 50
     iget-object v1, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleSdkWrapper:Lcom/google/ads/mediation/pangle/PangleSdkWrapper;
 
-    .line 52
     invoke-virtual {p1}, Lcom/google/android/gms/ads/mediation/rtb/RtbSignalData;->getContext()Landroid/content/Context;
 
-    .line 55
     move-result-object p1
 
-    .line 56
     new-instance v2, Lcom/google/ads/mediation/pangle/PangleMediationAdapter$1;
 
-    .line 58
     invoke-direct {v2, p0, p2}, Lcom/google/ads/mediation/pangle/PangleMediationAdapter$1;-><init>(Lcom/google/ads/mediation/pangle/PangleMediationAdapter;Lcom/google/android/gms/ads/mediation/rtb/SignalCallbacks;)V
 
-    .line 61
     invoke-virtual {v1, p1, v0, v2}, Lcom/google/ads/mediation/pangle/PangleSdkWrapper;->getBiddingToken(Landroid/content/Context;Lcom/bytedance/sdk/openadsdk/api/bidding/PAGBiddingRequest;Lcom/bytedance/sdk/openadsdk/api/init/BiddingTokenCallback;)V
 
-    .line 64
     return-void
 .end method
 
 .method public getSDKVersionInfo()Lcom/google/android/gms/ads/VersionInfo;
     .locals 7
 
-    .line 1
     const/4 v0, 0x1
 
-    .line 2
     iget-object v1, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleSdkWrapper:Lcom/google/ads/mediation/pangle/PangleSdkWrapper;
 
-    .line 4
     invoke-virtual {v1}, Lcom/google/ads/mediation/pangle/PangleSdkWrapper;->getSdkVersion()Ljava/lang/String;
 
-    .line 7
     move-result-object v1
 
-    .line 8
     const-string v2, "\\."
 
-    .line 10
     invoke-virtual {v1, v2}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
-    .line 13
     move-result-object v2
 
-    .line 14
     array-length v3, v2
 
-    .line 15
     const/4 v4, 0x0
 
-    .line 16
     const/4 v5, 0x3
 
-    .line 17
     if-lt v3, v5, :cond_1
 
-    .line 19
     aget-object v1, v2, v4
 
-    .line 21
     invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
-    .line 24
     move-result v1
 
-    .line 25
     aget-object v0, v2, v0
 
-    .line 27
     invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
-    .line 30
     move-result v0
 
-    .line 31
     const/4 v3, 0x2
 
-    .line 32
     aget-object v3, v2, v3
 
-    .line 34
     invoke-static {v3}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
-    .line 37
     move-result v3
 
-    .line 38
     array-length v4, v2
 
-    .line 39
     const/4 v6, 0x4
 
-    .line 40
     if-lt v4, v6, :cond_0
 
-    .line 42
     mul-int/lit8 v3, v3, 0x64
 
-    .line 44
     aget-object v2, v2, v5
 
-    .line 46
     invoke-static {v2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
-    .line 49
     move-result v2
 
-    .line 50
     add-int/2addr v3, v2
 
-    .line 51
     :cond_0
     new-instance v2, Lcom/google/android/gms/ads/VersionInfo;
 
-    .line 53
     invoke-direct {v2, v1, v0, v3}, Lcom/google/android/gms/ads/VersionInfo;-><init>(III)V
 
-    .line 56
     return-object v2
 
-    .line 57
     :cond_1
     const-string v2, "Unexpected SDK version format: %s. Returning 0.0.0 for SDK version."
 
-    .line 59
     new-array v0, v0, [Ljava/lang/Object;
 
-    .line 61
     aput-object v1, v0, v4
 
-    .line 63
     invoke-static {v2, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
-    .line 66
     move-result-object v0
 
-    .line 67
     sget-object v1, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->TAG:Ljava/lang/String;
 
-    .line 69
     invoke-static {v1, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 72
     new-instance v0, Lcom/google/android/gms/ads/VersionInfo;
 
-    .line 74
     invoke-direct {v0, v4, v4, v4}, Lcom/google/android/gms/ads/VersionInfo;-><init>(III)V
 
-    .line 77
     return-object v0
 .end method
 
 .method public getVersionInfo()Lcom/google/android/gms/ads/VersionInfo;
     .locals 1
 
-    .line 1
     const-string v0, "7.3.0.5.0"
 
     invoke-virtual {p0, v0}, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->getVersionInfo(Ljava/lang/String;)Lcom/google/android/gms/ads/VersionInfo;
@@ -468,14 +358,12 @@
 
     const/4 v0, 0x1
 
-    .line 2
     const-string v1, "\\."
 
     invoke-virtual {p1, v1}, Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
 
     move-result-object v1
 
-    .line 3
     array-length v2, v1
 
     const/4 v3, 0x0
@@ -484,14 +372,12 @@
 
     if-lt v2, v4, :cond_1
 
-    .line 4
     aget-object p1, v1, v3
 
     invoke-static {p1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
 
     move-result p1
 
-    .line 5
     aget-object v0, v1, v0
 
     invoke-static {v0}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -500,7 +386,6 @@
 
     const/4 v2, 0x2
 
-    .line 6
     aget-object v2, v1, v2
 
     invoke-static {v2}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -519,7 +404,6 @@
 
     add-int/2addr v2, v3
 
-    .line 7
     array-length v3, v1
 
     const/4 v5, 0x5
@@ -528,7 +412,6 @@
 
     mul-int/lit8 v2, v2, 0x64
 
-    .line 8
     aget-object v1, v1, v4
 
     invoke-static {v1}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -537,7 +420,6 @@
 
     add-int/2addr v2, v1
 
-    .line 9
     :cond_0
     new-instance v1, Lcom/google/android/gms/ads/VersionInfo;
 
@@ -545,7 +427,6 @@
 
     return-object v1
 
-    .line 10
     :cond_1
     const-string v1, "Unexpected adapter version format: %s. Returning 0.0.0 for adapter version."
 
@@ -553,17 +434,14 @@
 
     aput-object p1, v0, v3
 
-    .line 11
     invoke-static {v1, v0}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 12
     sget-object v0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->TAG:Ljava/lang/String;
 
     invoke-static {v0, p1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 13
     new-instance p1, Lcom/google/android/gms/ads/VersionInfo;
 
     invoke-direct {p1, v3, v3, v3}, Lcom/google/android/gms/ads/VersionInfo;-><init>(III)V
@@ -584,199 +462,136 @@
         }
     .end annotation
 
-    .line 1
     const/4 v0, 0x1
 
-    .line 2
     invoke-static {}, Lcom/google/ads/mediation/pangle/PangleConstants;->isChildUser()Z
 
-    .line 5
     move-result v1
 
-    .line 6
     if-eqz v1, :cond_0
 
-    .line 8
     const-string p1, "MobileAds.getRequestConfiguration() indicates the user is a child. Pangle SDK V71 or higher does not support child users."
 
-    .line 10
     invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/InitializationCompleteCallback;->onInitializationFailed(Ljava/lang/String;)V
 
-    .line 13
     return-void
 
-    .line 14
     :cond_0
     new-instance v1, Ljava/util/HashSet;
 
-    .line 16
     invoke-direct {v1}, Ljava/util/HashSet;-><init>()V
 
-    .line 19
     invoke-interface {p3}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
-    .line 22
     move-result-object p3
 
-    .line 23
     :cond_1
     :goto_0
     invoke-interface {p3}, Ljava/util/Iterator;->hasNext()Z
 
-    .line 26
     move-result v2
 
-    .line 27
     if-eqz v2, :cond_2
 
-    .line 29
     invoke-interface {p3}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    .line 32
     move-result-object v2
 
-    .line 33
     check-cast v2, Lcom/google/android/gms/ads/mediation/MediationConfiguration;
 
-    .line 35
     invoke-virtual {v2}, Lcom/google/android/gms/ads/mediation/MediationConfiguration;->getServerParameters()Landroid/os/Bundle;
 
-    .line 38
     move-result-object v2
 
-    .line 39
     const-string v3, "appid"
 
-    .line 41
     invoke-virtual {v2, v3}, Landroid/os/BaseBundle;->getString(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 44
     move-result-object v2
 
-    .line 45
     invoke-static {v2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
-    .line 48
     move-result v3
 
-    .line 49
     if-nez v3, :cond_1
 
-    .line 51
     invoke-virtual {v1, v2}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
-    .line 54
     goto :goto_0
 
-    .line 55
     :cond_2
     invoke-virtual {v1}, Ljava/util/HashSet;->size()I
 
-    .line 58
     move-result p3
 
-    .line 59
     if-gtz p3, :cond_3
 
-    .line 61
     const/16 p1, 0x65
 
-    .line 63
     const-string p3, "Missing or invalid App ID."
 
-    .line 65
     invoke-static {p1, p3}, Lcom/google/ads/mediation/pangle/PangleConstants;->createAdapterError(ILjava/lang/String;)Lcom/google/android/gms/ads/AdError;
 
-    .line 68
     move-result-object p1
 
-    .line 69
     sget-object p3, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->TAG:Ljava/lang/String;
 
-    .line 71
     invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
 
-    .line 74
     move-result-object v0
 
-    .line 75
     invoke-static {p3, v0}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 78
     invoke-virtual {p1}, Lcom/google/android/gms/ads/AdError;->toString()Ljava/lang/String;
 
-    .line 81
     move-result-object p1
 
-    .line 82
     invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/InitializationCompleteCallback;->onInitializationFailed(Ljava/lang/String;)V
 
-    .line 85
     return-void
 
-    .line 86
     :cond_3
     invoke-virtual {v1}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
 
-    .line 89
     move-result-object v2
 
-    .line 90
     invoke-interface {v2}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    .line 93
     move-result-object v2
 
-    .line 94
     check-cast v2, Ljava/lang/String;
 
-    .line 96
     if-le p3, v0, :cond_4
 
-    .line 98
     const-string p3, "Found multiple app IDs in %s. Using %s to initialize Pangle SDK."
 
-    .line 100
     const/4 v3, 0x2
 
-    .line 101
     new-array v3, v3, [Ljava/lang/Object;
 
-    .line 103
     const/4 v4, 0x0
 
-    .line 104
     aput-object v1, v3, v4
 
-    .line 106
     aput-object v2, v3, v0
 
-    .line 108
     invoke-static {p3, v3}, Ljava/lang/String;->format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
 
-    .line 111
     move-result-object p3
 
-    .line 112
     sget-object v0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->TAG:Ljava/lang/String;
 
-    .line 114
     invoke-static {v0, p3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 117
     :cond_4
     iget-object p3, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleInitializer:Lcom/google/ads/mediation/pangle/PangleInitializer;
 
-    .line 119
     new-instance v0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter$2;
 
-    .line 121
     invoke-direct {v0, p0, p2}, Lcom/google/ads/mediation/pangle/PangleMediationAdapter$2;-><init>(Lcom/google/ads/mediation/pangle/PangleMediationAdapter;Lcom/google/android/gms/ads/mediation/InitializationCompleteCallback;)V
 
-    .line 124
     invoke-virtual {p3, p1, v2, v0}, Lcom/google/ads/mediation/pangle/PangleInitializer;->initialize(Landroid/content/Context;Ljava/lang/String;Lcom/google/ads/mediation/pangle/PangleInitializer$Listener;)V
 
-    .line 127
     return-void
 .end method
 
@@ -793,50 +608,35 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/ads/mediation/pangle/PangleConstants;->isChildUser()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     if-eqz v0, :cond_0
 
-    .line 7
     invoke-static {}, Lcom/google/ads/mediation/pangle/PangleConstants;->createChildUserError()Lcom/google/android/gms/ads/AdError;
 
-    .line 10
     move-result-object p1
 
-    .line 11
     invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
 
-    .line 14
     return-void
 
-    .line 15
     :cond_0
     iget-object v0, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleFactory:Lcom/google/ads/mediation/pangle/PangleFactory;
 
-    .line 17
     iget-object v1, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleInitializer:Lcom/google/ads/mediation/pangle/PangleInitializer;
 
-    .line 19
     iget-object v2, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleSdkWrapper:Lcom/google/ads/mediation/pangle/PangleSdkWrapper;
 
-    .line 21
     invoke-virtual {v0, p1, p2, v1, v2}, Lcom/google/ads/mediation/pangle/PangleFactory;->createPangleAppOpenAd(Lcom/google/android/gms/ads/mediation/MediationAppOpenAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;Lcom/google/ads/mediation/pangle/PangleInitializer;Lcom/google/ads/mediation/pangle/PangleSdkWrapper;)Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;
 
-    .line 24
     move-result-object p1
 
-    .line 25
     iput-object p1, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->appOpenAd:Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;
 
-    .line 27
     invoke-virtual {p1}, Lcom/google/ads/mediation/pangle/renderer/PangleAppOpenAd;->render()V
 
-    .line 30
     return-void
 .end method
 
@@ -853,50 +653,35 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/ads/mediation/pangle/PangleConstants;->isChildUser()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     if-eqz v0, :cond_0
 
-    .line 7
     invoke-static {}, Lcom/google/ads/mediation/pangle/PangleConstants;->createChildUserError()Lcom/google/android/gms/ads/AdError;
 
-    .line 10
     move-result-object p1
 
-    .line 11
     invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
 
-    .line 14
     return-void
 
-    .line 15
     :cond_0
     iget-object v0, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleFactory:Lcom/google/ads/mediation/pangle/PangleFactory;
 
-    .line 17
     iget-object v1, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleInitializer:Lcom/google/ads/mediation/pangle/PangleInitializer;
 
-    .line 19
     iget-object v2, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleSdkWrapper:Lcom/google/ads/mediation/pangle/PangleSdkWrapper;
 
-    .line 21
     invoke-virtual {v0, p1, p2, v1, v2}, Lcom/google/ads/mediation/pangle/PangleFactory;->createPangleBannerAd(Lcom/google/android/gms/ads/mediation/MediationBannerAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;Lcom/google/ads/mediation/pangle/PangleInitializer;Lcom/google/ads/mediation/pangle/PangleSdkWrapper;)Lcom/google/ads/mediation/pangle/renderer/PangleBannerAd;
 
-    .line 24
     move-result-object p1
 
-    .line 25
     iput-object p1, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->bannerAd:Lcom/google/ads/mediation/pangle/renderer/PangleBannerAd;
 
-    .line 27
     invoke-virtual {p1}, Lcom/google/ads/mediation/pangle/renderer/PangleBannerAd;->render()V
 
-    .line 30
     return-void
 .end method
 
@@ -913,50 +698,35 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/ads/mediation/pangle/PangleConstants;->isChildUser()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     if-eqz v0, :cond_0
 
-    .line 7
     invoke-static {}, Lcom/google/ads/mediation/pangle/PangleConstants;->createChildUserError()Lcom/google/android/gms/ads/AdError;
 
-    .line 10
     move-result-object p1
 
-    .line 11
     invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
 
-    .line 14
     return-void
 
-    .line 15
     :cond_0
     iget-object v0, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleFactory:Lcom/google/ads/mediation/pangle/PangleFactory;
 
-    .line 17
     iget-object v1, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleInitializer:Lcom/google/ads/mediation/pangle/PangleInitializer;
 
-    .line 19
     iget-object v2, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleSdkWrapper:Lcom/google/ads/mediation/pangle/PangleSdkWrapper;
 
-    .line 21
     invoke-virtual {v0, p1, p2, v1, v2}, Lcom/google/ads/mediation/pangle/PangleFactory;->createPangleInterstitialAd(Lcom/google/android/gms/ads/mediation/MediationInterstitialAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;Lcom/google/ads/mediation/pangle/PangleInitializer;Lcom/google/ads/mediation/pangle/PangleSdkWrapper;)Lcom/google/ads/mediation/pangle/renderer/PangleInterstitialAd;
 
-    .line 24
     move-result-object p1
 
-    .line 25
     iput-object p1, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->interstitialAd:Lcom/google/ads/mediation/pangle/renderer/PangleInterstitialAd;
 
-    .line 27
     invoke-virtual {p1}, Lcom/google/ads/mediation/pangle/renderer/PangleInterstitialAd;->render()V
 
-    .line 30
     return-void
 .end method
 
@@ -973,50 +743,35 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/ads/mediation/pangle/PangleConstants;->isChildUser()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     if-eqz v0, :cond_0
 
-    .line 7
     invoke-static {}, Lcom/google/ads/mediation/pangle/PangleConstants;->createChildUserError()Lcom/google/android/gms/ads/AdError;
 
-    .line 10
     move-result-object p1
 
-    .line 11
     invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
 
-    .line 14
     return-void
 
-    .line 15
     :cond_0
     iget-object v0, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleFactory:Lcom/google/ads/mediation/pangle/PangleFactory;
 
-    .line 17
     iget-object v1, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleInitializer:Lcom/google/ads/mediation/pangle/PangleInitializer;
 
-    .line 19
     iget-object v2, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleSdkWrapper:Lcom/google/ads/mediation/pangle/PangleSdkWrapper;
 
-    .line 21
     invoke-virtual {v0, p1, p2, v1, v2}, Lcom/google/ads/mediation/pangle/PangleFactory;->createPangleNativeAd(Lcom/google/android/gms/ads/mediation/MediationNativeAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;Lcom/google/ads/mediation/pangle/PangleInitializer;Lcom/google/ads/mediation/pangle/PangleSdkWrapper;)Lcom/google/ads/mediation/pangle/renderer/PangleNativeAd;
 
-    .line 24
     move-result-object p1
 
-    .line 25
     iput-object p1, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->nativeAd:Lcom/google/ads/mediation/pangle/renderer/PangleNativeAd;
 
-    .line 27
     invoke-virtual {p1}, Lcom/google/ads/mediation/pangle/renderer/PangleNativeAd;->render()V
 
-    .line 30
     return-void
 .end method
 
@@ -1033,49 +788,34 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/google/ads/mediation/pangle/PangleConstants;->isChildUser()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     if-eqz v0, :cond_0
 
-    .line 7
     invoke-static {}, Lcom/google/ads/mediation/pangle/PangleConstants;->createChildUserError()Lcom/google/android/gms/ads/AdError;
 
-    .line 10
     move-result-object p1
 
-    .line 11
     invoke-interface {p2, p1}, Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;->onFailure(Lcom/google/android/gms/ads/AdError;)V
 
-    .line 14
     return-void
 
-    .line 15
     :cond_0
     iget-object v0, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleFactory:Lcom/google/ads/mediation/pangle/PangleFactory;
 
-    .line 17
     iget-object v1, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleInitializer:Lcom/google/ads/mediation/pangle/PangleInitializer;
 
-    .line 19
     iget-object v2, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->pangleSdkWrapper:Lcom/google/ads/mediation/pangle/PangleSdkWrapper;
 
-    .line 21
     invoke-virtual {v0, p1, p2, v1, v2}, Lcom/google/ads/mediation/pangle/PangleFactory;->createPangleRewardedAd(Lcom/google/android/gms/ads/mediation/MediationRewardedAdConfiguration;Lcom/google/android/gms/ads/mediation/MediationAdLoadCallback;Lcom/google/ads/mediation/pangle/PangleInitializer;Lcom/google/ads/mediation/pangle/PangleSdkWrapper;)Lcom/google/ads/mediation/pangle/renderer/PangleRewardedAd;
 
-    .line 24
     move-result-object p1
 
-    .line 25
     iput-object p1, p0, Lcom/google/ads/mediation/pangle/PangleMediationAdapter;->rewardedAd:Lcom/google/ads/mediation/pangle/renderer/PangleRewardedAd;
 
-    .line 27
     invoke-virtual {p1}, Lcom/google/ads/mediation/pangle/renderer/PangleRewardedAd;->render()V
 
-    .line 30
     return-void
 .end method

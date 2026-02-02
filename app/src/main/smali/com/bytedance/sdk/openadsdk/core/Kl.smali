@@ -17,97 +17,66 @@
 .method static constructor <clinit>()V
     .locals 7
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 3
     invoke-direct {v0}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
 
-    .line 6
     sput-object v0, Lcom/bytedance/sdk/openadsdk/core/Kl;->rk:Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 8
     new-instance v1, Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 10
     invoke-direct {v1}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
 
-    .line 13
     sput-object v1, Lcom/bytedance/sdk/openadsdk/core/Kl;->fFV:Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 15
     new-instance v2, Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 17
     invoke-direct {v2}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
 
-    .line 20
     sput-object v2, Lcom/bytedance/sdk/openadsdk/core/Kl;->aAs:Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 22
     new-instance v3, Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 24
     invoke-direct {v3}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
 
-    .line 27
     sput-object v3, Lcom/bytedance/sdk/openadsdk/core/Kl;->DK:Ljava/util/concurrent/atomic/AtomicInteger;
 
-    .line 29
     const-string v4, "encrypt_statistics_file"
 
-    .line 31
     const-string v5, "encrypt_success_count"
 
-    .line 33
     const/4 v6, 0x0
 
-    .line 34
     invoke-static {v4, v5, v6}, Lcom/bytedance/sdk/openadsdk/multipro/DK/DK;->rk(Ljava/lang/String;Ljava/lang/String;I)I
 
-    .line 37
     move-result v5
 
-    .line 38
     invoke-virtual {v0, v5}, Ljava/util/concurrent/atomic/AtomicInteger;->addAndGet(I)I
 
-    .line 41
     const-string v0, "encrypt_fail_count"
 
-    .line 43
     invoke-static {v4, v0, v6}, Lcom/bytedance/sdk/openadsdk/multipro/DK/DK;->rk(Ljava/lang/String;Ljava/lang/String;I)I
 
-    .line 46
     move-result v0
 
-    .line 47
     invoke-virtual {v1, v0}, Ljava/util/concurrent/atomic/AtomicInteger;->addAndGet(I)I
 
-    .line 50
     const-string v0, "decrypt_success_count"
 
-    .line 52
     invoke-static {v4, v0, v6}, Lcom/bytedance/sdk/openadsdk/multipro/DK/DK;->rk(Ljava/lang/String;Ljava/lang/String;I)I
 
-    .line 55
     move-result v0
 
-    .line 56
     invoke-virtual {v2, v0}, Ljava/util/concurrent/atomic/AtomicInteger;->addAndGet(I)I
 
-    .line 59
     const-string v0, "decrypt_fail_count"
 
-    .line 61
     invoke-static {v4, v0, v6}, Lcom/bytedance/sdk/openadsdk/multipro/DK/DK;->rk(Ljava/lang/String;Ljava/lang/String;I)I
 
-    .line 64
     move-result v0
 
-    .line 65
     invoke-virtual {v3, v0}, Ljava/util/concurrent/atomic/AtomicInteger;->addAndGet(I)I
 
-    .line 68
     return-void
 .end method
 
@@ -122,35 +91,30 @@
 .method private static fFV()V
     .locals 5
 
-    .line 1
     sget-object v0, Lcom/bytedance/sdk/openadsdk/core/Kl;->rk:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->get()I
 
     move-result v0
 
-    .line 2
     sget-object v1, Lcom/bytedance/sdk/openadsdk/core/Kl;->fFV:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v1}, Ljava/util/concurrent/atomic/AtomicInteger;->get()I
 
     move-result v1
 
-    .line 3
     sget-object v2, Lcom/bytedance/sdk/openadsdk/core/Kl;->aAs:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v2}, Ljava/util/concurrent/atomic/AtomicInteger;->get()I
 
     move-result v2
 
-    .line 4
     sget-object v3, Lcom/bytedance/sdk/openadsdk/core/Kl;->DK:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v3}, Ljava/util/concurrent/atomic/AtomicInteger;->get()I
 
     move-result v3
 
-    .line 5
     new-instance v4, Lcom/bytedance/sdk/openadsdk/core/Kl$1;
 
     invoke-direct {v4, v0, v1, v2, v3}, Lcom/bytedance/sdk/openadsdk/core/Kl$1;-><init>(IIII)V
@@ -173,7 +137,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 6
     :try_start_0
     const-string p0, "encrypt_statistics_file"
 
@@ -202,7 +165,6 @@
 
     goto :goto_0
 
-    .line 7
     :cond_0
     :try_start_1
     const-string p0, "encrypt_statistics_file"
@@ -223,7 +185,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 8
     monitor-exit v0
 
     return-void
@@ -240,7 +201,6 @@
 .method public static rk()V
     .locals 7
 
-    .line 1
     :try_start_0
     const-string v0, "encrypt_statistics_file"
 
@@ -256,7 +216,6 @@
 
     if-lez v2, :cond_0
 
-    .line 2
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v3
@@ -269,17 +228,14 @@
 
     if-ltz v3, :cond_0
 
-    .line 3
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/Kl;->fFV()V
 
-    .line 4
     const-class v0, Lcom/bytedance/sdk/openadsdk/core/Kl;
 
     monitor-enter v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_1
 
-    .line 5
     :try_start_1
     sget-object v1, Lcom/bytedance/sdk/openadsdk/core/Kl;->rk:Ljava/util/concurrent/atomic/AtomicInteger;
 
@@ -287,27 +243,22 @@
 
     invoke-virtual {v1, v2}, Ljava/util/concurrent/atomic/AtomicInteger;->set(I)V
 
-    .line 6
     sget-object v1, Lcom/bytedance/sdk/openadsdk/core/Kl;->fFV:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v1, v2}, Ljava/util/concurrent/atomic/AtomicInteger;->set(I)V
 
-    .line 7
     sget-object v1, Lcom/bytedance/sdk/openadsdk/core/Kl;->aAs:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v1, v2}, Ljava/util/concurrent/atomic/AtomicInteger;->set(I)V
 
-    .line 8
     sget-object v1, Lcom/bytedance/sdk/openadsdk/core/Kl;->DK:Ljava/util/concurrent/atomic/AtomicInteger;
 
     invoke-virtual {v1, v2}, Ljava/util/concurrent/atomic/AtomicInteger;->set(I)V
 
-    .line 9
     const-string v1, "encrypt_statistics_file"
 
     invoke-static {v1}, Lcom/bytedance/sdk/openadsdk/multipro/DK/DK;->rk(Ljava/lang/String;)V
 
-    .line 10
     const-string v1, "encrypt_statistics_file"
 
     const-string v2, "upload_time_key"
@@ -322,7 +273,6 @@
 
     invoke-static {v1, v2, v3}, Lcom/bytedance/sdk/openadsdk/multipro/DK/DK;->rk(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;)V
 
-    .line 11
     monitor-exit v0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
@@ -340,7 +290,6 @@
     :cond_0
     if-lez v2, :cond_1
 
-    .line 12
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v2
@@ -349,7 +298,6 @@
 
     if-lez v0, :cond_2
 
-    .line 13
     :cond_1
     const-string v0, "encrypt_statistics_file"
 
@@ -375,7 +323,6 @@
 .method public static rk(ILcom/bytedance/sdk/component/embedapplog/PangleEncryptConstant$CryptDataScene;I)V
     .locals 1
 
-    .line 14
     new-instance v0, Lcom/bytedance/sdk/openadsdk/core/Kl$2;
 
     invoke-direct {v0, p0, p1, p2}, Lcom/bytedance/sdk/openadsdk/core/Kl$2;-><init>(ILcom/bytedance/sdk/component/embedapplog/PangleEncryptConstant$CryptDataScene;I)V
@@ -394,7 +341,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 18
     const-string v0, "cypher"
 
     invoke-virtual {p0, v0}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;)I
@@ -412,7 +358,6 @@
     :cond_0
     const/4 p0, 0x0
 
-    .line 19
     :goto_0
     invoke-static {p0}, Lcom/bytedance/sdk/openadsdk/core/Kl;->fFV(Z)V
 
@@ -428,7 +373,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 15
     :try_start_0
     const-string p0, "encrypt_statistics_file"
 
@@ -457,7 +401,6 @@
 
     goto :goto_0
 
-    .line 16
     :cond_0
     :try_start_1
     const-string p0, "encrypt_statistics_file"
@@ -478,7 +421,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 17
     monitor-exit v0
 
     return-void

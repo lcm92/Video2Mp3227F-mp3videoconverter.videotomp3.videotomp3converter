@@ -13,7 +13,6 @@
 .method public constructor <init>()V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
@@ -30,7 +29,6 @@
 .method public constructor <init>(Ljava/lang/String;J)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzfsa;->zza:Ljava/lang/String;

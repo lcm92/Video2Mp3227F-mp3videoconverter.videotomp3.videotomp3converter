@@ -36,77 +36,31 @@
 .method public final zza()Lcom/google/android/gms/ads/nonagon/signalgeneration/zzbi;
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/internal/ads/zzffu;->zzc()Lcom/google/android/gms/internal/ads/zzgdy;
 
-    .line 2
-    .line 3
-    .line 4
     move-result-object v0
 
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/ads/nonagon/signalgeneration/zzbj;->a:Lcom/google/android/gms/internal/ads/zzhha;
 
-    .line 6
-    .line 7
     check-cast v1, Lcom/google/android/gms/internal/ads/zzdxp;
 
-    .line 8
-    .line 9
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/zzdxp;->zza()Lcom/google/android/gms/internal/ads/zzdxo;
 
-    .line 10
-    .line 11
-    .line 12
     move-result-object v1
 
-    .line 13
     new-instance v2, Lcom/google/android/gms/ads/nonagon/signalgeneration/zzbi;
 
-    .line 14
-    .line 15
     invoke-direct {v2, v0, v1}, Lcom/google/android/gms/ads/nonagon/signalgeneration/zzbi;-><init>(Ljava/util/concurrent/Executor;Lcom/google/android/gms/internal/ads/zzdxo;)V
 
-    .line 16
-    .line 17
-    .line 18
     return-object v2
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
 .end method
 
 .method public final bridge synthetic zzb()Ljava/lang/Object;
     .locals 1
 
-    .line 1
     invoke-virtual {p0}, Lcom/google/android/gms/ads/nonagon/signalgeneration/zzbj;->zza()Lcom/google/android/gms/ads/nonagon/signalgeneration/zzbi;
 
-    .line 2
-    .line 3
-    .line 4
     move-result-object v0
 
-    .line 5
     return-object v0
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
 .end method

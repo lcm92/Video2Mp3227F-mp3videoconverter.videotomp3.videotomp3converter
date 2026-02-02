@@ -31,15 +31,15 @@
 
     const-string v0, "VendorKey is null or empty"
 
-    invoke-static {p0, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v0, "ResourceURL is null"
 
-    invoke-static {p1, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "VerificationParameters is null or empty"
 
-    invoke-static {p2, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/String;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     new-instance v0, Lcom/iab/omid/library/bytedance2/adsession/VerificationScriptResource;
 
@@ -53,7 +53,7 @@
 
     const-string v0, "ResourceURL is null"
 
-    invoke-static {p0, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     new-instance v0, Lcom/iab/omid/library/bytedance2/adsession/VerificationScriptResource;
 
@@ -101,7 +101,7 @@
 
     const-string v2, "vendorKey"
 
-    invoke-static {v0, v2, v1}, Lcom/iab/omid/library/bytedance2/utils/c;->a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-static {v0, v2, v1}, Lcom/iab/omid/library/bytedance2/utils/CUBC;->a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/Object;)V
 
     iget-object v1, p0, Lcom/iab/omid/library/bytedance2/adsession/VerificationScriptResource;->resourceUrl:Ljava/net/URL;
 
@@ -111,13 +111,13 @@
 
     const-string v2, "resourceUrl"
 
-    invoke-static {v0, v2, v1}, Lcom/iab/omid/library/bytedance2/utils/c;->a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-static {v0, v2, v1}, Lcom/iab/omid/library/bytedance2/utils/CUBC;->a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/Object;)V
 
     iget-object v1, p0, Lcom/iab/omid/library/bytedance2/adsession/VerificationScriptResource;->verificationParameters:Ljava/lang/String;
 
     const-string v2, "verificationParameters"
 
-    invoke-static {v0, v2, v1}, Lcom/iab/omid/library/bytedance2/utils/c;->a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-static {v0, v2, v1}, Lcom/iab/omid/library/bytedance2/utils/CUBC;->a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/Object;)V
 
     return-object v0
 .end method

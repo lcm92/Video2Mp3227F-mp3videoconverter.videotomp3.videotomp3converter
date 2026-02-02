@@ -56,16 +56,12 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     iput p1, p0, Lcom/bytedance/sdk/component/rQf/fFV/aAs;->fFV:I
 
-    .line 3
     iput-object p2, p0, Lcom/bytedance/sdk/component/rQf/fFV/aAs;->aAs:Ljava/lang/Object;
 
-    .line 4
     iput-object p3, p0, Lcom/bytedance/sdk/component/rQf/fFV/aAs;->DK:Ljava/lang/String;
 
     return-void
@@ -84,10 +80,8 @@
         }
     .end annotation
 
-    .line 5
     invoke-direct {p0, p1, p2, p3}, Lcom/bytedance/sdk/component/rQf/fFV/aAs;-><init>(ILjava/lang/Object;Ljava/lang/String;)V
 
-    .line 6
     iput-object p4, p0, Lcom/bytedance/sdk/component/rQf/fFV/aAs;->rk:Ljava/util/Map;
 
     return-void
@@ -98,10 +92,8 @@
 .method public DK()Ljava/lang/String;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/rQf/fFV/aAs;->DK:Ljava/lang/String;
 
-    .line 3
     return-object v0
 .end method
 
@@ -113,20 +105,16 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/rQf/fFV/aAs;->aAs:Ljava/lang/Object;
 
-    .line 3
     return-object v0
 .end method
 
 .method public fFV()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/component/rQf/fFV/aAs;->fFV:I
 
-    .line 3
     return v0
 .end method
 
@@ -142,17 +130,14 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/rQf/fFV/aAs;->rk:Ljava/util/Map;
 
-    .line 3
     return-object v0
 .end method
 
 .method public rk()Lcom/bytedance/sdk/component/rQf/Yp;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/rQf/fFV/aAs;->rQf:Lcom/bytedance/sdk/component/rQf/Yp;
 
     return-object v0
@@ -161,7 +146,6 @@
 .method public rk(Lcom/bytedance/sdk/component/rQf/Yp;)V
     .locals 0
 
-    .line 2
     iput-object p1, p0, Lcom/bytedance/sdk/component/rQf/fFV/aAs;->rQf:Lcom/bytedance/sdk/component/rQf/Yp;
 
     return-void

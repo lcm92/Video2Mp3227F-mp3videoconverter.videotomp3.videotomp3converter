@@ -49,10 +49,10 @@
 .method public abstract zzo(Lcom/google/android/gms/internal/ads/zzbxj;)V
 .end method
 
-.method public abstract zzp(Ljl0;)V
+.method public abstract zzp(Ldef/JL0;)V
 .end method
 
-.method public abstract zzq(Ljl0;Z)V
+.method public abstract zzq(Ldef/JL0;Z)V
 .end method
 
 .method public abstract zzr()Z

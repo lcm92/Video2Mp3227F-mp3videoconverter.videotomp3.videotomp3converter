@@ -15,9 +15,9 @@
 
 .field private Yp:Z
 
-.field private aAs:Lcom/bytedance/sdk/openadsdk/component/lG/rk;
+.field private aAs:Lcom/bytedance/sdk/openadsdk/component/lG/RKLCC;
 
-.field private final fFV:Lcom/bytedance/sdk/openadsdk/component/pw/rk;
+.field private final fFV:Lcom/bytedance/sdk/openadsdk/component/pw/RKPCC;
 
 .field private lG:I
 
@@ -33,55 +33,39 @@
 
 
 # direct methods
-.method public constructor <init>(Lcom/bytedance/sdk/openadsdk/component/pw/rk;)V
+.method public constructor <init>(Lcom/bytedance/sdk/openadsdk/component/pw/RKPCC;)V
     .locals 2
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     new-instance v0, Landroid/os/Handler;
 
-    .line 6
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
-    .line 9
     move-result-object v1
 
-    .line 10
     invoke-direct {v0, v1, p0}, Landroid/os/Handler;-><init>(Landroid/os/Looper;Landroid/os/Handler$Callback;)V
 
-    .line 13
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->rk:Landroid/os/Handler;
 
-    .line 15
     const/4 v0, 0x0
 
-    .line 16
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->DK:I
 
-    .line 18
     const/4 v1, 0x5
 
-    .line 19
     iput v1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->rQf:I
 
-    .line 21
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->lG:I
 
-    .line 23
     const/16 v0, 0x3e8
 
-    .line 25
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->pw:I
 
-    .line 27
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->ppR:I
 
-    .line 29
-    iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->fFV:Lcom/bytedance/sdk/openadsdk/component/pw/rk;
+    iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->fFV:Lcom/bytedance/sdk/openadsdk/component/pw/RKPCC;
 
-    .line 31
     return-void
 .end method
 
@@ -90,19 +74,14 @@
 .method public DK()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->rk:Landroid/os/Handler;
 
-    .line 3
     if-eqz v0, :cond_0
 
-    .line 5
     const/16 v1, 0x64
 
-    .line 7
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeMessages(I)V
 
-    .line 10
     :cond_0
     return-void
 .end method
@@ -110,37 +89,26 @@
 .method public aAs()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->rk:Landroid/os/Handler;
 
-    .line 3
     if-eqz v0, :cond_0
 
-    .line 5
     invoke-static {}, Landroid/os/Message;->obtain()Landroid/os/Message;
 
-    .line 8
     move-result-object v0
 
-    .line 9
     const/16 v1, 0x64
 
-    .line 11
     iput v1, v0, Landroid/os/Message;->what:I
 
-    .line 13
     iget v1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->DK:I
 
-    .line 15
     iput v1, v0, Landroid/os/Message;->arg1:I
 
-    .line 17
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->rk:Landroid/os/Handler;
 
-    .line 19
     invoke-virtual {v1, v0}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
-    .line 22
     :cond_0
     return-void
 .end method
@@ -148,12 +116,10 @@
 .method public fFV()V
     .locals 4
 
-    .line 2
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->rk:Landroid/os/Handler;
 
     if-eqz v0, :cond_0
 
-    .line 3
     iget v1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->rQf:I
 
     const/4 v2, 0x0
@@ -173,7 +139,6 @@
 .method public fFV(I)V
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->rQf:I
 
     invoke-static {p1, v0}, Ljava/lang/Math;->min(II)I
@@ -188,61 +153,42 @@
 .method public handleMessage(Landroid/os/Message;)Z
     .locals 4
 
-    .line 1
     iget v0, p1, Landroid/os/Message;->what:I
 
-    .line 3
     const/4 v1, 0x1
 
-    .line 4
     const/16 v2, 0x64
 
-    .line 6
     if-ne v0, v2, :cond_0
 
-    .line 8
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->rk:Landroid/os/Handler;
 
-    .line 10
     if-eqz v0, :cond_0
 
-    .line 12
     iget p1, p1, Landroid/os/Message;->arg1:I
 
-    .line 14
     invoke-virtual {p0, p1}, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->rk(I)V
 
-    .line 17
     if-lez p1, :cond_0
 
-    .line 19
     invoke-static {}, Landroid/os/Message;->obtain()Landroid/os/Message;
 
-    .line 22
     move-result-object v0
 
-    .line 23
     iput v2, v0, Landroid/os/Message;->what:I
 
-    .line 25
     sub-int/2addr p1, v1
 
-    .line 26
     iput p1, v0, Landroid/os/Message;->arg1:I
 
-    .line 28
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->rk:Landroid/os/Handler;
 
-    .line 30
     iget v2, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->ppR:I
 
-    .line 32
     int-to-long v2, v2
 
-    .line 33
     invoke-virtual {p1, v0, v2, v3}, Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message;J)Z
 
-    .line 36
     :cond_0
     return v1
 .end method
@@ -250,26 +196,20 @@
 .method public rQf()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->rk:Landroid/os/Handler;
 
-    .line 3
     const/4 v1, 0x0
 
-    .line 4
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    .line 7
     iput-object v1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->rk:Landroid/os/Handler;
 
-    .line 9
     return-void
 .end method
 
 .method public rk()I
     .locals 1
 
-    .line 12
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->lG:I
 
     return v0
@@ -280,14 +220,12 @@
 
     float-to-int p1, p1
 
-    .line 9
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->rQf:I
 
     if-gtz p1, :cond_0
 
     const/4 p1, 0x5
 
-    .line 10
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->rQf:I
 
     :cond_0
@@ -297,20 +235,17 @@
 .method public rk(I)V
     .locals 6
 
-    .line 1
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->DK:I
 
-    .line 2
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->rQf:I
 
     sub-int/2addr v0, p1
 
-    .line 3
-    iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->fFV:Lcom/bytedance/sdk/openadsdk/component/pw/rk;
+    iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->fFV:Lcom/bytedance/sdk/openadsdk/component/pw/RKPCC;
 
     int-to-long v2, v0
 
-    invoke-virtual {v1, v2, v3}, Lcom/bytedance/sdk/openadsdk/component/pw/rk;->fFV(J)V
+    invoke-virtual {v1, v2, v3}, Lcom/bytedance/sdk/openadsdk/component/pw/RKPCC;->fFV(J)V
 
     const/4 v1, 0x1
 
@@ -318,8 +253,7 @@
 
     if-gtz p1, :cond_1
 
-    .line 4
-    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->aAs:Lcom/bytedance/sdk/openadsdk/component/lG/rk;
+    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->aAs:Lcom/bytedance/sdk/openadsdk/component/lG/RKLCC;
 
     if-eqz p1, :cond_0
 
@@ -327,22 +261,18 @@
 
     if-nez v3, :cond_0
 
-    .line 5
-    invoke-interface {p1}, Lcom/bytedance/sdk/openadsdk/component/lG/rk;->fFV()V
+    invoke-interface {p1}, Lcom/bytedance/sdk/openadsdk/component/lG/RKLCC;->fFV()V
 
-    .line 6
     iput-boolean v1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->Yp:Z
 
     :cond_0
     move p1, v2
 
-    .line 7
     :cond_1
-    iget-object v3, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->aAs:Lcom/bytedance/sdk/openadsdk/component/lG/rk;
+    iget-object v3, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->aAs:Lcom/bytedance/sdk/openadsdk/component/lG/RKLCC;
 
     if-eqz v3, :cond_4
 
-    .line 8
     iget v4, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->lG:I
 
     sub-int v5, v4, v0
@@ -358,7 +288,7 @@
 
     :cond_3
     :goto_0
-    invoke-interface {v3, v5, v1}, Lcom/bytedance/sdk/openadsdk/component/lG/rk;->rk(IZ)V
+    invoke-interface {v3, v5, v1}, Lcom/bytedance/sdk/openadsdk/component/lG/RKLCC;->rk(IZ)V
 
     :cond_4
     return-void
@@ -377,7 +307,6 @@
 
     return-void
 
-    .line 13
     :cond_0
     iget-boolean v1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->NCs:Z
 
@@ -385,19 +314,16 @@
 
     return-void
 
-    .line 14
     :cond_1
     iput-boolean p3, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->NCs:Z
 
     if-ne p1, v0, :cond_2
 
-    .line 15
-    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->fFV:Lcom/bytedance/sdk/openadsdk/component/pw/rk;
+    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->fFV:Lcom/bytedance/sdk/openadsdk/component/pw/RKPCC;
 
     if-eqz p1, :cond_2
 
-    .line 16
-    invoke-virtual {p1, p3}, Lcom/bytedance/sdk/openadsdk/component/pw/rk;->rk(Z)V
+    invoke-virtual {p1, p3}, Lcom/bytedance/sdk/openadsdk/component/pw/RKPCC;->rk(Z)V
 
     :cond_2
     if-eqz p3, :cond_3
@@ -408,11 +334,9 @@
 
     float-to-int p1, p1
 
-    .line 17
     :try_start_0
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->ppR:I
 
-    .line 18
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide p1
@@ -423,7 +347,6 @@
 
     return-void
 
-    .line 19
     :cond_3
     iget-wide p1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->ArD:J
 
@@ -439,29 +362,25 @@
 
     iput-wide p1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->ArD:J
 
-    .line 20
-    iget-object p3, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->fFV:Lcom/bytedance/sdk/openadsdk/component/pw/rk;
+    iget-object p3, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->fFV:Lcom/bytedance/sdk/openadsdk/component/pw/RKPCC;
 
     if-eqz p3, :cond_4
 
-    .line 21
-    invoke-virtual {p3, p1, p2}, Lcom/bytedance/sdk/openadsdk/component/pw/rk;->rk(J)V
+    invoke-virtual {p3, p1, p2}, Lcom/bytedance/sdk/openadsdk/component/pw/RKPCC;->rk(J)V
 
     :catchall_0
     :cond_4
     const/16 p1, 0x3e8
 
-    .line 22
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->ppR:I
 
     return-void
 .end method
 
-.method public rk(Lcom/bytedance/sdk/openadsdk/component/lG/rk;)V
+.method public rk(Lcom/bytedance/sdk/openadsdk/component/lG/RKLCC;)V
     .locals 0
 
-    .line 11
-    iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->aAs:Lcom/bytedance/sdk/openadsdk/component/lG/rk;
+    iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/lG/fFV;->aAs:Lcom/bytedance/sdk/openadsdk/component/lG/RKLCC;
 
     return-void
 .end method

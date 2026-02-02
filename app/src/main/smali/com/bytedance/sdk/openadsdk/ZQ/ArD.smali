@@ -16,7 +16,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/lang/ref/WeakReference<",
-            "Lcom/bytedance/sdk/openadsdk/ZQ/rk;",
+            "Lcom/bytedance/sdk/openadsdk/ZQ/RKZOC;",
             ">;"
         }
     .end annotation
@@ -27,91 +27,66 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     const/4 v0, 0x3
 
-    .line 2
     new-array v1, v0, [F
 
-    .line 4
     sput-object v1, Lcom/bytedance/sdk/openadsdk/ZQ/ArD;->fFV:[F
 
-    .line 6
     new-array v1, v0, [F
 
-    .line 8
     sput-object v1, Lcom/bytedance/sdk/openadsdk/ZQ/ArD;->aAs:[F
 
-    .line 10
     const/16 v1, 0x9
 
-    .line 12
     new-array v1, v1, [F
 
-    .line 14
     sput-object v1, Lcom/bytedance/sdk/openadsdk/ZQ/ArD;->DK:[F
 
-    .line 16
     new-array v0, v0, [F
 
-    .line 18
     sput-object v0, Lcom/bytedance/sdk/openadsdk/ZQ/ArD;->rQf:[F
 
-    .line 20
     return-void
 .end method
 
 .method public static DK(Landroid/content/Context;Landroid/hardware/SensorEventListener;I)V
     .locals 0
 
-    .line 1
     if-eqz p1, :cond_2
 
-    .line 3
     if-nez p0, :cond_0
 
-    .line 5
     goto :goto_2
 
-    .line 6
     :cond_0
     :try_start_0
     sget-object p0, Lcom/bytedance/sdk/openadsdk/ZQ/ArD;->rk:Ljava/lang/ref/WeakReference;
 
-    .line 8
     if-eqz p0, :cond_1
 
-    .line 10
     invoke-virtual {p0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 13
     goto :goto_0
 
-    .line 14
     :catchall_0
     move-exception p0
 
-    .line 15
     goto :goto_1
 
-    .line 16
     :cond_1
     :goto_0
     return-void
 
-    .line 17
     :goto_1
     const-string p1, "SensorHub"
 
-    .line 19
     const-string p2, "startListenRotationVector err"
 
-    .line 21
     invoke-static {p1, p2, p0}, Lcom/bytedance/sdk/openadsdk/ZQ/Yp;->rk(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 24
     :cond_2
     :goto_2
     return-void
@@ -120,54 +95,40 @@
 .method public static aAs(Landroid/content/Context;Landroid/hardware/SensorEventListener;I)V
     .locals 0
 
-    .line 1
     if-eqz p1, :cond_2
 
-    .line 3
     if-nez p0, :cond_0
 
-    .line 5
     goto :goto_2
 
-    .line 6
     :cond_0
     :try_start_0
     sget-object p0, Lcom/bytedance/sdk/openadsdk/ZQ/ArD;->rk:Ljava/lang/ref/WeakReference;
 
-    .line 8
     if-eqz p0, :cond_1
 
-    .line 10
     invoke-virtual {p0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 13
     goto :goto_0
 
-    .line 14
     :catchall_0
     move-exception p0
 
-    .line 15
     goto :goto_1
 
-    .line 16
     :cond_1
     :goto_0
     return-void
 
-    .line 17
     :goto_1
     const-string p1, "SensorHub"
 
-    .line 19
     const-string p2, "startListenLinearAcceleration error"
 
-    .line 21
     invoke-static {p1, p2, p0}, Lcom/bytedance/sdk/openadsdk/ZQ/Yp;->rk(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 24
     :cond_2
     :goto_2
     return-void
@@ -176,54 +137,40 @@
 .method public static fFV(Landroid/content/Context;Landroid/hardware/SensorEventListener;I)V
     .locals 0
 
-    .line 1
     if-eqz p1, :cond_2
 
-    .line 3
     if-nez p0, :cond_0
 
-    .line 5
     goto :goto_2
 
-    .line 6
     :cond_0
     :try_start_0
     sget-object p0, Lcom/bytedance/sdk/openadsdk/ZQ/ArD;->rk:Ljava/lang/ref/WeakReference;
 
-    .line 8
     if-eqz p0, :cond_1
 
-    .line 10
     invoke-virtual {p0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 13
     goto :goto_0
 
-    .line 14
     :catchall_0
     move-exception p0
 
-    .line 15
     goto :goto_1
 
-    .line 16
     :cond_1
     :goto_0
     return-void
 
-    .line 17
     :goto_1
     const-string p1, "SensorHub"
 
-    .line 19
     const-string p2, "startListenGyroscope error"
 
-    .line 21
     invoke-static {p1, p2, p0}, Lcom/bytedance/sdk/openadsdk/ZQ/Yp;->rk(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    .line 24
     :cond_2
     :goto_2
     return-void
@@ -236,7 +183,6 @@
 
     return-void
 
-    .line 6
     :cond_0
     const-string v0, "vibrator"
 
@@ -246,7 +192,6 @@
 
     check-cast p0, Landroid/os/Vibrator;
 
-    .line 7
     invoke-virtual {p0, p1, p2}, Landroid/os/Vibrator;->vibrate(J)V
 
     return-void
@@ -255,7 +200,6 @@
 .method public static rk(Landroid/content/Context;Landroid/hardware/SensorEventListener;)V
     .locals 0
 
-    .line 1
     return-void
 .end method
 
@@ -268,14 +212,12 @@
 
     goto :goto_2
 
-    .line 3
     :cond_0
     :try_start_0
     sget-object p0, Lcom/bytedance/sdk/openadsdk/ZQ/ArD;->rk:Ljava/lang/ref/WeakReference;
 
     if-eqz p0, :cond_1
 
-    .line 4
     invoke-virtual {p0}, Ljava/lang/ref/Reference;->get()Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
@@ -291,7 +233,6 @@
     :goto_0
     return-void
 
-    .line 5
     :goto_1
     const-string p1, "SensorHub"
 
@@ -304,10 +245,9 @@
     return-void
 .end method
 
-.method public static rk(Lcom/bytedance/sdk/openadsdk/ZQ/rk;)V
+.method public static rk(Lcom/bytedance/sdk/openadsdk/ZQ/RKZOC;)V
     .locals 1
 
-    .line 2
     new-instance v0, Ljava/lang/ref/WeakReference;
 
     invoke-direct {v0, p0}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V

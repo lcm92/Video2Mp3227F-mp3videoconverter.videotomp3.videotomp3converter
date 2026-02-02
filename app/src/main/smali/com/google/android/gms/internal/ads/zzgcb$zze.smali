@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lmt0;
+.implements Ldef/MT0;
 
 
 # annotations
@@ -13,7 +13,7 @@
         "Ljava/lang/Object;",
         ">",
         "Ljava/lang/Object;",
-        "Lmt0;"
+        "Ldef/MT0;"
     }
 .end annotation
 

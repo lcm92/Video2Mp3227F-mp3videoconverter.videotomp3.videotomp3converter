@@ -22,61 +22,61 @@
 
 # instance fields
 .field public ac:Ljava/lang/String;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "ac"
     .end annotation
 .end field
 
 .field public accessKey:Ljava/lang/String;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "access_key"
     .end annotation
 .end field
 
 .field public activeCheckDuration:Ljava/lang/Long;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "active_check_duration"
     .end annotation
 .end field
 
 .field public applyDuration:Ljava/lang/Long;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "apply_duration"
     .end annotation
 .end field
 
 .field public channel:Ljava/lang/String;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "channel"
     .end annotation
 .end field
 
 .field public cleanDuration:Ljava/lang/Long;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "clean_duration"
     .end annotation
 .end field
 
 .field public cleanStrategy:Ljava/lang/Integer;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "clean_strategy"
     .end annotation
 .end field
 
 .field public cleanType:Ljava/lang/Integer;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "clean_type"
     .end annotation
 .end field
 
 .field public downloadDuration:Ljava/lang/Long;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "download_duration"
     .end annotation
 .end field
 
 .field public downloadFailRecords:Ljava/util/List;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "download_fail_records"
     .end annotation
 
@@ -90,55 +90,55 @@
 .end field
 
 .field public downloadRetryTimes:Ljava/lang/Integer;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "download_retry_times"
     .end annotation
 .end field
 
 .field public downloadUrl:Ljava/lang/String;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "download_url"
     .end annotation
 .end field
 
 .field public errCode:Ljava/lang/String;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "err_code"
     .end annotation
 .end field
 
 .field public errMsg:Ljava/lang/String;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "err_msg"
     .end annotation
 .end field
 
 .field public groupName:Ljava/lang/String;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "group_name"
     .end annotation
 .end field
 
 .field public id:Ljava/lang/Long;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "id"
     .end annotation
 .end field
 
 .field public logId:Ljava/lang/String;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "log_id"
     .end annotation
 .end field
 
 .field public patchId:Ljava/lang/Long;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "patch_id"
     .end annotation
 .end field
 
 .field public statsType:Ljava/lang/Integer;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "stats_type"
     .end annotation
 .end field

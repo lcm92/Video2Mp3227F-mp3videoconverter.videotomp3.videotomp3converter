@@ -31,7 +31,7 @@
 .method public abstract rk(Lcom/bytedance/sdk/component/rQf/KIc;)Lcom/bytedance/sdk/component/rQf/ArD;
 .end method
 
-.method public abstract rk(Lcom/bytedance/sdk/component/rQf/pw;)Lcom/bytedance/sdk/component/rQf/ArD;
+.method public abstract rk(Lcom/bytedance/sdk/component/rQf/PWRCC;)Lcom/bytedance/sdk/component/rQf/ArD;
 .end method
 
 .method public abstract rk(Ljava/lang/String;)Lcom/bytedance/sdk/component/rQf/ArD;

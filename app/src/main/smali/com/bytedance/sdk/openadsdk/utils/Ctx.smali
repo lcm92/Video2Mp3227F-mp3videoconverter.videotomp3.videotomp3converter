@@ -20,142 +20,103 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     invoke-static {}, Ljava/lang/Thread;->getDefaultUncaughtExceptionHandler()Ljava/lang/Thread$UncaughtExceptionHandler;
 
-    .line 7
     move-result-object v0
 
-    .line 8
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/utils/Ctx;->fFV:Ljava/lang/Thread$UncaughtExceptionHandler;
 
-    .line 10
     invoke-static {p0}, Ljava/lang/Thread;->setDefaultUncaughtExceptionHandler(Ljava/lang/Thread$UncaughtExceptionHandler;)V
 
-    .line 13
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/utils/Ctx;->fFV()V
 
-    .line 16
     return-void
 .end method
 
 .method private aAs()V
     .locals 8
 
-    .line 1
     const/4 v0, 0x0
 
-    .line 2
     const/4 v1, 0x1
 
-    .line 3
     const-class v2, Landroid/content/Context;
 
-    .line 5
     const-string v3, "a"
 
-    .line 7
     const/4 v4, 0x0
 
-    .line 8
     :try_start_0
     const-string v5, "com.bytedance.sdk.openadsdk.TTC2Proxy"
 
-    .line 10
     new-array v6, v1, [Ljava/lang/Class;
 
-    .line 12
     aput-object v2, v6, v0
 
-    .line 14
     invoke-static {v5, v3, v6}, Lcom/bytedance/sdk/component/utils/Xb;->rk(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
-    .line 17
     move-result-object v5
 
-    .line 18
     if-eqz v5, :cond_0
 
-    .line 20
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
 
-    .line 23
     move-result-object v6
 
-    .line 24
     new-array v7, v1, [Ljava/lang/Object;
 
-    .line 26
     aput-object v6, v7, v0
 
-    .line 28
     invoke-virtual {v5, v4, v7}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 31
     :catchall_0
     :cond_0
     :try_start_1
     const-string v5, "com.bytedance.sdk.openadsdk.TTC3Proxy"
 
-    .line 33
     new-array v6, v1, [Ljava/lang/Class;
 
-    .line 35
     aput-object v2, v6, v0
 
-    .line 37
     invoke-static {v5, v3, v6}, Lcom/bytedance/sdk/component/utils/Xb;->rk(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
 
-    .line 40
     move-result-object v2
 
-    .line 41
     if-eqz v2, :cond_1
 
-    .line 43
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
 
-    .line 46
     move-result-object v3
 
-    .line 47
     new-array v1, v1, [Ljava/lang/Object;
 
-    .line 49
     aput-object v3, v1, v0
 
-    .line 51
     invoke-virtual {v2, v4, v1}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 54
     :catchall_1
     :cond_1
     :try_start_2
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/settings/woP;->dfy()Lcom/bytedance/sdk/openadsdk/core/settings/lG;
 
-    .line 57
     move-result-object v0
 
-    .line 58
     invoke-interface {v0}, Lcom/bytedance/sdk/openadsdk/core/settings/lG;->rk()V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_2
 
-    .line 61
     :catchall_2
     :try_start_3
     invoke-static {}, Lcom/bytedance/sdk/component/adexpress/rk/fFV/fFV;->fFV()V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_3
 
-    .line 64
     :catchall_3
     return-void
 .end method
@@ -163,50 +124,36 @@
 .method private fFV()V
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
 
-    .line 4
     move-result-object v0
 
-    .line 5
     if-nez v0, :cond_0
 
-    .line 7
     return-void
 
-    .line 8
     :cond_0
     :try_start_0
     invoke-virtual {v0}, Landroid/content/Context;->getFilesDir()Ljava/io/File;
 
-    .line 11
     move-result-object v0
 
-    .line 12
     new-instance v1, Ljava/io/File;
 
-    .line 14
     const-string v2, "TTCache"
 
-    .line 16
     invoke-direct {v1, v0, v2}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 19
     invoke-virtual {v1}, Ljava/io/File;->mkdirs()Z
 
-    .line 22
     invoke-virtual {v1}, Ljava/io/File;->getPath()Ljava/lang/String;
 
-    .line 25
     move-result-object v0
 
-    .line 26
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/utils/Ctx;->aAs:Ljava/lang/String;
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 28
     :catchall_0
     return-void
 .end method
@@ -214,7 +161,6 @@
 .method public static rk()Lcom/bytedance/sdk/openadsdk/utils/Ctx;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/bytedance/sdk/openadsdk/utils/Ctx;
 
     invoke-direct {v0}, Lcom/bytedance/sdk/openadsdk/utils/Ctx;-><init>()V
@@ -225,12 +171,10 @@
 .method private rk(Ljava/lang/Thread;Ljava/lang/Throwable;)V
     .locals 11
 
-    .line 2
     const-string p1, "0"
 
     const/4 p2, 0x0
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/utils/Ctx;->aAs:Ljava/lang/String;
 
@@ -240,7 +184,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 4
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/utils/Ctx;->fFV()V
 
     goto :goto_0
@@ -252,7 +195,6 @@
 
     goto/16 :goto_8
 
-    .line 5
     :cond_0
     :goto_0
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/utils/Ctx;->aAs:Ljava/lang/String;
@@ -265,7 +207,6 @@
 
     return-void
 
-    .line 6
     :cond_1
     new-instance v0, Ljava/io/File;
 
@@ -275,7 +216,6 @@
 
     invoke-direct {v0, v1, v2}, Ljava/io/File;-><init>(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 7
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
     move-result v1
@@ -303,33 +243,27 @@
 
     if-eqz v1, :cond_8
 
-    .line 8
     new-instance v1, Ljava/util/Properties;
 
     invoke-direct {v1}, Ljava/util/Properties;-><init>()V
 
-    .line 9
     new-instance v5, Ljava/io/FileInputStream;
 
     invoke-direct {v5, v0}, Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    .line 10
     :try_start_2
     invoke-virtual {v1, v5}, Ljava/util/Properties;->load(Ljava/io/InputStream;)V
 
-    .line 11
     invoke-virtual {v1, v4, p1}, Ljava/util/Properties;->getProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 12
     invoke-virtual {v1, v3, p1}, Ljava/util/Properties;->getProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 13
     invoke-static {v6}, Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
 
     move-result-object v6
@@ -338,7 +272,6 @@
 
     move-result v6
 
-    .line 14
     invoke-static {p1}, Ljava/lang/Long;->valueOf(Ljava/lang/String;)Ljava/lang/Long;
 
     move-result-object p1
@@ -347,7 +280,6 @@
 
     move-result-wide v7
 
-    .line 15
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v9
@@ -398,7 +330,6 @@
     :goto_3
     if-eqz v8, :cond_5
 
-    .line 16
     :try_start_3
     invoke-virtual {v0}, Ljava/io/File;->delete()Z
     :try_end_3
@@ -406,7 +337,6 @@
 
     goto :goto_6
 
-    .line 17
     :cond_5
     :try_start_4
     invoke-static {v7}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
@@ -417,7 +347,6 @@
 
     if-eqz p1, :cond_6
 
-    .line 18
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v6
@@ -440,7 +369,6 @@
 
     goto :goto_8
 
-    .line 19
     :cond_6
     :goto_5
     new-instance p1, Ljava/io/FileOutputStream;
@@ -449,7 +377,6 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
-    .line 20
     :try_start_5
     invoke-virtual {v1, p1, v2}, Ljava/util/Properties;->store(Ljava/io/OutputStream;Ljava/lang/String;)V
     :try_end_5
@@ -461,7 +388,6 @@
     :goto_6
     if-eqz v8, :cond_7
 
-    .line 21
     :try_start_6
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/utils/Ctx;->aAs()V
     :try_end_6
@@ -483,19 +409,16 @@
 
     goto :goto_4
 
-    .line 22
     :cond_8
     :try_start_7
     new-instance p1, Ljava/util/Properties;
 
     invoke-direct {p1}, Ljava/util/Properties;-><init>()V
 
-    .line 23
     const-string v1, "1"
 
     invoke-virtual {p1, v4, v1}, Ljava/util/Properties;->setProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 24
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v4
@@ -506,14 +429,12 @@
 
     invoke-virtual {p1, v3, v1}, Ljava/util/Properties;->setProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;
 
-    .line 25
     new-instance v1, Ljava/io/FileOutputStream;
 
     invoke-direct {v1, v0}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
     :try_end_7
     .catchall {:try_start_7 .. :try_end_7} :catchall_0
 
-    .line 26
     :try_start_8
     invoke-virtual {p1, v1, v2}, Ljava/util/Properties;->store(Ljava/io/OutputStream;Ljava/lang/String;)V
     :try_end_8
@@ -522,7 +443,6 @@
     :goto_7
     if-eqz p2, :cond_9
 
-    .line 27
     :try_start_9
     invoke-virtual {p2}, Ljava/io/FileInputStream;->close()V
     :try_end_9
@@ -532,7 +452,6 @@
     :cond_9
     if-eqz v1, :cond_b
 
-    .line 28
     :try_start_a
     invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
     :try_end_a
@@ -544,7 +463,6 @@
     :catchall_6
     move-exception p1
 
-    .line 29
     :goto_8
     :try_start_b
     const-string v0, "TTCrashHandler"
@@ -557,7 +475,6 @@
 
     if-eqz p2, :cond_a
 
-    .line 30
     :try_start_c
     invoke-virtual {p2}, Ljava/io/FileInputStream;->close()V
     :try_end_c
@@ -567,7 +484,6 @@
     :cond_a
     if-eqz v1, :cond_b
 
-    .line 31
     :try_start_d
     invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
     :try_end_d
@@ -582,7 +498,6 @@
 
     if-eqz p2, :cond_c
 
-    .line 32
     :try_start_e
     invoke-virtual {p2}, Ljava/io/FileInputStream;->close()V
     :try_end_e
@@ -592,13 +507,11 @@
     :cond_c
     if-eqz v1, :cond_d
 
-    .line 33
     :try_start_f
     invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
     :try_end_f
     .catchall {:try_start_f .. :try_end_f} :catchall_b
 
-    .line 34
     :catchall_b
     :cond_d
     throw p1
@@ -609,94 +522,66 @@
 .method public uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V
     .locals 3
 
-    .line 1
     const/4 v0, 0x1
 
-    .line 2
     sput-boolean v0, Lcom/bytedance/sdk/openadsdk/utils/Ctx;->rk:Z
 
-    .line 4
     sput-boolean v0, Lcom/bytedance/sdk/component/pw/ppR;->sCrashHappened:Z
 
-    .line 6
     sput-boolean v0, Lcom/bytedance/sdk/component/pw/aAs/DK;->aAs:Z
 
-    .line 8
     const/4 v0, 0x0
 
-    .line 9
     invoke-static {v0}, Lcom/bytedance/sdk/component/pw/lG;->rk(Z)V
 
-    .line 12
     :try_start_0
     new-instance v1, Ljava/io/StringWriter;
 
-    .line 14
     invoke-direct {v1}, Ljava/io/StringWriter;-><init>()V
 
-    .line 17
     new-instance v2, Ljava/io/PrintWriter;
 
-    .line 19
     invoke-direct {v2, v1}, Ljava/io/PrintWriter;-><init>(Ljava/io/Writer;)V
 
-    .line 22
     invoke-virtual {p2, v2}, Ljava/lang/Throwable;->printStackTrace(Ljava/io/PrintWriter;)V
 
-    .line 25
     invoke-virtual {v1}, Ljava/io/StringWriter;->toString()Ljava/lang/String;
 
-    .line 28
     move-result-object v1
 
-    .line 29
     if-eqz v1, :cond_0
 
-    .line 31
     const-class v2, Lcom/bytedance/sdk/openadsdk/AdSlot;
 
-    .line 33
     invoke-virtual {v2}, Ljava/lang/Class;->getPackage()Ljava/lang/Package;
 
-    .line 36
     move-result-object v2
 
-    .line 37
     invoke-virtual {v2}, Ljava/lang/Package;->getName()Ljava/lang/String;
 
-    .line 40
     move-result-object v2
 
-    .line 41
     invoke-virtual {v1, v2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
-    .line 44
     move-result v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 45
     :catchall_0
     :cond_0
     if-eqz v0, :cond_1
 
-    .line 47
     invoke-direct {p0, p1, p2}, Lcom/bytedance/sdk/openadsdk/utils/Ctx;->rk(Ljava/lang/Thread;Ljava/lang/Throwable;)V
 
-    .line 50
     :cond_1
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/utils/Ctx;->fFV:Ljava/lang/Thread$UncaughtExceptionHandler;
 
-    .line 52
     if-eqz v0, :cond_2
 
-    .line 54
     if-eq v0, p0, :cond_2
 
-    .line 56
     invoke-interface {v0, p1, p2}, Ljava/lang/Thread$UncaughtExceptionHandler;->uncaughtException(Ljava/lang/Thread;Ljava/lang/Throwable;)V
 
-    .line 59
     :cond_2
     return-void
 .end method

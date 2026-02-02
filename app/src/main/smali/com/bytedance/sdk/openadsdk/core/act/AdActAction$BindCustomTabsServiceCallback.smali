@@ -18,5 +18,5 @@
 .method public abstract onBindFail(ILjava/lang/String;)V
 .end method
 
-.method public abstract onBindSuccess(Lfv;)V
+.method public abstract onBindSuccess(Ldef/FV;)V
 .end method

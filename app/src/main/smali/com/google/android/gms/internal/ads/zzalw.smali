@@ -238,89 +238,43 @@
 .method public final zzc()I
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zze:Z
 
-    .line 2
-    .line 3
     if-eqz v0, :cond_0
 
-    .line 4
-    .line 5
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzd:I
 
-    .line 6
-    .line 7
     return v0
 
-    .line 8
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
-    .line 9
-    .line 10
     const-string v1, "Background color has not been defined."
 
-    .line 11
-    .line 12
     invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
-    .line 13
-    .line 14
-    .line 15
     throw v0
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
 .end method
 
 .method public final zzd()I
     .locals 2
 
-    .line 1
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzc:Z
 
-    .line 2
-    .line 3
     if-eqz v0, :cond_0
 
-    .line 4
-    .line 5
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzb:I
 
-    .line 6
-    .line 7
     return v0
 
-    .line 8
     :cond_0
     new-instance v0, Ljava/lang/IllegalStateException;
 
-    .line 9
-    .line 10
     const-string v1, "Font color has not been defined."
 
-    .line 11
-    .line 12
     invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
-    .line 13
-    .line 14
-    .line 15
     throw v0
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
 .end method
 
 .method public final zze()I
@@ -420,415 +374,188 @@
 .method public final zzl(Lcom/google/android/gms/internal/ads/zzalw;)Lcom/google/android/gms/internal/ads/zzalw;
     .locals 3
 
-    .line 1
     if-eqz p1, :cond_10
 
-    .line 2
-    .line 3
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzc:Z
 
-    .line 4
-    .line 5
     if-nez v0, :cond_0
 
-    .line 6
-    .line 7
     iget-boolean v0, p1, Lcom/google/android/gms/internal/ads/zzalw;->zzc:Z
 
-    .line 8
-    .line 9
     if-eqz v0, :cond_0
 
-    .line 10
-    .line 11
     iget v0, p1, Lcom/google/android/gms/internal/ads/zzalw;->zzb:I
 
-    .line 12
-    .line 13
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/zzalw;->zzp(I)Lcom/google/android/gms/internal/ads/zzalw;
 
-    .line 14
-    .line 15
-    .line 16
     :cond_0
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzh:I
 
-    .line 17
-    .line 18
     const/4 v1, -0x1
 
-    .line 19
     if-ne v0, v1, :cond_1
 
-    .line 20
-    .line 21
     iget v0, p1, Lcom/google/android/gms/internal/ads/zzalw;->zzh:I
 
-    .line 22
-    .line 23
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzh:I
 
-    .line 24
-    .line 25
     :cond_1
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzi:I
 
-    .line 26
-    .line 27
     if-ne v0, v1, :cond_2
 
-    .line 28
-    .line 29
     iget v0, p1, Lcom/google/android/gms/internal/ads/zzalw;->zzi:I
 
-    .line 30
-    .line 31
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzi:I
 
-    .line 32
-    .line 33
     :cond_2
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zza:Ljava/lang/String;
 
-    .line 34
-    .line 35
     if-nez v0, :cond_3
 
-    .line 36
-    .line 37
     iget-object v0, p1, Lcom/google/android/gms/internal/ads/zzalw;->zza:Ljava/lang/String;
 
-    .line 38
-    .line 39
     if-eqz v0, :cond_3
 
-    .line 40
-    .line 41
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zza:Ljava/lang/String;
 
-    .line 42
-    .line 43
     :cond_3
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzf:I
 
-    .line 44
-    .line 45
     if-ne v0, v1, :cond_4
 
-    .line 46
-    .line 47
     iget v0, p1, Lcom/google/android/gms/internal/ads/zzalw;->zzf:I
 
-    .line 48
-    .line 49
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzf:I
 
-    .line 50
-    .line 51
     :cond_4
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzg:I
 
-    .line 52
-    .line 53
     if-ne v0, v1, :cond_5
 
-    .line 54
-    .line 55
     iget v0, p1, Lcom/google/android/gms/internal/ads/zzalw;->zzg:I
 
-    .line 56
-    .line 57
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzg:I
 
-    .line 58
-    .line 59
     :cond_5
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzn:I
 
-    .line 60
-    .line 61
     if-ne v0, v1, :cond_6
 
-    .line 62
-    .line 63
     iget v0, p1, Lcom/google/android/gms/internal/ads/zzalw;->zzn:I
 
-    .line 64
-    .line 65
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzn:I
 
-    .line 66
-    .line 67
     :cond_6
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzo:Landroid/text/Layout$Alignment;
 
-    .line 68
-    .line 69
     if-nez v0, :cond_7
 
-    .line 70
-    .line 71
     iget-object v0, p1, Lcom/google/android/gms/internal/ads/zzalw;->zzo:Landroid/text/Layout$Alignment;
 
-    .line 72
-    .line 73
     if-eqz v0, :cond_7
 
-    .line 74
-    .line 75
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzo:Landroid/text/Layout$Alignment;
 
-    .line 76
-    .line 77
     :cond_7
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzp:Landroid/text/Layout$Alignment;
 
-    .line 78
-    .line 79
     if-nez v0, :cond_8
 
-    .line 80
-    .line 81
     iget-object v0, p1, Lcom/google/android/gms/internal/ads/zzalw;->zzp:Landroid/text/Layout$Alignment;
 
-    .line 82
-    .line 83
     if-eqz v0, :cond_8
 
-    .line 84
-    .line 85
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzp:Landroid/text/Layout$Alignment;
 
-    .line 86
-    .line 87
     :cond_8
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzq:I
 
-    .line 88
-    .line 89
     if-ne v0, v1, :cond_9
 
-    .line 90
-    .line 91
     iget v0, p1, Lcom/google/android/gms/internal/ads/zzalw;->zzq:I
 
-    .line 92
-    .line 93
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzq:I
 
-    .line 94
-    .line 95
     :cond_9
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzj:I
 
-    .line 96
-    .line 97
     if-ne v0, v1, :cond_a
 
-    .line 98
-    .line 99
     iget v0, p1, Lcom/google/android/gms/internal/ads/zzalw;->zzj:I
 
-    .line 100
-    .line 101
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzj:I
 
-    .line 102
-    .line 103
     iget v0, p1, Lcom/google/android/gms/internal/ads/zzalw;->zzk:F
 
-    .line 104
-    .line 105
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzk:F
 
-    .line 106
-    .line 107
     :cond_a
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzr:Lcom/google/android/gms/internal/ads/zzalp;
 
-    .line 108
-    .line 109
     if-nez v0, :cond_b
 
-    .line 110
-    .line 111
     iget-object v0, p1, Lcom/google/android/gms/internal/ads/zzalw;->zzr:Lcom/google/android/gms/internal/ads/zzalp;
 
-    .line 112
-    .line 113
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzr:Lcom/google/android/gms/internal/ads/zzalp;
 
-    .line 114
-    .line 115
     :cond_b
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzs:F
 
-    .line 116
-    .line 117
     const v2, 0x7f7fffff    # Float.MAX_VALUE
 
-    .line 118
-    .line 119
-    .line 120
     cmpl-float v0, v0, v2
 
-    .line 121
-    .line 122
     if-nez v0, :cond_c
 
-    .line 123
-    .line 124
     iget v0, p1, Lcom/google/android/gms/internal/ads/zzalw;->zzs:F
 
-    .line 125
-    .line 126
     iput v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzs:F
 
-    .line 127
-    .line 128
     :cond_c
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzt:Ljava/lang/String;
 
-    .line 129
-    .line 130
     if-nez v0, :cond_d
 
-    .line 131
-    .line 132
     iget-object v0, p1, Lcom/google/android/gms/internal/ads/zzalw;->zzt:Ljava/lang/String;
 
-    .line 133
-    .line 134
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzt:Ljava/lang/String;
 
-    .line 135
-    .line 136
     :cond_d
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzu:Ljava/lang/String;
 
-    .line 137
-    .line 138
     if-nez v0, :cond_e
 
-    .line 139
-    .line 140
     iget-object v0, p1, Lcom/google/android/gms/internal/ads/zzalw;->zzu:Ljava/lang/String;
 
-    .line 141
-    .line 142
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzu:Ljava/lang/String;
 
-    .line 143
-    .line 144
     :cond_e
     iget-boolean v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zze:Z
 
-    .line 145
-    .line 146
     if-nez v0, :cond_f
 
-    .line 147
-    .line 148
     iget-boolean v0, p1, Lcom/google/android/gms/internal/ads/zzalw;->zze:Z
 
-    .line 149
-    .line 150
     if-eqz v0, :cond_f
 
-    .line 151
-    .line 152
     iget v0, p1, Lcom/google/android/gms/internal/ads/zzalw;->zzd:I
 
-    .line 153
-    .line 154
     invoke-virtual {p0, v0}, Lcom/google/android/gms/internal/ads/zzalw;->zzm(I)Lcom/google/android/gms/internal/ads/zzalw;
 
-    .line 155
-    .line 156
-    .line 157
     :cond_f
     iget v0, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzm:I
 
-    .line 158
-    .line 159
     if-ne v0, v1, :cond_10
 
-    .line 160
-    .line 161
     iget p1, p1, Lcom/google/android/gms/internal/ads/zzalw;->zzm:I
 
-    .line 162
-    .line 163
     if-eq p1, v1, :cond_10
 
-    .line 164
-    .line 165
     iput p1, p0, Lcom/google/android/gms/internal/ads/zzalw;->zzm:I
 
-    .line 166
-    .line 167
     :cond_10
     return-object p0
-    .line 168
-    .line 169
-    .line 170
-    .line 171
-    .line 172
-    .line 173
-    .line 174
-    .line 175
-    .line 176
-    .line 177
-    .line 178
-    .line 179
-    .line 180
-    .line 181
-    .line 182
-    .line 183
-    .line 184
-    .line 185
-    .line 186
-    .line 187
-    .line 188
-    .line 189
-    .line 190
-    .line 191
-    .line 192
-    .line 193
-    .line 194
-    .line 195
-    .line 196
-    .line 197
-    .line 198
-    .line 199
-    .line 200
-    .line 201
-    .line 202
-    .line 203
-    .line 204
-    .line 205
-    .line 206
-    .line 207
-    .line 208
-    .line 209
-    .line 210
-    .line 211
-    .line 212
-    .line 213
-    .line 214
-    .line 215
-    .line 216
-    .line 217
-    .line 218
-    .line 219
-    .line 220
-    .line 221
-    .line 222
-    .line 223
-    .line 224
-    .line 225
-    .line 226
-    .line 227
 .end method
 
 .method public final zzm(I)Lcom/google/android/gms/internal/ads/zzalw;

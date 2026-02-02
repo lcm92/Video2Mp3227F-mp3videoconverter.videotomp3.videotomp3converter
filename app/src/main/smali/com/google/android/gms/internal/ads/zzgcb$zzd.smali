@@ -31,7 +31,6 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     const/4 v0, 0x0
@@ -46,7 +45,6 @@
 .method constructor <init>(Ljava/lang/Runnable;Ljava/util/concurrent/Executor;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     iput-object p1, p0, Lcom/google/android/gms/internal/ads/zzgcb$zzd;->zzb:Ljava/lang/Runnable;

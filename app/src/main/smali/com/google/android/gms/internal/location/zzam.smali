@@ -22,16 +22,16 @@
 .method public abstract zzh(JZLandroid/app/PendingIntent;)V
 .end method
 
-.method public abstract zzi(Lcom/google/android/gms/location/ActivityTransitionRequest;Landroid/app/PendingIntent;Lpl0;)V
+.method public abstract zzi(Lcom/google/android/gms/location/ActivityTransitionRequest;Landroid/app/PendingIntent;Ldef/PL0;)V
 .end method
 
-.method public abstract zzj(Landroid/app/PendingIntent;Lpl0;)V
+.method public abstract zzj(Landroid/app/PendingIntent;Ldef/PL0;)V
 .end method
 
 .method public abstract zzk(Landroid/app/PendingIntent;)V
 .end method
 
-.method public abstract zzl(Landroid/app/PendingIntent;Lpl0;)V
+.method public abstract zzl(Landroid/app/PendingIntent;Ldef/PL0;)V
 .end method
 
 .method public abstract zzm()Landroid/location/Location;
@@ -63,5 +63,5 @@
 .method public abstract zzu(Lcom/google/android/gms/internal/location/zzl;)V
 .end method
 
-.method public abstract zzv(Landroid/app/PendingIntent;Lcom/google/android/gms/location/SleepSegmentRequest;Lpl0;)V
+.method public abstract zzv(Landroid/app/PendingIntent;Lcom/google/android/gms/location/SleepSegmentRequest;Ldef/PL0;)V
 .end method

@@ -14,33 +14,27 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     return-void
 .end method
 
 .method public static rk()Lcom/bytedance/sdk/openadsdk/AXL/aAs/DK;
     .locals 2
 
-    .line 3
     sget-object v0, Lcom/bytedance/sdk/openadsdk/AXL/aAs/DK;->rk:Lcom/bytedance/sdk/openadsdk/AXL/aAs/DK;
 
     if-nez v0, :cond_1
 
-    .line 4
     const-class v0, Lcom/bytedance/sdk/openadsdk/AXL/aAs/DK;
 
     monitor-enter v0
 
-    .line 5
     :try_start_0
     sget-object v1, Lcom/bytedance/sdk/openadsdk/AXL/aAs/DK;->rk:Lcom/bytedance/sdk/openadsdk/AXL/aAs/DK;
 
     if-nez v1, :cond_0
 
-    .line 6
     new-instance v1, Lcom/bytedance/sdk/openadsdk/AXL/aAs/DK;
 
     invoke-direct {v1}, Lcom/bytedance/sdk/openadsdk/AXL/aAs/DK;-><init>()V
@@ -54,7 +48,6 @@
 
     goto :goto_1
 
-    .line 7
     :cond_0
     :goto_0
     monitor-exit v0
@@ -68,7 +61,6 @@
 
     throw v1
 
-    .line 8
     :cond_1
     :goto_2
     sget-object v0, Lcom/bytedance/sdk/openadsdk/AXL/aAs/DK;->rk:Lcom/bytedance/sdk/openadsdk/AXL/aAs/DK;
@@ -81,13 +73,11 @@
 .method public rk(Lcom/bytedance/sdk/openadsdk/AXL/fFV;)V
     .locals 0
 
-    .line 1
     return-void
 .end method
 
 .method public rk(Lcom/bytedance/sdk/openadsdk/AXL/fFV;Z)V
     .locals 0
 
-    .line 2
     return-void
 .end method

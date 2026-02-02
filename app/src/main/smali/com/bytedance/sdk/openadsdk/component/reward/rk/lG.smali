@@ -4,28 +4,24 @@
 
 
 # instance fields
-.field private final rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+.field private final rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
 
 # direct methods
-.method public constructor <init>(Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;)V
+.method public constructor <init>(Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
-    iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    .line 6
     return-void
 .end method
 
-.method static synthetic rk(Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;)Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+.method static synthetic rk(Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;)Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
     .locals 0
 
-    .line 1
-    iget-object p0, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object p0, p0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
     return-object p0
 .end method
@@ -41,24 +37,20 @@
 
     move-object/from16 v8, p3
 
-    .line 2
     invoke-static/range {p1 .. p1}, Ljava/util/Arrays;->toString([F)Ljava/lang/String;
 
-    .line 3
-    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->fFV:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
+    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->fFV:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
 
     invoke-virtual {v0}, Lcom/bytedance/sdk/openadsdk/core/model/HmR;->mux()I
 
     move-result v0
 
-    .line 4
     new-instance v1, Lcom/bytedance/sdk/openadsdk/AdSlot$Builder;
 
     invoke-direct {v1}, Lcom/bytedance/sdk/openadsdk/AdSlot$Builder;-><init>()V
 
-    .line 5
     invoke-static {v0}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object v0
@@ -73,15 +65,12 @@
 
     const/4 v10, 0x1
 
-    .line 6
     invoke-static {v10}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v11
 
-    .line 7
     aget v2, p1, v10
 
-    .line 8
     invoke-virtual {v0, v1, v2}, Lcom/bytedance/sdk/openadsdk/AdSlot$Builder;->setExpressViewAcceptedSize(FF)Lcom/bytedance/sdk/openadsdk/AdSlot$Builder;
 
     move-result-object v0
@@ -90,40 +79,36 @@
 
     move-result-object v0
 
-    .line 9
-    iget-object v1, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object v1, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    iget-object v2, v1, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->rET:Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;
+    iget-object v2, v1, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->rET:Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;
 
-    iget-object v1, v1, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->NmB:Lcom/bytedance/sdk/openadsdk/component/reward/view/NCs;
+    iget-object v1, v1, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->NmB:Lcom/bytedance/sdk/openadsdk/component/reward/view/NCs;
 
     iget-object v1, v1, Lcom/bytedance/sdk/openadsdk/component/reward/view/NCs;->AXL:Lcom/bytedance/sdk/openadsdk/core/model/KR;
 
     invoke-virtual {v2, v0, v1}, Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;->rk(Lcom/bytedance/sdk/openadsdk/AdSlot;Lcom/bytedance/sdk/openadsdk/core/model/KR;)V
 
-    .line 10
-    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    iget-object v1, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->hWw:Lcom/bytedance/sdk/openadsdk/component/reward/rk/woP;
+    iget-object v1, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->hWw:Lcom/bytedance/sdk/openadsdk/component/reward/rk/woP;
 
     if-eqz v1, :cond_0
 
-    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->rET:Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;
+    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->rET:Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;
 
     if-eqz v0, :cond_0
 
-    .line 11
     invoke-virtual {v0}, Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;->rk()Lcom/bytedance/sdk/openadsdk/component/reward/view/DK;
 
     move-result-object v0
 
     invoke-virtual {v1, v0}, Lcom/bytedance/sdk/openadsdk/component/reward/rk/woP;->rk(Lcom/bytedance/sdk/component/adexpress/dynamic/DK;)V
 
-    .line 12
     :cond_0
-    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->rET:Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;
+    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->rET:Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;
 
     new-instance v1, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG$1;
 
@@ -131,10 +116,9 @@
 
     invoke-virtual {v0, v1}, Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;->rk(Lcom/bytedance/sdk/openadsdk/core/pw/AXL;)V
 
-    .line 13
-    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->rET:Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;
+    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->rET:Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;
 
     new-instance v1, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG$2;
 
@@ -142,16 +126,15 @@
 
     invoke-virtual {v0, v1}, Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;->rk(Lcom/bytedance/sdk/openadsdk/api/PAGExpressAdWrapperListener;)V
 
-    .line 14
     new-instance v12, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG$3;
 
-    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    iget-object v2, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->Bt:Landroid/app/Activity;
+    iget-object v2, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->Bt:Landroid/app/Activity;
 
-    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->fFV:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
+    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->fFV:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
 
-    iget-object v4, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->rQf:Ljava/lang/String;
+    iget-object v4, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->rQf:Ljava/lang/String;
 
     invoke-static {v4}, Lcom/bytedance/sdk/openadsdk/utils/NmB;->rk(Ljava/lang/String;)I
 
@@ -163,22 +146,19 @@
 
     invoke-direct/range {v0 .. v5}, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG$3;-><init>(Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;Landroid/content/Context;Lcom/bytedance/sdk/openadsdk/core/model/HmR;Ljava/lang/String;I)V
 
-    .line 15
     new-instance v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG$4;
 
     invoke-direct {v0, p0, v7}, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG$4;-><init>(Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;Lcom/bytedance/sdk/openadsdk/core/NCs/DK/fFV;)V
 
-    invoke-virtual {v12, v0}, Lcom/bytedance/sdk/openadsdk/core/fFV/fFV;->rk(Lcom/bytedance/sdk/openadsdk/core/fFV/fFV$rk;)V
+    invoke-virtual {v12, v0}, Lcom/bytedance/sdk/openadsdk/core/fFV/fFV;->rk(Lcom/bytedance/sdk/openadsdk/core/fFV/fFV$RKF1;)V
 
-    .line 16
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 17
-    iget-object v1, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object v1, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    iget-object v1, v1, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->fFV:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
+    iget-object v1, v1, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->fFV:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
 
     invoke-static {v1}, Lcom/bytedance/sdk/openadsdk/core/model/rET;->lgt(Lcom/bytedance/sdk/openadsdk/core/model/HmR;)Z
 
@@ -190,7 +170,6 @@
 
     if-eqz v1, :cond_1
 
-    .line 18
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -199,39 +178,33 @@
 
     goto :goto_0
 
-    .line 19
     :cond_1
     invoke-interface {v0, v14, v11}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 20
     :goto_0
-    iget-object v1, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object v1, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    iget-boolean v2, v1, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->GA:Z
+    iget-boolean v2, v1, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->GA:Z
 
     if-eqz v2, :cond_2
 
-    iget-object v1, v1, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->Pt:Lcom/bytedance/sdk/openadsdk/activity/pw;
+    iget-object v1, v1, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->Pt:Lcom/bytedance/sdk/openadsdk/activity/PWAOC;
 
     if-eqz v1, :cond_2
 
-    .line 21
-    iget v1, v1, Lcom/bytedance/sdk/openadsdk/activity/pw;->NCs:I
+    iget v1, v1, Lcom/bytedance/sdk/openadsdk/activity/PWAOC;->NCs:I
 
     add-int/2addr v1, v10
 
-    .line 22
     :try_start_0
     new-instance v2, Lorg/json/JSONObject;
 
     invoke-direct {v2}, Lorg/json/JSONObject;-><init>()V
 
-    .line 23
     const-string v3, "ad_show_order"
 
     invoke-virtual {v2, v3, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 24
     const-string v1, "pag_json_data"
 
     invoke-virtual {v2}, Lorg/json/JSONObject;->toString()Ljava/lang/String;
@@ -242,21 +215,19 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 25
     :catchall_0
     :cond_2
     invoke-virtual {v12, v0}, Lcom/bytedance/sdk/openadsdk/core/fFV/fFV;->rk(Ljava/util/Map;)V
 
-    .line 26
     new-instance v10, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG$5;
 
-    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    iget-object v2, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->Bt:Landroid/app/Activity;
+    iget-object v2, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->Bt:Landroid/app/Activity;
 
-    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->fFV:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
+    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->fFV:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
 
-    iget-object v4, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->rQf:Ljava/lang/String;
+    iget-object v4, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->rQf:Ljava/lang/String;
 
     invoke-static {v4}, Lcom/bytedance/sdk/openadsdk/utils/NmB;->rk(Ljava/lang/String;)I
 
@@ -268,22 +239,19 @@
 
     invoke-direct/range {v0 .. v5}, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG$5;-><init>(Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;Landroid/content/Context;Lcom/bytedance/sdk/openadsdk/core/model/HmR;Ljava/lang/String;I)V
 
-    .line 27
     new-instance v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG$6;
 
     invoke-direct {v0, p0, v7}, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG$6;-><init>(Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;Lcom/bytedance/sdk/openadsdk/core/NCs/DK/fFV;)V
 
-    invoke-virtual {v10, v0}, Lcom/bytedance/sdk/openadsdk/core/fFV/fFV;->rk(Lcom/bytedance/sdk/openadsdk/core/fFV/fFV$rk;)V
+    invoke-virtual {v10, v0}, Lcom/bytedance/sdk/openadsdk/core/fFV/fFV;->rk(Lcom/bytedance/sdk/openadsdk/core/fFV/fFV$RKF1;)V
 
-    .line 28
     new-instance v0, Ljava/util/HashMap;
 
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 29
-    iget-object v1, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object v1, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    iget-object v1, v1, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->fFV:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
+    iget-object v1, v1, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->fFV:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
 
     invoke-static {v1}, Lcom/bytedance/sdk/openadsdk/core/model/rET;->lgt(Lcom/bytedance/sdk/openadsdk/core/model/HmR;)Z
 
@@ -291,7 +259,6 @@
 
     if-eqz v1, :cond_3
 
-    .line 30
     invoke-static {v13}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v1
@@ -300,25 +267,21 @@
 
     goto :goto_1
 
-    .line 31
     :cond_3
     invoke-interface {v0, v14, v11}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 32
     :goto_1
     invoke-virtual {v10, v0}, Lcom/bytedance/sdk/openadsdk/core/fFV/fFV;->rk(Ljava/util/Map;)V
 
-    .line 33
-    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->rET:Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;
+    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->rET:Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;
 
-    invoke-virtual {v0, v12, v10}, Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;->rk(Lcom/bytedance/sdk/openadsdk/core/pw/ppR;Lcom/bytedance/sdk/openadsdk/core/pw/pw;)V
+    invoke-virtual {v0, v12, v10}, Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;->rk(Lcom/bytedance/sdk/openadsdk/core/pw/ppR;Lcom/bytedance/sdk/openadsdk/core/pw/PWPCC;)V
 
-    .line 34
-    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->fFV:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
+    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->fFV:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
 
     invoke-virtual {v0}, Lcom/bytedance/sdk/openadsdk/core/model/HmR;->Bd()Z
 
@@ -328,18 +291,16 @@
 
     if-eqz v0, :cond_4
 
-    .line 35
     new-instance v0, Landroid/widget/FrameLayout$LayoutParams;
 
     invoke-direct {v0, v1, v1}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
 
     goto :goto_2
 
-    .line 36
     :cond_4
-    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->fFV:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
+    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->fFV:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
 
     invoke-virtual {v0}, Lcom/bytedance/sdk/openadsdk/core/model/HmR;->NsX()I
 
@@ -351,18 +312,16 @@
 
     if-eqz v0, :cond_5
 
-    .line 37
     new-instance v0, Landroid/widget/FrameLayout$LayoutParams;
 
     invoke-direct {v0, v1, v1}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
 
     goto :goto_2
 
-    .line 38
     :cond_5
-    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->fFV:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
+    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->fFV:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
 
     invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/core/model/KR;->aAs(Lcom/bytedance/sdk/openadsdk/core/model/HmR;)Z
 
@@ -370,14 +329,12 @@
 
     if-eqz v0, :cond_6
 
-    .line 39
     new-instance v0, Landroid/widget/FrameLayout$LayoutParams;
 
     invoke-direct {v0, v1, v1}, Landroid/widget/FrameLayout$LayoutParams;-><init>(II)V
 
     goto :goto_2
 
-    .line 40
     :cond_6
     new-instance v0, Landroid/widget/FrameLayout$LayoutParams;
 
@@ -388,21 +345,19 @@
     :goto_2
     const/16 v1, 0x11
 
-    .line 41
     iput v1, v0, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 42
-    iget-object v1, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object v1, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    iget-object v1, v1, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->NmB:Lcom/bytedance/sdk/openadsdk/component/reward/view/NCs;
+    iget-object v1, v1, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->NmB:Lcom/bytedance/sdk/openadsdk/component/reward/view/NCs;
 
     invoke-virtual {v1}, Lcom/bytedance/sdk/openadsdk/component/reward/view/NCs;->lG()Landroid/widget/FrameLayout;
 
     move-result-object v1
 
-    iget-object v2, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object v2, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    iget-object v2, v2, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->rET:Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;
+    iget-object v2, v2, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->rET:Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;
 
     invoke-virtual {v2}, Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;->rk()Lcom/bytedance/sdk/openadsdk/component/reward/view/DK;
 
@@ -410,10 +365,9 @@
 
     invoke-virtual {v1, v2, v0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 43
-    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->rET:Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;
+    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->rET:Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;
 
     invoke-virtual {v0}, Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;->ppR()Z
 
@@ -421,14 +375,12 @@
 
     if-nez v0, :cond_7
 
-    .line 44
-    invoke-virtual {v8, v9}, Lcom/bytedance/sdk/openadsdk/component/reward/fFV/rk;->rk(Z)V
+    invoke-virtual {v8, v9}, Lcom/bytedance/sdk/openadsdk/component/reward/fFV/RKFRC;->rk(Z)V
 
-    .line 45
     :cond_7
-    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;
+    iget-object v0, v6, Lcom/bytedance/sdk/openadsdk/component/reward/rk/lG;->rk:Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;
 
-    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/rk;->rET:Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;
+    iget-object v0, v0, Lcom/bytedance/sdk/openadsdk/component/reward/rk/RKRRC;->rET:Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;
 
     invoke-virtual {v0}, Lcom/bytedance/sdk/openadsdk/component/reward/view/ArD;->woP()V
 

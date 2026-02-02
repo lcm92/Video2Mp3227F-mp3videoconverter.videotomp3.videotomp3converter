@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x8
-    name = null
+    name = "1"
 .end annotation
 
 .annotation system Ldalvik/annotation/Signature;
@@ -40,7 +40,6 @@
 .method public bridge synthetic rk(Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p1, Ljava/lang/Throwable;
 
     invoke-virtual {p0, p1}, Lcom/bytedance/adsdk/fFV/lG$1;->rk(Ljava/lang/Throwable;)V
@@ -51,7 +50,6 @@
 .method public rk(Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 2
     invoke-static {p1}, Lcom/bytedance/adsdk/fFV/lG/lG;->rk(Ljava/lang/Throwable;)Z
 
     return-void

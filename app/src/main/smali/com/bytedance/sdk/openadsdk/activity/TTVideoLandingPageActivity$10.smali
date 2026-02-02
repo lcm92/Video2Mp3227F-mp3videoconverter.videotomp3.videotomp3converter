@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "10"
 .end annotation
 
 
@@ -25,13 +25,10 @@
 .method constructor <init>(Lcom/bytedance/sdk/openadsdk/activity/TTVideoLandingPageActivity;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/activity/TTVideoLandingPageActivity$10;->rk:Lcom/bytedance/sdk/openadsdk/activity/TTVideoLandingPageActivity;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method
 
@@ -40,26 +37,22 @@
 .method public rk(ILjava/lang/String;Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 1
     return-void
 .end method
 
 .method public rk(Lcom/bytedance/sdk/component/rQf/nP;)V
     .locals 3
 
-    .line 2
     :try_start_0
     invoke-interface {p1}, Lcom/bytedance/sdk/component/rQf/nP;->fFV()Ljava/lang/Object;
 
     move-result-object p1
 
-    .line 3
     instance-of v0, p1, Landroid/graphics/Bitmap;
 
     if-eqz v0, :cond_0
 
-    .line 4
-    new-instance v0, Lcom/bytedance/sdk/openadsdk/activity/TTVideoLandingPageActivity$rk;
+    new-instance v0, Lcom/bytedance/sdk/openadsdk/activity/TTVideoLandingPageActivity$RKT1;
 
     check-cast p1, Landroid/graphics/Bitmap;
 
@@ -71,13 +64,13 @@
 
     move-result-object v1
 
-    invoke-virtual {v1}, Lcom/bytedance/sdk/openadsdk/core/NCs/rk/rk;->HmR()Lcom/bytedance/sdk/openadsdk/core/NCs/fFV/rQf;
+    invoke-virtual {v1}, Lcom/bytedance/sdk/openadsdk/core/NCs/rk/RKRNC;->HmR()Lcom/bytedance/sdk/openadsdk/core/NCs/fFV/rQf;
 
     move-result-object v1
 
     const/4 v2, 0x0
 
-    invoke-direct {v0, p1, v1, v2}, Lcom/bytedance/sdk/openadsdk/activity/TTVideoLandingPageActivity$rk;-><init>(Landroid/graphics/Bitmap;Lkg2;Lcom/bytedance/sdk/openadsdk/activity/TTVideoLandingPageActivity$1;)V
+    invoke-direct {v0, p1, v1, v2}, Lcom/bytedance/sdk/openadsdk/activity/TTVideoLandingPageActivity$RKT1;-><init>(Landroid/graphics/Bitmap;Ldef/KG2;Lcom/bytedance/sdk/openadsdk/activity/TTVideoLandingPageActivity$1;)V
 
     const/4 p1, 0x0
 

@@ -15,19 +15,19 @@
 .method public static createAdSession(Lcom/iab/omid/library/bytedance2/adsession/AdSessionConfiguration;Lcom/iab/omid/library/bytedance2/adsession/AdSessionContext;)Lcom/iab/omid/library/bytedance2/adsession/AdSession;
     .locals 1
 
-    invoke-static {}, Lcom/iab/omid/library/bytedance2/utils/g;->a()V
+    invoke-static {}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a()V
 
     const-string v0, "AdSessionConfiguration is null"
 
-    invoke-static {p0, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "AdSessionContext is null"
 
-    invoke-static {p1, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    new-instance v0, Lcom/iab/omid/library/bytedance2/adsession/a;
+    new-instance v0, Lcom/iab/omid/library/bytedance2/adsession/AABC;
 
-    invoke-direct {v0, p0, p1}, Lcom/iab/omid/library/bytedance2/adsession/a;-><init>(Lcom/iab/omid/library/bytedance2/adsession/AdSessionConfiguration;Lcom/iab/omid/library/bytedance2/adsession/AdSessionContext;)V
+    invoke-direct {v0, p0, p1}, Lcom/iab/omid/library/bytedance2/adsession/AABC;-><init>(Lcom/iab/omid/library/bytedance2/adsession/AdSessionConfiguration;Lcom/iab/omid/library/bytedance2/adsession/AdSessionContext;)V
 
     return-object v0
 .end method

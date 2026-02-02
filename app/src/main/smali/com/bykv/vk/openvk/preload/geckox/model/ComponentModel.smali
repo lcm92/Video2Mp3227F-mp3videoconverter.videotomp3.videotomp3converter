@@ -6,15 +6,15 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/bykv/vk/openvk/preload/geckox/model/ComponentModel$a;,
-        Lcom/bykv/vk/openvk/preload/geckox/model/ComponentModel$b;
+        Lcom/bykv/vk/openvk/preload/geckox/model/ComponentModel$AC1;,
+        Lcom/bykv/vk/openvk/preload/geckox/model/ComponentModel$BC1;
     }
 .end annotation
 
 
 # instance fields
 .field private packages:Ljava/util/Map;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "packages"
     .end annotation
 
@@ -30,7 +30,7 @@
 .end field
 
 .field private universalStrategies:Ljava/util/Map;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "universal_strategies"
     .end annotation
 
@@ -38,7 +38,7 @@
         value = {
             "Ljava/util/Map<",
             "Ljava/lang/String;",
-            "Lcom/bykv/vk/openvk/preload/geckox/model/ComponentModel$b;",
+            "Lcom/bykv/vk/openvk/preload/geckox/model/ComponentModel$BC1;",
             ">;"
         }
     .end annotation
@@ -69,10 +69,8 @@
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bykv/vk/openvk/preload/geckox/model/ComponentModel;->packages:Ljava/util/Map;
 
-    .line 3
     return-object v0
 .end method
 
@@ -83,14 +81,12 @@
             "()",
             "Ljava/util/Map<",
             "Ljava/lang/String;",
-            "Lcom/bykv/vk/openvk/preload/geckox/model/ComponentModel$b;",
+            "Lcom/bykv/vk/openvk/preload/geckox/model/ComponentModel$BC1;",
             ">;"
         }
     .end annotation
 
-    .line 1
     iget-object v0, p0, Lcom/bykv/vk/openvk/preload/geckox/model/ComponentModel;->universalStrategies:Ljava/util/Map;
 
-    .line 3
     return-object v0
 .end method

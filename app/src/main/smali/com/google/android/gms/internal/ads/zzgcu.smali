@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract zza(Ljava/lang/Object;)Lmt0;
+.method public abstract zza(Ljava/lang/Object;)Ldef/MT0;
 .end method

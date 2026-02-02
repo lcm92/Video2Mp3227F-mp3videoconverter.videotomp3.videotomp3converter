@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/bytedance/sdk/openadsdk/core/rET$rk;
+        Lcom/bytedance/sdk/openadsdk/core/rET$RKR1;
     }
 .end annotation
 
@@ -18,5 +18,5 @@
 .method public abstract rk()V
 .end method
 
-.method public abstract rk(Lcom/bytedance/sdk/openadsdk/core/rET$rk;)V
+.method public abstract rk(Lcom/bytedance/sdk/openadsdk/core/rET$RKR1;)V
 .end method

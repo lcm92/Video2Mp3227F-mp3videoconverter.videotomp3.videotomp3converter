@@ -8,7 +8,7 @@
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/List<",
-            "Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;",
+            "Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;",
             ">;"
         }
     .end annotation
@@ -31,7 +31,7 @@
 
 .field public fFV:F
 
-.field public lG:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;
+.field public lG:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;
 
 .field public ppR:F
 
@@ -46,9 +46,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     return-void
 .end method

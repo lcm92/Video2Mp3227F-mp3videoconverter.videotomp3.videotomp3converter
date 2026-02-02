@@ -3,5 +3,5 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/bytedance/sdk/component/fFV/rk/fFV/pw;
+.implements Lcom/bytedance/sdk/component/fFV/rk/fFV/PWFRC;
 .implements Ljava/nio/channels/WritableByteChannel;

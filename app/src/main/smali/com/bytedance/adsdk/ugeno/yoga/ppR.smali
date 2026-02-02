@@ -7,12 +7,10 @@
 .method public static rk(FF)J
     .locals 2
 
-    .line 1
     invoke-static {p0}, Ljava/lang/Float;->floatToRawIntBits(F)I
 
     move-result p0
 
-    .line 2
     invoke-static {p1}, Ljava/lang/Float;->floatToRawIntBits(F)I
 
     move-result p1
@@ -37,7 +35,6 @@
 
     int-to-float p1, p1
 
-    .line 3
     invoke-static {p0, p1}, Lcom/bytedance/adsdk/ugeno/yoga/ppR;->rk(FF)J
 
     move-result-wide p0

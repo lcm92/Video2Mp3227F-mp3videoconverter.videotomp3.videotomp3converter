@@ -3,61 +3,48 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/lifecycle/d;
+.implements Landroidx/lifecycle/DLA;
 
 
 # instance fields
 .field private final a:Ljava/lang/Object;
 
-.field private final b:Landroidx/lifecycle/a$a;
+.field private final b:Landroidx/lifecycle/ALA$AA1;
 
 
 # direct methods
 .method constructor <init>(Ljava/lang/Object;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Landroidx/lifecycle/ReflectiveGenericLifecycleObserver;->a:Ljava/lang/Object;
 
-    .line 6
-    sget-object v0, Landroidx/lifecycle/a;->c:Landroidx/lifecycle/a;
+    sget-object v0, Landroidx/lifecycle/ALA;->c:Landroidx/lifecycle/ALA;
 
-    .line 8
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    .line 11
     move-result-object p1
 
-    .line 12
-    invoke-virtual {v0, p1}, Landroidx/lifecycle/a;->c(Ljava/lang/Class;)Landroidx/lifecycle/a$a;
+    invoke-virtual {v0, p1}, Landroidx/lifecycle/ALA;->c(Ljava/lang/Class;)Landroidx/lifecycle/ALA$AA1;
 
-    .line 15
     move-result-object p1
 
-    .line 16
-    iput-object p1, p0, Landroidx/lifecycle/ReflectiveGenericLifecycleObserver;->b:Landroidx/lifecycle/a$a;
+    iput-object p1, p0, Landroidx/lifecycle/ReflectiveGenericLifecycleObserver;->b:Landroidx/lifecycle/ALA$AA1;
 
-    .line 18
     return-void
 .end method
 
 
 # virtual methods
-.method public a(Lzs0;Landroidx/lifecycle/c$b;)V
+.method public a(Ldef/ZS0;Landroidx/lifecycle/CLA$BC1;)V
     .locals 2
 
-    .line 1
-    iget-object v0, p0, Landroidx/lifecycle/ReflectiveGenericLifecycleObserver;->b:Landroidx/lifecycle/a$a;
+    iget-object v0, p0, Landroidx/lifecycle/ReflectiveGenericLifecycleObserver;->b:Landroidx/lifecycle/ALA$AA1;
 
-    .line 3
     iget-object v1, p0, Landroidx/lifecycle/ReflectiveGenericLifecycleObserver;->a:Ljava/lang/Object;
 
-    .line 5
-    invoke-virtual {v0, p1, p2, v1}, Landroidx/lifecycle/a$a;->a(Lzs0;Landroidx/lifecycle/c$b;Ljava/lang/Object;)V
+    invoke-virtual {v0, p1, p2, v1}, Landroidx/lifecycle/ALA$AA1;->a(Ldef/ZS0;Landroidx/lifecycle/CLA$BC1;Ljava/lang/Object;)V
 
-    .line 8
     return-void
 .end method

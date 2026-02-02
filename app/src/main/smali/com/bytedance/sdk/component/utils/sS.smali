@@ -13,7 +13,6 @@
 
     return v0
 
-    .line 1
     :cond_0
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
 
@@ -27,7 +26,6 @@
 
     return p0
 
-    .line 2
     :cond_1
     invoke-virtual {p0}, Ljava/io/File;->getParentFile()Ljava/io/File;
 
@@ -41,7 +39,6 @@
 
     return v0
 
-    .line 3
     :cond_2
     :try_start_0
     invoke-virtual {p0}, Ljava/io/File;->createNewFile()Z
@@ -65,7 +62,6 @@
 
     return v0
 
-    .line 4
     :cond_0
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
@@ -78,7 +74,6 @@
     :goto_0
     if-ge v3, v1, :cond_2
 
-    .line 5
     invoke-virtual {p0, v3}, Ljava/lang/String;->charAt(I)C
 
     move-result v4
@@ -103,7 +98,6 @@
 .method private static rk(Ljava/lang/String;)Ljava/io/File;
     .locals 1
 
-    .line 38
     invoke-static {p0}, Lcom/bytedance/sdk/component/utils/sS;->fFV(Ljava/lang/String;)Z
 
     move-result v0
@@ -143,23 +137,19 @@
 
     goto :goto_3
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 4
     new-instance v1, Ljava/util/zip/ZipFile;
 
     invoke-direct {v1, p0}, Ljava/util/zip/ZipFile;-><init>(Ljava/io/File;)V
 
-    .line 5
     invoke-virtual {v1}, Ljava/util/zip/ZipFile;->entries()Ljava/util/Enumeration;
 
     move-result-object p0
 
-    .line 6
     :try_start_0
     invoke-static {p2}, Lcom/bytedance/sdk/component/utils/sS;->fFV(Ljava/lang/String;)Z
 
@@ -171,7 +161,6 @@
 
     if-eqz v2, :cond_3
 
-    .line 7
     :cond_1
     :goto_0
     :try_start_1
@@ -181,19 +170,16 @@
 
     if-eqz p2, :cond_5
 
-    .line 8
     invoke-interface {p0}, Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
 
     move-result-object p2
 
     check-cast p2, Ljava/util/zip/ZipEntry;
 
-    .line 9
     invoke-virtual {p2}, Ljava/util/zip/ZipEntry;->getName()Ljava/lang/String;
 
     move-result-object v2
 
-    .line 10
     invoke-virtual {v2, v3}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v4
@@ -202,7 +188,6 @@
 
     goto :goto_0
 
-    .line 11
     :cond_2
     invoke-static {p1, v0, v1, p2, v2}, Lcom/bytedance/sdk/component/utils/sS;->rk(Ljava/io/File;Ljava/util/List;Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/lang/String;)Z
 
@@ -212,7 +197,6 @@
 
     if-nez p2, :cond_1
 
-    .line 12
     invoke-virtual {v1}, Ljava/util/zip/ZipFile;->close()V
 
     return-object v0
@@ -222,7 +206,6 @@
 
     goto :goto_2
 
-    .line 13
     :cond_3
     :goto_1
     :try_start_2
@@ -232,19 +215,16 @@
 
     if-eqz v2, :cond_5
 
-    .line 14
     invoke-interface {p0}, Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/util/zip/ZipEntry;
 
-    .line 15
     invoke-virtual {v2}, Ljava/util/zip/ZipEntry;->getName()Ljava/lang/String;
 
     move-result-object v4
 
-    .line 16
     invoke-virtual {v4, v3}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
     move-result v5
@@ -253,7 +233,6 @@
 
     goto :goto_1
 
-    .line 17
     :cond_4
     invoke-virtual {v4, p2}, Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
 
@@ -261,7 +240,6 @@
 
     if-eqz v5, :cond_3
 
-    .line 18
     invoke-static {p1, v0, v1, v2, v4}, Lcom/bytedance/sdk/component/utils/sS;->rk(Ljava/io/File;Ljava/util/List;Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/lang/String;)Z
 
     move-result v2
@@ -270,7 +248,6 @@
 
     if-nez v2, :cond_3
 
-    .line 19
     invoke-virtual {v1}, Ljava/util/zip/ZipFile;->close()V
 
     return-object v0
@@ -308,7 +285,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, p1, v0}, Lcom/bytedance/sdk/component/utils/sS;->rk(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/List;
 
     move-result-object p0
@@ -331,7 +307,6 @@
         }
     .end annotation
 
-    .line 2
     invoke-static {p0}, Lcom/bytedance/sdk/component/utils/sS;->rk(Ljava/lang/String;)Ljava/io/File;
 
     move-result-object p0
@@ -352,7 +327,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 37
     invoke-virtual {p0}, Ljava/io/File;->exists()Z
 
     move-result v0
@@ -401,29 +375,24 @@
         }
     .end annotation
 
-    .line 20
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, p0, p4}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 21
     invoke-interface {p1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    .line 22
     invoke-virtual {p3}, Ljava/util/zip/ZipEntry;->isDirectory()Z
 
     move-result p0
 
     if-eqz p0, :cond_0
 
-    .line 23
     invoke-static {v0}, Lcom/bytedance/sdk/component/utils/sS;->rk(Ljava/io/File;)Z
 
     move-result p0
 
     return p0
 
-    .line 24
     :cond_0
     invoke-static {v0}, Lcom/bytedance/sdk/component/utils/sS;->fFV(Ljava/io/File;)Z
 
@@ -438,7 +407,6 @@
     :cond_1
     const/4 p0, 0x0
 
-    .line 25
     :try_start_0
     new-instance p4, Ljava/io/FileOutputStream;
 
@@ -446,7 +414,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_3
 
-    .line 26
     :try_start_1
     new-instance v0, Ljava/io/BufferedInputStream;
 
@@ -458,7 +425,6 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_2
 
-    .line 27
     :try_start_2
     new-instance p2, Ljava/io/BufferedOutputStream;
 
@@ -468,11 +434,9 @@
 
     const/16 p0, 0x2000
 
-    .line 28
     :try_start_3
     new-array p0, p0, [B
 
-    .line 29
     :goto_0
     invoke-virtual {v0, p0}, Ljava/io/InputStream;->read([B)I
 
@@ -482,7 +446,6 @@
 
     if-eq p3, v1, :cond_2
 
-    .line 30
     invoke-virtual {p2, p0, p1, p3}, Ljava/io/OutputStream;->write([BII)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
@@ -494,14 +457,11 @@
 
     goto :goto_2
 
-    .line 31
     :cond_2
     invoke-virtual {v0}, Ljava/io/InputStream;->close()V
 
-    .line 32
     invoke-virtual {p2}, Ljava/io/OutputStream;->close()V
 
-    .line 33
     invoke-virtual {p4}, Ljava/io/OutputStream;->close()V
 
     const/4 p0, 0x1
@@ -541,19 +501,16 @@
     :goto_2
     if-eqz v0, :cond_3
 
-    .line 34
     invoke-virtual {v0}, Ljava/io/InputStream;->close()V
 
     :cond_3
     if-eqz p2, :cond_4
 
-    .line 35
     invoke-virtual {p2}, Ljava/io/OutputStream;->close()V
 
     :cond_4
     if-eqz p4, :cond_5
 
-    .line 36
     invoke-virtual {p4}, Ljava/io/OutputStream;->close()V
 
     :cond_5

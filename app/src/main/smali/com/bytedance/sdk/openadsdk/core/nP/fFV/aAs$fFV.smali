@@ -28,7 +28,6 @@
 
     const/high16 v0, -0x40800000    # -1.0f
 
-    .line 1
     invoke-direct {p0, p1, p2, v0}, Lcom/bytedance/sdk/openadsdk/core/nP/fFV/aAs$fFV;-><init>(Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/core/model/HmR;F)V
 
     return-void
@@ -37,16 +36,12 @@
 .method public constructor <init>(Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/core/model/HmR;F)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/nP/fFV/aAs$fFV;->rk:Ljava/lang/String;
 
-    .line 4
     iput-object p2, p0, Lcom/bytedance/sdk/openadsdk/core/nP/fFV/aAs$fFV;->fFV:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
 
-    .line 5
     iput p3, p0, Lcom/bytedance/sdk/openadsdk/core/nP/fFV/aAs$fFV;->aAs:F
 
     return-void

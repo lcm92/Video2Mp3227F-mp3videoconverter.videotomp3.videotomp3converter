@@ -1,5 +1,5 @@
 .class public Lcom/bytedance/sdk/component/rQf/rQf/aAs;
-.super Lcom/bytedance/sdk/component/rQf/rQf/rk;
+.super Lcom/bytedance/sdk/component/rQf/rQf/RKRRC;
 .source "SourceFile"
 
 
@@ -7,10 +7,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
-    invoke-direct {p0}, Lcom/bytedance/sdk/component/rQf/rQf/rk;-><init>()V
+    invoke-direct {p0}, Lcom/bytedance/sdk/component/rQf/rQf/RKRRC;-><init>()V
 
-    .line 4
     return-void
 .end method
 
@@ -19,7 +17,6 @@
 .method public rk()Ljava/lang/String;
     .locals 1
 
-    .line 6
     const-string v0, "generate_key"
 
     return-object v0
@@ -28,7 +25,6 @@
 .method public rk(Lcom/bytedance/sdk/component/rQf/aAs/aAs;)V
     .locals 2
 
-    .line 1
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/rQf/aAs/aAs;->ArD()Ljava/lang/String;
 
     move-result-object v0
@@ -39,7 +35,6 @@
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/rQf/aAs/aAs;->KR()Lcom/bytedance/sdk/component/rQf/aAs/lG;
 
     move-result-object v0
@@ -48,21 +43,18 @@
 
     move-result-object v0
 
-    .line 3
     invoke-interface {v0, p1}, Lcom/bytedance/sdk/component/rQf/NCs;->rk(Lcom/bytedance/sdk/component/rQf/ppR;)Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {p1, v1}, Lcom/bytedance/sdk/component/rQf/aAs/aAs;->fFV(Ljava/lang/String;)V
 
-    .line 4
     invoke-interface {v0, p1}, Lcom/bytedance/sdk/component/rQf/NCs;->fFV(Lcom/bytedance/sdk/component/rQf/ppR;)Ljava/lang/String;
 
     move-result-object v0
 
     invoke-virtual {p1, v0}, Lcom/bytedance/sdk/component/rQf/aAs/aAs;->rk(Ljava/lang/String;)V
 
-    .line 5
     :cond_0
     new-instance v0, Lcom/bytedance/sdk/component/rQf/rQf/Yp;
 

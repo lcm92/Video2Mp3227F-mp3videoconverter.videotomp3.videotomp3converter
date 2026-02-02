@@ -36,33 +36,26 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Landroidx/appcompat/widget/Toolbar$SavedState$a;
 
-    .line 3
     invoke-direct {v0}, Landroidx/appcompat/widget/Toolbar$SavedState$a;-><init>()V
 
-    .line 6
     sput-object v0, Landroidx/appcompat/widget/Toolbar$SavedState;->CREATOR:Landroid/os/Parcelable$Creator;
 
-    .line 8
     return-void
 .end method
 
 .method public constructor <init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;-><init>(Landroid/os/Parcel;Ljava/lang/ClassLoader;)V
 
-    .line 2
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result p2
 
     iput p2, p0, Landroidx/appcompat/widget/Toolbar$SavedState;->c:I
 
-    .line 3
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result p1
@@ -85,7 +78,6 @@
 .method public constructor <init>(Landroid/os/Parcelable;)V
     .locals 0
 
-    .line 4
     invoke-direct {p0, p1}, Landroidx/customview/view/AbsSavedState;-><init>(Landroid/os/Parcelable;)V
 
     return-void
@@ -96,21 +88,15 @@
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1, p2}, Landroidx/customview/view/AbsSavedState;->writeToParcel(Landroid/os/Parcel;I)V
 
-    .line 4
     iget p2, p0, Landroidx/appcompat/widget/Toolbar$SavedState;->c:I
 
-    .line 6
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 9
     iget-boolean p2, p0, Landroidx/appcompat/widget/Toolbar$SavedState;->d:Z
 
-    .line 11
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 14
     return-void
 .end method

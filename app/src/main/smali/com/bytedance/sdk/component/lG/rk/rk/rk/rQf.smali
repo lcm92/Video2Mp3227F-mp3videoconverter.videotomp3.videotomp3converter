@@ -18,16 +18,12 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/bytedance/sdk/component/lG/rk/rk/rk/rQf;
 
-    .line 3
     invoke-direct {v0}, Lcom/bytedance/sdk/component/lG/rk/rk/rk/rQf;-><init>()V
 
-    .line 6
     sput-object v0, Lcom/bytedance/sdk/component/lG/rk/rk/rk/rQf;->rk:Lcom/bytedance/sdk/component/lG/rk/rk/rk/rQf;
 
-    .line 8
     return-void
 .end method
 
@@ -44,10 +40,8 @@
 .method public DK()Ljava/lang/String;
     .locals 1
 
-    .line 1
     const-string v0, "logstats"
 
-    .line 3
     return-object v0
 .end method
 
@@ -62,10 +56,8 @@
 .method public fFV()Ljava/lang/String;
     .locals 1
 
-    .line 1
     const-string v0, "adevent"
 
-    .line 3
     return-object v0
 .end method
 
@@ -80,36 +72,29 @@
 .method public rQf()Ljava/lang/String;
     .locals 1
 
-    .line 1
     const-string v0, "logstatsbatch"
 
-    .line 3
     return-object v0
 .end method
 
 .method public rk(Landroid/content/Context;)Landroid/database/sqlite/SQLiteDatabase;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/lG/rk/rk/rk/rQf;->fFV:Landroid/database/sqlite/SQLiteDatabase;
 
     if-nez v0, :cond_1
 
-    .line 2
     monitor-enter p0
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/bytedance/sdk/component/lG/rk/rk/rk/rQf;->fFV:Landroid/database/sqlite/SQLiteDatabase;
 
     if-nez v0, :cond_0
 
-    .line 4
     new-instance v0, Lcom/bytedance/sdk/component/lG/rk/rk/rk/DK;
 
     invoke-direct {v0, p1}, Lcom/bytedance/sdk/component/lG/rk/rk/rk/DK;-><init>(Landroid/content/Context;)V
 
-    .line 5
     invoke-virtual {v0}, Landroid/database/sqlite/SQLiteOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
 
     move-result-object p1
@@ -123,7 +108,6 @@
 
     goto :goto_1
 
-    .line 6
     :cond_0
     :goto_0
     monitor-exit p0
@@ -137,7 +121,6 @@
 
     throw p1
 
-    .line 7
     :cond_1
     :goto_2
     iget-object p1, p0, Lcom/bytedance/sdk/component/lG/rk/rk/rk/rQf;->fFV:Landroid/database/sqlite/SQLiteDatabase;
@@ -148,7 +131,6 @@
 .method public rk()Ljava/lang/String;
     .locals 1
 
-    .line 8
     const-string v0, "loghighpriority"
 
     return-object v0

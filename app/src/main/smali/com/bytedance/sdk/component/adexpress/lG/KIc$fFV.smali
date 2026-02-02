@@ -21,7 +21,6 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -30,7 +29,6 @@
 .method synthetic constructor <init>(Lcom/bytedance/sdk/component/adexpress/lG/KIc$1;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Lcom/bytedance/sdk/component/adexpress/lG/KIc$fFV;-><init>()V
 
     return-void

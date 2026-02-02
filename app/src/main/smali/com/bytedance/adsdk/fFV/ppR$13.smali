@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/bytedance/adsdk/fFV/ppR$rk;
+.implements Lcom/bytedance/adsdk/fFV/ppR$RKP1;
 
 
 # annotations
@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "13"
 .end annotation
 
 
@@ -27,16 +27,12 @@
 .method constructor <init>(Lcom/bytedance/adsdk/fFV/ppR;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/adsdk/fFV/ppR$13;->fFV:Lcom/bytedance/adsdk/fFV/ppR;
 
-    .line 3
     iput-object p2, p0, Lcom/bytedance/adsdk/fFV/ppR$13;->rk:Ljava/lang/String;
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 8
     return-void
 .end method
 
@@ -45,15 +41,11 @@
 .method public rk(Lcom/bytedance/adsdk/fFV/Yp;)V
     .locals 1
 
-    .line 1
     iget-object p1, p0, Lcom/bytedance/adsdk/fFV/ppR$13;->fFV:Lcom/bytedance/adsdk/fFV/ppR;
 
-    .line 3
     iget-object v0, p0, Lcom/bytedance/adsdk/fFV/ppR$13;->rk:Ljava/lang/String;
 
-    .line 5
     invoke-virtual {p1, v0}, Lcom/bytedance/adsdk/fFV/ppR;->aAs(Ljava/lang/String;)V
 
-    .line 8
     return-void
 .end method

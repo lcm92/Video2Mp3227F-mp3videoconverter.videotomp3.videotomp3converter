@@ -1,0 +1,726 @@
+.class public abstract Ldef/R6;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field private static final a:Ldef/MQ0$AM1;
+
+.field private static final b:Ldef/MQ0$AM1;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 10
+
+    const-string v8, "sk"
+
+    const-string v9, "sa"
+
+    const-string v0, "a"
+
+    const-string v1, "p"
+
+    const-string v2, "s"
+
+    const-string v3, "rz"
+
+    const-string v4, "r"
+
+    const-string v5, "o"
+
+    const-string v6, "so"
+
+    const-string v7, "eo"
+
+    filled-new-array/range {v0 .. v9}, [Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Ldef/MQ0$AM1;->a([Ljava/lang/String;)Ldef/MQ0$AM1;
+
+    move-result-object v0
+
+    sput-object v0, Ldef/R6;->a:Ldef/MQ0$AM1;
+
+    const-string v0, "k"
+
+    filled-new-array {v0}, [Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Ldef/MQ0$AM1;->a([Ljava/lang/String;)Ldef/MQ0$AM1;
+
+    move-result-object v0
+
+    sput-object v0, Ldef/R6;->b:Ldef/MQ0$AM1;
+
+    return-void
+.end method
+
+.method private static a(Ldef/H6;)Z
+    .locals 2
+
+    if-eqz p0, :cond_0
+
+    invoke-virtual {p0}, Ldef/H6;->c()Z
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {p0}, Ldef/H6;->b()Ljava/util/List;
+
+    move-result-object p0
+
+    invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ldef/JR0;
+
+    iget-object p0, p0, Ldef/JR0;->b:Ljava/lang/Object;
+
+    check-cast p0, Landroid/graphics/PointF;
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p0, v0, v0}, Landroid/graphics/PointF;->equals(FF)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_1
+
+    :cond_0
+    const/4 v1, 0x1
+
+    :cond_1
+    return v1
+.end method
+
+.method private static b(Ldef/S6;)Z
+    .locals 2
+
+    if-eqz p0, :cond_0
+
+    instance-of v0, p0, Ldef/M6;
+
+    const/4 v1, 0x0
+
+    if-nez v0, :cond_1
+
+    invoke-interface {p0}, Ldef/S6;->c()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    invoke-interface {p0}, Ldef/S6;->b()Ljava/util/List;
+
+    move-result-object p0
+
+    invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ldef/JR0;
+
+    iget-object p0, p0, Ldef/JR0;->b:Ljava/lang/Object;
+
+    check-cast p0, Landroid/graphics/PointF;
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p0, v0, v0}, Landroid/graphics/PointF;->equals(FF)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_1
+
+    :cond_0
+    const/4 v1, 0x1
+
+    :cond_1
+    return v1
+.end method
+
+.method private static c(Ldef/E6;)Z
+    .locals 2
+
+    if-eqz p0, :cond_0
+
+    invoke-virtual {p0}, Ldef/E6;->c()Z
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {p0}, Ldef/E6;->b()Ljava/util/List;
+
+    move-result-object p0
+
+    invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ldef/JR0;
+
+    iget-object p0, p0, Ldef/JR0;->b:Ljava/lang/Object;
+
+    check-cast p0, Ljava/lang/Float;
+
+    invoke-virtual {p0}, Ljava/lang/Float;->floatValue()F
+
+    move-result p0
+
+    const/4 v0, 0x0
+
+    cmpl-float p0, p0, v0
+
+    if-nez p0, :cond_1
+
+    :cond_0
+    const/4 v1, 0x1
+
+    :cond_1
+    return v1
+.end method
+
+.method private static d(Ldef/K6;)Z
+    .locals 2
+
+    if-eqz p0, :cond_0
+
+    invoke-virtual {p0}, Ldef/K6;->c()Z
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {p0}, Ldef/K6;->b()Ljava/util/List;
+
+    move-result-object p0
+
+    invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ldef/JR0;
+
+    iget-object p0, p0, Ldef/JR0;->b:Ljava/lang/Object;
+
+    check-cast p0, Ldef/OM1;
+
+    const/high16 v0, 0x3f800000    # 1.0f
+
+    invoke-virtual {p0, v0, v0}, Ldef/OM1;->a(FF)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_1
+
+    :cond_0
+    const/4 v1, 0x1
+
+    :cond_1
+    return v1
+.end method
+
+.method private static e(Ldef/E6;)Z
+    .locals 2
+
+    if-eqz p0, :cond_0
+
+    invoke-virtual {p0}, Ldef/E6;->c()Z
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {p0}, Ldef/E6;->b()Ljava/util/List;
+
+    move-result-object p0
+
+    invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ldef/JR0;
+
+    iget-object p0, p0, Ldef/JR0;->b:Ljava/lang/Object;
+
+    check-cast p0, Ljava/lang/Float;
+
+    invoke-virtual {p0}, Ljava/lang/Float;->floatValue()F
+
+    move-result p0
+
+    const/4 v0, 0x0
+
+    cmpl-float p0, p0, v0
+
+    if-nez p0, :cond_1
+
+    :cond_0
+    const/4 v1, 0x1
+
+    :cond_1
+    return v1
+.end method
+
+.method private static f(Ldef/E6;)Z
+    .locals 2
+
+    if-eqz p0, :cond_0
+
+    invoke-virtual {p0}, Ldef/E6;->c()Z
+
+    move-result v0
+
+    const/4 v1, 0x0
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {p0}, Ldef/E6;->b()Ljava/util/List;
+
+    move-result-object p0
+
+    invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ldef/JR0;
+
+    iget-object p0, p0, Ldef/JR0;->b:Ljava/lang/Object;
+
+    check-cast p0, Ljava/lang/Float;
+
+    invoke-virtual {p0}, Ljava/lang/Float;->floatValue()F
+
+    move-result p0
+
+    const/4 v0, 0x0
+
+    cmpl-float p0, p0, v0
+
+    if-nez p0, :cond_1
+
+    :cond_0
+    const/4 v1, 0x1
+
+    :cond_1
+    return v1
+.end method
+
+.method public static g(Ldef/MQ0;Ldef/UV0;)Ldef/Q6;
+    .locals 27
+
+    move-object/from16 v0, p0
+
+    move-object/from16 v8, p1
+
+    invoke-virtual/range {p0 .. p0}, Ldef/MQ0;->t()Ldef/MQ0$BM1;
+
+    move-result-object v1
+
+    sget-object v2, Ldef/MQ0$BM1;->c:Ldef/MQ0$BM1;
+
+    const/4 v9, 0x0
+
+    if-ne v1, v2, :cond_0
+
+    const/4 v1, 0x1
+
+    move v10, v1
+
+    goto :goto_0
+
+    :cond_0
+    move v10, v9
+
+    :goto_0
+    if-eqz v10, :cond_1
+
+    invoke-virtual/range {p0 .. p0}, Ldef/MQ0;->c()V
+
+    :cond_1
+    const/4 v1, 0x0
+
+    const/4 v12, 0x0
+
+    const/4 v13, 0x0
+
+    const/4 v14, 0x0
+
+    const/4 v15, 0x0
+
+    const/16 v16, 0x0
+
+    const/16 v22, 0x0
+
+    const/16 v23, 0x0
+
+    const/16 v24, 0x0
+
+    :goto_1
+    invoke-virtual/range {p0 .. p0}, Ldef/MQ0;->h()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_6
+
+    sget-object v2, Ldef/R6;->a:Ldef/MQ0$AM1;
+
+    invoke-virtual {v0, v2}, Ldef/MQ0;->v(Ldef/MQ0$AM1;)I
+
+    move-result v2
+
+    packed-switch v2, :pswitch_data_0
+
+    invoke-virtual/range {p0 .. p0}, Ldef/MQ0;->w()V
+
+    invoke-virtual/range {p0 .. p0}, Ldef/MQ0;->x()V
+
+    goto :goto_1
+
+    :pswitch_0
+    invoke-static {v0, v8, v9}, Ldef/T6;->f(Ldef/MQ0;Ldef/UV0;Z)Ldef/E6;
+
+    move-result-object v16
+
+    goto :goto_1
+
+    :pswitch_1
+    invoke-static {v0, v8, v9}, Ldef/T6;->f(Ldef/MQ0;Ldef/UV0;Z)Ldef/E6;
+
+    move-result-object v15
+
+    goto :goto_1
+
+    :pswitch_2
+    invoke-static {v0, v8, v9}, Ldef/T6;->f(Ldef/MQ0;Ldef/UV0;Z)Ldef/E6;
+
+    move-result-object v24
+
+    goto :goto_1
+
+    :pswitch_3
+    invoke-static {v0, v8, v9}, Ldef/T6;->f(Ldef/MQ0;Ldef/UV0;Z)Ldef/E6;
+
+    move-result-object v23
+
+    goto :goto_1
+
+    :pswitch_4
+    invoke-static/range {p0 .. p1}, Ldef/T6;->h(Ldef/MQ0;Ldef/UV0;)Ldef/G6;
+
+    move-result-object v22
+
+    goto :goto_1
+
+    :pswitch_5
+    const-string v1, "Lottie doesn\'t support 3D layers."
+
+    invoke-virtual {v8, v1}, Ldef/UV0;->a(Ljava/lang/String;)V
+
+    :pswitch_6
+    invoke-static {v0, v8, v9}, Ldef/T6;->f(Ldef/MQ0;Ldef/UV0;Z)Ldef/E6;
+
+    move-result-object v17
+
+    invoke-virtual/range {v17 .. v17}, Ldef/E6;->b()Ljava/util/List;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Ljava/util/List;->isEmpty()Z
+
+    move-result v1
+
+    const/4 v2, 0x0
+
+    if-eqz v1, :cond_3
+
+    invoke-virtual/range {v17 .. v17}, Ldef/E6;->b()Ljava/util/List;
+
+    move-result-object v7
+
+    new-instance v6, Ldef/JR0;
+
+    invoke-static {v2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v3
+
+    invoke-static {v2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v4
+
+    invoke-virtual/range {p1 .. p1}, Ldef/UV0;->f()F
+
+    move-result v1
+
+    invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v18
+
+    const/4 v5, 0x0
+
+    const/16 v19, 0x0
+
+    move-object v1, v6
+
+    move-object/from16 v2, p1
+
+    move-object v11, v6
+
+    move/from16 v6, v19
+
+    move-object v9, v7
+
+    move-object/from16 v7, v18
+
+    invoke-direct/range {v1 .. v7}, Ldef/JR0;-><init>(Ldef/UV0;Ljava/lang/Object;Ljava/lang/Object;Landroid/view/animation/Interpolator;FLjava/lang/Float;)V
+
+    invoke-interface {v9, v11}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    :cond_2
+    const/4 v2, 0x0
+
+    goto :goto_2
+
+    :cond_3
+    invoke-virtual/range {v17 .. v17}, Ldef/E6;->b()Ljava/util/List;
+
+    move-result-object v1
+
+    const/4 v3, 0x0
+
+    invoke-interface {v1, v3}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ldef/JR0;
+
+    iget-object v1, v1, Ldef/JR0;->b:Ljava/lang/Object;
+
+    if-nez v1, :cond_2
+
+    invoke-virtual/range {v17 .. v17}, Ldef/E6;->b()Ljava/util/List;
+
+    move-result-object v9
+
+    new-instance v11, Ldef/JR0;
+
+    invoke-static {v2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v3
+
+    invoke-static {v2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v4
+
+    invoke-virtual/range {p1 .. p1}, Ldef/UV0;->f()F
+
+    move-result v1
+
+    invoke-static {v1}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object v7
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x0
+
+    move-object v1, v11
+
+    move-object/from16 v2, p1
+
+    invoke-direct/range {v1 .. v7}, Ldef/JR0;-><init>(Ldef/UV0;Ljava/lang/Object;Ljava/lang/Object;Landroid/view/animation/Interpolator;FLjava/lang/Float;)V
+
+    const/4 v2, 0x0
+
+    invoke-interface {v9, v2, v11}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
+
+    :goto_2
+    move v9, v2
+
+    move-object/from16 v1, v17
+
+    goto/16 :goto_1
+
+    :pswitch_7
+    move v2, v9
+
+    invoke-static/range {p0 .. p1}, Ldef/T6;->j(Ldef/MQ0;Ldef/UV0;)Ldef/K6;
+
+    move-result-object v14
+
+    goto/16 :goto_1
+
+    :pswitch_8
+    move v2, v9
+
+    invoke-static/range {p0 .. p1}, Ldef/I6;->b(Ldef/MQ0;Ldef/UV0;)Ldef/S6;
+
+    move-result-object v13
+
+    goto/16 :goto_1
+
+    :pswitch_9
+    move v2, v9
+
+    invoke-virtual/range {p0 .. p0}, Ldef/MQ0;->c()V
+
+    :goto_3
+    invoke-virtual/range {p0 .. p0}, Ldef/MQ0;->h()Z
+
+    move-result v3
+
+    if-eqz v3, :cond_5
+
+    sget-object v3, Ldef/R6;->b:Ldef/MQ0$AM1;
+
+    invoke-virtual {v0, v3}, Ldef/MQ0;->v(Ldef/MQ0$AM1;)I
+
+    move-result v3
+
+    if-eqz v3, :cond_4
+
+    invoke-virtual/range {p0 .. p0}, Ldef/MQ0;->w()V
+
+    invoke-virtual/range {p0 .. p0}, Ldef/MQ0;->x()V
+
+    goto :goto_3
+
+    :cond_4
+    invoke-static/range {p0 .. p1}, Ldef/I6;->a(Ldef/MQ0;Ldef/UV0;)Ldef/H6;
+
+    move-result-object v12
+
+    goto :goto_3
+
+    :cond_5
+    invoke-virtual/range {p0 .. p0}, Ldef/MQ0;->f()V
+
+    move v9, v2
+
+    goto/16 :goto_1
+
+    :cond_6
+    if-eqz v10, :cond_7
+
+    invoke-virtual/range {p0 .. p0}, Ldef/MQ0;->f()V
+
+    :cond_7
+    invoke-static {v12}, Ldef/R6;->a(Ldef/H6;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_8
+
+    const/16 v18, 0x0
+
+    goto :goto_4
+
+    :cond_8
+    move-object/from16 v18, v12
+
+    :goto_4
+    invoke-static {v13}, Ldef/R6;->b(Ldef/S6;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_9
+
+    const/16 v19, 0x0
+
+    goto :goto_5
+
+    :cond_9
+    move-object/from16 v19, v13
+
+    :goto_5
+    invoke-static {v1}, Ldef/R6;->c(Ldef/E6;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/16 v21, 0x0
+
+    goto :goto_6
+
+    :cond_a
+    move-object/from16 v21, v1
+
+    :goto_6
+    invoke-static {v14}, Ldef/R6;->d(Ldef/K6;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_b
+
+    const/4 v14, 0x0
+
+    :cond_b
+    invoke-static {v15}, Ldef/R6;->f(Ldef/E6;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_c
+
+    const/16 v25, 0x0
+
+    goto :goto_7
+
+    :cond_c
+    move-object/from16 v25, v15
+
+    :goto_7
+    invoke-static/range {v16 .. v16}, Ldef/R6;->e(Ldef/E6;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_d
+
+    const/16 v26, 0x0
+
+    goto :goto_8
+
+    :cond_d
+    move-object/from16 v26, v16
+
+    :goto_8
+    new-instance v0, Ldef/Q6;
+
+    move-object/from16 v17, v0
+
+    move-object/from16 v20, v14
+
+    invoke-direct/range {v17 .. v26}, Ldef/Q6;-><init>(Ldef/H6;Ldef/S6;Ldef/K6;Ldef/E6;Ldef/G6;Ldef/E6;Ldef/E6;Ldef/E6;Ldef/E6;)V
+
+    return-object v0
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_9
+        :pswitch_8
+        :pswitch_7
+        :pswitch_5
+        :pswitch_6
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method

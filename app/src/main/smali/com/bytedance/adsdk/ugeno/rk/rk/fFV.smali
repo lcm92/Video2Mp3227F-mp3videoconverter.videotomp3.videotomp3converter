@@ -1,5 +1,5 @@
 .class public Lcom/bytedance/adsdk/ugeno/rk/rk/fFV;
-.super Lcom/bytedance/adsdk/ugeno/rk/rk/rk;
+.super Lcom/bytedance/adsdk/ugeno/rk/rk/RKRRC;
 .source "SourceFile"
 
 
@@ -17,34 +17,26 @@
 .method public constructor <init>(Lcom/bytedance/adsdk/ugeno/fFV/aAs;Lorg/json/JSONObject;)V
     .locals 0
 
-    .line 1
-    invoke-direct {p0, p1, p2}, Lcom/bytedance/adsdk/ugeno/rk/rk/rk;-><init>(Lcom/bytedance/adsdk/ugeno/fFV/aAs;Lorg/json/JSONObject;)V
+    invoke-direct {p0, p1, p2}, Lcom/bytedance/adsdk/ugeno/rk/rk/RKRRC;-><init>(Lcom/bytedance/adsdk/ugeno/fFV/aAs;Lorg/json/JSONObject;)V
 
-    .line 4
     new-instance p1, Landroid/graphics/Paint;
 
-    .line 6
     invoke-direct {p1}, Landroid/graphics/Paint;-><init>()V
 
-    .line 9
     iput-object p1, p0, Lcom/bytedance/adsdk/ugeno/rk/rk/fFV;->lG:Landroid/graphics/Paint;
 
-    .line 11
     const/4 p2, 0x1
 
-    .line 12
     invoke-virtual {p1, p2}, Landroid/graphics/Paint;->setAntiAlias(Z)V
 
-    .line 15
     return-void
 .end method
 
 .method private aAs(Landroid/graphics/Canvas;)V
     .locals 4
 
-    .line 1
     :try_start_0
-    iget-object v0, p0, Lcom/bytedance/adsdk/ugeno/rk/rk/rk;->fFV:Lcom/bytedance/adsdk/ugeno/fFV/aAs;
+    iget-object v0, p0, Lcom/bytedance/adsdk/ugeno/rk/rk/RKRRC;->fFV:Lcom/bytedance/adsdk/ugeno/fFV/aAs;
 
     invoke-virtual {v0}, Lcom/bytedance/adsdk/ugeno/fFV/aAs;->utK()F
 
@@ -56,17 +48,15 @@
 
     if-lez v0, :cond_0
 
-    .line 2
     iget-object v0, p0, Lcom/bytedance/adsdk/ugeno/rk/rk/fFV;->lG:Landroid/graphics/Paint;
 
     iget v1, p0, Lcom/bytedance/adsdk/ugeno/rk/rk/fFV;->aAs:I
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 3
     iget-object v0, p0, Lcom/bytedance/adsdk/ugeno/rk/rk/fFV;->lG:Landroid/graphics/Paint;
 
-    iget-object v1, p0, Lcom/bytedance/adsdk/ugeno/rk/rk/rk;->fFV:Lcom/bytedance/adsdk/ugeno/fFV/aAs;
+    iget-object v1, p0, Lcom/bytedance/adsdk/ugeno/rk/rk/RKRRC;->fFV:Lcom/bytedance/adsdk/ugeno/fFV/aAs;
 
     invoke-virtual {v1}, Lcom/bytedance/adsdk/ugeno/fFV/aAs;->utK()F
 
@@ -84,8 +74,7 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    .line 4
-    iget-object v0, p0, Lcom/bytedance/adsdk/ugeno/rk/rk/rk;->fFV:Lcom/bytedance/adsdk/ugeno/fFV/aAs;
+    iget-object v0, p0, Lcom/bytedance/adsdk/ugeno/rk/rk/RKRRC;->fFV:Lcom/bytedance/adsdk/ugeno/fFV/aAs;
 
     invoke-virtual {v0}, Lcom/bytedance/adsdk/ugeno/fFV/aAs;->nP()Landroid/view/View;
 
@@ -101,7 +90,6 @@
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setClipChildren(Z)V
 
-    .line 5
     iget v0, p0, Lcom/bytedance/adsdk/ugeno/rk/rk/fFV;->DK:I
 
     int-to-float v1, v0
@@ -118,7 +106,7 @@
 
     int-to-float v0, v0
 
-    iget-object v2, p0, Lcom/bytedance/adsdk/ugeno/rk/rk/rk;->fFV:Lcom/bytedance/adsdk/ugeno/fFV/aAs;
+    iget-object v2, p0, Lcom/bytedance/adsdk/ugeno/rk/rk/RKRRC;->fFV:Lcom/bytedance/adsdk/ugeno/fFV/aAs;
 
     invoke-virtual {v2}, Lcom/bytedance/adsdk/ugeno/fFV/aAs;->utK()F
 
@@ -143,7 +131,6 @@
     :goto_0
     return-void
 
-    .line 6
     :goto_1
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -173,8 +160,7 @@
         }
     .end annotation
 
-    .line 7
-    invoke-virtual {p0}, Lcom/bytedance/adsdk/ugeno/rk/rk/rk;->DK()Ljava/lang/String;
+    invoke-virtual {p0}, Lcom/bytedance/adsdk/ugeno/rk/rk/RKRRC;->DK()Ljava/lang/String;
 
     move-result-object v0
 
@@ -188,12 +174,10 @@
 
     move-result-object v0
 
-    .line 8
     new-instance v1, Ljava/util/ArrayList;
 
     invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
 
-    .line 9
     invoke-interface {v1, v0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     return-object v1
@@ -210,8 +194,7 @@
 .method public fFV()V
     .locals 2
 
-    .line 1
-    iget-object v0, p0, Lcom/bytedance/adsdk/ugeno/rk/rk/rk;->rk:Lorg/json/JSONObject;
+    iget-object v0, p0, Lcom/bytedance/adsdk/ugeno/rk/rk/RKRRC;->rk:Lorg/json/JSONObject;
 
     const-string v1, "backgroundColor"
 
@@ -221,7 +204,7 @@
 
     const/4 v1, -0x1
 
-    invoke-static {v0, v1}, Lcom/bytedance/adsdk/ugeno/Yp/rk;->rk(Ljava/lang/String;I)I
+    invoke-static {v0, v1}, Lcom/bytedance/adsdk/ugeno/Yp/RKYUC;->rk(Ljava/lang/String;I)I
 
     move-result v0
 
@@ -233,7 +216,6 @@
 .method public fFV(Landroid/graphics/Canvas;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Lcom/bytedance/adsdk/ugeno/rk/rk/fFV;->aAs(Landroid/graphics/Canvas;)V
 
     return-void
@@ -242,12 +224,10 @@
 .method public rk(II)V
     .locals 0
 
-    .line 2
     div-int/lit8 p1, p1, 0x2
 
     iput p1, p0, Lcom/bytedance/adsdk/ugeno/rk/rk/fFV;->DK:I
 
-    .line 3
     div-int/lit8 p2, p2, 0x2
 
     iput p2, p0, Lcom/bytedance/adsdk/ugeno/rk/rk/fFV;->rQf:I
@@ -258,7 +238,6 @@
 .method public rk(Landroid/graphics/Canvas;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/bytedance/adsdk/ugeno/rk/rk/fFV;->aAs(Landroid/graphics/Canvas;)V
 
     return-void

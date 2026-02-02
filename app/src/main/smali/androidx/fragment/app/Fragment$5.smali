@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/lifecycle/d;
+.implements Landroidx/lifecycle/DLA;
 
 
 # annotations
@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "5"
 .end annotation
 
 
@@ -25,40 +25,30 @@
 .method constructor <init>(Landroidx/fragment/app/Fragment;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Landroidx/fragment/app/Fragment$5;->a:Landroidx/fragment/app/Fragment;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method
 
 
 # virtual methods
-.method public a(Lzs0;Landroidx/lifecycle/c$b;)V
+.method public a(Ldef/ZS0;Landroidx/lifecycle/CLA$BC1;)V
     .locals 0
 
-    .line 1
-    sget-object p1, Landroidx/lifecycle/c$b;->ON_STOP:Landroidx/lifecycle/c$b;
+    sget-object p1, Landroidx/lifecycle/CLA$BC1;->ON_STOP:Landroidx/lifecycle/CLA$BC1;
 
-    .line 3
     if-ne p2, p1, :cond_0
 
-    .line 5
     iget-object p1, p0, Landroidx/fragment/app/Fragment$5;->a:Landroidx/fragment/app/Fragment;
 
-    .line 7
     iget-object p1, p1, Landroidx/fragment/app/Fragment;->V:Landroid/view/View;
 
-    .line 9
     if-eqz p1, :cond_0
 
-    .line 11
     invoke-virtual {p1}, Landroid/view/View;->cancelPendingInputEvents()V
 
-    .line 14
     :cond_0
     return-void
 .end method

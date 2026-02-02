@@ -20,7 +20,7 @@
 .method public abstract zzi()Lcom/google/android/gms/internal/ads/zzaze;
 .end method
 
-.method public abstract zzj()Ljl0;
+.method public abstract zzj()Ldef/JL0;
 .end method
 
 .method public abstract zzk()Ljava/lang/String;

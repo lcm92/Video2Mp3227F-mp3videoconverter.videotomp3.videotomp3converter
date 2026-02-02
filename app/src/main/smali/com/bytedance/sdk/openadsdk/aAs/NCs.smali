@@ -6,23 +6,23 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/bytedance/sdk/openadsdk/aAs/NCs$rk;
+        Lcom/bytedance/sdk/openadsdk/aAs/NCs$RKN1;
     }
 .end annotation
 
 
 # instance fields
-.field private DK:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+.field private DK:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
 .field private final Yp:Lcom/bytedance/sdk/openadsdk/aAs/ArD;
 
 .field private aAs:Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;
 
-.field private fFV:Lcom/bytedance/sdk/openadsdk/aAs/NCs$rk;
+.field private fFV:Lcom/bytedance/sdk/openadsdk/aAs/NCs$RKN1;
 
 .field private lG:Lcom/bytedance/sdk/openadsdk/core/rQf/DK;
 
-.field private rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+.field private rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
 .field private rk:Lcom/bytedance/sdk/openadsdk/core/rQf/rQf;
 
@@ -31,36 +31,27 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/bytedance/sdk/openadsdk/aAs/ArD;)V
     .locals 1
 
-    .line 1
     const-string v0, "tt_quick_option_dialog"
 
-    .line 3
     invoke-static {p1, v0}, Lcom/bytedance/sdk/component/utils/Kl;->lG(Landroid/content/Context;Ljava/lang/String;)I
 
-    .line 6
     move-result v0
 
-    .line 7
     invoke-direct {p0, p1, v0}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
-    .line 10
     const/4 p1, 0x0
 
-    .line 11
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    .line 14
     iput-object p2, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->Yp:Lcom/bytedance/sdk/openadsdk/aAs/ArD;
 
-    .line 16
     return-void
 .end method
 
-.method static synthetic DK(Lcom/bytedance/sdk/openadsdk/aAs/NCs;)Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+.method static synthetic DK(Lcom/bytedance/sdk/openadsdk/aAs/NCs;)Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
     .locals 0
 
-    .line 1
-    iget-object p0, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object p0, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     return-object p0
 .end method
@@ -68,7 +59,6 @@
 .method private DK()V
     .locals 1
 
-    .line 2
     new-instance v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs$5;
 
     invoke-direct {v0, p0}, Lcom/bytedance/sdk/openadsdk/aAs/NCs$5;-><init>(Lcom/bytedance/sdk/openadsdk/aAs/NCs;)V
@@ -78,11 +68,10 @@
     return-void
 .end method
 
-.method static synthetic aAs(Lcom/bytedance/sdk/openadsdk/aAs/NCs;)Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+.method static synthetic aAs(Lcom/bytedance/sdk/openadsdk/aAs/NCs;)Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
     .locals 0
 
-    .line 1
-    iget-object p0, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object p0, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     return-object p0
 .end method
@@ -92,27 +81,22 @@
 
     const/4 v0, 0x1
 
-    .line 2
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->setCanceledOnTouchOutside(Z)V
 
-    .line 3
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->setCancelable(Z)V
 
-    .line 4
     invoke-virtual {p0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v0
 
     if-eqz v0, :cond_1
 
-    .line 5
     invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
 
     move-result-object v1
 
     if-eqz v1, :cond_0
 
-    .line 6
     invoke-virtual {v0}, Landroid/view/Window;->getDecorView()Landroid/view/View;
 
     move-result-object v1
@@ -121,7 +105,6 @@
 
     invoke-virtual {v1, v2, v2, v2, v2}, Landroid/view/View;->setPadding(IIII)V
 
-    .line 7
     :cond_0
     invoke-virtual {v0}, Landroid/view/Window;->getAttributes()Landroid/view/WindowManager$LayoutParams;
 
@@ -129,31 +112,26 @@
 
     const/4 v2, -0x1
 
-    .line 8
     iput v2, v1, Landroid/view/WindowManager$LayoutParams;->width:I
 
     const/4 v2, -0x2
 
-    .line 9
     iput v2, v1, Landroid/view/WindowManager$LayoutParams;->height:I
 
-    .line 10
     invoke-virtual {v0, v1}, Landroid/view/Window;->setAttributes(Landroid/view/WindowManager$LayoutParams;)V
 
     const/16 v1, 0x50
 
-    .line 11
     invoke-virtual {v0, v1}, Landroid/view/Window;->setGravity(I)V
 
     :cond_1
     return-void
 .end method
 
-.method static synthetic fFV(Lcom/bytedance/sdk/openadsdk/aAs/NCs;)Lcom/bytedance/sdk/openadsdk/aAs/NCs$rk;
+.method static synthetic fFV(Lcom/bytedance/sdk/openadsdk/aAs/NCs;)Lcom/bytedance/sdk/openadsdk/aAs/NCs$RKN1;
     .locals 0
 
-    .line 1
-    iget-object p0, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->fFV:Lcom/bytedance/sdk/openadsdk/aAs/NCs$rk;
+    iget-object p0, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->fFV:Lcom/bytedance/sdk/openadsdk/aAs/NCs$RKN1;
 
     return-object p0
 .end method
@@ -161,17 +139,14 @@
 .method static synthetic rQf(Lcom/bytedance/sdk/openadsdk/aAs/NCs;)Lcom/bytedance/sdk/openadsdk/aAs/ArD;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->Yp:Lcom/bytedance/sdk/openadsdk/aAs/ArD;
 
-    .line 3
     return-object p0
 .end method
 
 .method static synthetic rk(Lcom/bytedance/sdk/openadsdk/aAs/NCs;)Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->aAs:Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;
 
     return-object p0
@@ -184,12 +159,10 @@
 
     move-object/from16 v1, p1
 
-    .line 21
     new-instance v2, Lcom/bytedance/sdk/openadsdk/core/rQf/rQf;
 
     invoke-direct {v2, v1}, Lcom/bytedance/sdk/openadsdk/core/rQf/rQf;-><init>(Landroid/content/Context;)V
 
-    .line 22
     new-instance v3, Landroid/view/ViewGroup$LayoutParams;
 
     const/4 v4, -0x1
@@ -198,15 +171,12 @@
 
     invoke-direct {v3, v4, v5}, Landroid/view/ViewGroup$LayoutParams;-><init>(II)V
 
-    .line 23
     invoke-virtual {v2, v3}, Lcom/bytedance/sdk/openadsdk/core/rQf/rQf;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     const/4 v3, 0x1
 
-    .line 24
     invoke-virtual {v2, v3}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    .line 25
     const-string v6, "tt_dislike_dialog_bg"
 
     invoke-static {v1, v6}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
@@ -215,12 +185,10 @@
 
     invoke-virtual {v2, v6}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 26
     new-instance v6, Lcom/bytedance/sdk/openadsdk/core/rQf/Yp;
 
     invoke-direct {v6, v1}, Lcom/bytedance/sdk/openadsdk/core/rQf/Yp;-><init>(Landroid/content/Context;)V
 
-    .line 27
     new-instance v7, Landroid/widget/LinearLayout$LayoutParams;
 
     const/high16 v8, 0x42400000    # 48.0f
@@ -231,10 +199,8 @@
 
     invoke-direct {v7, v4, v8}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    .line 28
     invoke-virtual {v6, v7}, Lcom/bytedance/sdk/openadsdk/core/rQf/Yp;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 29
     new-instance v7, Lcom/bytedance/sdk/openadsdk/core/rQf/DK;
 
     invoke-direct {v7, v1}, Lcom/bytedance/sdk/openadsdk/core/rQf/DK;-><init>(Landroid/content/Context;)V
@@ -243,55 +209,44 @@
 
     const/high16 v7, 0x41c00000    # 24.0f
 
-    .line 30
     invoke-static {v1, v7}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v7
 
-    .line 31
     new-instance v8, Landroid/widget/RelativeLayout$LayoutParams;
 
     invoke-direct {v8, v7, v7}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
     const/16 v7, 0x10
 
-    .line 32
     invoke-virtual {v8, v7}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
     const/16 v9, 0xb
 
-    .line 33
     invoke-virtual {v8, v9}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
     const/high16 v9, 0x41200000    # 10.0f
 
-    .line 34
     invoke-static {v1, v9}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v9
 
-    .line 35
     iput v9, v8, Landroid/widget/RelativeLayout$LayoutParams;->topMargin:I
 
-    .line 36
     iput v9, v8, Landroid/widget/RelativeLayout$LayoutParams;->rightMargin:I
 
-    .line 37
     iget-object v9, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->lG:Lcom/bytedance/sdk/openadsdk/core/rQf/DK;
 
     invoke-virtual {v9, v8}, Lcom/bytedance/sdk/openadsdk/core/rQf/DK;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 38
     iget-object v8, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->lG:Lcom/bytedance/sdk/openadsdk/core/rQf/DK;
 
     invoke-virtual {v8, v3}, Landroid/view/View;->setClickable(Z)V
 
-    .line 39
     iget-object v8, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->lG:Lcom/bytedance/sdk/openadsdk/core/rQf/DK;
 
     invoke-virtual {v8, v3}, Landroid/view/View;->setFocusable(Z)V
 
-    .line 40
     iget-object v8, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->lG:Lcom/bytedance/sdk/openadsdk/core/rQf/DK;
 
     const-string v9, "tt_titlebar_close_seletor"
@@ -302,45 +257,36 @@
 
     invoke-virtual {v8, v9}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 41
-    new-instance v8, Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    new-instance v8, Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
-    invoke-direct {v8, v1}, Lcom/bytedance/sdk/openadsdk/core/rQf/pw;-><init>(Landroid/content/Context;)V
+    invoke-direct {v8, v1}, Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;-><init>(Landroid/content/Context;)V
 
-    .line 42
     new-instance v9, Landroid/widget/RelativeLayout$LayoutParams;
 
     invoke-direct {v9, v4, v5}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
-    .line 43
     invoke-virtual {v9, v7}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
     const/high16 v7, 0x41400000    # 12.0f
 
-    .line 44
     invoke-static {v1, v7}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v7
 
     iput v7, v9, Landroid/widget/RelativeLayout$LayoutParams;->topMargin:I
 
-    .line 45
-    invoke-virtual {v8, v9}, Lcom/bytedance/sdk/openadsdk/core/rQf/pw;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v8, v9}, Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 46
     sget-object v7, Landroid/text/TextUtils$TruncateAt;->MARQUEE:Landroid/text/TextUtils$TruncateAt;
 
     invoke-virtual {v8, v7}, Landroid/widget/TextView;->setEllipsize(Landroid/text/TextUtils$TruncateAt;)V
 
     const/16 v7, 0x11
 
-    .line 47
-    invoke-virtual {v8, v7}, Lcom/bytedance/sdk/openadsdk/core/rQf/pw;->setGravity(I)V
+    invoke-virtual {v8, v7}, Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;->setGravity(I)V
 
-    .line 48
     invoke-virtual {v8, v3}, Landroid/widget/TextView;->setSingleLine(Z)V
 
-    .line 49
     const-string v7, "tt_other_reason"
 
     invoke-static {v1, v7}, Lcom/bytedance/sdk/component/utils/Kl;->rk(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
@@ -349,7 +295,6 @@
 
     invoke-virtual {v8, v7}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 50
     const-string v7, "#161823"
 
     invoke-static {v7}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
@@ -360,24 +305,20 @@
 
     const/high16 v7, 0x41700000    # 15.0f
 
-    .line 51
     invoke-virtual {v8, v7}, Landroid/widget/TextView;->setTextSize(F)V
 
     const/4 v9, 0x0
 
-    .line 52
     invoke-static {v9}, Landroid/graphics/Typeface;->defaultFromStyle(I)Landroid/graphics/Typeface;
 
     move-result-object v10
 
     invoke-virtual {v8, v10}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
 
-    .line 53
     new-instance v10, Landroid/view/View;
 
     invoke-direct {v10, v1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    .line 54
     new-instance v11, Landroid/widget/LinearLayout$LayoutParams;
 
     const/high16 v12, 0x3f000000    # 0.5f
@@ -388,7 +329,6 @@
 
     invoke-direct {v11, v4, v12}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    .line 55
     invoke-virtual {v10, v11}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     const/16 v11, 0x33
@@ -399,37 +339,30 @@
 
     const/16 v14, 0x23
 
-    .line 56
     invoke-static {v11, v12, v13, v14}, Landroid/graphics/Color;->argb(IIII)I
 
     move-result v11
 
     invoke-virtual {v10, v11}, Landroid/view/View;->setBackgroundColor(I)V
 
-    .line 57
     new-instance v11, Lcom/bytedance/sdk/openadsdk/core/rQf/rQf;
 
     invoke-direct {v11, v1}, Lcom/bytedance/sdk/openadsdk/core/rQf/rQf;-><init>(Landroid/content/Context;)V
 
-    .line 58
     new-instance v15, Landroid/widget/LinearLayout$LayoutParams;
 
     invoke-direct {v15, v4, v5}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    .line 59
     invoke-virtual {v11, v15}, Lcom/bytedance/sdk/openadsdk/core/rQf/rQf;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 60
     invoke-virtual {v11, v3}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    .line 61
     new-instance v15, Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;
 
     invoke-direct {v15, v1}, Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;-><init>(Landroid/content/Context;)V
 
     iput-object v15, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->aAs:Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;
 
-    .line 62
     new-instance v12, Landroid/text/InputFilter$LengthFilter;
 
     const/16 v13, 0xc8
@@ -450,21 +383,18 @@
 
     invoke-virtual {v15, v14}, Landroid/widget/TextView;->setFilters([Landroid/text/InputFilter;)V
 
-    .line 63
     new-instance v12, Landroid/widget/LinearLayout$LayoutParams;
 
     invoke-direct {v12, v4, v5}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
     const/high16 v13, 0x41800000    # 16.0f
 
-    .line 64
     invoke-static {v1, v13}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v14
 
     iput v14, v12, Landroid/widget/LinearLayout$LayoutParams;->leftMargin:I
 
-    .line 65
     invoke-static {v1, v13}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v14
@@ -473,38 +403,32 @@
 
     const/high16 v14, 0x41380000    # 11.5f
 
-    .line 66
     invoke-static {v1, v14}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v14
 
     iput v14, v12, Landroid/widget/LinearLayout$LayoutParams;->topMargin:I
 
-    .line 67
     iget-object v14, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->aAs:Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;
 
     invoke-virtual {v14, v12}, Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 68
     iget-object v12, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->aAs:Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;
 
     const/4 v14, 0x4
 
     invoke-virtual {v12, v14}, Landroid/widget/TextView;->setLines(I)V
 
-    .line 69
     iget-object v12, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->aAs:Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;
 
     const/16 v14, 0x30
 
     invoke-virtual {v12, v14}, Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;->setGravity(I)V
 
-    .line 70
     iget-object v12, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->aAs:Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;
 
     invoke-virtual {v12, v7}, Landroid/widget/TextView;->setTextSize(F)V
 
-    .line 71
     iget-object v12, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->aAs:Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;
 
     const/16 v7, 0x23
@@ -519,7 +443,6 @@
 
     invoke-virtual {v12, v7}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 72
     iget-object v7, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->aAs:Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;
 
     const-string v12, "#57161823"
@@ -530,80 +453,65 @@
 
     invoke-virtual {v7, v14}, Landroid/widget/TextView;->setHintTextColor(I)V
 
-    .line 73
     iget-object v7, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->aAs:Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;
 
     const/4 v14, 0x0
 
     invoke-virtual {v7, v14}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 74
     iget-object v7, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->aAs:Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;
 
     const/high16 v14, 0x10000000
 
     invoke-virtual {v7, v14}, Landroid/widget/TextView;->setImeOptions(I)V
 
-    .line 75
     new-instance v7, Lcom/bytedance/sdk/openadsdk/core/rQf/rQf;
 
     invoke-direct {v7, v1}, Lcom/bytedance/sdk/openadsdk/core/rQf/rQf;-><init>(Landroid/content/Context;)V
 
-    .line 76
     new-instance v14, Landroid/widget/LinearLayout$LayoutParams;
 
     invoke-direct {v14, v4, v5}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    .line 77
     invoke-static {v1, v13}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v13
 
     const/high16 v15, 0x41880000    # 17.0f
 
-    .line 78
     invoke-static {v1, v15}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v15
 
-    .line 79
     invoke-virtual {v7, v13, v15, v13, v15}, Lcom/bytedance/sdk/openadsdk/core/rQf/rQf;->setPadding(IIII)V
 
-    .line 80
     invoke-virtual {v7, v14}, Lcom/bytedance/sdk/openadsdk/core/rQf/rQf;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 81
     invoke-virtual {v7, v9}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    .line 82
-    new-instance v13, Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    new-instance v13, Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
-    invoke-direct {v13, v1}, Lcom/bytedance/sdk/openadsdk/core/rQf/pw;-><init>(Landroid/content/Context;)V
+    invoke-direct {v13, v1}, Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;-><init>(Landroid/content/Context;)V
 
-    iput-object v13, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iput-object v13, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
-    .line 83
     new-instance v13, Landroid/widget/LinearLayout$LayoutParams;
 
     invoke-direct {v13, v9, v5}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
     const/high16 v14, 0x3f800000    # 1.0f
 
-    .line 84
     iput v14, v13, Landroid/widget/LinearLayout$LayoutParams;->weight:F
 
     const v14, 0x800003
 
-    .line 85
     iput v14, v13, Landroid/widget/LinearLayout$LayoutParams;->gravity:I
 
-    .line 86
-    iget-object v15, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object v15, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
-    invoke-virtual {v15, v13}, Lcom/bytedance/sdk/openadsdk/core/rQf/pw;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v15, v13}, Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 87
-    iget-object v13, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object v13, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     new-array v15, v3, [Ljava/lang/Object;
 
@@ -619,13 +527,11 @@
 
     invoke-virtual {v13, v3}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 88
-    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
-    invoke-virtual {v3, v14}, Lcom/bytedance/sdk/openadsdk/core/rQf/pw;->setGravity(I)V
+    invoke-virtual {v3, v14}, Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;->setGravity(I)V
 
-    .line 89
-    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     invoke-static {v12}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
@@ -633,54 +539,45 @@
 
     invoke-virtual {v3, v12}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 90
-    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     const/high16 v12, 0x41700000    # 15.0f
 
     invoke-virtual {v3, v12}, Landroid/widget/TextView;->setTextSize(F)V
 
-    .line 91
-    new-instance v3, Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    new-instance v3, Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
-    invoke-direct {v3, v1}, Lcom/bytedance/sdk/openadsdk/core/rQf/pw;-><init>(Landroid/content/Context;)V
+    invoke-direct {v3, v1}, Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;-><init>(Landroid/content/Context;)V
 
-    iput-object v3, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iput-object v3, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
-    .line 92
     new-instance v3, Landroid/widget/LinearLayout$LayoutParams;
 
     invoke-direct {v3, v5, v5}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
     const v5, 0x800005
 
-    .line 93
     iput v5, v3, Landroid/widget/LinearLayout$LayoutParams;->gravity:I
 
-    .line 94
-    iget-object v5, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object v5, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
-    invoke-virtual {v5, v3}, Lcom/bytedance/sdk/openadsdk/core/rQf/pw;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+    invoke-virtual {v5, v3}, Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 95
-    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     const/high16 v5, 0x41600000    # 14.0f
 
     invoke-virtual {v3, v5}, Landroid/widget/TextView;->setTextSize(F)V
 
-    .line 96
-    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     invoke-virtual {v3, v4}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 97
-    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     invoke-virtual {v3, v9}, Landroid/view/View;->setVisibility(I)V
 
-    .line 98
-    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     const/4 v4, 0x1
 
@@ -688,38 +585,32 @@
 
     const/high16 v3, 0x41d80000    # 27.0f
 
-    .line 99
     invoke-static {v1, v3}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
 
     const/high16 v4, 0x40a00000    # 5.0f
 
-    .line 100
     invoke-static {v1, v4}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v4
 
-    .line 101
-    iget-object v5, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object v5, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
-    invoke-virtual {v5, v3, v4, v3, v4}, Lcom/bytedance/sdk/openadsdk/core/rQf/pw;->setPadding(IIII)V
+    invoke-virtual {v5, v3, v4, v3, v4}, Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;->setPadding(IIII)V
 
     const/high16 v3, 0x40c00000    # 6.0f
 
-    .line 102
     invoke-static {v1, v3}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
 
-    .line 103
     new-instance v4, Landroid/graphics/drawable/GradientDrawable;
 
     invoke-direct {v4}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
 
     int-to-float v3, v3
 
-    .line 104
     invoke-virtual {v4, v3}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadius(F)V
 
     const/16 v5, 0x2c
@@ -728,56 +619,45 @@
 
     const/16 v13, 0xfe
 
-    .line 105
     invoke-static {v13, v5, v12}, Landroid/graphics/Color;->rgb(III)I
 
     move-result v5
 
-    .line 106
     invoke-virtual {v4, v5}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
     const/16 v12, 0x66
 
-    .line 107
     invoke-virtual {v4, v12}, Landroid/graphics/drawable/GradientDrawable;->setAlpha(I)V
 
-    .line 108
     new-instance v12, Landroid/graphics/drawable/GradientDrawable;
 
     invoke-direct {v12}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
 
-    .line 109
     invoke-virtual {v12, v3}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadius(F)V
 
-    .line 110
     invoke-virtual {v12, v5}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
-    .line 111
     new-instance v3, Landroid/graphics/drawable/StateListDrawable;
 
     invoke-direct {v3}, Landroid/graphics/drawable/StateListDrawable;-><init>()V
 
     const v5, 0x101009e
 
-    .line 112
     filled-new-array {v5}, [I
 
     move-result-object v5
 
     invoke-virtual {v3, v5, v12}, Landroid/graphics/drawable/StateListDrawable;->addState([ILandroid/graphics/drawable/Drawable;)V
 
-    .line 113
     new-array v5, v9, [I
 
     invoke-virtual {v3, v5, v4}, Landroid/graphics/drawable/StateListDrawable;->addState([ILandroid/graphics/drawable/Drawable;)V
 
-    .line 114
-    iget-object v4, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object v4, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     invoke-virtual {v4, v3}, Landroid/view/View;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    .line 115
-    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object v3, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     const-string v4, "tt_done"
 
@@ -787,43 +667,33 @@
 
     invoke-virtual {v3, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 116
-    iget-object v1, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object v1, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     invoke-virtual {v1, v9}, Landroid/view/View;->setEnabled(Z)V
 
-    .line 117
     invoke-virtual {v2, v6}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    .line 118
     invoke-virtual {v2, v10}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    .line 119
     invoke-virtual {v2, v11}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    .line 120
     iget-object v1, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->lG:Lcom/bytedance/sdk/openadsdk/core/rQf/DK;
 
     invoke-virtual {v6, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    .line 121
     invoke-virtual {v6, v8}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    .line 122
     iget-object v1, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->aAs:Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;
 
     invoke-virtual {v11, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    .line 123
     invoke-virtual {v11, v7}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    .line 124
-    iget-object v1, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object v1, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     invoke-virtual {v7, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
-    .line 125
-    iget-object v1, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object v1, v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     invoke-virtual {v7, v1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
@@ -835,35 +705,29 @@
 
     const/4 p1, 0x1
 
-    .line 2
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->aAs:Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;
 
     invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rk(Landroid/widget/EditText;)V
 
-    .line 3
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->Yp:Lcom/bytedance/sdk/openadsdk/aAs/ArD;
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-virtual {v0}, Lcom/bytedance/sdk/openadsdk/aAs/ArD;->Yp()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 5
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 6
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->aAs:Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;
 
     invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 7
-    iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->DK:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     invoke-static {}, Ljava/util/Locale;->getDefault()Ljava/util/Locale;
 
@@ -897,9 +761,8 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 8
     :cond_0
-    iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -909,9 +772,8 @@
 
     invoke-virtual {v1, p1}, Landroid/view/View;->setEnabled(Z)V
 
-    .line 9
     :cond_1
-    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/pw;
+    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rQf:Lcom/bytedance/sdk/openadsdk/core/rQf/PWRCC;
 
     new-instance v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs$1;
 
@@ -919,7 +781,6 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 10
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->lG:Lcom/bytedance/sdk/openadsdk/core/rQf/DK;
 
     new-instance v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs$2;
@@ -928,7 +789,6 @@
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 11
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->aAs:Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;
 
     new-instance v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs$3;
@@ -943,12 +803,10 @@
 .method public static rk(Landroid/widget/EditText;)V
     .locals 4
 
-    .line 12
     new-instance v0, Lcom/bytedance/sdk/openadsdk/aAs/NCs$4;
 
     invoke-direct {v0}, Lcom/bytedance/sdk/openadsdk/aAs/NCs$4;-><init>()V
 
-    .line 13
     new-instance v1, Landroid/text/InputFilter$LengthFilter;
 
     const/16 v2, 0xc8
@@ -977,27 +835,22 @@
 .method public dismiss()V
     .locals 0
 
-    .line 1
     invoke-virtual {p0}, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->fFV()V
 
-    .line 4
     invoke-super {p0}, Landroid/app/Dialog;->dismiss()V
 
-    .line 7
     return-void
 .end method
 
 .method public fFV()V
     .locals 3
 
-    .line 2
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->aAs:Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 3
     :cond_0
     invoke-virtual {v0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -1013,7 +866,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rk:Lcom/bytedance/sdk/openadsdk/core/rQf/rQf;
 
     invoke-virtual {v1}, Landroid/view/View;->getWindowToken()Landroid/os/IBinder;
@@ -1031,61 +883,45 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 0
 
-    .line 1
     invoke-super {p0, p1}, Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
 
-    .line 4
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
 
-    .line 7
     move-result-object p1
 
-    .line 8
     invoke-direct {p0, p1}, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rk(Landroid/content/Context;)Lcom/bytedance/sdk/openadsdk/core/rQf/rQf;
 
-    .line 11
     move-result-object p1
 
-    .line 12
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rk:Lcom/bytedance/sdk/openadsdk/core/rQf/rQf;
 
-    .line 14
     invoke-virtual {p0, p1}, Landroid/app/Dialog;->setContentView(Landroid/view/View;)V
 
-    .line 17
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rk:Lcom/bytedance/sdk/openadsdk/core/rQf/rQf;
 
-    .line 19
     invoke-direct {p0, p1}, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rk(Landroid/view/View;)V
 
-    .line 22
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->aAs()V
 
-    .line 25
     invoke-virtual {p0}, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->rk()V
 
-    .line 28
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->DK()V
 
-    .line 31
     return-void
 .end method
 
 .method public rk()V
     .locals 2
 
-    .line 15
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->aAs:Lcom/bytedance/sdk/openadsdk/core/rQf/fFV;
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 16
     :cond_0
     invoke-virtual {v0}, Landroid/view/View;->requestFocus()Z
 
-    .line 17
     invoke-virtual {p0}, Landroid/app/Dialog;->getWindow()Landroid/view/Window;
 
     move-result-object v0
@@ -1094,18 +930,16 @@
 
     const/4 v1, 0x5
 
-    .line 18
     invoke-virtual {v0, v1}, Landroid/view/Window;->setSoftInputMode(I)V
 
     :cond_1
     return-void
 .end method
 
-.method public rk(Lcom/bytedance/sdk/openadsdk/aAs/NCs$rk;)V
+.method public rk(Lcom/bytedance/sdk/openadsdk/aAs/NCs$RKN1;)V
     .locals 0
 
-    .line 14
-    iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->fFV:Lcom/bytedance/sdk/openadsdk/aAs/NCs$rk;
+    iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->fFV:Lcom/bytedance/sdk/openadsdk/aAs/NCs$RKN1;
 
     return-void
 .end method
@@ -1113,12 +947,10 @@
 .method public rk(Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/core/model/HmR;)V
     .locals 1
 
-    .line 19
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->Yp:Lcom/bytedance/sdk/openadsdk/aAs/ArD;
 
     if-eqz v0, :cond_0
 
-    .line 20
     invoke-virtual {v0, p1, p2}, Lcom/bytedance/sdk/openadsdk/aAs/ArD;->rk(Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/core/model/HmR;)V
 
     :cond_0
@@ -1128,19 +960,14 @@
 .method public show()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Landroid/app/Dialog;->show()V
 
-    .line 4
-    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->fFV:Lcom/bytedance/sdk/openadsdk/aAs/NCs$rk;
+    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/aAs/NCs;->fFV:Lcom/bytedance/sdk/openadsdk/aAs/NCs$RKN1;
 
-    .line 6
     if-eqz v0, :cond_0
 
-    .line 8
-    invoke-interface {v0}, Lcom/bytedance/sdk/openadsdk/aAs/NCs$rk;->rk()V
+    invoke-interface {v0}, Lcom/bytedance/sdk/openadsdk/aAs/NCs$RKN1;->rk()V
 
-    .line 11
     :cond_0
     return-void
 .end method

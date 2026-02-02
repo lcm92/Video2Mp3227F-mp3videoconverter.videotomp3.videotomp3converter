@@ -8,7 +8,7 @@
     .locals 1
 
     :cond_0
-    invoke-static/range {p0 .. p5}, Lqp2;->a(Lsun/misc/Unsafe;Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static/range {p0 .. p5}, Ldef/QP2;->a(Lsun/misc/Unsafe;Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v0
 

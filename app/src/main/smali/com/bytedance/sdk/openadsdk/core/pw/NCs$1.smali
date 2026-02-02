@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x8
-    name = null
+    name = "1"
 .end annotation
 
 
@@ -31,12 +31,11 @@
 .method public rk(Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0, p1, p2, p3, p4}, Lcom/bytedance/sdk/openadsdk/multipro/rk/rk;->rk(Landroid/content/Context;Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
+    invoke-static {v0, p1, p2, p3, p4}, Lcom/bytedance/sdk/openadsdk/multipro/rk/RKRMC;->rk(Landroid/content/Context;Ljava/lang/String;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I
 
     move-result p1
 
@@ -46,12 +45,11 @@
 .method public rk(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I
     .locals 1
 
-    .line 3
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0, p1, p2, p3}, Lcom/bytedance/sdk/openadsdk/multipro/rk/rk;->rk(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I
+    invoke-static {v0, p1, p2, p3}, Lcom/bytedance/sdk/openadsdk/multipro/rk/RKRMC;->rk(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)I
 
     move-result p1
 
@@ -61,7 +59,6 @@
 .method public rk(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;
     .locals 9
 
-    .line 2
     new-instance v0, Lcom/bytedance/sdk/openadsdk/multipro/aidl/aAs;
 
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
@@ -82,7 +79,7 @@
 
     move-object/from16 v8, p7
 
-    invoke-static/range {v1 .. v8}, Lcom/bytedance/sdk/openadsdk/multipro/rk/rk;->rk(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map;
+    invoke-static/range {v1 .. v8}, Lcom/bytedance/sdk/openadsdk/multipro/rk/RKRMC;->rk(Landroid/content/Context;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/Map;
 
     move-result-object v1
 
@@ -94,12 +91,11 @@
 .method public rk(Ljava/lang/String;Landroid/content/ContentValues;)V
     .locals 1
 
-    .line 4
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
 
     move-result-object v0
 
-    invoke-static {v0, p1, p2}, Lcom/bytedance/sdk/openadsdk/multipro/rk/rk;->rk(Landroid/content/Context;Ljava/lang/String;Landroid/content/ContentValues;)V
+    invoke-static {v0, p1, p2}, Lcom/bytedance/sdk/openadsdk/multipro/rk/RKRMC;->rk(Landroid/content/Context;Ljava/lang/String;Landroid/content/ContentValues;)V
 
     return-void
 .end method

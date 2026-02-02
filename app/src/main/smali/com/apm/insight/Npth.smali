@@ -19,19 +19,14 @@
 .method public static addAttachLongUserData(Lcom/apm/insight/AttachUserData;Lcom/apm/insight/CrashType;)V
     .locals 1
 
-    .line 1
     if-eqz p0, :cond_0
 
-    .line 3
-    invoke-static {}, Lcom/apm/insight/e;->b()Lcom/apm/insight/a;
+    invoke-static {}, Lcom/apm/insight/EIAC;->b()Lcom/apm/insight/AIAC;
 
-    .line 6
     move-result-object v0
 
-    .line 7
-    invoke-virtual {v0, p0, p1}, Lcom/apm/insight/a;->b(Lcom/apm/insight/AttachUserData;Lcom/apm/insight/CrashType;)V
+    invoke-virtual {v0, p0, p1}, Lcom/apm/insight/AIAC;->b(Lcom/apm/insight/AttachUserData;Lcom/apm/insight/CrashType;)V
 
-    .line 10
     :cond_0
     return-void
 .end method
@@ -39,19 +34,14 @@
 .method public static addAttachUserData(Lcom/apm/insight/AttachUserData;Lcom/apm/insight/CrashType;)V
     .locals 1
 
-    .line 1
     if-eqz p0, :cond_0
 
-    .line 3
-    invoke-static {}, Lcom/apm/insight/e;->b()Lcom/apm/insight/a;
+    invoke-static {}, Lcom/apm/insight/EIAC;->b()Lcom/apm/insight/AIAC;
 
-    .line 6
     move-result-object v0
 
-    .line 7
-    invoke-virtual {v0, p0, p1}, Lcom/apm/insight/a;->a(Lcom/apm/insight/AttachUserData;Lcom/apm/insight/CrashType;)V
+    invoke-virtual {v0, p0, p1}, Lcom/apm/insight/AIAC;->a(Lcom/apm/insight/AttachUserData;Lcom/apm/insight/CrashType;)V
 
-    .line 10
     :cond_0
     return-void
 .end method
@@ -70,28 +60,20 @@
         }
     .end annotation
 
-    .line 1
     if-eqz p0, :cond_0
 
-    .line 3
     invoke-interface {p0}, Ljava/util/Map;->isEmpty()Z
 
-    .line 6
     move-result v0
 
-    .line 7
     if-nez v0, :cond_0
 
-    .line 9
-    invoke-static {}, Lcom/apm/insight/e;->b()Lcom/apm/insight/a;
+    invoke-static {}, Lcom/apm/insight/EIAC;->b()Lcom/apm/insight/AIAC;
 
-    .line 12
     move-result-object v0
 
-    .line 13
-    invoke-virtual {v0, p0}, Lcom/apm/insight/a;->a(Ljava/util/Map;)V
+    invoke-virtual {v0, p0}, Lcom/apm/insight/AIAC;->a(Ljava/util/Map;)V
 
-    .line 16
     :cond_0
     return-void
 .end method
@@ -99,142 +81,112 @@
 .method public static checkInnerNpth(Z)V
     .locals 0
 
-    .line 1
-    invoke-static {p0}, Lcom/apm/insight/runtime/l;->c(Z)V
+    invoke-static {p0}, Lcom/apm/insight/runtime/LRIC;->c(Z)V
 
-    .line 4
     return-void
 .end method
 
 .method public static dumpHprof(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
-    invoke-static {p0}, Lcom/apm/insight/runtime/l;->c(Ljava/lang/String;)V
+    invoke-static {p0}, Lcom/apm/insight/runtime/LRIC;->c(Ljava/lang/String;)V
 
-    .line 4
     return-void
 .end method
 
-.method public static enableALogCollector$422740a0$2ccf6887(Ljava/lang/String;Lcom/apm/insight/b/i$a;Lcom/apm/insight/b/i$a;)V
+.method public static enableALogCollector$422740a0$2ccf6887(Ljava/lang/String;Lcom/apm/insight/b/IBIC$AI1;Lcom/apm/insight/b/IBIC$AI1;)V
     .locals 0
 
-    .line 1
-    invoke-static {p0, p1, p2}, Lcom/apm/insight/runtime/l;->a(Ljava/lang/String;Lcom/apm/insight/b/i$a;Lcom/apm/insight/b/i$a;)V
+    invoke-static {p0, p1, p2}, Lcom/apm/insight/runtime/LRIC;->a(Ljava/lang/String;Lcom/apm/insight/b/IBIC$AI1;Lcom/apm/insight/b/IBIC$AI1;)V
 
-    .line 4
     return-void
 .end method
 
 .method public static enableActivityDump(Z)V
     .locals 0
 
-    .line 1
-    invoke-static {p0}, Lcom/apm/insight/e;->e(Z)V
+    invoke-static {p0}, Lcom/apm/insight/EIAC;->e(Z)V
 
-    .line 4
     return-void
 .end method
 
 .method public static enableAnrInfo(Z)V
     .locals 0
 
-    .line 1
-    invoke-static {p0}, Lcom/apm/insight/runtime/l;->b(Z)V
+    invoke-static {p0}, Lcom/apm/insight/runtime/LRIC;->b(Z)V
 
-    .line 4
     return-void
 .end method
 
 .method public static enableLoopMonitor(Z)V
     .locals 0
 
-    .line 1
-    invoke-static {p0}, Lcom/apm/insight/runtime/l;->a(Z)V
+    invoke-static {p0}, Lcom/apm/insight/runtime/LRIC;->a(Z)V
 
-    .line 4
     return-void
 .end method
 
 .method public static enableMessageDump(Z)V
     .locals 0
 
-    .line 1
-    invoke-static {p0}, Lcom/apm/insight/e;->f(Z)V
+    invoke-static {p0}, Lcom/apm/insight/EIAC;->f(Z)V
 
-    .line 4
     return-void
 .end method
 
 .method public static enableNativeDump(Z)V
     .locals 0
 
-    .line 1
-    invoke-static {p0}, Lcom/apm/insight/runtime/l;->d(Z)V
+    invoke-static {p0}, Lcom/apm/insight/runtime/LRIC;->d(Z)V
 
-    .line 4
     return-void
 .end method
 
 .method public static enableThreadsBoost()V
     .locals 0
 
-    .line 1
-    invoke-static {}, Lcom/apm/insight/e;->l()V
+    invoke-static {}, Lcom/apm/insight/EIAC;->l()V
 
-    .line 4
     return-void
 .end method
 
 .method public static getConfigManager()Lcom/apm/insight/runtime/ConfigManager;
     .locals 1
 
-    .line 1
-    invoke-static {}, Lcom/apm/insight/e;->i()Lcom/apm/insight/runtime/ConfigManager;
+    invoke-static {}, Lcom/apm/insight/EIAC;->i()Lcom/apm/insight/runtime/ConfigManager;
 
-    .line 4
     move-result-object v0
 
-    .line 5
     return-object v0
 .end method
 
 .method public static hasCrash()Z
     .locals 1
 
-    .line 1
-    invoke-static {}, Lcom/apm/insight/runtime/l;->l()Z
+    invoke-static {}, Lcom/apm/insight/runtime/LRIC;->l()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     return v0
 .end method
 
 .method public static hasCrashWhenJavaCrash()Z
     .locals 1
 
-    .line 1
-    invoke-static {}, Lcom/apm/insight/runtime/l;->m()Z
+    invoke-static {}, Lcom/apm/insight/runtime/LRIC;->m()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     return v0
 .end method
 
 .method public static hasCrashWhenNativeCrash()Z
     .locals 1
 
-    .line 1
-    invoke-static {}, Lcom/apm/insight/runtime/l;->n()Z
+    invoke-static {}, Lcom/apm/insight/runtime/LRIC;->n()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     return v0
 .end method
 
@@ -245,7 +197,6 @@
 
     monitor-enter p3
 
-    .line 20
     :try_start_0
     sget-boolean p4, Lcom/apm/insight/Npth;->sInit:Z
     :try_end_0
@@ -253,7 +204,6 @@
 
     if-eqz p4, :cond_0
 
-    .line 21
     monitor-exit p3
 
     return-void
@@ -261,26 +211,21 @@
     :cond_0
     const/4 p4, 0x1
 
-    .line 22
     :try_start_1
     sput-boolean p4, Lcom/apm/insight/Npth;->sInit:Z
 
-    .line 23
-    invoke-static {p0, p1}, Lcom/apm/insight/runtime/l;->a(Landroid/app/Application;Landroid/content/Context;)V
+    invoke-static {p0, p1}, Lcom/apm/insight/runtime/LRIC;->a(Landroid/app/Application;Landroid/content/Context;)V
 
-    .line 24
-    invoke-static {p0, p1, p2}, Lcom/apm/insight/e;->a(Landroid/app/Application;Landroid/content/Context;Lcom/apm/insight/ICommonParams;)V
+    invoke-static {p0, p1, p2}, Lcom/apm/insight/EIAC;->a(Landroid/app/Application;Landroid/content/Context;Lcom/apm/insight/ICommonParams;)V
 
-    .line 25
-    invoke-static {}, Lcom/apm/insight/e;->a()Lcom/apm/insight/nativecrash/b;
+    invoke-static {}, Lcom/apm/insight/EIAC;->a()Lcom/apm/insight/nativecrash/BNIC;
 
     move-result-object p0
 
-    invoke-virtual {p0}, Lcom/apm/insight/nativecrash/b;->a()Ljava/util/Map;
+    invoke-virtual {p0}, Lcom/apm/insight/nativecrash/BNIC;->a()Ljava/util/Map;
 
     move-result-object p0
 
-    .line 26
     const-string p2, "update_version_code"
 
     invoke-interface {p0, p2}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -289,11 +234,10 @@
 
     const/4 p4, 0x0
 
-    invoke-static {p2, p4}, Lcom/apm/insight/l/c$1;->a(Ljava/lang/Object;I)I
+    invoke-static {p2, p4}, Lcom/apm/insight/l/CLIC$1;->a(Ljava/lang/Object;I)I
 
     move-result p2
 
-    .line 27
     const-string p4, "aid"
 
     invoke-interface {p0, p4}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -302,11 +246,10 @@
 
     const/16 p5, 0x115c
 
-    invoke-static {p4, p5}, Lcom/apm/insight/l/c$1;->a(Ljava/lang/Object;I)I
+    invoke-static {p4, p5}, Lcom/apm/insight/l/CLIC$1;->a(Ljava/lang/Object;I)I
 
     move-result p4
 
-    .line 28
     const-string p5, "app_version"
 
     invoke-interface {p0, p5}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
@@ -317,7 +260,6 @@
 
     move-result-object p5
 
-    .line 29
     invoke-static {p4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
     move-result-object p4
@@ -330,17 +272,15 @@
 
     if-eqz p1, :cond_1
 
-    .line 30
     invoke-virtual {p1}, Lcom/apm/insight/MonitorCrash;->config()Lcom/apm/insight/MonitorCrash$Config;
 
     move-result-object p1
 
-    .line 31
-    invoke-static {}, Lcom/apm/insight/e;->a()Lcom/apm/insight/nativecrash/b;
+    invoke-static {}, Lcom/apm/insight/EIAC;->a()Lcom/apm/insight/nativecrash/BNIC;
 
     move-result-object p2
 
-    invoke-virtual {p2}, Lcom/apm/insight/nativecrash/b;->d()Ljava/lang/String;
+    invoke-virtual {p2}, Lcom/apm/insight/nativecrash/BNIC;->d()Ljava/lang/String;
 
     move-result-object p2
 
@@ -369,7 +309,6 @@
 
     goto :goto_1
 
-    .line 32
     :cond_1
     :goto_0
     monitor-exit p3
@@ -396,13 +335,11 @@
 
     const/4 v2, 0x0
 
-    .line 1
     :try_start_0
     invoke-static {p0, p1, v1, v2, v2}, Lcom/apm/insight/Npth;->init(Landroid/content/Context;Lcom/apm/insight/ICommonParams;ZZZ)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 2
     monitor-exit v0
 
     return-void
@@ -437,13 +374,11 @@
 
     move v6, p4
 
-    .line 3
     :try_start_0
     invoke-static/range {v1 .. v6}, Lcom/apm/insight/Npth;->init(Landroid/content/Context;Lcom/apm/insight/ICommonParams;ZZZZ)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 4
     monitor-exit v0
 
     return-void
@@ -480,13 +415,11 @@
 
     move v6, p5
 
-    .line 5
     :try_start_0
     invoke-static/range {v1 .. v8}, Lcom/apm/insight/Npth;->init(Landroid/content/Context;Lcom/apm/insight/ICommonParams;ZZZZJ)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 6
     monitor-exit v0
 
     return-void
@@ -511,16 +444,14 @@
 
     monitor-enter v1
 
-    .line 7
     :try_start_0
-    invoke-static {}, Lcom/apm/insight/e;->h()Landroid/app/Application;
+    invoke-static {}, Lcom/apm/insight/EIAC;->h()Landroid/app/Application;
 
     move-result-object v2
 
     if-eqz v2, :cond_1
 
-    .line 8
-    invoke-static {}, Lcom/apm/insight/e;->h()Landroid/app/Application;
+    invoke-static {}, Lcom/apm/insight/EIAC;->h()Landroid/app/Application;
 
     move-result-object v2
 
@@ -537,18 +468,15 @@
 
     goto :goto_2
 
-    .line 9
     :cond_1
     instance-of v2, v0, Landroid/app/Application;
 
     if-eqz v2, :cond_3
 
-    .line 10
     move-object v2, v0
 
     check-cast v2, Landroid/app/Application;
 
-    .line 11
     invoke-virtual {v2}, Landroid/content/ContextWrapper;->getBaseContext()Landroid/content/Context;
 
     move-result-object v3
@@ -557,7 +485,6 @@
 
     goto :goto_0
 
-    .line 12
     :cond_2
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -569,7 +496,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 13
     :cond_3
     :try_start_1
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
@@ -582,7 +508,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 14
     :try_start_2
     invoke-virtual {v2}, Landroid/content/ContextWrapper;->getBaseContext()Landroid/content/Context;
 
@@ -590,7 +515,6 @@
 
     if-eqz v3, :cond_0
 
-    .line 15
     invoke-virtual {v2}, Landroid/content/ContextWrapper;->getBaseContext()Landroid/content/Context;
 
     move-result-object v0
@@ -610,17 +534,14 @@
 
     move-wide/from16 v10, p6
 
-    .line 16
     invoke-static/range {v3 .. v11}, Lcom/apm/insight/Npth;->init(Landroid/app/Application;Landroid/content/Context;Lcom/apm/insight/ICommonParams;ZZZZJ)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    .line 17
     monitor-exit v1
 
     return-void
 
-    .line 18
     :cond_4
     :try_start_3
     new-instance v0, Ljava/lang/IllegalArgumentException;
@@ -631,7 +552,6 @@
 
     throw v0
 
-    .line 19
     :catchall_1
     new-instance v0, Ljava/lang/IllegalArgumentException;
 
@@ -656,9 +576,8 @@
 
     monitor-enter v0
 
-    .line 1
     :try_start_0
-    invoke-static {}, Lcom/apm/insight/e;->o()V
+    invoke-static {}, Lcom/apm/insight/EIAC;->o()V
 
     const/4 v5, 0x1
 
@@ -672,12 +591,10 @@
 
     move-object v2, p1
 
-    .line 2
     invoke-static/range {v1 .. v6}, Lcom/apm/insight/Npth;->init(Landroid/content/Context;Lcom/apm/insight/ICommonParams;ZZZZ)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 3
     monitor-exit v0
 
     return-void
@@ -700,12 +617,10 @@
 
     monitor-enter v0
 
-    .line 4
     :try_start_0
-    invoke-static {}, Lcom/apm/insight/e;->o()V
+    invoke-static {}, Lcom/apm/insight/EIAC;->o()V
 
-    .line 5
-    invoke-static {p2, p3}, Lcom/apm/insight/e;->b(ILjava/lang/String;)V
+    invoke-static {p2, p3}, Lcom/apm/insight/EIAC;->b(ILjava/lang/String;)V
 
     const/4 v5, 0x1
 
@@ -719,12 +634,10 @@
 
     move-object v2, p1
 
-    .line 6
     invoke-static/range {v1 .. v6}, Lcom/apm/insight/Npth;->init(Landroid/content/Context;Lcom/apm/insight/ICommonParams;ZZZZ)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 7
     monitor-exit v0
 
     return-void
@@ -743,157 +656,122 @@
 .method public static isANREnable()Z
     .locals 1
 
-    .line 1
-    invoke-static {}, Lcom/apm/insight/runtime/l;->c()Z
+    invoke-static {}, Lcom/apm/insight/runtime/LRIC;->c()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     return v0
 .end method
 
 .method public static isInit()Z
     .locals 1
 
-    .line 1
     sget-boolean v0, Lcom/apm/insight/Npth;->sInit:Z
 
-    .line 3
     return v0
 .end method
 
 .method public static isJavaCrashEnable()Z
     .locals 1
 
-    .line 1
-    invoke-static {}, Lcom/apm/insight/runtime/l;->b()Z
+    invoke-static {}, Lcom/apm/insight/runtime/LRIC;->b()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     return v0
 .end method
 
 .method public static isNativeCrashEnable()Z
     .locals 1
 
-    .line 1
-    invoke-static {}, Lcom/apm/insight/runtime/l;->d()Z
+    invoke-static {}, Lcom/apm/insight/runtime/LRIC;->d()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     return v0
 .end method
 
 .method public static isRunning()Z
     .locals 1
 
-    .line 1
-    invoke-static {}, Lcom/apm/insight/runtime/l;->i()Z
+    invoke-static {}, Lcom/apm/insight/runtime/LRIC;->i()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     return v0
 .end method
 
 .method public static isStopUpload()Z
     .locals 1
 
-    .line 1
-    invoke-static {}, Lcom/apm/insight/runtime/l;->o()Z
+    invoke-static {}, Lcom/apm/insight/runtime/LRIC;->o()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     return v0
 .end method
 
 .method public static openANRMonitor()V
     .locals 0
 
-    .line 1
-    invoke-static {}, Lcom/apm/insight/runtime/l;->g()V
+    invoke-static {}, Lcom/apm/insight/runtime/LRIC;->g()V
 
-    .line 4
     return-void
 .end method
 
 .method public static openJavaCrashMonitor()V
     .locals 0
 
-    .line 1
-    invoke-static {}, Lcom/apm/insight/runtime/l;->f()V
+    invoke-static {}, Lcom/apm/insight/runtime/LRIC;->f()V
 
-    .line 4
     return-void
 .end method
 
 .method public static openNativeCrashMonitor()Z
     .locals 1
 
-    .line 1
-    invoke-static {}, Lcom/apm/insight/runtime/l;->h()Z
+    invoke-static {}, Lcom/apm/insight/runtime/LRIC;->h()Z
 
-    .line 4
     move-result v0
 
-    .line 5
     return v0
 .end method
 
 .method public static registerCrashCallback(Lcom/apm/insight/ICrashCallback;Lcom/apm/insight/CrashType;)V
     .locals 0
 
-    .line 1
-    invoke-static {p0, p1}, Lcom/apm/insight/runtime/l;->a(Lcom/apm/insight/ICrashCallback;Lcom/apm/insight/CrashType;)V
+    invoke-static {p0, p1}, Lcom/apm/insight/runtime/LRIC;->a(Lcom/apm/insight/ICrashCallback;Lcom/apm/insight/CrashType;)V
 
-    .line 4
     return-void
 .end method
 
 .method public static registerOOMCallback(Lcom/apm/insight/IOOMCallback;)V
     .locals 0
 
-    .line 1
-    invoke-static {p0}, Lcom/apm/insight/runtime/l;->a(Lcom/apm/insight/IOOMCallback;)V
+    invoke-static {p0}, Lcom/apm/insight/runtime/LRIC;->a(Lcom/apm/insight/IOOMCallback;)V
 
-    .line 4
     return-void
 .end method
 
 .method public static registerSdk(ILjava/lang/String;)V
     .locals 0
 
-    .line 1
-    invoke-static {p0, p1}, Lcom/apm/insight/e;->a(ILjava/lang/String;)V
+    invoke-static {p0, p1}, Lcom/apm/insight/EIAC;->a(ILjava/lang/String;)V
 
-    .line 4
     return-void
 .end method
 
 .method public static removeAttachLongUserData(Lcom/apm/insight/AttachUserData;Lcom/apm/insight/CrashType;)V
     .locals 1
 
-    .line 1
     if-eqz p0, :cond_0
 
-    .line 3
-    invoke-static {}, Lcom/apm/insight/e;->b()Lcom/apm/insight/a;
+    invoke-static {}, Lcom/apm/insight/EIAC;->b()Lcom/apm/insight/AIAC;
 
-    .line 6
     move-result-object v0
 
-    .line 7
-    invoke-virtual {v0, p1, p0}, Lcom/apm/insight/a;->b(Lcom/apm/insight/CrashType;Lcom/apm/insight/AttachUserData;)V
+    invoke-virtual {v0, p1, p0}, Lcom/apm/insight/AIAC;->b(Lcom/apm/insight/CrashType;Lcom/apm/insight/AttachUserData;)V
 
-    .line 10
     :cond_0
     return-void
 .end method
@@ -901,19 +779,14 @@
 .method public static removeAttachUserData(Lcom/apm/insight/AttachUserData;Lcom/apm/insight/CrashType;)V
     .locals 1
 
-    .line 1
     if-eqz p0, :cond_0
 
-    .line 3
-    invoke-static {}, Lcom/apm/insight/e;->b()Lcom/apm/insight/a;
+    invoke-static {}, Lcom/apm/insight/EIAC;->b()Lcom/apm/insight/AIAC;
 
-    .line 6
     move-result-object v0
 
-    .line 7
-    invoke-virtual {v0, p1, p0}, Lcom/apm/insight/a;->a(Lcom/apm/insight/CrashType;Lcom/apm/insight/AttachUserData;)V
+    invoke-virtual {v0, p1, p0}, Lcom/apm/insight/AIAC;->a(Lcom/apm/insight/CrashType;Lcom/apm/insight/AttachUserData;)V
 
-    .line 10
     :cond_0
     return-void
 .end method
@@ -921,14 +794,12 @@
 .method public static reportDartError(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
-    invoke-static {p0}, Lcom/apm/insight/runtime/l;->a(Ljava/lang/String;)V
+    invoke-static {p0}, Lcom/apm/insight/runtime/LRIC;->a(Ljava/lang/String;)V
 
-    .line 4
     return-void
 .end method
 
-.method public static reportDartError$1703a8c9(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Lcom/apm/insight/b/h$a;)V
+.method public static reportDartError$1703a8c9(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Lcom/apm/insight/b/HBIC$AH1;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -944,19 +815,17 @@
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             ">;",
-            "Lcom/apm/insight/b/h$a;",
+            "Lcom/apm/insight/b/HBIC$AH1;",
             ")V"
         }
     .end annotation
 
-    .line 1
-    invoke-static {p0, p1, p2, p3}, Lcom/apm/insight/runtime/l;->a(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Lcom/apm/insight/b/h$a;)V
+    invoke-static {p0, p1, p2, p3}, Lcom/apm/insight/runtime/LRIC;->a(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Lcom/apm/insight/b/HBIC$AH1;)V
 
-    .line 4
     return-void
 .end method
 
-.method public static reportDartError$721849be(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Lcom/apm/insight/b/h$a;)V
+.method public static reportDartError$721849be(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Lcom/apm/insight/b/HBIC$AH1;)V
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -976,15 +845,13 @@
             "Ljava/lang/String;",
             "Ljava/lang/String;",
             ">;",
-            "Lcom/apm/insight/b/h$a;",
+            "Lcom/apm/insight/b/HBIC$AH1;",
             ")V"
         }
     .end annotation
 
-    .line 1
-    invoke-static {p0, p1, p2, p3, p4}, Lcom/apm/insight/runtime/l;->a(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Lcom/apm/insight/b/h$a;)V
+    invoke-static {p0, p1, p2, p3, p4}, Lcom/apm/insight/runtime/LRIC;->a(Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Lcom/apm/insight/b/HBIC$AH1;)V
 
-    .line 4
     return-void
 .end method
 
@@ -993,8 +860,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 2
-    invoke-static {p0}, Lcom/apm/insight/runtime/l;->b(Ljava/lang/String;)V
+    invoke-static {p0}, Lcom/apm/insight/runtime/LRIC;->b(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -1004,8 +870,7 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
-    invoke-static {p0}, Lcom/apm/insight/runtime/l;->a(Ljava/lang/Throwable;)V
+    invoke-static {p0}, Lcom/apm/insight/runtime/LRIC;->a(Ljava/lang/Throwable;)V
 
     return-void
 .end method
@@ -1013,30 +878,24 @@
 .method public static setAlogFlushAddr(J)V
     .locals 0
 
-    .line 1
-    invoke-static {}, Lcom/apm/insight/runtime/l;->k()V
+    invoke-static {}, Lcom/apm/insight/runtime/LRIC;->k()V
 
-    .line 4
     return-void
 .end method
 
 .method public static setAlogFlushV2Addr(J)V
     .locals 0
 
-    .line 1
-    invoke-static {p0, p1}, Lcom/apm/insight/runtime/l;->a(J)V
+    invoke-static {p0, p1}, Lcom/apm/insight/runtime/LRIC;->a(J)V
 
-    .line 4
     return-void
 .end method
 
 .method public static setAlogLogDirAddr(J)V
     .locals 0
 
-    .line 1
-    invoke-static {p0, p1}, Lcom/apm/insight/runtime/l;->b(J)V
+    invoke-static {p0, p1}, Lcom/apm/insight/runtime/LRIC;->b(J)V
 
-    .line 4
     return-void
 .end method
 
@@ -1046,23 +905,19 @@
     return-void
 .end method
 
-.method public static setAnrInfoFileObserver$28c38359(Ljava/lang/String;Lcom/apm/insight/b/h$a;)V
+.method public static setAnrInfoFileObserver$28c38359(Ljava/lang/String;Lcom/apm/insight/b/HBIC$AH1;)V
     .locals 0
 
-    .line 1
-    invoke-static {p0, p1}, Lcom/apm/insight/runtime/l;->a(Ljava/lang/String;Lcom/apm/insight/b/h$a;)V
+    invoke-static {p0, p1}, Lcom/apm/insight/runtime/LRIC;->a(Ljava/lang/String;Lcom/apm/insight/b/HBIC$AH1;)V
 
-    .line 4
     return-void
 .end method
 
 .method public static setApplication(Landroid/app/Application;)V
     .locals 0
 
-    .line 1
-    invoke-static {p0}, Lcom/apm/insight/e;->a(Landroid/app/Application;)V
+    invoke-static {p0}, Lcom/apm/insight/EIAC;->a(Landroid/app/Application;)V
 
-    .line 4
     return-void
 .end method
 
@@ -1071,19 +926,14 @@
     .annotation runtime Ljava/lang/Deprecated;
     .end annotation
 
-    .line 1
     if-eqz p0, :cond_0
 
-    .line 3
-    invoke-static {}, Lcom/apm/insight/e;->b()Lcom/apm/insight/a;
+    invoke-static {}, Lcom/apm/insight/EIAC;->b()Lcom/apm/insight/AIAC;
 
-    .line 6
     move-result-object v0
 
-    .line 7
-    invoke-virtual {v0, p0, p1}, Lcom/apm/insight/a;->a(Lcom/apm/insight/AttachUserData;Lcom/apm/insight/CrashType;)V
+    invoke-virtual {v0, p0, p1}, Lcom/apm/insight/AIAC;->a(Lcom/apm/insight/AttachUserData;Lcom/apm/insight/CrashType;)V
 
-    .line 10
     :cond_0
     return-void
 .end method
@@ -1091,13 +941,10 @@
 .method public static setBusiness(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     if-eqz p0, :cond_0
 
-    .line 3
-    invoke-static {p0}, Lcom/apm/insight/e;->a(Ljava/lang/String;)V
+    invoke-static {p0}, Lcom/apm/insight/EIAC;->a(Ljava/lang/String;)V
 
-    .line 6
     :cond_0
     return-void
 .end method
@@ -1105,105 +952,83 @@
 .method public static setCrashFilter(Lcom/apm/insight/ICrashFilter;)V
     .locals 1
 
-    .line 1
-    invoke-static {}, Lcom/apm/insight/e;->b()Lcom/apm/insight/a;
+    invoke-static {}, Lcom/apm/insight/EIAC;->b()Lcom/apm/insight/AIAC;
 
-    .line 4
     move-result-object v0
 
-    .line 5
-    invoke-virtual {v0, p0}, Lcom/apm/insight/a;->a(Lcom/apm/insight/ICrashFilter;)V
+    invoke-virtual {v0, p0}, Lcom/apm/insight/AIAC;->a(Lcom/apm/insight/ICrashFilter;)V
 
-    .line 8
     return-void
 .end method
 
 .method public static setCrashWaitTime(J)V
     .locals 0
 
-    .line 1
-    invoke-static {p0, p1}, Lcom/apm/insight/g/a;->a(J)V
+    invoke-static {p0, p1}, Lcom/apm/insight/g/AGIC;->a(J)V
 
-    .line 4
     return-void
 .end method
 
 .method public static setCurProcessName(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
-    invoke-static {p0}, Lcom/apm/insight/l/a;->a(Ljava/lang/String;)V
+    invoke-static {p0}, Lcom/apm/insight/l/ALIC;->a(Ljava/lang/String;)V
 
-    .line 4
     return-void
 .end method
 
-.method public static setEncryptImpl$22f2d42e(Lcom/apm/insight/b/i$a;)V
+.method public static setEncryptImpl$22f2d42e(Lcom/apm/insight/b/IBIC$AI1;)V
     .locals 0
 
-    .line 1
-    invoke-static {p0}, Lcom/apm/insight/runtime/l;->a(Lcom/apm/insight/b/i$a;)V
+    invoke-static {p0}, Lcom/apm/insight/runtime/LRIC;->a(Lcom/apm/insight/b/IBIC$AI1;)V
 
-    .line 4
     return-void
 .end method
 
-.method public static setLogcatImpl$4df9fca2(Lcom/apm/insight/b/h$a;)V
+.method public static setLogcatImpl$4df9fca2(Lcom/apm/insight/b/HBIC$AH1;)V
     .locals 0
 
-    .line 1
-    invoke-static {p0}, Lcom/apm/insight/runtime/l;->a(Lcom/apm/insight/b/h$a;)V
+    invoke-static {p0}, Lcom/apm/insight/runtime/LRIC;->a(Lcom/apm/insight/b/HBIC$AH1;)V
 
-    .line 4
     return-void
 .end method
 
-.method public static setRequestIntercept$5f954c60(Lcom/apm/insight/b/h$a;)V
+.method public static setRequestIntercept$5f954c60(Lcom/apm/insight/b/HBIC$AH1;)V
     .locals 0
 
-    .line 1
-    invoke-static {p0}, Lcom/apm/insight/runtime/l;->b(Lcom/apm/insight/b/h$a;)V
+    invoke-static {p0}, Lcom/apm/insight/runtime/LRIC;->b(Lcom/apm/insight/b/HBIC$AH1;)V
 
-    .line 4
     return-void
 .end method
 
 .method public static stopAnr()V
     .locals 0
 
-    .line 1
-    invoke-static {}, Lcom/apm/insight/runtime/l;->j()V
+    invoke-static {}, Lcom/apm/insight/runtime/LRIC;->j()V
 
-    .line 4
     return-void
 .end method
 
 .method public static stopUpload()V
     .locals 0
 
-    .line 1
-    invoke-static {}, Lcom/apm/insight/runtime/l;->p()V
+    invoke-static {}, Lcom/apm/insight/runtime/LRIC;->p()V
 
-    .line 4
     return-void
 .end method
 
 .method public static unregisterCrashCallback(Lcom/apm/insight/ICrashCallback;Lcom/apm/insight/CrashType;)V
     .locals 0
 
-    .line 1
-    invoke-static {p0, p1}, Lcom/apm/insight/runtime/l;->b(Lcom/apm/insight/ICrashCallback;Lcom/apm/insight/CrashType;)V
+    invoke-static {p0, p1}, Lcom/apm/insight/runtime/LRIC;->b(Lcom/apm/insight/ICrashCallback;Lcom/apm/insight/CrashType;)V
 
-    .line 4
     return-void
 .end method
 
 .method public static unregisterOOMCallback(Lcom/apm/insight/IOOMCallback;Lcom/apm/insight/CrashType;)V
     .locals 0
 
-    .line 1
-    invoke-static {p0}, Lcom/apm/insight/runtime/l;->b(Lcom/apm/insight/IOOMCallback;)V
+    invoke-static {p0}, Lcom/apm/insight/runtime/LRIC;->b(Lcom/apm/insight/IOOMCallback;)V
 
-    .line 4
     return-void
 .end method

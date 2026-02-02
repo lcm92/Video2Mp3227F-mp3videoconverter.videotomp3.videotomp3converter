@@ -44,7 +44,7 @@
 .method public abstract aAs(Lcom/bytedance/adsdk/ugeno/yoga/DK;F)V
 .end method
 
-.method public abstract aAs(Lcom/bytedance/adsdk/ugeno/yoga/rk;)V
+.method public abstract aAs(Lcom/bytedance/adsdk/ugeno/yoga/RKYUC;)V
 .end method
 
 .method public abstract fFV()Lcom/bytedance/adsdk/ugeno/yoga/ArD;
@@ -59,7 +59,7 @@
 .method public abstract fFV(Lcom/bytedance/adsdk/ugeno/yoga/DK;F)V
 .end method
 
-.method public abstract fFV(Lcom/bytedance/adsdk/ugeno/yoga/rk;)V
+.method public abstract fFV(Lcom/bytedance/adsdk/ugeno/yoga/RKYUC;)V
 .end method
 
 .method public abstract lG()F
@@ -113,6 +113,9 @@
 .method public abstract rk(Lcom/bytedance/adsdk/ugeno/yoga/Pa;)V
 .end method
 
+.method public abstract rk(Lcom/bytedance/adsdk/ugeno/yoga/RKYUC;)V
+.end method
+
 .method public abstract rk(Lcom/bytedance/adsdk/ugeno/yoga/Yp;)V
 .end method
 
@@ -123,9 +126,6 @@
 .end method
 
 .method public abstract rk(Lcom/bytedance/adsdk/ugeno/yoga/rQf;)V
-.end method
-
-.method public abstract rk(Lcom/bytedance/adsdk/ugeno/yoga/rk;)V
 .end method
 
 .method public abstract rk(Lcom/bytedance/adsdk/ugeno/yoga/woP;)V

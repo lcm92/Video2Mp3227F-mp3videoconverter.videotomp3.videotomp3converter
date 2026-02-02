@@ -21,7 +21,7 @@
 .method public abstract i()Lcom/google/android/exoplayer2/Format;
 .end method
 
-.method public abstract k0(Lr01$b;)V
+.method public abstract k0(Ldef/R01$BR1;)V
 .end method
 
 .method public abstract o0()[B

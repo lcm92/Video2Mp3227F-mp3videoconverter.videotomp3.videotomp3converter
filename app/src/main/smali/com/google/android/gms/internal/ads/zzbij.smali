@@ -67,10 +67,10 @@
 .method public abstract zzl()Lcom/google/android/gms/internal/ads/zzbgp;
 .end method
 
-.method public abstract zzm()Ljl0;
+.method public abstract zzm()Ldef/JL0;
 .end method
 
-.method public abstract zzn()Ljl0;
+.method public abstract zzn()Ldef/JL0;
 .end method
 
 .method public abstract zzo()Ljava/lang/String;

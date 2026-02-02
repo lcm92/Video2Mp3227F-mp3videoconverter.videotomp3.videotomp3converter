@@ -44,7 +44,6 @@
 .method static bridge synthetic a(Lcom/google/android/gms/ads/VideoOptions$Builder;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/android/gms/ads/VideoOptions$Builder;->c:Z
 
     return p0
@@ -53,7 +52,6 @@
 .method static bridge synthetic b(Lcom/google/android/gms/ads/VideoOptions$Builder;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/android/gms/ads/VideoOptions$Builder;->b:Z
 
     return p0
@@ -62,7 +60,6 @@
 .method static bridge synthetic c(Lcom/google/android/gms/ads/VideoOptions$Builder;)Z
     .locals 0
 
-    .line 1
     iget-boolean p0, p0, Lcom/google/android/gms/ads/VideoOptions$Builder;->a:Z
 
     return p0

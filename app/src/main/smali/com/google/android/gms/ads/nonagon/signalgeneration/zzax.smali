@@ -27,7 +27,6 @@
 .method static bridge synthetic a(Lcom/google/android/gms/ads/nonagon/signalgeneration/zzax;)Lcom/google/android/gms/internal/ads/zzbze;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/ads/nonagon/signalgeneration/zzax;->c:Lcom/google/android/gms/internal/ads/zzbze;
 
     return-object p0
@@ -36,7 +35,6 @@
 .method static bridge synthetic b(Lcom/google/android/gms/ads/nonagon/signalgeneration/zzax;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/ads/nonagon/signalgeneration/zzax;->a:Ljava/lang/String;
 
     return-object p0
@@ -45,7 +43,6 @@
 .method static bridge synthetic c(Lcom/google/android/gms/ads/nonagon/signalgeneration/zzax;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/ads/nonagon/signalgeneration/zzax;->b:Ljava/lang/String;
 
     return-object p0

@@ -30,42 +30,17 @@
 .method public final zza(Ljava/lang/String;)Lcom/google/android/gms/ads/internal/util/client/zzt;
     .locals 3
 
-    .line 1
-    new-instance v0, Lcom/google/android/gms/ads/internal/util/client/b;
+    new-instance v0, Lcom/google/android/gms/ads/internal/util/client/BCUC;
 
-    .line 2
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/ads/internal/util/client/zzc;->zza:Lcom/google/android/gms/ads/internal/util/client/zzf;
 
-    .line 4
-    .line 5
     iget-object v2, p0, Lcom/google/android/gms/ads/internal/util/client/zzc;->zzb:Landroid/content/Context;
 
-    .line 6
-    .line 7
-    invoke-direct {v0, v1, v2, p1}, Lcom/google/android/gms/ads/internal/util/client/b;-><init>(Lcom/google/android/gms/ads/internal/util/client/zzf;Landroid/content/Context;Ljava/lang/String;)V
+    invoke-direct {v0, v1, v2, p1}, Lcom/google/android/gms/ads/internal/util/client/BCUC;-><init>(Lcom/google/android/gms/ads/internal/util/client/zzf;Landroid/content/Context;Ljava/lang/String;)V
 
-    .line 8
-    .line 9
-    .line 10
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
-    .line 11
-    .line 12
-    .line 13
     sget-object p1, Lcom/google/android/gms/ads/internal/util/client/zzt;->zza:Lcom/google/android/gms/ads/internal/util/client/zzt;
 
-    .line 14
-    .line 15
     return-object p1
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
 .end method

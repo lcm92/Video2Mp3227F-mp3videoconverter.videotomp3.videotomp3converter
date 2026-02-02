@@ -9,7 +9,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK$rk;
+        Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK$RKD1;
     }
 .end annotation
 
@@ -27,7 +27,7 @@
 
 .field public aAs:Landroid/view/View;
 
-.field fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;
+.field fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;
 
 .field public rk:Ljava/util/List;
     .annotation system Ldalvik/annotation/Signature;
@@ -41,44 +41,33 @@
 
 
 # direct methods
-.method public constructor <init>(Landroid/view/View;Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;)V
+.method public constructor <init>(Landroid/view/View;Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->aAs:Landroid/view/View;
 
-    .line 6
-    iput-object p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;
+    iput-object p2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;
 
-    .line 8
     new-instance p1, Ljava/util/HashSet;
 
-    .line 10
     invoke-direct {p1}, Ljava/util/HashSet;-><init>()V
 
-    .line 13
     iput-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->DK:Ljava/util/Set;
 
-    .line 15
     invoke-virtual {p0}, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->rk()Ljava/util/List;
 
-    .line 18
     move-result-object p1
 
-    .line 19
     iput-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->rk:Ljava/util/List;
 
-    .line 21
     return-void
 .end method
 
 .method static synthetic rk(Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;)Ljava/util/Set;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->DK:Ljava/util/Set;
 
     return-object p0
@@ -89,76 +78,53 @@
 .method public aAs()V
     .locals 6
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->rk:Ljava/util/List;
 
-    .line 3
     if-nez v0, :cond_0
 
-    .line 5
     return-void
 
-    .line 6
     :cond_0
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
-    .line 9
     move-result-object v0
 
-    .line 10
     :cond_1
     :goto_0
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
-    .line 13
     move-result v1
 
-    .line 14
     if-eqz v1, :cond_2
 
-    .line 16
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    .line 19
     move-result-object v1
 
-    .line 20
     check-cast v1, Landroid/animation/ObjectAnimator;
 
-    .line 22
     invoke-virtual {v1}, Landroid/animation/ObjectAnimator;->start()V
 
-    .line 25
-    iget-object v2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;
+    iget-object v2, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;
 
-    .line 27
-    invoke-virtual {v2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;->lgt()D
+    invoke-virtual {v2}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;->lgt()D
 
-    .line 30
     move-result-wide v2
 
-    .line 31
     const-wide/16 v4, 0x0
 
-    .line 33
     cmpl-double v2, v2, v4
 
-    .line 35
     if-lez v2, :cond_1
 
-    .line 37
     new-instance v2, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK$1;
 
-    .line 39
     invoke-direct {v2, p0, v1}, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK$1;-><init>(Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;Landroid/animation/ObjectAnimator;)V
 
-    .line 42
     invoke-virtual {v1, v2}, Landroid/animation/Animator;->addListener(Landroid/animation/Animator$AnimatorListener;)V
 
-    .line 45
     goto :goto_0
 
-    .line 46
     :cond_2
     return-void
 .end method
@@ -166,89 +132,62 @@
 .method public fFV()V
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->rk:Ljava/util/List;
 
-    .line 3
     if-nez v0, :cond_0
 
-    .line 5
     return-void
 
-    .line 6
     :cond_0
     invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
-    .line 9
     move-result-object v0
 
-    .line 10
     :goto_0
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
-    .line 13
     move-result v1
 
-    .line 14
     if-eqz v1, :cond_1
 
-    .line 16
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    .line 19
     move-result-object v1
 
-    .line 20
     check-cast v1, Landroid/animation/ObjectAnimator;
 
-    .line 22
     invoke-virtual {v1}, Landroid/animation/Animator;->cancel()V
 
-    .line 25
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->removeAllUpdateListeners()V
 
-    .line 28
     goto :goto_0
 
-    .line 29
     :cond_1
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->DK:Ljava/util/Set;
 
-    .line 31
     invoke-interface {v0}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
 
-    .line 34
     move-result-object v0
 
-    .line 35
     :goto_1
     invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
 
-    .line 38
     move-result v1
 
-    .line 39
     if-eqz v1, :cond_2
 
-    .line 41
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
-    .line 44
     move-result-object v1
 
-    .line 45
     check-cast v1, Ljava/util/concurrent/ScheduledFuture;
 
-    .line 47
     const/4 v2, 0x1
 
-    .line 48
     invoke-interface {v1, v2}, Ljava/util/concurrent/Future;->cancel(Z)Z
 
-    .line 51
     goto :goto_1
 
-    .line 52
     :cond_2
     return-void
 .end method
@@ -256,10 +195,9 @@
 .method rk(Landroid/animation/ObjectAnimator;)Landroid/animation/ObjectAnimator;
     .locals 4
 
-    .line 2
-    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;
+    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;
 
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;->Pa()D
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;->Pa()D
 
     move-result-wide v0
 
@@ -271,10 +209,9 @@
 
     invoke-virtual {p1, v0, v1}, Landroid/animation/Animator;->setStartDelay(J)V
 
-    .line 3
-    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;
+    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;
 
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;->AXL()I
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;->AXL()I
 
     move-result v0
 
@@ -282,10 +219,9 @@
 
     if-lez v0, :cond_0
 
-    .line 4
-    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;
+    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;
 
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;->AXL()I
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;->AXL()I
 
     move-result v0
 
@@ -298,14 +234,12 @@
     :cond_0
     const/4 v0, -0x1
 
-    .line 5
     invoke-virtual {p1, v0}, Landroid/animation/ValueAnimator;->setRepeatCount(I)V
 
-    .line 6
     :goto_0
-    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;
+    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;
 
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;->kEa()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;->kEa()Ljava/lang/String;
 
     move-result-object v0
 
@@ -317,10 +251,9 @@
 
     if-nez v0, :cond_3
 
-    .line 7
-    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;
+    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;
 
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;->kEa()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;->kEa()Ljava/lang/String;
 
     move-result-object v0
 
@@ -332,9 +265,9 @@
 
     if-nez v0, :cond_2
 
-    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;
+    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;
 
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;->kEa()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;->kEa()Ljava/lang/String;
 
     move-result-object v0
 
@@ -348,7 +281,6 @@
 
     goto :goto_1
 
-    .line 8
     :cond_1
     invoke-virtual {p1, v1}, Landroid/animation/ValueAnimator;->setRepeatMode(I)V
 
@@ -358,15 +290,13 @@
     :goto_1
     const/4 v0, 0x2
 
-    .line 9
     invoke-virtual {p1, v0}, Landroid/animation/ValueAnimator;->setRepeatMode(I)V
 
-    .line 10
     :cond_3
     :goto_2
-    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;
+    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;
 
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;->woP()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;->woP()Ljava/lang/String;
 
     move-result-object v0
 
@@ -378,7 +308,6 @@
 
     if-eqz v0, :cond_4
 
-    .line 11
     new-instance v0, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {v0}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
@@ -387,11 +316,10 @@
 
     goto :goto_3
 
-    .line 12
     :cond_4
-    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;
+    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;
 
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;->kEa()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;->kEa()Ljava/lang/String;
 
     move-result-object v0
 
@@ -403,7 +331,6 @@
 
     if-eqz v0, :cond_5
 
-    .line 13
     new-instance v0, Landroid/view/animation/AccelerateInterpolator;
 
     invoke-direct {v0}, Landroid/view/animation/AccelerateInterpolator;-><init>()V
@@ -412,11 +339,10 @@
 
     goto :goto_3
 
-    .line 14
     :cond_5
-    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;
+    iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK;->fFV:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;
 
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/rk;->kEa()Ljava/lang/String;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/RKDDC;->kEa()Ljava/lang/String;
 
     move-result-object v0
 
@@ -428,7 +354,6 @@
 
     if-eqz v0, :cond_6
 
-    .line 15
     new-instance v0, Landroid/view/animation/DecelerateInterpolator;
 
     invoke-direct {v0}, Landroid/view/animation/DecelerateInterpolator;-><init>()V
@@ -437,7 +362,6 @@
 
     goto :goto_3
 
-    .line 16
     :cond_6
     new-instance v0, Landroid/view/animation/LinearInterpolator;
 
@@ -445,7 +369,6 @@
 
     invoke-virtual {p1, v0}, Landroid/animation/Animator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    .line 17
     :goto_3
     new-instance v0, Lcom/bytedance/sdk/component/adexpress/dynamic/animation/rk/DK$2;
 

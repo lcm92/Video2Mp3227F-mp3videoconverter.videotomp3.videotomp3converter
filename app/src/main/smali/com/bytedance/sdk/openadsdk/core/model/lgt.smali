@@ -37,55 +37,38 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     const/4 v0, 0x5
 
-    .line 5
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->aAs:I
 
-    .line 7
     const/16 v0, 0x1e
 
-    .line 9
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->DK:I
 
-    .line 11
     const/16 v0, 0x46
 
-    .line 13
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->rQf:I
 
-    .line 15
     const/4 v0, 0x1
 
-    .line 16
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->lG:I
 
-    .line 18
     sget v0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->rk:I
 
-    .line 20
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->Yp:I
 
-    .line 22
     const/4 v0, 0x0
 
-    .line 23
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->pw:I
 
-    .line 25
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->ppR:I
 
-    .line 27
     const/4 v0, 0x3
 
-    .line 28
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->ArD:I
 
-    .line 30
     return-void
 .end method
 
@@ -94,7 +77,6 @@
 .method public DK()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->aAs:I
 
     return v0
@@ -103,7 +85,6 @@
 .method public DK(I)V
     .locals 0
 
-    .line 2
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->aAs:I
 
     return-void
@@ -112,7 +93,6 @@
 .method public Yp()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->lG:I
 
     return v0
@@ -121,7 +101,6 @@
 .method public Yp(I)V
     .locals 0
 
-    .line 2
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->lG:I
 
     return-void
@@ -130,7 +109,6 @@
 .method public aAs()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->pw:I
 
     return v0
@@ -139,7 +117,6 @@
 .method public aAs(I)V
     .locals 0
 
-    .line 2
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->pw:I
 
     return-void
@@ -148,7 +125,6 @@
 .method public fFV()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->ppR:I
 
     return v0
@@ -157,7 +133,6 @@
 .method public fFV(I)V
     .locals 0
 
-    .line 2
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->ppR:I
 
     return-void
@@ -166,7 +141,6 @@
 .method public lG()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->rQf:I
 
     return v0
@@ -175,7 +149,6 @@
 .method public lG(I)V
     .locals 0
 
-    .line 2
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->rQf:I
 
     return-void
@@ -184,7 +157,6 @@
 .method public pw()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->Yp:I
 
     return v0
@@ -193,7 +165,6 @@
 .method public pw(I)V
     .locals 0
 
-    .line 2
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->Yp:I
 
     return-void
@@ -202,7 +173,6 @@
 .method public rQf()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->DK:I
 
     return v0
@@ -211,7 +181,6 @@
 .method public rQf(I)V
     .locals 0
 
-    .line 2
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->DK:I
 
     return-void
@@ -220,7 +189,6 @@
 .method public rk()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->ArD:I
 
     return v0
@@ -231,12 +199,10 @@
 
     if-nez p1, :cond_0
 
-    .line 5
     new-instance p1, Lorg/json/JSONObject;
 
     invoke-direct {p1}, Lorg/json/JSONObject;-><init>()V
 
-    .line 6
     :cond_0
     :try_start_0
     const-string v0, "ceiling_time"
@@ -245,49 +211,42 @@
 
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 7
     const-string v0, "ceiling_ratio"
 
     iget v1, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->DK:I
 
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 8
     const-string v0, "expand_ratio"
 
     iget v1, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->rQf:I
 
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 9
     const-string v0, "back_type"
 
     iget v1, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->lG:I
 
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 10
     const-string v0, "boc_return_type"
 
     iget v1, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->Yp:I
 
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 11
     const-string v0, "pre_render_status"
 
     iget v1, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->pw:I
 
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 12
     const-string v0, "pre_render_use_gecko"
 
     iget v1, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->ppR:I
 
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 13
     const-string v0, "pre_render_add_type"
 
     iget v1, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->ArD:I
@@ -301,7 +260,6 @@
     :catchall_0
     move-exception v0
 
-    .line 14
     const-string v1, "InteractionParams"
 
     invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
@@ -317,7 +275,6 @@
 .method public rk(I)V
     .locals 0
 
-    .line 2
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->ArD:I
 
     return-void
@@ -334,7 +291,6 @@
 
     if-eqz p1, :cond_2
 
-    .line 3
     iget p1, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->pw:I
 
     if-eq p1, v2, :cond_1
@@ -350,7 +306,6 @@
     :goto_0
     return v2
 
-    .line 4
     :cond_2
     iget p1, p0, Lcom/bytedance/sdk/openadsdk/core/model/lgt;->pw:I
 

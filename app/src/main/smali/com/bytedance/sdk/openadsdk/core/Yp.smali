@@ -3,13 +3,13 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/bytedance/sdk/component/utils/UD$rk;
+.implements Lcom/bytedance/sdk/component/utils/UD$RKU1;
 
 
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/bytedance/sdk/openadsdk/core/Yp$rk;
+        Lcom/bytedance/sdk/openadsdk/core/Yp$RKY1;
     }
 .end annotation
 
@@ -25,7 +25,7 @@
 
 .field private Yp:Z
 
-.field private aAs:Lcom/bytedance/sdk/openadsdk/core/Yp$rk;
+.field private aAs:Lcom/bytedance/sdk/openadsdk/core/Yp$RKY1;
 
 .field private fFV:Z
 
@@ -64,95 +64,66 @@
 .method public constructor <init>(Landroid/content/Context;Landroid/view/View;Z)V
     .locals 1
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->rk()Landroid/content/Context;
 
-    .line 4
     move-result-object p1
 
-    .line 5
     invoke-direct {p0, p1}, Landroid/view/View;-><init>(Landroid/content/Context;)V
 
-    .line 8
     new-instance p1, Lcom/bytedance/sdk/component/utils/UD;
 
-    .line 10
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/Pa;->fFV()Landroid/os/Handler;
 
-    .line 13
     move-result-object v0
 
-    .line 14
     invoke-virtual {v0}, Landroid/os/Handler;->getLooper()Landroid/os/Looper;
 
-    .line 17
     move-result-object v0
 
-    .line 18
-    invoke-direct {p1, v0, p0}, Lcom/bytedance/sdk/component/utils/UD;-><init>(Landroid/os/Looper;Lcom/bytedance/sdk/component/utils/UD$rk;)V
+    invoke-direct {p1, v0, p0}, Lcom/bytedance/sdk/component/utils/UD;-><init>(Landroid/os/Looper;Lcom/bytedance/sdk/component/utils/UD$RKU1;)V
 
-    .line 21
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->ppR:Landroid/os/Handler;
 
-    .line 23
     new-instance p1, Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 25
     const/4 v0, 0x1
 
-    .line 26
     invoke-direct {p1, v0}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
 
-    .line 29
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->ArD:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 31
     const/4 p1, 0x0
 
-    .line 32
     iput-boolean p1, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->woP:Z
 
-    .line 34
     new-instance v0, Lcom/bytedance/sdk/openadsdk/core/Yp$3;
 
-    .line 36
     invoke-direct {v0, p0}, Lcom/bytedance/sdk/openadsdk/core/Yp$3;-><init>(Lcom/bytedance/sdk/openadsdk/core/Yp;)V
 
-    .line 39
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->Pa:Ljava/lang/Runnable;
 
-    .line 41
     iput-boolean p3, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->NCs:Z
 
-    .line 43
     iput-object p2, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->DK:Landroid/view/View;
 
-    .line 45
     new-instance p2, Landroid/view/ViewGroup$LayoutParams;
 
-    .line 47
     invoke-direct {p2, p1, p1}, Landroid/view/ViewGroup$LayoutParams;-><init>(II)V
 
-    .line 50
     invoke-virtual {p0, p2}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 53
     new-instance p1, Lcom/bytedance/sdk/openadsdk/core/Yp$1;
 
-    .line 55
     invoke-direct {p1, p0}, Lcom/bytedance/sdk/openadsdk/core/Yp$1;-><init>(Lcom/bytedance/sdk/openadsdk/core/Yp;)V
 
-    .line 58
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->nP:Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;
 
-    .line 60
     return-void
 .end method
 
 .method static synthetic DK(Lcom/bytedance/sdk/openadsdk/core/Yp;)Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->nP:Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;
 
     return-object p0
@@ -161,7 +132,6 @@
 .method private DK()V
     .locals 2
 
-    .line 2
     iget-boolean v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->fFV:Z
 
     if-eqz v0, :cond_1
@@ -175,10 +145,8 @@
     :cond_0
     const/4 v0, 0x1
 
-    .line 3
     iput-boolean v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->rk:Z
 
-    .line 4
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->ppR:Landroid/os/Handler;
 
     invoke-virtual {v1, v0}, Landroid/os/Handler;->sendEmptyMessage(I)Z
@@ -191,7 +159,6 @@
 .method private aAs()V
     .locals 2
 
-    .line 2
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->ArD:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x1
@@ -202,12 +169,11 @@
 
     if-nez v0, :cond_0
 
-    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->aAs:Lcom/bytedance/sdk/openadsdk/core/Yp$rk;
+    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->aAs:Lcom/bytedance/sdk/openadsdk/core/Yp$RKY1;
 
     if-eqz v0, :cond_0
 
-    .line 3
-    invoke-interface {v0}, Lcom/bytedance/sdk/openadsdk/core/Yp$rk;->fFV()V
+    invoke-interface {v0}, Lcom/bytedance/sdk/openadsdk/core/Yp$RKY1;->fFV()V
 
     :cond_0
     return-void
@@ -216,7 +182,6 @@
 .method static synthetic aAs(Lcom/bytedance/sdk/openadsdk/core/Yp;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/Yp;->DK()V
 
     return-void
@@ -225,7 +190,6 @@
 .method private fFV()V
     .locals 2
 
-    .line 2
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->ArD:Ljava/util/concurrent/atomic/AtomicBoolean;
 
     const/4 v1, 0x0
@@ -236,12 +200,11 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->aAs:Lcom/bytedance/sdk/openadsdk/core/Yp$rk;
+    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->aAs:Lcom/bytedance/sdk/openadsdk/core/Yp$RKY1;
 
     if-eqz v0, :cond_0
 
-    .line 3
-    invoke-interface {v0}, Lcom/bytedance/sdk/openadsdk/core/Yp$rk;->rk()V
+    invoke-interface {v0}, Lcom/bytedance/sdk/openadsdk/core/Yp$RKY1;->rk()V
 
     :cond_0
     return-void
@@ -250,7 +213,6 @@
 .method static synthetic fFV(Lcom/bytedance/sdk/openadsdk/core/Yp;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/Yp;->rQf()V
 
     return-void
@@ -259,7 +221,6 @@
 .method static synthetic lG(Lcom/bytedance/sdk/openadsdk/core/Yp;)Landroid/view/View;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->DK:Landroid/view/View;
 
     return-object p0
@@ -268,14 +229,12 @@
 .method private lG()Z
     .locals 2
 
-    .line 2
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->DK:Landroid/view/View;
 
     instance-of v1, v0, Lcom/bytedance/sdk/openadsdk/core/pw/ZQ;
 
     if-eqz v1, :cond_0
 
-    .line 3
     check-cast v0, Lcom/bytedance/sdk/openadsdk/core/pw/ZQ;
 
     invoke-virtual {v0}, Lcom/bytedance/sdk/openadsdk/core/pw/ZQ;->Kl()Z
@@ -290,11 +249,10 @@
     return v0
 .end method
 
-.method static synthetic rQf(Lcom/bytedance/sdk/openadsdk/core/Yp;)Lcom/bytedance/sdk/openadsdk/core/Yp$rk;
+.method static synthetic rQf(Lcom/bytedance/sdk/openadsdk/core/Yp;)Lcom/bytedance/sdk/openadsdk/core/Yp$RKY1;
     .locals 0
 
-    .line 1
-    iget-object p0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->aAs:Lcom/bytedance/sdk/openadsdk/core/Yp$rk;
+    iget-object p0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->aAs:Lcom/bytedance/sdk/openadsdk/core/Yp$RKY1;
 
     return-object p0
 .end method
@@ -302,14 +260,12 @@
 .method private rQf()V
     .locals 2
 
-    .line 2
     iget-boolean v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->rk:Z
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 3
     :cond_0
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->ppR:Landroid/os/Handler;
 
@@ -319,7 +275,6 @@
 
     const/4 v0, 0x0
 
-    .line 4
     iput-boolean v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->rk:Z
 
     return-void
@@ -328,7 +283,6 @@
 .method static synthetic rk(Lcom/bytedance/sdk/openadsdk/core/Yp;Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->nP:Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;
 
     return-object p1
@@ -337,12 +291,10 @@
 .method private rk(Z)V
     .locals 3
 
-    .line 17
     invoke-virtual {p0}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 
     move-result-object v0
 
-    .line 18
     invoke-static {}, Lcom/bytedance/sdk/component/utils/ppR;->fFV()Landroid/os/Handler;
 
     move-result-object v1
@@ -359,7 +311,6 @@
 .method static synthetic rk(Lcom/bytedance/sdk/openadsdk/core/Yp;)Z
     .locals 0
 
-    .line 2
     iget-boolean p0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->woP:Z
 
     return p0
@@ -370,37 +321,26 @@
 .method protected onAttachedToWindow()V
     .locals 2
 
-    .line 1
     invoke-super {p0}, Landroid/view/View;->onAttachedToWindow()V
 
-    .line 4
     const/4 v0, 0x0
 
-    .line 5
     iput-boolean v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->Yp:Z
 
-    .line 7
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/Yp;->fFV()V
 
-    .line 10
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->nP:Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;
 
-    .line 12
     if-eqz v0, :cond_0
 
-    .line 14
     invoke-virtual {p0}, Landroid/view/View;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 
-    .line 17
     move-result-object v0
 
-    .line 18
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->nP:Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;
 
-    .line 20
     invoke-virtual {v0, v1}, Landroid/view/ViewTreeObserver;->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
 
-    .line 23
     :cond_0
     return-void
 .end method
@@ -408,73 +348,54 @@
 .method protected onDetachedFromWindow()V
     .locals 1
 
-    .line 1
     invoke-super {p0}, Landroid/view/View;->onDetachedFromWindow()V
 
-    .line 4
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/Yp;->rQf()V
 
-    .line 7
     const/4 v0, 0x1
 
-    .line 8
     iput-boolean v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->Yp:Z
 
-    .line 10
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/Yp;->aAs()V
 
-    .line 13
     const/4 v0, 0x0
 
-    .line 14
     invoke-direct {p0, v0}, Lcom/bytedance/sdk/openadsdk/core/Yp;->rk(Z)V
 
-    .line 17
     return-void
 .end method
 
 .method public onFinishTemporaryDetach()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Landroid/view/View;->onFinishTemporaryDetach()V
 
-    .line 4
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/Yp;->fFV()V
 
-    .line 7
     return-void
 .end method
 
 .method public onStartTemporaryDetach()V
     .locals 0
 
-    .line 1
     invoke-super {p0}, Landroid/view/View;->onStartTemporaryDetach()V
 
-    .line 4
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/Yp;->aAs()V
 
-    .line 7
     return-void
 .end method
 
 .method public onWindowFocusChanged(Z)V
     .locals 1
 
-    .line 1
     invoke-super {p0, p1}, Landroid/view/View;->onWindowFocusChanged(Z)V
 
-    .line 4
-    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->aAs:Lcom/bytedance/sdk/openadsdk/core/Yp$rk;
+    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->aAs:Lcom/bytedance/sdk/openadsdk/core/Yp$RKY1;
 
-    .line 6
     if-eqz v0, :cond_0
 
-    .line 8
-    invoke-interface {v0, p1}, Lcom/bytedance/sdk/openadsdk/core/Yp$rk;->rk(Z)V
+    invoke-interface {v0, p1}, Lcom/bytedance/sdk/openadsdk/core/Yp$RKY1;->rk(Z)V
 
-    .line 11
     :cond_0
     return-void
 .end method
@@ -482,14 +403,12 @@
 .method public rk()V
     .locals 2
 
-    .line 3
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->rQf:Ljava/util/List;
 
     const/4 v1, 0x0
 
     invoke-virtual {p0, v0, v1}, Lcom/bytedance/sdk/openadsdk/core/Yp;->rk(Ljava/util/List;Lcom/bytedance/sdk/openadsdk/core/fFV/aAs;)V
 
-    .line 4
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->lG:Ljava/util/List;
 
     invoke-virtual {p0, v0, v1}, Lcom/bytedance/sdk/openadsdk/core/Yp;->rk(Ljava/util/List;Lcom/bytedance/sdk/openadsdk/core/fFV/aAs;)V
@@ -500,19 +419,16 @@
 .method public rk(Landroid/os/Message;)V
     .locals 4
 
-    .line 9
     iget p1, p1, Landroid/os/Message;->what:I
 
     const/4 v0, 0x1
 
     if-ne p1, v0, :cond_1
 
-    .line 10
     iget-boolean p1, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->rk:Z
 
     if-eqz p1, :cond_1
 
-    .line 11
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/Yp;->lG()Z
 
     move-result p1
@@ -533,13 +449,10 @@
 
     if-eqz p1, :cond_0
 
-    .line 12
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/Yp;->rQf()V
 
-    .line 13
     iput-boolean v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->woP:Z
 
-    .line 14
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/Pa;->aAs()Landroid/os/Handler;
 
     move-result-object p1
@@ -548,12 +461,10 @@
 
     invoke-virtual {p1, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 15
     invoke-direct {p0, v0}, Lcom/bytedance/sdk/openadsdk/core/Yp;->rk(Z)V
 
     return-void
 
-    .line 16
     :cond_0
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->ppR:Landroid/os/Handler;
 
@@ -578,14 +489,12 @@
         }
     .end annotation
 
-    .line 5
     invoke-static {p1}, Lcom/bytedance/sdk/component/utils/woP;->fFV(Ljava/util/List;)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
-    .line 6
     invoke-interface {p1}, Ljava/util/List;->iterator()Ljava/util/Iterator;
 
     move-result-object p1
@@ -606,10 +515,8 @@
 
     if-eqz v0, :cond_0
 
-    .line 7
     invoke-virtual {v0, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 8
     invoke-virtual {v0, p2}, Landroid/view/View;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     goto :goto_0
@@ -621,58 +528,43 @@
 .method public setAdType(I)V
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->pw:I
 
-    .line 3
     return-void
 .end method
 
-.method public setCallback(Lcom/bytedance/sdk/openadsdk/core/Yp$rk;)V
+.method public setCallback(Lcom/bytedance/sdk/openadsdk/core/Yp$RKY1;)V
     .locals 0
 
-    .line 1
-    iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->aAs:Lcom/bytedance/sdk/openadsdk/core/Yp$rk;
+    iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->aAs:Lcom/bytedance/sdk/openadsdk/core/Yp$RKY1;
 
-    .line 3
     return-void
 .end method
 
 .method public setNeedCheckingShow(Z)V
     .locals 1
 
-    .line 1
     iput-boolean p1, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->fFV:Z
 
-    .line 3
     if-nez p1, :cond_0
 
-    .line 5
     iget-boolean v0, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->rk:Z
 
-    .line 7
     if-eqz v0, :cond_0
 
-    .line 9
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/Yp;->rQf()V
 
-    .line 12
     return-void
 
-    .line 13
     :cond_0
     if-eqz p1, :cond_1
 
-    .line 15
     iget-boolean p1, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->rk:Z
 
-    .line 17
     if-nez p1, :cond_1
 
-    .line 19
     invoke-direct {p0}, Lcom/bytedance/sdk/openadsdk/core/Yp;->DK()V
 
-    .line 22
     :cond_1
     return-void
 .end method
@@ -688,10 +580,8 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->rQf:Ljava/util/List;
 
-    .line 3
     return-void
 .end method
 
@@ -706,9 +596,7 @@
         }
     .end annotation
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/Yp;->lG:Ljava/util/List;
 
-    .line 3
     return-void
 .end method

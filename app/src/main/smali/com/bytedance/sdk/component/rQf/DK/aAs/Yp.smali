@@ -14,9 +14,7 @@
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    .line 4
     return-object p0
 .end method

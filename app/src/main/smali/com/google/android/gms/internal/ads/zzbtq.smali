@@ -16,7 +16,7 @@
 .method public abstract zzi()V
 .end method
 
-.method public abstract zzk(Ljl0;)V
+.method public abstract zzk(Ldef/JL0;)V
 .end method
 
 .method public abstract zzl(Landroid/os/Bundle;)V

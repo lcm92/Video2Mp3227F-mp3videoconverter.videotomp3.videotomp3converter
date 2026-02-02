@@ -7,10 +7,10 @@
 
 
 # virtual methods
-.method public abstract zzb(Ljl0;)V
+.method public abstract zzb(Ldef/JL0;)V
 .end method
 
-.method public abstract zzc(Ljl0;)V
+.method public abstract zzc(Ldef/JL0;)V
 .end method
 
 .method public abstract zzd()V

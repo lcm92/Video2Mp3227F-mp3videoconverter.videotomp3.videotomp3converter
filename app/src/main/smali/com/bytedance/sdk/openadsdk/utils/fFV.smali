@@ -25,12 +25,10 @@
 .method public static rk()Lcom/bytedance/sdk/openadsdk/core/model/HmR;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bytedance/sdk/openadsdk/utils/fFV;->rk:Ljava/lang/ref/SoftReference;
 
     if-eqz v0, :cond_0
 
-    .line 2
     invoke-virtual {v0}, Ljava/lang/ref/SoftReference;->get()Ljava/lang/Object;
 
     move-result-object v0
@@ -52,7 +50,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     new-instance v0, Ljava/lang/ref/SoftReference;
 

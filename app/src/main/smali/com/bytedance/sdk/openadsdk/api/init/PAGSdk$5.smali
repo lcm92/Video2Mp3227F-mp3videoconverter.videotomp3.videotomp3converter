@@ -13,25 +13,22 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x8
-    name = null
+    name = "5"
 .end annotation
 
 
 # instance fields
-.field final synthetic rk:Lcom/bytedance/sdk/openadsdk/rQf/rk;
+.field final synthetic rk:Lcom/bytedance/sdk/openadsdk/rQf/RKROC;
 
 
 # direct methods
-.method constructor <init>(Lcom/bytedance/sdk/openadsdk/rQf/rk;)V
+.method constructor <init>(Lcom/bytedance/sdk/openadsdk/rQf/RKROC;)V
     .locals 0
 
-    .line 1
-    iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/api/init/PAGSdk$5;->rk:Lcom/bytedance/sdk/openadsdk/rQf/rk;
+    iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/api/init/PAGSdk$5;->rk:Lcom/bytedance/sdk/openadsdk/rQf/RKROC;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method
 
@@ -40,9 +37,7 @@
 .method public createADTypeLoaderFactory(Ljava/lang/String;)Lcom/bytedance/sdk/openadsdk/api/factory/IADTypeLoaderFactory;
     .locals 0
 
-    .line 1
-    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/api/init/PAGSdk$5;->rk:Lcom/bytedance/sdk/openadsdk/rQf/rk;
+    iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/api/init/PAGSdk$5;->rk:Lcom/bytedance/sdk/openadsdk/rQf/RKROC;
 
-    .line 3
     return-object p1
 .end method

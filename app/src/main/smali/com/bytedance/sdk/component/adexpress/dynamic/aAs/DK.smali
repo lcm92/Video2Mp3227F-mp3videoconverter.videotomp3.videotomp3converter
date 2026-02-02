@@ -17,20 +17,16 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1, p2, p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/aAs/lgt;-><init>(Landroid/content/Context;Lcom/bytedance/sdk/component/adexpress/dynamic/dynamicview/rQf;Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;)V
 
-    .line 4
     invoke-direct {p0, p3}, Lcom/bytedance/sdk/component/adexpress/dynamic/aAs/DK;->rk(Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;)V
 
-    .line 7
     return-void
 .end method
 
 .method private rk(Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;)V
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/bytedance/sdk/component/adexpress/lG/Yp;
 
     iget-object v1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/aAs/lgt;->fFV:Landroid/content/Context;
@@ -39,7 +35,6 @@
 
     iput-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/aAs/lgt;->rk:Lcom/bytedance/sdk/component/adexpress/lG/gLo;
 
-    .line 2
     new-instance v0, Landroid/widget/FrameLayout$LayoutParams;
 
     const/4 v1, -0x1
@@ -50,10 +45,8 @@
 
     const/16 v1, 0x51
 
-    .line 3
     iput v1, v0, Landroid/widget/FrameLayout$LayoutParams;->gravity:I
 
-    .line 4
     iget-object v1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/aAs/lgt;->fFV:Landroid/content/Context;
 
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;->QS()I
@@ -70,12 +63,10 @@
 
     iput p1, v0, Landroid/widget/FrameLayout$LayoutParams;->bottomMargin:I
 
-    .line 5
     iget-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/aAs/lgt;->rk:Lcom/bytedance/sdk/component/adexpress/lG/gLo;
 
     invoke-virtual {p1, v0}, Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 6
     iget-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/aAs/lgt;->rk:Lcom/bytedance/sdk/component/adexpress/lG/gLo;
 
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/aAs/lgt;->DK:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
@@ -86,14 +77,12 @@
 
     invoke-virtual {p1, v0}, Lcom/bytedance/sdk/component/adexpress/lG/gLo;->setSlideText(Ljava/lang/String;)V
 
-    .line 7
     iget-object p1, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/aAs/lgt;->rk:Lcom/bytedance/sdk/component/adexpress/lG/gLo;
 
     instance-of v0, p1, Lcom/bytedance/sdk/component/adexpress/lG/Yp;
 
     if-eqz v0, :cond_0
 
-    .line 8
     check-cast p1, Lcom/bytedance/sdk/component/adexpress/lG/Yp;
 
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/aAs/lgt;->DK:Lcom/bytedance/sdk/component/adexpress/dynamic/DK/Yp;
@@ -119,20 +108,16 @@
 .method public fFV()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/aAs/lgt;->rk:Lcom/bytedance/sdk/component/adexpress/lG/gLo;
 
-    .line 3
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/lG/gLo;->fFV()V
 
-    .line 6
     return-void
 .end method
 
 .method public rk()V
     .locals 1
 
-    .line 9
     iget-object v0, p0, Lcom/bytedance/sdk/component/adexpress/dynamic/aAs/lgt;->rk:Lcom/bytedance/sdk/component/adexpress/lG/gLo;
 
     invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/lG/gLo;->rk()V

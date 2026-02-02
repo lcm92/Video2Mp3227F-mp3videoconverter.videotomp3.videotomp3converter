@@ -22,28 +22,21 @@
 .method static constructor <clinit>()V
     .locals 2
 
-    .line 1
     new-instance v0, Lcom/bytedance/sdk/openadsdk/Yp/fFV;
 
-    .line 3
     const/4 v1, 0x0
 
-    .line 4
     invoke-direct {v0, v1}, Lcom/bytedance/sdk/openadsdk/Yp/fFV;-><init>(Lcom/bytedance/sdk/openadsdk/Yp/fFV$1;)V
 
-    .line 7
     sput-object v0, Lcom/bytedance/sdk/openadsdk/Yp/fFV$fFV;->rk:Lcom/bytedance/sdk/openadsdk/Yp/fFV;
 
-    .line 9
     return-void
 .end method
 
 .method static synthetic rk()Lcom/bytedance/sdk/openadsdk/Yp/fFV;
     .locals 1
 
-    .line 1
     sget-object v0, Lcom/bytedance/sdk/openadsdk/Yp/fFV$fFV;->rk:Lcom/bytedance/sdk/openadsdk/Yp/fFV;
 
-    .line 3
     return-object v0
 .end method

@@ -7,140 +7,98 @@
 .method private static aAs(Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;)Z
     .locals 2
 
-    .line 1
     if-eqz p0, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;->fFV()Z
 
-    .line 6
     move-result v0
 
-    .line 7
     const/4 v1, 0x0
 
-    .line 8
     if-eqz v0, :cond_0
 
-    .line 10
     invoke-virtual {p0}, Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;->aAs()Ljava/util/List;
 
-    .line 13
     move-result-object p0
 
-    .line 14
     invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
-    .line 17
     move-result-object p0
 
-    .line 18
-    check-cast p0, Lcom/bytedance/adsdk/fFV/Yp/rk;
+    check-cast p0, Lcom/bytedance/adsdk/fFV/Yp/RKYFC;
 
-    .line 20
-    iget-object p0, p0, Lcom/bytedance/adsdk/fFV/Yp/rk;->rk:Ljava/lang/Object;
+    iget-object p0, p0, Lcom/bytedance/adsdk/fFV/Yp/RKYFC;->rk:Ljava/lang/Object;
 
-    .line 22
     check-cast p0, Ljava/lang/Float;
 
-    .line 24
     invoke-virtual {p0}, Ljava/lang/Float;->floatValue()F
 
-    .line 27
     move-result p0
 
-    .line 28
     const/4 v0, 0x0
 
-    .line 29
     cmpl-float p0, p0, v0
 
-    .line 31
     if-nez p0, :cond_0
 
-    .line 33
     goto :goto_0
 
-    .line 34
     :cond_0
     return v1
 
-    .line 35
     :cond_1
     :goto_0
     const/4 p0, 0x1
 
-    .line 36
     return p0
 .end method
 
 .method private static fFV(Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;)Z
     .locals 2
 
-    .line 1
     if-eqz p0, :cond_1
 
-    .line 3
     invoke-virtual {p0}, Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;->fFV()Z
 
-    .line 6
     move-result v0
 
-    .line 7
     const/4 v1, 0x0
 
-    .line 8
     if-eqz v0, :cond_0
 
-    .line 10
     invoke-virtual {p0}, Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;->aAs()Ljava/util/List;
 
-    .line 13
     move-result-object p0
 
-    .line 14
     invoke-interface {p0, v1}, Ljava/util/List;->get(I)Ljava/lang/Object;
 
-    .line 17
     move-result-object p0
 
-    .line 18
-    check-cast p0, Lcom/bytedance/adsdk/fFV/Yp/rk;
+    check-cast p0, Lcom/bytedance/adsdk/fFV/Yp/RKYFC;
 
-    .line 20
-    iget-object p0, p0, Lcom/bytedance/adsdk/fFV/Yp/rk;->rk:Ljava/lang/Object;
+    iget-object p0, p0, Lcom/bytedance/adsdk/fFV/Yp/RKYFC;->rk:Ljava/lang/Object;
 
-    .line 22
     check-cast p0, Ljava/lang/Float;
 
-    .line 24
     invoke-virtual {p0}, Ljava/lang/Float;->floatValue()F
 
-    .line 27
     move-result p0
 
-    .line 28
     const/4 v0, 0x0
 
-    .line 29
     cmpl-float p0, p0, v0
 
-    .line 31
     if-nez p0, :cond_0
 
-    .line 33
     goto :goto_0
 
-    .line 34
     :cond_0
     return v1
 
-    .line 35
     :cond_1
     :goto_0
     const/4 p0, 0x1
 
-    .line 36
     return p0
 .end method
 
@@ -151,7 +109,6 @@
 
     move-object/from16 v8, p1
 
-    .line 1
     invoke-virtual/range {p0 .. p0}, Landroid/util/JsonReader;->peek()Landroid/util/JsonToken;
 
     move-result-object v1
@@ -172,7 +129,6 @@
     :goto_0
     if-eqz v11, :cond_1
 
-    .line 2
     invoke-virtual/range {p0 .. p0}, Landroid/util/JsonReader;->beginObject()V
 
     :cond_1
@@ -194,7 +150,6 @@
 
     const/16 v25, 0x0
 
-    .line 3
     :goto_1
     invoke-virtual/range {p0 .. p0}, Landroid/util/JsonReader;->hasNext()Z
 
@@ -202,7 +157,6 @@
 
     if-eqz v2, :cond_10
 
-    .line 4
     invoke-virtual/range {p0 .. p0}, Landroid/util/JsonReader;->nextName()Ljava/lang/String;
 
     move-result-object v2
@@ -380,12 +334,10 @@
     :goto_2
     packed-switch v3, :pswitch_data_0
 
-    .line 5
     invoke-virtual/range {p0 .. p0}, Landroid/util/JsonReader;->skipValue()V
 
     goto/16 :goto_1
 
-    .line 6
     :pswitch_0
     invoke-static {v0, v8, v10}, Lcom/bytedance/adsdk/fFV/rQf/DK;->rk(Landroid/util/JsonReader;Lcom/bytedance/adsdk/fFV/Yp;Z)Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;
 
@@ -393,7 +345,6 @@
 
     goto/16 :goto_1
 
-    .line 7
     :pswitch_1
     invoke-static {v0, v8, v10}, Lcom/bytedance/adsdk/fFV/rQf/DK;->rk(Landroid/util/JsonReader;Lcom/bytedance/adsdk/fFV/Yp;Z)Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;
 
@@ -401,7 +352,6 @@
 
     goto/16 :goto_1
 
-    .line 8
     :pswitch_2
     invoke-static {v0, v8, v10}, Lcom/bytedance/adsdk/fFV/rQf/DK;->rk(Landroid/util/JsonReader;Lcom/bytedance/adsdk/fFV/Yp;Z)Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;
 
@@ -409,7 +359,6 @@
 
     goto/16 :goto_1
 
-    .line 9
     :pswitch_3
     const-string v1, "Lottie doesn\'t support 3D layers."
 
@@ -417,7 +366,6 @@
 
     goto :goto_3
 
-    .line 10
     :pswitch_4
     invoke-static {v0, v8, v10}, Lcom/bytedance/adsdk/fFV/rQf/DK;->rk(Landroid/util/JsonReader;Lcom/bytedance/adsdk/fFV/Yp;Z)Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;
 
@@ -425,7 +373,6 @@
 
     goto/16 :goto_1
 
-    .line 11
     :pswitch_5
     invoke-static/range {p0 .. p1}, Lcom/bytedance/adsdk/fFV/rQf/DK;->DK(Landroid/util/JsonReader;Lcom/bytedance/adsdk/fFV/Yp;)Lcom/bytedance/adsdk/fFV/aAs/rk/Yp;
 
@@ -433,14 +380,12 @@
 
     goto/16 :goto_1
 
-    .line 12
     :goto_3
     :pswitch_6
     invoke-static {v0, v8, v10}, Lcom/bytedance/adsdk/fFV/rQf/DK;->rk(Landroid/util/JsonReader;Lcom/bytedance/adsdk/fFV/Yp;Z)Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;
 
     move-result-object v18
 
-    .line 13
     invoke-virtual/range {v18 .. v18}, Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;->aAs()Ljava/util/List;
 
     move-result-object v1
@@ -453,12 +398,11 @@
 
     if-eqz v1, :cond_c
 
-    .line 14
     invoke-virtual/range {v18 .. v18}, Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;->aAs()Ljava/util/List;
 
     move-result-object v7
 
-    new-instance v6, Lcom/bytedance/adsdk/fFV/Yp/rk;
+    new-instance v6, Lcom/bytedance/adsdk/fFV/Yp/RKYFC;
 
     invoke-static {v2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
@@ -492,13 +436,12 @@
 
     move-object/from16 v7, v19
 
-    invoke-direct/range {v1 .. v7}, Lcom/bytedance/adsdk/fFV/Yp/rk;-><init>(Lcom/bytedance/adsdk/fFV/Yp;Ljava/lang/Object;Ljava/lang/Object;Landroid/view/animation/Interpolator;FLjava/lang/Float;)V
+    invoke-direct/range {v1 .. v7}, Lcom/bytedance/adsdk/fFV/Yp/RKYFC;-><init>(Lcom/bytedance/adsdk/fFV/Yp;Ljava/lang/Object;Ljava/lang/Object;Landroid/view/animation/Interpolator;FLjava/lang/Float;)V
 
     invoke-interface {v12, v9}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     goto :goto_4
 
-    .line 15
     :cond_c
     invoke-virtual/range {v18 .. v18}, Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;->aAs()Ljava/util/List;
 
@@ -508,18 +451,17 @@
 
     move-result-object v1
 
-    check-cast v1, Lcom/bytedance/adsdk/fFV/Yp/rk;
+    check-cast v1, Lcom/bytedance/adsdk/fFV/Yp/RKYFC;
 
-    iget-object v1, v1, Lcom/bytedance/adsdk/fFV/Yp/rk;->rk:Ljava/lang/Object;
+    iget-object v1, v1, Lcom/bytedance/adsdk/fFV/Yp/RKYFC;->rk:Ljava/lang/Object;
 
     if-nez v1, :cond_d
 
-    .line 16
     invoke-virtual/range {v18 .. v18}, Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;->aAs()Ljava/util/List;
 
     move-result-object v9
 
-    new-instance v12, Lcom/bytedance/adsdk/fFV/Yp/rk;
+    new-instance v12, Lcom/bytedance/adsdk/fFV/Yp/RKYFC;
 
     invoke-static {v2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
 
@@ -545,7 +487,7 @@
 
     move-object/from16 v2, p1
 
-    invoke-direct/range {v1 .. v7}, Lcom/bytedance/adsdk/fFV/Yp/rk;-><init>(Lcom/bytedance/adsdk/fFV/Yp;Ljava/lang/Object;Ljava/lang/Object;Landroid/view/animation/Interpolator;FLjava/lang/Float;)V
+    invoke-direct/range {v1 .. v7}, Lcom/bytedance/adsdk/fFV/Yp/RKYFC;-><init>(Lcom/bytedance/adsdk/fFV/Yp;Ljava/lang/Object;Ljava/lang/Object;Landroid/view/animation/Interpolator;FLjava/lang/Float;)V
 
     invoke-interface {v9, v10, v12}, Ljava/util/List;->set(ILjava/lang/Object;)Ljava/lang/Object;
 
@@ -555,15 +497,13 @@
 
     goto/16 :goto_1
 
-    .line 17
     :pswitch_7
-    invoke-static/range {p0 .. p1}, Lcom/bytedance/adsdk/fFV/rQf/rk;->fFV(Landroid/util/JsonReader;Lcom/bytedance/adsdk/fFV/Yp;)Lcom/bytedance/adsdk/fFV/aAs/rk/woP;
+    invoke-static/range {p0 .. p1}, Lcom/bytedance/adsdk/fFV/rQf/RKRFC;->fFV(Landroid/util/JsonReader;Lcom/bytedance/adsdk/fFV/Yp;)Lcom/bytedance/adsdk/fFV/aAs/rk/woP;
 
     move-result-object v14
 
     goto/16 :goto_1
 
-    .line 18
     :pswitch_8
     invoke-static/range {p0 .. p1}, Lcom/bytedance/adsdk/fFV/rQf/DK;->fFV(Landroid/util/JsonReader;Lcom/bytedance/adsdk/fFV/Yp;)Lcom/bytedance/adsdk/fFV/aAs/rk/DK;
 
@@ -571,11 +511,9 @@
 
     goto/16 :goto_1
 
-    .line 19
     :pswitch_9
     invoke-virtual/range {p0 .. p0}, Landroid/util/JsonReader;->beginObject()V
 
-    .line 20
     :goto_5
     invoke-virtual/range {p0 .. p0}, Landroid/util/JsonReader;->hasNext()Z
 
@@ -583,7 +521,6 @@
 
     if-eqz v2, :cond_f
 
-    .line 21
     invoke-virtual/range {p0 .. p0}, Landroid/util/JsonReader;->nextName()Ljava/lang/String;
 
     move-result-object v2
@@ -598,20 +535,17 @@
 
     if-nez v2, :cond_e
 
-    .line 22
     invoke-virtual/range {p0 .. p0}, Landroid/util/JsonReader;->skipValue()V
 
     goto :goto_5
 
-    .line 23
     :cond_e
-    invoke-static/range {p0 .. p1}, Lcom/bytedance/adsdk/fFV/rQf/rk;->rk(Landroid/util/JsonReader;Lcom/bytedance/adsdk/fFV/Yp;)Lcom/bytedance/adsdk/fFV/aAs/rk/rQf;
+    invoke-static/range {p0 .. p1}, Lcom/bytedance/adsdk/fFV/rQf/RKRFC;->rk(Landroid/util/JsonReader;Lcom/bytedance/adsdk/fFV/Yp;)Lcom/bytedance/adsdk/fFV/aAs/rk/rQf;
 
     move-result-object v13
 
     goto :goto_5
 
-    .line 24
     :cond_f
     invoke-virtual/range {p0 .. p0}, Landroid/util/JsonReader;->endObject()V
 
@@ -620,10 +554,8 @@
     :cond_10
     if-eqz v11, :cond_11
 
-    .line 25
     invoke-virtual/range {p0 .. p0}, Landroid/util/JsonReader;->endObject()V
 
-    .line 26
     :cond_11
     invoke-static {v13}, Lcom/bytedance/adsdk/fFV/rQf/aAs;->rk(Lcom/bytedance/adsdk/fFV/aAs/rk/rQf;)Z
 
@@ -638,7 +570,6 @@
     :cond_12
     move-object/from16 v19, v13
 
-    .line 27
     :goto_6
     invoke-static {v14}, Lcom/bytedance/adsdk/fFV/rQf/aAs;->rk(Lcom/bytedance/adsdk/fFV/aAs/rk/woP;)Z
 
@@ -648,7 +579,6 @@
 
     const/4 v14, 0x0
 
-    .line 28
     :cond_13
     invoke-static {v1}, Lcom/bytedance/adsdk/fFV/rQf/aAs;->rk(Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;)Z
 
@@ -663,7 +593,6 @@
     :cond_14
     move-object/from16 v22, v1
 
-    .line 29
     :goto_7
     invoke-static {v15}, Lcom/bytedance/adsdk/fFV/rQf/aAs;->rk(Lcom/bytedance/adsdk/fFV/aAs/rk/Yp;)Z
 
@@ -678,7 +607,6 @@
     :cond_15
     move-object/from16 v21, v15
 
-    .line 30
     :goto_8
     invoke-static/range {v16 .. v16}, Lcom/bytedance/adsdk/fFV/rQf/aAs;->fFV(Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;)Z
 
@@ -693,7 +621,6 @@
     :cond_16
     move-object/from16 v26, v16
 
-    .line 31
     :goto_9
     invoke-static/range {v17 .. v17}, Lcom/bytedance/adsdk/fFV/rQf/aAs;->aAs(Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;)Z
 
@@ -708,7 +635,6 @@
     :cond_17
     move-object/from16 v27, v17
 
-    .line 32
     :goto_a
     new-instance v0, Lcom/bytedance/adsdk/fFV/aAs/rk/NCs;
 
@@ -756,7 +682,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 37
     invoke-virtual {p0}, Lcom/bytedance/adsdk/fFV/aAs/rk/Yp;->fFV()Z
 
     move-result v0
@@ -773,9 +698,9 @@
 
     move-result-object p0
 
-    check-cast p0, Lcom/bytedance/adsdk/fFV/Yp/rk;
+    check-cast p0, Lcom/bytedance/adsdk/fFV/Yp/RKYFC;
 
-    iget-object p0, p0, Lcom/bytedance/adsdk/fFV/Yp/rk;->rk:Ljava/lang/Object;
+    iget-object p0, p0, Lcom/bytedance/adsdk/fFV/Yp/RKYFC;->rk:Ljava/lang/Object;
 
     check-cast p0, Lcom/bytedance/adsdk/fFV/Yp/aAs;
 
@@ -804,7 +729,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 36
     invoke-virtual {p0}, Lcom/bytedance/adsdk/fFV/aAs/rk/fFV;->fFV()Z
 
     move-result v0
@@ -821,9 +745,9 @@
 
     move-result-object p0
 
-    check-cast p0, Lcom/bytedance/adsdk/fFV/Yp/rk;
+    check-cast p0, Lcom/bytedance/adsdk/fFV/Yp/RKYFC;
 
-    iget-object p0, p0, Lcom/bytedance/adsdk/fFV/Yp/rk;->rk:Ljava/lang/Object;
+    iget-object p0, p0, Lcom/bytedance/adsdk/fFV/Yp/RKYFC;->rk:Ljava/lang/Object;
 
     check-cast p0, Ljava/lang/Float;
 
@@ -854,7 +778,6 @@
 
     if-eqz p0, :cond_1
 
-    .line 33
     invoke-virtual {p0}, Lcom/bytedance/adsdk/fFV/aAs/rk/rQf;->fFV()Z
 
     move-result v0
@@ -871,9 +794,9 @@
 
     move-result-object p0
 
-    check-cast p0, Lcom/bytedance/adsdk/fFV/Yp/rk;
+    check-cast p0, Lcom/bytedance/adsdk/fFV/Yp/RKYFC;
 
-    iget-object p0, p0, Lcom/bytedance/adsdk/fFV/Yp/rk;->rk:Ljava/lang/Object;
+    iget-object p0, p0, Lcom/bytedance/adsdk/fFV/Yp/RKYFC;->rk:Ljava/lang/Object;
 
     check-cast p0, Landroid/graphics/PointF;
 
@@ -911,14 +834,12 @@
 
     if-eqz p0, :cond_1
 
-    .line 34
     instance-of v0, p0, Lcom/bytedance/adsdk/fFV/aAs/rk/ppR;
 
     const/4 v1, 0x0
 
     if-nez v0, :cond_0
 
-    .line 35
     invoke-interface {p0}, Lcom/bytedance/adsdk/fFV/aAs/rk/woP;->fFV()Z
 
     move-result v0
@@ -933,9 +854,9 @@
 
     move-result-object p0
 
-    check-cast p0, Lcom/bytedance/adsdk/fFV/Yp/rk;
+    check-cast p0, Lcom/bytedance/adsdk/fFV/Yp/RKYFC;
 
-    iget-object p0, p0, Lcom/bytedance/adsdk/fFV/Yp/rk;->rk:Ljava/lang/Object;
+    iget-object p0, p0, Lcom/bytedance/adsdk/fFV/Yp/RKYFC;->rk:Ljava/lang/Object;
 
     check-cast p0, Landroid/graphics/PointF;
 

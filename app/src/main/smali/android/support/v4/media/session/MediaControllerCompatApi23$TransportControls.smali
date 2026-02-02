@@ -18,22 +18,17 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     return-void
 .end method
 
 .method public static playFromUri(Ljava/lang/Object;Landroid/net/Uri;Landroid/os/Bundle;)V
     .locals 0
 
-    .line 1
     check-cast p0, Landroid/media/session/MediaController$TransportControls;
 
-    .line 3
     invoke-virtual {p0, p1, p2}, Landroid/media/session/MediaController$TransportControls;->playFromUri(Landroid/net/Uri;Landroid/os/Bundle;)V
 
-    .line 6
     return-void
 .end method

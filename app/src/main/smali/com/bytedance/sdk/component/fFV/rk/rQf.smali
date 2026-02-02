@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/bytedance/sdk/component/fFV/rk/rQf$rk;
+        Lcom/bytedance/sdk/component/fFV/rk/rQf$RKR1;
     }
 .end annotation
 
@@ -48,15 +48,11 @@
         }
     .end annotation
 
-    .line 1
     invoke-direct {p0}, Lcom/bytedance/sdk/component/fFV/rk/woP;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/bytedance/sdk/component/fFV/rk/rQf;->rk:Ljava/util/List;
 
-    .line 6
     iput-object p2, p0, Lcom/bytedance/sdk/component/fFV/rk/rQf;->fFV:Ljava/util/List;
 
-    .line 8
     return-void
 .end method

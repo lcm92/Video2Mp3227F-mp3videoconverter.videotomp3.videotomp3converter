@@ -7,8 +7,8 @@
 
 
 # virtual methods
-.method public abstract zza(Ljava/lang/Runnable;)Lmt0;
+.method public abstract zza(Ljava/lang/Runnable;)Ldef/MT0;
 .end method
 
-.method public abstract zzb(Ljava/util/concurrent/Callable;)Lmt0;
+.method public abstract zzb(Ljava/util/concurrent/Callable;)Ldef/MT0;
 .end method

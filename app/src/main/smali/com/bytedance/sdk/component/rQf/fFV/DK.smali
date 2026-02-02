@@ -28,29 +28,23 @@
 .method public aAs(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/bytedance/sdk/component/rQf/fFV/DK;->aAs:J
 
-    .line 3
     return-void
 .end method
 
 .method public fFV(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/bytedance/sdk/component/rQf/fFV/DK;->fFV:J
 
-    .line 3
     return-void
 .end method
 
 .method public rk(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/bytedance/sdk/component/rQf/fFV/DK;->rk:J
 
-    .line 3
     return-void
 .end method

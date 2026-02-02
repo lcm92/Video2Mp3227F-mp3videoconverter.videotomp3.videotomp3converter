@@ -40,48 +40,25 @@
 .method public final bridge synthetic zzb()Ljava/lang/Object;
     .locals 3
 
-    .line 1
     iget-object v0, p0, Lcom/google/android/gms/internal/ads/zzeav;->zza:Lcom/google/android/gms/internal/ads/zzhha;
 
-    .line 2
-    .line 3
     check-cast v0, Lcom/google/android/gms/internal/ads/zzebg;
 
-    .line 4
-    .line 5
     invoke-virtual {v0}, Lcom/google/android/gms/internal/ads/zzebg;->zza()Lcom/google/android/gms/internal/ads/zzebe;
 
-    .line 6
-    .line 7
-    .line 8
     move-result-object v0
 
-    .line 9
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/zzeav;->zzb:Lcom/google/android/gms/internal/ads/zzhha;
 
-    .line 10
-    .line 11
     check-cast v1, Lcom/google/android/gms/internal/ads/zzchi;
 
-    .line 12
-    .line 13
     invoke-virtual {v1}, Lcom/google/android/gms/internal/ads/zzchi;->zza()Lcom/google/android/gms/ads/internal/util/zzg;
 
-    .line 14
-    .line 15
-    .line 16
     move-result-object v1
 
-    .line 17
     new-instance v2, Lcom/google/android/gms/internal/ads/zzeau;
 
-    .line 18
-    .line 19
     invoke-direct {v2, v0, v1}, Lcom/google/android/gms/internal/ads/zzeau;-><init>(Lcom/google/android/gms/internal/ads/zzebe;Lcom/google/android/gms/ads/internal/util/zzg;)V
 
-    .line 20
-    .line 21
-    .line 22
     return-object v2
-    .line 23
 .end method

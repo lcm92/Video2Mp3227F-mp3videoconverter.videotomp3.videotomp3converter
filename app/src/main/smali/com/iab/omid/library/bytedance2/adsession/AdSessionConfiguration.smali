@@ -49,17 +49,17 @@
 
     const-string v0, "CreativeType is null"
 
-    invoke-static {p0, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p0, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "ImpressionType is null"
 
-    invoke-static {p1, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p1, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
     const-string v0, "Impression owner is null"
 
-    invoke-static {p2, v0}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Ljava/lang/Object;Ljava/lang/String;)V
+    invoke-static {p2, v0}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {p2, p0, p1}, Lcom/iab/omid/library/bytedance2/utils/g;->a(Lcom/iab/omid/library/bytedance2/adsession/Owner;Lcom/iab/omid/library/bytedance2/adsession/CreativeType;Lcom/iab/omid/library/bytedance2/adsession/ImpressionType;)V
+    invoke-static {p2, p0, p1}, Lcom/iab/omid/library/bytedance2/utils/GUBC;->a(Lcom/iab/omid/library/bytedance2/adsession/Owner;Lcom/iab/omid/library/bytedance2/adsession/CreativeType;Lcom/iab/omid/library/bytedance2/adsession/ImpressionType;)V
 
     new-instance v0, Lcom/iab/omid/library/bytedance2/adsession/AdSessionConfiguration;
 
@@ -131,25 +131,25 @@
 
     const-string v2, "impressionOwner"
 
-    invoke-static {v0, v2, v1}, Lcom/iab/omid/library/bytedance2/utils/c;->a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-static {v0, v2, v1}, Lcom/iab/omid/library/bytedance2/utils/CUBC;->a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/Object;)V
 
     iget-object v1, p0, Lcom/iab/omid/library/bytedance2/adsession/AdSessionConfiguration;->mediaEventsOwner:Lcom/iab/omid/library/bytedance2/adsession/Owner;
 
     const-string v2, "mediaEventsOwner"
 
-    invoke-static {v0, v2, v1}, Lcom/iab/omid/library/bytedance2/utils/c;->a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-static {v0, v2, v1}, Lcom/iab/omid/library/bytedance2/utils/CUBC;->a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/Object;)V
 
     iget-object v1, p0, Lcom/iab/omid/library/bytedance2/adsession/AdSessionConfiguration;->creativeType:Lcom/iab/omid/library/bytedance2/adsession/CreativeType;
 
     const-string v2, "creativeType"
 
-    invoke-static {v0, v2, v1}, Lcom/iab/omid/library/bytedance2/utils/c;->a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-static {v0, v2, v1}, Lcom/iab/omid/library/bytedance2/utils/CUBC;->a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/Object;)V
 
     iget-object v1, p0, Lcom/iab/omid/library/bytedance2/adsession/AdSessionConfiguration;->impressionType:Lcom/iab/omid/library/bytedance2/adsession/ImpressionType;
 
     const-string v2, "impressionType"
 
-    invoke-static {v0, v2, v1}, Lcom/iab/omid/library/bytedance2/utils/c;->a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-static {v0, v2, v1}, Lcom/iab/omid/library/bytedance2/utils/CUBC;->a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/Object;)V
 
     iget-boolean v1, p0, Lcom/iab/omid/library/bytedance2/adsession/AdSessionConfiguration;->isolateVerificationScripts:Z
 
@@ -159,7 +159,7 @@
 
     const-string v2, "isolateVerificationScripts"
 
-    invoke-static {v0, v2, v1}, Lcom/iab/omid/library/bytedance2/utils/c;->a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/Object;)V
+    invoke-static {v0, v2, v1}, Lcom/iab/omid/library/bytedance2/utils/CUBC;->a(Lorg/json/JSONObject;Ljava/lang/String;Ljava/lang/Object;)V
 
     return-object v0
 .end method

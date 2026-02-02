@@ -19,12 +19,10 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     sget v0, Lcom/google/android/gms/internal/ads/zzgyr;->zzb:I
 
-    .line 2
     sget v0, Lcom/google/android/gms/internal/ads/zzhbc;->zza:I
 
     sget-object v0, Lcom/google/android/gms/internal/ads/zzgyr;->zza:Lcom/google/android/gms/internal/ads/zzgyr;
@@ -37,7 +35,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/ads/zzgyr;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;

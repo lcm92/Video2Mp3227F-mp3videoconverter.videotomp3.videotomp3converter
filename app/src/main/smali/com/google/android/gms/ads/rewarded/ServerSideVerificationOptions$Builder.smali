@@ -38,7 +38,6 @@
 .method static bridge synthetic a(Lcom/google/android/gms/ads/rewarded/ServerSideVerificationOptions$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/ads/rewarded/ServerSideVerificationOptions$Builder;->b:Ljava/lang/String;
 
     return-object p0
@@ -47,7 +46,6 @@
 .method static bridge synthetic b(Lcom/google/android/gms/ads/rewarded/ServerSideVerificationOptions$Builder;)Ljava/lang/String;
     .locals 0
 
-    .line 1
     iget-object p0, p0, Lcom/google/android/gms/ads/rewarded/ServerSideVerificationOptions$Builder;->a:Ljava/lang/String;
 
     return-object p0

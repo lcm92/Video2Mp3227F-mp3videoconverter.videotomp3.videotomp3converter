@@ -34,7 +34,7 @@
 .method public abstract kEa()I
 .end method
 
-.method public abstract lG()Lcom/bytedance/sdk/component/Yp/fFV/rk;
+.method public abstract lG()Lcom/bytedance/sdk/component/Yp/fFV/RKFYC;
 .end method
 
 .method public abstract lgt()Z
@@ -49,7 +49,7 @@
 .method public abstract pw()Ljava/lang/String;
 .end method
 
-.method public abstract rQf()Lcom/bytedance/sdk/component/adexpress/rk/aAs/rk;
+.method public abstract rQf()Lcom/bytedance/sdk/component/adexpress/rk/aAs/RKARC;
 .end method
 
 .method public abstract rk()I

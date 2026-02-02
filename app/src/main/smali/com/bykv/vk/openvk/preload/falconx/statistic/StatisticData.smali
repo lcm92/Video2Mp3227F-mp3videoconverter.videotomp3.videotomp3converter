@@ -11,13 +11,13 @@
 
 # instance fields
 .field public mCommon:Lcom/bykv/vk/openvk/preload/falconx/statistic/Common;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "common"
     .end annotation
 .end field
 
 .field public offline:Ljava/util/List;
-    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/b;
+    .annotation runtime Lcom/bykv/vk/openvk/preload/a/a/BAAC;
         a = "offline"
     .end annotation
 
@@ -35,9 +35,7 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     return-void
 .end method

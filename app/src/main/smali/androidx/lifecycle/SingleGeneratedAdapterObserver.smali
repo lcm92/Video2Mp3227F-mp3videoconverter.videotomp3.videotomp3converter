@@ -3,28 +3,24 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroidx/lifecycle/d;
+.implements Landroidx/lifecycle/DLA;
 
 
 # direct methods
-.method constructor <init>(Landroidx/lifecycle/b;)V
+.method constructor <init>(Landroidx/lifecycle/BLA;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     return-void
 .end method
 
 
 # virtual methods
-.method public a(Lzs0;Landroidx/lifecycle/c$b;)V
+.method public a(Ldef/ZS0;Landroidx/lifecycle/CLA$BC1;)V
     .locals 0
 
-    .line 1
     const/4 p1, 0x0
 
-    .line 2
     throw p1
 .end method

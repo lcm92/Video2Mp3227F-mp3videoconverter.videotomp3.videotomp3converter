@@ -67,38 +67,15 @@
 .method public final zzc()Lcom/google/android/gms/ads/internal/zzk;
     .locals 3
 
-    .line 1
     new-instance v0, Lcom/google/android/gms/ads/internal/zzk;
 
-    .line 2
-    .line 3
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/zzchh;->zzb:Landroid/content/Context;
 
-    .line 4
-    .line 5
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/zzchh;->zza:Lcom/google/android/gms/ads/internal/util/client/VersionInfoParcel;
 
-    .line 6
-    .line 7
     invoke-direct {v0, v1, v2}, Lcom/google/android/gms/ads/internal/zzk;-><init>(Landroid/content/Context;Lcom/google/android/gms/ads/internal/util/client/VersionInfoParcel;)V
 
-    .line 8
-    .line 9
-    .line 10
     return-object v0
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
 .end method
 
 .method final zzd()Lcom/google/android/gms/internal/ads/zzbfx;
@@ -124,44 +101,21 @@
 .method final zzf()Ljava/lang/String;
     .locals 3
 
-    .line 1
     invoke-static {}, Lcom/google/android/gms/ads/internal/zzv;->zzr()Lcom/google/android/gms/ads/internal/util/zzs;
 
-    .line 2
-    .line 3
-    .line 4
     move-result-object v0
 
-    .line 5
     iget-object v1, p0, Lcom/google/android/gms/internal/ads/zzchh;->zza:Lcom/google/android/gms/ads/internal/util/client/VersionInfoParcel;
 
-    .line 6
-    .line 7
     iget-object v2, p0, Lcom/google/android/gms/internal/ads/zzchh;->zzb:Landroid/content/Context;
 
-    .line 8
-    .line 9
     iget-object v1, v1, Lcom/google/android/gms/ads/internal/util/client/VersionInfoParcel;->afmaVersion:Ljava/lang/String;
 
-    .line 10
-    .line 11
     invoke-virtual {v0, v2, v1}, Lcom/google/android/gms/ads/internal/util/zzs;->zzc(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String;
 
-    .line 12
-    .line 13
-    .line 14
     move-result-object v0
 
-    .line 15
     return-object v0
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
 .end method
 
 .method final zzg()Ljava/lang/ref/WeakReference;

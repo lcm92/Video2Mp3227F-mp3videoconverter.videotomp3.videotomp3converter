@@ -30,53 +30,26 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
-    new-instance v0, Lcom/inshot/videotomp3/picker/MetadataInfo$a;
+    new-instance v0, Lcom/inshot/videotomp3/picker/MetadataInfo$AM1;
 
-    .line 2
-    .line 3
-    invoke-direct {v0}, Lcom/inshot/videotomp3/picker/MetadataInfo$a;-><init>()V
+    invoke-direct {v0}, Lcom/inshot/videotomp3/picker/MetadataInfo$AM1;-><init>()V
 
-    .line 4
-    .line 5
-    .line 6
     sput-object v0, Lcom/inshot/videotomp3/picker/MetadataInfo;->CREATOR:Landroid/os/Parcelable$Creator;
 
-    .line 7
-    .line 8
     return-void
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
 .end method
 
 .method public constructor <init>(II)V
     .locals 0
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 3
     iput p1, p0, Lcom/inshot/videotomp3/picker/MetadataInfo;->a:I
 
-    .line 4
     iput p2, p0, Lcom/inshot/videotomp3/picker/MetadataInfo;->b:I
 
     const-wide/16 p1, -0x1
 
-    .line 5
     iput-wide p1, p0, Lcom/inshot/videotomp3/picker/MetadataInfo;->c:J
 
     return-void
@@ -85,16 +58,12 @@
 .method public constructor <init>(IIJ)V
     .locals 0
 
-    .line 6
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 7
     iput p1, p0, Lcom/inshot/videotomp3/picker/MetadataInfo;->a:I
 
-    .line 8
     iput p2, p0, Lcom/inshot/videotomp3/picker/MetadataInfo;->b:I
 
-    .line 9
     iput-wide p3, p0, Lcom/inshot/videotomp3/picker/MetadataInfo;->c:J
 
     return-void
@@ -103,18 +72,14 @@
 .method public constructor <init>(J)V
     .locals 0
 
-    .line 10
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 11
     iput-wide p1, p0, Lcom/inshot/videotomp3/picker/MetadataInfo;->c:J
 
     const/4 p1, -0x1
 
-    .line 12
     iput p1, p0, Lcom/inshot/videotomp3/picker/MetadataInfo;->a:I
 
-    .line 13
     iput p1, p0, Lcom/inshot/videotomp3/picker/MetadataInfo;->b:I
 
     return-void
@@ -123,24 +88,20 @@
 .method private constructor <init>(Landroid/os/Parcel;)V
     .locals 2
 
-    .line 14
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 15
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/inshot/videotomp3/picker/MetadataInfo;->a:I
 
-    .line 16
     invoke-virtual {p1}, Landroid/os/Parcel;->readInt()I
 
     move-result v0
 
     iput v0, p0, Lcom/inshot/videotomp3/picker/MetadataInfo;->b:I
 
-    .line 17
     invoke-virtual {p1}, Landroid/os/Parcel;->readLong()J
 
     move-result-wide v0
@@ -150,10 +111,9 @@
     return-void
 .end method
 
-.method synthetic constructor <init>(Landroid/os/Parcel;Lcom/inshot/videotomp3/picker/MetadataInfo$a;)V
+.method synthetic constructor <init>(Landroid/os/Parcel;Lcom/inshot/videotomp3/picker/MetadataInfo$AM1;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/inshot/videotomp3/picker/MetadataInfo;-><init>(Landroid/os/Parcel;)V
 
     return-void
@@ -164,32 +124,9 @@
 .method public d()J
     .locals 2
 
-    .line 1
     iget-wide v0, p0, Lcom/inshot/videotomp3/picker/MetadataInfo;->c:J
 
-    .line 2
-    .line 3
     return-wide v0
-    .line 4
-    .line 5
-    .line 6
-    .line 7
-    .line 8
-    .line 9
-    .line 10
-    .line 11
-    .line 12
-    .line 13
-    .line 14
-    .line 15
-    .line 16
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
 .end method
 
 .method public describeContents()I
@@ -203,66 +140,17 @@
 .method public writeToParcel(Landroid/os/Parcel;I)V
     .locals 2
 
-    .line 1
     iget p2, p0, Lcom/inshot/videotomp3/picker/MetadataInfo;->a:I
 
-    .line 2
-    .line 3
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 4
-    .line 5
-    .line 6
     iget p2, p0, Lcom/inshot/videotomp3/picker/MetadataInfo;->b:I
 
-    .line 7
-    .line 8
     invoke-virtual {p1, p2}, Landroid/os/Parcel;->writeInt(I)V
 
-    .line 9
-    .line 10
-    .line 11
     iget-wide v0, p0, Lcom/inshot/videotomp3/picker/MetadataInfo;->c:J
 
-    .line 12
-    .line 13
     invoke-virtual {p1, v0, v1}, Landroid/os/Parcel;->writeLong(J)V
 
-    .line 14
-    .line 15
-    .line 16
     return-void
-    .line 17
-    .line 18
-    .line 19
-    .line 20
-    .line 21
-    .line 22
-    .line 23
-    .line 24
-    .line 25
-    .line 26
-    .line 27
-    .line 28
-    .line 29
-    .line 30
-    .line 31
-    .line 32
-    .line 33
-    .line 34
-    .line 35
-    .line 36
-    .line 37
-    .line 38
-    .line 39
-    .line 40
-    .line 41
-    .line 42
-    .line 43
-    .line 44
-    .line 45
-    .line 46
-    .line 47
-    .line 48
-    .line 49
 .end method

@@ -25,29 +25,22 @@
 .method static constructor <clinit>()V
     .locals 1
 
-    .line 1
     new-instance v0, Ljava/util/HashMap;
 
-    .line 3
     invoke-direct {v0}, Ljava/util/HashMap;-><init>()V
 
-    .line 6
     sput-object v0, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk:Ljava/util/Map;
 
-    .line 8
     const/4 v0, 0x0
 
-    .line 9
     sput-object v0, Lcom/bytedance/sdk/openadsdk/utils/nP;->fFV:Ljava/lang/Integer;
 
-    .line 11
     return-void
 .end method
 
 .method public static rk(Landroid/content/Context;I)Landroid/graphics/drawable/Drawable;
     .locals 1
 
-    .line 289
     const-string v0, "#1A73E8"
 
     invoke-static {v0}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
@@ -64,17 +57,14 @@
 .method public static rk(Landroid/content/Context;II)Landroid/graphics/drawable/Drawable;
     .locals 1
 
-    .line 290
     new-instance v0, Landroid/graphics/drawable/GradientDrawable;
 
     invoke-direct {v0}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
 
-    .line 291
     invoke-virtual {v0, p1}, Landroid/graphics/drawable/GradientDrawable;->setColor(I)V
 
     int-to-float p1, p2
 
-    .line 292
     invoke-static {p0, p1}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result p0
@@ -91,7 +81,6 @@
 
     const/4 v0, 0x1
 
-    .line 1
     invoke-static {p0, p1, v0}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/content/Context;Ljava/lang/String;Z)Landroid/graphics/drawable/Drawable;
 
     move-result-object p0
@@ -102,7 +91,6 @@
 .method public static rk(Landroid/content/Context;Ljava/lang/String;Z)Landroid/graphics/drawable/Drawable;
     .locals 2
 
-    .line 2
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/lgt;->DK()Lcom/bytedance/sdk/openadsdk/core/settings/lG;
 
     move-result-object v0
@@ -117,7 +105,6 @@
 
     sput-object v0, Lcom/bytedance/sdk/openadsdk/utils/nP;->fFV:Ljava/lang/Integer;
 
-    .line 3
     invoke-static {p1}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
 
     move-result-object v0
@@ -126,19 +113,16 @@
 
     invoke-virtual {v1, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
 
-    .line 4
     sget-object v0, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->size()I
 
-    .line 5
     invoke-interface {v0, p1}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
     move-result v1
 
     if-eqz v1, :cond_0
 
-    .line 6
     invoke-interface {v0, p1}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v1
@@ -147,17 +131,14 @@
 
     if-eqz v1, :cond_0
 
-    .line 7
     iget-object p0, v1, Landroid/util/Pair;->first:Ljava/lang/Object;
 
     check-cast p0, Landroid/graphics/drawable/Drawable;
 
-    .line 8
     iget-object p2, v1, Landroid/util/Pair;->second:Ljava/lang/Object;
 
     check-cast p2, Ljava/lang/Integer;
 
-    .line 9
     new-instance v1, Landroid/util/Pair;
 
     invoke-virtual {p2}, Ljava/lang/Integer;->intValue()I
@@ -176,11 +157,9 @@
 
     return-object p0
 
-    .line 10
     :cond_0
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk()V
 
-    .line 11
     invoke-static {p1, p0, p2}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Ljava/lang/String;Landroid/content/Context;Z)Landroid/graphics/drawable/Drawable;
 
     move-result-object p0
@@ -195,7 +174,6 @@
 
     move-object/from16 v1, p1
 
-    .line 12
     const-string v2, "tt_2a90d7"
 
     const-string v4, "tt_new_play_video"
@@ -224,19 +202,16 @@
 
     const/4 v7, -0x1
 
-    .line 13
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v26
 
     const/4 v7, 0x0
 
-    .line 14
     invoke-static {v7}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
     move-result-object v27
 
-    .line 15
     invoke-virtual/range {p0 .. p0}, Ljava/lang/String;->hashCode()I
 
     move-result v20
@@ -1261,7 +1236,6 @@
 
     goto/16 :goto_3
 
-    .line 16
     :pswitch_0
     const-string v2, "tt_titlebar_close_drawable"
 
@@ -1274,7 +1248,6 @@
     :pswitch_1
     const/high16 v2, 0x41680000    # 14.5f
 
-    .line 17
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -1293,14 +1266,12 @@
 
     move-object/from16 v21, v26
 
-    .line 18
     invoke-static/range {v20 .. v25}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 19
     :pswitch_2
     const-string v2, "#66161823"
 
@@ -1314,7 +1285,6 @@
 
     const/high16 v2, 0x41600000    # 14.0f
 
-    .line 20
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -1331,20 +1301,17 @@
 
     const/4 v6, 0x0
 
-    .line 21
     invoke-static/range {v3 .. v8}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 22
     :pswitch_3
     new-instance v2, Landroid/graphics/drawable/RotateDrawable;
 
     invoke-direct {v2}, Landroid/graphics/drawable/RotateDrawable;-><init>()V
 
-    .line 23
     const-string v3, "tt_normalscreen_loading"
 
     invoke-static {v1, v3}, Lcom/bytedance/sdk/component/utils/Kl;->aAs(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
@@ -1355,20 +1322,16 @@
 
     const/4 v1, 0x0
 
-    .line 24
     invoke-virtual {v2, v1}, Landroid/graphics/drawable/RotateDrawable;->setFromDegrees(F)V
 
     const/high16 v1, 0x43b40000    # 360.0f
 
-    .line 25
     invoke-virtual {v2, v1}, Landroid/graphics/drawable/RotateDrawable;->setToDegrees(F)V
 
     const/high16 v1, 0x3f000000    # 0.5f
 
-    .line 26
     invoke-virtual {v2, v1}, Landroid/graphics/drawable/RotateDrawable;->setPivotX(F)V
 
-    .line 27
     invoke-virtual {v2, v1}, Landroid/graphics/drawable/RotateDrawable;->setPivotY(F)V
 
     :goto_2
@@ -1376,7 +1339,6 @@
 
     goto/16 :goto_3
 
-    .line 28
     :pswitch_4
     invoke-static {v1, v14}, Lcom/bytedance/sdk/component/utils/Kl;->Yp(Landroid/content/Context;Ljava/lang/String;)I
 
@@ -1386,7 +1348,6 @@
 
     move-result-object v9
 
-    .line 29
     invoke-static {v1, v6}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v2
@@ -1407,12 +1368,10 @@
 
     const/4 v11, 0x0
 
-    .line 30
     invoke-static/range {v8 .. v13}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v2
 
-    .line 31
     invoke-static {v1, v15}, Lcom/bytedance/sdk/component/utils/Kl;->Yp(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v3
@@ -1421,7 +1380,6 @@
 
     move-result-object v9
 
-    .line 32
     invoke-static {v1, v6}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -1434,19 +1392,16 @@
 
     move-result-object v10
 
-    .line 33
     invoke-static/range {v8 .. v13}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
-    .line 34
     invoke-static {v2, v1}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 35
     :pswitch_5
     const-string v2, "tt_shadow_lefterback_titlebar_press"
 
@@ -1454,19 +1409,16 @@
 
     move-result-object v2
 
-    .line 36
     const-string v3, "tt_shadow_lefterback_titlebar"
 
     invoke-static {v1, v3}, Lcom/bytedance/sdk/component/utils/Kl;->aAs(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    .line 37
     invoke-static {v2, v1}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object v1
 
-    .line 38
     filled-new-array {v10}, [I
 
     move-result-object v3
@@ -1475,7 +1427,6 @@
 
     goto/16 :goto_3
 
-    .line 39
     :pswitch_6
     const-string v2, "#33FFFFFF"
 
@@ -1487,7 +1438,6 @@
 
     move-result-object v7
 
-    .line 40
     invoke-static {v1, v5}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -1504,14 +1454,12 @@
 
     const/4 v9, 0x0
 
-    .line 41
     invoke-static/range {v6 .. v11}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 42
     :pswitch_7
     const-string v2, "#ff007aff"
 
@@ -1523,7 +1471,6 @@
 
     move-result-object v4
 
-    .line 43
     invoke-static {v1, v12}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -1540,14 +1487,12 @@
 
     const/4 v6, 0x0
 
-    .line 44
     invoke-static/range {v3 .. v8}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 45
     :pswitch_8
     const-string v2, "tt_lefterbackicon_titlebar_press"
 
@@ -1555,24 +1500,20 @@
 
     move-result-object v1
 
-    .line 46
     new-instance v2, Landroid/graphics/drawable/StateListDrawable;
 
     invoke-direct {v2}, Landroid/graphics/drawable/StateListDrawable;-><init>()V
 
-    .line 47
     new-array v3, v7, [I
 
     invoke-virtual {v2, v3, v1}, Landroid/graphics/drawable/StateListDrawable;->addState([ILandroid/graphics/drawable/Drawable;)V
 
     const/4 v1, 0x1
 
-    .line 48
     invoke-virtual {v2, v1}, Landroid/graphics/drawable/Drawable;->setAutoMirrored(Z)V
 
     goto/16 :goto_2
 
-    .line 49
     :pswitch_9
     const-string v2, "#30333333"
 
@@ -1586,7 +1527,6 @@
 
     const/high16 v2, 0x41e00000    # 28.0f
 
-    .line 50
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -1607,7 +1547,6 @@
 
     const/4 v5, 0x0
 
-    .line 51
     invoke-static/range {v3 .. v8}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
@@ -1617,7 +1556,6 @@
     :pswitch_a
     const/high16 v2, 0x40c00000    # 6.0f
 
-    .line 52
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -1632,7 +1570,6 @@
 
     const/high16 v2, 0x3fc00000    # 1.5f
 
-    .line 53
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -1655,14 +1592,12 @@
 
     const/16 v17, 0x0
 
-    .line 54
     invoke-static/range {v14 .. v19}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 55
     :pswitch_b
     const-string v2, "#0D000000"
 
@@ -1676,7 +1611,6 @@
 
     const/high16 v2, 0x40000000    # 2.0f
 
-    .line 56
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -1709,14 +1643,12 @@
 
     const/4 v6, 0x0
 
-    .line 57
     invoke-static/range {v3 .. v8}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v2
 
     const/high16 v3, 0x40000000    # 2.0f
 
-    .line 58
     invoke-static {v1, v3}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -1751,19 +1683,16 @@
 
     move-object/from16 v21, v26
 
-    .line 59
     invoke-static/range {v20 .. v25}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
-    .line 60
     invoke-static {v2, v1}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 61
     :pswitch_c
     const-string v2, "tt_4a90e2"
 
@@ -1777,7 +1706,6 @@
 
     const/high16 v2, 0x40800000    # 4.0f
 
-    .line 62
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -1794,14 +1722,12 @@
 
     const/4 v6, 0x0
 
-    .line 63
     invoke-static/range {v3 .. v8}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 64
     :pswitch_d
     filled-new-array {v7}, [I
 
@@ -1821,7 +1747,6 @@
 
     move-result-object v1
 
-    .line 65
     invoke-static {v9}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v2
@@ -1846,7 +1771,6 @@
 
     move-result-object v2
 
-    .line 66
     new-instance v3, Landroid/graphics/drawable/ClipDrawable;
 
     const/4 v4, 0x1
@@ -1857,21 +1781,18 @@
 
     const/4 v2, 0x2
 
-    .line 67
     new-array v2, v2, [Landroid/graphics/drawable/Drawable;
 
     aput-object v1, v2, v7
 
     aput-object v3, v2, v4
 
-    .line 68
     new-instance v1, Landroid/graphics/drawable/LayerDrawable;
 
     invoke-direct {v1, v2}, Landroid/graphics/drawable/LayerDrawable;-><init>([Landroid/graphics/drawable/Drawable;)V
 
     goto/16 :goto_3
 
-    .line 69
     :pswitch_e
     const-string v2, "tt_e0e0e0"
 
@@ -1899,7 +1820,6 @@
 
     goto/16 :goto_3
 
-    .line 70
     :pswitch_f
     const-string v2, "tt_shadow_lefterback_titlebar_press_withoutnight"
 
@@ -1907,19 +1827,16 @@
 
     move-result-object v2
 
-    .line 71
     const-string v3, "tt_shadow_lefterback_titlebar_withoutnight"
 
     invoke-static {v1, v3}, Lcom/bytedance/sdk/component/utils/Kl;->aAs(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    .line 72
     invoke-static {v2, v1}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object v1
 
-    .line 73
     filled-new-array {v10}, [I
 
     move-result-object v3
@@ -1928,7 +1845,6 @@
 
     goto/16 :goto_3
 
-    .line 74
     :pswitch_10
     const-string v2, "#141A73E8"
 
@@ -1940,7 +1856,6 @@
 
     move-result-object v8
 
-    .line 75
     invoke-static {v1, v6}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -1957,7 +1872,6 @@
 
     const/4 v10, 0x0
 
-    .line 76
     invoke-static/range {v7 .. v12}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
@@ -1967,7 +1881,6 @@
     :pswitch_11
     const/high16 v2, 0x40c00000    # 6.0f
 
-    .line 77
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -1982,7 +1895,6 @@
 
     const/high16 v2, 0x3fc00000    # 1.5f
 
-    .line 78
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -2005,14 +1917,12 @@
 
     const/16 v17, 0x0
 
-    .line 79
     invoke-static/range {v14 .. v19}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 80
     :pswitch_12
     const-string v2, "tt_titlebar_close_press_for_dark"
 
@@ -2020,21 +1930,18 @@
 
     move-result-object v2
 
-    .line 81
     const-string v3, "tt_titlebar_close_for_dark"
 
     invoke-static {v1, v3}, Lcom/bytedance/sdk/component/utils/Kl;->aAs(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    .line 82
     invoke-static {v2, v1}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 83
     :pswitch_13
     const-string v2, "tt_unmute"
 
@@ -2042,19 +1949,16 @@
 
     move-result-object v1
 
-    .line 84
     new-instance v2, Landroid/graphics/drawable/StateListDrawable;
 
     invoke-direct {v2}, Landroid/graphics/drawable/StateListDrawable;-><init>()V
 
-    .line 85
     new-array v3, v7, [I
 
     invoke-virtual {v2, v3, v1}, Landroid/graphics/drawable/StateListDrawable;->addState([ILandroid/graphics/drawable/Drawable;)V
 
     const/4 v1, 0x1
 
-    .line 86
     invoke-virtual {v2, v1}, Landroid/graphics/drawable/Drawable;->setAutoMirrored(Z)V
 
     goto/16 :goto_2
@@ -2062,7 +1966,6 @@
     :pswitch_14
     const/high16 v2, 0x41b00000    # 22.0f
 
-    .line 87
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -2077,7 +1980,6 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 88
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -2094,25 +1996,21 @@
 
     move-object/from16 v25, v27
 
-    .line 89
     invoke-static/range {v20 .. v25}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 90
     :pswitch_15
     new-instance v2, Landroid/graphics/drawable/GradientDrawable;
 
     invoke-direct {v2}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
 
-    .line 91
     invoke-virtual {v2, v7}, Landroid/graphics/drawable/GradientDrawable;->setShape(I)V
 
     const/high16 v3, 0x43810000    # 258.0f
 
-    .line 92
     invoke-static {v1, v3}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -2127,7 +2025,6 @@
 
     const/high16 v3, 0x41b00000    # 22.0f
 
-    .line 93
     invoke-static {v1, v3}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -2136,7 +2033,6 @@
 
     invoke-virtual {v2, v1}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadius(F)V
 
-    .line 94
     const-string v1, "#73CBFC"
 
     invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
@@ -2153,15 +2049,12 @@
 
     move-result-object v1
 
-    .line 95
     invoke-virtual {v2, v1}, Landroid/graphics/drawable/GradientDrawable;->setColors([I)V
 
-    .line 96
     invoke-virtual {v2, v7}, Landroid/graphics/drawable/GradientDrawable;->setGradientType(I)V
 
     goto/16 :goto_2
 
-    .line 97
     :pswitch_16
     const-string v1, "#33007AFF"
 
@@ -2187,7 +2080,6 @@
 
     move-result-object v1
 
-    .line 98
     const-string v2, "#007AFF"
 
     invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
@@ -2202,7 +2094,6 @@
 
     move-result-object v2
 
-    .line 99
     new-instance v3, Landroid/graphics/drawable/ClipDrawable;
 
     const v4, 0x800003
@@ -2213,32 +2104,27 @@
 
     const/4 v2, 0x2
 
-    .line 100
     new-array v2, v2, [Landroid/graphics/drawable/Drawable;
 
     aput-object v1, v2, v7
 
     aput-object v3, v2, v5
 
-    .line 101
     new-instance v1, Landroid/graphics/drawable/LayerDrawable;
 
     invoke-direct {v1, v2}, Landroid/graphics/drawable/LayerDrawable;-><init>([Landroid/graphics/drawable/Drawable;)V
 
     goto/16 :goto_3
 
-    .line 102
     :pswitch_17
     new-instance v2, Landroid/graphics/drawable/GradientDrawable;
 
     invoke-direct {v2}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
 
-    .line 103
     invoke-virtual {v2, v7}, Landroid/graphics/drawable/GradientDrawable;->setShape(I)V
 
     const/high16 v3, 0x438c0000    # 280.0f
 
-    .line 104
     invoke-static {v1, v3}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -2253,7 +2139,6 @@
 
     const/high16 v3, 0x41980000    # 19.0f
 
-    .line 105
     invoke-static {v1, v3}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -2262,12 +2147,10 @@
 
     invoke-virtual {v2, v1}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadius(F)V
 
-    .line 106
     sget-object v1, Landroid/graphics/drawable/GradientDrawable$Orientation;->LEFT_RIGHT:Landroid/graphics/drawable/GradientDrawable$Orientation;
 
     invoke-virtual {v2, v1}, Landroid/graphics/drawable/GradientDrawable;->setOrientation(Landroid/graphics/drawable/GradientDrawable$Orientation;)V
 
-    .line 107
     const-string v1, "#fff02d42"
 
     invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
@@ -2284,15 +2167,12 @@
 
     move-result-object v1
 
-    .line 108
     invoke-virtual {v2, v1}, Landroid/graphics/drawable/GradientDrawable;->setColors([I)V
 
-    .line 109
     invoke-virtual {v2, v7}, Landroid/graphics/drawable/GradientDrawable;->setGradientType(I)V
 
     const/4 v1, 0x1
 
-    .line 110
     invoke-virtual {v2, v1}, Landroid/graphics/drawable/GradientDrawable;->setUseLevel(Z)V
 
     goto/16 :goto_2
@@ -2300,7 +2180,6 @@
     :pswitch_18
     const/high16 v2, 0x40c00000    # 6.0f
 
-    .line 111
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -2315,7 +2194,6 @@
 
     const/high16 v2, 0x3fc00000    # 1.5f
 
-    .line 112
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -2332,14 +2210,12 @@
 
     move-object/from16 v25, v26
 
-    .line 113
     invoke-static/range {v20 .. v25}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 114
     :pswitch_19
     const-string v1, "#2582c3"
 
@@ -2365,7 +2241,6 @@
 
     move-result-object v1
 
-    .line 115
     const-string v2, "#2a90d7"
 
     invoke-static {v2}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
@@ -2384,14 +2259,12 @@
 
     move-result-object v2
 
-    .line 116
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 117
     :pswitch_1a
     invoke-static {v1, v12}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
@@ -2407,7 +2280,6 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 118
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -2424,14 +2296,12 @@
 
     move-object/from16 v25, v27
 
-    .line 119
     invoke-static/range {v20 .. v25}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 120
     :pswitch_1b
     const-string v2, "#ff2f87f8"
 
@@ -2455,7 +2325,6 @@
 
     const/high16 v2, 0x42c40000    # 98.0f
 
-    .line 121
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v2
@@ -2476,14 +2345,12 @@
 
     const/4 v3, 0x0
 
-    .line 122
     invoke-static/range {v3 .. v8}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 123
     :pswitch_1c
     const-string v2, "#26000000"
 
@@ -2497,7 +2364,6 @@
 
     const/high16 v2, 0x40800000    # 4.0f
 
-    .line 124
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -2514,14 +2380,12 @@
 
     const/4 v6, 0x0
 
-    .line 125
     invoke-static/range {v3 .. v8}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 126
     :pswitch_1d
     const-string v2, "#EAEAEA"
 
@@ -2535,7 +2399,6 @@
 
     const/high16 v2, 0x42480000    # 50.0f
 
-    .line 127
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v2
@@ -2552,20 +2415,16 @@
 
     const/4 v13, 0x0
 
-    .line 128
     invoke-static/range {v10 .. v15}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v2
 
-    .line 129
     new-instance v3, Landroid/graphics/drawable/GradientDrawable;
 
     invoke-direct {v3}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
 
-    .line 130
     invoke-virtual {v3, v7}, Landroid/graphics/drawable/GradientDrawable;->setShape(I)V
 
-    .line 131
     invoke-static {v1, v5}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -2574,7 +2433,6 @@
 
     invoke-virtual {v3, v1}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadius(F)V
 
-    .line 132
     invoke-static {v9}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v1
@@ -2589,18 +2447,14 @@
 
     move-result-object v1
 
-    .line 133
     invoke-virtual {v3, v1}, Landroid/graphics/drawable/GradientDrawable;->setColors([I)V
 
-    .line 134
     invoke-virtual {v3, v7}, Landroid/graphics/drawable/GradientDrawable;->setGradientType(I)V
 
-    .line 135
     sget-object v1, Landroid/graphics/drawable/GradientDrawable$Orientation;->BOTTOM_TOP:Landroid/graphics/drawable/GradientDrawable$Orientation;
 
     invoke-virtual {v3, v1}, Landroid/graphics/drawable/GradientDrawable;->setOrientation(Landroid/graphics/drawable/GradientDrawable$Orientation;)V
 
-    .line 136
     new-instance v1, Landroid/graphics/drawable/ScaleDrawable;
 
     const/high16 v4, -0x40800000    # -1.0f
@@ -2613,7 +2467,6 @@
 
     const/4 v3, 0x2
 
-    .line 137
     new-array v3, v3, [Landroid/graphics/drawable/Drawable;
 
     aput-object v2, v3, v7
@@ -2622,14 +2475,12 @@
 
     aput-object v1, v3, v2
 
-    .line 138
     new-instance v1, Landroid/graphics/drawable/LayerDrawable;
 
     invoke-direct {v1, v3}, Landroid/graphics/drawable/LayerDrawable;-><init>([Landroid/graphics/drawable/Drawable;)V
 
     goto/16 :goto_3
 
-    .line 139
     :pswitch_1e
     const-string v2, "#ff0088ff"
 
@@ -2643,7 +2494,6 @@
 
     const/high16 v2, 0x40c00000    # 6.0f
 
-    .line 140
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -2660,14 +2510,12 @@
 
     const/4 v6, 0x0
 
-    .line 141
     invoke-static/range {v3 .. v8}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 142
     :pswitch_1f
     const-string v2, "#ccffffff"
 
@@ -2679,7 +2527,6 @@
 
     move-result-object v4
 
-    .line 143
     invoke-static {v1, v12}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -2696,7 +2543,6 @@
 
     const/4 v6, 0x0
 
-    .line 144
     invoke-static/range {v3 .. v8}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
@@ -2706,7 +2552,6 @@
     :pswitch_20
     const/high16 v2, 0x40800000    # 4.0f
 
-    .line 145
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v2
@@ -2727,7 +2572,6 @@
 
     const-string v1, "#0F161823"
 
-    .line 146
     invoke-static {v1}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
     move-result v1
@@ -2742,14 +2586,12 @@
 
     move-object/from16 v21, v26
 
-    .line 147
     invoke-static/range {v20 .. v25}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 148
     :pswitch_21
     invoke-static {v1, v15}, Lcom/bytedance/sdk/component/utils/Kl;->Yp(Landroid/content/Context;Ljava/lang/String;)I
 
@@ -2759,7 +2601,6 @@
 
     move-result-object v9
 
-    .line 149
     invoke-static {v1, v6}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v2
@@ -2780,14 +2621,12 @@
 
     const/4 v11, 0x0
 
-    .line 150
     invoke-static/range {v8 .. v13}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 151
     :pswitch_22
     const-string v2, "tt_mute"
 
@@ -2795,19 +2634,16 @@
 
     move-result-object v1
 
-    .line 152
     new-instance v2, Landroid/graphics/drawable/StateListDrawable;
 
     invoke-direct {v2}, Landroid/graphics/drawable/StateListDrawable;-><init>()V
 
-    .line 153
     new-array v3, v7, [I
 
     invoke-virtual {v2, v3, v1}, Landroid/graphics/drawable/StateListDrawable;->addState([ILandroid/graphics/drawable/Drawable;)V
 
     const/4 v1, 0x1
 
-    .line 154
     invoke-virtual {v2, v1}, Landroid/graphics/drawable/Drawable;->setAutoMirrored(Z)V
 
     goto/16 :goto_2
@@ -2815,7 +2651,6 @@
     :pswitch_23
     const/high16 v2, 0x40c00000    # 6.0f
 
-    .line 155
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -2830,7 +2665,6 @@
 
     const/high16 v2, 0x3fc00000    # 1.5f
 
-    .line 156
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -2847,26 +2681,21 @@
 
     move-object/from16 v25, v26
 
-    .line 157
     invoke-static/range {v20 .. v25}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 158
     :pswitch_24
     new-instance v2, Landroid/graphics/drawable/GradientDrawable;
 
     invoke-direct {v2}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
 
-    .line 159
     invoke-virtual {v2, v7}, Landroid/graphics/drawable/GradientDrawable;->setShape(I)V
 
-    .line 160
     invoke-virtual {v2, v7}, Landroid/graphics/drawable/GradientDrawable;->setGradientType(I)V
 
-    .line 161
     const-string v3, "tt_ff1a1a1a"
 
     invoke-static {v1, v3}, Lcom/bytedance/sdk/component/utils/Kl;->Yp(Landroid/content/Context;Ljava/lang/String;)I
@@ -2881,17 +2710,14 @@
 
     move-result-object v1
 
-    .line 162
     invoke-virtual {v2, v1}, Landroid/graphics/drawable/GradientDrawable;->setColors([I)V
 
-    .line 163
     sget-object v1, Landroid/graphics/drawable/GradientDrawable$Orientation;->TOP_BOTTOM:Landroid/graphics/drawable/GradientDrawable$Orientation;
 
     invoke-virtual {v2, v1}, Landroid/graphics/drawable/GradientDrawable;->setOrientation(Landroid/graphics/drawable/GradientDrawable$Orientation;)V
 
     goto/16 :goto_2
 
-    .line 164
     :pswitch_25
     invoke-static {v11}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
@@ -2903,7 +2729,6 @@
 
     const/high16 v2, 0x41e00000    # 28.0f
 
-    .line 165
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -2924,7 +2749,6 @@
 
     const/4 v5, 0x0
 
-    .line 166
     invoke-static/range {v3 .. v8}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
@@ -2934,7 +2758,6 @@
     :pswitch_26
     const/high16 v2, 0x3fc00000    # 1.5f
 
-    .line 167
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -2959,14 +2782,12 @@
 
     const/4 v5, 0x0
 
-    .line 168
     invoke-static/range {v2 .. v7}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 169
     :pswitch_27
     invoke-static {v1, v12}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
@@ -2982,7 +2803,6 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 170
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -2999,12 +2819,10 @@
 
     move-object/from16 v25, v27
 
-    .line 171
     invoke-static/range {v20 .. v25}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v2
 
-    .line 172
     invoke-static {v1, v12}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -3019,7 +2837,6 @@
 
     const/high16 v3, 0x3f800000    # 1.0f
 
-    .line 173
     invoke-static {v1, v3}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -3028,19 +2845,16 @@
 
     move-result-object v24
 
-    .line 174
     invoke-static/range {v20 .. v25}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
-    .line 175
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 176
     :pswitch_28
     const-string v2, "#4DFC625C"
 
@@ -3054,7 +2868,6 @@
 
     const/high16 v2, 0x40400000    # 3.0f
 
-    .line 177
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -3071,12 +2884,10 @@
 
     const/4 v11, 0x0
 
-    .line 178
     invoke-static/range {v8 .. v13}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v2
 
-    .line 179
     const-string v3, "#FC625C"
 
     invoke-static {v3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
@@ -3089,7 +2900,6 @@
 
     const/high16 v3, 0x40400000    # 3.0f
 
-    .line 180
     invoke-static {v1, v3}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -3098,12 +2908,10 @@
 
     move-result-object v10
 
-    .line 181
     invoke-static/range {v8 .. v13}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
-    .line 182
     new-instance v3, Landroid/graphics/drawable/ClipDrawable;
 
     const v4, 0x800003
@@ -3114,21 +2922,18 @@
 
     const/4 v1, 0x2
 
-    .line 183
     new-array v1, v1, [Landroid/graphics/drawable/Drawable;
 
     aput-object v2, v1, v7
 
     aput-object v3, v1, v5
 
-    .line 184
     new-instance v2, Landroid/graphics/drawable/LayerDrawable;
 
     invoke-direct {v2, v1}, Landroid/graphics/drawable/LayerDrawable;-><init>([Landroid/graphics/drawable/Drawable;)V
 
     goto/16 :goto_2
 
-    .line 185
     :pswitch_29
     const-string v2, "tt_refreshing_video_textpage_pressed"
 
@@ -3136,39 +2941,33 @@
 
     move-result-object v2
 
-    .line 186
     const-string v3, "tt_refreshing_video_textpage_normal"
 
     invoke-static {v1, v3}, Lcom/bytedance/sdk/component/utils/Kl;->aAs(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    .line 187
     invoke-static {v2, v1}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 188
     :pswitch_2a
     invoke-static {v1, v4}, Lcom/bytedance/sdk/component/utils/Kl;->aAs(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v2
 
-    .line 189
     invoke-static {v1, v4}, Lcom/bytedance/sdk/component/utils/Kl;->aAs(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    .line 190
     invoke-static {v2, v1}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 191
     :pswitch_2b
     invoke-static {v11}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
@@ -3180,7 +2979,6 @@
 
     const/high16 v2, 0x41e00000    # 28.0f
 
-    .line 192
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -3201,14 +2999,12 @@
 
     const/4 v5, 0x0
 
-    .line 193
     invoke-static/range {v3 .. v8}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 194
     :pswitch_2c
     invoke-static {v1, v5}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
@@ -3224,7 +3020,6 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 195
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -3241,14 +3036,12 @@
 
     move-object/from16 v25, v27
 
-    .line 196
     invoke-static/range {v20 .. v25}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v2
 
     const/high16 v3, 0x41b00000    # 22.0f
 
-    .line 197
     invoke-static {v1, v3}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v4
@@ -3263,7 +3056,6 @@
 
     const/high16 v3, 0x3f800000    # 1.0f
 
-    .line 198
     invoke-static {v1, v3}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -3272,19 +3064,16 @@
 
     move-result-object v24
 
-    .line 199
     invoke-static/range {v20 .. v25}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
-    .line 200
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 201
     :pswitch_2d
     invoke-static {v11}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
 
@@ -3296,7 +3085,6 @@
 
     const/high16 v2, 0x41e00000    # 28.0f
 
-    .line 202
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -3317,14 +3105,12 @@
 
     const/4 v5, 0x0
 
-    .line 203
     invoke-static/range {v3 .. v8}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 204
     :pswitch_2e
     const-string v2, "tt_close_move_details_pressed"
 
@@ -3332,14 +3118,12 @@
 
     move-result-object v2
 
-    .line 205
     const-string v3, "tt_close_move_details_normal"
 
     invoke-static {v1, v3}, Lcom/bytedance/sdk/component/utils/Kl;->aAs(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    .line 206
     invoke-static {v2, v1}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object v1
@@ -3349,7 +3133,6 @@
     :pswitch_2f
     const/high16 v2, 0x3fc00000    # 1.5f
 
-    .line 207
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -3368,7 +3151,6 @@
 
     move-object/from16 v25, v26
 
-    .line 208
     invoke-static/range {v20 .. v25}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
@@ -3378,7 +3160,6 @@
     :pswitch_30
     const/high16 v2, 0x40c00000    # 6.0f
 
-    .line 209
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v2
@@ -3405,14 +3186,12 @@
 
     move-object/from16 v25, v26
 
-    .line 210
     invoke-static/range {v20 .. v25}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 211
     :pswitch_31
     invoke-static {v1, v12}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
@@ -3436,14 +3215,12 @@
 
     move-object/from16 v21, v26
 
-    .line 212
     invoke-static/range {v20 .. v25}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 213
     :pswitch_32
     invoke-static {v1, v14}, Lcom/bytedance/sdk/component/utils/Kl;->Yp(Landroid/content/Context;Ljava/lang/String;)I
 
@@ -3453,7 +3230,6 @@
 
     move-result-object v9
 
-    .line 214
     invoke-static {v1, v6}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v2
@@ -3474,12 +3250,10 @@
 
     const/4 v11, 0x0
 
-    .line 215
     invoke-static/range {v8 .. v13}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v2
 
-    .line 216
     invoke-static {v1, v15}, Lcom/bytedance/sdk/component/utils/Kl;->Yp(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v3
@@ -3488,7 +3262,6 @@
 
     move-result-object v9
 
-    .line 217
     invoke-static {v1, v6}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -3501,19 +3274,16 @@
 
     move-result-object v10
 
-    .line 218
     invoke-static/range {v8 .. v13}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
-    .line 219
     invoke-static {v2, v1}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 220
     :pswitch_33
     invoke-static {v1, v8}, Lcom/bytedance/sdk/component/utils/Kl;->Yp(Landroid/content/Context;Ljava/lang/String;)I
 
@@ -3525,7 +3295,6 @@
 
     const/high16 v2, 0x41f00000    # 30.0f
 
-    .line 221
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v2
@@ -3550,7 +3319,6 @@
 
     move-object/from16 v25, v26
 
-    .line 222
     invoke-static/range {v20 .. v25}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
@@ -3560,7 +3328,6 @@
     :pswitch_34
     const/high16 v2, 0x41400000    # 12.0f
 
-    .line 223
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -3583,14 +3350,12 @@
 
     move-object/from16 v21, v26
 
-    .line 224
     invoke-static/range {v20 .. v25}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 225
     :pswitch_35
     const-string v2, "#33f32830"
 
@@ -3604,7 +3369,6 @@
 
     const/high16 v2, 0x40800000    # 4.0f
 
-    .line 226
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -3621,12 +3385,10 @@
 
     const/4 v6, 0x0
 
-    .line 227
     invoke-static/range {v3 .. v8}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v2
 
-    .line 228
     const-string v3, "#f32830"
 
     invoke-static {v3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
@@ -3639,7 +3401,6 @@
 
     const/high16 v3, 0x40800000    # 4.0f
 
-    .line 229
     invoke-static {v1, v3}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -3652,19 +3413,16 @@
 
     const/4 v4, 0x0
 
-    .line 230
     invoke-static/range {v4 .. v9}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
-    .line 231
     invoke-static {v2, v1}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 232
     :pswitch_36
     const-string v2, "tt_new_pause_video_press"
 
@@ -3672,21 +3430,18 @@
 
     move-result-object v2
 
-    .line 233
     const-string v3, "tt_new_pause_video"
 
     invoke-static {v1, v3}, Lcom/bytedance/sdk/component/utils/Kl;->aAs(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    .line 234
     invoke-static {v2, v1}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 235
     :pswitch_37
     invoke-static {v1, v5}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
@@ -3702,7 +3457,6 @@
 
     const/high16 v2, 0x3f800000    # 1.0f
 
-    .line 236
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -3719,14 +3473,12 @@
 
     move-object/from16 v25, v27
 
-    .line 237
     invoke-static/range {v20 .. v25}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 238
     :pswitch_38
     const-string v2, "tt_lefterbackicon_titlebar"
 
@@ -3736,7 +3488,6 @@
 
     goto/16 :goto_3
 
-    .line 239
     :pswitch_39
     invoke-static {v1, v2}, Lcom/bytedance/sdk/component/utils/Kl;->Yp(Landroid/content/Context;Ljava/lang/String;)I
 
@@ -3748,7 +3499,6 @@
 
     const/high16 v3, 0x40c00000    # 6.0f
 
-    .line 240
     invoke-static {v1, v3}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v4
@@ -3781,12 +3531,10 @@
 
     const/4 v7, 0x0
 
-    .line 241
     invoke-static/range {v4 .. v9}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v3
 
-    .line 242
     invoke-static {v1, v2}, Lcom/bytedance/sdk/component/utils/Kl;->Yp(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v2
@@ -3797,7 +3545,6 @@
 
     const/high16 v2, 0x40c00000    # 6.0f
 
-    .line 243
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v2
@@ -3826,19 +3573,16 @@
 
     move-result-object v9
 
-    .line 244
     invoke-static/range {v4 .. v9}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
-    .line 245
     invoke-static {v3, v1}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 246
     :pswitch_3a
     invoke-static {v1, v14}, Lcom/bytedance/sdk/component/utils/Kl;->Yp(Landroid/content/Context;Ljava/lang/String;)I
 
@@ -3862,7 +3606,6 @@
 
     move-result-object v2
 
-    .line 247
     invoke-static {v1, v15}, Lcom/bytedance/sdk/component/utils/Kl;->Yp(Landroid/content/Context;Ljava/lang/String;)I
 
     move-result v1
@@ -3875,14 +3618,12 @@
 
     move-result-object v1
 
-    .line 248
     invoke-static {v2, v1}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object v1
 
     goto/16 :goto_3
 
-    .line 249
     :pswitch_3b
     const-string v2, "#A5FFFFFF"
 
@@ -3896,7 +3637,6 @@
 
     const/high16 v2, 0x3fc00000    # 1.5f
 
-    .line 250
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -3923,14 +3663,12 @@
 
     const/4 v8, 0x0
 
-    .line 251
     invoke-static/range {v8 .. v13}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v2
 
     const/high16 v3, 0x3fc00000    # 1.5f
 
-    .line 252
     invoke-static {v1, v3}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v4
@@ -3959,12 +3697,10 @@
 
     move-object/from16 v21, v26
 
-    .line 253
     invoke-static/range {v20 .. v25}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v3
 
-    .line 254
     new-instance v4, Landroid/graphics/drawable/ClipDrawable;
 
     const v5, 0x800003
@@ -3973,7 +3709,6 @@
 
     invoke-direct {v4, v3, v5, v6}, Landroid/graphics/drawable/ClipDrawable;-><init>(Landroid/graphics/drawable/Drawable;II)V
 
-    .line 255
     const-string v3, "#fff85959"
 
     invoke-static {v3}, Landroid/graphics/Color;->parseColor(Ljava/lang/String;)I
@@ -3986,7 +3721,6 @@
 
     const/high16 v3, 0x3fc00000    # 1.5f
 
-    .line 256
     invoke-static {v1, v3}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v3
@@ -4007,12 +3741,10 @@
 
     move-result-object v11
 
-    .line 257
     invoke-static/range {v8 .. v13}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
-    .line 258
     new-instance v3, Landroid/graphics/drawable/ClipDrawable;
 
     const v5, 0x800003
@@ -4023,7 +3755,6 @@
 
     const/4 v1, 0x3
 
-    .line 259
     new-array v1, v1, [Landroid/graphics/drawable/Drawable;
 
     aput-object v2, v1, v7
@@ -4034,14 +3765,12 @@
 
     aput-object v3, v1, v2
 
-    .line 260
     new-instance v2, Landroid/graphics/drawable/LayerDrawable;
 
     invoke-direct {v2, v1}, Landroid/graphics/drawable/LayerDrawable;-><init>([Landroid/graphics/drawable/Drawable;)V
 
     goto/16 :goto_2
 
-    .line 261
     :pswitch_3c
     const-string v2, "tt_white_lefterbackicon_titlebar_press"
 
@@ -4049,14 +3778,12 @@
 
     move-result-object v2
 
-    .line 262
     const-string v3, "tt_white_lefterbackicon_titlebar"
 
     invoke-static {v1, v3}, Lcom/bytedance/sdk/component/utils/Kl;->aAs(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    .line 263
     invoke-static {v2, v1}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object v1
@@ -4066,7 +3793,6 @@
     :pswitch_3d
     const/high16 v2, 0x41000000    # 8.0f
 
-    .line 264
     invoke-static {v1, v2}, Lcom/bytedance/sdk/openadsdk/utils/TB;->fFV(Landroid/content/Context;F)I
 
     move-result v1
@@ -4085,14 +3811,12 @@
 
     move-object/from16 v21, v26
 
-    .line 265
     invoke-static/range {v20 .. v25}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(ILjava/lang/Integer;[I[ILjava/lang/Integer;Ljava/lang/Integer;)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v1
 
     goto :goto_3
 
-    .line 266
     :pswitch_3e
     const-string v2, "tt_lefterbackicon_titlebar_press_for_dark"
 
@@ -4100,14 +3824,12 @@
 
     move-result-object v2
 
-    .line 267
     const-string v3, "tt_lefterbackicon_titlebar_for_dark"
 
     invoke-static {v1, v3}, Lcom/bytedance/sdk/component/utils/Kl;->aAs(Landroid/content/Context;Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
 
     move-result-object v1
 
-    .line 268
     invoke-static {v2, v1}, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
 
     move-result-object v1
@@ -4115,7 +3837,6 @@
     :goto_3
     if-eqz p2, :cond_3f
 
-    .line 269
     sget-object v2, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk:Ljava/util/Map;
 
     new-instance v3, Landroid/util/Pair;
@@ -4285,19 +4006,16 @@
 
     const/4 v6, 0x0
 
-    .line 277
     new-instance v7, Landroid/graphics/drawable/GradientDrawable;
 
     invoke-direct {v7}, Landroid/graphics/drawable/GradientDrawable;-><init>()V
 
     move/from16 v8, p0
 
-    .line 278
     invoke-virtual {v7, v8}, Landroid/graphics/drawable/GradientDrawable;->setShape(I)V
 
     if-eqz p1, :cond_0
 
-    .line 279
     invoke-virtual/range {p1 .. p1}, Ljava/lang/Integer;->intValue()I
 
     move-result v8
@@ -4307,7 +4025,6 @@
     :cond_0
     if-eqz v0, :cond_1
 
-    .line 280
     array-length v8, v0
 
     goto :goto_0
@@ -4318,7 +4035,6 @@
     :goto_0
     if-ne v8, v4, :cond_2
 
-    .line 281
     aget v0, v0, v6
 
     int-to-float v0, v0
@@ -4330,7 +4046,6 @@
     :cond_2
     if-ne v8, v3, :cond_3
 
-    .line 282
     aget v8, v0, v6
 
     int-to-float v9, v8
@@ -4387,12 +4102,10 @@
     :goto_1
     if-eqz v1, :cond_4
 
-    .line 283
     array-length v0, v1
 
     if-ne v0, v5, :cond_4
 
-    .line 284
     aget v0, v1, v6
 
     aget v1, v1, v4
@@ -4404,7 +4117,6 @@
 
     if-eqz p5, :cond_5
 
-    .line 285
     invoke-virtual/range {p4 .. p4}, Ljava/lang/Integer;->intValue()I
 
     move-result v0
@@ -4422,7 +4134,6 @@
 .method private static rk(Landroid/graphics/drawable/Drawable;Landroid/graphics/drawable/Drawable;)Landroid/graphics/drawable/StateListDrawable;
     .locals 2
 
-    .line 286
     new-instance v0, Landroid/graphics/drawable/StateListDrawable;
 
     invoke-direct {v0}, Landroid/graphics/drawable/StateListDrawable;-><init>()V
@@ -4431,7 +4142,6 @@
 
     const v1, 0x10100a7
 
-    .line 287
     filled-new-array {v1}, [I
 
     move-result-object v1
@@ -4443,7 +4153,6 @@
 
     const/4 p0, 0x0
 
-    .line 288
     new-array p0, p0, [I
 
     invoke-virtual {v0, p0, p1}, Landroid/graphics/drawable/StateListDrawable;->addState([ILandroid/graphics/drawable/Drawable;)V
@@ -4455,14 +4164,12 @@
 .method private static rk()V
     .locals 5
 
-    .line 270
     sget-object v0, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk:Ljava/util/Map;
 
     invoke-interface {v0}, Ljava/util/Map;->size()I
 
     move-result v1
 
-    .line 271
     sget-object v2, Lcom/bytedance/sdk/openadsdk/utils/nP;->fFV:Ljava/lang/Integer;
 
     invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
@@ -4473,7 +4180,6 @@
 
     return-void
 
-    .line 272
     :cond_0
     invoke-interface {v0}, Ljava/util/Map;->entrySet()Ljava/util/Set;
 
@@ -4501,7 +4207,6 @@
 
     check-cast v3, Ljava/util/Map$Entry;
 
-    .line 273
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v4
@@ -4518,14 +4223,12 @@
 
     if-ge v4, v2, :cond_1
 
-    .line 274
     invoke-interface {v3}, Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
 
     move-result-object v1
 
     check-cast v1, Ljava/lang/String;
 
-    .line 275
     invoke-interface {v3}, Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
 
     move-result-object v2
@@ -4546,7 +4249,6 @@
 
     goto :goto_0
 
-    .line 276
     :cond_2
     sget-object v0, Lcom/bytedance/sdk/openadsdk/utils/nP;->rk:Ljava/util/Map;
 

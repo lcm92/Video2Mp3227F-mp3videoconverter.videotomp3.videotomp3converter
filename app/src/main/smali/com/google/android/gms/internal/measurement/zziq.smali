@@ -17,10 +17,8 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/measurement/zzjq;->zza()Lcom/google/android/gms/internal/measurement/zzjq;
 
     move-result-object v0
@@ -33,7 +31,6 @@
 .method constructor <init>(Lcom/google/android/gms/internal/measurement/zzjq;)V
     .locals 0
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     invoke-virtual {p1}, Ljava/lang/Object;->getClass()Ljava/lang/Class;

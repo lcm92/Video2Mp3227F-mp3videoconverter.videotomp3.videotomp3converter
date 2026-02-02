@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "1"
 .end annotation
 
 
@@ -25,13 +25,10 @@
 .method constructor <init>(Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/aAs;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/aAs$1;->rk:Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/aAs;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method
 
@@ -40,48 +37,33 @@
 .method public rk(Landroid/view/ViewGroup;I)Z
     .locals 0
 
-    .line 1
-    new-instance p1, Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/rk;
+    new-instance p1, Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/RKRFC;
 
-    .line 3
     iget-object p2, p0, Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/aAs$1;->rk:Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/aAs;
 
-    .line 5
     iget-object p2, p2, Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/aAs;->ArD:Lcom/bytedance/sdk/openadsdk/core/pw/ZQ;
 
-    .line 7
     invoke-virtual {p2}, Landroid/view/View;->getContext()Landroid/content/Context;
 
-    .line 10
     move-result-object p2
 
-    .line 11
-    invoke-direct {p1, p2}, Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/rk;-><init>(Landroid/content/Context;)V
+    invoke-direct {p1, p2}, Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/RKRFC;-><init>(Landroid/content/Context;)V
 
-    .line 14
     iget-object p2, p0, Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/aAs$1;->rk:Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/aAs;
 
-    .line 16
-    invoke-static {p2}, Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/aAs;->rk(Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/aAs;)Lcom/bytedance/sdk/openadsdk/rk/fFV/rk;
+    invoke-static {p2}, Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/aAs;->rk(Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/aAs;)Lcom/bytedance/sdk/openadsdk/rk/fFV/RKFRC;
 
-    .line 19
     move-result-object p2
 
-    .line 20
-    invoke-virtual {p1, p2}, Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/rk;->setExtraFuncationHelper(Lcom/bytedance/sdk/openadsdk/rk/fFV/rk;)V
+    invoke-virtual {p1, p2}, Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/RKRFC;->setExtraFuncationHelper(Lcom/bytedance/sdk/openadsdk/rk/fFV/RKFRC;)V
 
-    .line 23
     iget-object p2, p0, Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/aAs$1;->rk:Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/aAs;
 
-    .line 25
     iget-object p2, p2, Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/aAs;->ArD:Lcom/bytedance/sdk/openadsdk/core/pw/ZQ;
 
-    .line 27
-    invoke-virtual {p1, p2}, Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/rk;->rk(Lcom/bytedance/sdk/openadsdk/core/pw/ZQ;)V
+    invoke-virtual {p1, p2}, Lcom/bytedance/sdk/openadsdk/rk/fFV/rk/RKRFC;->rk(Lcom/bytedance/sdk/openadsdk/core/pw/ZQ;)V
 
-    .line 30
     const/4 p1, 0x1
 
-    .line 31
     return p1
 .end method

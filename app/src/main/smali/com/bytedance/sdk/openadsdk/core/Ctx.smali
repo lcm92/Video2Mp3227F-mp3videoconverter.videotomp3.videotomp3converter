@@ -7,41 +7,29 @@
 .method private static aAs(Landroid/view/View;I)I
     .locals 1
 
-    .line 1
     const/4 v0, 0x3
 
-    .line 2
     if-ne p1, v0, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
-    .line 7
     move-result-object p0
 
-    .line 8
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
-    .line 11
     move-result-object p0
 
-    .line 12
     invoke-static {p0}, Lcom/bytedance/sdk/openadsdk/utils/TB;->rQf(Landroid/content/Context;)I
 
-    .line 15
     move-result p0
 
-    .line 16
     div-int/lit8 p0, p0, 0x2
 
-    .line 18
     return p0
 
-    .line 19
     :cond_0
     const/16 p0, 0x14
 
-    .line 21
     return p0
 .end method
 
@@ -52,7 +40,6 @@
 
     if-ne p1, v0, :cond_0
 
-    .line 2
     invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object p0
@@ -84,7 +71,6 @@
 .method private static fFV(Landroid/view/View;IIZ)I
     .locals 1
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->getWindowVisibility()I
 
     move-result v0
@@ -95,7 +81,6 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     invoke-static {p0}, Lcom/bytedance/sdk/openadsdk/core/Ctx;->fFV(Landroid/view/View;)Z
 
@@ -107,7 +92,6 @@
 
     goto :goto_0
 
-    .line 5
     :cond_1
     invoke-static {p0, p2, p3}, Lcom/bytedance/sdk/openadsdk/core/Ctx;->rk(Landroid/view/View;IZ)Z
 
@@ -119,7 +103,6 @@
 
     goto :goto_0
 
-    .line 6
     :cond_2
     invoke-static {p0, p1}, Lcom/bytedance/sdk/openadsdk/core/Ctx;->rk(Landroid/view/View;I)Z
 
@@ -143,7 +126,6 @@
 
     if-eqz p0, :cond_0
 
-    .line 1
     invoke-virtual {p0}, Landroid/view/View;->isShown()Z
 
     move-result p0
@@ -167,7 +149,6 @@
 
     if-eqz p0, :cond_3
 
-    .line 2
     :try_start_0
     invoke-virtual {p0}, Landroid/view/View;->getVisibility()I
 
@@ -175,7 +156,6 @@
 
     if-nez v1, :cond_3
 
-    .line 3
     invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v1
@@ -184,13 +164,11 @@
 
     goto :goto_0
 
-    .line 4
     :cond_0
     new-instance v1, Landroid/graphics/Rect;
 
     invoke-direct {v1}, Landroid/graphics/Rect;-><init>()V
 
-    .line 5
     invoke-virtual {p0, v1}, Landroid/view/View;->getGlobalVisibleRect(Landroid/graphics/Rect;)Z
 
     move-result v2
@@ -199,7 +177,6 @@
 
     return v0
 
-    .line 6
     :cond_1
     invoke-virtual {v1}, Landroid/graphics/Rect;->height()I
 
@@ -207,7 +184,6 @@
 
     int-to-long v2, v2
 
-    .line 7
     invoke-virtual {v1}, Landroid/graphics/Rect;->width()I
 
     move-result v1
@@ -216,7 +192,6 @@
 
     mul-long/2addr v2, v4
 
-    .line 8
     invoke-virtual {p0}, Landroid/view/View;->getHeight()I
 
     move-result v1
@@ -259,7 +234,6 @@
 .method private static rk(Landroid/view/View;I)Z
     .locals 1
 
-    .line 1
     invoke-static {p0}, Lcom/bytedance/sdk/openadsdk/core/Ctx;->rk(Landroid/view/View;)F
 
     move-result p0
@@ -302,7 +276,6 @@
     :goto_0
     if-eqz p0, :cond_1
 
-    .line 13
     :try_start_0
     invoke-virtual {p0}, Landroid/view/View;->getVisibility()I
 
@@ -312,7 +285,6 @@
 
     return v1
 
-    .line 14
     :cond_0
     instance-of v2, p0, Lcom/bytedance/sdk/openadsdk/core/pw/ZQ;
 
@@ -322,7 +294,6 @@
 
     if-nez v2, :cond_1
 
-    .line 15
     invoke-virtual {p0}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object p0
@@ -336,7 +307,6 @@
 
     move p1, v1
 
-    .line 16
     :cond_2
     invoke-static {p0, p1, p2, p3}, Lcom/bytedance/sdk/openadsdk/core/Ctx;->fFV(Landroid/view/View;IIZ)I
 
@@ -356,12 +326,10 @@
 .method private static rk(Landroid/view/View;IZ)Z
     .locals 4
 
-    .line 9
     invoke-static {p0, p1}, Lcom/bytedance/sdk/openadsdk/core/Ctx;->fFV(Landroid/view/View;I)I
 
     move-result v0
 
-    .line 10
     invoke-static {p0, p1}, Lcom/bytedance/sdk/openadsdk/core/Ctx;->aAs(Landroid/view/View;I)I
 
     move-result v1
@@ -374,7 +342,6 @@
 
     if-eqz p2, :cond_1
 
-    .line 11
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 
     move-result p1
@@ -392,7 +359,6 @@
     :cond_0
     return v2
 
-    .line 12
     :cond_1
     invoke-virtual {p0}, Landroid/view/View;->getWidth()I
 

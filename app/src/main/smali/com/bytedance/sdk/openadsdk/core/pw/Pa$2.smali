@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x8
-    name = null
+    name = "2"
 .end annotation
 
 
@@ -31,14 +31,12 @@
 .method public rk(ILjava/lang/String;Ljava/lang/Throwable;)V
     .locals 0
 
-    .line 1
     return-void
 .end method
 
 .method public rk(Lcom/bytedance/sdk/component/rQf/nP;)V
     .locals 0
 
-    .line 2
     invoke-interface {p1}, Lcom/bytedance/sdk/component/rQf/nP;->rk()Ljava/lang/String;
 
     return-void

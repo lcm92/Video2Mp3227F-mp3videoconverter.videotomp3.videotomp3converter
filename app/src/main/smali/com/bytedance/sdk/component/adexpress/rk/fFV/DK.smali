@@ -7,7 +7,6 @@
 .method public static rk(FFFF)Landroid/view/animation/Interpolator;
     .locals 0
 
-    .line 2
     new-instance p0, Landroid/view/animation/AccelerateDecelerateInterpolator;
 
     invoke-direct {p0}, Landroid/view/animation/AccelerateDecelerateInterpolator;-><init>()V
@@ -18,12 +17,11 @@
 .method public static rk()Ljava/io/File;
     .locals 1
 
-    .line 1
-    invoke-static {}, Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;->rk()Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;
+    invoke-static {}, Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;->rk()Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/rk/rk/rk;->aAs()Lcom/bytedance/sdk/component/adexpress/rk/rk/aAs;
+    invoke-virtual {v0}, Lcom/bytedance/sdk/component/adexpress/rk/rk/RKRRC;->aAs()Lcom/bytedance/sdk/component/adexpress/rk/rk/aAs;
 
     move-result-object v0
 

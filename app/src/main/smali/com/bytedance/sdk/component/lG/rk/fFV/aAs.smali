@@ -9,7 +9,7 @@
         value = {
             "(",
             "Ljava/util/List<",
-            "Lcom/bytedance/sdk/component/lG/rk/DK/rk;",
+            "Lcom/bytedance/sdk/component/lG/rk/DK/RKDRC;",
             ">;",
             "Lcom/bytedance/sdk/component/lG/rk/fFV/fFV;",
             ")V"

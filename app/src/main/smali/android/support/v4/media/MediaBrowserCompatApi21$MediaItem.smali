@@ -18,41 +18,31 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     return-void
 .end method
 
 .method public static getDescription(Ljava/lang/Object;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p0, Landroid/media/browse/MediaBrowser$MediaItem;
 
-    .line 3
     invoke-virtual {p0}, Landroid/media/browse/MediaBrowser$MediaItem;->getDescription()Landroid/media/MediaDescription;
 
-    .line 6
     move-result-object p0
 
-    .line 7
     return-object p0
 .end method
 
 .method public static getFlags(Ljava/lang/Object;)I
     .locals 0
 
-    .line 1
     check-cast p0, Landroid/media/browse/MediaBrowser$MediaItem;
 
-    .line 3
     invoke-virtual {p0}, Landroid/media/browse/MediaBrowser$MediaItem;->getFlags()I
 
-    .line 6
     move-result p0
 
-    .line 7
     return p0
 .end method

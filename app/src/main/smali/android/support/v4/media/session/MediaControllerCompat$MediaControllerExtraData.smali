@@ -1,5 +1,5 @@
 .class Landroid/support/v4/media/session/MediaControllerCompat$MediaControllerExtraData;
-.super Landroidx/core/app/ComponentActivity$a;
+.super Landroidx/core/app/ComponentActivity$AC1;
 .source "SourceFile"
 
 
@@ -22,13 +22,10 @@
 .method constructor <init>(Landroid/support/v4/media/session/MediaControllerCompat;)V
     .locals 0
 
-    .line 1
-    invoke-direct {p0}, Landroidx/core/app/ComponentActivity$a;-><init>()V
+    invoke-direct {p0}, Landroidx/core/app/ComponentActivity$AC1;-><init>()V
 
-    .line 4
     iput-object p1, p0, Landroid/support/v4/media/session/MediaControllerCompat$MediaControllerExtraData;->mMediaController:Landroid/support/v4/media/session/MediaControllerCompat;
 
-    .line 6
     return-void
 .end method
 
@@ -37,9 +34,7 @@
 .method getMediaController()Landroid/support/v4/media/session/MediaControllerCompat;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Landroid/support/v4/media/session/MediaControllerCompat$MediaControllerExtraData;->mMediaController:Landroid/support/v4/media/session/MediaControllerCompat;
 
-    .line 3
     return-object v0
 .end method

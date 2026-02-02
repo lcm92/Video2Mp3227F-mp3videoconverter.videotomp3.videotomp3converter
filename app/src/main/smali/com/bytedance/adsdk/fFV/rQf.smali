@@ -18,7 +18,7 @@
 
 .field private static lG:[J
 
-.field private static volatile nP:Lcom/bytedance/adsdk/fFV/DK/pw;
+.field private static volatile nP:Lcom/bytedance/adsdk/fFV/DK/PWDFC;
 
 .field private static ppR:Lcom/bytedance/adsdk/fFV/DK/lG;
 
@@ -39,7 +39,6 @@
 .method public static fFV(Ljava/lang/String;)F
     .locals 4
 
-    .line 1
     sget v0, Lcom/bytedance/adsdk/fFV/rQf;->pw:I
 
     const/4 v1, 0x0
@@ -48,12 +47,10 @@
 
     add-int/lit8 v0, v0, -0x1
 
-    .line 2
     sput v0, Lcom/bytedance/adsdk/fFV/rQf;->pw:I
 
     return v1
 
-    .line 3
     :cond_0
     sget-boolean v0, Lcom/bytedance/adsdk/fFV/rQf;->fFV:Z
 
@@ -61,20 +58,17 @@
 
     return v1
 
-    .line 4
     :cond_1
     sget v0, Lcom/bytedance/adsdk/fFV/rQf;->Yp:I
 
     add-int/lit8 v0, v0, -0x1
 
-    .line 5
     sput v0, Lcom/bytedance/adsdk/fFV/rQf;->Yp:I
 
     const/4 v1, -0x1
 
     if-eq v0, v1, :cond_3
 
-    .line 6
     sget-object v1, Lcom/bytedance/adsdk/fFV/rQf;->rQf:[Ljava/lang/String;
 
     aget-object v0, v1, v0
@@ -85,10 +79,8 @@
 
     if-eqz v0, :cond_2
 
-    .line 7
     invoke-static {}, Landroid/os/Trace;->endSection()V
 
-    .line 8
     invoke-static {}, Ljava/lang/System;->nanoTime()J
 
     move-result-wide v0
@@ -109,7 +101,6 @@
 
     return p0
 
-    .line 9
     :cond_2
     new-instance v0, Ljava/lang/IllegalStateException;
 
@@ -145,7 +136,6 @@
 
     throw v0
 
-    .line 10
     :cond_3
     new-instance p0, Ljava/lang/IllegalStateException;
 
@@ -159,7 +149,6 @@
 .method public static fFV(Landroid/content/Context;)Lcom/bytedance/adsdk/fFV/DK/Yp;
     .locals 3
 
-    .line 11
     sget-boolean v0, Lcom/bytedance/adsdk/fFV/rQf;->aAs:Z
 
     if-nez v0, :cond_0
@@ -168,29 +157,24 @@
 
     return-object p0
 
-    .line 12
     :cond_0
     invoke-virtual {p0}, Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
 
     move-result-object p0
 
-    .line 13
     sget-object v0, Lcom/bytedance/adsdk/fFV/rQf;->NCs:Lcom/bytedance/adsdk/fFV/DK/Yp;
 
     if-nez v0, :cond_3
 
-    .line 14
     const-class v0, Lcom/bytedance/adsdk/fFV/DK/Yp;
 
     monitor-enter v0
 
-    .line 15
     :try_start_0
     sget-object v1, Lcom/bytedance/adsdk/fFV/rQf;->NCs:Lcom/bytedance/adsdk/fFV/DK/Yp;
 
     if-nez v1, :cond_2
 
-    .line 16
     new-instance v1, Lcom/bytedance/adsdk/fFV/DK/Yp;
 
     sget-object v2, Lcom/bytedance/adsdk/fFV/rQf;->ArD:Lcom/bytedance/adsdk/fFV/DK/rQf;
@@ -216,7 +200,6 @@
 
     goto :goto_2
 
-    .line 17
     :cond_2
     :goto_1
     monitor-exit v0
@@ -237,27 +220,23 @@
     return-object v0
 .end method
 
-.method public static rk(Landroid/content/Context;)Lcom/bytedance/adsdk/fFV/DK/pw;
+.method public static rk(Landroid/content/Context;)Lcom/bytedance/adsdk/fFV/DK/PWDFC;
     .locals 3
 
-    .line 8
-    sget-object v0, Lcom/bytedance/adsdk/fFV/rQf;->nP:Lcom/bytedance/adsdk/fFV/DK/pw;
+    sget-object v0, Lcom/bytedance/adsdk/fFV/rQf;->nP:Lcom/bytedance/adsdk/fFV/DK/PWDFC;
 
     if-nez v0, :cond_2
 
-    .line 9
-    const-class v0, Lcom/bytedance/adsdk/fFV/DK/pw;
+    const-class v0, Lcom/bytedance/adsdk/fFV/DK/PWDFC;
 
     monitor-enter v0
 
-    .line 10
     :try_start_0
-    sget-object v1, Lcom/bytedance/adsdk/fFV/rQf;->nP:Lcom/bytedance/adsdk/fFV/DK/pw;
+    sget-object v1, Lcom/bytedance/adsdk/fFV/rQf;->nP:Lcom/bytedance/adsdk/fFV/DK/PWDFC;
 
     if-nez v1, :cond_1
 
-    .line 11
-    new-instance v1, Lcom/bytedance/adsdk/fFV/DK/pw;
+    new-instance v1, Lcom/bytedance/adsdk/fFV/DK/PWDFC;
 
     invoke-static {p0}, Lcom/bytedance/adsdk/fFV/rQf;->fFV(Landroid/content/Context;)Lcom/bytedance/adsdk/fFV/DK/Yp;
 
@@ -275,9 +254,9 @@
     invoke-direct {v2}, Lcom/bytedance/adsdk/fFV/DK/fFV;-><init>()V
 
     :goto_0
-    invoke-direct {v1, p0, v2}, Lcom/bytedance/adsdk/fFV/DK/pw;-><init>(Lcom/bytedance/adsdk/fFV/DK/Yp;Lcom/bytedance/adsdk/fFV/DK/lG;)V
+    invoke-direct {v1, p0, v2}, Lcom/bytedance/adsdk/fFV/DK/PWDFC;-><init>(Lcom/bytedance/adsdk/fFV/DK/Yp;Lcom/bytedance/adsdk/fFV/DK/lG;)V
 
-    sput-object v1, Lcom/bytedance/adsdk/fFV/rQf;->nP:Lcom/bytedance/adsdk/fFV/DK/pw;
+    sput-object v1, Lcom/bytedance/adsdk/fFV/rQf;->nP:Lcom/bytedance/adsdk/fFV/DK/PWDFC;
 
     goto :goto_1
 
@@ -286,7 +265,6 @@
 
     goto :goto_2
 
-    .line 12
     :cond_1
     :goto_1
     monitor-exit v0
@@ -310,14 +288,12 @@
 .method public static rk(Ljava/lang/String;)V
     .locals 4
 
-    .line 1
     sget-boolean v0, Lcom/bytedance/adsdk/fFV/rQf;->fFV:Z
 
     if-nez v0, :cond_0
 
     return-void
 
-    .line 2
     :cond_0
     sget v0, Lcom/bytedance/adsdk/fFV/rQf;->Yp:I
 
@@ -325,7 +301,6 @@
 
     if-ne v0, v1, :cond_1
 
-    .line 3
     sget p0, Lcom/bytedance/adsdk/fFV/rQf;->pw:I
 
     add-int/lit8 p0, p0, 0x1
@@ -334,13 +309,11 @@
 
     return-void
 
-    .line 4
     :cond_1
     sget-object v1, Lcom/bytedance/adsdk/fFV/rQf;->rQf:[Ljava/lang/String;
 
     aput-object p0, v1, v0
 
-    .line 5
     sget-object v1, Lcom/bytedance/adsdk/fFV/rQf;->lG:[J
 
     invoke-static {}, Ljava/lang/System;->nanoTime()J
@@ -349,10 +322,8 @@
 
     aput-wide v2, v1, v0
 
-    .line 6
     invoke-static {p0}, Landroid/os/Trace;->beginSection(Ljava/lang/String;)V
 
-    .line 7
     sget p0, Lcom/bytedance/adsdk/fFV/rQf;->Yp:I
 
     add-int/lit8 p0, p0, 0x1
@@ -365,7 +336,6 @@
 .method public static rk()Z
     .locals 1
 
-    .line 13
     sget-boolean v0, Lcom/bytedance/adsdk/fFV/rQf;->DK:Z
 
     return v0

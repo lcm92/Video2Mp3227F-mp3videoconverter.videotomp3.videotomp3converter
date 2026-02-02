@@ -31,42 +31,33 @@
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     new-instance v0, Ljava/util/ArrayList;
 
-    .line 6
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
 
-    .line 9
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/pw/DK;->rk:Ljava/util/List;
 
-    .line 11
     return-void
 .end method
 
 .method public static rk()Lcom/bytedance/sdk/openadsdk/core/pw/DK;
     .locals 2
 
-    .line 1
     sget-object v0, Lcom/bytedance/sdk/openadsdk/core/pw/DK;->aAs:Lcom/bytedance/sdk/openadsdk/core/pw/DK;
 
     if-nez v0, :cond_1
 
-    .line 2
     const-class v0, Lcom/bytedance/sdk/openadsdk/core/pw/DK;
 
     monitor-enter v0
 
-    .line 3
     :try_start_0
     sget-object v1, Lcom/bytedance/sdk/openadsdk/core/pw/DK;->aAs:Lcom/bytedance/sdk/openadsdk/core/pw/DK;
 
     if-nez v1, :cond_0
 
-    .line 4
     new-instance v1, Lcom/bytedance/sdk/openadsdk/core/pw/DK;
 
     invoke-direct {v1}, Lcom/bytedance/sdk/openadsdk/core/pw/DK;-><init>()V
@@ -80,7 +71,6 @@
 
     goto :goto_1
 
-    .line 5
     :cond_0
     :goto_0
     monitor-exit v0
@@ -94,7 +84,6 @@
 
     throw v1
 
-    .line 6
     :cond_1
     :goto_2
     sget-object v0, Lcom/bytedance/sdk/openadsdk/core/pw/DK;->aAs:Lcom/bytedance/sdk/openadsdk/core/pw/DK;
@@ -107,7 +96,6 @@
 .method public aAs()I
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/pw/DK;->rk:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -119,15 +107,9 @@
 
 .method public aAs(Lcom/bytedance/sdk/openadsdk/core/pw/rQf;)V
     .locals 4
-    .annotation build Landroid/annotation/SuppressLint;
-        value = {
-            "SetJavaScriptEnabled"
-        }
-    .end annotation
 
     if-eqz p1, :cond_2
 
-    .line 2
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/ppR/lG;->getWebView()Landroid/webkit/WebView;
 
     move-result-object v0
@@ -136,7 +118,6 @@
 
     goto :goto_0
 
-    .line 3
     :cond_0
     invoke-virtual {p1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
@@ -144,7 +125,6 @@
 
     if-eqz v0, :cond_1
 
-    .line 4
     invoke-virtual {p1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
     move-result-object v0
@@ -153,96 +133,76 @@
 
     invoke-virtual {v0, p1}, Landroid/view/ViewGroup;->removeView(Landroid/view/View;)V
 
-    .line 5
     :cond_1
     :try_start_0
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/ppR/lG;->removeAllViews()V
 
-    .line 6
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/ppR/lG;->Yp()V
 
     const/4 v0, 0x0
 
-    .line 7
     invoke-virtual {p1, v0}, Lcom/bytedance/sdk/component/ppR/lG;->setWebChromeClient(Landroid/webkit/WebChromeClient;)V
 
-    .line 8
     invoke-virtual {p1, v0}, Lcom/bytedance/sdk/component/ppR/lG;->setWebViewClient(Landroid/webkit/WebViewClient;)V
 
-    .line 9
     invoke-virtual {p1, v0}, Lcom/bytedance/sdk/component/ppR/lG;->setDownloadListener(Landroid/webkit/DownloadListener;)V
 
-    .line 10
     const-string v1, "UTF-8"
 
     invoke-virtual {p1, v1}, Lcom/bytedance/sdk/component/ppR/lG;->setDefaultTextEncodingName(Ljava/lang/String;)V
 
     const/4 v1, 0x0
 
-    .line 11
     invoke-virtual {p1, v1}, Lcom/bytedance/sdk/component/ppR/lG;->setAllowFileAccess(Z)V
 
     const/4 v2, 0x1
 
-    .line 12
     invoke-virtual {p1, v2}, Lcom/bytedance/sdk/component/ppR/lG;->setJavaScriptEnabled(Z)V
 
     const/4 v3, -0x1
 
-    .line 13
     invoke-virtual {p1, v3}, Lcom/bytedance/sdk/component/ppR/lG;->setCacheMode(I)V
 
-    .line 14
     invoke-virtual {p1, v2}, Lcom/bytedance/sdk/component/ppR/lG;->setDatabaseEnabled(Z)V
 
-    .line 15
     invoke-virtual {p1, v1}, Lcom/bytedance/sdk/component/ppR/lG;->setSupportZoom(Z)V
 
-    .line 16
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/ppR/lG;->getWebView()Landroid/webkit/WebView;
 
     move-result-object v2
 
     invoke-virtual {v2, v1, v0}, Landroid/webkit/WebView;->setLayerType(ILandroid/graphics/Paint;)V
 
-    .line 17
     invoke-virtual {p1, v1}, Lcom/bytedance/sdk/component/ppR/lG;->setBackgroundColor(I)V
 
-    .line 18
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/ppR/lG;->getWebView()Landroid/webkit/WebView;
 
     move-result-object v0
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setHorizontalScrollBarEnabled(Z)V
 
-    .line 19
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/ppR/lG;->getWebView()Landroid/webkit/WebView;
 
     move-result-object v0
 
     invoke-virtual {v0, v1}, Landroid/webkit/WebView;->setHorizontalScrollbarOverlay(Z)V
 
-    .line 20
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/ppR/lG;->getWebView()Landroid/webkit/WebView;
 
     move-result-object v0
 
     invoke-virtual {v0, v1}, Landroid/view/View;->setVerticalScrollBarEnabled(Z)V
 
-    .line 21
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/ppR/lG;->getWebView()Landroid/webkit/WebView;
 
     move-result-object v0
 
     invoke-virtual {v0, v1}, Landroid/webkit/WebView;->setVerticalScrollbarOverlay(Z)V
 
-    .line 22
     invoke-static {p1}, Lcom/bytedance/sdk/openadsdk/core/widget/rk/aAs;->rk(Lcom/bytedance/sdk/component/ppR/lG;)V
 
-    .line 23
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/ppR/lG;->Pa()V
 
-    .line 24
     invoke-virtual {p1, v1}, Lcom/bytedance/sdk/component/ppR/lG;->setMixedContentMode(I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
@@ -256,7 +216,6 @@
 .method public fFV()Lcom/bytedance/sdk/openadsdk/core/pw/rQf;
     .locals 3
 
-    .line 1
     invoke-virtual {p0}, Lcom/bytedance/sdk/openadsdk/core/pw/DK;->aAs()I
 
     move-result v0
@@ -267,7 +226,6 @@
 
     return-object v1
 
-    .line 2
     :cond_0
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/pw/DK;->rk:Ljava/util/List;
 
@@ -292,7 +250,6 @@
 
     if-eqz p1, :cond_1
 
-    .line 3
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/pw/DK;->rk:Ljava/util/List;
 
     invoke-interface {v0}, Ljava/util/List;->size()I
@@ -303,12 +260,10 @@
 
     if-lt v0, v1, :cond_0
 
-    .line 4
     invoke-virtual {p1}, Lcom/bytedance/sdk/openadsdk/core/pw/rQf;->kEa()V
 
     return-void
 
-    .line 5
     :cond_0
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/pw/DK;->rk:Ljava/util/List;
 
@@ -318,10 +273,8 @@
 
     if-nez v0, :cond_1
 
-    .line 6
     invoke-virtual {p0, p1}, Lcom/bytedance/sdk/openadsdk/core/pw/DK;->aAs(Lcom/bytedance/sdk/openadsdk/core/pw/rQf;)V
 
-    .line 7
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/pw/DK;->rk:Ljava/util/List;
 
     invoke-interface {v0, p1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
@@ -335,7 +288,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 7
     invoke-virtual {p0, p1}, Lcom/bytedance/sdk/openadsdk/core/pw/DK;->fFV(Lcom/bytedance/sdk/openadsdk/core/pw/rQf;)V
 
     :cond_0

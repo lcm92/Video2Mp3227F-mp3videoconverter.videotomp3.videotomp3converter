@@ -1,5 +1,5 @@
 .class public Lcom/bytedance/sdk/component/rk/NK;
-.super Lcom/bytedance/sdk/component/rk/rk;
+.super Lcom/bytedance/sdk/component/rk/RKRCC;
 .source "SourceFile"
 
 
@@ -23,24 +23,20 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
-    invoke-direct {p0}, Lcom/bytedance/sdk/component/rk/rk;-><init>()V
+    invoke-direct {p0}, Lcom/bytedance/sdk/component/rk/RKRCC;-><init>()V
 
-    .line 4
     return-void
 .end method
 
 .method private rk(Ljava/lang/String;Ljava/lang/String;)V
     .locals 1
 
-    .line 14
-    iget-boolean p1, p0, Lcom/bytedance/sdk/component/rk/rk;->lG:Z
+    iget-boolean p1, p0, Lcom/bytedance/sdk/component/rk/RKRCC;->lG:Z
 
     if-eqz p1, :cond_0
 
     return-void
 
-    .line 15
     :cond_0
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -50,13 +46,11 @@
 
     return-void
 
-    .line 16
     :cond_1
     new-instance p1, Lcom/bytedance/sdk/component/rk/NK$1;
 
     invoke-direct {p1, p0, p2}, Lcom/bytedance/sdk/component/rk/NK$1;-><init>(Lcom/bytedance/sdk/component/rk/NK;Ljava/lang/String;)V
 
-    .line 17
     invoke-static {}, Landroid/os/Looper;->myLooper()Landroid/os/Looper;
 
     move-result-object p2
@@ -67,14 +61,12 @@
 
     if-eq p2, v0, :cond_2
 
-    .line 18
-    iget-object p2, p0, Lcom/bytedance/sdk/component/rk/rk;->DK:Landroid/os/Handler;
+    iget-object p2, p0, Lcom/bytedance/sdk/component/rk/RKRCC;->DK:Landroid/os/Handler;
 
     invoke-virtual {p2, p1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
     return-void
 
-    .line 19
     :cond_2
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
@@ -86,74 +78,51 @@
 .method protected DK()V
     .locals 2
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/component/rk/NK;->ppR:Landroid/webkit/WebView;
 
-    .line 3
     iget-object v1, p0, Lcom/bytedance/sdk/component/rk/NK;->pw:Ljava/lang/String;
 
-    .line 5
     invoke-virtual {v0, v1}, Landroid/webkit/WebView;->removeJavascriptInterface(Ljava/lang/String;)V
 
-    .line 8
     return-void
 .end method
 
 .method protected aAs()V
     .locals 2
-    .annotation build Landroid/annotation/SuppressLint;
-        value = {
-            "AddJavascriptInterface"
-        }
-    .end annotation
 
-    .line 1
     sget-boolean v0, Lcom/bytedance/sdk/component/rk/NK;->ArD:Z
 
-    .line 3
     if-nez v0, :cond_1
 
-    .line 5
     iget-object v0, p0, Lcom/bytedance/sdk/component/rk/NK;->ppR:Landroid/webkit/WebView;
 
-    .line 7
     if-eqz v0, :cond_0
 
-    .line 9
     goto :goto_0
 
-    .line 10
     :cond_0
     new-instance v0, Ljava/lang/AssertionError;
 
-    .line 12
     invoke-direct {v0}, Ljava/lang/AssertionError;-><init>()V
 
-    .line 15
     throw v0
 
-    .line 16
     :cond_1
     :goto_0
     iget-object v0, p0, Lcom/bytedance/sdk/component/rk/NK;->ppR:Landroid/webkit/WebView;
 
-    .line 18
     iget-object v1, p0, Lcom/bytedance/sdk/component/rk/NK;->pw:Ljava/lang/String;
 
-    .line 20
     invoke-virtual {v0, p0, v1}, Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object;Ljava/lang/String;)V
 
-    .line 23
     return-void
 .end method
 
 .method protected fFV()V
     .locals 0
 
-    .line 5
-    invoke-super {p0}, Lcom/bytedance/sdk/component/rk/rk;->fFV()V
+    invoke-super {p0}, Lcom/bytedance/sdk/component/rk/RKRCC;->fFV()V
 
-    .line 6
     invoke-virtual {p0}, Lcom/bytedance/sdk/component/rk/NK;->DK()V
 
     return-void
@@ -161,29 +130,19 @@
 
 .method protected fFV(Lcom/bytedance/sdk/component/rk/ArD;)V
     .locals 1
-    .annotation build Landroid/annotation/SuppressLint;
-        value = {
-            "JavascriptInterface",
-            "AddJavascriptInterface"
-        }
-    .end annotation
 
-    .line 1
     iget-object v0, p1, Lcom/bytedance/sdk/component/rk/ArD;->rk:Landroid/webkit/WebView;
 
     iput-object v0, p0, Lcom/bytedance/sdk/component/rk/NK;->ppR:Landroid/webkit/WebView;
 
-    .line 2
     iget-object v0, p1, Lcom/bytedance/sdk/component/rk/ArD;->aAs:Ljava/lang/String;
 
     iput-object v0, p0, Lcom/bytedance/sdk/component/rk/NK;->pw:Ljava/lang/String;
 
-    .line 3
     iget-boolean p1, p1, Lcom/bytedance/sdk/component/rk/ArD;->Pa:Z
 
     if-nez p1, :cond_0
 
-    .line 4
     invoke-virtual {p0}, Lcom/bytedance/sdk/component/rk/NK;->aAs()V
 
     :cond_0
@@ -195,37 +154,31 @@
     .annotation runtime Landroid/webkit/JavascriptInterface;
     .end annotation
 
-    .line 1
-    invoke-super {p0, p1}, Lcom/bytedance/sdk/component/rk/rk;->invokeMethod(Ljava/lang/String;)V
+    invoke-super {p0, p1}, Lcom/bytedance/sdk/component/rk/RKRCC;->invokeMethod(Ljava/lang/String;)V
 
-    .line 4
     return-void
 .end method
 
 .method protected rk(Lcom/bytedance/sdk/component/rk/ArD;)Landroid/content/Context;
     .locals 1
 
-    .line 1
     iget-object v0, p1, Lcom/bytedance/sdk/component/rk/ArD;->rQf:Landroid/content/Context;
 
     if-eqz v0, :cond_0
 
     return-object v0
 
-    .line 2
     :cond_0
     iget-object p1, p1, Lcom/bytedance/sdk/component/rk/ArD;->rk:Landroid/webkit/WebView;
 
     if-eqz p1, :cond_1
 
-    .line 3
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
     move-result-object p1
 
     return-object p1
 
-    .line 4
     :cond_1
     new-instance p1, Ljava/lang/IllegalStateException;
 
@@ -239,7 +192,6 @@
 .method protected rk()Ljava/lang/String;
     .locals 1
 
-    .line 5
     iget-object v0, p0, Lcom/bytedance/sdk/component/rk/NK;->ppR:Landroid/webkit/WebView;
 
     invoke-virtual {v0}, Landroid/webkit/WebView;->getUrl()Ljava/lang/String;
@@ -252,7 +204,6 @@
 .method protected rk(Ljava/lang/String;)V
     .locals 2
 
-    .line 12
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "javascript:"
@@ -277,7 +228,6 @@
 
     move-result-object v0
 
-    .line 13
     invoke-direct {p0, p1, v0}, Lcom/bytedance/sdk/component/rk/NK;->rk(Ljava/lang/String;Ljava/lang/String;)V
 
     return-void
@@ -294,7 +244,6 @@
 
     if-eqz p2, :cond_0
 
-    .line 6
     iget-object v3, p2, Lcom/bytedance/sdk/component/rk/kEa;->pw:Ljava/lang/String;
 
     invoke-static {v3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
@@ -303,10 +252,8 @@
 
     if-nez v3, :cond_0
 
-    .line 7
     iget-object p2, p2, Lcom/bytedance/sdk/component/rk/kEa;->pw:Ljava/lang/String;
 
-    .line 8
     invoke-virtual {p2}, Ljava/lang/String;->getBytes()[B
 
     move-result-object v3
@@ -315,7 +262,6 @@
 
     move-result-object v3
 
-    .line 9
     const-string v4, "iframe[src=\"%s\""
 
     new-array v5, v1, [Ljava/lang/Object;
@@ -334,7 +280,6 @@
 
     move-result-object p2
 
-    .line 10
     const-string v4, "javascript:(function(){   const iframe = document.querySelector(atob(\'%s\'));   if (iframe && iframe.contentWindow) {        iframe.contentWindow.postMessage(%s, atob(\'%s\'));   }})()"
 
     const/4 v5, 0x3
@@ -355,9 +300,8 @@
 
     return-void
 
-    .line 11
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/bytedance/sdk/component/rk/rk;->rk(Ljava/lang/String;Lcom/bytedance/sdk/component/rk/kEa;)V
+    invoke-super {p0, p1, p2}, Lcom/bytedance/sdk/component/rk/RKRCC;->rk(Ljava/lang/String;Lcom/bytedance/sdk/component/rk/kEa;)V
 
     return-void
 .end method

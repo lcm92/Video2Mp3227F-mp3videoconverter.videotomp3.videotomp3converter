@@ -31,7 +31,6 @@
 .method constructor <init>()V
     .locals 1
 
-    .line 2
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
@@ -46,7 +45,6 @@
 .method constructor <init>(Z)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void

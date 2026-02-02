@@ -7,10 +7,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Lcom/bytedance/adsdk/rk/fFV/aAs/rk/lG;-><init>()V
 
-    .line 4
     return-void
 .end method
 
@@ -22,7 +20,7 @@
             "Ljava/lang/String;",
             "I",
             "Ljava/util/Deque<",
-            "Lcom/bytedance/adsdk/rk/fFV/fFV/rk;",
+            "Lcom/bytedance/adsdk/rk/fFV/fFV/RKFFC;",
             ">;)I"
         }
     .end annotation
@@ -32,18 +30,17 @@
     :goto_0
     add-int v1, v0, p2
 
-    .line 5
     invoke-virtual {p0, v1, p1}, Lcom/bytedance/adsdk/rk/fFV/aAs/rk/lG;->rk(ILjava/lang/String;)C
 
     move-result v2
 
-    invoke-static {v2}, Lcom/bytedance/adsdk/rk/fFV/rQf/rk;->fFV(C)Z
+    invoke-static {v2}, Lcom/bytedance/adsdk/rk/fFV/rQf/RKRFC;->fFV(C)Z
 
     move-result v3
 
     if-nez v3, :cond_2
 
-    invoke-static {v2}, Lcom/bytedance/adsdk/rk/fFV/rQf/rk;->aAs(C)Z
+    invoke-static {v2}, Lcom/bytedance/adsdk/rk/fFV/rQf/RKRFC;->aAs(C)Z
 
     move-result v3
 
@@ -75,20 +72,17 @@
 
     goto :goto_2
 
-    .line 6
     :cond_0
     invoke-virtual {p1, p2, v1}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object p1
 
-    .line 7
-    invoke-static {p1}, Lcom/bytedance/adsdk/rk/fFV/DK/rk;->rk(Ljava/lang/String;)Lcom/bytedance/adsdk/rk/fFV/DK/rk;
+    invoke-static {p1}, Lcom/bytedance/adsdk/rk/fFV/DK/RKDFC;->rk(Ljava/lang/String;)Lcom/bytedance/adsdk/rk/fFV/DK/RKDFC;
 
     move-result-object p2
 
     if-eqz p2, :cond_1
 
-    .line 8
     new-instance p2, Lcom/bytedance/adsdk/rk/fFV/fFV/rk/Yp;
 
     invoke-direct {p2, p1}, Lcom/bytedance/adsdk/rk/fFV/fFV/rk/Yp;-><init>(Ljava/lang/String;)V
@@ -97,7 +91,6 @@
 
     goto :goto_1
 
-    .line 9
     :cond_1
     new-instance p2, Lcom/bytedance/adsdk/rk/fFV/fFV/rk/gLo;
 
@@ -117,7 +110,7 @@
 
 
 # virtual methods
-.method public rk(Ljava/lang/String;ILjava/util/Deque;Lcom/bytedance/adsdk/rk/fFV/aAs/rk;)I
+.method public rk(Ljava/lang/String;ILjava/util/Deque;Lcom/bytedance/adsdk/rk/fFV/aAs/RKAFC;)I
     .locals 2
     .annotation system Ldalvik/annotation/Signature;
         value = {
@@ -125,20 +118,18 @@
             "Ljava/lang/String;",
             "I",
             "Ljava/util/Deque<",
-            "Lcom/bytedance/adsdk/rk/fFV/fFV/rk;",
+            "Lcom/bytedance/adsdk/rk/fFV/fFV/RKFFC;",
             ">;",
-            "Lcom/bytedance/adsdk/rk/fFV/aAs/rk;",
+            "Lcom/bytedance/adsdk/rk/fFV/aAs/RKAFC;",
             ")I"
         }
     .end annotation
 
-    .line 1
     invoke-virtual {p0, p2, p1}, Lcom/bytedance/adsdk/rk/fFV/aAs/rk/lG;->rk(ILjava/lang/String;)C
 
     move-result v0
 
-    .line 2
-    invoke-static {v0}, Lcom/bytedance/adsdk/rk/fFV/rQf/rk;->fFV(C)Z
+    invoke-static {v0}, Lcom/bytedance/adsdk/rk/fFV/rQf/RKRFC;->fFV(C)Z
 
     move-result v1
 
@@ -148,14 +139,12 @@
 
     if-eq v0, v1, :cond_0
 
-    .line 3
-    invoke-interface {p4, p1, p2, p3}, Lcom/bytedance/adsdk/rk/fFV/aAs/rk;->rk(Ljava/lang/String;ILjava/util/Deque;)I
+    invoke-interface {p4, p1, p2, p3}, Lcom/bytedance/adsdk/rk/fFV/aAs/RKAFC;->rk(Ljava/lang/String;ILjava/util/Deque;)I
 
     move-result p1
 
     return p1
 
-    .line 4
     :cond_0
     invoke-direct {p0, p1, p2, p3}, Lcom/bytedance/adsdk/rk/fFV/aAs/rk/aAs;->rk(Ljava/lang/String;ILjava/util/Deque;)I
 

@@ -4,5 +4,5 @@
 
 
 # virtual methods
-.method public abstract rk(Lcom/bytedance/sdk/component/adexpress/dynamic/DK/pw;)V
+.method public abstract rk(Lcom/bytedance/sdk/component/adexpress/dynamic/DK/PWDDC;)V
 .end method

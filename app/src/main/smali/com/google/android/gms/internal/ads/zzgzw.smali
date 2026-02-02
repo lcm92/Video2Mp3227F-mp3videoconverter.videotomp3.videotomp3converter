@@ -11,7 +11,6 @@
 .method public constructor <init>(Ljava/io/IOException;)V
     .locals 1
 
-    .line 1
     invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
 
     move-result-object v0
@@ -24,7 +23,6 @@
 .method public constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1}, Ljava/io/IOException;-><init>(Ljava/lang/String;)V
 
     return-void

@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/bytedance/adsdk/ugeno/core/fFV/DK$rk;
+        Lcom/bytedance/adsdk/ugeno/core/fFV/DK$RKD1;
     }
 .end annotation
 
@@ -15,5 +15,5 @@
 
 
 # virtual methods
-.method public abstract rk(Landroid/content/Context;Lcom/bytedance/adsdk/ugeno/fFV/aAs;)Lcom/bytedance/adsdk/ugeno/core/fFV/DK$rk;
+.method public abstract rk(Landroid/content/Context;Lcom/bytedance/adsdk/ugeno/fFV/aAs;)Lcom/bytedance/adsdk/ugeno/core/fFV/DK$RKD1;
 .end method

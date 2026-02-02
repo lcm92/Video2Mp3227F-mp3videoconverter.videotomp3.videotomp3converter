@@ -16,54 +16,41 @@
 .method private constructor <init>()V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     return-void
 .end method
 
 .method static createSubscriptionCallback(Landroid/support/v4/media/MediaBrowserCompatApi26$SubscriptionCallback;)Ljava/lang/Object;
     .locals 1
 
-    .line 1
     new-instance v0, Landroid/support/v4/media/MediaBrowserCompatApi26$SubscriptionCallbackProxy;
 
-    .line 3
     invoke-direct {v0, p0}, Landroid/support/v4/media/MediaBrowserCompatApi26$SubscriptionCallbackProxy;-><init>(Landroid/support/v4/media/MediaBrowserCompatApi26$SubscriptionCallback;)V
 
-    .line 6
     return-object v0
 .end method
 
 .method public static subscribe(Ljava/lang/Object;Ljava/lang/String;Landroid/os/Bundle;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p0, Landroid/media/browse/MediaBrowser;
 
-    .line 3
     check-cast p3, Landroid/media/browse/MediaBrowser$SubscriptionCallback;
 
-    .line 5
-    invoke-static {p0, p1, p2, p3}, Lmz0;->a(Landroid/media/browse/MediaBrowser;Ljava/lang/String;Landroid/os/Bundle;Landroid/media/browse/MediaBrowser$SubscriptionCallback;)V
+    invoke-static {p0, p1, p2, p3}, Ldef/MZ0;->a(Landroid/media/browse/MediaBrowser;Ljava/lang/String;Landroid/os/Bundle;Landroid/media/browse/MediaBrowser$SubscriptionCallback;)V
 
-    .line 8
     return-void
 .end method
 
 .method public static unsubscribe(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V
     .locals 0
 
-    .line 1
     check-cast p0, Landroid/media/browse/MediaBrowser;
 
-    .line 3
     check-cast p2, Landroid/media/browse/MediaBrowser$SubscriptionCallback;
 
-    .line 5
-    invoke-static {p0, p1, p2}, Llz0;->a(Landroid/media/browse/MediaBrowser;Ljava/lang/String;Landroid/media/browse/MediaBrowser$SubscriptionCallback;)V
+    invoke-static {p0, p1, p2}, Ldef/LZ0;->a(Landroid/media/browse/MediaBrowser;Ljava/lang/String;Landroid/media/browse/MediaBrowser$SubscriptionCallback;)V
 
-    .line 8
     return-void
 .end method

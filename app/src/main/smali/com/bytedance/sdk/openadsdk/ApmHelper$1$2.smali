@@ -13,7 +13,7 @@
 
 .annotation system Ldalvik/annotation/InnerClass;
     accessFlags = 0x0
-    name = null
+    name = "2"
 .end annotation
 
 
@@ -27,16 +27,12 @@
 .method constructor <init>(Lcom/bytedance/sdk/openadsdk/ApmHelper$1;Lcom/apm/insight/MonitorCrash;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/ApmHelper$1$2;->fFV:Lcom/bytedance/sdk/openadsdk/ApmHelper$1;
 
-    .line 3
     iput-object p2, p0, Lcom/bytedance/sdk/openadsdk/ApmHelper$1$2;->rk:Lcom/apm/insight/MonitorCrash;
 
-    .line 5
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 8
     return-void
 .end method
 
@@ -58,53 +54,37 @@
         }
     .end annotation
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/ApmHelper;->aAs()Ljava/util/Map;
 
-    .line 4
     move-result-object p1
 
-    .line 5
     const-string v0, "render_type"
 
-    .line 7
     invoke-interface {p1, v0}, Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
 
-    .line 10
     move-result v1
 
-    .line 11
     if-eqz v1, :cond_0
 
-    .line 13
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/ApmHelper$1$2;->rk:Lcom/apm/insight/MonitorCrash;
 
-    .line 15
     invoke-interface {p1, v0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 18
     move-result-object v2
 
-    .line 19
     check-cast v2, Ljava/lang/String;
 
-    .line 21
     invoke-virtual {v1, v0, v2}, Lcom/apm/insight/MonitorCrash;->addTags(Ljava/lang/String;Ljava/lang/String;)Lcom/apm/insight/MonitorCrash;
 
-    .line 24
     goto :goto_0
 
-    .line 25
     :cond_0
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/ApmHelper$1$2;->rk:Lcom/apm/insight/MonitorCrash;
 
-    .line 27
     const-string v2, "-2"
 
-    .line 29
     invoke-virtual {v1, v0, v2}, Lcom/apm/insight/MonitorCrash;->addTags(Ljava/lang/String;Ljava/lang/String;)Lcom/apm/insight/MonitorCrash;
 
-    .line 32
     :goto_0
     return-object p1
 .end method

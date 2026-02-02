@@ -4,7 +4,7 @@
 
 # interfaces
 .implements Ljava/util/concurrent/ScheduledFuture;
-.implements Lmt0;
+.implements Ldef/MT0;
 
 
 # virtual methods

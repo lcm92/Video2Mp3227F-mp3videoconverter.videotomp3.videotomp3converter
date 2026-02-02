@@ -25,13 +25,10 @@
 .method constructor <init>(Landroidx/appcompat/widget/SearchView$SearchAutoComplete;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Landroidx/appcompat/widget/SearchView$SearchAutoComplete$a;->a:Landroidx/appcompat/widget/SearchView$SearchAutoComplete;
 
-    .line 3
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 6
     return-void
 .end method
 
@@ -40,12 +37,9 @@
 .method public run()V
     .locals 1
 
-    .line 1
     iget-object v0, p0, Landroidx/appcompat/widget/SearchView$SearchAutoComplete$a;->a:Landroidx/appcompat/widget/SearchView$SearchAutoComplete;
 
-    .line 3
     invoke-virtual {v0}, Landroidx/appcompat/widget/SearchView$SearchAutoComplete;->c()V
 
-    .line 6
     return-void
 .end method

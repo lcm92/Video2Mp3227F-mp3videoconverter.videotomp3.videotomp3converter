@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lcom/bytedance/sdk/component/lG/rk/DK/rk;
+.implements Lcom/bytedance/sdk/component/lG/rk/DK/RKDRC;
 
 
 # instance fields
@@ -34,10 +34,8 @@
 .method public DK()B
     .locals 1
 
-    .line 1
     iget-byte v0, p0, Lcom/bytedance/sdk/component/lG/rk/DK/fFV;->fFV:B
 
-    .line 3
     return v0
 .end method
 
@@ -52,7 +50,6 @@
 .method public aAs()Ljava/lang/String;
     .locals 1
 
-    .line 1
     const/4 v0, 0x0
 
     return-object v0
@@ -61,14 +58,12 @@
 .method public aAs(J)V
     .locals 0
 
-    .line 2
     return-void
 .end method
 
 .method public fFV()B
     .locals 1
 
-    .line 1
     const/4 v0, 0x0
 
     return v0
@@ -77,14 +72,12 @@
 .method public fFV(B)V
     .locals 0
 
-    .line 2
     return-void
 .end method
 
 .method public fFV(I)V
     .locals 0
 
-    .line 5
     iput p1, p0, Lcom/bytedance/sdk/component/lG/rk/DK/fFV;->rk:I
 
     return-void
@@ -93,14 +86,12 @@
 .method public fFV(J)V
     .locals 0
 
-    .line 3
     return-void
 .end method
 
 .method public fFV(Ljava/lang/String;)V
     .locals 0
 
-    .line 4
     return-void
 .end method
 
@@ -115,10 +106,8 @@
 .method public nP()I
     .locals 1
 
-    .line 1
     iget v0, p0, Lcom/bytedance/sdk/component/lG/rk/DK/fFV;->rk:I
 
-    .line 3
     return v0
 .end method
 
@@ -149,7 +138,6 @@
 .method public rk()Lcom/bytedance/sdk/component/lG/rk/DK/rk/fFV;
     .locals 1
 
-    .line 1
     const/4 v0, 0x0
 
     return-object v0
@@ -158,7 +146,6 @@
 .method public rk(B)V
     .locals 0
 
-    .line 6
     iput-byte p1, p0, Lcom/bytedance/sdk/component/lG/rk/DK/fFV;->fFV:B
 
     return-void
@@ -167,27 +154,23 @@
 .method public rk(I)V
     .locals 0
 
-    .line 2
     return-void
 .end method
 
 .method public rk(J)V
     .locals 0
 
-    .line 3
     return-void
 .end method
 
 .method public rk(Ljava/lang/String;)V
     .locals 0
 
-    .line 4
     return-void
 .end method
 
 .method public rk(Lorg/json/JSONObject;)V
     .locals 0
 
-    .line 5
     return-void
 .end method

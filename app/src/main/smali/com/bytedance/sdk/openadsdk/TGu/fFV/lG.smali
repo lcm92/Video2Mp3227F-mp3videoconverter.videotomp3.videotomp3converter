@@ -9,7 +9,6 @@
 
     const/4 v0, 0x0
 
-    .line 1
     invoke-static {p0, v0, p1}, Lcom/bytedance/sdk/openadsdk/TGu/fFV/lG;->rk(Landroid/view/View;ZI)Z
 
     move-result p0
@@ -36,7 +35,6 @@
     :cond_1
     const/16 p1, 0x32
 
-    .line 2
     :goto_0
     invoke-static {p0, p1, p2, v0}, Lcom/bytedance/sdk/openadsdk/core/Ctx;->rk(Landroid/view/View;IIZ)Z
 

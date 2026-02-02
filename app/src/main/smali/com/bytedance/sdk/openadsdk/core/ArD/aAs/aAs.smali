@@ -32,7 +32,7 @@
 .method public abstract rk()V
 .end method
 
-.method public abstract rk(Lcom/bytedance/sdk/openadsdk/core/ArD/aAs/rk;)V
+.method public abstract rk(Lcom/bytedance/sdk/openadsdk/core/ArD/aAs/RKAAC;)V
 .end method
 
 .method public abstract rk(Lcom/bytedance/sdk/openadsdk/core/pw/AXL;)V

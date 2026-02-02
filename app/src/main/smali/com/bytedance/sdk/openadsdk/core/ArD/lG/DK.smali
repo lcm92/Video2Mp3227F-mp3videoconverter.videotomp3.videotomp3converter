@@ -41,44 +41,32 @@
 .method public constructor <init>(Landroid/content/Context;Lcom/bytedance/sdk/openadsdk/core/model/HmR;Ljava/lang/String;Lorg/json/JSONObject;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     const/4 v0, -0x1
 
-    .line 5
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->rk:I
 
-    .line 7
     iput v0, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->fFV:I
 
-    .line 9
     const-string v0, "UGenSwiperEvent"
 
-    .line 11
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->lG:Ljava/lang/String;
 
-    .line 13
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->Yp:Landroid/content/Context;
 
-    .line 15
     iput-object p2, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->pw:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
 
-    .line 17
     iput-object p3, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->ppR:Ljava/lang/String;
 
-    .line 19
     iput-object p4, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->NCs:Lorg/json/JSONObject;
 
-    .line 21
     return-void
 .end method
 
 .method static synthetic aAs(Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;I)V
     .locals 0
 
-    .line 1
     invoke-direct {p0, p1}, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->rk(I)V
 
     return-void
@@ -87,7 +75,6 @@
 .method static synthetic aAs(Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;Z)Z
     .locals 0
 
-    .line 2
     iput-boolean p1, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->AXL:Z
 
     return p1
@@ -96,7 +83,6 @@
 .method static synthetic fFV(Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;I)I
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->rk:I
 
     return p1
@@ -105,7 +91,6 @@
 .method static synthetic fFV(Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;Z)Z
     .locals 0
 
-    .line 2
     iput-boolean p1, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->Pa:Z
 
     return p1
@@ -114,7 +99,6 @@
 .method static synthetic rk(Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;I)I
     .locals 0
 
-    .line 1
     iput p1, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->fFV:I
 
     return p1
@@ -125,7 +109,6 @@
 
     if-eqz p1, :cond_0
 
-    .line 68
     invoke-static {p1}, Lcom/bytedance/sdk/component/utils/fFV;->rk(Landroid/view/View;)Landroid/app/Activity;
 
     move-result-object p1
@@ -138,7 +121,6 @@
     :goto_0
     if-nez p1, :cond_1
 
-    .line 69
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->Yp:Landroid/content/Context;
 
     :cond_1
@@ -148,12 +130,10 @@
 .method private rk(I)V
     .locals 3
 
-    .line 29
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
-    .line 30
     :try_start_0
     const-string v1, "index"
 
@@ -161,7 +141,6 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 31
     :catchall_0
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->pw:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
 
@@ -177,12 +156,10 @@
 .method private rk(Landroid/widget/TextView;I)V
     .locals 3
 
-    .line 32
     invoke-virtual {p1}, Landroid/widget/TextView;->getCurrentTextColor()I
 
     move-result v0
 
-    .line 33
     invoke-static {v0}, Landroid/graphics/Color;->red(I)I
 
     move-result v1
@@ -199,7 +176,6 @@
 
     move-result p2
 
-    .line 34
     invoke-virtual {p1, p2}, Landroid/widget/TextView;->setTextColor(I)V
 
     return-void
@@ -208,7 +184,6 @@
 .method static synthetic rk(Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;ZZZ)V
     .locals 0
 
-    .line 2
     invoke-direct {p0, p1, p2, p3}, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->rk(ZZZ)V
 
     return-void
@@ -217,28 +192,24 @@
 .method private rk(Lorg/json/JSONObject;Landroid/view/View;)V
     .locals 9
 
-    .line 60
     const-string v0, "landingStyle"
 
     invoke-virtual {p1, v0}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;)I
 
     move-result v0
 
-    .line 61
     const-string v1, "url"
 
     invoke-virtual {p1, v1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
-    .line 62
     const-string v2, "fallback_url"
 
     invoke-virtual {p1, v2}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 
-    .line 63
     invoke-direct {p0, v0, v1, v2}, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->rk(ILjava/lang/String;Ljava/lang/String;)Z
 
     move-result v0
@@ -247,25 +218,21 @@
 
     return-void
 
-    .line 64
     :cond_0
     invoke-direct {p0, p2}, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->rk(Landroid/view/View;)Landroid/content/Context;
 
     move-result-object v1
 
-    .line 65
     iget-object p2, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->Yp:Landroid/content/Context;
 
     instance-of v2, p2, Landroid/app/Activity;
 
-    .line 66
     iget-object p2, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->ppR:Ljava/lang/String;
 
     invoke-static {p2}, Lcom/bytedance/sdk/openadsdk/utils/NmB;->rk(Ljava/lang/String;)I
 
     move-result v6
 
-    .line 67
     iget-object v4, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->pw:Lcom/bytedance/sdk/openadsdk/core/model/HmR;
 
     iget-object v5, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->ppR:Ljava/lang/String;
@@ -290,7 +257,6 @@
 
     goto :goto_1
 
-    .line 50
     :cond_0
     const-string v0, "clickInfo"
 
@@ -302,12 +268,10 @@
 
     if-eqz v1, :cond_2
 
-    .line 51
     invoke-virtual {v1}, Lorg/json/JSONObject;->keys()Ljava/util/Iterator;
 
     move-result-object v1
 
-    .line 52
     :catchall_0
     :goto_0
     invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
@@ -316,14 +280,12 @@
 
     if-eqz v2, :cond_1
 
-    .line 53
     invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v2
 
     check-cast v2, Ljava/lang/String;
 
-    .line 54
     iget-object v3, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->nP:Lorg/json/JSONObject;
 
     invoke-virtual {v3, v2}, Lorg/json/JSONObject;->opt(Ljava/lang/String;)Ljava/lang/Object;
@@ -332,7 +294,6 @@
 
     check-cast v3, Ljava/lang/String;
 
-    .line 55
     :try_start_0
     iget-object v4, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->nP:Lorg/json/JSONObject;
 
@@ -346,7 +307,6 @@
 
     goto :goto_0
 
-    .line 56
     :cond_1
     :try_start_1
     iget-object p2, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->nP:Lorg/json/JSONObject;
@@ -364,7 +324,6 @@
 .method private rk(ZZZ)V
     .locals 4
 
-    .line 11
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->aAs:Lcom/bytedance/adsdk/ugeno/fFV/aAs;
 
     if-eqz v0, :cond_7
@@ -375,20 +334,17 @@
 
     goto :goto_0
 
-    .line 12
     :cond_0
     invoke-virtual {v0}, Lcom/bytedance/adsdk/ugeno/fFV/aAs;->nP()Landroid/view/View;
 
     move-result-object v0
 
-    .line 13
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->DK:Lcom/bytedance/adsdk/ugeno/fFV/aAs;
 
     invoke-virtual {v1}, Lcom/bytedance/adsdk/ugeno/fFV/aAs;->nP()Landroid/view/View;
 
     move-result-object v1
 
-    .line 14
     iget-object v2, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->kEa:Lorg/json/JSONArray;
 
     if-eqz v2, :cond_1
@@ -403,10 +359,8 @@
 
     const/16 p1, 0x8
 
-    .line 15
     invoke-virtual {v0, p1}, Landroid/view/View;->setVisibility(I)V
 
-    .line 16
     invoke-virtual {v1, p1}, Landroid/view/View;->setVisibility(I)V
 
     return-void
@@ -420,23 +374,19 @@
 
     if-eqz p2, :cond_3
 
-    .line 17
     instance-of p2, v0, Landroid/widget/TextView;
 
     if-eqz p2, :cond_2
 
-    .line 18
     check-cast v0, Landroid/widget/TextView;
 
     invoke-direct {p0, v0, p1}, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->rk(Landroid/widget/TextView;I)V
 
-    .line 19
     :cond_2
     instance-of p1, v1, Landroid/widget/TextView;
 
     if-eqz p1, :cond_7
 
-    .line 20
     check-cast v1, Landroid/widget/TextView;
 
     invoke-direct {p0, v1, v2}, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->rk(Landroid/widget/TextView;I)V
@@ -446,47 +396,39 @@
     :cond_3
     if-eqz p3, :cond_5
 
-    .line 21
     instance-of p2, v0, Landroid/widget/TextView;
 
     if-eqz p2, :cond_4
 
-    .line 22
     check-cast v0, Landroid/widget/TextView;
 
     invoke-direct {p0, v0, v2}, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->rk(Landroid/widget/TextView;I)V
 
-    .line 23
     :cond_4
     instance-of p2, v1, Landroid/widget/TextView;
 
     if-eqz p2, :cond_7
 
-    .line 24
     check-cast v1, Landroid/widget/TextView;
 
     invoke-direct {p0, v1, p1}, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->rk(Landroid/widget/TextView;I)V
 
     return-void
 
-    .line 25
     :cond_5
     instance-of p1, v0, Landroid/widget/TextView;
 
     if-eqz p1, :cond_6
 
-    .line 26
     check-cast v0, Landroid/widget/TextView;
 
     invoke-direct {p0, v0, v2}, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->rk(Landroid/widget/TextView;I)V
 
-    .line 27
     :cond_6
     instance-of p1, v1, Landroid/widget/TextView;
 
     if-eqz p1, :cond_7
 
-    .line 28
     check-cast v1, Landroid/widget/TextView;
 
     invoke-direct {p0, v1, v2}, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->rk(Landroid/widget/TextView;I)V
@@ -515,7 +457,6 @@
 
     goto :goto_0
 
-    .line 57
     :cond_0
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -531,7 +472,6 @@
 
     goto :goto_1
 
-    .line 58
     :cond_1
     invoke-static {p3}, Lcom/bytedance/sdk/component/utils/KR;->rk(Ljava/lang/String;)Z
 
@@ -541,7 +481,6 @@
 
     goto :goto_1
 
-    .line 59
     :cond_2
     invoke-static {p2}, Lcom/bytedance/sdk/component/utils/KR;->rk(Ljava/lang/String;)Z
 
@@ -562,7 +501,6 @@
 .method static synthetic rk(Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;Z)Z
     .locals 0
 
-    .line 3
     iput-boolean p1, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->woP:Z
 
     return p1
@@ -573,17 +511,14 @@
 .method public DK()Lorg/json/JSONObject;
     .locals 1
 
-    .line 1
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->nP:Lorg/json/JSONObject;
 
-    .line 3
     return-object v0
 .end method
 
 .method public aAs()V
     .locals 3
 
-    .line 3
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->rQf:Lcom/bytedance/adsdk/ugeno/fFV/aAs;
 
     instance-of v1, v0, Lcom/bytedance/adsdk/ugeno/aAs;
@@ -596,7 +531,6 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 4
     check-cast v0, Lcom/bytedance/adsdk/ugeno/aAs;
 
     add-int/lit8 v1, v1, 0x1
@@ -610,7 +544,6 @@
 .method public fFV()V
     .locals 3
 
-    .line 3
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->rQf:Lcom/bytedance/adsdk/ugeno/fFV/aAs;
 
     instance-of v1, v0, Lcom/bytedance/adsdk/ugeno/aAs;
@@ -623,7 +556,6 @@
 
     if-eq v1, v2, :cond_0
 
-    .line 4
     check-cast v0, Lcom/bytedance/adsdk/ugeno/aAs;
 
     add-int/lit8 v1, v1, -0x1
@@ -637,7 +569,6 @@
 .method public rk()V
     .locals 3
 
-    .line 10
     iget-boolean v0, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->woP:Z
 
     iget-boolean v1, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->Pa:Z
@@ -660,7 +591,6 @@
         }
     .end annotation
 
-    .line 4
     const-string v0, "swiperLayout"
 
     invoke-virtual {p1, v0}, Lcom/bytedance/adsdk/ugeno/fFV/aAs;->DK(Ljava/lang/String;)Lcom/bytedance/adsdk/ugeno/fFV/aAs;
@@ -669,12 +599,10 @@
 
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->rQf:Lcom/bytedance/adsdk/ugeno/fFV/aAs;
 
-    .line 5
     instance-of v0, v0, Lcom/bytedance/adsdk/ugeno/aAs;
 
     if-eqz v0, :cond_0
 
-    .line 6
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->NCs:Lorg/json/JSONObject;
 
     const-string v1, "dpa_data"
@@ -685,7 +613,6 @@
 
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->kEa:Lorg/json/JSONArray;
 
-    .line 7
     const-string v0, "swiperLeftArrow"
 
     invoke-virtual {p1, v0}, Lcom/bytedance/adsdk/ugeno/fFV/aAs;->DK(Ljava/lang/String;)Lcom/bytedance/adsdk/ugeno/fFV/aAs;
@@ -694,7 +621,6 @@
 
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->aAs:Lcom/bytedance/adsdk/ugeno/fFV/aAs;
 
-    .line 8
     const-string v0, "swiperRightArrow"
 
     invoke-virtual {p1, v0}, Lcom/bytedance/adsdk/ugeno/fFV/aAs;->DK(Ljava/lang/String;)Lcom/bytedance/adsdk/ugeno/fFV/aAs;
@@ -703,7 +629,6 @@
 
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->DK:Lcom/bytedance/adsdk/ugeno/fFV/aAs;
 
-    .line 9
     iget-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->rQf:Lcom/bytedance/adsdk/ugeno/fFV/aAs;
 
     check-cast p1, Lcom/bytedance/adsdk/ugeno/aAs;
@@ -721,7 +646,6 @@
 .method public rk(Lcom/bytedance/sdk/openadsdk/core/widget/rQf;)V
     .locals 0
 
-    .line 35
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->ArD:Lcom/bytedance/sdk/openadsdk/core/widget/rQf;
 
     return-void
@@ -730,7 +654,6 @@
 .method public rk(Lcom/bytedance/adsdk/ugeno/core/woP;)Z
     .locals 8
 
-    .line 36
     const-string v0, "fallback_url"
 
     const-string v1, "url"
@@ -739,7 +662,6 @@
 
     iput-object v2, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->nP:Lorg/json/JSONObject;
 
-    .line 37
     iget v2, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->fFV:I
 
     const/4 v3, 0x0
@@ -752,7 +674,6 @@
 
     goto :goto_3
 
-    .line 38
     :cond_0
     :try_start_0
     invoke-virtual {p1}, Lcom/bytedance/adsdk/ugeno/core/woP;->aAs()Lorg/json/JSONObject;
@@ -761,7 +682,6 @@
 
     if-eqz v2, :cond_4
 
-    .line 39
     const-string v5, "related_dpa_click"
 
     invoke-virtual {v2, v5}, Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
@@ -770,14 +690,12 @@
 
     if-eqz v2, :cond_4
 
-    .line 40
     const-string v5, "enableOpenExternalUrl"
 
     invoke-virtual {v2, v5}, Lorg/json/JSONObject;->optBoolean(Ljava/lang/String;)Z
 
     move-result v5
 
-    .line 41
     const-string v6, "landingStyle"
 
     invoke-virtual {v2, v6}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;)I
@@ -790,13 +708,11 @@
 
     goto :goto_1
 
-    .line 42
     :cond_1
     iget-object v4, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->kEa:Lorg/json/JSONArray;
 
     if-eqz v4, :cond_2
 
-    .line 43
     invoke-virtual {v2, v1}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
@@ -813,7 +729,6 @@
 
     move-result-object v4
 
-    .line 44
     invoke-virtual {v2, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
@@ -830,13 +745,10 @@
 
     move-result-object v5
 
-    .line 45
     invoke-virtual {v2, v1, v4}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 46
     invoke-virtual {v2, v0, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 47
     iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->kEa:Lorg/json/JSONArray;
 
     iget v1, p0, Lcom/bytedance/sdk/openadsdk/core/ArD/lG/DK;->fFV:I
@@ -854,7 +766,6 @@
 
     goto :goto_2
 
-    .line 48
     :cond_2
     :goto_0
     invoke-virtual {p1}, Lcom/bytedance/adsdk/ugeno/core/woP;->rk()Lcom/bytedance/adsdk/ugeno/fFV/aAs;
@@ -877,7 +788,6 @@
     :goto_1
     return v3
 
-    .line 49
     :goto_2
     const-string v0, "UGenSwiperEvent"
 

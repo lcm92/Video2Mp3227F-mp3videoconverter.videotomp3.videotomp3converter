@@ -13,20 +13,16 @@
 .method private constructor <init>(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 4
     iput-object p1, p0, Lcom/bytedance/sdk/component/fFV/rk/ppR;->rk:Ljava/lang/String;
 
-    .line 6
     return-void
 .end method
 
 .method public static rk(Ljava/lang/String;)Lcom/bytedance/sdk/component/fFV/rk/ppR;
     .locals 1
 
-    .line 1
     new-instance v0, Lcom/bytedance/sdk/component/fFV/rk/ppR;
 
     invoke-direct {v0, p0}, Lcom/bytedance/sdk/component/fFV/rk/ppR;-><init>(Ljava/lang/String;)V
@@ -39,7 +35,6 @@
 .method public rk()Ljava/lang/String;
     .locals 1
 
-    .line 2
     iget-object v0, p0, Lcom/bytedance/sdk/component/fFV/rk/ppR;->rk:Ljava/lang/String;
 
     return-object v0
@@ -48,7 +43,6 @@
 .method public rk(Ljava/nio/charset/Charset;)Ljava/nio/charset/Charset;
     .locals 1
 
-    .line 3
     :try_start_0
     iget-object v0, p0, Lcom/bytedance/sdk/component/fFV/rk/ppR;->fFV:Ljava/lang/String;
 

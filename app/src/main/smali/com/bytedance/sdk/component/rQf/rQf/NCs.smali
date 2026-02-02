@@ -1,5 +1,5 @@
 .class public Lcom/bytedance/sdk/component/rQf/rQf/NCs;
-.super Lcom/bytedance/sdk/component/rQf/rQf/rk;
+.super Lcom/bytedance/sdk/component/rQf/rQf/RKRRC;
 .source "SourceFile"
 
 
@@ -7,10 +7,8 @@
 .method public constructor <init>()V
     .locals 0
 
-    .line 1
-    invoke-direct {p0}, Lcom/bytedance/sdk/component/rQf/rQf/rk;-><init>()V
+    invoke-direct {p0}, Lcom/bytedance/sdk/component/rQf/rQf/RKRRC;-><init>()V
 
-    .line 4
     return-void
 .end method
 
@@ -19,7 +17,6 @@
 .method public rk()Ljava/lang/String;
     .locals 1
 
-    .line 5
     const-string v0, "raw_cache"
 
     return-object v0
@@ -28,7 +25,6 @@
 .method public rk(Lcom/bytedance/sdk/component/rQf/aAs/aAs;)V
     .locals 3
 
-    .line 1
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/rQf/aAs/aAs;->KR()Lcom/bytedance/sdk/component/rQf/aAs/lG;
 
     move-result-object v0
@@ -41,12 +37,11 @@
 
     move-result-object v0
 
-    .line 2
     invoke-virtual {p1}, Lcom/bytedance/sdk/component/rQf/aAs/aAs;->ppR()Ljava/lang/String;
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Lcom/bytedance/sdk/component/rQf/rk;->rk(Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-interface {v0, v1}, Lcom/bytedance/sdk/component/rQf/RKRCC;->rk(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -54,7 +49,6 @@
 
     if-nez v0, :cond_0
 
-    .line 3
     new-instance v0, Lcom/bytedance/sdk/component/rQf/rQf/lG;
 
     invoke-direct {v0}, Lcom/bytedance/sdk/component/rQf/rQf/lG;-><init>()V
@@ -63,7 +57,6 @@
 
     return-void
 
-    .line 4
     :cond_0
     new-instance v1, Lcom/bytedance/sdk/component/rQf/rQf/fFV;
 

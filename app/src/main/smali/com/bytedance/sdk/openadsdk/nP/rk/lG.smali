@@ -30,26 +30,20 @@
 .method public constructor <init>(Lcom/bytedance/sdk/openadsdk/core/sS;)V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Lcom/bytedance/sdk/component/rk/rQf;-><init>()V
 
-    .line 4
     new-instance v0, Ljava/lang/ref/WeakReference;
 
-    .line 6
     invoke-direct {v0, p1}, Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
 
-    .line 9
     iput-object v0, p0, Lcom/bytedance/sdk/openadsdk/nP/rk/lG;->rk:Ljava/lang/ref/WeakReference;
 
-    .line 11
     return-void
 .end method
 
 .method public static rk(Lcom/bytedance/sdk/component/rk/lgt;Lcom/bytedance/sdk/openadsdk/core/sS;)V
     .locals 1
 
-    .line 2
     new-instance v0, Lcom/bytedance/sdk/openadsdk/nP/rk/lG;
 
     invoke-direct {v0, p1}, Lcom/bytedance/sdk/openadsdk/nP/rk/lG;-><init>(Lcom/bytedance/sdk/openadsdk/core/sS;)V
@@ -66,7 +60,6 @@
 .method public bridge synthetic rk(Ljava/lang/Object;Lcom/bytedance/sdk/component/rk/lG;)Ljava/lang/Object;
     .locals 0
 
-    .line 1
     check-cast p1, Lorg/json/JSONObject;
 
     invoke-virtual {p0, p1, p2}, Lcom/bytedance/sdk/openadsdk/nP/rk/lG;->rk(Lorg/json/JSONObject;Lcom/bytedance/sdk/component/rk/lG;)Lorg/json/JSONObject;
@@ -79,14 +72,12 @@
 .method public rk(Lorg/json/JSONObject;Lcom/bytedance/sdk/component/rk/lG;)Lorg/json/JSONObject;
     .locals 6
 
-    .line 3
     const-string p2, "reduce_duration"
 
     new-instance v0, Lorg/json/JSONObject;
 
     invoke-direct {v0}, Lorg/json/JSONObject;-><init>()V
 
-    .line 4
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/nP/rk/lG;->rk:Ljava/lang/ref/WeakReference;
 
     if-eqz v1, :cond_7
@@ -99,7 +90,6 @@
 
     goto :goto_5
 
-    .line 5
     :cond_0
     iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/nP/rk/lG;->rk:Ljava/lang/ref/WeakReference;
 
@@ -109,12 +99,10 @@
 
     check-cast v1, Lcom/bytedance/sdk/openadsdk/core/sS;
 
-    .line 6
     invoke-virtual {v1}, Lcom/bytedance/sdk/openadsdk/core/sS;->DK()Lcom/bytedance/sdk/openadsdk/core/model/HmR;
 
     move-result-object v2
 
-    .line 7
     :try_start_0
     const-string v3, "finish"
 
@@ -136,14 +124,12 @@
     :goto_0
     const/4 v3, -0x1
 
-    .line 8
     invoke-virtual {p1, p2, v3}, Lorg/json/JSONObject;->optInt(Ljava/lang/String;I)I
 
     move-result p1
 
     if-eqz v2, :cond_2
 
-    .line 9
     invoke-virtual {v2}, Lcom/bytedance/sdk/openadsdk/core/model/HmR;->pc()I
 
     move-result v2
@@ -163,7 +149,6 @@
 
     if-ltz v2, :cond_3
 
-    .line 10
     invoke-static {p1, v2}, Ljava/lang/Math;->min(II)I
 
     move-result p1
@@ -188,7 +173,6 @@
     :goto_2
     if-eqz v4, :cond_6
 
-    .line 11
     invoke-virtual {v1, p1}, Lcom/bytedance/sdk/openadsdk/core/sS;->aAs(I)V
 
     goto :goto_3
@@ -196,20 +180,17 @@
     :cond_6
     move v5, v3
 
-    .line 12
     :goto_3
     const-string v1, "code"
 
     invoke-virtual {v0, v1, v5}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
 
-    .line 13
     invoke-virtual {v0, p2, p1}, Lorg/json/JSONObject;->put(Ljava/lang/String;I)Lorg/json/JSONObject;
     :try_end_0
     .catch Lorg/json/JSONException; {:try_start_0 .. :try_end_0} :catch_0
 
     goto :goto_5
 
-    .line 14
     :goto_4
     const-string p2, "InteractiveFinishMethod"
 

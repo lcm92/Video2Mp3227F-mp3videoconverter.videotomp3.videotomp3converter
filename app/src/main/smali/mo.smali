@@ -1,8 +1,0 @@
-.class public interface abstract Lmo;
-.super Ljava/lang/Object;
-.source "SourceFile"
-
-
-# virtual methods
-.method public abstract a(Ljo;)Ljava/lang/Object;
-.end method

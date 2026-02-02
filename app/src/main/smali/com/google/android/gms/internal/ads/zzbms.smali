@@ -16,8 +16,8 @@
 .method public abstract zzd()V
 .end method
 
-.method public abstract zze(Ljl0;)V
+.method public abstract zze(Ldef/JL0;)V
 .end method
 
-.method public abstract zzf(Ljl0;Lcom/google/android/gms/internal/ads/zzbmv;)V
+.method public abstract zzf(Ldef/JL0;Lcom/google/android/gms/internal/ads/zzbmv;)V
 .end method

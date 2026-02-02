@@ -30,27 +30,22 @@
 .method public aAs(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/NCs;->DK:J
 
-    .line 3
     return-void
 .end method
 
 .method public fFV(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/NCs;->aAs:J
 
-    .line 3
     return-void
 .end method
 
 .method public rk(J)V
     .locals 0
 
-    .line 2
     iput-wide p1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/NCs;->fFV:J
 
     return-void
@@ -59,7 +54,6 @@
 .method public rk(Ljava/lang/String;)V
     .locals 0
 
-    .line 1
     iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/NCs;->rk:Ljava/lang/String;
 
     return-void
@@ -72,7 +66,6 @@
 
     return-void
 
-    .line 3
     :cond_0
     :try_start_0
     const-string v0, "preload_url"
@@ -81,21 +74,18 @@
 
     invoke-virtual {p1, v0, v1}, Lorg/json/JSONObject;->put(Ljava/lang/String;Ljava/lang/Object;)Lorg/json/JSONObject;
 
-    .line 4
     const-string v0, "preload_size"
 
     iget-wide v1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/NCs;->fFV:J
 
     invoke-virtual {p1, v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
 
-    .line 5
     const-string v0, "load_time"
 
     iget-wide v1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/NCs;->aAs:J
 
     invoke-virtual {p1, v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
 
-    .line 6
     const-string v0, "local_cache"
 
     iget-wide v1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/NCs;->DK:J
@@ -109,7 +99,6 @@
     :catchall_0
     move-exception p1
 
-    .line 7
     const-string v0, "LoadVideoSuccessModel"
 
     invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;

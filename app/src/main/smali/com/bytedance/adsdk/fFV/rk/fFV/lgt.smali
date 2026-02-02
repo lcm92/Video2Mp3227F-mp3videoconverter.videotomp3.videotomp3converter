@@ -1,5 +1,5 @@
 .class public Lcom/bytedance/adsdk/fFV/rk/fFV/lgt;
-.super Lcom/bytedance/adsdk/fFV/rk/fFV/rk;
+.super Lcom/bytedance/adsdk/fFV/rk/fFV/RKFRC;
 .source "SourceFile"
 
 
@@ -11,7 +11,7 @@
         "A:",
         "Ljava/lang/Object;",
         ">",
-        "Lcom/bytedance/adsdk/fFV/rk/fFV/rk<",
+        "Lcom/bytedance/adsdk/fFV/rk/fFV/RKFRC<",
         "TK;TA;>;"
     }
 .end annotation
@@ -26,26 +26,20 @@
         }
     .end annotation
 
-    .line 1
     const/4 v0, 0x0
 
-    .line 2
     throw v0
 .end method
 
 .method public fFV()V
     .locals 1
 
-    .line 1
-    iget-object v0, p0, Lcom/bytedance/adsdk/fFV/rk/fFV/rk;->aAs:Lcom/bytedance/adsdk/fFV/Yp/fFV;
+    iget-object v0, p0, Lcom/bytedance/adsdk/fFV/rk/fFV/RKFRC;->aAs:Lcom/bytedance/adsdk/fFV/Yp/fFV;
 
-    .line 3
     if-eqz v0, :cond_0
 
-    .line 5
-    invoke-super {p0}, Lcom/bytedance/adsdk/fFV/rk/fFV/rk;->fFV()V
+    invoke-super {p0}, Lcom/bytedance/adsdk/fFV/rk/fFV/RKFRC;->fFV()V
 
-    .line 8
     :cond_0
     return-void
 .end method
@@ -58,27 +52,25 @@
     return v0
 .end method
 
-.method rk(Lcom/bytedance/adsdk/fFV/Yp/rk;F)Ljava/lang/Object;
+.method rk(Lcom/bytedance/adsdk/fFV/Yp/RKYFC;F)Ljava/lang/Object;
     .locals 0
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "(",
-            "Lcom/bytedance/adsdk/fFV/Yp/rk<",
+            "Lcom/bytedance/adsdk/fFV/Yp/RKYFC<",
             "TK;>;F)TA;"
         }
     .end annotation
 
     const/4 p1, 0x0
 
-    .line 2
     throw p1
 .end method
 
 .method public rk(F)V
     .locals 0
 
-    .line 1
-    iput p1, p0, Lcom/bytedance/adsdk/fFV/rk/fFV/rk;->fFV:F
+    iput p1, p0, Lcom/bytedance/adsdk/fFV/rk/fFV/RKFRC;->fFV:F
 
     return-void
 .end method

@@ -4,26 +4,21 @@
 
 
 # instance fields
-.field private a:Lkl0$a;
+.field private a:Ldef/KL0$AK1;
 
 
 # direct methods
 .method public constructor <init>()V
     .locals 1
 
-    .line 1
     invoke-direct {p0}, Landroid/app/Service;-><init>()V
 
-    .line 4
-    new-instance v0, Landroidx/browser/customtabs/PostMessageService$a;
+    new-instance v0, Landroidx/browser/customtabs/PostMessageService$AP1;
 
-    .line 6
-    invoke-direct {v0, p0}, Landroidx/browser/customtabs/PostMessageService$a;-><init>(Landroidx/browser/customtabs/PostMessageService;)V
+    invoke-direct {v0, p0}, Landroidx/browser/customtabs/PostMessageService$AP1;-><init>(Landroidx/browser/customtabs/PostMessageService;)V
 
-    .line 9
-    iput-object v0, p0, Landroidx/browser/customtabs/PostMessageService;->a:Lkl0$a;
+    iput-object v0, p0, Landroidx/browser/customtabs/PostMessageService;->a:Ldef/KL0$AK1;
 
-    .line 11
     return-void
 .end method
 
@@ -32,9 +27,7 @@
 .method public onBind(Landroid/content/Intent;)Landroid/os/IBinder;
     .locals 0
 
-    .line 1
-    iget-object p1, p0, Landroidx/browser/customtabs/PostMessageService;->a:Lkl0$a;
+    iget-object p1, p0, Landroidx/browser/customtabs/PostMessageService;->a:Ldef/KL0$AK1;
 
-    .line 3
     return-object p1
 .end method

@@ -26,17 +26,14 @@
 .method public fFV(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/Yp;->fFV:J
 
-    .line 3
     return-void
 .end method
 
 .method public rk(J)V
     .locals 0
 
-    .line 1
     iput-wide p1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/Yp;->rk:J
 
     return-void
@@ -49,7 +46,6 @@
 
     return-void
 
-    .line 2
     :cond_0
     :try_start_0
     const-string v0, "buffers_time"
@@ -58,7 +54,6 @@
 
     invoke-virtual {p1, v0, v1, v2}, Lorg/json/JSONObject;->put(Ljava/lang/String;J)Lorg/json/JSONObject;
 
-    .line 3
     const-string v0, "total_duration"
 
     iget-wide v1, p0, Lcom/bytedance/sdk/openadsdk/DK/rQf/fFV/Yp;->fFV:J
@@ -72,7 +67,6 @@
     :catchall_0
     move-exception p1
 
-    .line 4
     const-string v0, "FeedPauseModel"
 
     invoke-virtual {p1}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;

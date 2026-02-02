@@ -25,73 +25,50 @@
 .method static constructor <clinit>()V
     .locals 4
 
-    .line 1
     new-instance v0, Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 3
     const/4 v1, 0x0
 
-    .line 4
     invoke-direct {v0, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
 
-    .line 7
     sput-object v0, Lcom/bytedance/sdk/openadsdk/core/Pa;->fFV:Ljava/util/concurrent/atomic/AtomicBoolean;
 
-    .line 9
     const-wide/16 v2, 0x0
 
-    .line 11
     sput-wide v2, Lcom/bytedance/sdk/openadsdk/core/Pa;->aAs:J
 
-    .line 13
     sput v1, Lcom/bytedance/sdk/openadsdk/core/Pa;->lG:I
 
-    .line 15
     const/high16 v0, 0x3f800000    # 1.0f
 
-    .line 17
     sput v0, Lcom/bytedance/sdk/openadsdk/core/Pa;->DK:F
 
-    .line 19
     const/4 v0, 0x0
 
-    .line 20
     sput-object v0, Lcom/bytedance/sdk/openadsdk/core/Pa;->pw:Landroid/os/Handler;
 
-    .line 22
     new-instance v0, Lcom/bytedance/sdk/openadsdk/core/Pa$1;
 
-    .line 24
     const-string v1, "csj_init_handle"
 
-    .line 26
     const/16 v2, 0xa
 
-    .line 28
     invoke-direct {v0, v1, v2}, Lcom/bytedance/sdk/openadsdk/core/Pa$1;-><init>(Ljava/lang/String;I)V
 
-    .line 31
     sput-object v0, Lcom/bytedance/sdk/openadsdk/core/Pa;->Yp:Landroid/os/HandlerThread;
 
-    .line 33
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
-    .line 36
     sget-object v0, Lcom/bytedance/sdk/openadsdk/core/Pa;->Yp:Landroid/os/HandlerThread;
 
-    .line 38
-    invoke-static {v0}, Lcom/bytedance/sdk/component/utils/pw;->rk(Landroid/os/HandlerThread;)V
+    invoke-static {v0}, Lcom/bytedance/sdk/component/utils/PWUCC;->rk(Landroid/os/HandlerThread;)V
 
-    .line 41
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
-    .line 44
     move-result-wide v0
 
-    .line 45
     sput-wide v0, Lcom/bytedance/sdk/openadsdk/core/Pa;->rQf:J
 
-    .line 47
     return-void
 .end method
 
@@ -106,409 +83,293 @@
 .method public static DK()I
     .locals 1
 
-    .line 1
     sget v0, Lcom/bytedance/sdk/openadsdk/core/Pa;->lG:I
 
-    .line 3
     return v0
 .end method
 
 .method public static Yp()V
     .locals 8
 
-    .line 1
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
-    .line 4
     move-result-wide v0
 
-    .line 5
     sget-wide v2, Lcom/bytedance/sdk/openadsdk/core/Pa;->aAs:J
 
-    .line 7
     sub-long v2, v0, v2
 
-    .line 9
     const-wide/16 v4, 0x2710
 
-    .line 11
     cmp-long v2, v2, v4
 
-    .line 13
     if-gtz v2, :cond_0
 
-    .line 15
     return-void
 
-    .line 16
     :cond_0
     const-class v2, Lcom/bytedance/sdk/openadsdk/core/Pa;
 
-    .line 18
     monitor-enter v2
 
-    .line 19
     :try_start_0
     sget-wide v6, Lcom/bytedance/sdk/openadsdk/core/Pa;->aAs:J
 
-    .line 21
     sub-long v6, v0, v6
 
-    .line 23
     cmp-long v3, v6, v4
 
-    .line 25
     if-gtz v3, :cond_1
 
-    .line 27
     monitor-exit v2
 
-    .line 28
     return-void
 
-    .line 29
     :catchall_0
     move-exception v0
 
-    .line 30
     goto :goto_0
 
-    .line 31
     :cond_1
     sput-wide v0, Lcom/bytedance/sdk/openadsdk/core/Pa;->aAs:J
 
-    .line 33
     monitor-exit v2
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 34
     invoke-static {}, Lcom/bytedance/sdk/component/utils/ppR;->rk()Landroid/os/Handler;
 
-    .line 37
     move-result-object v0
 
-    .line 38
     new-instance v1, Lcom/bytedance/sdk/openadsdk/core/Pa$3;
 
-    .line 40
     invoke-direct {v1}, Lcom/bytedance/sdk/openadsdk/core/Pa$3;-><init>()V
 
-    .line 43
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 46
     return-void
 
-    .line 47
     :goto_0
     monitor-exit v2
 
-    .line 48
     throw v0
 .end method
 
 .method public static aAs()Landroid/os/Handler;
     .locals 2
 
-    .line 1
     new-instance v0, Landroid/os/Handler;
 
-    .line 3
     invoke-static {}, Landroid/os/Looper;->getMainLooper()Landroid/os/Looper;
 
-    .line 6
     move-result-object v1
 
-    .line 7
     invoke-direct {v0, v1}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    .line 10
     return-object v0
 .end method
 
 .method public static fFV()Landroid/os/Handler;
     .locals 3
 
-    .line 1
     sget-object v0, Lcom/bytedance/sdk/openadsdk/core/Pa;->Yp:Landroid/os/HandlerThread;
 
-    .line 3
     if-eqz v0, :cond_2
 
-    .line 5
     sget-object v0, Lcom/bytedance/sdk/openadsdk/core/Pa;->Yp:Landroid/os/HandlerThread;
 
-    .line 7
     invoke-virtual {v0}, Ljava/lang/Thread;->isAlive()Z
 
-    .line 10
     move-result v0
 
-    .line 11
     if-nez v0, :cond_0
 
-    .line 13
     goto :goto_2
 
-    .line 14
     :cond_0
     sget-object v0, Lcom/bytedance/sdk/openadsdk/core/Pa;->pw:Landroid/os/Handler;
 
-    .line 16
     if-nez v0, :cond_5
 
-    .line 18
     const-class v0, Lcom/bytedance/sdk/openadsdk/core/Pa;
 
-    .line 20
     monitor-enter v0
 
-    .line 21
     :try_start_0
     sget-object v1, Lcom/bytedance/sdk/openadsdk/core/Pa;->pw:Landroid/os/Handler;
 
-    .line 23
     if-nez v1, :cond_1
 
-    .line 25
     new-instance v1, Landroid/os/Handler;
 
-    .line 27
     sget-object v2, Lcom/bytedance/sdk/openadsdk/core/Pa;->Yp:Landroid/os/HandlerThread;
 
-    .line 29
     invoke-virtual {v2}, Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
 
-    .line 32
     move-result-object v2
 
-    .line 33
     invoke-direct {v1, v2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    .line 36
     sput-object v1, Lcom/bytedance/sdk/openadsdk/core/Pa;->pw:Landroid/os/Handler;
 
-    .line 38
     goto :goto_0
 
-    .line 39
     :catchall_0
     move-exception v1
 
-    .line 40
     goto :goto_1
 
-    .line 41
     :cond_1
     :goto_0
     monitor-exit v0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 42
     goto :goto_4
 
-    .line 43
     :goto_1
     monitor-exit v0
 
-    .line 44
     throw v1
 
-    .line 45
     :cond_2
     :goto_2
     const-class v0, Lcom/bytedance/sdk/openadsdk/core/Pa;
 
-    .line 47
     monitor-enter v0
 
-    .line 48
     :try_start_1
     sget-object v1, Lcom/bytedance/sdk/openadsdk/core/Pa;->Yp:Landroid/os/HandlerThread;
 
-    .line 50
     if-eqz v1, :cond_3
 
-    .line 52
     sget-object v1, Lcom/bytedance/sdk/openadsdk/core/Pa;->Yp:Landroid/os/HandlerThread;
 
-    .line 54
     invoke-virtual {v1}, Ljava/lang/Thread;->isAlive()Z
 
-    .line 57
     move-result v1
 
-    .line 58
     if-nez v1, :cond_4
 
-    .line 60
     goto :goto_3
 
-    .line 61
     :catchall_1
     move-exception v1
 
-    .line 62
     goto :goto_5
 
-    .line 63
     :cond_3
     :goto_3
     const-string v1, "csj_init_handle"
 
-    .line 65
     const/4 v2, -0x1
 
-    .line 66
-    invoke-static {v1, v2}, Lcom/bytedance/sdk/component/utils/pw;->rk(Ljava/lang/String;I)Landroid/os/HandlerThread;
+    invoke-static {v1, v2}, Lcom/bytedance/sdk/component/utils/PWUCC;->rk(Ljava/lang/String;I)Landroid/os/HandlerThread;
 
-    .line 69
     move-result-object v1
 
-    .line 70
     sput-object v1, Lcom/bytedance/sdk/openadsdk/core/Pa;->Yp:Landroid/os/HandlerThread;
 
-    .line 72
     new-instance v1, Landroid/os/Handler;
 
-    .line 74
     sget-object v2, Lcom/bytedance/sdk/openadsdk/core/Pa;->Yp:Landroid/os/HandlerThread;
 
-    .line 76
     invoke-virtual {v2}, Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
 
-    .line 79
     move-result-object v2
 
-    .line 80
     invoke-direct {v1, v2}, Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
 
-    .line 83
     sput-object v1, Lcom/bytedance/sdk/openadsdk/core/Pa;->pw:Landroid/os/Handler;
 
-    .line 85
     :cond_4
     monitor-exit v0
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_1
 
-    .line 86
     :cond_5
     :goto_4
     sget-object v0, Lcom/bytedance/sdk/openadsdk/core/Pa;->pw:Landroid/os/Handler;
 
-    .line 88
     return-object v0
 
-    .line 89
     :goto_5
     monitor-exit v0
 
-    .line 90
     throw v1
 .end method
 
 .method public static lG()V
     .locals 6
 
-    .line 1
     invoke-static {}, Landroid/os/SystemClock;->elapsedRealtime()J
 
-    .line 4
     move-result-wide v0
 
-    .line 5
     sget-wide v2, Lcom/bytedance/sdk/openadsdk/core/Pa;->aAs:J
 
-    .line 7
     sub-long v2, v0, v2
 
-    .line 9
     const-wide/16 v4, 0x2710
 
-    .line 11
     cmp-long v2, v2, v4
 
-    .line 13
     if-gtz v2, :cond_0
 
-    .line 15
     return-void
 
-    .line 16
     :cond_0
     sput-wide v0, Lcom/bytedance/sdk/openadsdk/core/Pa;->aAs:J
 
-    .line 18
     new-instance v0, Lcom/bytedance/sdk/openadsdk/core/Pa$2;
 
-    .line 20
     const-string v1, "onSharedPreferenceChanged"
 
-    .line 22
     invoke-direct {v0, v1}, Lcom/bytedance/sdk/openadsdk/core/Pa$2;-><init>(Ljava/lang/String;)V
 
-    .line 25
-    invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/utils/hWw;->rk(Lcom/bytedance/sdk/component/pw/pw;)V
+    invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/utils/hWw;->rk(Lcom/bytedance/sdk/component/pw/PWPCC;)V
 
-    .line 28
     return-void
 .end method
 
 .method public static pw()V
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/Pa;->fFV()Landroid/os/Handler;
 
-    .line 4
     move-result-object v0
 
-    .line 5
     new-instance v1, Lcom/bytedance/sdk/openadsdk/core/Pa$4;
 
-    .line 7
     invoke-direct {v1}, Lcom/bytedance/sdk/openadsdk/core/Pa$4;-><init>()V
 
-    .line 10
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 13
     return-void
 .end method
 
 .method public static rQf()Z
     .locals 2
 
-    .line 1
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/Pa;->DK()I
 
-    .line 4
     move-result v0
 
-    .line 5
     const/4 v1, 0x1
 
-    .line 6
     if-ne v0, v1, :cond_0
 
-    .line 8
     return v1
 
-    .line 9
     :cond_0
     const/4 v0, 0x0
 
-    .line 10
     return v0
 .end method
 
 .method public static rk()J
     .locals 2
 
-    .line 2
     sget-wide v0, Lcom/bytedance/sdk/openadsdk/core/Pa;->rQf:J
 
     return-wide v0
@@ -517,7 +378,6 @@
 .method public static rk(I)V
     .locals 0
 
-    .line 3
     sput p0, Lcom/bytedance/sdk/openadsdk/core/Pa;->lG:I
 
     return-void
@@ -526,7 +386,6 @@
 .method public static rk(J)V
     .locals 0
 
-    .line 1
     sput-wide p0, Lcom/bytedance/sdk/openadsdk/core/Pa;->rQf:J
 
     return-void
@@ -535,7 +394,6 @@
 .method public static rk(Ljava/lang/String;)V
     .locals 5
 
-    .line 4
     const-string v0, ""
 
     :try_start_0
@@ -545,14 +403,12 @@
 
     if-nez v1, :cond_1
 
-    .line 5
     new-instance v1, Lorg/json/JSONArray;
 
     invoke-direct {v1, p0}, Lorg/json/JSONArray;-><init>(Ljava/lang/String;)V
 
     const/4 p0, 0x0
 
-    .line 6
     :goto_0
     invoke-virtual {v1}, Lorg/json/JSONArray;->length()I
 
@@ -560,19 +416,16 @@
 
     if-ge p0, v2, :cond_1
 
-    .line 7
     invoke-virtual {v1, p0}, Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
 
     move-result-object v2
 
-    .line 8
     const-string v3, "name"
 
     invoke-virtual {v2, v3, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 9
     const-string v4, "mediation"
 
     invoke-virtual {v4, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
@@ -581,14 +434,12 @@
 
     if-eqz v3, :cond_0
 
-    .line 10
     const-string p0, "value"
 
     invoke-virtual {v2, p0, v0}, Lorg/json/JSONObject;->optString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
-    .line 11
     invoke-static {}, Lcom/bytedance/sdk/openadsdk/core/ppR;->fFV()Lcom/bytedance/sdk/openadsdk/core/ppR;
 
     move-result-object v0
@@ -612,7 +463,6 @@
     :cond_1
     return-void
 
-    .line 12
     :goto_1
     const-string v0, "InitHelper"
 

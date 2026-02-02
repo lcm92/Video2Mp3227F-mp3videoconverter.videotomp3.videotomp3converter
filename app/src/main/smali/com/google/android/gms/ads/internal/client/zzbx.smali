@@ -76,7 +76,7 @@
 .method public abstract zzW(Lcom/google/android/gms/ads/internal/client/zzgc;)V
 .end method
 
-.method public abstract zzY(Ljl0;)V
+.method public abstract zzY(Ldef/JL0;)V
 .end method
 
 .method public abstract zzZ()V
@@ -118,7 +118,7 @@
 .method public abstract zzm()Lcom/google/android/gms/ads/internal/client/zzed;
 .end method
 
-.method public abstract zzo()Ljl0;
+.method public abstract zzo()Ldef/JL0;
 .end method
 
 .method public abstract zzs()Ljava/lang/String;

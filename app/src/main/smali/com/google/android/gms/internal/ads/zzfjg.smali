@@ -10,7 +10,6 @@
 .method private constructor <init>()V
     .locals 1
 
-    .line 1
     const/4 v0, 0x0
 
     throw v0
@@ -19,7 +18,6 @@
 .method synthetic constructor <init>(Lcom/google/android/gms/internal/ads/zzfjh;)V
     .locals 0
 
-    .line 2
     invoke-static {}, Lcom/google/android/gms/internal/ads/zzfji;->zza()Lcom/google/android/gms/internal/ads/zzfji;
 
     move-result-object p1

@@ -3,7 +3,7 @@
 .source "SourceFile"
 
 # interfaces
-.implements Lb81;
+.implements Ldef/B81;
 
 
 # instance fields

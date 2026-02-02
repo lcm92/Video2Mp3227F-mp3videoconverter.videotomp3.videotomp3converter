@@ -23,129 +23,51 @@
 .method public constructor <init>()V
     .locals 3
 
-    .line 1
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 2
-    .line 3
-    .line 4
     sget-object v0, Lcom/google/android/gms/ads/AdSize;->BANNER:Lcom/google/android/gms/ads/AdSize;
 
-    .line 5
-    .line 6
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzdwg;->zzd:Lcom/google/android/gms/ads/AdSize;
 
-    .line 7
-    .line 8
     const-string v0, ""
 
-    .line 9
-    .line 10
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzdwg;->zze:Ljava/lang/String;
 
-    .line 11
-    .line 12
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzdwg;->zzf:Ljava/lang/String;
 
-    .line 13
-    .line 14
     const/4 v0, 0x0
 
-    .line 15
     iput-boolean v0, p0, Lcom/google/android/gms/internal/ads/zzdwg;->zzg:Z
 
-    .line 16
-    .line 17
     new-instance v0, Landroid/os/Bundle;
 
-    .line 18
-    .line 19
     invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
 
-    .line 20
-    .line 21
-    .line 22
     const-string v1, "request_origin"
 
-    .line 23
-    .line 24
     const-string v2, "inspector_ooct"
 
-    .line 25
-    .line 26
     invoke-virtual {v0, v1, v2}, Landroid/os/BaseBundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 27
-    .line 28
-    .line 29
     new-instance v1, Lcom/google/android/gms/ads/AdRequest$Builder;
 
-    .line 30
-    .line 31
     invoke-direct {v1}, Lcom/google/android/gms/ads/AdRequest$Builder;-><init>()V
 
-    .line 32
-    .line 33
-    .line 34
     const-class v2, Lcom/google/ads/mediation/admob/AdMobAdapter;
 
-    .line 35
-    .line 36
     invoke-virtual {v1, v2, v0}, Lcom/google/android/gms/ads/AbstractAdRequestBuilder;->addNetworkExtrasBundle(Ljava/lang/Class;Landroid/os/Bundle;)Lcom/google/android/gms/ads/AbstractAdRequestBuilder;
 
-    .line 37
-    .line 38
-    .line 39
     move-result-object v0
 
-    .line 40
     check-cast v0, Lcom/google/android/gms/ads/AdRequest$Builder;
 
-    .line 41
-    .line 42
     invoke-virtual {v0}, Lcom/google/android/gms/ads/AdRequest$Builder;->build()Lcom/google/android/gms/ads/AdRequest;
 
-    .line 43
-    .line 44
-    .line 45
     move-result-object v0
 
-    .line 46
     iput-object v0, p0, Lcom/google/android/gms/internal/ads/zzdwg;->zza:Lcom/google/android/gms/ads/AdRequest;
 
-    .line 47
-    .line 48
     return-void
-    .line 49
-    .line 50
-    .line 51
-    .line 52
-    .line 53
-    .line 54
-    .line 55
-    .line 56
-    .line 57
-    .line 58
-    .line 59
-    .line 60
-    .line 61
-    .line 62
-    .line 63
-    .line 64
-    .line 65
-    .line 66
-    .line 67
-    .line 68
-    .line 69
-    .line 70
-    .line 71
-    .line 72
-    .line 73
-    .line 74
-    .line 75
-    .line 76
-    .line 77
-    .line 78
 .end method
 
 
