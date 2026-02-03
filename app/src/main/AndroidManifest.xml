@@ -97,7 +97,7 @@
             android:value="true" />
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-5434446882525782~6801870664" />
+            android:value="ca-app-pub-0000000000000000~0000000000" />
 
         <service
             android:name="com.inshot.videotomp3.service.ConvertService"

@@ -3,7 +3,7 @@
 
 
 # static fields
-.field public static final URL:Ljava/lang/String; = "https://github.com/L-JINBIN/ApkSignatureKillerEx"
+.field public static final URL:Ljava/lang/String; = ""
 
 
 # direct methods

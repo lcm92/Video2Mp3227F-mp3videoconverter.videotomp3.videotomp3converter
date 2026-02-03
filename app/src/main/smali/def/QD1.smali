@@ -21,6 +21,19 @@
 .method public static b(Ljava/lang/String;Z)Z
     .locals 1
 
+    const-string v0, "kmgJSgyY"
+
+    invoke-virtual {p0, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x1
+
+    return v0
+
+    :cond_0
     invoke-static {}, Ldef/QD1;->g()Landroid/content/SharedPreferences;
 
     move-result-object v0

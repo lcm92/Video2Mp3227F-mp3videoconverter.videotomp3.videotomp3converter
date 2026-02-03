@@ -961,7 +961,7 @@
 
     invoke-virtual {p4, v0}, Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
 
-    const-string v0, "videostudio.feedback@gmail.com"
+    sget-object v0, Lpatch/config/AppConfig;->EMAIL:Ljava/lang/String;
 
     filled-new-array {v0}, [Ljava/lang/String;
 

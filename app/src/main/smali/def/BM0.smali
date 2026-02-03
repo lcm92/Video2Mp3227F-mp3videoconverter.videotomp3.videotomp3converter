@@ -23,11 +23,11 @@
 
     new-instance v0, Ldef/M2;
 
-    const-string v1, "ca-app-pub-5434446882525782/4100176316"
+    const-string v1, "ca-app-pub-0000000000000000/0000000000"
 
-    const-string v2, "ca-app-pub-5434446882525782/9160931304"
+    const-string v2, "ca-app-pub-0000000000000000/0000000000"
 
-    const-string v3, "ca-app-pub-5434446882525782/6039905954"
+    const-string v3, "ca-app-pub-0000000000000000/0000000000"
 
     filled-new-array {v3, v1, v2}, [Ljava/lang/String;
 
@@ -41,9 +41,9 @@
 
     new-instance v0, Ldef/M2;
 
-    const-string v1, "ca-app-pub-5434446882525782/4592815113"
+    const-string v1, "ca-app-pub-0000000000000000/0000000000"
 
-    const-string v2, "ca-app-pub-5434446882525782/3389729879"
+    const-string v2, "ca-app-pub-0000000000000000/0000000000"
 
     const-string v3, ""
 
@@ -59,11 +59,11 @@
 
     new-instance v0, Ldef/M2;
 
-    const-string v1, "nba://ca-app-pub-5434446882525782/5017008409"
+    const-string v1, "nba://ca-app-pub-0000000000000000/0000000000"
 
-    const-string v2, "nba://ca-app-pub-5434446882525782/4522184386"
+    const-string v2, "nba://ca-app-pub-0000000000000000/0000000000"
 
-    const-string v4, "nba://ca-app-pub-5434446882525782/7148347721"
+    const-string v4, "nba://ca-app-pub-0000000000000000/0000000000"
 
     filled-new-array {v4, v1, v2}, [Ljava/lang/String;
 
@@ -77,11 +77,11 @@
 
     new-instance v0, Ldef/M2;
 
-    const-string v1, "ca-app-pub-5434446882525782/3525461240"
+    const-string v1, "ca-app-pub-0000000000000000/0000000000"
 
-    const-string v2, "ca-app-pub-5434446882525782/2595484963"
+    const-string v2, "ca-app-pub-0000000000000000/0000000000"
 
-    const-string v4, "ca-app-pub-5434446882525782/6151624586"
+    const-string v4, "ca-app-pub-0000000000000000/0000000000"
 
     filled-new-array {v4, v1, v2}, [Ljava/lang/String;
 
@@ -95,11 +95,11 @@
 
     new-instance v0, Ldef/M2;
 
-    const-string v1, "ca-app-pub-5434446882525782/3093719851"
+    const-string v1, "ca-app-pub-0000000000000000/0000000000"
 
-    const-string v2, "ca-app-pub-5434446882525782/1780638183"
+    const-string v2, "ca-app-pub-0000000000000000/0000000000"
 
-    const-string v4, "ca-app-pub-5434446882525782/4406801520"
+    const-string v4, "ca-app-pub-0000000000000000/0000000000"
 
     filled-new-array {v4, v1, v2}, [Ljava/lang/String;
 
@@ -113,9 +113,9 @@
 
     new-instance v0, Ldef/M2;
 
-    const-string v1, "ca-app-pub-5434446882525782/9845141799"
+    const-string v1, "ca-app-pub-0000000000000000/0000000000"
 
-    const-string v2, "ca-app-pub-5434446882525782/7218978452"
+    const-string v2, "ca-app-pub-0000000000000000/0000000000"
 
     filled-new-array {v3, v1, v2}, [Ljava/lang/String;
 
@@ -159,7 +159,7 @@
 
     const-string v0, "ADID_AO"
 
-    const-string v1, "ca-app-pub-5434446882525782/2913824010"
+    const-string v1, "ca-app-pub-0000000000000000/0000000000"
 
     const-class v2, Lcom/inshot/videotomp3/AdActivity;
 

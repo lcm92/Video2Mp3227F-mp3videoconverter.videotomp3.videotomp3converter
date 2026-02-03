@@ -1312,30 +1312,6 @@
 
 .field public static final style02ff:I = 0x7f1202ff
 
-.field public static final tt_animation:I = 0x7f120300
-
-.field public static final tt_app_open_ad_no_animation:I = 0x7f120301
-
-.field public static final tt_custom_dialog:I = 0x7f120302
-
-.field public static final tt_dislikeDialog:I = 0x7f120303
-
-.field public static final tt_dislikeDialogAnimation:I = 0x7f120304
-
-.field public static final tt_full_screen:I = 0x7f120305
-
-.field public static final tt_full_screen_interaction:I = 0x7f120306
-
-.field public static final tt_full_screen_new:I = 0x7f120307
-
-.field public static final tt_landing_page:I = 0x7f120308
-
-.field public static final tt_privacy_dialog_theme_ad_report:I = 0x7f120309
-
-.field public static final tt_privacy_landing_page:I = 0x7f12030a
-
-.field public static final tt_quick_option_dialog:I = 0x7f12030b
-
 
 # direct methods
 .method private constructor <init>()V

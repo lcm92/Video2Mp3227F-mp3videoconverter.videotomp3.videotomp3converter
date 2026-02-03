@@ -624,7 +624,7 @@
 
     iput-object p1, p0, Lcom/inshot/videotomp3/SplashActivity;->H:Ldef/TR1;
 
-    const-string v0, "ca-app-pub-5434446882525782/7922608114"
+    const-string v0, "ca-app-pub-0000000000000000/0000000000"
 
     invoke-virtual {p1, v0, p0}, Ldef/TR1;->i(Ljava/lang/String;Ldef/G9;)V
 
