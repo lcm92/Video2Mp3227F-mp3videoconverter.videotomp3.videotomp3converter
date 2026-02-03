@@ -252,7 +252,7 @@
     return p1
 
     :cond_0
-    invoke-static {v0, p1, p2}, Ldef/OF2;->a(Landroid/webkit/WebViewClient;Landroid/webkit/WebView;Landroid/webkit/RenderProcessGoneDetail;)Z
+    invoke-static {v0, p1, p2}, Lmix/OF2;->a(Landroid/webkit/WebViewClient;Landroid/webkit/WebView;Landroid/webkit/RenderProcessGoneDetail;)Z
 
     move-result p1
 

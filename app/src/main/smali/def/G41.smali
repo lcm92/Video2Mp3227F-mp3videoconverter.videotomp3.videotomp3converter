@@ -668,7 +668,7 @@
 .method private static h(Ljava/io/File;)J
     .locals 4
 
-    invoke-static {p0}, Ldef/PF2;->c(Ljava/io/File;)J
+    invoke-static {p0}, Lmix/PF2;->c(Ljava/io/File;)J
 
     move-result-wide v0
 

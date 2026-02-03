@@ -92,7 +92,7 @@
 
     const/4 v2, 0x0
 
-    invoke-static {v1, v2, v0}, Ldef/SG2;->a(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/Object;Ljava/lang/Object;)Z
+    invoke-static {v1, v2, v0}, Lmix/SG2;->a(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/Object;Ljava/lang/Object;)Z
 
     move-result v1
 

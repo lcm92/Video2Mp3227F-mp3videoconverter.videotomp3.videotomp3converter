@@ -700,36 +700,6 @@
 
 .field public static final color016c:I = 0x7f06016c
 
-.field public static final tt_000000:I = 0x7f06015b
-
-.field public static final tt_00000000:I = 0x7f06015c
-
-.field public static final tt_1e000000:I = 0x7f06015d
-
-.field public static final tt_2a90d7:I = 0x7f06015e
-
-.field public static final tt_4a90e2:I = 0x7f06015f
-
-.field public static final tt_72000000:I = 0x7f060160
-
-.field public static final tt_7f2a90d7:I = 0x7f060161
-
-.field public static final tt_88000000:I = 0x7f060162
-
-.field public static final tt_b2000000:I = 0x7f060163
-
-.field public static final tt_e0e0e0:I = 0x7f060164
-
-.field public static final tt_e4ffffff:I = 0x7f060165
-
-.field public static final tt_fde6e6e6:I = 0x7f060166
-
-.field public static final tt_fdffffff:I = 0x7f060167
-
-.field public static final tt_ff1a1a1a:I = 0x7f060168
-
-.field public static final tt_ffffff:I = 0x7f060169
-
 
 # direct methods
 .method private constructor <init>()V

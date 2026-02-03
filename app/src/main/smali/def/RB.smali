@@ -148,7 +148,7 @@
 
     const/4 v4, 0x3
 
-    invoke-static {v1, v2, v3, v4}, Ldef/FG2;->a(Landroid/media/MediaPlayer;JI)V
+    invoke-static {v1, v2, v3, v4}, Lmix/FG2;->a(Landroid/media/MediaPlayer;JI)V
 
     goto :goto_0
 
@@ -645,7 +645,7 @@
 
     const/4 v3, 0x3
 
-    invoke-static {v0, v1, v2, v3}, Ldef/FG2;->a(Landroid/media/MediaPlayer;JI)V
+    invoke-static {v0, v1, v2, v3}, Lmix/FG2;->a(Landroid/media/MediaPlayer;JI)V
 
     goto :goto_0
 
@@ -957,7 +957,7 @@
 
     const/4 p1, 0x3
 
-    invoke-static {v0, v1, v2, p1}, Ldef/FG2;->a(Landroid/media/MediaPlayer;JI)V
+    invoke-static {v0, v1, v2, p1}, Lmix/FG2;->a(Landroid/media/MediaPlayer;JI)V
 
     goto :goto_0
 
@@ -1294,7 +1294,7 @@
 
     int-to-long v1, v1
 
-    invoke-static {v0, v1, v2, v4}, Ldef/FG2;->a(Landroid/media/MediaPlayer;JI)V
+    invoke-static {v0, v1, v2, v4}, Lmix/FG2;->a(Landroid/media/MediaPlayer;JI)V
 
     goto :goto_0
 
@@ -1333,7 +1333,7 @@
 
     int-to-long v1, v1
 
-    invoke-static {v0, v1, v2, v4}, Ldef/FG2;->a(Landroid/media/MediaPlayer;JI)V
+    invoke-static {v0, v1, v2, v4}, Lmix/FG2;->a(Landroid/media/MediaPlayer;JI)V
 
     goto :goto_0
 

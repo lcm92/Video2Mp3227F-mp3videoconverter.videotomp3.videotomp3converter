@@ -2540,7 +2540,7 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Ldef/JF2;->a(Landroid/content/Context;)Ldef/R91;
+    invoke-static {v0}, Lmix/JF2;->a(Landroid/content/Context;)Ldef/R91;
 
     move-result-object v0
 
@@ -2648,7 +2648,7 @@
     invoke-direct {v0, v1}, Ljavax/security/auth/x500/X500Principal;-><init>(Ljava/lang/String;)V
 
     :try_start_0
-    invoke-static {p1}, Ldef/JF2;->a(Landroid/content/Context;)Ldef/R91;
+    invoke-static {p1}, Lmix/JF2;->a(Landroid/content/Context;)Ldef/R91;
 
     move-result-object p1
 

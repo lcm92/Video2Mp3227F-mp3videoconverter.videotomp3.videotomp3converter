@@ -131,7 +131,7 @@
     return-object v1
 
     :cond_0
-    invoke-static {p0}, Ldef/MF2;->a(Ljava/lang/String;)Ldef/P31;
+    invoke-static {p0}, Lmix/MF2;->a(Ljava/lang/String;)Ldef/P31;
 
     move-result-object p0
 

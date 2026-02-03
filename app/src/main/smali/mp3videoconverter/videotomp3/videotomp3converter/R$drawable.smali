@@ -1464,18 +1464,6 @@
 
 .field public static final offline_dialog_default_icon_42dp:I = 0x7f0802ad
 
-.field public static final tt_app_open_top_bg:I = 0x7f0802e4
-
-.field public static final tt_button_back:I = 0x7f0802e6
-
-.field public static final tt_button_blue_back:I = 0x7f0802e7
-
-.field public static final tt_item_background_material:I = 0x7f0802ef
-
-.field public static final tt_ugen_rating_star:I = 0x7f080320
-
-.field public static final tt_user_info:I = 0x7f080324
-
 
 # direct methods
 .method private constructor <init>()V

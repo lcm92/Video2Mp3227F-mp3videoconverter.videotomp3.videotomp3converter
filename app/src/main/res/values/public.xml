@@ -40,13 +40,6 @@
     <public type="anim" name="anim0025" id="0x7f010025" />
     <public type="anim" name="anim0026" id="0x7f010026" />
     <public type="anim" name="anim0027" id="0x7f010027" />
-    <public type="anim" name="tt_dislike_animation_dismiss" id="0x7f010028" />
-    <public type="anim" name="tt_dislike_animation_show" id="0x7f010029" />
-    <public type="anim" name="tt_fade_out" id="0x7f01002a" />
-    <public type="anim" name="tt_loading_two_icon_scale" id="0x7f01002b" />
-    <public type="anim" name="tt_text_animation_x_in" id="0x7f01002c" />
-    <public type="anim" name="tt_text_animation_y_in" id="0x7f01002d" />
-    <public type="anim" name="tt_text_animation_y_out" id="0x7f01002e" />
     <public type="animator" name="animator0000" id="0x7f020000" />
     <public type="animator" name="animator0001" id="0x7f020001" />
     <public type="animator" name="animator0002" id="0x7f020002" />
@@ -1501,21 +1494,6 @@
     <public type="color" name="color0158" id="0x7f060158" />
     <public type="color" name="color0159" id="0x7f060159" />
     <public type="color" name="color015a" id="0x7f06015a" />
-    <public type="color" name="tt_000000" id="0x7f06015b" />
-    <public type="color" name="tt_00000000" id="0x7f06015c" />
-    <public type="color" name="tt_1e000000" id="0x7f06015d" />
-    <public type="color" name="tt_2a90d7" id="0x7f06015e" />
-    <public type="color" name="tt_4a90e2" id="0x7f06015f" />
-    <public type="color" name="tt_72000000" id="0x7f060160" />
-    <public type="color" name="tt_7f2a90d7" id="0x7f060161" />
-    <public type="color" name="tt_88000000" id="0x7f060162" />
-    <public type="color" name="tt_b2000000" id="0x7f060163" />
-    <public type="color" name="tt_e0e0e0" id="0x7f060164" />
-    <public type="color" name="tt_e4ffffff" id="0x7f060165" />
-    <public type="color" name="tt_fde6e6e6" id="0x7f060166" />
-    <public type="color" name="tt_fdffffff" id="0x7f060167" />
-    <public type="color" name="tt_ff1a1a1a" id="0x7f060168" />
-    <public type="color" name="tt_ffffff" id="0x7f060169" />
     <public type="color" name="color016a" id="0x7f06016a" />
     <public type="color" name="color016b" id="0x7f06016b" />
     <public type="color" name="color016c" id="0x7f06016c" />
@@ -2541,12 +2519,6 @@
     <public type="drawable" name="drawable02d2" id="0x7f0802d2" />
     <public type="drawable" name="drawable02d3" id="0x7f0802d3" />
     <public type="drawable" name="drawable02d4" id="0x7f0802d4" />
-    <public type="drawable" name="tt_app_open_top_bg" id="0x7f0802e4" />
-    <public type="drawable" name="tt_button_back" id="0x7f0802e6" />
-    <public type="drawable" name="tt_button_blue_back" id="0x7f0802e7" />
-    <public type="drawable" name="tt_item_background_material" id="0x7f0802ef" />
-    <public type="drawable" name="tt_ugen_rating_star" id="0x7f080320" />
-    <public type="drawable" name="tt_user_info" id="0x7f080324" />
     <public type="drawable" name="drawable0006" id="0x7f080006" />
     <public type="drawable" name="drawable000b" id="0x7f08000b" />
     <public type="drawable" name="drawable000c" id="0x7f08000c" />
@@ -5151,132 +5123,6 @@
     <public type="string" name="string0242" id="0x7f110242" />
     <public type="string" name="string0243" id="0x7f110243" />
     <public type="string" name="string0244" id="0x7f110244" />
-    <public type="string" name="tt_00_00" id="0x7f110245" />
-    <public type="string" name="tt_ad_close_text" id="0x7f110246" />
-    <public type="string" name="tt_ad_data_error" id="0x7f110247" />
-    <public type="string" name="tt_ad_is_closed" id="0x7f110248" />
-    <public type="string" name="tt_ad_logo_txt" id="0x7f110249" />
-    <public type="string" name="tt_add_bad_reason" id="0x7f11024a" />
-    <public type="string" name="tt_adslot_empty" id="0x7f11024b" />
-    <public type="string" name="tt_adslot_id_error" id="0x7f11024c" />
-    <public type="string" name="tt_adslot_size_empty" id="0x7f11024d" />
-    <public type="string" name="tt_app_empty" id="0x7f11024e" />
-    <public type="string" name="tt_bad" id="0x7f11024f" />
-    <public type="string" name="tt_banner_ad_load_image_error" id="0x7f110250" />
-    <public type="string" name="tt_choose_language" id="0x7f110251" />
-    <public type="string" name="tt_comment_num" id="0x7f110252" />
-    <public type="string" name="tt_content_type" id="0x7f110253" />
-    <public type="string" name="tt_count_down_view" id="0x7f110254" />
-    <public type="string" name="tt_dislike_header_tv_back" id="0x7f110255" />
-    <public type="string" name="tt_dislike_header_tv_title" id="0x7f110256" />
-    <public type="string" name="tt_display_error" id="0x7f110257" />
-    <public type="string" name="tt_done" id="0x7f110258" />
-    <public type="string" name="tt_error_access_method_pass" id="0x7f110259" />
-    <public type="string" name="tt_error_ad_able_false_msg" id="0x7f11025a" />
-    <public type="string" name="tt_error_ad_type" id="0x7f11025b" />
-    <public type="string" name="tt_error_adtype_differ" id="0x7f11025c" />
-    <public type="string" name="tt_error_apk_sign_check_error" id="0x7f11025d" />
-    <public type="string" name="tt_error_bidding_type" id="0x7f11025e" />
-    <public type="string" name="tt_error_code_adcount_error" id="0x7f11025f" />
-    <public type="string" name="tt_error_code_click_event_error" id="0x7f110260" />
-    <public type="string" name="tt_error_device_ip" id="0x7f110261" />
-    <public type="string" name="tt_error_empty_content" id="0x7f110262" />
-    <public type="string" name="tt_error_image_size" id="0x7f110263" />
-    <public type="string" name="tt_error_interstitial_version" id="0x7f110264" />
-    <public type="string" name="tt_error_media_id" id="0x7f110265" />
-    <public type="string" name="tt_error_media_type" id="0x7f110266" />
-    <public type="string" name="tt_error_new_register_limit" id="0x7f110267" />
-    <public type="string" name="tt_error_origin_ad_error" id="0x7f110268" />
-    <public type="string" name="tt_error_package_name" id="0x7f110269" />
-    <public type="string" name="tt_error_redirect" id="0x7f11026a" />
-    <public type="string" name="tt_error_request_invalid" id="0x7f11026b" />
-    <public type="string" name="tt_error_slot_id_app_id_differ" id="0x7f11026c" />
-    <public type="string" name="tt_error_splash_ad_type" id="0x7f11026d" />
-    <public type="string" name="tt_error_union_os_error" id="0x7f11026e" />
-    <public type="string" name="tt_error_union_sdk_too_old" id="0x7f11026f" />
-    <public type="string" name="tt_error_unknow" id="0x7f110270" />
-    <public type="string" name="tt_error_update_version" id="0x7f110271" />
-    <public type="string" name="tt_error_verify_reward" id="0x7f110272" />
-    <public type="string" name="tt_feedback_experience_text" id="0x7f110273" />
-    <public type="string" name="tt_feedback_submit_text" id="0x7f110274" />
-    <public type="string" name="tt_feedback_thank_text" id="0x7f110275" />
-    <public type="string" name="tt_feel_hint" id="0x7f110276" />
-    <public type="string" name="tt_frequent_call_erroe" id="0x7f110277" />
-    <public type="string" name="tt_full_screen_skip_tx" id="0x7f110278" />
-    <public type="string" name="tt_good" id="0x7f110279" />
-    <public type="string" name="tt_init_setting_config_not_complete" id="0x7f11027a" />
-    <public type="string" name="tt_insert_ad_load_image_error" id="0x7f11027b" />
-    <public type="string" name="tt_lack_android_manifest_configuration" id="0x7f11027c" />
-    <public type="string" name="tt_like_this_ad" id="0x7f11027d" />
-    <public type="string" name="tt_list_end_tip" id="0x7f11027e" />
-    <public type="string" name="tt_load_creative_icon_error" id="0x7f11027f" />
-    <public type="string" name="tt_load_creative_icon_response_error" id="0x7f110280" />
-    <public type="string" name="tt_loading_language" id="0x7f110281" />
-    <public type="string" name="tt_loading_more" id="0x7f110282" />
-    <public type="string" name="tt_logo_cn" id="0x7f110283" />
-    <public type="string" name="tt_logo_en" id="0x7f110284" />
-    <public type="string" name="tt_msgPlayable" id="0x7f110285" />
-    <public type="string" name="tt_multiple_ad_indicator" id="0x7f110286" />
-    <public type="string" name="tt_multiple_playable_next_ad_tips" id="0x7f110287" />
-    <public type="string" name="tt_multiple_playable_wait_tips" id="0x7f110288" />
-    <public type="string" name="tt_negtiveBtnBtnText" id="0x7f110289" />
-    <public type="string" name="tt_negtive_txt" id="0x7f11028a" />
-    <public type="string" name="tt_net_error" id="0x7f11028b" />
-    <public type="string" name="tt_no_ad" id="0x7f11028c" />
-    <public type="string" name="tt_no_ad_parse" id="0x7f11028d" />
-    <public type="string" name="tt_no_network" id="0x7f11028e" />
-    <public type="string" name="tt_not_bad" id="0x7f11028f" />
-    <public type="string" name="tt_other_reason" id="0x7f110290" />
-    <public type="string" name="tt_parse_fail" id="0x7f110291" />
-    <public type="string" name="tt_postiveBtnText" id="0x7f110292" />
-    <public type="string" name="tt_postiveBtnTextPlayable" id="0x7f110293" />
-    <public type="string" name="tt_postive_txt" id="0x7f110294" />
-    <public type="string" name="tt_privacy_title" id="0x7f110295" />
-    <public type="string" name="tt_reder_ad_load_timeout" id="0x7f110296" />
-    <public type="string" name="tt_render_diff_template_invalid" id="0x7f110297" />
-    <public type="string" name="tt_render_fail_meta_invalid" id="0x7f110298" />
-    <public type="string" name="tt_render_fail_template_parse_error" id="0x7f110299" />
-    <public type="string" name="tt_render_fail_timeout" id="0x7f11029a" />
-    <public type="string" name="tt_render_fail_unknown" id="0x7f11029b" />
-    <public type="string" name="tt_render_main_template_invalid" id="0x7f11029c" />
-    <public type="string" name="tt_render_render_parse_error" id="0x7f11029d" />
-    <public type="string" name="tt_report_this_ad" id="0x7f11029e" />
-    <public type="string" name="tt_request_body_error" id="0x7f11029f" />
-    <public type="string" name="tt_request_pb_error" id="0x7f1102a0" />
-    <public type="string" name="tt_reward_feedback" id="0x7f1102a1" />
-    <public type="string" name="tt_reward_full_skip" id="0x7f1102a2" />
-    <public type="string" name="tt_reward_msg" id="0x7f1102a3" />
-    <public type="string" name="tt_reward_screen_skip_tx" id="0x7f1102a4" />
-    <public type="string" name="tt_ror_code_show_event_error" id="0x7f1102a5" />
-    <public type="string" name="tt_select_reason" id="0x7f1102a6" />
-    <public type="string" name="tt_skip_ad_time_text" id="0x7f1102a7" />
-    <public type="string" name="tt_slide_up_3d" id="0x7f1102a8" />
-    <public type="string" name="tt_splash_ad_load_image_error" id="0x7f1102a9" />
-    <public type="string" name="tt_splash_brush_mask_hint" id="0x7f1102aa" />
-    <public type="string" name="tt_splash_brush_mask_title" id="0x7f1102ab" />
-    <public type="string" name="tt_splash_cache_expired_error" id="0x7f1102ac" />
-    <public type="string" name="tt_splash_cache_parse_error" id="0x7f1102ad" />
-    <public type="string" name="tt_splash_default_click_shake" id="0x7f1102ae" />
-    <public type="string" name="tt_splash_not_have_cache_error" id="0x7f1102af" />
-    <public type="string" name="tt_splash_rock_text" id="0x7f1102b0" />
-    <public type="string" name="tt_splash_rock_top_text" id="0x7f1102b1" />
-    <public type="string" name="tt_splash_wriggle_text" id="0x7f1102b2" />
-    <public type="string" name="tt_splash_wriggle_top_text" id="0x7f1102b3" />
-    <public type="string" name="tt_splash_wriggle_top_text_style_17" id="0x7f1102b4" />
-    <public type="string" name="tt_suggestion_commit" id="0x7f1102b5" />
-    <public type="string" name="tt_sys_error" id="0x7f1102b6" />
-    <public type="string" name="tt_template_load_fail" id="0x7f1102b7" />
-    <public type="string" name="tt_text_privacy_app_version" id="0x7f1102b8" />
-    <public type="string" name="tt_text_privacy_development" id="0x7f1102b9" />
-    <public type="string" name="tt_try_now" id="0x7f1102ba" />
-    <public type="string" name="tt_video_bytesize" id="0x7f1102bb" />
-    <public type="string" name="tt_video_dial_phone" id="0x7f1102bc" />
-    <public type="string" name="tt_video_download_apk" id="0x7f1102bd" />
-    <public type="string" name="tt_video_mobile_go_detail" id="0x7f1102be" />
-    <public type="string" name="tt_video_retry_des_txt" id="0x7f1102bf" />
-    <public type="string" name="tt_video_without_wifi_tips" id="0x7f1102c0" />
-    <public type="string" name="tt_wap_empty" id="0x7f1102c1" />
-    <public type="string" name="tt_web_title_default" id="0x7f1102c2" />
     <public type="string" name="string02c3" id="0x7f1102c3" />
     <public type="string" name="string02c4" id="0x7f1102c4" />
     <public type="string" name="string02c5" id="0x7f1102c5" />
@@ -5999,18 +5845,6 @@
     <public type="style" name="style02fd" id="0x7f1202fd" />
     <public type="style" name="style02fe" id="0x7f1202fe" />
     <public type="style" name="style02ff" id="0x7f1202ff" />
-    <public type="style" name="tt_animation" id="0x7f120300" />
-    <public type="style" name="tt_app_open_ad_no_animation" id="0x7f120301" />
-    <public type="style" name="tt_custom_dialog" id="0x7f120302" />
-    <public type="style" name="tt_dislikeDialog" id="0x7f120303" />
-    <public type="style" name="tt_dislikeDialogAnimation" id="0x7f120304" />
-    <public type="style" name="tt_full_screen" id="0x7f120305" />
-    <public type="style" name="tt_full_screen_interaction" id="0x7f120306" />
-    <public type="style" name="tt_full_screen_new" id="0x7f120307" />
-    <public type="style" name="tt_landing_page" id="0x7f120308" />
-    <public type="style" name="tt_privacy_dialog_theme_ad_report" id="0x7f120309" />
-    <public type="style" name="tt_privacy_landing_page" id="0x7f12030a" />
-    <public type="style" name="tt_quick_option_dialog" id="0x7f12030b" />
     <public type="style" name="style000b" id="0x7f12000b" />
     <public type="style" name="style002a" id="0x7f12002a" />
     <public type="style" name="style002b" id="0x7f12002b" />

@@ -43,7 +43,7 @@
     .locals 1
 
     :try_start_0
-    invoke-static {p0}, Ldef/JF2;->a(Landroid/content/Context;)Ldef/R91;
+    invoke-static {p0}, Lmix/JF2;->a(Landroid/content/Context;)Ldef/R91;
 
     move-result-object p0
 

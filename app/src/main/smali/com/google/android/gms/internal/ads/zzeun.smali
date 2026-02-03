@@ -144,7 +144,7 @@
 
     :cond_3
     :try_start_0
-    invoke-static {v2}, Ldef/JF2;->a(Landroid/content/Context;)Ldef/R91;
+    invoke-static {v2}, Lmix/JF2;->a(Landroid/content/Context;)Ldef/R91;
 
     move-result-object v2
 
@@ -182,7 +182,7 @@
     const/16 v9, 0x80
 
     :try_start_1
-    invoke-static {v4}, Ldef/JF2;->a(Landroid/content/Context;)Ldef/R91;
+    invoke-static {v4}, Lmix/JF2;->a(Landroid/content/Context;)Ldef/R91;
 
     move-result-object v4
 
@@ -510,7 +510,7 @@
     if-eqz v7, :cond_d
 
     :try_start_2
-    invoke-static {v0}, Ldef/JF2;->a(Landroid/content/Context;)Ldef/R91;
+    invoke-static {v0}, Lmix/JF2;->a(Landroid/content/Context;)Ldef/R91;
 
     move-result-object v7
 

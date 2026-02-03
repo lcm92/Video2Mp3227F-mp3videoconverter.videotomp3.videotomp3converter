@@ -42,7 +42,7 @@
     move-result-object p2
 
     :try_start_0
-    invoke-static {p1}, Ldef/JF2;->a(Landroid/content/Context;)Ldef/R91;
+    invoke-static {p1}, Lmix/JF2;->a(Landroid/content/Context;)Ldef/R91;
 
     move-result-object v0
 

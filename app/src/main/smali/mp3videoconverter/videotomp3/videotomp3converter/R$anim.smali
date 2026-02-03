@@ -94,20 +94,6 @@
 
 .field public static final anim0027:I = 0x7f010027
 
-.field public static final tt_dislike_animation_dismiss:I = 0x7f010028
-
-.field public static final tt_dislike_animation_show:I = 0x7f010029
-
-.field public static final tt_fade_out:I = 0x7f01002a
-
-.field public static final tt_loading_two_icon_scale:I = 0x7f01002b
-
-.field public static final tt_text_animation_x_in:I = 0x7f01002c
-
-.field public static final tt_text_animation_y_in:I = 0x7f01002d
-
-.field public static final tt_text_animation_y_out:I = 0x7f01002e
-
 
 # direct methods
 .method private constructor <init>()V

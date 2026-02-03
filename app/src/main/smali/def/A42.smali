@@ -990,13 +990,13 @@
 
     const-string v0, "style"
 
-    invoke-static {p0, v0}, Ldef/LF2;->e(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
+    invoke-static {p0, v0}, Lmix/LF2;->e(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
 
     move-result v1
 
     if-eqz v1, :cond_2
 
-    invoke-static {p0, v0}, Ldef/LF2;->a(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v0}, Lmix/LF2;->a(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1049,7 +1049,7 @@
     :cond_2
     const-string v0, "region"
 
-    invoke-static {p0, v0}, Ldef/LF2;->e(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
+    invoke-static {p0, v0}, Lmix/LF2;->e(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1070,7 +1070,7 @@
     :cond_3
     const-string v0, "metadata"
 
-    invoke-static {p0, v0}, Ldef/LF2;->e(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
+    invoke-static {p0, v0}, Lmix/LF2;->e(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1082,7 +1082,7 @@
     :goto_1
     const-string v0, "head"
 
-    invoke-static {p0, v0}, Ldef/LF2;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
+    invoke-static {p0, v0}, Lmix/LF2;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1099,7 +1099,7 @@
 
     const-string v0, "image"
 
-    invoke-static {p0, v0}, Ldef/LF2;->e(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
+    invoke-static {p0, v0}, Lmix/LF2;->e(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1107,7 +1107,7 @@
 
     const-string v0, "id"
 
-    invoke-static {p0, v0}, Ldef/LF2;->a(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v0}, Lmix/LF2;->a(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1122,7 +1122,7 @@
     :cond_1
     const-string v0, "metadata"
 
-    invoke-static {p0, v0}, Ldef/LF2;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
+    invoke-static {p0, v0}, Lmix/LF2;->c(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Z
 
     move-result v0
 
@@ -1484,7 +1484,7 @@
 
     const-string v5, "id"
 
-    invoke-static {v0, v5}, Ldef/LF2;->a(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v5}, Lmix/LF2;->a(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v7
 
@@ -1497,7 +1497,7 @@
     :cond_0
     const-string v6, "origin"
 
-    invoke-static {v0, v6}, Ldef/LF2;->a(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v6}, Lmix/LF2;->a(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
@@ -1677,7 +1677,7 @@
     :goto_2
     const-string v13, "extent"
 
-    invoke-static {v0, v13}, Ldef/LF2;->a(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v13}, Lmix/LF2;->a(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v13
 
@@ -1847,7 +1847,7 @@
     :goto_5
     const-string v5, "displayAlign"
 
-    invoke-static {v0, v5}, Ldef/LF2;->a(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v5}, Lmix/LF2;->a(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v5
 
@@ -1921,7 +1921,7 @@
 
     const-string v5, "writingMode"
 
-    invoke-static {v0, v5}, Ldef/LF2;->a(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {v0, v5}, Lmix/LF2;->a(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -3714,7 +3714,7 @@
 
     const-string v0, "extent"
 
-    invoke-static {p0, v0}, Ldef/LF2;->a(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p0, v0}, Lmix/LF2;->a(Lorg/xmlpull/v1/XmlPullParser;Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 

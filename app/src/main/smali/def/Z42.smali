@@ -33,7 +33,7 @@
 .method public e0(Ldef/LS;Ljava/lang/Runnable;)V
     .locals 0
 
-    sget-object p2, Ldef/NF2;->b:Ldef/NF2$AN1;
+    sget-object p2, Lmix/NF2;->b:Lmix/NF2$AN1;
 
     invoke-interface {p1, p2}, Ldef/LS;->a(Ldef/LS$CL1;)Ldef/LS$BL1;
 

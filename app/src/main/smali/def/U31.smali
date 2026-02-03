@@ -747,7 +747,7 @@
 
     iget-object v4, p0, Ldef/U31;->d:Ldef/B41$AB1;
 
-    invoke-static/range {v0 .. v5}, Ldef/KF2;->a(JJLdef/B41$AB1;Ldef/AA1;)Ldef/KF2;
+    invoke-static/range {v0 .. v5}, Lmix/KF2;->a(JJLdef/B41$AB1;Ldef/AA1;)Lmix/KF2;
 
     move-result-object v0
 

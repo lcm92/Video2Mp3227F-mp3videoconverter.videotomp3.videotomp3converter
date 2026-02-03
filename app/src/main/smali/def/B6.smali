@@ -13,7 +13,7 @@
 .method public static a(Landroid/content/Context;Ljava/lang/String;)[B
     .locals 1
 
-    invoke-static {p0}, Ldef/JF2;->a(Landroid/content/Context;)Ldef/R91;
+    invoke-static {p0}, Lmix/JF2;->a(Landroid/content/Context;)Ldef/R91;
 
     move-result-object p0
 

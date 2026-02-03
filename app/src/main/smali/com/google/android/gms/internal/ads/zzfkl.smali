@@ -24,7 +24,7 @@
 
     move-result-object p1
 
-    invoke-static {p2}, Ldef/JF2;->a(Landroid/content/Context;)Ldef/R91;
+    invoke-static {p2}, Lmix/JF2;->a(Landroid/content/Context;)Ldef/R91;
 
     move-result-object p2
 

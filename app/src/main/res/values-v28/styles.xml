@@ -17,12 +17,6 @@
         <item name="attr02a6">@style/style00f8</item>
     </style>
 
-    <style name="tt_app_open_ad_no_animation" parent="@android:style/Theme">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowAnimationStyle">@style/tt_animation</item>
-        <item name="android:windowLayoutInDisplayCutoutMode">never</item>
-    </style>
-
     <style name="style009c" parent="@style/style0099">
         <item name="attr013d">?android:dialogCornerRadius</item>
     </style>
